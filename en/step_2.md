@@ -4,13 +4,8 @@
 
 ### Hardware
 
-    + [add hardware here, or delete section]
+    + Any computer capable of running Scratch 2
 
 ### Software
 
-    + [add software here, or delete section]
-
-### Additional Resources
-
-    + [add resources here, or delete section]
-
+    + Scratch 2

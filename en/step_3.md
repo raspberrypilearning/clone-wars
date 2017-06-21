@@ -2,14 +2,11 @@
 
 ## Making a Spaceship
 
-
-
-
 Let's make a spaceship that will defend the Earth!
 
++ Open a new empty Scratch project.
 
-
-+ Start a new Scratch project and delete the cat sprite so that your project is empty. You can find the online Scratch editor at <a href="http://jumpto.cc/scratch-new" target="_blank">jumpto.cc/scratch-new</a>.
+[[[generic-scratch-new-project]]]
 
 + Add the 'stars' backdrop and the 'Spaceship' sprite to your project. Shrink the spaceship and move it near the bottom of the screen.
 
@@ -29,7 +26,3 @@ Let's make a spaceship that will defend the Earth!
 + Add code to move your spaceship to the right when the right arrow key is pressed.
 
 + Test your project to see whether you can control your spaceship with the arrow keys.
-
-
-
-

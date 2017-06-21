@@ -2,12 +2,7 @@
 
 ## Lightning bolts
 
-
-
-
 Let's give the spaceship the ability to fire lightning bolts!
-
-
 
 + Add the 'Lightning' sprite from the Scratch library.  When the game is started, the lightning should be hidden until the spaceship fires its laser cannons. The sprite needs to be much smaller and upside down. Add the following code to the Lightning' sprite.
 
@@ -15,12 +10,9 @@ Let's give the spaceship the ability to fire lightning bolts!
 		when green flag clicked
 		hide
 		set size to (25) %
-		point in direction (-90 v)	
+		point in direction (-90 v)
 	```
-
-
 + Add the following code **to the Spaceship** to create a new lightning bolt whenever the space key is pressed.
-
 
 	```blocks
 		when flag clicked
@@ -46,7 +38,3 @@ Let's give the spaceship the ability to fire lightning bolts!
 Note: We move the new clone to the spaceship while it is still hidden, before then showing it. This just looks nicer.
 
 + Test your lightning, by pressing the space key.
-
-
-
-
