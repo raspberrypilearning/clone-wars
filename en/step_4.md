@@ -1,5 +1,3 @@
-
-
 ## Lightning bolts
 
 Let's give the spaceship the ability to fire lightning bolts!

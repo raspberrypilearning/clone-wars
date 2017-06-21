@@ -1,5 +1,3 @@
-
-
 ## Introduction
 
 In this project you'll learn how to create a game in which you have to save the Earth from space monsters.

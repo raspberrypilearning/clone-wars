@@ -1,13 +1,6 @@
-
-
 ## Flying Space-hippos
 
-
-
-
 Let's add lots of flying hippos that are trying to destroy your spaceship.
-
-
 
 + Create a new sprite from the 'Hippo1' image in the Scratch library.
 
@@ -89,10 +82,6 @@ Let's add lots of flying hippos that are trying to destroy your spaceship.
 		delete this clone
 	```
 
-+ Test out this code by starting a new game and colliding with a hippo. 
++ Test out this code by starting a new game and colliding with a hippo.
 
 	![screenshot](images/invaders-hippo-collide.png)
-
-
-
-
