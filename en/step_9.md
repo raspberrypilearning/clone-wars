@@ -1,13 +1,6 @@
-
-
 ## Game over
 
-
-
-
 Let's add a 'game over' message at the end of the game.
-
-
 
 + If you haven't already, create a new variable called `lives` {.blockdata}. Your spaceship should start with 3 lives and lose a life whenever it collides with an enemy. Your game should also stop when you run out of lives. If you need help, you can use the 'Catch the Dots' project to help you.
 
@@ -34,7 +27,3 @@ Let's add a 'game over' message at the end of the game.
 	Because you've used a `broadcast [game over] and wait` {.blockevents} block on your stage, it will wait for the 'Game Over' sprite to be displayed before ending the game.
 
 + Test your game. How many points can you score? Can you think of ways to improve your game if it is too easy or too hard?
-
-
-
-

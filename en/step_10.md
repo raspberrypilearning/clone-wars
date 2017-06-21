@@ -1,5 +1,3 @@
-
-
 ## Improve your game
 
 --- challenge ---
@@ -11,7 +9,7 @@ What improvements can you make to your game? Here are some ideas:
 ![screenshot](images/invaders-aid.png)
 
 + Add floating rocks that your spaceship must avoid;
-	
+
 ![screenshot](images/invaders-rocks.png)
 
 + Make more enemies appear when your score gets to 100.
@@ -20,6 +18,4 @@ What improvements can you make to your game? Here are some ideas:
 	wait until <(score) = [100]>
 ```
 
-
 --- /challenge ---
-

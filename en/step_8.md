@@ -1,13 +1,6 @@
-
-
 ## Fruit Bats!
 
-
-
-
 Let's make a fruit bat that throws oranges at your spaceship.
-
-
 
 + Firstly, make a new bat sprite that will `move` {.blockmotion} across the top of the stage `forever` {.blockcontrol}. Remember to test out your code.
 
@@ -22,7 +15,6 @@ Let's make a fruit bat that throws oranges at your spaceship.
 + Create a new 'Orange' sprite from the Scratch library
 
 	![screenshot](images/invaders-orange.png)
-
 
 + Add code to your bat, so that it creates a new orange clone every few seconds.
 
@@ -56,10 +48,6 @@ Let's make a fruit bat that throws oranges at your spaceship.
 
 	```blocks
 		wait until < <touching [Hippo1 v]?> or <touching [Orange v]?>>
-	``` 
+	```
 
 + Test your game. What happens if you get hit by a falling orange?
-
-
-
-
