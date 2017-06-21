@@ -1,5 +1,3 @@
-
-
 ## Making a Spaceship
 
 Let's make a spaceship that will defend the Earth!
@@ -40,4 +38,4 @@ Here are the code blocks you'll need:
 Here's how your code should look:
 ![screenshot](images/invaders-spaceship-movement-code.png)
 --- /hint ---
---- hints ---
+--- /hints ---
