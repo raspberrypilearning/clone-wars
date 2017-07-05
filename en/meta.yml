@@ -6,6 +6,7 @@ theme: cc-prototype
 listed: false
 ingredient: false
 duration: 1
+copyedit: false
 interests: ""
 technology: "python"
 steps:
