@@ -26,11 +26,9 @@ Let's make a spaceship that will defend the Earth!
 
 --- hints ---
 --- hint ---
-
 When the __green flag is clicked__, your spaceship sprite should check __if__ the __left key is pressed__. If it is pressed, your spaceship should move to the left by changing it's __x position__. This check should be made __forever__ .
 
 Your code should also check to see whether the __right key is pressed__, and move the spaceship if it is.
-
 ----/hint ---
 --- hint ---
 Here are the code blocks you'll need:
