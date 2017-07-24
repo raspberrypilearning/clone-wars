@@ -1,3 +1,4 @@
+---
 title: Clone Wars
 hero_image: images/banner.png
 description: Create a game in which you have to save the Earth from space monsters.
@@ -5,18 +6,19 @@ original_url: https://codeclubprojects.org/en-GB/scratch/rock-band
 theme: cc-prototype
 listed: false
 ingredient: false
-duration: 1
+duration: 2
 copyedit: false
-interests: ""
-technology: "python"
+interests: ''
+technology: python
 steps:
-  - title: "Introduction"
-  - title: "What you will need"
-  - title: "Making a Spaceship"
-  - title: "Lightning bolts"
-  - title: "Challenge: Fixing the lightning"
-  - title: "Flying Space-hippos"
-  - title: "Challenge: Lives and Score"
-  - title: "Fruit Bats!"
-  - title: "Game over"
-  - title: "Challenge: Improve your game"
+- title: Introduction
+- title: What you will need
+- title: Making a Spaceship
+- title: Lightning bolts
+- title: 'Challenge: Fixing the lightning'
+- title: Flying Space-hippos
+- title: 'Challenge: Lives and Score'
+- title: Fruit Bats!
+- title: Game over
+- title: 'Challenge: Improve your game'
+
