@@ -14,6 +14,8 @@ Let's make a spaceship that will defend the Earth!
 
 [[[generic-scratch-sprite-from-library]]]
 
++ Use the shrink tool to make your spaceship a bit smaller and position it near the bottom of the screen.
+
 + When the left arrow key is pressed, the spaceship should move to the left. Add this code to make your spaceship move left when the left arrow is pressed.
 
 ```blocks

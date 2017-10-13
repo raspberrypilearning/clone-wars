@@ -1,17 +1,30 @@
-## Flying Space-hippos
+## Flying space-hippos
 
 Let's add lots of flying hippos that are trying to destroy your spaceship.
 
-+ Create a new sprite from the 'Hippo1' image in the Scratch library.
++ Create a new sprite with the 'Hippo1' image in the Scratch library.
 
-	![screenshot](images/invaders-hippo.png)
+![screenshot](images/invaders-hippo.png)
 
-+ Set its rotation style to be left-right only, and add the following code to hide the sprite when the game starts:
++ Set the hippo sprite's rotation style to be left-right only
 
-	```blocks
-		when flag clicked
-		hide
-	```
+[[[generic-scratch-sprite-rotation-style]]]
+
++ Add some code to hide the hippo when the game starts.
+
+--- hints ---
+--- hint ---
+The code for this is exactly the same as the code you used to hide the lightning bolt when the game starts.
+--- /hint ---
+--- hint ---
+Here is the code you will need:
+
+```blocks
+when green flag clicked
+hide
+```
+--- /hint ---
+--- /hints ---
 
 + Create a new variable called `speed`{:class="blockdata"}, that is for the hippo sprite only.
 
