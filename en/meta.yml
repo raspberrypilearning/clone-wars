@@ -8,11 +8,12 @@ curriculum: creator, design-0, programming-0, phys-comp-0, manufacture-0, commun
 title: Clone Wars
 description: Create a game in which you have to save the Earth from space monsters.
 original_url: https://codeclubprojects.org/en-GB/scratch/clone-wars
-interests: ''
+interests: 'games'
 technologies: scratch
 site_areas: codeclub, scratch
 steps:
 - title: Introduction
+- title: What you will need
 - title: Making a Spaceship
 - title: Lightning bolts
 - title: 'Challenge: Fixing the lightning'
