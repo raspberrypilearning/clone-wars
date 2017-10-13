@@ -1,5 +1,7 @@
+## Improve your game
+
 --- challenge ---
-## Challenge: Improve your game
+
 What improvements can you make to your game? Here are some ideas:
 
 + Add health packs that you can collect to gain extra lives;
@@ -15,8 +17,5 @@ What improvements can you make to your game? Here are some ideas:
 ```blocks
 	wait until <(score) = [100]>
 ```
-
-
-
 
 --- /challenge ---
