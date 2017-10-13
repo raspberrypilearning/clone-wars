@@ -1,11 +1,26 @@
+## Making a Spaceship
+
+Let's make a spaceship that will defend the Earth!
 
 
-## What you will need
 
-### Hardware
++ Start a new Scratch project and delete the cat sprite so that your project is empty. You can find the online Scratch editor at <a href="http://jumpto.cc/scratch-new" target="_blank">jumpto.cc/scratch-new</a>.
 
-    + Any computer capable of running Scratch 2
++ Add the 'stars' backdrop and the 'Spaceship' sprite to your project. Shrink the spaceship and move it near the bottom of the screen.
 
-### Software
+	![screenshot](images/invaders-sprites.png)
 
-    + Scratch 2
++ Add code to move your spaceship to the left when the left arrow key is pressed. You'll need to use these blocks:
+
+	```blocks
+		when flag clicked
+		forever
+			if <key [left arrow v] pressed?> then
+				change x by (-4)
+			end
+		end
+	```
+
++ Add code to move your spaceship to the right when the right arrow key is pressed.
+
++ Test your project to see whether you can control your spaceship with the arrow keys.

@@ -1,41 +1,43 @@
-## Making a Spaceship
+## Lightning bolts
 
-Let's make a spaceship that will defend the Earth!
+Let's give the spaceship the ability to fire lightning bolts!
 
-+ Open a new empty Scratch project.
 
-[[[generic-scratch-new-project]]]
 
-+ Add the 'stars' backdrop and the 'Spaceship' sprite to your project.
++ Add the 'Lightning' sprite from the Scratch library.  When the game is started, the lightning should be hidden until the spaceship fires its laser cannons. The sprite needs to be much smaller and upside down. Add the following code to the Lightning' sprite.
 
-	![screenshot](images/invaders-sprites.png)
+	```blocks
+		when green flag clicked
+		hide
+		set size to (25) %
+		point in direction (-90 v)
+	```
 
-[[[generic-scratch-sprite-from-library]]]
 
-[[[generic-scratch-backdrop-from-library]]]
++ Add the following code **to the Spaceship** to create a new lightning bolt whenever the space key is pressed.
 
-+ Shrink the spaceship and move it near the bottom of the screen.
 
-	![screenshot](images/invaders-resize.png)
+	```blocks
+		when flag clicked
+		forever
+			if <key [space v] pressed?> then
+				create clone of [Lightning v]
+			end
+		end
+	```
 
-+ Add code to move your spaceship to the left and right when the left arrow keys are pressed.
++ Whenever a new clone is created, it should start in the same place as the spaceship, and then move up the stage until it touches the edge. Add the following code **to the Lightning sprite**:
 
- 	Test and save.
+	```blocks
+		when I start as a clone
+		go to [Spaceship v]
+		show
+		repeat until <touching [edge v] ?>
+			change y by (10)
+		end
+		delete this clone
+	```
 
-[[[generic-scratch-saving]]]
+Note: We move the new clone to the spaceship while it is still hidden, before then showing it. This just looks nicer.
 
---- hints ---
---- hint ---
-When the __green flag is clicked__, your spaceship sprite should check __if__ the __left key is pressed__. If it is pressed, your spaceship should move to the left by changing it's __x position__. This check should be made __forever__ .
-
-Your code should also check to see whether the __right key is pressed__, and move the spaceship if it is.
---- /hint ---
---- hint ---
-Here are the code blocks you'll need:
-![screenshot](images/invaders-spaceship-movement-blocks.png)
---- /hint ---
---- hint ---
-Here's how your code should look:
-![screenshot](images/invaders-spaceship-movement-code.png)
---- /hint ---
---- /hints ---
++ Test your lightning, by pressing the space key.

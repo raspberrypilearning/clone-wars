@@ -1,53 +1,31 @@
-## Fruit Bats!
+## Game over
 
-Let's make a fruit bat that throws oranges at your spaceship.
+Let's add a 'game over' message at the end of the game.
 
-+ Firstly, make a new bat sprite that will `move` {.blockmotion} across the top of the stage `forever` {.blockcontrol}. Remember to test out your code.
 
-	![screenshot](images/invaders-bat.png)
 
-+ If you look at the bat's costumes, you'll see that it already has 2:
++ If you haven't already, create a new variable called `lives`{:class="blockdata"}. Your spaceship should start with 3 lives and lose a life whenever it collides with an enemy. Your game should also stop when you run out of lives. If you need help, you can use the 'Catch the Dots' project to help you.
 
-	![screenshot](images/invaders-bat-costume.png)
++ Draw a new sprite called 'Game Over', using the text tool.
 
-	Use the `next costume` {.blocklooks} block to make the bat flap its wings as it moves.
+	![screenshot](images/invaders-game-over.png)
 
-+ Create a new 'Orange' sprite from the Scratch library
-
-	![screenshot](images/invaders-orange.png)
-
-+ Add code to your bat, so that it creates a new orange clone every few seconds.
++ On your stage, broadcast a `game over`{:class="blockevents"} message just before the game ends.
 
 	```blocks
-		when flag clicked
-		forever
-			wait (pick random (5) to (10)) secs
-			create clone of [Orange v]
-		end
+		broadcast [game over v] and wait
 	```
 
-+ Click on your orange sprite and add this code to make each orange clone drop down the stage from the bat towards the spaceship:
++ Add this code to your 'Game Over' sprite, so that the message shows at the end of the game:
 
 	```blocks
 		when flag clicked
 		hide
 
-		when I start as a clone
-		go to [Bat1 v]
+		when I receive [game over v]
 		show
-		repeat until <touching [edge v]?
-			change y by (-4)
-		end
-		delete this clone
-
-		when I receive [hit v]
-		delete this clone
 	```
 
-+ In your spaceship sprite, you'll need to modify your code so that you are hit if you touch a hippo or an orange:
+	Because you've used a `broadcast [game over] and wait`{:class="blockevents"} block on your stage, it will wait for the 'Game Over' sprite to be displayed before ending the game.
 
-	```blocks
-		wait until < <touching [Hippo1 v]?> or <touching [Orange v]?>>
-	```
-
-+ Test your game. What happens if you get hit by a falling orange?
++ Test your game. How many points can you score? Can you think of ways to improve your game if it is too easy or too hard?

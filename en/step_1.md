@@ -2,7 +2,7 @@
 
 In this project you'll learn how to create a game in which you have to save the Earth from space monsters.
 
-### Instructions
+### What you will make
 
 Score as many points as you can by shooting flying space hippos. You'll lose a life if you get hit by a hippo or the oranges dropped by the fruit bats.
 

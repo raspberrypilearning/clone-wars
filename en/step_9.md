@@ -1,29 +1,22 @@
-## Game over
+--- challenge ---
+## Challenge: Improve your game
+What improvements can you make to your game? Here are some ideas:
 
-Let's add a 'game over' message at the end of the game.
++ Add health packs that you can collect to gain extra lives;
 
-+ If you haven't already, create a new variable called `lives` {.blockdata}. Your spaceship should start with 3 lives and lose a life whenever it collides with an enemy. Your game should also stop when you run out of lives. If you need help, you can use the 'Catch the Dots' project to help you.
+![screenshot](images/invaders-aid.png)
 
-+ Draw a new sprite called 'Game Over', using the text tool.
++ Add floating rocks that your spaceship must avoid;
 
-	![screenshot](images/invaders-game-over.png)
+![screenshot](images/invaders-rocks.png)
 
-+ On your stage, broadcast a `game over` {.blockevents} message just before the game ends.
++ Make more enemies appear when your score gets to 100.
 
-	```blocks
-		broadcast [game over v] and wait
-	```
+```blocks
+	wait until <(score) = [100]>
+```
 
-+ Add this code to your 'Game Over' sprite, so that the message shows at the end of the game:
 
-	```blocks
-		when flag clicked
-		hide
 
-		when I receive [game over v]
-		show
-	```
 
-	Because you've used a `broadcast [game over] and wait` {.blockevents} block on your stage, it will wait for the 'Game Over' sprite to be displayed before ending the game.
-
-+ Test your game. How many points can you score? Can you think of ways to improve your game if it is too easy or too hard?
+--- /challenge ---
