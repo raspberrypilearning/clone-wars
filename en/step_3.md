@@ -2,25 +2,60 @@
 
 Let's make a spaceship that will defend the Earth!
 
++ Start a new Scratch project and delete the cat sprite
 
-
-+ Start a new Scratch project and delete the cat sprite so that your project is empty. You can find the online Scratch editor at <a href="http://jumpto.cc/scratch-new" target="_blank">jumpto.cc/scratch-new</a>.
+[[[generic-scratch-new-project]]]
 
 + Add the 'stars' backdrop and the 'Spaceship' sprite to your project. Shrink the spaceship and move it near the bottom of the screen.
 
 	![screenshot](images/invaders-sprites.png)
 
-+ Add code to move your spaceship to the left when the left arrow key is pressed. You'll need to use these blocks:
+[[[generic-scratch-backdrop-from-library]]]
 
-	```blocks
-		when flag clicked
-		forever
-			if <key [left arrow v] pressed?> then
-				change x by (-4)
-			end
+[[[generic-scratch-sprite-from-library]]]
+
++ When the left arrow key is pressed, the spaceship should move to the left. Add this code to make your spaceship move left when the left arrow is pressed.
+
+```blocks
+	when flag clicked
+	forever
+		if <key [left arrow v] pressed?> then
+			change x by (-4)
 		end
-	```
+	end
+```
+
+This code is the part which makes your spaceship move left:
+
+```blocks
+change x by (-4)
+```
+
+The x axis goes from left to right, so if you subtract from the spaceship's position, it moves further to the left.
 
 + Add code to move your spaceship to the right when the right arrow key is pressed.
 
-+ Test your project to see whether you can control your spaceship with the arrow keys.
+--- hints ---
+--- hint ---
+If subtracting 4 from the spaceship's position made it move left, how could you make it move right by the same amount instead?
+--- /hint ---
+--- hint ---
+You will still need to use the same block, but change the number:
+```blocks
+change x by ( )
+```
+--- /hint ---
+--- hint ---
+Here is the code you will need to add underneath the other code inside your `forever`{:class="blockcontrol"} block
+```blocks
+	when flag clicked
+	forever
+		if <key [right arrow v] pressed?> then
+			change x by (4)
+		end
+	end
+```
+--- /hint ---
+--- /hints ---
+
++ Test your project by clicking the green flag. Can you make your spaceship move left and right with the arrow keys?
