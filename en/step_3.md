@@ -25,19 +25,17 @@ Let's make a spaceship that will defend the Earth!
 	end
 ```
 
-This code is the part which makes your spaceship move left:
+The x axis goes from left to right, so if you subtract from the spaceship's position, it moves further to the left. This code is the part which makes your spaceship move left:
 
 ```blocks
 change x by (-4)
 ```
 
-The x axis goes from left to right, so if you subtract from the spaceship's position, it moves further to the left.
-
-+ Add code to move your spaceship to the right when the right arrow key is pressed.
++ Add some more code inside the `forever`{:class="blockcontrol"} block to make your spaceship move to the right when the right arrow key is pressed.
 
 --- hints ---
 --- hint ---
-If subtracting 4 from the spaceship's position made it move left, how could you make it move right by the same amount instead?
+If subtracting 4 from the spaceship's position made it move left, how could you make it move **right** by 4 instead?
 --- /hint ---
 --- hint ---
 You will still need to use the same block, but change the number:
@@ -48,12 +46,9 @@ change x by ( )
 --- hint ---
 Here is the code you will need to add underneath the other code inside your `forever`{:class="blockcontrol"} block
 ```blocks
-	when flag clicked
-	forever
-		if <key [right arrow v] pressed?> then
-			change x by (4)
-		end
-	end
+if <key [right arrow v] pressed?> then
+	change x by (4)
+end
 ```
 --- /hint ---
 --- /hints ---
