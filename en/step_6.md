@@ -1,37 +1,24 @@
 ## Exploding spaceship
 
-When a hippo touches your spaceship, we need to make the spaceship explode! 
+When a hippo touches your spaceship it should explode!
 
-+ First make sure that your spaceship has 2 costumes called 'normal' and 'hit'.
++ Select the spaceship sprite and rename the costume to 'normal'.
 
-	![screenshot](images/invaders-spaceship-costumes.png)
++ Draw another costume of the spaceship exploding and call it 'hit'.
 
-	The spaceship's 'hit' costume can be made by importing the 'Sun' image from the Scratch library, and using the 'Color a shape' tool to change its colour.
+![screenshot](images/invaders-spaceship-costumes.png)
 
-	![screenshot](images/invaders-sun.png)
+Or, if you don't want to draw the explosion you could choose the 'Sun' costume from the Scratch library, and use the 'Color a shape' tool to change its colour and remove the face.
 
-+ Add this code to your spaceship so that it switches costume whenever it collides with a flying hippo:
+![screenshot](images/invaders-sun.png)
 
-	```blocks
-		when flag clicked
-		forever
-			switch costume to [normal v]
-			wait until <touching [Hippo1 v]>?
-			switch costume to [hit v]
-			broadcast [hit v]
-			wait (1) secs
-		end
-	```
++ Add some code to your spaceship so that it starts off displaying the spaceship costume, but when it touches a flying hippo it switches to the 'hit' costume:
 
-+ Did you notice that you have broadcast a 'hit' message in the code above? You can use this message to make all of the hippos disappear when the spaceship is hit.
+```blocks
+when flag clicked
+switch costume to [normal v]
+wait until <touching [Hippo1 v]>?
+switch costume to [hit v]
+```
 
-	Add this code to your hippo:
-
-	```blocks
-		when I receive [hit v]
-		delete this clone
-	```
-
-+ Test out this code by starting a new game and colliding with a hippo.
-
-	![screenshot](images/invaders-hippo-collide.png)
++ Test your code by playing the game and colliding with a hippo. Does the spaceship change to the 'hit' costume?
