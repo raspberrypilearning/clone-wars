@@ -16,7 +16,4 @@ What improvements can you make to your game? Here are some ideas:
 	wait until <(score) = [100]>
 ```
 
-
-
-
 --- /challenge ---

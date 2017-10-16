@@ -92,7 +92,7 @@ end
 --- /hint ---
 --- /hints ---
 
-+ Click on your orange sprite and add some code to make each orange clone drop down the stage from the bat towards the spaceship.
++ Click on your orange sprite and add some code to make each orange clone drop, starting from the bat and falling towards the bottom of the stage.
 
 --- hints ---
 --- hint ---
