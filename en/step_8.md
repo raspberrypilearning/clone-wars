@@ -1,31 +1,79 @@
-## Fruit Bats!
+## Fruit Bat
 
-Let's make a fruit bat that throws oranges at your spaceship.
+To make the game a bit harder, let's make a fruit bat which throws oranges at the spaceship.
 
-+ Firstly, make a new bat sprite that will `move`{:class="blockmotion"} across the top of the stage `forever`{:class="blockcontrol"}. Remember to test out your code.
++ Add a bat sprite to the game and set its rotation style to **left-right** only.
 
-	![screenshot](images/invaders-bat.png)
++ Make the bat sprite `move`{:class="blockmotion"} from side to side across the top of the stage `forever`{:class="blockcontrol"}. Remember to test out your code.
 
-+ If you look at the bat's costumes, you'll see that it already has 2:
+![screenshot](images/invaders-bat.png)
 
-	![screenshot](images/invaders-bat-costume.png)
+--- hints ---
+--- hint ---
+When the flag is clicked, the bat should forever
+- move 10 steps
+- if it reaches the edge, bounce
+--- /hint ---
+--- hint ---
+Here is the code you will need:
 
-	Use the `next costume`{:class="blocklooks"} block to make the bat flap its wings as it moves.
+```blocks
+when flag clicked
+forever
+    move (10) steps
+    if on edge, bounce
+end
+```
+--- /hint ---
+--- /hints ---
+
+If you look at the bat's costumes, you'll see that it already has 2:
+
+![screenshot](images/invaders-bat-costume.png)
+
++ Use the `next costume`{:class="blocklooks"} block to make the bat flap its wings as it moves.
+
+--- hints ---
+--- hint ---
+After the bat has moved, it should show the `next costume`{:class="blocklooks"} and then `wait`{:class="blockcontrol"} for a short time.
+--- /hint ---
+--- hint ---
+Here is the code you will need:
+
+```blocks
+next costume
+wait (0.3) secs
+```
+--- /hint ---
+--- hint ---
+Here is the full code with the new code added:
+
+```blocks
+when flag clicked
+forever
+    move (10) steps
+    if on edge, bounce
+    next costume
+    wait (0.3) secs
+end
+```
+--- /hint ---
+--- /hints ---
 
 + Create a new 'Orange' sprite from the Scratch library
 
-	![screenshot](images/invaders-orange.png)
+![screenshot](images/invaders-orange.png)
 
 
 + Add code to your bat, so that it creates a new orange clone every few seconds.
 
-	```blocks
-		when flag clicked
-		forever
-			wait (pick random (5) to (10)) secs
-			create clone of [Orange v]
-		end
-	```
+```blocks
+	when flag clicked
+	forever
+		wait (pick random (5) to (10)) secs
+		create clone of [Orange v]
+	end
+```
 
 + Click on your orange sprite and add this code to make each orange clone drop down the stage from the bat towards the spaceship:
 

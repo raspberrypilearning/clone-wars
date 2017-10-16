@@ -42,7 +42,9 @@ delete this clone
 
 ![screenshot](images/invaders-hippo-collide.png)
 
-+ Let's make it possible for the spaceship to get hit more than once. Add a `forever`{:class="blockcontrol"} block around all of your code to make the process repeat, and a `wait`{:class="blockcontrol"} at the end to add a small pause before hippos begin appearing again.
+After you get hit, hippos start reappearing but the spaceship has still exploded! Let's make it possible for the spaceship reset itself after being hit.
+
++ Add a `forever`{:class="blockcontrol"} block around all of your code to make the process repeat, and a `wait`{:class="blockcontrol"} at the end to add a small pause before hippos begin appearing again.
 
 ```blocks
 when flag clicked
@@ -58,7 +60,7 @@ end
 --- challenge ---
 ### Challenge: lives and score
 
-Can you add a `lives`{:class="blockdata"}, `score`{:class="blockdata"} or even a `highscore`{:class="blockdata"} to your game?
+At the moment, the player has infinite lives. Can you add a `lives`{:class="blockdata"}, `score`{:class="blockdata"} or even a `highscore`{:class="blockdata"} to your game?
 
 [[[generic-scratch-high-score]]]
 
