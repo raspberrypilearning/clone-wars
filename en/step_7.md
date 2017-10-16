@@ -9,6 +9,7 @@ When the spaceship is hit, all the hippos should disappear to give the player a 
 --- hints ---
 --- hint ---
 Create a broadcast 'hit' block by dragging the block from the 'Events' tab and then clicking on the drop down and selecting "new message".
+--- /hint ---
 --- hint ---
 Here is what your block should look like:
 ```blocks

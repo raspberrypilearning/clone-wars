@@ -2,8 +2,6 @@
 
 Let's make a fruit bat that throws oranges at your spaceship.
 
-
-
 + Firstly, make a new bat sprite that will `move`{:class="blockmotion"} across the top of the stage `forever`{:class="blockcontrol"}. Remember to test out your code.
 
 	![screenshot](images/invaders-bat.png)
