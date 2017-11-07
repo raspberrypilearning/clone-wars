@@ -63,6 +63,4 @@ end
 At the moment, the player has infinite lives. Can you add a `lives`{:class="blockdata"}, `score`{:class="blockdata"} or even a `highscore`{:class="blockdata"} to your game?
 
 [[[generic-scratch-high-score]]]
-
-You can also use the 'Catch the Dots' project to help you.
 --- /challenge ---

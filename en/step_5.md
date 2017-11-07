@@ -28,8 +28,23 @@ hide
 
 + Switch to the **stage** by clicking on it in the bottom panel:
 
-+ Add this code to the stage to create a new hippo every few seconds:
++ Add some code to the stage to create a new hippo every few seconds.
 
+--- hints ---
+--- hint ---
+When the green flag is clicked:
+Repeatedly...
+- Wait between 2 and 4 seconds
+- Create a clone of the hippo sprite
+
+--- /hint ---
+--- hint ---
+Here are the blocks you will need:
+![Clone hippo hint](images/clone-hippo-hint.png)
+
+--- /hint ---
+--- hint ---
+Here is the code you will need:
 ```blocks
 when flag clicked
 forever
@@ -37,6 +52,8 @@ forever
 	create clone of [Hippo1 v]
 end
 ```
+--- /hint ---
+--- /hints ---
 
 + Switch back to the **hippo** sprite
 
@@ -50,7 +67,7 @@ You'll know if you've done this correctly because the variable will have the nam
 
 ![screenshot](images/invaders-var-test.png)
 
-+ When each hippo clone starts, pick a random speed and starting place before showing it on the screen
++ When each hippo clone starts, pick a random speed and starting place before showing it on the screen.
 
 ```blocks
 when I start as a clone
