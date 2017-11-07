@@ -2,7 +2,7 @@
 
 Let's make a spaceship that will defend the Earth!
 
-+ Start a new Scratch project and delete the cat sprite
++ Start a new Scratch project and delete the cat sprite.
 
 [[[generic-scratch-new-project]]]
 

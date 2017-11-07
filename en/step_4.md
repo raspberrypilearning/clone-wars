@@ -24,6 +24,20 @@ point in direction (-90 v)
 
 + Add some new code to make the spaceship create a new lightning bolt whenever the space key is pressed.
 
+--- hints ---
+--- hint ---
+When the green flag is clicked
+Keep checking forever:
+If the space key was pressed, create a clone of the lightning sprite
+--- /hint ---
+--- hint ---
+Here are the blocks you will need:
+
+![Hint](images/hint-lightning.png)
+--- /hint ---
+--- hint ---
+Here is the code you will need:
+
 ```blocks
 when flag clicked
 forever
@@ -32,10 +46,26 @@ forever
 	end
 end
 ```
+--- /hint ---
+--- /hints ---
 
 + Switch back to the **lightning** sprite.
 
-+ Whenever a lightning bolt is created it should appear and then move upwards until it reaches the top of the screen, when it should disappear. Add this code to the lightning sprite:
++ Whenever a lightning bolt is created it should appear and then move upwards until it reaches the top of the screen, when it should disappear.
+
+--- hints ---
+--- hint ---
+When a new lightning sprite clone appears:
+- Display it.
+- Repeatedly move it up by 10 until it is touching the edge of the screen, when you should delete the clone.
+--- /hint ---
+--- hint ---
+Here are the blocks you will need:
+
+![Move lightning](images/move-hint-lightning.png)
+--- /hint ---
+--- hint ---
+Here is the code you will need to add to the lightning sprite:
 
 ```blocks
 	when I start as a clone
@@ -45,6 +75,10 @@ end
 	end
 	delete this clone
 ```
+--- /hint ---
+--- /hints ---
+
+
 
 + Test your lightning by clicking the green flag and then pressing the space bar. Does lightning appear when you press space and move up the screen? What problem can you spot?
 
