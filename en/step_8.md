@@ -1,16 +1,16 @@
-## Fruit Bat
+## Fruit bat
 
 To make the game a bit harder, let's make a fruit bat which throws oranges at the spaceship.
 
-+ Add a bat sprite to the game and set its rotation style to **left-right** only.
++ Add a `Bat` sprite and set its rotation style to **left-right** only.
 
-+ Make the bat sprite `move`{:class="blockmotion"} from side to side across the top of the stage `forever`{:class="blockcontrol"}. Remember to test out your code.
++ Make the `Bat` sprite `move`{:class="blockmotion"} from side to side across the top of the **Stage** `forever`{:class="blockcontrol"}. Remember to test out your code.
 
 ![screenshot](images/invaders-bat.png)
 
 --- hints ---
 --- hint ---
-When the flag is clicked, the bat should forever
+When the flag is clicked, the `Bat` sprite should forever
 - move 10 steps
 - if it reaches the edge, bounce
 --- /hint ---
@@ -27,7 +27,7 @@ end
 --- /hint ---
 --- /hints ---
 
-If you look at the bat's costumes, you'll see that it already has 2:
+If you look at the bat's costumes, you'll see that it already has two different ones:
 
 ![screenshot](images/invaders-bat-costume.png)
 
@@ -62,21 +62,20 @@ end
 
 Now let's make the bat throw oranges.
 
-+ Create a new 'Orange' sprite from the Scratch library
++ Create a new `Orange` sprite from the Scratch library.
 
 ![screenshot](images/invaders-orange.png)
 
-
-+ Add code to your bat, so that when the flag is clicked, it waits for a random time between 5-10 seconds and then creates a clone of the orange sprite.
++ Add code to your bat so that, when the flag is clicked, it waits for a random time between 5 and 10 seconds and then creates a clone of the `Orange` sprite.
 
 --- hints ---
 --- hint ---
-Look at the code you wrote when you created the lightning bolt. This code is very similar, except instead of an orange appearing when you press the space bar, it appears after you `wait`{:class="blockcontrol"} for `5-10`{:class="blockoperators"} seconds.
+Look at the code you wrote when you created the `Lightning` sprite. The code you need now is very similar, except instead of an orange appearing when you press the **space** bar, it should appear after you `wait`{:class="blockcontrol"} for `5-10`{:class="blockoperators"} seconds.
 --- /hint ---
 --- hint ---
-`When the flag is clicked`{:class="blockcontrol"}, the bat should
+`When the flag is clicked`{:class="blockcontrol"}, the `Bat` sprite should
 `forever`{:class="blockcontrol"}
-- `wait`{:class="blockcontrol"} for a `random`{:class="blockoperators"} time between 5-10 seconds
+- `wait`{:class="blockcontrol"} for a `random`{:class="blockoperators"} time between `5-10`{:class="blockoperators"} seconds
 - `create a clone`{:class="blockcontrol"} of the orange sprite
 --- /hint ---
 --- hint ---
@@ -92,11 +91,11 @@ end
 --- /hint ---
 --- /hints ---
 
-+ Click on your orange sprite and add some code to make each orange clone drop, starting from the bat and falling towards the bottom of the stage.
++ Click on your `Orange` sprite and add some code to make each `Orange` sprite clone drop, starting from the `Bat` sprite and falling towards the bottom of the **Stage**.
 
 --- hints ---
 --- hint ---
-This code is almost the same as the code inside the lightning bolt, except that the orange should `go to`{:class="blockmotion"} the bat and it should move **down** the screen instead of up, but still using the `change y by`{:class="blockcontrol"} block.
+This code you want is almost the same as the code inside the `Lightning` sprite, except that the `Orange` sprite should `go to`{:class="blockmotion"} the `Bat` sprite's position, and it should use the `change y by`{:class="blockcontrol"} block to move downwards instead of upwards.
 --- /hint ---
 --- hint ---
 Here is the code you will need:
@@ -118,14 +117,14 @@ Here is the code you will need:
 --- /hints ---
 
 
-+ Add some more code to the orange so that when the spaceship is hit, it also disappears to give the player a chance to reset:
++ Add some more code to the `Orange` sprite so that when the `Spaceship` sprite is hit, it also disappears to give the player a chance to reset:
 
 ```blocks
 	when I receive [hit v]
 	delete this clone
 ```
 
-+ In your spaceship sprite, you'll also need to modify the code so that you are hit if you touch a hippo or an orange:
++ You'll also need to modify the code in your `Spaceship` sprite so that it is hit when it touches a `Hippo` sprite or an `Orange` sprite:
 
 ```blocks
 	wait until < <touching [Hippo1 v]?> or <touching [Orange v]?>>
