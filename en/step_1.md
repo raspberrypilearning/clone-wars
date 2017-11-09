@@ -4,9 +4,9 @@ In this project you will learn how to create a game in which you have to save th
 
 ### What you will make
 
-Click the green flag to start the game, and then use the left and right arrow keys to move the spaceship and the space key to shoot.
+Click the green flag in the example game below to start, and then press the **left** and **right** arrow keys to move the spaceship and the **space** key to shoot.
 
-Score as many points as you can by shooting flying space hippos. You'll lose a life if you get hit by a hippo or the oranges dropped by the fruit bats.
+Score as many points as you can by shooting flying space hippos. You'll lose a life if you get hit by a hippo or by the oranges dropped by the fruit bats.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/46018140/?autostart=false" frameborder="0"></iframe>
@@ -14,8 +14,6 @@ Score as many points as you can by shooting flying space hippos. You'll lose a l
 </div>
 
 ### What you will learn
-
-What you will learn
 
 This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum){:target="_blank"}:
 
