@@ -2,13 +2,13 @@
 
 When the spaceship is hit, all the hippos should disappear to give the player a chance to recover.
 
-+ Add a block to your code to broadcast the message "hit" when the spaceship is touching a hippo.
++ Add a block to your code to `broadcast` the message "hit" when the spaceship is touching a hippo.
 
 [[[generic-scratch-broadcast-message]]]
 
 --- hints ---
 --- hint ---
-Create a broadcast 'hit' block by dragging the block from the 'Events' tab and then clicking on the drop down and selecting "new message".
+Create a `broadcast` 'hit' block by dragging the block from the **Events** tab and then clicking on the drop-down menu and selecting **new message**.
 --- /hint ---
 --- hint ---
 Here is what your block should look like:
@@ -29,9 +29,9 @@ broadcast [hit v]
 --- /hint ---
 --- /hints ---
 
-All of the hippo sprites will hear this message, so you can now instruct them to disappear when the spaceship is hit.
+All of the `Hippo` sprite clones will hear this message, so you can now instruct them to disappear when the spaceship is hit.
 
-+ Add this code to the hippo sprite:
++ Add this code to the `Hippo` sprite:
 
 ```blocks
 when I receive [hit v]
@@ -42,9 +42,9 @@ delete this clone
 
 ![screenshot](images/invaders-hippo-collide.png)
 
-After you get hit, hippos start reappearing but the spaceship has still exploded! Let's make it possible for the spaceship reset itself after being hit.
+After you get hit, hippos start reappearing but the spaceship has still exploded! Let's make it possible for the spaceship to reset itself after being hit.
 
-+ Add a `forever`{:class="blockcontrol"} block around all of your code to make the process repeat, and a `wait`{:class="blockcontrol"} at the end to add a small pause before hippos begin appearing again.
++ Add a `forever`{:class="blockcontrol"} block around all of your code to make the process repeat, and a `wait`{:class="blockcontrol"} block at the end to add a small pause before hippos begin appearing again.
 
 ```blocks
 when flag clicked
@@ -60,7 +60,7 @@ end
 --- challenge ---
 ### Challenge: lives and score
 
-At the moment, the player has infinite lives. Can you add a `lives`{:class="blockdata"}, `score`{:class="blockdata"} or even a `highscore`{:class="blockdata"} to your game?
+At the moment, the player has infinite lives. Can you add `lives`{:class="blockdata"}, a `score`{:class="blockdata"}, or even a `highscore`{:class="blockdata"} to your game?
 
 [[[generic-scratch-high-score]]]
 --- /challenge ---
