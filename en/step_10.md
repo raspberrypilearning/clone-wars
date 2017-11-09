@@ -1,16 +1,18 @@
 --- challenge ---
-## Challenge: Improve your game
-What improvements can you make to your game? Here are some ideas:
+## Challenge: improve your game
+What improvements can you make to your game?
 
-+ Add health packs that you can collect to gain extra lives;
+Here are some ideas:
+
++ Add health packs that you can collect to gain extra lives.
 
 ![screenshot](images/invaders-aid.png)
 
-+ Add floating rocks that your spaceship must avoid;
++ Add floating rocks that your spaceship must avoid.
 
 ![screenshot](images/invaders-rocks.png)
 
-+ Make more enemies appear when your score gets to 100.
++ Make more enemies appear when your score gets to `100`.
 
 ```blocks
 	wait until <(score) = [100]>
