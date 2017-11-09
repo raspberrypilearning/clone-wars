@@ -5,8 +5,8 @@ listed: true
 ingredient: false
 copyedit: false
 curriculum: creator, design-0, programming-0, phys-comp-0, manufacture-0, community-0
-title: Clone Wars
-description: Create a game in which you have to save the Earth from space monsters.
+title: Clone wars
+description: Create a game in which you have to save the Earth from space monsters
 original_url: https://codeclubprojects.org/en-GB/scratch/clone-wars
 interests: 'games'
 technologies: scratch
@@ -14,11 +14,11 @@ site_areas: codeclub, scratch
 steps:
 - title: Introduction
 - title: What you will need
-- title: Making a Spaceship
+- title: Making a spaceship
 - title: Lightning bolts
 - title: Flying space-hippos
 - title: Exploding spaceship
 - title: Disappearing hippos
-- title: Fruit Bat
+- title: Fruit bat
 - title: Game over
-- title: 'Challenge: Improve your game'
+- title: 'Challenge: improve your game'
