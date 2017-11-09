@@ -1,12 +1,12 @@
-## Making a Spaceship
+## Make a spaceship
 
 Let's make a spaceship that will defend the Earth!
 
-+ Start a new Scratch project and delete the cat sprite.
++ Start a new Scratch project, and delete the cat sprite.
 
 [[[generic-scratch-new-project]]]
 
-+ Add the 'stars' backdrop and the 'Spaceship' sprite to your project. Shrink the spaceship and move it near the bottom of the screen.
++ Add the `stars` backdrop and the `Spaceship` sprite to your project.
 
 	![screenshot](images/invaders-sprites.png)
 
@@ -14,9 +14,9 @@ Let's make a spaceship that will defend the Earth!
 
 [[[generic-scratch-sprite-from-library]]]
 
-+ Use the shrink tool to make your spaceship a bit smaller and position it near the bottom of the screen.
++ Use the **shrink** tool to make your `Spaceship` sprite a bit smaller, and position it near the bottom of the screen.
 
-+ When the left arrow key is pressed, the spaceship should move to the left. Add this code to make your spaceship move left when the left arrow is pressed.
++ When the **left** arrow key is pressed, the spaceship should move to the left. Add this code to make your spaceship move left when the **left** arrow is pressed:
 
 ```blocks
 	when flag clicked
@@ -27,26 +27,26 @@ Let's make a spaceship that will defend the Earth!
 	end
 ```
 
-The x axis goes from left to right, so if you subtract from the spaceship's position, it moves further to the left. This code is the part which makes your spaceship move left:
+The x-axis goes from left to right on the **Stage**, so if you make the the spaceship's x-position smaller by substracting from it, it will move further to the left. This code is the part which makes your spaceship move left:
 
 ```blocks
 change x by (-4)
 ```
 
-+ Add some more code inside the `forever`{:class="blockcontrol"} block to make your spaceship move to the right when the right arrow key is pressed.
++ Add some more code inside the `forever`{:class="blockcontrol"} block to make your spaceship move to the right when the **right** arrow key is pressed.
 
 --- hints ---
 --- hint ---
-If subtracting 4 from the spaceship's position made it move left, how could you make it move **right** by 4 instead?
+If subtracting `4` from the spaceship's position made it move left, how could you make it move right by `4` instead?
 --- /hint ---
 --- hint ---
-You will still need to use the same block, but change the number:
+You will need to use the same block, but with a different number:
 ```blocks
 change x by ( )
 ```
 --- /hint ---
 --- hint ---
-Here is the code you will need to add underneath the other code inside your `forever`{:class="blockcontrol"} block
+Here is the code you will need to add below the other code inside your `forever`{:class="blockcontrol"} block:
 ```blocks
 if <key [right arrow v] pressed?> then
 	change x by (4)
