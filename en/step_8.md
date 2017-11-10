@@ -4,7 +4,7 @@ To make the game a bit harder, let's make a fruit bat which throws oranges at th
 
 + Add a `Bat` sprite and set its rotation style to **left-right** only.
 
-+ Make the `Bat` sprite `move`{:class="blockmotion"} from side to side across the top of the **Stage** `forever`{:class="blockcontrol"}. Remember to test out your code.
++ Make the `Bat` sprite `move`{:class="blockmotion"} from side to side across the top of the Stage `forever`{:class="blockcontrol"}. Remember to test out your code.
 
 ![screenshot](images/invaders-bat.png)
 
@@ -62,7 +62,7 @@ end
 
 Now let's make the bat throw oranges.
 
-+ Create a new `Orange` sprite from the Scratch library.
++ Add a new `Orange` sprite from the Scratch library.
 
 ![screenshot](images/invaders-orange.png)
 
@@ -76,7 +76,7 @@ Look at the code you wrote when you created the `Lightning` sprite. The code you
 `When the flag is clicked`{:class="blockcontrol"}, the `Bat` sprite should
 `forever`{:class="blockcontrol"}
 - `wait`{:class="blockcontrol"} for a `random`{:class="blockoperators"} time between `5-10`{:class="blockoperators"} seconds
-- `create a clone`{:class="blockcontrol"} of the orange sprite
+- `create a clone`{:class="blockcontrol"} of the `Orange` sprite
 --- /hint ---
 --- hint ---
 Here is the code you will need:
@@ -91,7 +91,7 @@ end
 --- /hint ---
 --- /hints ---
 
-+ Click on your `Orange` sprite and add some code to make each `Orange` sprite clone drop, starting from the `Bat` sprite and falling towards the bottom of the **Stage**.
++ Click on your `Orange` sprite and add some code to make each `Orange` sprite clone drop, starting from the `Bat` sprite and falling towards the bottom of the Stage.
 
 --- hints ---
 --- hint ---
