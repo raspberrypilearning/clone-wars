@@ -2,7 +2,7 @@
 
 To make the game a bit harder, let's make a fruit bat which throws oranges at the spaceship.
 
-+ Add a `Bat` sprite and set its rotation style to **left-right** only.
++ Add a `Bat` sprite and set its rotation style to **left–right** only.
 
 + Make the `Bat` sprite `move`{:class="blockmotion"} from side to side across the top of the Stage `forever`{:class="blockcontrol"}. Remember to test out your code.
 
