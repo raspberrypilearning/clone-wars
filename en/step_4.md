@@ -103,7 +103,7 @@ go to [Spaceship v]
 + Press the **space** key to test whether your lightning bolt now fires correctly.
 
 --- challenge ---
-### Challenge: Fixing the lightning
+### Challenge: fixing the lightning
 What happens if you hold down the **space** key? Can you use a `wait`{:class="blockcontrol"} block to fix this?
 
 --- /challenge ---
