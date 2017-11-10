@@ -20,7 +20,7 @@ set size to (25) %
 point in direction (-90 v)
 ```
 
-+ Switch to the `Spaceship` sprite by clicking on it in the **Sprites** panel below the **Stage**.
++ Switch to the `Spaceship` sprite by clicking on it in the Sprites panel below the Stage.
 
 + Add some new code to make the `Spaceship` sprite create a new lightning bolt whenever the **space** key is pressed.
 
