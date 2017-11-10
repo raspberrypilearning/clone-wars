@@ -1,46 +1,58 @@
-## Lightning bolts
+## Make a spaceship
 
-Let's give the spaceship the ability to fire lightning bolts!
+Let's make a spaceship that will defend the Earth!
 
++ Start a new Scratch project, and delete the cat sprite.
 
+[[[generic-scratch-new-project]]]
 
-+ Add the 'Lightning' sprite from the Scratch library.  When the game is started, the lightning should be hidden until the spaceship fires its laser cannons. The sprite needs to be much smaller and upside down. Add the following code to the Lightning' sprite.
++ Add the `stars` backdrop and the `Spaceship` sprite to your project.
 
-	```blocks
-		when green flag clicked
-		hide
-		set size to (25) %
-		point in direction (-90 v)	
-	```
+	![screenshot](images/invaders-sprites.png)
 
+[[[generic-scratch-backdrop-from-library]]]
 
-+ Add the following code **to the Spaceship** to create a new lightning bolt whenever the space key is pressed.
+[[[generic-scratch-sprite-from-library]]]
 
++ Use the **shrink** tool to make your `Spaceship` sprite a bit smaller, and position it near the bottom of the screen.
 
-	```blocks
-		when flag clicked
-		forever
-			if <key [space v] pressed?> then
-				create clone of [Lightning v]
-			end
++ When the **left** arrow key is pressed, the spaceship should move to the left. Add this code to make your spaceship move left when the **left** arrow is pressed:
+
+```blocks
+	when flag clicked
+	forever
+		if <key [left arrow v] pressed?> then
+			change x by (-4)
 		end
-	```
+	end
+```
 
-+ Whenever a new clone is created, it should start in the same place as the spaceship, and then move up the stage until it touches the edge. Add the following code **to the Lightning sprite**:
+The x-axis goes from left to right on the **Stage**, so if you make the the spaceship's x-position smaller by substracting from it, it will move further to the left. This code is the part which makes your spaceship move left:
 
-	```blocks
-		when I start as a clone
-		go to [Spaceship v]
-		show
-		repeat until <touching [edge v] ?>
-			change y by (10)
-		end
-		delete this clone
-	```
+```blocks
+change x by (-4)
+```
 
-Note: We move the new clone to the spaceship while it is still hidden, before then showing it. This just looks nicer.
++ Add some more code inside the `forever`{:class="blockcontrol"} block to make your spaceship move to the right when the **right** arrow key is pressed.
 
-+ Test your lightning, by pressing the space key.
+--- hints ---
+--- hint ---
+If subtracting `4` from the spaceship's position made it move left, how could you make it move right by `4` instead?
+--- /hint ---
+--- hint ---
+You will need to use the same block, but with a different number:
+```blocks
+change x by ( )
+```
+--- /hint ---
+--- hint ---
+Here is the code you will need to add below the other code inside your `forever`{:class="blockcontrol"} block:
+```blocks
+if <key [right arrow v] pressed?> then
+	change x by (4)
+end
+```
+--- /hint ---
+--- /hints ---
 
-
-
++ Test your project by clicking the green flag. Can you make your spaceship move left and right with the arrow keys?

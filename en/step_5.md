@@ -1,92 +1,96 @@
-## Flying Space-hippos
+## Flying space-hippos
 
-Let's add lots of flying hippos that are trying to destroy your spaceship.
+Let's add lots of flying hippos that will try to destroy your spaceship.
 
++ Create a new sprite with the `Hippo1` image in the Scratch library. Use the **shrink** tool to make the `Hippo` sprite a similar size to the `Spaceship` sprite.
 
+![screenshot](images/invaders-hippo.png)
 
-+ Create a new sprite from the 'Hippo1' image in the Scratch library.
++ Set the `Hippo` sprite's rotation style to be left-right only.
 
-	![screenshot](images/invaders-hippo.png)
+[[[generic-scratch-sprite-rotation-style]]]
 
-+ Set its rotation style to be left-right only, and add the following code to hide the sprite when the game starts:
++ Add some code to hide the `Hippo` sprite when the game starts.
 
-	```blocks
-		when flag clicked
-		hide
-	```
+--- hints ---
+--- hint ---
+The code for this is exactly the same as the code you used to hide the `Lightning` sprite when the game starts.
+--- /hint ---
+--- hint ---
+Here is the code you will need:
 
-+ Create a new variable called `speed`{:class="blockdata"}, that is for the hippo sprite only.
+```blocks
+when green flag clicked
+hide
+```
+--- /hint ---
+--- /hints ---
 
-	![screenshot](images/invaders-var.png)
++ Switch to the **Stage** by clicking on it in the bottom panel.
 
-	You'll know if you've done this correctly because the variable will have the name of the sprite next to it, like this:
++ Add some code to the **Stage** to create a new hippo every few seconds.
 
-	![screenshot](images/invaders-var-test.png)
+--- hints ---
+--- hint ---
+When the green flag is clicked:
+Repeatedly...
+- Wait between 2 and 4 seconds
+- Create a clone of the hippo sprite
 
-+ The following code will create a new hippo every few seconds. **The Stage** is a good place for this code to live:
+--- /hint ---
+--- hint ---
+Here are the blocks you will need:
+![Clone hippo hint](images/clone-hippo-hint.png)
 
-	```blocks
-		when flag clicked
-		forever
-			wait (pick random (2) to (4)) secs
-			create clone of [Hippo1 v]
-		end
-	```
+--- /hint ---
+--- hint ---
+Here is the code you will need:
+```blocks
+when flag clicked
+forever
+	wait (pick random (2) to (4)) secs
+	create clone of [Hippo1 v]
+end
+```
+--- /hint ---
+--- /hints ---
 
-+ When each hippo clone starts, make it move around the stage (at a random speed) until it gets hit by the lightning. Add this code **to the hippo** sprite:
++ Switch back to the `Hippo` sprite.
 
-	```blocks
-		when I start as a clone
-		set [speed v] to (pick random (2) to (4))
-		go to x: (pick random (-220) to (220)) y: (150)
-		show
-		repeat until <touching [lightning v] ?>
-			move (speed) steps
-			turn right (pick random (-10) to (10)) degrees
-			if on edge, bounce
-		end
-		delete this clone
-	```
+Each new hippo should appear at a random x-position, and each should have a random speed.
+
++ Create a new variable called `speed`{:class="blockdata"} that is for the `Hippo` sprite only.
+
+[[[generic-scratch-add-variable]]]
+
+You'll know you've done this correctly when you can see that the variable has the name of the sprite next to it, like this:
+
+![screenshot](images/invaders-var-test.png)
+
++ When each hippo clone starts, pick a random speed and starting place before showing it on the screen.
+
+```blocks
+when I start as a clone
+set [speed v] to (pick random (2) to (4))
+go to x: (pick random (-220) to (220)) y: (150)
+show
+```
+
++ Test your code by clicking the green flag. Does a new hippo appear every few seconds? At the moment your hippos won't move.
+
++ The hippo should move around randomly until it gets hit by a lightning bolt. To make that happen, attach this code below the blocks you just added:
+
+```blocks
+repeat until <touching [lightning v] ?>
+	move (speed) steps
+	turn right (pick random (-10) to (10)) degrees
+	if on edge, bounce
+end
+delete this clone
+```
 
 + Test out your hippo code. You should see a new hippo clone appear every few seconds, each moving at its own speed.
 
-	![screenshot](images/invaders-hippo-test.png)
+	![screenshot](images/hippo-clones.gif)
 
 + Test your laser cannon. If you hit a hippo, does it vanish?
-
-+ When a hippo touches your spaceship, we need to make the spaceship explode! To do this, first make sure that your spaceship has 2 costumes called 'normal' and 'hit'.
-
-	![screenshot](images/invaders-spaceship-costumes.png)
-
-	The spaceship's 'hit' costume can be made by importing the 'Sun' image from the Scratch library, and using the 'Color a shape' tool to change its colour.
-
-	![screenshot](images/invaders-sun.png)
-
-+ Add this code to your spaceship so that it switches costume whenever it collides with a flying hippo:
-
-	```blocks
-		when flag clicked
-		forever
-			switch costume to [normal v]
-			wait until <touching [Hippo1 v]>?
-			switch costume to [hit v]
-			broadcast [hit v]
-			wait (1) secs
-		end
-	```
-
-+ Did you notice that you have broadcast a 'hit' message in the code above? You can use this message to make all of the hippos disappear when the spaceship is hit.
-
-	Add this code to your hippo:
-
-	```blocks
-		when I receive [hit v]
-		delete this clone
-	```
-
-+ Test out this code by starting a new game and colliding with a hippo. 
-
-	![screenshot](images/invaders-hippo-collide.png)
-
-
-
