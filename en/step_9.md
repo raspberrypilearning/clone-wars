@@ -10,7 +10,7 @@ Your spaceship should start with three lives and lose a life whenever it touches
 
 ![screenshot](images/invaders-game-over.png)
 
-+ On your **Stage**, broadcast a `game over`{:class="blockevents"} message just before the game ends.
++ On your Stage, broadcast a `game over`{:class="blockevents"} message just before the game ends.
 
 ```blocks
 broadcast [game over v] and wait

@@ -27,7 +27,7 @@ Let's make a spaceship that will defend the Earth!
 	end
 ```
 
-The x-axis goes from left to right on the **Stage**, so if you make the the spaceship's x-position smaller by substracting from it, it will move further to the left. This code is the part which makes your spaceship move left:
+The x-axis goes from left to right on the Stage, so if you make the the spaceship's x-position smaller by substracting from it, it will move further to the left. This code is the part which makes your spaceship move left:
 
 ```blocks
 change x by (-4)

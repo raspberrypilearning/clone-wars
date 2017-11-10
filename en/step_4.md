@@ -20,7 +20,7 @@ set size to (25) %
 point in direction (-90 v)
 ```
 
-+ Switch to the `Spaceship` sprite by clicking on it in the **Sprites** panel below the **Stage**.
++ Switch to the `Spaceship` sprite by clicking on it in the Sprites panel below the Stage.
 
 + Add some new code to make the `Spaceship` sprite create a new lightning bolt whenever the **space** key is pressed.
 
@@ -53,7 +53,7 @@ end
 
 + Switch back to the `Lightning` sprite.
 
-+ Whenever a lightning bolt is created, it should appear and then move upwards until it reaches the top of the screen, upon which it should disappear.
++ Whenever a lightning bolt is created, it should appear and then move upwards until it reaches the top of the screen. Then it should disappear.
 
 --- hints ---
 --- hint ---
@@ -103,7 +103,7 @@ go to [Spaceship v]
 + Press the **space** key to test whether your lightning bolt now fires correctly.
 
 --- challenge ---
-### Challenge: Fixing the lightning
+### Challenge: fixing the lightning
 What happens if you hold down the **space** key? Can you use a `wait`{:class="blockcontrol"} block to fix this?
 
 --- /challenge ---
