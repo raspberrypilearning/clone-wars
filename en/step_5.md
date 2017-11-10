@@ -26,9 +26,9 @@ hide
 --- /hint ---
 --- /hints ---
 
-+ Switch to the **Stage** by clicking on it in the bottom panel.
++ Switch to the Stage by clicking on it in the bottom panel.
 
-+ Add some code to the **Stage** to create a new hippo every few seconds.
++ Add some code to the Stage to create a new hippo every few seconds.
 
 --- hints ---
 --- hint ---
