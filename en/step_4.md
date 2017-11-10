@@ -53,7 +53,7 @@ end
 
 + Switch back to the `Lightning` sprite.
 
-+ Whenever a lightning bolt is created, it should appear and then move upwards until it reaches the top of the screen, upon which it should disappear.
++ Whenever a lightning bolt is created, it should appear and then move upwards until it reaches the top of the screen. Then it should disappear.
 
 --- hints ---
 --- hint ---
