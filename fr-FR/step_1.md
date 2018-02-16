@@ -1,6 +1,6 @@
 ## Introduction
 
-Dans ce projet, vous apprendrez à créer un jeu dans lequel vous devrez sauver la Terre des monstres de l'espace.
+In this project you will learn how to create a game in which you have to save the Earth from space monsters.
 
 ### What you will make
 
