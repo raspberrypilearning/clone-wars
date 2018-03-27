@@ -78,7 +78,7 @@ Fe awn ati i ychwanegu hipopotamws sy'n hedfan ac yn ceisio dinistrio dy long of
 	Ychwanega'r côd yma i'r hipo:
 
 	```blocks
-		pan fyddaf yn derbyn [ffrwydro v]
+		pan dderbyniaf [ffrwydro v]
 		dileu y clôn hwn
 	```
 
