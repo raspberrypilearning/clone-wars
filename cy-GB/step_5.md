@@ -2,7 +2,7 @@
 
 Fe awn ati i greu ystlum ffrwythau sydd yn taflu orennau at dy long ofod.
 
-+ Yn gyntaf, bydd angen creu ciplun ystlum fydd yn 'symud' {.blockmotion} ar draws top y llwyfan 'am byth' {.blockcontrol}. Cofia brofi'r côd.
++ Yn gyntaf, bydd angen creu ciplun ystlum fydd yn `symud`{:class="blockmotion"} ar draws top y llwyfan `am byth`{:class="blockcontrol"}. Cofia brofi'r côd.
 
 	![screenshot](images/invaders-bat.png)
 
@@ -10,7 +10,7 @@ Fe awn ati i greu ystlum ffrwythau sydd yn taflu orennau at dy long ofod.
 
 	![screenshot](images/invaders-bat-costume.png)
 
-	Defnyddia'r bloc 'gwisg nesaf' {.blocklooks} i wneud i'r ystlum symud ei adenydd pan mae'n symud.
+	Defnyddia'r bloc `gwisg nesaf`{:class="blocklooks"} i wneud i'r ystlum symud ei adenydd pan mae'n symud.
 
 + Bydd angen creu ciplun 'Oren' o lyfrgell Scratch.
 
@@ -43,7 +43,7 @@ Fe awn ati i greu ystlum ffrwythau sydd yn taflu orennau at dy long ofod.
 
 		pan fyddaf yn derbyn [ffrwydro v]
 		dileu y clôn hwn
-```
+  ```
 
 + Bydd angen i ti newid y côd yn y ciplun llong ofod, fel ei fod yn ffrwydro pan mae'r hipo neu oren yn ei gyffwrdd:
 
