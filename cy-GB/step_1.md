@@ -22,6 +22,6 @@ Mae'r prosiect yma yn trin elfennau sydd yn rhan o'r adran ganlynol o [Faes Llaf
 + [Cyfuno adeiladwaith rhaglenni i ddatrys problem.](https://www.raspberrypi.org/curriculum/programming/builder)
 
 ## Heriau
-+ "Trwsio'r mellt" - defnyddio bloc 'aros' {.blockcontrol} i leihau nifer y mellt; 
-+ "Bywydau a sgôr" - creu newidyn 'bywydau' {.blockdata}, `sgôr` {.blockdata} a `sgôr uchel` {.blockdata};
++ "Trwsio'r mellt" - defnyddio bloc `aros`{:class="blockcontrol"} i leihau nifer y mellt; 
++ "Bywydau a sgôr" - creu newidyn `bywydau`{:class="blockdata"}, `sgôr`{:class="blockdata"} a `sgôr uchel`{:class="blockdata"};
 + "Gwella dy gêm" - ychwanegu gelynion ychwanegol, pecynnau iechyd, ayyb. 
