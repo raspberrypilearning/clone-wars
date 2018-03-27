@@ -13,7 +13,7 @@ Fe awn ati i ychwanegu hipopotamws sy'n hedfan ac yn ceisio dinistrio dy long of
 		cuddio
 	```
 
-+ Bydd angen creu newidyn newydd o'r enw 'cyflymder' {.blockdata}, sydd ar gyfer ciplun yr hipopotamws yn unig.
++ Bydd angen creu newidyn newydd o'r enw `cyflymder`{:class="blockdata"}, sydd ar gyfer ciplun yr hipopotamws yn unig.
 
 	![screenshot](images/invaders-var.png)
 
@@ -88,6 +88,6 @@ Fe awn ati i ychwanegu hipopotamws sy'n hedfan ac yn ceisio dinistrio dy long of
 
 --- challenge ---
 ### Her: Bywydau a Sgôr
-Wyt ti'n gallu ychwanegu 'bywydau' {.blockdata}, 'sgôr' {.blockdata} neu hyd yn oed 'sgôr uchel' {.blockdata} i dy gêm? Fe alli di ddefnyddio prosiect 'Dal y dotiau' i dy helpu.
+Wyt ti'n gallu ychwanegu `bywydau`{:class="blockdata"}, `sgôr`{:class="blockdata"} neu hyd yn oed `sgôr uchel`{:class="blockdata"} i dy gêm? Fe alli di ddefnyddio prosiect 'Dal y dotiau' i dy helpu.
 
 --- /challenge ---
