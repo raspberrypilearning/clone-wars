@@ -20,7 +20,7 @@ Fe awn ati i ychwanegu neges 'Gêm drosodd' i ddiwedd y gêm.
 		pan fo ⚑ wedi ei glicio
 			cuddio
 
-		pan fyddaf yn derbyn [gêm drosodd v]
+		pan dderbyniaf [gêm drosodd v]
 			dangos
 	```
 
