@@ -43,6 +43,6 @@ Nodyn: Rydyn ni'n symud y clôn newydd i'r llong ofod tra mae dal wedi cuddio, c
 
 --- challenge ---
 ### Her: Trwsio'r fellten
-Beth sy'n digwydd os wyt ti'n cadw gwasgu ar y bylchwr? Wyt ti'n gallu defnyddio bloc 'aros' {.blockcontrol} i ddatrys hyn?
+Beth sy'n digwydd os wyt ti'n cadw gwasgu ar y bylchwr? Wyt ti'n gallu defnyddio bloc `aros`{:class="blockcontrol"} i ddatrys hyn?
 
 --- /challenge ---
