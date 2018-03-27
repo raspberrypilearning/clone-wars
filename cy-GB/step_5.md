@@ -41,7 +41,7 @@ Fe awn ati i greu ystlum ffrwythau sydd yn taflu orennau at dy long ofod.
 		end
 			dileu y clôn hwn
 
-		pan fyddaf yn derbyn [ffrwydro v]
+		pan dderbyniaf [ffrwydro v]
 		dileu y clôn hwn
   ```
 
