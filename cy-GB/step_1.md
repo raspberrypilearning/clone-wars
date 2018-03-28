@@ -7,6 +7,11 @@ Yn y prosiect yma fe fyddi di'n dysgu sut i greu gên i achub y Ddaear rhag angh
   <img src="images/invaders-final.png">
 </div>
 
+--- collapse ---
+---
+title: Nodiadau i Wirfoddolwyr
+---
+
 ## Adnoddau
 Ar gyfer y prosiect yma, dylid defnyddio Scratch 2.  Mae modd defnyddio Scratch 2 arlein yma [jumpto.cc/scratch-on](http://jumpto.cc/scratch-on) neu mae modd ei lawrlwytho yma [jumpto.cc/scratch-off](http://jumpto.cc/scratch-off) a'i ddefnyddio heb gysylltiad gwe.
 
@@ -25,3 +30,5 @@ Mae'r prosiect yma yn trin elfennau sydd yn rhan o'r adran ganlynol o [Faes Llaf
 + "Trwsio'r mellt" - defnyddio bloc `aros`{:class="blockcontrol"} i leihau nifer y mellt; 
 + "Bywydau a sgôr" - creu newidyn `bywydau`{:class="blockdata"}, `sgôr`{:class="blockdata"} a `sgôr uchel`{:class="blockdata"};
 + "Gwella dy gêm" - ychwanegu gelynion ychwanegol, pecynnau iechyd, ayyb. 
+
+--- collapse ---
