@@ -31,4 +31,4 @@ Mae'r prosiect yma yn trin elfennau sydd yn rhan o'r adran ganlynol o [Faes Llaf
 + "Bywydau a sgôr" - creu newidyn `bywydau`{:class="blockdata"}, `sgôr`{:class="blockdata"} a `sgôr uchel`{:class="blockdata"};
 + "Gwella dy gêm" - ychwanegu gelynion ychwanegol, pecynnau iechyd, ayyb. 
 
---- collapse ---
+--- /collapse ---
