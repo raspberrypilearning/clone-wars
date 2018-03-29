@@ -24,6 +24,6 @@ Ajoutons un message 'Game Over' à la fin du jeu.
 		montrer
 	```
 
-	A  cause du bloc `envoyer à tous [le jeu sur] et attendre `{.blockevents} que vous avez utilisé sur votre scène, il attendra que le lutin 'Game Over' soit montré avant de finir la partie.
+	A  cause du bloc `envoyer à tous [le jeu sur] et attendre`{:class="blockevents"} que vous avez utilisé sur votre scène, il attendra que le lutin 'Game Over' soit montré avant de finir la partie.
 
 + Testez votre jeu. Combien de points pouvez-vous marquer ? Pensez aux façons d'améliorer votre jeu si c'est trop facile ou trop difficile ?
