@@ -7,7 +7,7 @@ In diesem Projekt lernst du, wie man ein Spiel erstellt, in dem du den Planet Er
   <img src="images/invaders-final.png">
 </div>
 
---- collapse
+--- collapse ---
 ---
 title: Notizen für den Club-Leiter
 ---
