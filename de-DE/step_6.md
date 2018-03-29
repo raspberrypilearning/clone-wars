@@ -24,6 +24,6 @@ Lass uns eine 'game over' (Spiel-Ende) Meldung zum Ende des Spiel hinzufügen.
 		zeige dich
 	```
 
-	Weil du einen Block mit `broadcast [ Game over] and wait` {.blockevents} (Game Over und Warten Meldung) in deinem Stadium benutzt hast, wird es darauf warten, dass das 'Game Over' Sprite angezeigt wird, ehe das Spiel beendet wird.
+	Weil du einen Block mit `broadcast [ Game over] and wait`{:class="blockevents"} (Game Over und Warten Meldung) in deinem Stadium benutzt hast, wird es darauf warten, dass das 'Game Over' Sprite angezeigt wird, ehe das Spiel beendet wird.
 
 + Teste dein  Spiel. Wie viele Punkte kannst zu erzielen? Kannst du an Wege denken, dein Spiel zu verbessern, falls es zu einfach oder zu schwer sein sollte?
