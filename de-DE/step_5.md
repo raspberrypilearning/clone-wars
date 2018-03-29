@@ -10,7 +10,7 @@ Lass uns einen Flughund kreieren, der Orangen auf dein Raumschiff wirft.
 
 	![screenshot](images/invaders-bat-costume.png)
 
-	Benutze den `next costume` {.blocklooks} (nächstes Kostüm) Block, damit die Fledermaus mit den Flügeln schlägt, während sie sich bewegt.
+	Benutze den `next costume`{:class="blocklooks"} (nächstes Kostüm) Block, damit die Fledermaus mit den Flügeln schlägt, während sie sich bewegt.
 
 + Erstelle in der Scratch Bibliothek ein neues 'Orange' Sprite.
 
