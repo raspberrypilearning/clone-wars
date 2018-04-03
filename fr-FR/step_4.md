@@ -65,9 +65,9 @@ Ajoutons des hippopotames volants qui essaient de détruire votre vaisseau spati
 	```blocks
 		quand le drapeau vert pressé
 		répéter indéfiniment
-   			basculer sur costume [normal v]
+   			basculer sur le costume [normal v]
    			attendre jusqu’à <[Hippo1 v] touché?>
-   			basculer sur costume [hit v]
+   			basculer sur le costume [hit v]
    			envoyer à tous [hit v]
    			attendre (1) secondes
 		fin
