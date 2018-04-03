@@ -40,7 +40,7 @@ Vamos a añadir un montón de hipopótamos voladores que están tratando de dest
 		mostrar
 		repetir hasta que <¿tocando [lightning v] ?>
 			mover (velocidad) pasos
-			girar ↻ (número al azar entre (-10) y (10)) grados
+			girar a la derecha (número al azar entre (-10) y (10)) grados
 			rebotar si toca un borde
 		fin
 		borrar este clon
