@@ -1,0 +1,21 @@
+hero_image: images/clone-wars.png
+theme: violet
+duration: 2
+listed: true
+ingredient: false
+copyedit: true
+curriculum: creator, design-0, programming-0, phys-comp-0, manufacture-0, community-0
+title: Guerre dei Cloni
+description: Crea un gioco in cui dovrai salvare la Terra dai mostri dello spazio
+original_url: https://codeclubprojects.org/en-GB/scratch/clone-wars
+interests: 'games'
+technologies: scratch
+site_areas: codeclub, scratch
+steps:
+- title: Introduzione
+- title: "Creare un'Astronave"
+- title: Fulmini
+- title: Ippopotami Spaziali Volanti
+- title: Pipistrelli della Frutta!
+- title: Game over
+- title: 'Sfida: Migliora il tuo gioco'
