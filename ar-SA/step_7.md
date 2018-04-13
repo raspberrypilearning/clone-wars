@@ -13,18 +13,18 @@
 --- hint ---
 يجب أن يكون القالب كما يلي:
 ```blocks
-بُث [اصطدام v]
+broadcast [hit v]
 ```
 --- /hint ---
 --- hint ---
 يجب أن تكون التعليمة البرمجية كما يلي:
 
 ```blocks
-عند نقر العلم
-حوِّل المظهر إلى [عادي v]
-انتظر حتى <يلامس [Hippo1 v]>؟
-حوِّل المظهر إلى [اصطدام v]
-بُث [اصطدام v]
+when flag clicked
+switch costume to [normal v]
+wait until <touching [Hippo1 v]>?
+switch costume to [hit v]
+broadcast [hit v]
 ```
 --- /hint ---
 --- /hints ---
@@ -34,8 +34,8 @@
 + أضف هذه التعليمة البرمجية إلى الكائن `Hippo`:
 
 ```blocks
-عندما أتلقى [اصطدام v]
-احذف هذه النسخة
+when I receive [hit v]
+delete this clone
 ```
 
 + اختبر هذه التعليمة البرمجية ببدء لعبة جديدة وجعل السفينة تصطدم بفرس.
@@ -47,14 +47,14 @@
 + أضف قالب `كرِّر باستمرار`{:class="blockcontrol"} بحيث يشمل التعليمة البرمجية ككل لكي تتكرر العملية، وقالب `انتظر`{:class="blockcontrol"} في النهاية لإضافة فترة إيقاف مؤقت قصيرة قبل أن تبدأ الأفراس في الظهور مرة أخرى.
 
 ```blocks
-عند نقر العلم
-كرِّر باستمرار
-    حوِّل المظهر إلى [عادي v]
-    انتظر حتى <يلامس [Hippo1 v]>؟
-    حوِّل المظهر إلى [اصطدام v]
-    بُث [اصطدام v]
-    انتظر (1) ثانية
-أوقف المقطع البرمجي
+when flag clicked
+forever
+    switch costume to [normal v]
+    wait until <touching [Hippo1 v]>?
+    switch costume to [hit v]
+    broadcast [hit v]
+    wait (1) secs
+end
 ```
 
 --- challenge ---
