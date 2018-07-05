@@ -2,7 +2,7 @@
 
 Laten we heel veel vliegende nijlpaarden toevoegen die proberen je ruimteschip te vernietigen.
 
-+ Maak een nieuwe sprite met de `Hippo1` afbeelding uit de Scratch-bibliotheek. Gebruik het **Kleiner maken ** hulpmiddel om de `Hippo` Sprite net zo klein te maken als de `Spaceship` sprite.
++ Maak een nieuwe sprite met de `Hippo1` afbeelding uit de Scratch-bibliotheek. Gebruik het **Kleiner maken** hulpmiddel om de `Hippo` Sprite net zo klein te maken als de `Spaceship` sprite.
 
 ![screenshot](images/invaders-hippo.png)
 
@@ -12,7 +12,7 @@ Laten we heel veel vliegende nijlpaarden toevoegen die proberen je ruimteschip t
 
 + Voeg code toe om als het spel begint de `Hippo` Sprite te verbergen.
 
---- hints --- --- hint --- De code hiervoor is precies hetzelfde als de code die je hebt gebruikt om de `Lightning` Sprite aan het begin van het spel te verbergen. --- / hint --- --- hint --- Dit is de code die je nodig hebt:
+--- hints --- --- hint --- De code hiervoor is precies hetzelfde als de code die je hebt gebruikt om de `Lightning` Sprite aan het begin van het spel te verbergen. --- /hint --- --- hint --- Dit is de code die je nodig hebt:
 
 ```blocks
 wanneer groene vlag wordt aangeklikt 
@@ -30,16 +30,16 @@ wanneer groene vlag wordt aangeklikt
 + Wacht tussen 2 en 4 seconden
 + Maak een kloon van de hippo-sprite
 
---- / hint --- --- hint --- Hier is de code die je nodig hebt: ![Clone hippo hint](images/clone-hippo-hint.png)
+--- /hint --- --- hint --- Hier is de code die je nodig hebt: ![Clone hippo hint](images/clone-hippo-hint.png)
 
---- / hint --- --- hint --- Hier is de code die je nodig hebt:
+--- /hint --- --- hint --- Hier is de code die je nodig hebt:
 
 ```blocks
-wanneer de groene vlag wordt aangeklikt 
-herhaal
-   wacht (willekeurig getal tussen (2) tot (4)) sec.
-   maak kloon van [Hippo1 v] 
-einde
+wanneer groene vlag wordt aangeklikt
+herhaal 
+  wacht (willekeurig getal tussen (2) en (4)) sec.
+  maak kloon van [Hippo1 v]
+end
 ```
 
 --- /hint --- --- /hints ---
@@ -48,7 +48,7 @@ einde
 
 Elke nieuw nijlpaard moet op een willekeurige x-positie verschijnen en moet een willekeurige snelheid hebben.
 
-+ Maak een nieuwe variabele met de naam `snelheid` {:class="blockdata"} deze is alleen voor de `Hippo` sprite.
++ Maak een nieuwe variabele met de naam `snelheid`{:class="blockdata"} deze is alleen voor de `Hippo` sprite.
 
 [[[generic-scratch-add-variable]]]
 
@@ -60,8 +60,8 @@ Je hebt dit goed gedaan als je de variabele naam van de sprite ernaast ziet staa
 
 ```blocks
 wanneer ik als kloon start
-maak [snelheid v] (willekeurig getal tussen (2) tot (4)) 
-ga naar x: (kies willekeurig (-220) tot (220)) y: (150) 
+maak [snelheid v] (willekeurig getal tussen (2) en (4))
+ga naar x: (willekeurig getal tussen (-220) en (220)) y: (150)
 verschijn
 ```
 
@@ -70,12 +70,12 @@ verschijn
 + De nijlpaard moet willekeurig rondvliegen totdat hij wordt geraakt door een bliksemflits. Om dit mogelijk te maken, plak je deze code onder de blokken die je zojuist hebt toegevoegd:
 
 ```blocks
-herhaal tot <touching [lightning v] ?> 
-   neem (snelheid) stappen
-   draai naar rechts (willekeurig getal (-10) tot (10)) graden
-   keer om aan de rand
-einde
-deze kloon verwijderen
+herhaal tot <raak ik [lightning v] ?> 
+  neem (snelheid) stappen
+  draai (willekeurig getal tussen (-10) en (10)) graden naar rechts
+  keer om aan de rand
+end
+verwijder deze kloon
 ```
 
 + Test je hippocode. Je zou elke paar seconden een nieuwe nijlpaardkloon moeten zien verschijnen, elk met zijn eigen snelheid.
