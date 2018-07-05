@@ -6,13 +6,13 @@ Wanneer het ruimteschip wordt geraakt, moeten alle nijlpaarden verdwijnen om de 
 
 [[[generic-scratch-broadcast-message]]]
 
---- hints --- --- hint --- Maak een `-zend signaal 'geraakt'` blok door het blok uit de **gebeurtenissen** tab te slepen en klik vervolgens op het pijltje ernaast en selecteer **nieuw bericht...**. --- / hint --- --- hint --- Hier is hoe je blok eruit zou moeten zien:
+--- hints --- --- hint --- Maak een `-zend signaal 'geraakt'` blok door het blok uit de **gebeurtenissen** tab te slepen en klik vervolgens op het pijltje ernaast en selecteer **nieuw bericht...**. --- /hint --- --- hint --- Hier is hoe je blok eruit zou moeten zien:
 
 ```blocks
 zend signaal [geraakt v]
 ```
 
---- / hint --- --- hint --- Hier is hoe je blok eruit zou moeten zien:
+--- /hint --- --- hint --- Hier is hoe je blok eruit zou moeten zien:
 
 ```blocks
 wanneer groene vlag wordt aangeklikt
@@ -46,7 +46,7 @@ verander uiterlijk naar [normaal v]
 wacht tot <touching [Hippo1 v]>? 
 verander uiterlijk naar [geraakt v]
 zend signaal [geraakt]
-wacht (1) sec
+wacht (1) sec.
 ```
 
 --- challenge ---
