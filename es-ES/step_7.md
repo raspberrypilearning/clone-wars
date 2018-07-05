@@ -1,61 +1,61 @@
-## Disappearing hippos
+## Hipopótamos que desaparecen
 
-When the spaceship is hit, all the hippos should disappear to give the player a chance to recover.
+Cuando se encuentra la nave espacial, los hipopótamos deben desaparecer para dar al jugador una oportunidad para recuperar.
 
-+ Add a block to your code to `broadcast` the message "hit" when the spaceship is touching a hippo.
++ Añade un bloque a tu código para enviar un `broadcast` del mensaje "hit" cuando la nave espacial esté en contacto con un hipopótamo.
 
 [[[generic-scratch-broadcast-message]]]
 
-\--- hints \--- \--- hint \--- Create a `broadcast` 'hit' block by dragging the block from the **Events** tab and then clicking on the drop-down menu and selecting **new message**. \--- /hint \--- \--- hint \--- Here is what your block should look like:
+\--- hints \--- \--- hint \--- Crea un bloque `broadcast` 'hit' arrastrando el bloque de la pestaña **Eventos** y luego, haciendo clic en el menú desplegable y seleccionando **nuevo mensaje**. \--- /hint \--- \--- hint \--- Aquí están los bloques que necesitarás:
 
 ```blocks
 broadcast [hit v]
 ```
 
-\--- /hint \--- \--- hint \--- Here is what your code should look like:
+\--- /hint \--- \--- hint \--- Aquí está el código que necesitarás:
 
 ```blocks
-when flag clicked
-switch costume to [normal v]
-wait until <touching [Hippo1 v]>?
-switch costume to [hit v]
+al presionar la bandera
+cambia el disfraz a [normal v]
+espera hasta que <touching [Hippo1 v]>
+cambia el disfraz a [hit v]
 broadcast [hit v]
 ```
 
 \--- /hint \--- \--- /hints \---
 
-All of the `Hippo` sprite clones will hear this message, so you can now instruct them to disappear when the spaceship is hit.
+Todos los clones del sprite `Hippo` escuchará este mensaje, por lo que ahora puedes indicar que desaparecen cuando la nave espacial se ve afectada.
 
-+ Add this code to the `Hippo` sprite:
++ Agregue este código al sprite `hipopótamo`:
 
 ```blocks
-when I receive [hit v]
-delete this clone
+al recibir [hit v]
+elimina este clon
 ```
 
-+ Test out this code by starting a new game and deliberately colliding with a hippo.
++ Prueba este código comenzando un nuevo juego y chocando deliberadamente con un hipopótamo.
 
 ![screenshot](images/invaders-hippo-collide.png)
 
-After you get hit, hippos start reappearing but the spaceship has still exploded! Let's make it possible for the spaceship to reset itself after being hit.
+Después de ser golpeado, hipopótamos comienzan a reaparecer pero la nave espacial se ha disparado todavía! Vamos a hacer posible que la nave espacial reajuste después de ser golpeada.
 
-+ Add a `forever`{:class="blockcontrol"} block around all of your code to make the process repeat, and a `wait`{:class="blockcontrol"} block at the end to add a small pause before hippos begin appearing again.
++ Agrega un bloque `forever`{:class="blockcontrol"} alrededor de todo tu código para hacer que el processo se repita, y un bloque `esperar`{:class="blockcontrol"} al fin para agregar una pausa pequeña antes de que los hipopótamos comienzen a aparecerse una vez más.
 
 ```blocks
-when flag clicked
-forever
-    switch costume to [normal v]
-    wait until <touching [Hippo1 v]>?
-    switch costume to [hit v]
+al presionar la bandera
+para siempre
+    cambia el disfraz a [normal v]
+    hasta que <touching [Hippo1 v]>?
+    cambia el disfraz a [hit v]
     broadcast [hit v]
-    wait (1) secs
-end
+    espera (1) seg
+fin
 ```
 
 \--- challenge \---
 
-### Challenge: lives and score
+### Desafío: vidas y marcador
 
-At the moment, the player has infinite lives. Can you add `lives`{:class="blockdata"}, a `score`{:class="blockdata"}, or even a `highscore`{:class="blockdata"} to your game?
+Por el momento, el jugador tiene vidas infinitas. ¿Puedes añadir `vidas`{:class="blockdata"}, un `marcador`{:class="blockdata"}, o incluso una `puntuación alta`{:class="blockdata"} a tu juego?
 
 [[[generic-scratch-high-score]]] \--- /challenge \---
