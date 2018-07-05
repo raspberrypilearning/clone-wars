@@ -1,93 +1,94 @@
-## Lightning bolts
+## Foudre
 
-Let's give the spaceship the ability to fire lightning bolts!
+Donnons au vaisseau spatial la capacité de tirer des éclairs!
 
-+ Add the `Lightning` sprite from the Scratch library.
++ Ajouter le lutin `Lightning `de la bibliothèque Scratch.
 
-+ When the game is started, the `Lightning` sprite should be hidden until the spaceship fires its laser cannons, so add this code to the `Lightning` sprite:
++ Lorsque le jeu est lancé, le lutin doit être caché jusqu'à ce que le vaisseau spatial tire avec ses canons laser, ajoutez donc ce code au lutin :
 
 ```blocks
-when green flag clicked
-hide
+Quand le drapeau vert est cliqué
+cacher
+
 ```
 
-At the moment you have a pretty gigantic lightning bolt for the spaceship to fire!
+En ce moment, le vaisseau spatial a un joli éclair gigantesque à tirer!
 
-+ Attach some code below the blocks you just added to make the `Lightning` sprite smaller and to turn it upside down. Then it will look like it fires pointy end–first out of the spaceship.
++ Attachez du code sous les blocs que vous venez d'ajouter pour rendre le lutin ` Lightning ` plus petit et le retourner à l'envers. Ensuite, il semblera que l'extrémité pointue part du vaisseau du vaisseau spatial.
 
 ```blocks
-set size to (25) %
-point in direction (-90 v)
+régler la taille sur (25)% 
+pointer vers (-90 v)
 ```
 
-+ Switch to the `Spaceship` sprite by clicking on it in the Sprites panel below the Stage.
++ Passez au lutin ` vaisseau spatial ` en cliquant dessus dans le panneau Lutins sous la scène.
 
-+ Add some new code to make the `Spaceship` sprite create a new lightning bolt whenever the **space** key is pressed.
++ Ajouter du nouveau code pour faire que le ` vaisseau spatial ` crée un nouvel éclair quand la barre espace est pressée.
 
-\--- hints \--- \--- hint \--- Here is some pseudocode for you:
+\--- astuces \--- \--- indice \--- Voici un code pour vous:
 
-When the green flag is clicked Keep checking forever If the **space** key was pressed, create a clone of the `Lightning` sprite \--- /hint \--- \--- hint \--- Here are the blocks you will need:
+Lorsque le drapeau vert est cliqué, répéter indéfiniment Si la barre **espace** est enfoncée, créez un clone du lutin ` Lightning ` 
 
-![Hint](images/hint-lightning.png) \--- /hint \--- \--- hint \--- Here is the code you will need:
+![Indice](images/hint-lightning.png) \--- / hint \--- \--- indice \--- Voici le code dont vous aurez besoin:
 
 ```blocks
-when flag clicked
-forever
-    if <key [space v] pressed?> then
-        create clone of [Lightning v]
-    end
-end
+quand le drapeau vert est cliqué
+    répéter indéfiniment
+    si <key [space v] pressed?> alors
+      créer un clone de [lightning v]
+    stop 
+stop tout 
 ```
 
-\--- /hint \--- \--- /hints \---
+\--- / indice \--- \--- / indices \---
 
-+ Switch back to the `Lightning` sprite.
++ Revenez au lutin ` Lightning ` .
 
-+ Whenever a lightning bolt is created, it should appear and then move upwards until it reaches the top of the screen. Then it should disappear.
++ Chaque fois qu'un éclair est créé, il doit apparaître, puis se déplacer vers le haut jusqu'à ce qu'il atteigne le haut de l'écran. Ensuite, il doit disparaître.
 
-\--- hints \--- \--- hint \---
+\--- hint \--- \--- /hints \---
 
-When a new `Lightning` sprite clone appears:
+Quand un nouveau clone du lutin `Lightning` s’affiche :
 
-+ Display it
-+ Repeatedly move it up by `10` until it is touching the edge of the screen
-+ Then delete the clone \--- /hint \--- \--- hint \--- Here are the blocks you will need:
++ Afficher :
++ Déplacez-le de manière répétée de ` 10 ` jusqu'à ce qu'il touche le bord de l'écran
++ Puis supprimez le clone\---Conseil\---Voici les blocs dont vous aurez besoin :
 
-![Move lightning](images/move-hint-lightning.png) \--- /hint \--- \--- hint \--- Here is the code you will need to add to the `Lightning` sprite:
+![Coup de foudre](images/move-hint-lightning.png) \--- indice \--- Voici le code que vous devrez ajouter au lutin ` Lightning ` :
 
 ```blocks
-    when I start as a clone
-    show
-    repeat until <touching [edge v] ?>
-        change y by (10)
-    end
-    delete this clone
+    Quand je commence en tant que clone 
+    montrer 
+    répéter jusqu'à <touching [edge v] ?>
+        changer y par (10)
+    stop
+    supprimer ce clone
 ```
 
-\--- /hint \--- \--- /hints \---
+\--- / indice \--- \--- / indices \---
 
-+ Test your `Lightning` sprite by clicking the green flag and then pressing the **space** bar. When you press **space**, does lightning appear and move up the screen? What problem can you spot?
++ Testez votre lutin ` Lightning ` en cliquant sur le drapeau vert, puis en appuyant sur la barre **espace** . Lorsque vous appuyez sur ** espace ** , l'éclair apparaît-il et se dirige t'il vers le haut de l'écran? Quel problème pouvez-vous repérer?
 
-## \--- collapse \---
+## Question
 
-## title: Answer
+## titre: Réponse
 
-Oops — at the moment the lightning always fires from the same place, regardless of where the spaceship is!
+Oups - pour le moment la foudre tire toujours du même endroit, quel que soit l'endroit où se trouve le vaisseau spatial!
 
-Add this block just before the `show`{:class="blocklooks"} block to make the clone of the `Lightning` sprite move to the `Spaceship` sprite's position before it appears. This will make it look like the lightning bolt is firing out of the spaceship.
+Ajoutez ce bloc juste avant le bloc : `montrer` Pour faire que le clone se déplace vers la position du ` vaisseau spatial ` avant qu'il n'apparaisse. Cela donnera l'impression que l'éclair sort du vaisseau spatial.
 
 ```blocks
-go to [Spaceship v]
+aller à [Spaceship v]
 ```
 
 \--- /collapse \---
 
-+ Press the **space** key to test whether your lightning bolt now fires correctly.
++ Appuyez sur la barre **espace** pour tester si votre éclair se déclenche maintenant correctement.
 
-\--- challenge \---
+\--- défi \---
 
-### Challenge: fixing the lightning
+### Défi: réparer l'éclair
 
-What happens if you hold down the **space** key? Can you use a `wait`{:class="blockcontrol"} block to fix this?
+Que se passe-t-il si vous maintenez la barre ** espace ** enfoncée ? Pouvez-vous utiliser un bloc {: class = "blockcontrol"} ` attendre ` pour résoudre ce problème?
 
-\--- /challenge \---
+\--- /défi \---
