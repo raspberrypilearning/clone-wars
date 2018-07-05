@@ -1,0 +1,39 @@
+---
+hero_image: εικόνες / clone-wars.png
+theme: βιολέτα
+duration: 2
+listed: true
+ingredient: false
+copyedit: true
+curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
+title: Κλώνος πολέμους
+description: Δημιουργήστε ένα παιχνίδι στο οποίο θα πρέπει να αποθηκεύσετε τη Γη από τα τέρατα του διαστήματος
+original_url: https://codeclubprojects.org/en-GB/scratch/clone-wars
+interests: Παιχνίδια
+technologies: γρατσουνιά
+site_areas: projects
+hardware: ''
+software: scratch
+version: 4
+last_tested: 2017-01-01
+steps:
+  - 
+    title: Εισαγωγή
+  - 
+    title: Τι θα χρειαστείτε
+  - 
+    title: Κάνοντας ένα διαστημόπλοιο
+  - 
+    title: Κεραυνοί
+  - 
+    title: Φέτος διαστημικοί ιπποπόταμοι
+  - 
+    title: Εκρηκτικό διαστημόπλοιο
+  - 
+    title: Εξαφανισμένοι ιπποπόταμοι
+  - 
+    title: Φρούτα νυχτερίδα
+  - 
+    title: Τέλος παιχνιδιού
+  - 
+    title: 'Πρόκληση: βελτιώστε το παιχνίδι σας'
