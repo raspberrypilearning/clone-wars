@@ -35,13 +35,13 @@ verander x met (-4)
 
 + Voeg code toe in het `herhaal`{:class="blockcontrol"} blok om je ruimteschip naar rechts te verplaatsen wanneer de **rechter** pijltjestoets wordt ingedrukt.
 
---- hints --- --- hint --- Als je `4` van de positie van het ruimteschip aftrekt ging het naar links, hoe kun je in plaats daarvan het ruimteschip naar rechts laten bewegen met `4`? --- / hint --- --- hint --- Je moet hetzelfde blok gebruiken, maar met een andere waarde:
+--- hints --- --- hint --- Als je `4` van de positie van het ruimteschip aftrekt ging het naar links, hoe kun je in plaats daarvan het ruimteschip naar rechts laten bewegen met `4`? --- /hint --- --- hint --- Je moet hetzelfde blok gebruiken, maar met een andere waarde:
 
 ```blocks
 verander x met ( )
 ```
 
---- / hint --- --- hint --- Dit is de code die je nodig hebt om onder de andere code in het `herhaal`{:class="blockcontrol"} blok in te voegen:
+--- /hint --- --- hint --- Dit is de code die je nodig hebt om onder de andere code in het `herhaal`{:class="blockcontrol"} blok in te voegen:
 
 ```blocks
 als <key [right arrow v] pressed?> dan
