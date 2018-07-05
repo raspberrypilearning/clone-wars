@@ -1,26 +1,26 @@
 ## Introduction
 
-In this project you will learn how to create a game in which you have to save the Earth from space monsters.
+Dans ce projet, vous apprendrez à créer un jeu dans lequel vous devrez sauver la Terre des aliens.
 
-### What you will make
+### Qu'allez-vous faire
 
-Click the green flag in the example game below to start, and then press the **left** and **right** arrow keys to move the spaceship and the **space** key to shoot.
+Cliquez sur le drapeau vert dans le jeu de l'exemple ci-dessous pour démarrer, puis appuyez sur ** à gauche ** et ** droit ** touches fléchées pour déplacer le vaisseau spatial et **la touche espace** à tirer.
 
-Score as many points as you can by shooting flying space-hippos. You'll lose a life if you get hit by a hippo or by the oranges dropped by the fruit bats.
+Marquez autant de points que possible en tirant sur des hippopotames volants. Vous perdrez une vie si vous êtes frappé par un hippopotame ou par les oranges lâchées par les chauves souris.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/46018140/?autostart=false" frameborder="0"></iframe>
   <img src="images/invaders-final.png">
 </div>
 
-### What you will learn
+### Ce que vous apprendrez
 
-This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum){:target="_blank"}:
+Ce projet couvre des éléments des sections suivantes du [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum){: target = "_ blank"}:
 
-+ [Use basic programming constructs to create simple programs](https://www.raspberrypi.org/curriculum/programming/creator){:target="_blank"}
++ [ Utiliser des constructions de programmation de base pour créer des programmes simples ](https://www.raspberrypi.org/curriculum/programming/creator) {: target = "_ blank"}
 
-### Additional information for educators
+### Informations complémentaires pour les responsables de club
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/clone-wars/print){:target="_blank"} .
+Si tu as besoin d'imprimer ce projet, merci d'utiliser la [Version imprimable](https://projects.raspberrypi.org/en/projects/clone-wars/print) {: target = "_ blank"} .
 
-Use the link in the footer to access the GitHub repo for this project, which contains all resources (including an example finished project) in the ‘en/resources’ folder.
+Utilise le lien dans le pied de page pour accéder au dépôt GitHub pour ce projet, qui contient toutes les ressources (y compris un exemple d'un projet terminé) dans le dossier 'en / resources'.
