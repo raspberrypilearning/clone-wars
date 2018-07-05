@@ -1,85 +1,85 @@
-## Flying space-hippos
+## Hipopótamos espaciales voladores
 
-Let's add lots of flying hippos that will try to destroy your spaceship.
+Agreguemos muchos hipopótamos voladores que intentarán destruir tu nave espacial.
 
-+ Create a new sprite with the `Hippo1` image in the Scratch library. Use the **shrink** tool to make the `Hippo` sprite a similar size to the `Spaceship` sprite.
++ Crea un nuevo sprite con el imagen `hippo1` en la biblioteca Scratch. Utiliza la herramienta **shrink** para hacer que el sprite `hippo` sea un tamaño similar al sprite `nave espacial`.
 
 ![screenshot](images/invaders-hippo.png)
 
-+ Set the `Hippo` sprite's rotation style to be left-right only.
++ Establece el estilo de la rotación del sprite `hippo` para hacerlo izquierda a derecha solamente.
 
 [[[generic-scratch-sprite-rotation-style]]]
 
-+ Add some code to hide the `Hippo` sprite when the game starts.
++ Agregue un código para ocultar el sprite `hippo` cuando comienza el juego.
 
-\--- hints \--- \--- hint \--- The code for this is exactly the same as the code you used to hide the `Lightning` sprite when the game starts. \--- /hint \--- \--- hint \--- Here is the code you will need:
+\--- hints \--- \--- hint \--- El código para esto es exactamente el mismo quel el código que utilizaste para ocultar el sprite `relámpago` cuando comienza el juego. \--- /hint \--- \--- hint \--- Aquí está el código que necesitarás:
 
 ```blocks
-when green flag clicked
-hide
+al presionar la bandera verde
+oculta
 ```
 
 \--- /hint \--- \--- /hints \---
 
-+ Switch to the Stage by clicking on it in the bottom panel.
++ Cambia al escenario haciendo clic en él en el panel inferior.
 
-+ Add some code to the Stage to create a new hippo every few seconds.
++ Agregue un código al escenario para crear un nuevo hipopótamo cada pocos segundos.
 
-\--- hints \--- \--- hint \--- When the green flag is clicked: Repeatedly...
+\--- hints \--- \--- hint \--- Cuando se hace clic en la bandera verde: Repetidamente...
 
-+ Wait between 2 and 4 seconds
-+ Create a clone of the hippo sprite
++ Espera entre 2 y 4 segundos
++ Crea un clon del sprite de hipopótamo
 
-\--- /hint \--- \--- hint \--- Here are the blocks you will need: ![Clone hippo hint](images/clone-hippo-hint.png)
+\--- /hint \--- \--- hint \--- Aquí están los bloques que necesitarás: ![Clone hippo hint](images/clone-hippo-hint.png)
 
-\--- /hint \--- \--- hint \--- Here is the code you will need:
+\--- /hint \--- \--- hint \--- Aquí está el código que necesitarás:
 
 ```blocks
-when flag clicked
-forever
-    wait (pick random (2) to (4)) secs
-    create clone of [Hippo1 v]
-end
+al presionar la bandera
+para siempre
+    espera (elige un número aleatorio de segundas entre (2) y (4))
+    crea un clon de [Hippo1 v]
+fin
 ```
 
 \--- /hint \--- \--- /hints \---
 
-+ Switch back to the `Hippo` sprite.
++ Regresa al sprite `hipopótamo`.
 
-Each new hippo should appear at a random x-position, and each should have a random speed.
+Cada nuevo hipopótamo debe aparecer en una posición aleatoria x, y cada uno debe tener una velocidad aleatoria.
 
-+ Create a new variable called `speed`{:class="blockdata"} that is for the `Hippo` sprite only.
++ Crea una nueva variable que se llama `velocidad`{:class="blockdata"} que es solo para el sprite `hipopótamo`.
 
 [[[generic-scratch-add-variable]]]
 
-You'll know you've done this correctly when you can see that the variable has the name of the sprite next to it, like this:
+Sabrás que has hecho esto correctamente cuando puedes ver que la variable tiene el nombre del sprite al lado, así:
 
 ![screenshot](images/invaders-var-test.png)
 
-+ When each hippo clone starts, pick a random speed and starting place before showing it on the screen.
++ Cuando se inicia cada clon de hipopótamo, escoge una velocidad aleatoria y un punto de partida antes de mostrarlo en la pantalla.
 
 ```blocks
-when I start as a clone
-set [speed v] to (pick random (2) to (4))
-go to x: (pick random (-220) to (220)) y: (150)
-show
+al comenzar como un clon
+determina [speed v] para (escoger random (2) a (4))
+ve a x: (escoger random (-220) a (220)) y: (150)
+muestra
 ```
 
-+ Test your code by clicking the green flag. Does a new hippo appear every few seconds? At the moment your hippos won't move.
++ Prueba el código haciendo clic en la bandera verde. ¿El hipopótamo nuevo aparece cada pocos segundos? Por el momento no se moverá los hipopótamos.
 
-+ The hippo should move around randomly until it gets hit by a lightning bolt. To make that happen, attach this code below the blocks you just added:
++ El hipopótamo debe moverse al azar hasta que sea atropellado por un relámpago. Para que esto suceda, coloca este código debajo de los bloques que acabas de agregar:
 
 ```blocks
-repeat until <touching [lightning v] ?>
-    move (speed) steps
-    turn right (pick random (-10) to (10)) degrees
-    if on edge, bounce
-end
-delete this clone
+repite hasta <touching [lightning v] ?>
+    mueva (velocidad) pasos
+    girar a la derecha (escoge random (-10) a (10)) grados
+    si en el borde, rebota
+fin
+elimina este clon
 ```
 
-+ Test out your hippo code. You should see a new hippo clone appear every few seconds, each moving at its own speed.
++ Prueba el código de hipopótamo. Debe aparecer un nuevo clon de hipopótamo cada pocos segundos, cada movimiento a su propia velocidad.
     
     ![screenshot](images/hippo-clones.gif)
 
-+ Test your laser cannon. If you hit a hippo, does it vanish?
++ Prueba su cañón láser. Si golpeas a un hipopótamo, ¿desaparece?
