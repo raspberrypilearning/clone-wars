@@ -1,12 +1,12 @@
-## Make a spaceship
+## Haz una nave espacial
 
-Let's make a spaceship that will defend the Earth!
+¡Hagamos una nave espacial que defenderá la Tierra!
 
-+ Start a new Scratch project, and delete the cat sprite.
++ Comienza un nuevo proyecto de Scratch y elimina el sprite de gato.
 
 [[[generic-scratch-new-project]]]
 
-+ Add the `stars` backdrop and the `Spaceship` sprite to your project.
++ Añade el fondo de `estrellas` y el sprite de la `nave espacial` a tu proyecto.
     
     ![screenshot](images/invaders-sprites.png)
 
@@ -14,9 +14,9 @@ Let's make a spaceship that will defend the Earth!
 
 [[[generic-scratch-sprite-from-library]]]
 
-+ Use the **shrink** tool to make your `Spaceship` sprite a bit smaller, and position it near the bottom of the screen.
++ Usa la herramienta **shrink** para hacer tu sprite `nave espacial` un poco más pequeño y colocalo en la parte inferior de la pantalla.
 
-+ When the **left** arrow key is pressed, the spaceship should move to the left. Add this code to make your spaceship move left when the **left** arrow is pressed:
++ Cuando se presiona la tecla de dirección **izquierda**, lave espacial debería moverse hacia la izquierda. Añade este código para hacer que tu nave espacial se mueva hacia la izquierda cuando se presiona la tecla de dirección **izquierda**:
 
 ```blocks
     when flag clicked
@@ -27,28 +27,28 @@ Let's make a spaceship that will defend the Earth!
     end
 ```
 
-The x-axis goes from left to right on the Stage, so if you make the the spaceship's x-position smaller by substracting from it, it will move further to the left. This code is the part which makes your spaceship move left:
+El eje x va de izquierda a derecha en el escenario, así que si reduces la posición x de la nave espacial restando de ella, se moverá más hacia la izquierda. Este código es la parte que hace que tu nave espacial se mueva hacia la izquierda:
 
 ```blocks
-change x by (-4)
+cambia x por (-4)
 ```
 
-+ Add some more code inside the `forever`{:class="blockcontrol"} block to make your spaceship move to the right when the **right** arrow key is pressed.
++ Añade un poco más de código dentro del bloque `forever`{:class="blockcontrol"} para hacer que tu nave espacial se mueva hacia la derecha cuando se presiona la tecla de dirección **derecha**.
 
-\--- hints \--- \--- hint \--- If subtracting `4` from the spaceship's position made it move left, how could you make it move right by `4` instead? \--- /hint \--- \--- hint \--- You will need to use the same block, but with a different number:
+\--- hints \--- \--- hint \--- Si restando `4` de la posición de la nave espacial hizo que se moviera hacia la izquierda, ¿cómo puedes hacer que se mueva a la derecha por `4`? \--- /hint \--- \--- hint \--- Necesitarás usar el mismo bloque, pero con un número diferente:
 
 ```blocks
-change x by ( )
+cambia x por ( )
 ```
 
-\--- /hint \--- \--- hint \--- Here is the code you will need to add below the other code inside your `forever`{:class="blockcontrol"} block:
+\--- /hint \--- \--- hint \--- Aquí está el código que debes añadir debajo el otro código dentro de tu bloque `forever`{:class="blockcontrol"}:
 
 ```blocks
-if <key [right arrow v] pressed?> then
-    change x by (4)
-end
+si <key [right arrow v] pressed?> luego
+    cambia x por (4)
+final
 ```
 
 \--- /hint \--- \--- /hints \---
 
-+ Test your project by clicking the green flag. Can you make your spaceship move left and right with the arrow keys?
++ Prueba tu proyecto haciendo clic en la bandera verde. ¿Puedes hacer que tu nave se mueva a la izquierda y la derecha con las teclas de dirección?
