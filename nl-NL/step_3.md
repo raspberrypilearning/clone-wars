@@ -21,7 +21,7 @@ Laten we een ruimteschip maken dat de aarde zal verdedigen!
 ```blocks
     wanneer groene vlag wordt aangeklikt
   herhaal
-    als <key [left arrow v] pressed?> dan
+    als <toets [pijltje links v] ingedrukt?> dan
       verander x met (-4)
     einde
   einde
@@ -44,7 +44,7 @@ verander x met ( )
 --- /hint --- --- hint --- Dit is de code die je nodig hebt om onder de andere code in het `herhaal`{:class="blockcontrol"} blok in te voegen:
 
 ```blocks
-als <key [right arrow v] pressed?> dan
+als <toets [pijltje rechts v] ingedrukt?> dan
    verander x met (4)
 einde
 ```
