@@ -5,28 +5,32 @@ duration: 2
 listed: true
 ingredient: false
 copyedit: true
-curriculum: creator, design-0, programming-0, phys-comp-0, manufacture-0, community-0
-title: Clone wars
-description: Create a game in which you have to save the Earth from space monsters
+curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
+title: La guerre des clones
+description: Apprends à programmer ton propre jeu de bataille spatiale
 original_url: https://codeclubprojects.org/en-GB/scratch/clone-wars
-interests: 'games'
+interests: games
 technologies: scratch
-site_areas: codeclub, scratch
+site_areas: projects
+hardware: ''
+software: scratch
+version: 4
+last_tested: 2017-01-01
 steps:
   - 
     title: Introduction
   - 
-    title: What you will need
+    title: Fabrication d'un vaisseau spatial
   - 
-    title: Making a spaceship
+    title: Coup de tonnerre
   - 
-    title: Lightning bolts
+    title: Hippopotames spatiaux
   - 
-    title: Flying space-hippos
+    title: Une chauve-souris !
   - 
-    title: Exploding spaceship
+    title: Fin du jeu
   - 
-    title: Disappearing hippos
+    title: 'Défi : Améliorez votre jeu'
   - 
     title: Fruit bat
   - 
