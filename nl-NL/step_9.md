@@ -19,7 +19,7 @@ zend signaal [game over v] en wacht
 + Voeg deze code toe aan je `Game over` sprite, zodat aan het einde van het spel het bericht verschijnt:
 
 ```blocks
-wanneer op de vlag wordt geklikt
+wanneer groene vlag wordt aangeklikt
 verdwijn
 
 wanneer ik signaal [game over v] ontvang
