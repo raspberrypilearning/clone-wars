@@ -26,17 +26,17 @@ richt naar (-90) graden
 
 --- hints --- --- hint --- Hier is wat mogelijke code voor je:
 
-Wanneer op de groene vlag wordt geklikt herhaal als de **spatebalk** wordt ingedrukt, maak een kloon van de `bliksem` sprite --- / hint --- --- hint --- Dit zijn de blokken die je nodig hebt:
+Wanneer op de groene vlag wordt geklikt herhaal als de **spatebalk** wordt ingedrukt, maak een kloon van de `bliksem` sprite --- /hint --- --- hint --- Dit zijn de blokken die je nodig hebt:
 
-![Hint](images/hint-lightning.png) --- / hint --- --- hint --- Hier is de code die je nodig hebt:
+![Hint](images/hint-lightning.png) --- /hint --- --- hint --- Hier is de code die je nodig hebt:
 
 ```blocks
 wanneer groene vlag wordt aangeklikt
-  herhaal
-    als <key [space v] pressed?> dan
-      maak clone van [Lightning v]
-    einde
-  einde
+herhaal 
+  als <toets [spatiebalk v] ingedrukt?> dan 
+    maak kloon van [Lightning v]
+  end
+end
 ```
 
 --- /hint --- --- /hints ---
@@ -51,9 +51,9 @@ Wanneer een nieuwe clone van de `bliksem` sprite verschijnt:
 
 + Toon deze
 + Verplaats deze herhaaldelijk met `10` naar boven totdat het de rand van het scherm raakt
-+ Verwijder dan de kloon --- / hint --- --- hint --- Dit zijn de blokken die je nodig hebt:
++ Verwijder dan de kloon --- /hint --- --- hint --- Dit zijn de blokken die je nodig hebt:
 
-![Verplaatsen van de bliksemschicht](images/move-hint-lightning.png) --- / hint --- --- hint --- Hier is de code die je moet toevoegen aan de `Lightning` sprite:
+![Verplaatsen van de bliksemschicht](images/move-hint-lightning.png) --- /hint --- --- hint --- Hier is de code die je moet toevoegen aan de `Lightning` sprite:
 
 ```blocks
     wanneer ik als kloon start 
@@ -65,7 +65,7 @@ Wanneer een nieuwe clone van de `bliksem` sprite verschijnt:
 
 --- /hint --- --- /hints ---
 
-+ Test je `Lightning` Sprite door op de groene vlag te klikken en vervolgens op de ** spatiebalk ** te drukken. Wanneer je op de ** spatiebalk** drukt, verschijnt er een bliksem op het scherm? Welk probleem zie je?
++ Test je `Lightning` Sprite door op de groene vlag te klikken en vervolgens op de **spatiebalk** te drukken. Wanneer je op de **spatiebalk** drukt, verschijnt er een bliksem op het scherm? Welk probleem zie je?
 
 --- collapse ---
 ---
