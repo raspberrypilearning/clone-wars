@@ -1,8 +1,8 @@
-## Flying space-hippos
+## Hippopotames spatial volant
 
-Let's add lots of flying hippos that will try to destroy your spaceship.
+Ajoutons beaucoup d'hippopotames volants qui essaieront de détruire votre vaisseau spatial.
 
-+ Create a new sprite with the `Hippo1` image in the Scratch library. Use the **shrink** tool to make the `Hippo` sprite a similar size to the `Spaceship` sprite.
++ Créez un nouveau lutin avec l'image ` Hippo1 ` de la bibliothèque Scratch. Utilisez l'outil **rétrécir** pour faire que le lutin ` Hippo ` ait une taille similaire au lutin ` Spaceship `.
 
 ![screenshot](images/invaders-hippo.png)
 
@@ -12,14 +12,14 @@ Let's add lots of flying hippos that will try to destroy your spaceship.
 
 + Add some code to hide the `Hippo` sprite when the game starts.
 
-\--- hints \--- \--- hint \--- The code for this is exactly the same as the code you used to hide the `Lightning` sprite when the game starts. \--- /hint \--- \--- hint \--- Here is the code you will need:
+\--- hints \--- \--- hint \--- The code for this is exactly the same as the code you used to hide the `Lightning` sprite when the game starts. \--- / hint \--- \--- indice \--- Voici le code dont vous aurez besoin:
 
 ```blocks
 when green flag clicked
 hide
 ```
 
-\--- /hint \--- \--- /hints \---
+\--- / indice \--- \--- / indices \---
 
 + Switch to the Stage by clicking on it in the bottom panel.
 
@@ -27,8 +27,8 @@ hide
 
 \--- hints \--- \--- hint \--- When the green flag is clicked: Repeatedly...
 
-+ Wait between 2 and 4 seconds
-+ Create a clone of the hippo sprite
++ Attendez entre 2 et 4 secondes
++ Créer un clone du lutin hippopotame
 
 \--- /hint \--- \--- hint \--- Here are the blocks you will need: ![Clone hippo hint](images/clone-hippo-hint.png)
 
