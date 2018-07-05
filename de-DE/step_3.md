@@ -1,12 +1,12 @@
-## Make a spaceship
+## Baue ein Raumschiff
 
-Let's make a spaceship that will defend the Earth!
+Bauen wir ein Raumschiff, das die Erde verteidigen wird!
 
-+ Start a new Scratch project, and delete the cat sprite.
++ Starte ein neues Scratch-Projekt und lösche das Katzen-Sprite.
 
 [[[generic-scratch-new-project]]]
 
-+ Add the `stars` backdrop and the `Spaceship` sprite to your project.
++ Füge den ` Sterne Hintergrund ` hinzu und das ` Raumschiff `-Sprite zu deinem Projekt hinzu.
     
     ![screenshot](images/invaders-sprites.png)
 
@@ -14,23 +14,23 @@ Let's make a spaceship that will defend the Earth!
 
 [[[generic-scratch-sprite-from-library]]]
 
-+ Use the **shrink** tool to make your `Spaceship` sprite a bit smaller, and position it near the bottom of the screen.
++ Verwende das **Schrumpf-** Werkzeug, um dein ` Raumschiff` Sprite ein bisschen kleiner zu machen, und positioniere es am unteren Rand des Bildschirms.
 
-+ When the **left** arrow key is pressed, the spaceship should move to the left. Add this code to make your spaceship move left when the **left** arrow is pressed:
++ Wenn die **linke** Pfeiltaste gedrückt ist, soll das Raumschiff sich anch links bewegen. Füge den folgenden Code hinzu um das Raumschiff nach links zu bewegen, wenn die **linke** Pfeiltaste gedrückt ist:
 
 ```blocks
-    when flag clicked
-    forever
-        if <key [left arrow v] pressed?> then
-            change x by (-4)
+    wenn grüne Fahne angeklickt
+    wiederhole fortlaufend
+        falls <key [left arrow v] pressed?> dann
+            ändere x um (-4)
         end
     end
 ```
 
-The x-axis goes from left to right on the Stage, so if you make the the spaceship's x-position smaller by substracting from it, it will move further to the left. This code is the part which makes your spaceship move left:
+Die x-Achse geht von links nach rechts auf der Bühne, so dasssich das Schiff, wenn man die X-Position des Raumschiffs durch Subtraktion verkleinert wird, weiter nach links bewegt. Dieser Code ist der Teil, der das Raumschiff nach links bewegt:
 
 ```blocks
-change x by (-4)
+ändere x um (-4)
 ```
 
 + Add some more code inside the `forever`{:class="blockcontrol"} block to make your spaceship move to the right when the **right** arrow key is pressed.
