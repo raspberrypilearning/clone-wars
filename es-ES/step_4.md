@@ -1,93 +1,93 @@
-## Lightning bolts
+## Relámpagos
 
-Let's give the spaceship the ability to fire lightning bolts!
+¡Vamos a dar a la nave espacial la capacidad de disparar relámpagos!
 
-+ Add the `Lightning` sprite from the Scratch library.
++ Añade el sprite `relámpago` de la biblioteca Scratch.
 
-+ When the game is started, the `Lightning` sprite should be hidden until the spaceship fires its laser cannons, so add this code to the `Lightning` sprite:
++ Cuando se inicia el juego, el sprite `relámpago` debe quedar oculto hasta que la nave espacial dispara su cañónes láser, así que añade este código al sprite `relámpago`:
 
 ```blocks
-when green flag clicked
-hide
+al presionar la bandera verde
+oculta
 ```
 
-At the moment you have a pretty gigantic lightning bolt for the spaceship to fire!
+¡En este momento tienes un relámpago gigantesco que la nave espacial puede disparar!
 
-+ Attach some code below the blocks you just added to make the `Lightning` sprite smaller and to turn it upside down. Then it will look like it fires pointy end–first out of the spaceship.
++ Añade alguno código debajo de los bloques acabas de añadir para hacer el sprite `relámpago` más pequeño y darlo la vuelta. Entonces se verá como dispara primero el extremo puntiagudo de la nave espacial.
 
 ```blocks
-set size to (25) %
-point in direction (-90 v)
+configura el tamaño a (25) %
+apunta hacia la dirección (-90 v)
 ```
 
-+ Switch to the `Spaceship` sprite by clicking on it in the Sprites panel below the Stage.
++ Cambiar al sprite `nave espacial` haciendo clic en el panel de sprites debajo del escenario.
 
-+ Add some new code to make the `Spaceship` sprite create a new lightning bolt whenever the **space** key is pressed.
++ Añade alguno código nuevo para hacer que la `nave espacial` cree un relámpago nuevo cuando se presiona la barra de **espacio**.
 
-\--- hints \--- \--- hint \--- Here is some pseudocode for you:
+\--- hints \--- \--- hint \--- Aqui está alguno pseudocódigo para ti:
 
-When the green flag is clicked Keep checking forever If the **space** key was pressed, create a clone of the `Lightning` sprite \--- /hint \--- \--- hint \--- Here are the blocks you will need:
+Cuando se hace clic en la bandera verde Sigue revisando forever Si se presiona la barra de **espacio**, crea un clon del sprite `relámpago` \--- /hint \--- \--- hint \--- Aqui están los bloques que necesitarás:
 
-![Hint](images/hint-lightning.png) \--- /hint \--- \--- hint \--- Here is the code you will need:
+![Hint](images/hint-lightning.png) \--- /hint \--- \--- hint \--- Aquí está el código que necesitarás:
 
 ```blocks
-when flag clicked
-forever
-    if <key [space v] pressed?> then
-        create clone of [Lightning v]
-    end
-end
+cuando se hace clic en la bandera
+para siempre
+    si <key [space v] pressed?> luego
+        crea clon de [relámpago v]
+    fin
+fin
 ```
 
 \--- /hint \--- \--- /hints \---
 
-+ Switch back to the `Lightning` sprite.
++ Regresa al sprite `relámpago`.
 
-+ Whenever a lightning bolt is created, it should appear and then move upwards until it reaches the top of the screen. Then it should disappear.
++ Cada vez que un relámpago es creado, debería aparecer y luego moverse hacia arriba hasta que llegue a la parte superior de la pantall. Entonces debería desaparecer.
 
 \--- hints \--- \--- hint \---
 
-When a new `Lightning` sprite clone appears:
+Cuando aparece un nuevo clon del sprite `relámpago`:
 
-+ Display it
-+ Repeatedly move it up by `10` until it is touching the edge of the screen
-+ Then delete the clone \--- /hint \--- \--- hint \--- Here are the blocks you will need:
++ Muestralo
++ Repetidamente muevelo hacia arriba por `10` hasta que toque el borde de la pantalla
++ Luego, elimina el clon \--- /hint \--- \--- hint \--- Aquí están los bloques que necesitarás:
 
-![Move lightning](images/move-hint-lightning.png) \--- /hint \--- \--- hint \--- Here is the code you will need to add to the `Lightning` sprite:
+![Move lightning](images/move-hint-lightning.png) \--- /hint \--- \--- hint \--- Aquí esta el código que necesitarás para añadir el sprite `relámpago`:
 
 ```blocks
-    when I start as a clone
-    show
-    repeat until <touching [edge v] ?>
-        change y by (10)
-    end
-    delete this clone
+    cuando empiezo como un clon
+    muestra
+    repite hasta <touching [edge v] ?>
+        cambia y por (10)
+    fin
+    elimina este clon
 ```
 
 \--- /hint \--- \--- /hints \---
 
-+ Test your `Lightning` sprite by clicking the green flag and then pressing the **space** bar. When you press **space**, does lightning appear and move up the screen? What problem can you spot?
++ Prueba tu sprite `relámpago` haciendo clic en la bandera verde y luego presionando la barra de **espacio**. ¿Cuando presionas **espacio**, aparece un relápago y sube la pantalla? ¿Qué problema puedes detectar?
 
 ## \--- collapse \---
 
-## title: Answer
+## title: Respuesta
 
-Oops — at the moment the lightning always fires from the same place, regardless of where the spaceship is!
+¡Uy — en este momento el relámpago dispara siempre desde el mismo lugar, sin importar de dónde está la nave espacial!
 
-Add this block just before the `show`{:class="blocklooks"} block to make the clone of the `Lightning` sprite move to the `Spaceship` sprite's position before it appears. This will make it look like the lightning bolt is firing out of the spaceship.
+Agregue este bloque antes del bloque `muestra`{:class="blocklooks"} para hacer que el clon del sprite `relámpago` se mueva a la posición del sprite `nave` antes de que aparezca. Asía parecerá como si el relámpago está disparando desde la nave espacial.
 
 ```blocks
-go to [Spaceship v]
+ve a [nave espacial v]
 ```
 
 \--- /collapse \---
 
-+ Press the **space** key to test whether your lightning bolt now fires correctly.
++ Presiona la barra de **espacio** para probar si tu relámpago ya se dispara correctamente.
 
 \--- challenge \---
 
-### Challenge: fixing the lightning
+### Desafío: arreglar el relámpago
 
-What happens if you hold down the **space** key? Can you use a `wait`{:class="blockcontrol"} block to fix this?
+¿Qué sucede si mantienes presionada la barra de **espacio**? ¿Puedes utilizar un bloque `esperar` {:class="blockcontrol"} para solucionar este problema?
 
 \--- /challenge \---
