@@ -1,12 +1,12 @@
-## Make a spaceship
+## Créer un vaisseau spatial
 
-Let's make a spaceship that will defend the Earth!
+Créons un vaisseau spatial qui défendra la Terre!
 
-+ Start a new Scratch project, and delete the cat sprite.
++ Démarrez un nouveau projet Scratch et supprimez le lutin de chat.
 
 [[[generic-scratch-new-project]]]
 
-+ Add the `stars` backdrop and the `Spaceship` sprite to your project.
++ Ajouter les ` étoiles ` en arrière plan et le lutin ` vaisseau spatial ` à votre projet.
     
     ![screenshot](images/invaders-sprites.png)
 
@@ -14,41 +14,39 @@ Let's make a spaceship that will defend the Earth!
 
 [[[generic-scratch-sprite-from-library]]]
 
-+ Use the **shrink** tool to make your `Spaceship` sprite a bit smaller, and position it near the bottom of the screen.
++ Utilisez l'outil pour** rétrécir ** outil pour rendre votre ` vaisseau spatial ` un peu plus petit, et placez-le près du bas de l'écran.
 
-+ When the **left** arrow key is pressed, the spaceship should move to the left. Add this code to make your spaceship move left when the **left** arrow is pressed:
++ Quand la** flèche de gauche ** est enfoncée, le vaisseau spatial devrait se déplacer vers la gauche. Ajoutez ce code pour que votre vaisseau spatial se déplace vers la gauche lorsque la** touche ** est pressée:
 
 ```blocks
-    when flag clicked
-    forever
-        if <key [left arrow v] pressed?> then
-            change x by (-4)
-        end
-    end
+    quand le drapeau est cliqué
+    répéter indéfiniment
+    si <key [left arrow v] pressed?> alors changer par x (-4)
+    stop tout
 ```
 
-The x-axis goes from left to right on the Stage, so if you make the the spaceship's x-position smaller by substracting from it, it will move further to the left. This code is the part which makes your spaceship move left:
+L'axe des x va de gauche à droite sur la scène, donc si vous réduisez la position x de la navette spatiale , elle se déplacera plus vers la gauche. Ce code est la partie qui fait bouger votre vaisseau spatial vers la gauche:
 
 ```blocks
-change x by (-4)
+changer x par (-4)
 ```
 
-+ Add some more code inside the `forever`{:class="blockcontrol"} block to make your spaceship move to the right when the **right** arrow key is pressed.
++ Ajoutez un peu plus de code dans le {: class = "blockcontrol"} ` répéter indéfiniment ` pour que votre vaisseau spatial se déplace vers la droite lorsque le ** la flèche droite ** est enfoncée.
 
-\--- hints \--- \--- hint \--- If subtracting `4` from the spaceship's position made it move left, how could you make it move right by `4` instead? \--- /hint \--- \--- hint \--- You will need to use the same block, but with a different number:
+\--- astuces \--- \--- indice \--- En soustrayant ` 4 ` de la position du vaisseau spatial, il bouge a gauche, comment pourriez-vous le faire a la place bouger de ` 4 ` à droite ? \--- / hint \--- \--- indice \--- Vous devrez utiliser le même bloc, mais avec un nombre différent:
 
 ```blocks
-change x by ( )
+changer x par (4)
 ```
 
-\--- /hint \--- \--- hint \--- Here is the code you will need to add below the other code inside your `forever`{:class="blockcontrol"} block:
+\--- / hint \--- \--- indice \--- Voici le code que vous devrez ajouter sous l'autre code à l'intérieur de votre bloc {: class = "blockcontrol"}` répéter indéfiniment ` :
 
 ```blocks
-if <key [right arrow v] pressed?> then
-    change x by (4)
-end
+si <flèche de droite v> pressé
+alors changer x par (4)
+stop tout 
 ```
 
 \--- /hint \--- \--- /hints \---
 
-+ Test your project by clicking the green flag. Can you make your spaceship move left and right with the arrow keys?
++ Testez votre projet en cliquant sur le drapeau vert. Pouvez-vous déplacer votre vaisseau spatial à gauche et à droite avec les touches directionnelles?
