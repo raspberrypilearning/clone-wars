@@ -33,12 +33,12 @@ Die x-Achse geht von links nach rechts auf der Bühne, so dasssich das Schiff, w
 ändere x um (-4)
 ```
 
-+ Add some more code inside the `forever`{:class="blockcontrol"} block to make your spaceship move to the right when the **right** arrow key is pressed.
++ Füge nun weiteren Code innerhalb des `Wiederhole fortlaufend`{:class='blockcontrol'} Blocks hinzu, um das Raumschiff nach rechts zu bewegen, wenn die **rechte** Pfeiltaste gedrückt wird.
 
-\--- hints \--- \--- hint \--- If subtracting `4` from the spaceship's position made it move left, how could you make it move right by `4` instead? \--- /hint \--- \--- hint \--- You will need to use the same block, but with a different number:
+\--- Hinweise \--- \--- Hinweis \--- Wenn sich das Raumschiff nach links bewegt wenn man von seiner Position `4` abzieht, wie schafft man es dann, dass es sich stattdessen um `4` nach rechts bewegt? \--- / Hinweis \--- \--- Hinweis \--- Sie müssen den gleichen Block verwenden, aber mit einer anderen Ziffer:
 
 ```blocks
-change x by ( )
+ändere x um ( )
 ```
 
 \--- /hint \--- \--- hint \--- Here is the code you will need to add below the other code inside your `forever`{:class="blockcontrol"} block:
