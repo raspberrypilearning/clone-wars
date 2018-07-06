@@ -41,7 +41,7 @@ Die x-Achse geht von links nach rechts auf der Bühne, so dasssich das Schiff, w
 ändere x um ( )
 ```
 
-\--- /hint \--- \--- hint \--- Here is the code you will need to add below the other code inside your `forever`{:class="blockcontrol"} block:
+\--- / Hinweis \--- \--- Hinweis \--- Hier ist der Code, der unter dem anderen Code innerhalb des `Wiederhole fortlaufent`{: class = "blockcontrol"} Blocks hinzugefügt werden muss:
 
 ```blocks
 if <key [right arrow v] pressed?> then
