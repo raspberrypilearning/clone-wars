@@ -1,8 +1,8 @@
 ## المقدمة
 
-In this project you will learn how to create a game in which you have to save the Earth from space monsters.
+في هذا المشروع، ستتعلم كيف تصنع لعبة تُنقذ فيها كوكب الأرض من وحوش الفضاء المستنسخة.
 
-### What you will make
+### ما الذي ستصنعه
 
 Click the green flag in the example game below to start, and then press the **left** and **right** arrow keys to move the spaceship and the **space** key to shoot.
 
