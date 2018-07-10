@@ -4,7 +4,7 @@
 
 ### ما الذي ستصنعه
 
-Click the green flag in the example game below to start, and then press the **left** and **right** arrow keys to move the spaceship and the **space** key to shoot.
+انقر على العلم الأخضر الموجود في مثال اللعبة أدناه للبدء، ثم اضغط على مفتاحَي سهم إلى **اليسار** وسهم إلى **اليمين** لتحريك سفينة الفضاء، واضغط على مفتاح **المسافة** لإطلاق النيران.
 
 Score as many points as you can by shooting flying space-hippos. You'll lose a life if you get hit by a hippo or by the oranges dropped by the fruit bats.
 
