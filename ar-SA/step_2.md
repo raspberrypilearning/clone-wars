@@ -2,8 +2,8 @@
 
 ### العتاد/الأجهزة
 
-+ A computer capable of running Scratch 2.0
++ جهاز حاسب آلي يدعم تشغيل برنامج Scratch 2.0
 
-### Software
+### البرنامج
 
-+ Scratch 2.0 (either [online](https://scratch.mit.edu/projects/editor/){:target="_blank"} or [offline](https://scratch.mit.edu/scratch2download/){:target="_blank"})
++ برنامج Scratch 2.0 (سواء أكان [عبر الإنترنت](https://scratch.mit.edu/projects/editor/){:target="_blank"} أو [دون اتصال بالإنترنت](https://scratch.mit.edu/scratch2download/){:target="_blank"})
