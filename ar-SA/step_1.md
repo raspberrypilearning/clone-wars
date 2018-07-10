@@ -17,10 +17,10 @@
 
 يتناول هذا المشروع عناصر من الصفوف التالية من[ المناهج الرقمية الخاصة بـ Raspberry Pi](http://rpf.io/curriculum){:target="_blank"}:
 
-+ [Use basic programming constructs to create simple programs](https://www.raspberrypi.org/curriculum/programming/creator){:target="_blank"}
++ [استخدام تراكيب البرمجة الأساسية لإنشاء برامج بسيطة](https://www.raspberrypi.org/curriculum/programming/creator){:target="_blank"}
 
-### Additional information for educators
+### معلومات إضافية للمعلمين
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/clone-wars/print){:target="_blank"} .
+إذا كنت بحاجة إلى طباعة هذا المشروع، فيُرجى استخدام[نسخة سهلة الطباعة](https://projects.raspberrypi.org/en/projects/clone-wars/print){:target="_blank"} .
 
-Use the link in the footer to access the GitHub repo for this project, which contains all resources (including an example finished project) in the ‘en/resources’ folder.
+استخدم الرابط الموجود بتذييل الصفحة للوصول إلى مستودع GitHub الخاص بهذا المشروع، والذي يضم كل الموارد (بما في ذلك مثال لنموذج مكتمل) في مجلد ‘ar-Sa/resources’.
