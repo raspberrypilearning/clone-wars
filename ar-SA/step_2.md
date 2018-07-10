@@ -1,6 +1,6 @@
-## What you will need
+## ما ستحتاج إليه
 
-### Hardware
+### العتاد/الأجهزة
 
 + A computer capable of running Scratch 2.0
 
