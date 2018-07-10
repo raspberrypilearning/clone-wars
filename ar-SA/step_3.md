@@ -1,6 +1,6 @@
-## Make a spaceship
+## إنشاء سفينة فضاء
 
-Let's make a spaceship that will defend the Earth!
+لننشئ سفينة فضاء تدافع عن كوكب الأرض!
 
 + Start a new Scratch project, and delete the cat sprite.
 
