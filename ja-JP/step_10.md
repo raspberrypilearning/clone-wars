@@ -1,23 +1,23 @@
 \--- challenge \---
 
-## Challenge: improve your game
+## チャレンジ：ゲームをより良くする
 
-What improvements can you make to your game?
+ゲームをどうより良くしますか？
 
-Here are some ideas:
+下のアイデアを参考（さんこう）にしてください：
 
-+ Add health packs that you can collect to gain extra lives.
++ ゲームに健康（けんこう）パックを追加する。健康パックを獲得（かくとく）すると命が１つ増える。
 
-![screenshot](images/invaders-aid.png)
+![スクリーンショット](images/invaders-aid.png)
 
-+ Add floating rocks that your spaceship must avoid.
++ スペースシップがよけなければならない浮遊岩（ふゆうせき）を加える。
 
-![screenshot](images/invaders-rocks.png)
+![スクリーンショット](images/invaders-rocks.png)
 
-+ Make more enemies appear when your score gets to `100`.
++ プレイヤーが`100`点達すると、敵（カバやコウモリ）の数を増やす。
 
 ```blocks
-    wait until <(score) = [100]>
+    <(点数) = [100]> まで待つ
 ```
 
-\--- /challenge \---
+\--- challenge \---
