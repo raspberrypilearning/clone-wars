@@ -1,61 +1,61 @@
-## Disappearing hippos
+## Hippopotames disparus
 
-When the spaceship is hit, all the hippos should disappear to give the player a chance to recover.
+Lorsque le vaisseau spatial est touché, tous les hippopotames doivent disparaître pour permettre au joueur de récupérer.
 
-+ Add a block to your code to `broadcast` the message "hit" when the spaceship is touching a hippo.
++ Ajouter un bloc à votre code pour `diffuser` le message «touché » lorsque le vaisseau spatial entre en contact avec un hippopotame.
 
 [[[generic-scratch-broadcast-message]]]
 
-\--- hints \--- \--- hint \--- Create a `broadcast` 'hit' block by dragging the block from the **Events** tab and then clicking on the drop-down menu and selecting **new message**. \--- /hint \--- \--- hint \--- Here is what your block should look like:
+\--- hints \--- \--- hint \--- Créer une diffusion ` ` "touché" en faisant glisser le bloc des ** événements ** puis en cliquant sur le menu déroulant et en sélectionnant ** nouveau message ** . \---/hint\--- \---hint\--- Voici a quoi devrait ressembler votre bloc
 
 ```blocks
-broadcast [hit v]
+diffuser [touché v]
 ```
 
-\--- /hint \--- \--- hint \--- Here is what your code should look like:
+\---/hint\--- \---hint\--- Voici a quoi devrait ressembler votre bloc
 
 ```blocks
-when flag clicked
-switch costume to [normal v]
-wait until <touching [Hippo1 v]>?
-switch costume to [hit v]
-broadcast [hit v]
+lorsque le drapeau vert est cliqué 
+changez de costume pour [normal v]
+attendez jusqu'à <touché par [Hippo]>?
+changer de costume pour [touché v]
+diffuser [touché v]
 ```
 
 \--- /hint \--- \--- /hints \---
 
-All of the `Hippo` sprite clones will hear this message, so you can now instruct them to disappear when the spaceship is hit.
+Tous les clones ` Hippo ` entendront ce message, vous pouvez donc leur demander de disparaître lorsque le vaisseau spatial est touché.
 
-+ Add this code to the `Hippo` sprite:
++ Ajoutez ce code au lutin ` Hippo ` :
 
 ```blocks
-when I receive [hit v]
-delete this clone
+quand je reçois [touché v]
+effacer ce clone
 ```
 
-+ Test out this code by starting a new game and deliberately colliding with a hippo.
++ Testez ce code en commençant un nouveau jeu et en entrant en collision avec un hippopotame.
 
-![screenshot](images/invaders-hippo-collide.png)
+![capture d'écran](images/invaders-hippo-collide.png)
 
-After you get hit, hippos start reappearing but the spaceship has still exploded! Let's make it possible for the spaceship to reset itself after being hit.
+Après avoir été touché, les hippopotames commencent à réapparaître mais le vaisseau spatial a encore explosé! Permettons au vaisseau spatial de se réinitialiser après avoir été touché.
 
-+ Add a `forever`{:class="blockcontrol"} block around all of your code to make the process repeat, and a `wait`{:class="blockcontrol"} block at the end to add a small pause before hippos begin appearing again.
++ Ajouter une boucle ` indéfiniment ` {: class = "blockcontrol"} autour de tout votre code pour que le processus se répète, et un `attendre` {: class = "blockcontrol"} à la fin pour ajouter une petite pause avant que les hippopotames ne réapparaissent.
 
 ```blocks
-when flag clicked
-forever
-    switch costume to [normal v]
-    wait until <touching [Hippo1 v]>?
-    switch costume to [hit v]
-    broadcast [hit v]
-    wait (1) secs
-end
+lorsque le drapeau vert est cliqué
+répéter indéfiniment  
+   changez de costume pour [normal v]
+   attendez jusqu'à <touché par [Hippo]>?
+   changer de costume pour [touché v]
+   diffuser [touché v]
+   attendre (1) secondes
+terminer
 ```
 
 \--- challenge \---
 
-### Challenge: lives and score
+### Défi: vie et score
 
-At the moment, the player has infinite lives. Can you add `lives`{:class="blockdata"}, a `score`{:class="blockdata"}, or even a `highscore`{:class="blockdata"} to your game?
+Pour le moment, le joueur a des vies illimitées. Pouvez-vous ajouter des variables ` vies ` {: class = "blockdata"}, ` score ` {: class = "blockdata"}, ou même ` meilleur score ` {: class = "blockdata"} à votre jeu?
 
-[[[generic-scratch-high-score]]] \--- /challenge \---
+[[[generic-scratch-high-score]]] \--- / challenge \---
