@@ -1,23 +1,23 @@
-## Lightning bolts
+## Blitze
 
-Let's give the spaceship the ability to fire lightning bolts!
+Geben wir dem Raumschiff die Fähigkeit, Blitze abzufeuern!
 
-+ Add the `Lightning` sprite from the Scratch library.
++ Fügen Sie den ` Blitz hinzu ` Sprite aus der Scratch-Bibliothek.
 
-+ When the game is started, the `Lightning` sprite should be hidden until the spaceship fires its laser cannons, so add this code to the `Lightning` sprite:
++ Wenn das Spiel gestartet wird, soll der `Blitz`-Sprite ausgeblendet werden, bis das Raumschiff seine Laserkanonen abfeuert. Fügen Sie diesen Code zum `Lightning`-Sprite hinzu:
 
 ```blocks
-when green flag clicked
-hide
+Wenn grüne Flagge geklickt 
+verstecken
 ```
 
-At the moment you have a pretty gigantic lightning bolt for the spaceship to fire!
+Im Moment hast du einen ziemlich gigantischen Blitz den das Raumschiff feuert!
 
-+ Attach some code below the blocks you just added to make the `Lightning` sprite smaller and to turn it upside down. Then it will look like it fires pointy end–first out of the spaceship.
++ Fügen Sie unter den Blöcken, die Sie gerade hinzugefügt haben, Code ein, um den `Lightning` Sprite kleiner zu machen und umzudrehen. Dann wird es so aussehen, als würde ers mit dem spitzen Ende aus dem Raumschiff schießen.
 
 ```blocks
-set size to (25) %
-point in direction (-90 v)
+Setze Größe auf (25)% -
+zeige in Richtung (-90 v)
 ```
 
 + Switch to the `Spaceship` sprite by clicking on it in the Sprites panel below the Stage.
