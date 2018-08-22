@@ -1,18 +1,18 @@
-## Flying space-hippos
+## Leteći svemirski nilski konji
 
-Let's add lots of flying hippos that will try to destroy your spaceship.
+Dodajmo mnogo letećih nilskih konja koji će pokušati da unište tvoj svemirski brod.
 
-+ Create a new sprite with the `Hippo1` image in the Scratch library. Use the **shrink** tool to make the `Hippo` sprite a similar size to the `Spaceship` sprite.
++ Kreiraj novi lik koristeći sliku `Hippo1` iz Scratch biblioteke. Koristi alat **shrink** (smanji) da napraviš da lik `Nilskog konja` bude veličine slične veličini lika `Svemirskog broda`.
 
 ![screenshot](images/invaders-hippo.png)
 
-+ Set the `Hippo` sprite's rotation style to be left-right only.
++ Postavi stil rotacije (rotation style) lika `Nilskog konja` da bude samo lijevo-desno (left-right).
 
 [[[generic-scratch-sprite-rotation-style]]]
 
-+ Add some code to hide the `Hippo` sprite when the game starts.
++ Dodaj kôd da lik `Nilskog konja` bude sakriven kada igra započne.
 
-\--- hints \--- \--- hint \--- The code for this is exactly the same as the code you used to hide the `Lightning` sprite when the game starts. \--- /hint \--- \--- hint \--- Here is the code you will need:
+\--- hints \--- \--- hint \--- Kôd za to je potpuno isti kao kôd koji smo koristili za sakrivanje lika `Munje` kada igra započne. \--- /hint \--- \--- hint \--- Ovdje je kôd koji će ti biti potreban:
 
 ```blocks
 when green flag clicked
@@ -21,65 +21,65 @@ hide
 
 \--- /hint \--- \--- /hints \---
 
-+ Switch to the Stage by clicking on it in the bottom panel.
++ Pređi na Pozornicu (Stage) tako što ćeš kliknuti na nju u donjem panelu.
 
-+ Add some code to the Stage to create a new hippo every few seconds.
++ Dodaj Pozornici kôd da kreira novog nilskog konja svakih nekoliko sekundi.
 
-\--- hints \--- \--- hint \--- When the green flag is clicked: Repeatedly...
+\--- hints \--- \--- hint \--- Kada je kliknuto na zelenu zastavicu (when the green flag is clicked): Ponavljano (repeatedly)...
 
-+ Wait between 2 and 4 seconds
-+ Create a clone of the hippo sprite
++ Čekaj (wait) od 2 do 4 sekunde
++ Kreiraj klona (create a clon) lika nilskog konja
 
-\--- /hint \--- \--- hint \--- Here are the blocks you will need: ![Clone hippo hint](images/clone-hippo-hint.png)
+\--- /hint \--- \--- hint \--- Ovdje su blokovi koji će ti biti potrebni: ![Klon nilskog konja hint](images/clone-hippo-hint.png)
 
-\--- /hint \--- \--- hint \--- Here is the code you will need:
+\--- /hint \--- \--- hint \--- Ovdje je kôd koji će ti biti potreban:
 
 ```blocks
 when flag clicked
 forever
     wait (pick random (2) to (4)) secs
-    create clone of [Hippo1 v]
+    create clone of [Nilski konj v]
 end
 ```
 
 \--- /hint \--- \--- /hints \---
 
-+ Switch back to the `Hippo` sprite.
++ Vrati se na lik `Nilskog konja`.
 
-Each new hippo should appear at a random x-position, and each should have a random speed.
+Svaki novi nilski konj treba da se pojavi na slučajnoj x-poziciji i svaki treba da ima slučajnu brzinu.
 
-+ Create a new variable called `speed`{:class="blockdata"} that is for the `Hippo` sprite only.
++ Napravi novu promjenljivu (variable) pod nazivom `brzina`{:class="blockdata"} samo za lik `Nilskog konja`.
 
 [[[generic-scratch-add-variable]]]
 
-You'll know you've done this correctly when you can see that the variable has the name of the sprite next to it, like this:
+Znaćeš da si ovo pravilno uradio/uradila kada vidiš da pored naziva promjenljive stoji naziv lika, kao ovdje:
 
 ![screenshot](images/invaders-var-test.png)
 
-+ When each hippo clone starts, pick a random speed and starting place before showing it on the screen.
++ Kada klon nilskog konja krene, izaberi slučajnu brzinu i slučajno početno mjesto prije njegovog prikazivanja na ekranu.
 
 ```blocks
 when I start as a clone
-set [speed v] to (pick random (2) to (4))
+set [brzina v] to (pick random (2) to (4))
 go to x: (pick random (-220) to (220)) y: (150)
 show
 ```
 
-+ Test your code by clicking the green flag. Does a new hippo appear every few seconds? At the moment your hippos won't move.
++ Isprobaj svoj kôd tako što ćeš kliknuti na zelenu zastavicu. Da li se novi nilski konj pojavljuje svakih nekoliko sekundi? Trenutno se tvoji nilski konji ne kreću.
 
-+ The hippo should move around randomly until it gets hit by a lightning bolt. To make that happen, attach this code below the blocks you just added:
++ Nilski konj bi trebalo da se kreće nasumično dok ga ne pogodi munja. Da to napraviš, dodaj ovaj kôd ispod prethodno dodatih blokova:
 
 ```blocks
 repeat until <touching [lightning v] ?>
-    move (speed) steps
+    move (brzina) steps
     turn right (pick random (-10) to (10)) degrees
     if on edge, bounce
 end
 delete this clone
 ```
 
-+ Test out your hippo code. You should see a new hippo clone appear every few seconds, each moving at its own speed.
++ Isprobaj svoj kôd nilskog konja. Trebalo bi da vidiš da se novi klon nilskog konja pojavljuje svakih nekoliko sekundi i da se svaki kreće sopstvenom brzinom.
     
     ![screenshot](images/hippo-clones.gif)
 
-+ Test your laser cannon. If you hit a hippo, does it vanish?
++ Ispobaj svoj laserski top. Da li nilski konj nestaje kada ga pogodiš?
