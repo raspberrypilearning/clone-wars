@@ -1,54 +1,54 @@
-## Make a spaceship
+## スペースシップ（宇宙船）を作りましょう
 
-Let's make a spaceship that will defend the Earth!
+まずはあたらしいスクラッチプロジェクトを開けてねこのスプライトを消してください。
 
-+ Start a new Scratch project, and delete the cat sprite.
++ 新しいScratchプロジェクトを開き、ねこのスプライト（Sprite1）を削除してください。
 
 [[[generic-scratch-new-project]]]
 
-+ Add the `stars` backdrop and the `Spaceship` sprite to your project.
++ プロジェクトに`星（ほし）`（stars）の背景（はいけい）と`スペースシップ`のスプライト（Spaceship）をいれましょう。
     
-    ![screenshot](images/invaders-sprites.png)
+    ![スクリーンショット](images/invaders-sprites.png)
 
 [[[generic-scratch-backdrop-from-library]]]
 
 [[[generic-scratch-sprite-from-library]]]
 
-+ Use the **shrink** tool to make your `Spaceship` sprite a bit smaller, and position it near the bottom of the screen.
++ 上の**「縮小」**ツールを使って`スペースシップ`のスプライト（Spaceship）の大きさを小さくし、ステージの下の方におきましょう。
 
-+ When the **left** arrow key is pressed, the spaceship should move to the left. Add this code to make your spaceship move left when the **left** arrow is pressed:
++ スペースシップのスプライト（Spaceship）に以下のようなコードを加えましょう。**左**向き矢印キーを押したらスペースシップのスプライト（Spaceship）が**左**に動くようになります：
 
 ```blocks
-    when flag clicked
-    forever
-        if <key [left arrow v] pressed?> then
-            change x by (-4)
-        end
-    end
+    ⚑ がクリックされたとき
+ずっと 
+  もし <[左向き矢印 v] キーが押された> なら 
+    x座標を (-4) ずつ変える
+  end
+end
 ```
 
-The x-axis goes from left to right on the Stage, so if you make the the spaceship's x-position smaller by substracting from it, it will move further to the left. This code is the part which makes your spaceship move left:
+x軸はステージ上で左から右に向かっているので、スペースシップのx位置を示す数字を小さくすると、左に移動します。 以下のコードがスペースシップを動かすコードです。
 
 ```blocks
-change x by (-4)
+x座標を (-4) ずつ変える
 ```
 
-+ Add some more code inside the `forever`{:class="blockcontrol"} block to make your spaceship move to the right when the **right** arrow key is pressed.
++ **右**向き矢印キーを押すと、スペースシップが右に動くようになるコードを`ずっと`{:class="blockcontrol"}ブロックの中に加えましょう。
 
-\--- hints \--- \--- hint \--- If subtracting `4` from the spaceship's position made it move left, how could you make it move right by `4` instead? \--- /hint \--- \--- hint \--- You will need to use the same block, but with a different number:
+\--- hints \--- \--- hint \--- スペースシップの位置を示す数字から`4`を引くとスペースシップは4マス左に動きます。どのようにコードをかえればスペースシップは`4`マス右に動きますか？？ \--- /hint \--- \--- hint \--- 同じブロックを使用する必要がありますが、数字は異なります：
 
 ```blocks
-change x by ( )
+x座標を () ずつ変える
 ```
 
-\--- /hint \--- \--- hint \--- Here is the code you will need to add below the other code inside your `forever`{:class="blockcontrol"} block:
+\--- /hint \--- \--- hint \--- 以下のコードを`ずっと`{:class="blockcontrol"}ブロックの中に加える必要があります：
 
 ```blocks
-if <key [right arrow v] pressed?> then
-    change x by (4)
+もし <[右向き矢印 v] キーが押された> なら 
+  x座標を (4) ずつ変える
 end
 ```
 
 \--- /hint \--- \--- /hints \---
 
-+ Test your project by clicking the green flag. Can you make your spaceship move left and right with the arrow keys?
++ みどりのはたをクリックしてプロジェクトを実行してみましょう！やじるしキーを押すとスペースシップは思い通りに左右に動きますか？
