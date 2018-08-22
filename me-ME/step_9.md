@@ -1,31 +1,31 @@
-## Game over
+## Kraj igre
 
-Let's add a 'game over' message at the end of the game.
+Dodajmo poruku 'kraj igre' na kraju igre.
 
-+ If you haven't already, create a new variable called `lives`{:class="blockdata"}.
++ Ako to nisi već uradio/uradila, napravi novu promjenljivu pod nazivom `životi`{:class="blockdata"}.
 
-Your spaceship should start with three lives and lose a life whenever it touches a hippo or an orange. Your game should also stop when you run out of lives. If you need help, you can use the [Catch the dots](https://codeclubprojects.org/en-GB/scratch/catch-the-dots/) project to help you.
+Tvoj svemirski brod treba da počne sa tri života i da izgubi život svaki put kada dodirne nilskog konja ili pomorandžu. Takođe, tvoja igra treba da se završi kada ostaneš bez života. Ako ti je potrebna pomoć, možeš koristiti projekat [Uhvati tačke](https://codeclubprojects.org/en-GB/scratch/catch-the-dots/).
 
-+ Draw a new sprite called `Game Over` using the **text** tool.
++ Nacrtaj novi lik `Kraj igre`, koristeći alat za **tekst** (text).
 
 ![screenshot](images/invaders-game-over.png)
 
-+ On your Stage, broadcast a `game over`{:class="blockevents"} message just before the game ends.
++ Na Pozornici, pošalji poruku `kraj igre`{:class="blockevents"} malo prije nego što se igra završi.
 
 ```blocks
-broadcast [game over v] and wait
+broadcast [kraj igre v] and wait
 ```
 
-+ Add this code to your `Game Over` sprite, so that the message shows at the end of the game:
++ Dodaj ovaj kôd svom liku `Kraj igre`, tako da se poruka prikaže na kraju igre:
 
 ```blocks
 when flag clicked
 hide
 
-when I receive [game over v]
+when I receive [kraj igre v]
 show
 ```
 
-Because you've used a `broadcast [game over] and wait`{:class="blockevents"} block on your stage, it will wait for the `Game Over` sprite to be displayed before ending the game.
+Pošto si na svojoj pozornici koristio/koristila blok `broadcast [kraj igre] and wait`{:class="blockevents"}, ona će čekati da se lik `Kraj igre ` prikaže prije nego što završi igru.
 
-+ Test your game. How many points can you score? If it is too easy or too hard, can you think of ways to improve your game?
++ Isprobaj svoju igru. Koliko bodova možeš da sakupiš? Da li možeš da smisliš načine da poboljšaš svoju igru, ako je previše laka ili previše teška?
