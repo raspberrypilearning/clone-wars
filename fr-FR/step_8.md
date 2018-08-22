@@ -1,8 +1,8 @@
-## Fruit bat
+## Une chauve souris !
 
-To make the game a bit harder, let's make a fruit bat which throws oranges at the spaceship.
+Pour rendre le jeu un peu plus difficile, créons une chauve souris qui lance des oranges sur le vaisseau spatial.
 
-+ Add a `Bat` sprite and set its rotation style to **left–right** only.
++ Ajoutez un lutin `Bat` et faites lui faire une rotation **horaire** uniquement.
 
 + Make the `Bat` sprite `move`{:class="blockmotion"} from side to side across the top of the Stage `forever`{:class="blockcontrol"}. Remember to test out your code.
 
