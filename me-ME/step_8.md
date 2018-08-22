@@ -75,7 +75,7 @@ end
 
 + Klikni na lik `Pomorandže` i dodaj kôd da napraviš da svaki klon lika `Pomorandže` pada od lika `Slijepog miša` prema donjem dijelu Pozornice.
 
---- hints --- --- hint --- Ovaj kôd, koji želiš da dodaš, skoro je isti kao kôd unutar lika `Munje`, osim što lik `Pomorandže` treba da `ide na`{:class="blockmotion"} (go to) poziciju lika `Slijepog miša`, i treba da koristi blok `change y by` {:class="blockcontrol"} (promijeni y za) kako bi se kretao nadolje umjesto nagore. --- /hint --- --- hint --- Ovdje je kôd koji će ti biti potreban:
+--- hints --- --- hint --- Ovaj kôd, koji želiš da dodaš, skoro je isti kao kôd unutar lika `Munje`, osim što lik `Pomorandže` treba da `ide na`{:class="blockmotion"} (go to) poziciju lika `Slijepog miša`, i treba da koristi blok `change y by`{:class="blockcontrol"} (promijeni y za) kako bi se kretao nadolje umjesto nagore. --- /hint --- --- hint --- Ovdje je kôd koji će ti biti potreban:
 
 ```blocks
     when flag clicked

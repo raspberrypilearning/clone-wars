@@ -35,7 +35,7 @@ change x by (-4)
 
 + Dodaj još kôda unutar bloka `forever`{:class="blockcontrol"} (ponavljaj) da napraviš da se tvoj svemirski brod kreće udesno kada je pritisnut taster sa strelicom **udesno**.
 
-Ako smo oduzimanjem `4` od pozicije svemirskog broda napravili da se on kreće ulijevo, kako možeš da napraviš da se kreće udesno za `4`? --- /hint --- --- hint --- Treba da koristiš isti blok, samo sa drugim brojem:
+--- hints --- --- hint --- Ako smo oduzimanjem `4` od pozicije svemirskog broda napravili da se on kreće ulijevo, kako možeš da napraviš da se kreće udesno za `4`? --- /hint --- --- hint --- Treba da koristiš isti blok, samo sa drugim brojem:
 
 ```blocks
 change x by ( )

@@ -4,7 +4,7 @@ Dodajmo poruku 'kraj igre' na kraju igre.
 
 + Ako to nisi već uradio/uradila, napravi novu promjenljivu pod nazivom `životi`{:class="blockdata"}.
 
-Tvoj svemirski brod treba da počne sa tri života i da izgubi život svaki put kada dodirne nilskog konja ili pomorandžu. Takođe, tvoja igra treba da se završi kada ostaneš bez života. Ako ti je potrebna pomoć, možeš koristiti projekat [Uhvati tačke](https://codeclubprojects.org/en-GB/scratch/catch-the-dots/).
+Tvoj svemirski brod treba da počne sa tri života i da izgubi život svaki put kada dodirne nilskog konja ili pomorandžu. Takođe, tvoja igra treba da se završi kada ostaneš bez života. Ako ti je potrebna pomoć, možeš koristiti projekat [Uhvati tačke](https://projects.raspberrypi.org/me-ME/projects/catch-the-dots/).
 
 + Nacrtaj novi lik `Kraj igre`, koristeći alat za **tekst** (text).
 

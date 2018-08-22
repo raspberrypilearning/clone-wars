@@ -26,9 +26,11 @@ point in direction (-90 v)
 
 --- hints --- --- hint --- Ovdje je jedan pseudokôd za tebe:
 
-Kada je kliknuto na zelenu zastavicu (when the green flag is clicked) Neprestano (forever) provjeravaj Ako je pritisnut taster za ** razmak** (if the space key was pressed), kreiraj klona (create a clone) lika `munje` --- /hint --- --- hint --- Ovdje su blokovi koji će ti biti potrebni:
+Kada je kliknuto na zelenu zastavicu (when the green flag is clicked) Neprestano (forever) provjeravaj Ako je pritisnut taster za **razmak** (if the space key was pressed), kreiraj klona (create a clone) lika `munje` --- /hint --- --- hint --- Ovdje su blokovi koji će ti biti potrebni:
 
-![Hint](images/hint-lightning.png) --- /hint --- --- hint --- Ovdje je kôd koji će ti biti potreban:
+![Hint](images/hint-lightning.png) 
+
+--- /hint --- --- hint --- Ovdje je kôd koji će ti biti potreban:
 
 ```blocks
 when flag clicked
@@ -53,7 +55,9 @@ Kada se pojavi novi klon lika `Munje`:
 + Pomjeraj ga u više navrata nagore za `10`, dok ne dodirne vrh ekrana
 + Zatim izbriši klona --- /hint --- --- hint --- Ovdje su blokovi koji će ti biti potrebni:
 
-![Pomjeraj munju](images/move-hint-lightning.png) Ovdje je kôd koji treba da dodaš liku `Munje`:
+![Pomjeraj munju](images/move-hint-lightning.png) 
+
+--- /hint --- --- hint --- Ovdje je kôd koji treba da dodaš liku `Munje`:
 
 ```blocks
     when I start as a clone
