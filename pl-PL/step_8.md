@@ -1,31 +1,31 @@
-## Fruit bat
+## Owocowy nietoperz
 
-To make the game a bit harder, let's make a fruit bat which throws oranges at the spaceship.
+Aby uczynić grę była nieco trudniejszą, zróbmy owocowego nietoperza, który rzuca pomarańczami w statek kosmiczny.
 
 + Add a `Bat` sprite and set its rotation style to **left–right** only.
 
 + Make the `Bat` sprite `move`{:class="blockmotion"} from side to side across the top of the Stage `forever`{:class="blockcontrol"}. Remember to test out your code.
 
-![screenshot](images/invaders-bat.png)
+![zrzut ekranu](images/invaders-bat.png)
 
 \--- hints \--- \--- hint \--- When the flag is clicked, the `Bat` sprite should forever
 
-+ move 10 steps
-+ if it reaches the edge, bounce \--- /hint \--- \--- hint \--- Here is the code you will need:
++ przesuń o 10 kroków
++ jeśli osiągnie krawędź, odbij się \--- /hint \--- \--- hint \--- To jest kod, którego potrzebujesz:
 
 ```blocks
-when flag clicked
-forever
-    move (10) steps
-    if on edge, bounce
-end
+kiedy kliknięto flagę
+zawsze
+    przesuń o (10) kroków
+    jeśli na krawędzi, odbij się
+koniec
 ```
 
 \--- /hint \--- \--- /hints \---
 
-If you look at the bat's costumes, you'll see that it already has two different ones:
+Jeśli spojrzysz na kostiumy nietoperza, to zobaczysz, że ma już dwa:
 
-![screenshot](images/invaders-bat-costume.png)
+![zrzut ekranu](images/invaders-bat-costume.png)
 
 + Use the `next costume`{:class="blocklooks"} block to make the bat flap its wings as it moves.
 
@@ -54,7 +54,7 @@ Now let's make the bat throw oranges.
 
 + Add a new `Orange` sprite from the Scratch library.
 
-![screenshot](images/invaders-orange.png)
+![zrzut ekranu](images/invaders-orange.png)
 
 + Add code to your bat so that, when the flag is clicked, it waits for a random time between 5 and 10 seconds and then creates a clone of the `Orange` sprite.
 
@@ -106,4 +106,4 @@ end
     wait until < <touching [Hippo1 v]?> or <touching [Orange v]?>>
 ```
 
-+ Test your game. What happens if you get hit by a falling orange?
++ Przetestuj swoją grę. Co się stanie, jeśli uderzy cię spadająca pomarańcza?
