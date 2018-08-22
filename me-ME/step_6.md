@@ -1,24 +1,24 @@
-## Exploding spaceship
+## Eksplozija svemirskog broda
 
-When a hippo touches your spaceship, the ship should explode!
+Kada nilski konj dodirne tvoj svemirski brod, brod treba da eksplodira!
 
-+ Select the `Spaceship` sprite and rename the costume to 'normal'.
++ Izaberi lik `Svemirskog broda` i preimenuj kostim (costume) u 'normalan'.
 
-+ Draw another costume of the spaceship exploding and call it 'hit'.
++ Nacrtaj drugi kostim eksplozije svemirskog broda i nazovi ga 'udaren'.
 
 ![screenshot](images/invaders-spaceship-costumes.png)
 
-Or, if you don't want to draw the explosion, you could choose the 'Sun' costume from the Scratch library, and use the **Color a shape** tool to change its colour and remove the face.
+Ili, ako ne želiš da nacrtaš eksploziju, možeš da izabereš kostim 'Sun' (Sunce) iz Scratch biblioteke, a zatim da upotrijebiš alat **Color a shape** (Oboji oblik) da promijeniš njegovu boju i da ukloniš lice.
 
 ![screenshot](images/invaders-sun.png)
 
-+ Add some code to your `Spaceship` sprite so that it starts off displaying the spaceship costume, but when it touches a flying hippo, it switches to the 'hit' costume:
++ Dodaj kôd liku `Svemirskog broda` tako da krene prikazujući kostim svemirskog broda, a kada dodirne letećeg nilskog konja, da promijeni kostim u 'udaren':
 
 ```blocks
 when flag clicked
-switch costume to [normal v]
+switch costume to [normalan v]
 wait until <touching [Hippo1 v]>?
-switch costume to [hit v]
+switch costume to [udaren v]
 ```
 
-+ Test your code by playing the game and colliding with a hippo. Does the spaceship change to the 'hit' costume?
++ Isprobaj svoj kôd tako što ćeš odigrati igru i sudariti se sa nilskim konjem. Da li svemirski brod mijenja kostim u 'udaren'?
