@@ -1,31 +1,31 @@
-## Game over
+## Game Over
 
-Let's add a 'game over' message at the end of the game.
+Ajoutons un message 'game over' à la fin du jeu.
 
-+ If you haven't already, create a new variable called `lives`{:class="blockdata"}.
++ Si vous ne l'avez pas déjà fait, créez une nouvelle variable appelée ` vies ` {: class = "blockdata"}.
 
-Your spaceship should start with three lives and lose a life whenever it touches a hippo or an orange. Your game should also stop when you run out of lives. If you need help, you can use the [Catch the dots](https://codeclubprojects.org/en-GB/scratch/catch-the-dots/) project to help you.
+Votre vaisseau spatial devrait commencer avec trois vies et perdre une vie chaque fois qu'il touche un hippopotame ou une orange. Votre jeu devrait également s'arrêter lorsque vous n'avez plus de vie. Si vous avez besoin d'aide, vous pouvez utiliser le projet [ Catch the dots ](https://codeclubprojects.org/en-GB/scratch/catch-the-dots/) pour vous aider.
 
-+ Draw a new sprite called `Game Over` using the **text** tool.
++ Dessine un nouveau sprite appelé ` Game Over ` en utilisant le texte ** ** outil.
 
-![screenshot](images/invaders-game-over.png)
+![capture d'écran](images/invaders-game-over.png)
 
-+ On your Stage, broadcast a `game over`{:class="blockevents"} message just before the game ends.
-
-```blocks
-broadcast [game over v] and wait
-```
-
-+ Add this code to your `Game Over` sprite, so that the message shows at the end of the game:
++ Sur votre scène, diffuser un message ` game over ` {: class = "blockevents"} juste avant la fin de la partie.
 
 ```blocks
-when flag clicked
-hide
-
-when I receive [game over v]
-show
+diffusion [game over v] et attendez
 ```
 
-Because you've used a `broadcast [game over] and wait`{:class="blockevents"} block on your stage, it will wait for the `Game Over` sprite to be displayed before ending the game.
++ Ajoutez ce code à votre lutin `Game Over`, jusqu'à ce que le message indique à la fin du jeu :
 
-+ Test your game. How many points can you score? If it is too easy or too hard, can you think of ways to improve your game?
+```blocks
+quand le drapeau cliqué
+cacher
+
+quand je reçois [game over v]
+montrer
+```
+
+Parce que vous avez utilisé un bloc `diffuser [game over] et attendre` { : class = « blockevents »} sur votre scène, le lutin `Game Over` attendra après avoir été afficher avant de terminer le jeu.
+
++ Testez votre jeu. Combien de points pouvez-vous marquer? Si c'est trop facile ou trop difficile, pouvez-vous trouver des moyens d'améliorer votre jeu?
