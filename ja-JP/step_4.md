@@ -1,93 +1,93 @@
-## Lightning bolts
+## いなずま
 
-Let's give the spaceship the ability to fire lightning bolts!
+スペースシップがいなずまをうてるようにしましょう！
 
-+ Add the `Lightning` sprite from the Scratch library.
++ スクラッチのライブラリーから`いなずま`のスプライト（Lightning）を追加します。
 
-+ When the game is started, the `Lightning` sprite should be hidden until the spaceship fires its laser cannons, so add this code to the `Lightning` sprite:
++ スペースシップがうちはじめるまでいなずまのスプライトを隠した状態にしましょう。そのために以下のコードを`いなずま`のスプライトに追加してください：
 
 ```blocks
-when green flag clicked
-hide
+⚑ がクリックされたとき
+隠す
 ```
 
-At the moment you have a pretty gigantic lightning bolt for the spaceship to fire!
+現時点では、いなずまが大きすぎです！スペースシップがうってもいなずまをうっているように見えません！
 
-+ Attach some code below the blocks you just added to make the `Lightning` sprite smaller and to turn it upside down. Then it will look like it fires pointy end–first out of the spaceship.
++ `いなずま`を小さくし、ひっくり返すコードを先ほど加えたコードの下にたしてください。これでスペースシップからいなずまがうたれているようにみえるでしょう。
 
 ```blocks
-set size to (25) %
-point in direction (-90 v)
+大きさを (25) % にする
+(-90 v) 度に向ける
 ```
 
-+ Switch to the `Spaceship` sprite by clicking on it in the Sprites panel below the Stage.
++ `スペースシップ`のスプライトをスプライトパネルからせんたくしてください（クリック）。
 
-+ Add some new code to make the `Spaceship` sprite create a new lightning bolt whenever the **space** key is pressed.
++ **スペース**キーを押したら`スペースシップ`がいなずまをうつようにするコードを加えましょう。
 
-\--- hints \--- \--- hint \--- Here is some pseudocode for you:
+\--- hints \--- \--- hint \--- ヒントのコードです：
 
-When the green flag is clicked Keep checking forever If the **space** key was pressed, create a clone of the `Lightning` sprite \--- /hint \--- \--- hint \--- Here are the blocks you will need:
+みどりのはたがクリックされたとき、スペースキーが押されたかずっと確認する。もしスペースキーが押されたら`いなずま`のスプライトをクローン（追加）。 \--- /hint \--- \--- hint \--- 必要なコードは下記です：
 
-![Hint](images/hint-lightning.png) \--- /hint \--- \--- hint \--- Here is the code you will need:
+![ヒント](images/hint-lightning.png) \--- /hint \--- \--- hint \--- 必要なコード：
 
 ```blocks
-when flag clicked
-forever
-    if <key [space v] pressed?> then
-        create clone of [Lightning v]
-    end
+⚑ がクリックされたとき
+ずっと 
+  もし <[スペース v] キーが押された> なら 
+    [Lightning v] のクローンを作る
+  end
 end
 ```
 
 \--- /hint \--- \--- /hints \---
 
-+ Switch back to the `Lightning` sprite.
++ それではスペースキーを押して`いなずま`が正しくうたれているかテストしましょう！
 
-+ Whenever a lightning bolt is created, it should appear and then move upwards until it reaches the top of the screen. Then it should disappear.
++ いなずまのスプライトは表示された瞬間、画面上の端（はじ）にふれるまで上に移動するはずです。画面のはじにたどり着いたら画面から消えるはずです。
 
 \--- hints \--- \--- hint \---
 
-When a new `Lightning` sprite clone appears:
+いなずまのスプライトがクローンされたとき：
 
-+ Display it
-+ Repeatedly move it up by `10` until it is touching the edge of the screen
-+ Then delete the clone \--- /hint \--- \--- hint \--- Here are the blocks you will need:
++ いなずまのスプライトを表示する。
++ 画面の端にふれるまで、上にスプライトを`10` マスずつ動かす。
++ いなずまのスプライトが画面の端にふれたら、消えるようにする。 \--- /hint \--- \--- hint \--- 必要なコードブロック：
 
-![Move lightning](images/move-hint-lightning.png) \--- /hint \--- \--- hint \--- Here is the code you will need to add to the `Lightning` sprite:
+![いなずまを動かす](images/move-hint-lightning.png) \--- /\--- /hint \--- \--- hint \--- `いなずま`のスプライトを画面に表示し、移動させるコードは以下のとおりです：
 
 ```blocks
-    when I start as a clone
-    show
-    repeat until <touching [edge v] ?>
-        change y by (10)
-    end
-    delete this clone
+    クローンされたとき
+表示する
+<[端 v] に触れた> まで繰り返す 
+  y座標を (10) ずつ変える
+end
+このクローンを削除する
 ```
 
 \--- /hint \--- \--- /hints \---
 
-+ Test your `Lightning` sprite by clicking the green flag and then pressing the **space** bar. When you press **space**, does lightning appear and move up the screen? What problem can you spot?
++ いなずまのスプライトをテストしてみましょう。みどりのはたをまずクリックし、その後**スペース**キーを押してください。 **スペース**キーを押すと、いなずまのスプライトは表示され、上に移動してますか？ 問題を発見できましたか？
 
 ## \--- collapse \---
 
-## title: Answer
+## title: 答え
 
-Oops — at the moment the lightning always fires from the same place, regardless of where the spaceship is!
+おっと！スペースシップの位置にかぎらず、いなずまはつねに同じいちからうたれています！
 
-Add this block just before the `show`{:class="blocklooks"} block to make the clone of the `Lightning` sprite move to the `Spaceship` sprite's position before it appears. This will make it look like the lightning bolt is firing out of the spaceship.
+下のブロックを`表示する`{:class="blocklooks"} ブロックの上に追加しましょう。表示される前に、いなずまの位置をスペースシップの位置にあわせるコードです。 これでいなずまがスペースシップからうたれてるように見えますね。
 
 ```blocks
-go to [Spaceship v]
+[Spaceship v] へ行く
 ```
 
 \--- /collapse \---
 
-+ Press the **space** key to test whether your lightning bolt now fires correctly.
++ それでは**スペース**キーを押していなずまが正しくうたれているかテストしましょう！
 
 \--- challenge \---
 
-### Challenge: fixing the lightning
+### チャレンジ：いなずまを直そう
 
-What happens if you hold down the **space** key? Can you use a `wait`{:class="blockcontrol"} block to fix this?
+もしスペースキーを押しつづけたらどうなりますか？`待つ`{:class="blockcontrol"}のブロックでなおせますか？
 
 \--- /challenge \---
