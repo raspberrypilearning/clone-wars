@@ -8,7 +8,7 @@ Bauen wir ein Raumschiff, das die Erde verteidigen wird!
 
 + Füge den ` Sterne Hintergrund ` hinzu und das ` Raumschiff `-Sprite zu deinem Projekt hinzu.
     
-    ![screenshot](images/invaders-sprites.png)
+    ![Bildschirmfoto](images/invaders-sprites.png)
 
 [[[generic-scratch-backdrop-from-library]]]
 
@@ -44,11 +44,11 @@ Die x-Achse geht von links nach rechts auf der Bühne, so dasssich das Schiff, w
 \--- / Hinweis \--- \--- Hinweis \--- Hier ist der Code, der unter dem anderen Code innerhalb des `Wiederhole fortlaufent`{: class = "blockcontrol"} Blocks hinzugefügt werden muss:
 
 ```blocks
-if <key [right arrow v] pressed?> then
-    change x by (4)
+falls <key [right arrow v] pressed?> dann
+  ändere x um (4)
 end
 ```
 
-\--- /hint \--- \--- /hints \---
+\--- / Hinweis \--- \--- / Hinweise \---
 
-+ Test your project by clicking the green flag. Can you make your spaceship move left and right with the arrow keys?
++ Testen Sie Ihr Projekt, indem Sie auf die grüne Flagge klicken. Kannst du dein Raumschiff mit den Pfeiltasten nach links und rechts bewegen?
