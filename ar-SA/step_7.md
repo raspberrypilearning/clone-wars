@@ -1,61 +1,61 @@
-## Disappearing hippos
+## إخفاء أفراس النهر الفضائية الطائرة
 
-When the spaceship is hit, all the hippos should disappear to give the player a chance to recover.
+عندما تصطدم سفينة الفضاء، يجب أن تختفي كل الأفراس لإعطاء اللاعب فرصة لاستعادة قوته.
 
-+ Add a block to your code to `broadcast` the message "hit" when the spaceship is touching a hippo.
++ أضف لبنة إلى التعليمة البرمجية لـ`بث` رسالة "اصطدام" عندما تلامس سفينة الفضاء فرسًا.
 
 [[[generic-scratch-broadcast-message]]]
 
-\--- hints \--- \--- hint \--- Create a `broadcast` 'hit' block by dragging the block from the **Events** tab and then clicking on the drop-down menu and selecting **new message**. \--- /hint \--- \--- hint \--- Here is what your block should look like:
+\--- hints \--- \--- hint \--- أنشئ لبنة `بُث` 'اصطدام' من خلال سحب لبنة من علامة التبويب **الأحداث** ثم النقر على القائمة المنسدلة و تحديد **رسالة جديدة**. \--- /hint \--- \--- hint \--- يجب أن تكون التعليمة البرمجية كما يلي:
 
 ```blocks
-broadcast [hit v]
+بث [hit v]
 ```
 
-\--- /hint \--- \--- hint \--- Here is what your code should look like:
+\--- /hint \--- \--- hint \--- يجب أن تكون التعليمة البرمجية كما يلي:
 
 ```blocks
-when flag clicked
-switch costume to [normal v]
-wait until <touching [Hippo1 v]>?
-switch costume to [hit v]
-broadcast [hit v]
+عند نقر ⚑
+غيّر المظهر إلى [normal v]
+انتظر حتى <ملامس لـ [Hippo1 v] ؟>
+غيّر المظهر إلى [hit v]
+بث [hit v]
 ```
 
 \--- /hint \--- \--- /hints \---
 
-All of the `Hippo` sprite clones will hear this message, so you can now instruct them to disappear when the spaceship is hit.
+ستتلقى كل نسخ كائن `Hippo` هذه الرسالة، لذا يمكنك الآن أن تأمرهم بالإختفاء عندما تصطدم سفينة الفضاء.
 
-+ Add this code to the `Hippo` sprite:
++ أضف هذه التعليمات البرمجية إلى كائن `Hippo`:
 
 ```blocks
-when I receive [hit v]
-delete this clone
+عندما تستقبل [hit v]
+احذف هذه النسخة
 ```
 
-+ Test out this code by starting a new game and deliberately colliding with a hippo.
++ اختبر هذه التعليمة البرمجية ببدء لعبة جديدة وجعل السفينة تصطدم بفرس.
 
-![screenshot](images/invaders-hippo-collide.png)
+![لقطة الشاشة](images/invaders-hippo-collide.png)
 
-After you get hit, hippos start reappearing but the spaceship has still exploded! Let's make it possible for the spaceship to reset itself after being hit.
+بعد اصطدام السفينة، تبدأ الأفراس في الظهور مرة أخرى في الوقت الذي لا تزال فيه السفينة متفجرة! لنعطِ فرصة للسفينة لتستعيد نفسها بعد الاصطدام.
 
-+ Add a `forever`{:class="blockcontrol"} block around all of your code to make the process repeat, and a `wait`{:class="blockcontrol"} block at the end to add a small pause before hippos begin appearing again.
++ أضف لبنة `كرِّر باستمرار`{:class="blockcontrol"} بحيث تشمل كل التعليمة البرمجية لكي تتكرر العملية، و لبنة `انتظر`{:class="blockcontrol"} في النهاية لإضافة فترة إيقاف مؤقت قصيرة قبل أن تبدأ الأفراس في الظهور مرة أخرى.
 
 ```blocks
-when flag clicked
-forever
-    switch costume to [normal v]
-    wait until <touching [Hippo1 v]>?
-    switch costume to [hit v]
-    broadcast [hit v]
-    wait (1) secs
+عند نقر ⚑
+كرر باستمرار 
+  غيّر المظهر إلى [normal v]
+  انتظر حتى <ملامس لـ [Hippo1 v] ؟>
+  غيّر المظهر إلى [hit v]
+  بث [hit v]
+  انتظر (1) ثانية
 end
 ```
 
 \--- challenge \---
 
-### Challenge: lives and score
+### التحدي: المحاولات و النتيجة
 
-At the moment, the player has infinite lives. Can you add `lives`{:class="blockdata"}, a `score`{:class="blockdata"}, or even a `highscore`{:class="blockdata"} to your game?
+في الوقت الحالي، لدى اللاعب عدد لانهائي من المحاولات. هل يمكنك إضافة `محاولات`{:class="blockdata"} أو `نتيجة`{:class="blockdata"} أو حتى `أعلى نتيجة`{:class="blockdata"} إلى لعبتك؟
 
 [[[generic-scratch-high-score]]] \--- /challenge \---
