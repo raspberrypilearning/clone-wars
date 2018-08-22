@@ -1,31 +1,31 @@
-## Game over
+## انتهت اللعبة
 
-Let's add a 'game over' message at the end of the game.
+لنُضِف رسالة 'انتهت اللعبة' في نهاية اللعبة.
 
-+ If you haven't already, create a new variable called `lives`{:class="blockdata"}.
++ إذا لم تكن قد أنشأتَ متغيرًا جديدًا يُسمى `المحاولات`{:class="blockdata"}، فأنشئه.
 
-Your spaceship should start with three lives and lose a life whenever it touches a hippo or an orange. Your game should also stop when you run out of lives. If you need help, you can use the [Catch the dots](https://codeclubprojects.org/en-GB/scratch/catch-the-dots/) project to help you.
+يجب أن تبدأ سفينة الفضاء بثلاث محاولات وتخسر محاولة عندما تلامس فرسًا أو برتقالة. كما يجب أن تتوقف لعبتك عندما تنفد المحاولات. إذا كنت تحتاج إلى مساعدة، فيمكنك استخدام مشروع [جمع النقاط](https://codeclubprojects.org/en-GB/scratch/catch-the-dots/) لمساعدتك.
 
-+ Draw a new sprite called `Game Over` using the **text** tool.
++ ارسم كائنًا جديدًا يُسمى `انتهت اللعبة` باستخدام أداة **النصوص**.
 
-![screenshot](images/invaders-game-over.png)
+![لقطة شاشة](images/invaders-game-over.png)
 
-+ On your Stage, broadcast a `game over`{:class="blockevents"} message just before the game ends.
-
-```blocks
-broadcast [game over v] and wait
-```
-
-+ Add this code to your `Game Over` sprite, so that the message shows at the end of the game:
++ على المنصة، بُث رسالة `انتهت اللعبة`{:class="blockevents"} قبل أن تنتهي اللعبة مباشرة.
 
 ```blocks
-when flag clicked
-hide
-
-when I receive [game over v]
-show
+بث [game over v] وانتظر
 ```
 
-Because you've used a `broadcast [game over] and wait`{:class="blockevents"} block on your stage, it will wait for the `Game Over` sprite to be displayed before ending the game.
++ أضف هذه التعليمة البرمجية إلى كائن `انتهت اللعبة`، بحيث تظهر الرسالة في نهاية اللعبة:
 
-+ Test your game. How many points can you score? If it is too easy or too hard, can you think of ways to improve your game?
+```blocks
+عند نقر ⚑
+اختف
+
+عندما تستقبل [game over v]
+اظهر
+```
+
+لأنك استخدمتَ لبنة `بُث [انتهت اللعبة] وانتظر`{:class="blockevents"} على المنصة، فستنتظر المنصة حتى ظهور كائن `انتهت اللعبة` قبل إنهاء اللعبة.
+
++ اختبر لعبتك. كم عدد النقاط التي يمكنك إحرازها؟ إذا كانت اللعبة سهلة جدًا أو صعبة جدًا، فهل يمكنك التفكير في طرق لتحسين لعبتك؟
