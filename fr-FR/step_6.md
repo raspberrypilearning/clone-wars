@@ -1,24 +1,24 @@
-## Exploding spaceship
+## L'explosion du vaisseau
 
-When a hippo touches your spaceship, the ship should explode!
+Quand un hippopotame touche votre vaisseau spatial, il devrait exploser !
 
-+ Select the `Spaceship` sprite and rename the costume to 'normal'.
++ Sélectionnez le lutin `vaisseau spatial` et renommez le costume « normal ».
 
-+ Draw another costume of the spaceship exploding and call it 'hit'.
++ Dessinez un autre costume pour le vaisseau spatial qui explose et appelez-le «touché».
 
-![screenshot](images/invaders-spaceship-costumes.png)
+![capture d'écran](images/invaders-spaceship-costumes.png)
 
-Or, if you don't want to draw the explosion, you could choose the 'Sun' costume from the Scratch library, and use the **Color a shape** tool to change its colour and remove the face.
+Ou, si vous ne voulez pas attirer l’explosion, vous pourriez choisir le costume du « Sun » de la bibliothèque de Scratch et utiliser ** l’outil de couleur** pour changer sa couleur et enlever le visage.
 
-![screenshot](images/invaders-sun.png)
+![capture d'écran](images/invaders-sun.png)
 
-+ Add some code to your `Spaceship` sprite so that it starts off displaying the spaceship costume, but when it touches a flying hippo, it switches to the 'hit' costume:
++ Ajoutez du code à votre ` Spaceship ` sprite pour qu'il commence par afficher le costume normal, mais quand il touche un hippopotame volant, il passe au costume "touché":
 
 ```blocks
-when flag clicked
-switch costume to [normal v]
-wait until <touching [Hippo1 v]>?
-switch costume to [hit v]
+lorsque le drapeau vert est cliqué 
+changez de costume pour [normal v]
+attendez jusqu'à <touching [Hippo1 v]>?
+changer de costume pour [touché v]
 ```
 
-+ Test your code by playing the game and colliding with a hippo. Does the spaceship change to the 'hit' costume?
++ Testez votre code en jouant le jeu et entrer en collision avec un hippopotame. Est-ce que le vaisseau spatial change pour le costume « frappé » ?
