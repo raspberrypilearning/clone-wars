@@ -1,59 +1,59 @@
-## Lightning bolts
+## Munje
 
-Let's give the spaceship the ability to fire lightning bolts!
+Dajmo svemirskom brodu moć da ispaljuje munje!
 
-+ Add the `Lightning` sprite from the Scratch library.
++ Dodaj lik `Lightning` (Munja) iz Scratch biblioteke (library).
 
-+ When the game is started, the `Lightning` sprite should be hidden until the spaceship fires its laser cannons, so add this code to the `Lightning` sprite:
++ Kada igra započne, lik `Munje` treba da bude sakriven sve dok svemirski brod ne počne da puca svojim laserskim topovima. Da to napraviš, dodaj ovaj kôd liku `Munje`:
 
 ```blocks
 when green flag clicked
 hide
 ```
 
-At the moment you have a pretty gigantic lightning bolt for the spaceship to fire!
+Trenutno imaš ogromnu munju koju svemirski brod treba da ispali!
 
-+ Attach some code below the blocks you just added to make the `Lightning` sprite smaller and to turn it upside down. Then it will look like it fires pointy end–first out of the spaceship.
++ Dodaj kôd ispod prethodno dodatih blokova da smanjiš lik `Munje` i da ga okreneš obratno. Tako će izgledati da svemirski brod ispaljuje munju sa njenim oštrim vrhom naprijed.
 
 ```blocks
 set size to (25) %
 point in direction (-90 v)
 ```
 
-+ Switch to the `Spaceship` sprite by clicking on it in the Sprites panel below the Stage.
++ Pređi na lik `Svemirskog broda` tako što ćeš kliknuti na njega u panelu Sprites (Likovi) ispod pozornice.
 
-+ Add some new code to make the `Spaceship` sprite create a new lightning bolt whenever the **space** key is pressed.
++ Dodaj novi kôd da napraviš da lik `Svemirskog broda` stvori novu munju svaki put kada se pritisne taster za **razmak**.
 
-\--- hints \--- \--- hint \--- Here is some pseudocode for you:
+\--- hints \--- \--- hint \--- Ovdje je jedan pseudokôd za tebe:
 
-When the green flag is clicked Keep checking forever If the **space** key was pressed, create a clone of the `Lightning` sprite \--- /hint \--- \--- hint \--- Here are the blocks you will need:
+Kada je kliknuto na zelenu zastavicu (when the green flag is clicked) Neprestano (forever) provjeravaj Ako je pritisnut taster za ** razmak** (if the space key was pressed), kreiraj klona (create a clone) lika `munje` \--- /hint \--- \--- hint \--- Ovdje su blokovi koji će ti biti potrebni:
 
-![Hint](images/hint-lightning.png) \--- /hint \--- \--- hint \--- Here is the code you will need:
+![Hint](images/hint-lightning.png) \--- /hint \--- \--- hint \--- Ovdje je kôd koji će ti biti potreban:
 
 ```blocks
 when flag clicked
 forever
     if <key [space v] pressed?> then
-        create clone of [Lightning v]
+        create clone of [Munja v]
     end
 end
 ```
 
 \--- /hint \--- \--- /hints \---
 
-+ Switch back to the `Lightning` sprite.
++ Vrati se na lik `Munje`.
 
-+ Whenever a lightning bolt is created, it should appear and then move upwards until it reaches the top of the screen. Then it should disappear.
++ Svaki put kada je kreirana, munja treba da se pojavi, a zatim da se kreće nagore dok ne dođe do vrha ekrana. Tada treba da nestane.
 
 \--- hints \--- \--- hint \---
 
-When a new `Lightning` sprite clone appears:
+Kada se pojavi novi klon lika `Munje`:
 
-+ Display it
-+ Repeatedly move it up by `10` until it is touching the edge of the screen
-+ Then delete the clone \--- /hint \--- \--- hint \--- Here are the blocks you will need:
++ Prikaži ga
++ Pomjeraj ga u više navrata nagore za `10`, dok ne dodirne vrh ekrana
++ Zatim izbriši klona \--- /hint \--- \--- hint \--- Ovdje su blokovi koji će ti biti potrebni:
 
-![Move lightning](images/move-hint-lightning.png) \--- /hint \--- \--- hint \--- Here is the code you will need to add to the `Lightning` sprite:
+![Pomjeraj munju](images/move-hint-lightning.png) Ovdje je kôd koji treba da dodaš liku `Munje`:
 
 ```blocks
     when I start as a clone
@@ -66,28 +66,28 @@ When a new `Lightning` sprite clone appears:
 
 \--- /hint \--- \--- /hints \---
 
-+ Test your `Lightning` sprite by clicking the green flag and then pressing the **space** bar. When you press **space**, does lightning appear and move up the screen? What problem can you spot?
++ Isprobaj lik `Munje` tako što ćeš kliknuti na zelenu zastavicu, a zatim pritisnuti taster za **razmak**. Kada pritisneš **razmak**, da li se munja pojavi i kreće prema vrhu ekrana? Koji problem možeš da primijetiš?
 
 ## \--- collapse \---
 
-## title: Answer
+## title: Odgovor
 
-Oops — at the moment the lightning always fires from the same place, regardless of where the spaceship is!
+Uh — trenutno se munja uvijek ispaljuje sa istog mjesta, bez obzira na to gdje se nalazi svemirski brod!
 
-Add this block just before the `show`{:class="blocklooks"} block to make the clone of the `Lightning` sprite move to the `Spaceship` sprite's position before it appears. This will make it look like the lightning bolt is firing out of the spaceship.
+Dodaj ovaj blok prije bloka `show`{:class="blocklooks"} (prikaži), da napraviš da se klon lika `Munje` pomjeri na poziciju lika `Svemirskog broda` prije nego što se pojavi. Tako će izgledati kao da svemirski brod ispaljuje munju.
 
 ```blocks
-go to [Spaceship v]
+go to [Svemirski brod v]
 ```
 
 \--- /collapse \---
 
-+ Press the **space** key to test whether your lightning bolt now fires correctly.
++ Pritisni taster za **razmak** da isprobaš da li se tvoja munja sada pravilno ispaljuje.
 
 \--- challenge \---
 
-### Challenge: fixing the lightning
+### Izazov: popravljanje munje
 
-What happens if you hold down the **space** key? Can you use a `wait`{:class="blockcontrol"} block to fix this?
+Šta se dešava ako držiš pritisnut taster za **razmak**? Da li možeš da upotrijebiš blok `wait`{:class="blockcontrol"} (čekaj) da to popraviš?
 
 \--- /challenge \---
