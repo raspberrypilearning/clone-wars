@@ -1,12 +1,12 @@
-## Make a spaceship
+## Izrada svemirskog broda
 
-Let's make a spaceship that will defend the Earth!
+Napravimo svemirski brod koji će braniti Zemlju!
 
-+ Start a new Scratch project, and delete the cat sprite.
++ Započni novi Scratch projekat i obriši lik mačke.
 
 [[[generic-scratch-new-project]]]
 
-+ Add the `stars` backdrop and the `Spaceship` sprite to your project.
++ Dodaj u svoj projekat pozadinu (backdrop) `zvijezde` i lik (sprite) `Svemirskog broda`.
     
     ![screenshot](images/invaders-sprites.png)
 
@@ -14,9 +14,9 @@ Let's make a spaceship that will defend the Earth!
 
 [[[generic-scratch-sprite-from-library]]]
 
-+ Use the **shrink** tool to make your `Spaceship` sprite a bit smaller, and position it near the bottom of the screen.
++ Koristi alat **shrink** (smanji) da malo smanjiš lik `Svemirskog broda` i postavi ga u donji dio ekrana.
 
-+ When the **left** arrow key is pressed, the spaceship should move to the left. Add this code to make your spaceship move left when the **left** arrow is pressed:
++ Kada je pritisnut taster sa strelicom **ulijevo**, svemirski brod treba da se kreće ulijevo. Dodaj ovaj kôd, da napraviš da se tvoj svemirski brod kreće ulijevo kada je pritisnuta strelica **ulijevo** (when the left arrow is pressed):
 
 ```blocks
     when flag clicked
@@ -27,21 +27,21 @@ Let's make a spaceship that will defend the Earth!
     end
 ```
 
-The x-axis goes from left to right on the Stage, so if you make the the spaceship's x-position smaller by substracting from it, it will move further to the left. This code is the part which makes your spaceship move left:
+Pošto osa x ide slijeva nadesno na Pozornici, ako umanjiš x-poziciju svemirskog broda oduzimanjem, brod će se kretati ulijevo. Ovaj kôd je dio koji će učiniti da se tvoj svemirski brod kreće ulijevo:
 
 ```blocks
 change x by (-4)
 ```
 
-+ Add some more code inside the `forever`{:class="blockcontrol"} block to make your spaceship move to the right when the **right** arrow key is pressed.
++ Dodaj još kôda unutar bloka `forever`{:class="blockcontrol"} (ponavljaj) da napraviš da se tvoj svemirski brod kreće udesno kada je pritisnut taster sa strelicom **udesno**.
 
-\--- hints \--- \--- hint \--- If subtracting `4` from the spaceship's position made it move left, how could you make it move right by `4` instead? \--- /hint \--- \--- hint \--- You will need to use the same block, but with a different number:
+Ako smo oduzimanjem `4` od pozicije svemirskog broda napravili da se on kreće ulijevo, kako možeš da napraviš da se kreće udesno za `4`? \--- /hint \--- \--- hint \--- Treba da koristiš isti blok, samo sa drugim brojem:
 
 ```blocks
 change x by ( )
 ```
 
-\--- /hint \--- \--- hint \--- Here is the code you will need to add below the other code inside your `forever`{:class="blockcontrol"} block:
+\--- /hint \--- \--- hint \--- Ovdje je kôd koji treba da dodaš ispod prethodno dodatog kôda unutar bloka `forever`{:class="blockcontrol"} (ponavljaj):
 
 ```blocks
 if <key [right arrow v] pressed?> then
@@ -51,4 +51,4 @@ end
 
 \--- /hint \--- \--- /hints \---
 
-+ Test your project by clicking the green flag. Can you make your spaceship move left and right with the arrow keys?
++ Klikni na zelenu zastavicu i isprobaj svoj projekat. Možeš li da pokrećeš svoj svemirski brod ulijevo i udesno koristeći tastere sa strelicama?
