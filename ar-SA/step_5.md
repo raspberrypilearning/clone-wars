@@ -1,85 +1,85 @@
-## Flying space-hippos
+## أفراس النهر الفضائية الطائرة
 
-Let's add lots of flying hippos that will try to destroy your spaceship.
+لنُضف الكثير من الأفراس الطائرة التي ستحاول تدمير سفينتك الفضائية.
 
-+ Create a new sprite with the `Hippo1` image in the Scratch library. Use the **shrink** tool to make the `Hippo` sprite a similar size to the `Spaceship` sprite.
++ أنشئ كائنًا جديدًا باستخدام صورة `Hippo1` الموجودة في مكتبة Scratch. استخدم الأداة **تقليص** لتجعل حجم الكائن `Hippo` مقاربًا لحجم الكائن `Spaceship`.
 
-![screenshot](images/invaders-hippo.png)
+![لقطة الشاشة](images/invaders-hippo.png)
 
-+ Set the `Hippo` sprite's rotation style to be left-right only.
++ عيِّن أسلوب الدوران للكائن `Hippo` إلى اليمين وإلى اليسار فقط.
 
 [[[generic-scratch-sprite-rotation-style]]]
 
-+ Add some code to hide the `Hippo` sprite when the game starts.
++ أضف بعض التعليمات البرمجية لإخفاء الكائن `Hippo` عندما تبدأ اللعبة.
 
-\--- hints \--- \--- hint \--- The code for this is exactly the same as the code you used to hide the `Lightning` sprite when the game starts. \--- /hint \--- \--- hint \--- Here is the code you will need:
+\--- hints \--- \--- hint \--- ستكون التعليمة البرمجية هي نفسها التعليمة البرمجية التي استخدمتها لإخفاء الكائن `Lightning` عندما تبدأ اللعبة. \--- /hint \--- \--- hint \--- هذه هي التعليمة البرمجية التي ستحتاج إليها:
 
 ```blocks
-when green flag clicked
-hide
+عند نقر ⚑
+اختف
 ```
 
 \--- /hint \--- \--- /hints \---
 
-+ Switch to the Stage by clicking on it in the bottom panel.
++ انتقل إلى المنصة بالنقر عليها في القائمة السفلية.
 
-+ Add some code to the Stage to create a new hippo every few seconds.
++ أضف بعض التعليمات البرمجية إلى المنصة لإنشاء فرس جديد كل بضع ثوان.
 
-\--- hints \--- \--- hint \--- When the green flag is clicked: Repeatedly...
+\--- hints \--- \--- hint \--- عند النقر على العلم الأخضر: بشكل متكرر...
 
-+ Wait between 2 and 4 seconds
-+ Create a clone of the hippo sprite
++ انتظر من ثانيتين إلى 4 ثوانِ
++ أنشئ نسخة من كائن الفرس
 
-\--- /hint \--- \--- hint \--- Here are the blocks you will need: ![Clone hippo hint](images/clone-hippo-hint.png)
+\--- /hint \--- \--- hint \--- فيما يلي التعليمات البرمجية التي ستحتاج إليها: ![مساعدة استنساخ الفرس](images/clone-hippo-hint.png)
 
-\--- /hint \--- \--- hint \--- Here is the code you will need:
+\--- /hint \--- \--- hint \--- هذه هي التعليمة البرمجية التي ستحتاج إليها:
 
 ```blocks
-when flag clicked
-forever
-    wait (pick random (2) to (4)) secs
-    create clone of [Hippo1 v]
+عند نقر ⚑
+كرر باستمرار 
+  انتظر (اختر عدداً عشوائياً بين (2) و (4)) ثانية
+  أنشئ نسخة من [Hippo1 v]
 end
 ```
 
 \--- /hint \--- \--- /hints \---
 
-+ Switch back to the `Hippo` sprite.
++ عُد مرة أخرى إلى كائن `Hippo`.
 
-Each new hippo should appear at a random x-position, and each should have a random speed.
+يجب أن يظهر كل فرس جديد عند موقع x عشوائي، ويجب أن يكون لكل فرس سرعة عشوائية.
 
-+ Create a new variable called `speed`{:class="blockdata"} that is for the `Hippo` sprite only.
++ أنشئ متغيرًا جديدًا يُسمى `السرعة`{:class="blockdata"} بحيث يكون هذا المتغير للكائن `Hippo` فقط.
 
 [[[generic-scratch-add-variable]]]
 
-You'll know you've done this correctly when you can see that the variable has the name of the sprite next to it, like this:
+ستعلم أنك قمتَ بذلك على الوجه الصحيح عندما ترى اسم الكائن بجوار المتغير، كما هو موضح أدناه:
 
-![screenshot](images/invaders-var-test.png)
+![لقطة الشاشة](images/invaders-var-test.png)
 
-+ When each hippo clone starts, pick a random speed and starting place before showing it on the screen.
++ عندما تبدأ كل نسخة من كائن الفرس، اختر سرعة وموقع بدء عشوائيَين قبل إظهارها على الشاشة.
 
 ```blocks
-when I start as a clone
-set [speed v] to (pick random (2) to (4))
-go to x: (pick random (-220) to (220)) y: (150)
-show
+عندما تبدأ نسخة مني
+اجعل [speed v] مساوياً (اختر عدداً عشوائياً بين (2) و (4))
+اذهب إلى الموضع س: (اختر عدداً عشوائياً بين (-220) و (220)) ص: (150)
+اظهر
 ```
 
-+ Test your code by clicking the green flag. Does a new hippo appear every few seconds? At the moment your hippos won't move.
++ اختبر التعليمة البرمجية بالنقر على العلم الأخضر. هل يظهر فرس جديد كل بضع ثوان؟ في هذه اللحظة لن تتحرك أفراس النهر.
 
-+ The hippo should move around randomly until it gets hit by a lightning bolt. To make that happen, attach this code below the blocks you just added:
++ يجب أن يتحرك الفرس هنا وهناك بشكل عشوائي إلى أن تصيبه صاعقة برقية. لتجعل ذلك يحدث، أدخل هذه التعليمة البرمجية أسفل التعليمات البرمجية التي أضفتها للتو:
 
 ```blocks
-repeat until <touching [lightning v] ?>
-    move (speed) steps
-    turn right (pick random (-10) to (10)) degrees
-    if on edge, bounce
+كرِّر حتى <ملامس لـ [lightning v] ؟> 
+  تحرك (speed) خطوة
+  استدر ↻ (اختر عدداً عشوائياً بين (-10) و (10)) درجة
+  ارتد إذا كنت عند الحافة
 end
-delete this clone
+احذف هذه النسخة
 ```
 
-+ Test out your hippo code. You should see a new hippo clone appear every few seconds, each moving at its own speed.
++ اختبر التعليمة البرمجية للفرس. يجب أن ترى نسخة جديدة للفرس تظهر كل بضع ثوان، و كل نسخة يجب أن تتحرك بسرعة عشوائية.
     
-    ![screenshot](images/hippo-clones.gif)
+    ![لقطة الشاشة](images/hippo-clones.gif)
 
-+ Test your laser cannon. If you hit a hippo, does it vanish?
++ اختبر قذيفة الليزر. إذا أصبتَ فرسًا، هل يختفي؟
