@@ -1,61 +1,61 @@
-## Disappearing hippos
+## Nilski konji koji nestaju
 
-When the spaceship is hit, all the hippos should disappear to give the player a chance to recover.
+Kada je svemirski brod udaren, svi nilski konji treba da nestanu kako bi igraču dali mogućnost da se oporavi.
 
-+ Add a block to your code to `broadcast` the message "hit" when the spaceship is touching a hippo.
++ Dodaj blok svom kôdu da `pošalje` (broadcast) poruku ''udaren'' kada svemirski brod dodirne nilskog konja.
 
 [[[generic-scratch-broadcast-message]]]
 
-\--- hints \--- \--- hint \--- Create a `broadcast` 'hit' block by dragging the block from the **Events** tab and then clicking on the drop-down menu and selecting **new message**. \--- /hint \--- \--- hint \--- Here is what your block should look like:
+\--- hints \--- \--- hint \--- Napravi blok `broadcast` 'udaren' tako što ćeš prevući blok sa kartice **Events** (Događaji), a zatim kliknuti na padajući meni i izabrati **new message** (nova poruka). \--- /hint \--- \--- hint \--- Ovako treba da izgleda tvoj blok:
 
 ```blocks
-broadcast [hit v]
+broadcast [udaren v]
 ```
 
-\--- /hint \--- \--- hint \--- Here is what your code should look like:
+\--- /hint \--- \--- hint \--- Ovako treba da izgleda tvoj kôd:
 
 ```blocks
 when flag clicked
-switch costume to [normal v]
+switch costume to [normalan v]
 wait until <touching [Hippo1 v]>?
-switch costume to [hit v]
-broadcast [hit v]
+switch costume to [udaren v]
+broadcast [udaren v]
 ```
 
 \--- /hint \--- \--- /hints \---
 
-All of the `Hippo` sprite clones will hear this message, so you can now instruct them to disappear when the spaceship is hit.
+Svi klonovi lika `Nilskog konja` će čuti ovu poruku, tako da sada možeš da im daš naredbu da nestanu kada je svemirski brod udaren.
 
-+ Add this code to the `Hippo` sprite:
++ Dodaj ovaj kôd liku `Nilskog konja`:
 
 ```blocks
-when I receive [hit v]
+when I receive [udaren v]
 delete this clone
 ```
 
-+ Test out this code by starting a new game and deliberately colliding with a hippo.
++ Isprobaj ovaj kôd tako što ćeš započeti novu igru i namjerno se sudariti sa nilskim konjem.
 
 ![screenshot](images/invaders-hippo-collide.png)
 
-After you get hit, hippos start reappearing but the spaceship has still exploded! Let's make it possible for the spaceship to reset itself after being hit.
+Nakon sudara, nilski konji počinju ponovo da se pojavljuju, a svemirski brod još uvijek eksplodira! Napravimo da svemirski brod može da se vrati u početno stanje nakon što je udaren.
 
-+ Add a `forever`{:class="blockcontrol"} block around all of your code to make the process repeat, and a `wait`{:class="blockcontrol"} block at the end to add a small pause before hippos begin appearing again.
++ Dodaj blok `forever`{:class="blockcontrol"} (ponavljaj) oko cijelog svog kôda da napraviš da se proces ponavlja, i blok `wait`{:class="blockcontrol"} (čekaj) na kraju, da dodaš malu pauzu prije nego što nilski konji počnu ponovo da se pojavljuju.
 
 ```blocks
 when flag clicked
 forever
-    switch costume to [normal v]
+    switch costume to [normalan v]
     wait until <touching [Hippo1 v]>?
-    switch costume to [hit v]
-    broadcast [hit v]
+    switch costume to [udaren v]
+    broadcast [udaren v]
     wait (1) secs
 end
 ```
 
 \--- challenge \---
 
-### Challenge: lives and score
+### Izazov: životi i rezultat
 
-At the moment, the player has infinite lives. Can you add `lives`{:class="blockdata"}, a `score`{:class="blockdata"}, or even a `highscore`{:class="blockdata"} to your game?
+Trenutno igrač ima neograničen broj života. Da li možeš u svoju igru da dodaš `živote`{:class="blockdata"}, `rezultat`{:class="blockdata"}, pa čak i `najbolji rezultat`{:class="blockdata"}?
 
 [[[generic-scratch-high-score]]] \--- /challenge \---
