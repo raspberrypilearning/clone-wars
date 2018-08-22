@@ -1,26 +1,26 @@
-## Introduction
+## はじめに
 
-In this project you will learn how to create a game in which you have to save the Earth from space monsters.
+このプロジェクトでは、宇宙のかいぶつから地球を救うゲームを作ります。
 
-### What you will make
+### 作るもの
 
-Click the green flag in the example game below to start, and then press the **left** and **right** arrow keys to move the spaceship and the **space** key to shoot.
+ゲーム画面のみどりのはたをクリックするとゲームがはじまります。**「左」**と**「右」**のやじるしキーを押してスペースシップを左右に動かします。**スペースキー**を押すといなずまを発射できます。
 
-Score as many points as you can by shooting flying space-hippos. You'll lose a life if you get hit by a hippo or by the oranges dropped by the fruit bats.
+スペースカバをうって点数をためましょう。しかし、カバやこうもりが落とすみかんにふれるといのちを１つ失います。
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/46018140/?autostart=false" frameborder="0"></iframe>
   <img src="images/invaders-final.png">
 </div>
 
-### What you will learn
+### 学習すること
 
-This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum){:target="_blank"}:
+このプロジェクトでは [Raspberry Pi デジタル・メイキング・カリキュラム](http://rpf.io/curriculum)の要素を学びます。
 
-+ [Use basic programming constructs to create simple programs](https://www.raspberrypi.org/curriculum/programming/creator){:target="_blank"}
++ [基本的なプログラミング構造を使用して簡単なプログラムを作成する](https://www.raspberrypi.org/curriculum/programming/creator)
 
-### Additional information for educators
+### 教育者のための追加情報
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/clone-wars/print){:target="_blank"} .
+このプロジェクトを印刷する必要がある場合は、 [印刷用バージョン](https://projects.raspberrypi.org/en/projects/clone-wars/print)を使用してください。
 
-Use the link in the footer to access the GitHub repo for this project, which contains all resources (including an example finished project) in the ‘en/resources’ folder.
+フッターのリンクから、このプロジェクトのGitHubリポジトリにアクセスできます。このリポジトリには、 'en / resources'フォルダ内のすべてのリソース (プロジェクトの完成例を含む) が含まれています。
