@@ -1,22 +1,22 @@
-## Flying space-hippos
+## Latające kosmo-hipopotamy
 
-Let's add lots of flying hippos that will try to destroy your spaceship.
+Dodajmy wiele latających hipopotamów, które spróbują zniszczyć twój statek kosmiczny.
 
 + Create a new sprite with the `Hippo1` image in the Scratch library. Use the **shrink** tool to make the `Hippo` sprite a similar size to the `Spaceship` sprite.
 
-![screenshot](images/invaders-hippo.png)
+![zrzut ekranu](images/invaders-hippo.png)
 
 + Set the `Hippo` sprite's rotation style to be left-right only.
 
 [[[generic-scratch-sprite-rotation-style]]]
 
-+ Add some code to hide the `Hippo` sprite when the game starts.
++ Dodaj kod, aby ukryć duszka `Hipopotam` kiedy gra się zaczyna.
 
-\--- hints \--- \--- hint \--- The code for this is exactly the same as the code you used to hide the `Lightning` sprite when the game starts. \--- /hint \--- \--- hint \--- Here is the code you will need:
+\--- hints \--- \--- hint \--- Kod do tego jest dokładnie taki sam jak kod, którego używasz, aby ukryć duszka `Błyskawica` kiedy gra się zaczyna. \--- /hint \--- \--- hint \--- To jest kod, którego będziesz potrzebować:
 
 ```blocks
-when green flag clicked
-hide
+kiedy kliknięto zieloną flagę
+ukryj
 ```
 
 \--- /hint \--- \--- /hints \---
@@ -27,8 +27,8 @@ hide
 
 \--- hints \--- \--- hint \--- When the green flag is clicked: Repeatedly...
 
-+ Wait between 2 and 4 seconds
-+ Create a clone of the hippo sprite
++ Zaczekaj od 2 do 4 sekund
++ Stwórz klona duszka hipopotama
 
 \--- /hint \--- \--- hint \--- Here are the blocks you will need: ![Clone hippo hint](images/clone-hippo-hint.png)
 
@@ -46,15 +46,15 @@ end
 
 + Switch back to the `Hippo` sprite.
 
-Each new hippo should appear at a random x-position, and each should have a random speed.
+Każdy nowy hipopotam powinien pojawić się w przypadkowej pozycji x i każdy powinien mieć losową prędkość.
 
 + Create a new variable called `speed`{:class="blockdata"} that is for the `Hippo` sprite only.
 
 [[[generic-scratch-add-variable]]]
 
-You'll know you've done this correctly when you can see that the variable has the name of the sprite next to it, like this:
+Będziesz wiedział, że zrobiłeś to poprawnie, gdy zobaczysz, że zmienna ma nazwę ikonki obok niej, tak jak poniżej:
 
-![screenshot](images/invaders-var-test.png)
+![zrzut ekranu](images/invaders-var-test.png)
 
 + When each hippo clone starts, pick a random speed and starting place before showing it on the screen.
 
@@ -80,6 +80,6 @@ delete this clone
 
 + Test out your hippo code. You should see a new hippo clone appear every few seconds, each moving at its own speed.
     
-    ![screenshot](images/hippo-clones.gif)
+    ![zrzut ekranu](images/hippo-clones.gif)
 
 + Test your laser cannon. If you hit a hippo, does it vanish?
