@@ -1,23 +1,23 @@
 \--- challenge \---
 
-## Challenge: improve your game
+## Izazov: poboljšaj svoju igru
 
-What improvements can you make to your game?
+Koja poboljšanja možeš da napraviš u svojoj igri?
 
-Here are some ideas:
+Evo nekoliko ideja:
 
-+ Add health packs that you can collect to gain extra lives.
++ Dodaj kutije za hitnu pomoć koje možeš sakupiti da dobiješ dodatne živote.
 
 ![screenshot](images/invaders-aid.png)
 
-+ Add floating rocks that your spaceship must avoid.
++ Dodaj plutajuće stijene koje tvoj svemirski brod mora da izbjegne.
 
 ![screenshot](images/invaders-rocks.png)
 
-+ Make more enemies appear when your score gets to `100`.
++ Napravi da se pojavi još neprijatelja kada tvoj rezultat dođe do `100`.
 
 ```blocks
-    wait until <(score) = [100]>
+    wait until <(rezultat) = [100]>
 ```
 
 \--- /challenge \---
