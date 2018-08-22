@@ -1,6 +1,6 @@
-## Exploding spaceship
+## Eksplodujący statek kosmiczny
 
-When a hippo touches your spaceship, the ship should explode!
+Kiedy hipopotam dotknie twojego statku kosmicznego, statek powinien eksplodować!
 
 + Select the `Spaceship` sprite and rename the costume to 'normal'.
 
@@ -10,7 +10,7 @@ When a hippo touches your spaceship, the ship should explode!
 
 Or, if you don't want to draw the explosion, you could choose the 'Sun' costume from the Scratch library, and use the **Color a shape** tool to change its colour and remove the face.
 
-![screenshot](images/invaders-sun.png)
+![zrzut ekranu](images/invaders-sun.png)
 
 + Add some code to your `Spaceship` sprite so that it starts off displaying the spaceship costume, but when it touches a flying hippo, it switches to the 'hit' costume:
 
