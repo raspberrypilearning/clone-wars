@@ -1,85 +1,85 @@
-## Flying space-hippos
+## とべるスペースカバ
 
-Let's add lots of flying hippos that will try to destroy your spaceship.
+あなたのスペースシップを攻撃してくる、とべるスペースカバをたくさん作りましょう！
 
-+ Create a new sprite with the `Hippo1` image in the Scratch library. Use the **shrink** tool to make the `Hippo` sprite a similar size to the `Spaceship` sprite.
++ • スクラッチのライブラリの中の `カバ`のスプライト（Hippo1）をステージにたしてください。 **「縮小」**のツールで カバのスプライトを`スペースシップ`ぐらいの大きさまで縮めてください。
 
-![screenshot](images/invaders-hippo.png)
+![スクリーンショット](images/invaders-hippo.png)
 
-+ Set the `Hippo` sprite's rotation style to be left-right only.
++ `カバ`のスプライトの回転種類を左右だけに設定しましょう。
 
 [[[generic-scratch-sprite-rotation-style]]]
 
-+ Add some code to hide the `Hippo` sprite when the game starts.
++ ゲームが始まったとき、 `カバ`のスプライトを隠したじょうたいにするコードを加えましょう。
 
-\--- hints \--- \--- hint \--- The code for this is exactly the same as the code you used to hide the `Lightning` sprite when the game starts. \--- /hint \--- \--- hint \--- Here is the code you will need:
+\--- hints \--- \--- hint \--- `いなずま`のスプライト（Lightning）を隠すために加えたコードと似たようなものです。 \--- /hint \--- \--- hint \--- 必要なコード：
 
 ```blocks
-when green flag clicked
-hide
+⚑ がクリックされたとき
+隠す
 ```
 
 \--- /hint \--- \--- /hints \---
 
-+ Switch to the Stage by clicking on it in the bottom panel.
++ 下のパネルでステージを選んでください。
 
-+ Add some code to the Stage to create a new hippo every few seconds.
++ ステージが数秒ごとにゲームに新しいカバを追加するコードを加えましょう。
 
-\--- hints \--- \--- hint \--- When the green flag is clicked: Repeatedly...
+\--- hints \--- \--- hint \--- みどりのはたがクリックされたとき： くりかえし。。。
 
-+ Wait between 2 and 4 seconds
-+ Create a clone of the hippo sprite
++ 2〜4秒待つ
++ カバのスプライトをクローンする
 
-\--- /hint \--- \--- hint \--- Here are the blocks you will need: ![Clone hippo hint](images/clone-hippo-hint.png)
+\--- /hint \--- \--- hint \--- 必要なコードブロック：![カバのコピーヒント](images/clone-hippo-hint.png)
 
-\--- /hint \--- \--- hint \--- Here is the code you will need:
+\--- /hint \--- \--- hint \--- 必要なコード：
 
 ```blocks
-when flag clicked
-forever
-    wait (pick random (2) to (4)) secs
-    create clone of [Hippo1 v]
+⚑ がクリックされたとき
+ずっと 
+  ((2) から (4) までの乱数) 秒待つ
+  [Hippo1 v] のクローンを作る
 end
 ```
 
 \--- /hint \--- \--- /hints \---
 
-+ Switch back to the `Hippo` sprite.
++ `カバ`のスプライトを選んでください。
 
-Each new hippo should appear at a random x-position, and each should have a random speed.
+ランダムな位置に新しいカバを作りましょう。カバはランダムな速度で動くようにしてください。
 
-+ Create a new variable called `speed`{:class="blockdata"} that is for the `Hippo` sprite only.
++ 新しい変数 `speed`{:class="blockdata"} を作りましょう。この変数はカバのスプライトの速度をあらわす変数です。
 
 [[[generic-scratch-add-variable]]]
 
-You'll know you've done this correctly when you can see that the variable has the name of the sprite next to it, like this:
+以下のように変数が表示されていれば正しく作られています：
 
-![screenshot](images/invaders-var-test.png)
+![スクリーンショット](images/invaders-var-test.png)
 
-+ When each hippo clone starts, pick a random speed and starting place before showing it on the screen.
++ クローンされたかばがランダムな位置に表示され、ランダムなスピードで動くようにしましょう。
 
 ```blocks
-when I start as a clone
-set [speed v] to (pick random (2) to (4))
-go to x: (pick random (-220) to (220)) y: (150)
-show
+クローンされたとき
+[スピード v] を ((2) から (4) までの乱数) にする
+x座標を ((-220) から (220) までの乱数) 、y座標を (150) にする
+表示する
 ```
 
-+ Test your code by clicking the green flag. Does a new hippo appear every few seconds? At the moment your hippos won't move.
++ みどりのはたをクリックしてゲームを実行してください。新しいカバが数秒ごとにあらわれましたか？今のところカバは動かないじょうたいです。
 
-+ The hippo should move around randomly until it gets hit by a lightning bolt. To make that happen, attach this code below the blocks you just added:
++ カバはいなづまに打たれるまで、ずっとランダムに動くよう設定してください。以下のコードを加えましょう。
 
 ```blocks
-repeat until <touching [lightning v] ?>
-    move (speed) steps
-    turn right (pick random (-10) to (10)) degrees
-    if on edge, bounce
+<[lightning v] に触れた> まで繰り返す 
+  (スピード) 歩動かす
+  ↻ ((-10) から (10) までの乱数) 度回す
+  もし端に着いたら、跳ね返る
 end
-delete this clone
+このクローンを削除する
 ```
 
-+ Test out your hippo code. You should see a new hippo clone appear every few seconds, each moving at its own speed.
++ ゲームを実行しましょう！数秒ごとに新しいカバが現れ、様々なスピードで動いてますか？
     
-    ![screenshot](images/hippo-clones.gif)
+    ![スクリーンショット](images/hippo-clones.gif)
 
-+ Test your laser cannon. If you hit a hippo, does it vanish?
++ いなづまをテストしましょう！カバに当たったらカバは消えますか？
