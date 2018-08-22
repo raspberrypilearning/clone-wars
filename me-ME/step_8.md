@@ -1,17 +1,17 @@
-## Fruit bat
+## Slijepi miš sa voćem
 
-To make the game a bit harder, let's make a fruit bat which throws oranges at the spaceship.
+Da bi igra bila malo teža, napravimo slijepog miša koji baca pomorandže na svemirski brod.
 
-+ Add a `Bat` sprite and set its rotation style to **left–right** only.
++ Dodaj lik `Slijepog miša` i postavi njegov stil rotacije samo na **lijevo-desno**.
 
-+ Make the `Bat` sprite `move`{:class="blockmotion"} from side to side across the top of the Stage `forever`{:class="blockcontrol"}. Remember to test out your code.
++ Napravi da se lik `Slijepog miša` `neprestano`{:class="blockcontrol"} `kreće`{:class="blockmotion"} sa jedne na drugu stranu u gornjem dijelu Pozornice. Ne zaboravi da isprobaš svoj kôd.
 
 ![screenshot](images/invaders-bat.png)
 
-\--- hints \--- \--- hint \--- When the flag is clicked, the `Bat` sprite should forever
+\--- hints \--- \--- hint \--- Kada je kliknuto na zastavicu (when the flag is clicked), lik `Slijepog miša` treba neprestano (forever)
 
-+ move 10 steps
-+ if it reaches the edge, bounce \--- /hint \--- \--- hint \--- Here is the code you will need:
++ da ide (move) 10 koraka
++ kada stigne do ivice (edge), da se okrene (bounce) \--- /hint \--- \--- hint \--- Ovdje je kôd koji će ti biti potreban:
 
 ```blocks
 when flag clicked
@@ -23,20 +23,20 @@ end
 
 \--- /hint \--- \--- /hints \---
 
-If you look at the bat's costumes, you'll see that it already has two different ones:
+Ako pogledaš kostime slijepog miša, vidjećeš da već ima dva različita kostima:
 
 ![screenshot](images/invaders-bat-costume.png)
 
-+ Use the `next costume`{:class="blocklooks"} block to make the bat flap its wings as it moves.
++ Upotrijebi blok `next costume`{:class="blocklooks"} (sljedeći kostim) da napraviš da slijepi miš maše krilima dok se kreće.
 
-\--- hints \--- \--- hint \--- After the bat has moved, it should show the `next costume`{:class="blocklooks"} and then `wait`{:class="blockcontrol"} for a short time. \--- /hint \--- \--- hint \--- Here is the code you will need:
+\--- hints \--- \--- hint \--- Nakon što krene, slijepi miš treba da pokaže `sljedeći kostim`{:class="blocklooks"} (next costume), a zatim da `čeka`{:class="blockcontrol"} (wait) kratko vrijeme. \--- /hint \--- \--- hint \--- Ovdje je kôd koji će ti biti potreban:
 
 ```blocks
 next costume
 wait (0.3) secs
 ```
 
-\--- /hint \--- \--- hint \--- Here is the full code with the new code added:
+\--- /hint \--- \--- hint \--- Ovdje je cijeli kôd, sa dodatim novim kôdom:
 
 ```blocks
 when flag clicked
@@ -50,39 +50,39 @@ end
 
 \--- /hint \--- \--- /hints \---
 
-Now let's make the bat throw oranges.
+Napravimo sada da slijepi miš baca pomorandže.
 
-+ Add a new `Orange` sprite from the Scratch library.
++ Dodaj novi lik `Orange` (Pomorandža) iz Scratch biblioteke.
 
 ![screenshot](images/invaders-orange.png)
 
-+ Add code to your bat so that, when the flag is clicked, it waits for a random time between 5 and 10 seconds and then creates a clone of the `Orange` sprite.
++ Dodaj kôd svom slijepom mišu tako da, kada je kliknuto na zastavicu, čeka slučajan period vremena od 5 do 10 sekundi, a zatim napravi klona lika `Pomorandže`.
 
-\--- hints \--- \--- hint \--- Look at the code you wrote when you created the `Lightning` sprite. The code you need now is very similar, except instead of an orange appearing when you press the **space** bar, it should appear after you `wait`{:class="blockcontrol"} for `5-10`{:class="blockoperators"} seconds. \--- /hint \--- \--- hint \--- `When the flag is clicked`{:class="blockcontrol"}, the `Bat` sprite should `forever`{:class="blockcontrol"}
+\--- hints \--- \--- hint \--- Pogledaj kôd koji si napisao/napisala za kreiranje lika `Munje`. Kôd koji ti je sada potreban je veoma sličan, osim što pomorandža, umjesto da se pojavi kada pritisneš taster za **razmak**, treba da se pojavi nakon što `sačekaš`{:class="blockcontrol"} `5-10`{:class="blockoperators"} sekundi. \--- /hint \--- \--- hint \--- `Kada je kliknuto na zastavicu`{:class="blockcontrol"} (when the flag is clicked), lik `Slijepog miša` treba `neprestano`{:class="blockcontrol"} (forever) da
 
-+ `wait`{:class="blockcontrol"} for a `random`{:class="blockoperators"} time between `5-10`{:class="blockoperators"} seconds
-+ `create a clone`{:class="blockcontrol"} of the `Orange` sprite \--- /hint \--- \--- hint \--- Here is the code you will need:
++ `čeka`{:class="blockcontrol"} (wait) `slučajan`{:class="blockoperators"} (random) period vremena od `5-10`{:class="blockoperators"} sekundi
++ `kreira klona`{:class="blockcontrol"} (create a clone) lika `Pomorandže` \--- /hint \--- \--- hint \--- Ovdje je kôd koji će ti biti potreban:
 
 ```blocks
 when flag clicked
 forever
     wait (pick random (5) to (10)) secs
-    create clone of [Orange v]
+    create clone of [Pomorandža v]
 end
 ```
 
 \--- /hint \--- \--- /hints \---
 
-+ Click on your `Orange` sprite and add some code to make each `Orange` sprite clone drop, starting from the `Bat` sprite and falling towards the bottom of the Stage.
++ Klikni na lik `Pomorandže` i dodaj kôd da napraviš da svaki klon lika `Pomorandže` pada od lika `Slijepog miša` prema donjem dijelu Pozornice.
 
-\--- hints \--- \--- hint \--- This code you want is almost the same as the code inside the `Lightning` sprite, except that the `Orange` sprite should `go to`{:class="blockmotion"} the `Bat` sprite's position, and it should use the `change y by`{:class="blockcontrol"} block to move downwards instead of upwards. \--- /hint \--- \--- hint \--- Here is the code you will need:
+\--- hints \--- \--- hint \--- Ovaj kôd, koji želiš da dodaš, skoro je isti kao kôd unutar lika `Munje`, osim što lik `Pomorandže` treba da `ide na`{:class="blockmotion"} (go to) poziciju lika `Slijepog miša`, i treba da koristi blok `change y by` {:class="blockcontrol"} (promijeni y za) kako bi se kretao nadolje umjesto nagore. \--- /hint \--- \--- hint \--- Ovdje je kôd koji će ti biti potreban:
 
 ```blocks
     when flag clicked
     hide
 
     when I start as a clone
-    go to [Bat1 v]
+    go to [Slijepi miš1 v]
     show
     repeat until <touching [edge v]?
         change y by (-4)
@@ -93,17 +93,17 @@ end
 
 \--- /hint \--- \--- /hints \---
 
-+ Add some more code to the `Orange` sprite so that when the `Spaceship` sprite is hit, it also disappears to give the player a chance to reset:
++ Dodaj još kôda liku `Pomorandže`, tako da nestane kada je `Svemirski brod` udaren, dajući igraču mogućnost da se vrati na početnu poziciju:
 
 ```blocks
-    when I receive [hit v]
+    when I receive [udaren v]
     delete this clone
 ```
 
-+ You'll also need to modify the code in your `Spaceship` sprite so that it is hit when it touches a `Hippo` sprite or an `Orange` sprite:
++ Takođe, treba da izmijeniš kôd u liku `Svemirskog broda` tako da promijeni kostim u 'udaren' kada dodirne lik `Nilskog konja` ili lik `Pomorandže`:
 
 ```blocks
     wait until < <touching [Hippo1 v]?> or <touching [Orange v]?>>
 ```
 
-+ Test your game. What happens if you get hit by a falling orange?
++ Isprobaj svoju igru. Šta se dešava kada te udari pomorandža koja pada?
