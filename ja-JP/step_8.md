@@ -1,109 +1,109 @@
-## Fruit bat
+## 果物を落とすコウモリ
 
-To make the game a bit harder, let's make a fruit bat which throws oranges at the spaceship.
+ゲームを少し難しくするために、スペースシップにみかんを落とすコウモリを作りましょう。
 
-+ Add a `Bat` sprite and set its rotation style to **left–right** only.
++ `コウモリ`のスプライト（Bat1）を加えて、回転スタイルを**左右**に設定しましょう。
 
-+ Make the `Bat` sprite `move`{:class="blockmotion"} from side to side across the top of the Stage `forever`{:class="blockcontrol"}. Remember to test out your code.
++ `コウモリ`のスプライトが画面上の端（はじ）を`ずっと`{:class="blockcontrol"}左右に動くように設定しましょう。加えたコードをちゃんとテストするように。
 
-![screenshot](images/invaders-bat.png)
+![スクリーンショット](images/invaders-bat.png)
 
-\--- hints \--- \--- hint \--- When the flag is clicked, the `Bat` sprite should forever
+\--- hints \--- \--- hint \--- みどりのはたがクリックされたとき、`コウモリ`はずっと
 
-+ move 10 steps
-+ if it reaches the edge, bounce \--- /hint \--- \--- hint \--- Here is the code you will need:
++ １０マスづつ移動する。
++ 画面の端にふれたら跳ね返る（はねかえる）。 \--- /hint \--- \--- hint \--- 以下のようなコードが必要：
 
 ```blocks
-when flag clicked
-forever
-    move (10) steps
-    if on edge, bounce
+⚑ がクリックされたとき
+ずっと 
+  (10) 歩動かす
+  もし端に着いたら、跳ね返る
 end
 ```
 
 \--- /hint \--- \--- /hints \---
 
-If you look at the bat's costumes, you'll see that it already has two different ones:
+コウモリのコスチュームを見てみるとすでに２つのコスチュームがあることに気づきます：
 
-![screenshot](images/invaders-bat-costume.png)
+![スクリーンショット](images/invaders-bat-costume.png)
 
-+ Use the `next costume`{:class="blocklooks"} block to make the bat flap its wings as it moves.
++ `次のコスチューム`{:class="blocklooks"}ブロックを使い、コウモリが羽ばたきながら動くようにみせましょう。
 
-\--- hints \--- \--- hint \--- After the bat has moved, it should show the `next costume`{:class="blocklooks"} and then `wait`{:class="blockcontrol"} for a short time. \--- /hint \--- \--- hint \--- Here is the code you will need:
+\--- hints \--- \--- hint \--- コウモリが動いた瞬間 `次のコスチューム`{:class="blocklooks"}を表示し、なん秒か`待つ`{:class="blockcontrol"} ように設定してください。 \--- /hint \--- \--- hint \--- 必要なコード：
 
 ```blocks
-next costume
-wait (0.3) secs
+次のコスチュームにする
+(0.3) 秒待つ
 ```
 
-\--- /hint \--- \--- hint \--- Here is the full code with the new code added:
+\--- /hint \--- \--- hint \--- 以下のようなコードに変えてください：
 
 ```blocks
-when flag clicked
-forever
-    move (10) steps
-    if on edge, bounce
-    next costume
-    wait (0.3) secs
+⚑ がクリックされたとき
+ずっと 
+  (10) 歩動かす
+  もし端に着いたら、跳ね返る
+  次のコスチュームにする
+  (0.3) 秒待つ
 end
 ```
 
 \--- /hint \--- \--- /hints \---
 
-Now let's make the bat throw oranges.
+コウモリがみかんを落とすように設定しましょう。
 
-+ Add a new `Orange` sprite from the Scratch library.
++ スクラッチライブラリーから`みかん`のスプライト（Orange）を選んでください。
 
-![screenshot](images/invaders-orange.png)
+![スクリーンショット](images/invaders-orange.png)
 
-+ Add code to your bat so that, when the flag is clicked, it waits for a random time between 5 and 10 seconds and then creates a clone of the `Orange` sprite.
++ みどりのはたがクリックされると、こうもりがランダムに５～１０秒待ち、`Orange`スプライトのコピーが作られるように設定してください。
 
-\--- hints \--- \--- hint \--- Look at the code you wrote when you created the `Lightning` sprite. The code you need now is very similar, except instead of an orange appearing when you press the **space** bar, it should appear after you `wait`{:class="blockcontrol"} for `5-10`{:class="blockoperators"} seconds. \--- /hint \--- \--- hint \--- `When the flag is clicked`{:class="blockcontrol"}, the `Bat` sprite should `forever`{:class="blockcontrol"}
+\--- hints \--- \--- hint \--- `いなずま`のスプライト（Lightning）を作った時に加えたコードを見てください。 必要なコード似てます。ただし、**スペース**キーを押してから`５～１０`秒{:class="blockoperators"} `待って`{:class="blockcontrol"} からみかんのスプライトが表示されるように設定する必要があります。 \--- /hint \--- \--- hint \--- `⚑ がクリックされたとき`{:class="blockcontrol"}, `Bat`スプライトは `ずっと`{:class="blockcontrol"}
 
-+ `wait`{:class="blockcontrol"} for a `random`{:class="blockoperators"} time between `5-10`{:class="blockoperators"} seconds
-+ `create a clone`{:class="blockcontrol"} of the `Orange` sprite \--- /hint \--- \--- hint \--- Here is the code you will need:
++ `5から10`{:class="blockoperators"} 秒までのれんすう`待つ`{:class="blockcontrol"}
++ `みかん`のスプライト（Orange）の`クローンを作る`{:class="blockcontrol"} \--- /hint \--- \--- hint \--- 必要なコード：
 
 ```blocks
-when flag clicked
-forever
-    wait (pick random (5) to (10)) secs
-    create clone of [Orange v]
+⚑ がクリックされたとき
+ずっと 
+  ((5) から (10) までの乱数) 秒待つ
+  [Orange v] のクローンを作る
 end
 ```
 
 \--- /hint \--- \--- /hints \---
 
-+ Click on your `Orange` sprite and add some code to make each `Orange` sprite clone drop, starting from the `Bat` sprite and falling towards the bottom of the Stage.
++ `みかん`のスプライトにコードを加えましょう。`みかん`のスプライトのクローンが`コウモリ`の位置からステージの下まで落ちるようにします。
 
-\--- hints \--- \--- hint \--- This code you want is almost the same as the code inside the `Lightning` sprite, except that the `Orange` sprite should `go to`{:class="blockmotion"} the `Bat` sprite's position, and it should use the `change y by`{:class="blockcontrol"} block to move downwards instead of upwards. \--- /hint \--- \--- hint \--- Here is the code you will need:
+\--- hints \--- \--- hint \--- `Lightning`スプライトに加えたコードとほぼ同じです。ただし、`Orange`スプライトが `こうもり`の位置まで`行く`{:class="blockmotion"}ように設定するためには、`Orange`スプライトが下に動くよう設定する必要があります。 <0>ｙ座標を（）使える</0>{:class="blockcontrol"} ブロックに加える数字を変えると下に動きます。 \--- /hint \--- \--- hint \--- 以下のようなコードを加えてください：
 
 ```blocks
-    when flag clicked
-    hide
+    ⚑ がクリックされたとき
+隠す
 
-    when I start as a clone
-    go to [Bat1 v]
-    show
-    repeat until <touching [edge v]?
-        change y by (-4)
-    end
-    delete this clone
+クローンされたとき
+[Bat1 v] へ行く
+表示する
+<[端 v] に触れた> まで繰り返す 
+  y座標を (-4) ずつ変える
+end
+このクローンを削除する
 
 ```
 
 \--- /hint \--- \--- /hints \---
 
-+ Add some more code to the `Orange` sprite so that when the `Spaceship` sprite is hit, it also disappears to give the player a chance to reset:
++ `Orange` スプライトにコードを加えましょう。`Orange` スプライトが<0>スペースシップ</0>にぶつかった瞬間消えるように設定しましょう。 
 
 ```blocks
-    when I receive [hit v]
-    delete this clone
+    [当たった v] を受け取ったとき
+このクローンを削除する
 ```
 
-+ You'll also need to modify the code in your `Spaceship` sprite so that it is hit when it touches a `Hippo` sprite or an `Orange` sprite:
++ `スペースシップ`のスプライト（Spaceship）のコードを変える必要があります。 `カバ`のスプライト（Hippo1）だけでなく、`みかん`のスプライト（Orange）に触れたら（ふれたら）「当たった」状態になるようコードを変えてください：
 
 ```blocks
-    wait until < <touching [Hippo1 v]?> or <touching [Orange v]?>>
+    <<[Hippo1 v] に触れた> または <[Orange v] に触れた>> まで待つ
 ```
 
-+ Test your game. What happens if you get hit by a falling orange?
++ ゲームをテストしましょう。スペースシップがみかんに当たったら何が起きますか？
