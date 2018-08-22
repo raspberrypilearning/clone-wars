@@ -1,4 +1,4 @@
-## Disappearing hippos
+## Znikające hipopotamy
 
 When the spaceship is hit, all the hippos should disappear to give the player a chance to recover.
 
@@ -9,10 +9,10 @@ When the spaceship is hit, all the hippos should disappear to give the player a 
 \--- hints \--- \--- hint \--- Create a `broadcast` 'hit' block by dragging the block from the **Events** tab and then clicking on the drop-down menu and selecting **new message**. \--- /hint \--- \--- hint \--- Here is what your block should look like:
 
 ```blocks
-broadcast [hit v]
+transmisja [hit v]
 ```
 
-\--- /hint \--- \--- hint \--- Here is what your code should look like:
+\--- /hint \--- \--- hint \--- Tak powinien wyglądać twój kod:
 
 ```blocks
 when flag clicked
@@ -35,9 +35,9 @@ delete this clone
 
 + Test out this code by starting a new game and deliberately colliding with a hippo.
 
-![screenshot](images/invaders-hippo-collide.png)
+![zrzut ekranu](images/invaders-hippo-collide.png)
 
-After you get hit, hippos start reappearing but the spaceship has still exploded! Let's make it possible for the spaceship to reset itself after being hit.
+Po otrzymaniu trafienia hipopotamy zaczynają pojawiać się ponownie, ale statek kosmiczny wciąż eksploduje! Sprawmy, aby statek kosmiczny mógł się zresetować po trafieniu.
 
 + Add a `forever`{:class="blockcontrol"} block around all of your code to make the process repeat, and a `wait`{:class="blockcontrol"} block at the end to add a small pause before hippos begin appearing again.
 
