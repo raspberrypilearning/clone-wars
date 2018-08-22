@@ -1,93 +1,93 @@
-## Lightning bolts
+## صواعق برقية
 
-Let's give the spaceship the ability to fire lightning bolts!
+دعونا نعطي سفينة الفضاء القدرة على إطلاق صواعق برقية!
 
-+ Add the `Lightning` sprite from the Scratch library.
++ أضف كائن `Lightning` من مكتبة Scratch.
 
-+ When the game is started, the `Lightning` sprite should be hidden until the spaceship fires its laser cannons, so add this code to the `Lightning` sprite:
++ عندما تبدأ اللعبة، يجب أن يكون الكائن `Lightning` مخفيًا حتى تطلق السفينة الفضائية قذائف الليزر، لذا أضف هذه التعليمة البرمجية إلى كائن `Lightning`:
 
 ```blocks
-when green flag clicked
-hide
+عند نقر ⚑
+اختف
 ```
 
-At the moment you have a pretty gigantic lightning bolt for the spaceship to fire!
+أصبح لسفينتك الآن إمكانية إطلاق صواعق برقية عملاقة ومتوهجة!
 
-+ Attach some code below the blocks you just added to make the `Lightning` sprite smaller and to turn it upside down. Then it will look like it fires pointy end–first out of the spaceship.
++ أضف بعض التعليمات البرمجية أسفل التعليمة البرمجية التي أضفتها للتو لتصغير كائن `Lightning` و قلبه. عندئذٍ ستبدو السفينة وكأنها تطلق قذائف موزَّعة.
 
 ```blocks
-set size to (25) %
-point in direction (-90 v)
+اجعل الحجم مساوياً (25) %
+اتجه نحو الاتجاه (-90 v)
 ```
 
-+ Switch to the `Spaceship` sprite by clicking on it in the Sprites panel below the Stage.
++ انتقل إلى كائن `Spaceship` بالنقر عليه من قائمة الكائنات الموجودة أسفل المنصة.
 
-+ Add some new code to make the `Spaceship` sprite create a new lightning bolt whenever the **space** key is pressed.
++ أضف بعض التعليمات البرمجية الجديدة لتجعل كائن `Spaceship` يُطلق صاعقة برقية جديدة في أي وقت يتم فيه الضغط على مفتاح **المسافة**.
 
-\--- hints \--- \--- hint \--- Here is some pseudocode for you:
+\--- hints \--- \--- hint \--- إليك بعض التعليمات البرمجية المستعارة لتستخدمها:
 
-When the green flag is clicked Keep checking forever If the **space** key was pressed, create a clone of the `Lightning` sprite \--- /hint \--- \--- hint \--- Here are the blocks you will need:
+عند النقر على العلم الأخضر تحقق باستمرار إذا تم الضغط على مفتاح **المسافة**، فأنشئ نسخة من كائن `Lightning` \--- /hint \--- \--- hint \--- فيما يلي التعليمات البرمجية التي ستحتاج إليها:
 
-![Hint](images/hint-lightning.png) \--- /hint \--- \--- hint \--- Here is the code you will need:
+![تلميح](images/hint-lightning.png) \--- /hint \--- \--- hint \--- هذه هي التعليمة البرمجية التي ستحتاج إليها:
 
 ```blocks
-when flag clicked
-forever
-    if <key [space v] pressed?> then
-        create clone of [Lightning v]
-    end
+عند نقر ⚑
+كرر باستمرار 
+  إذا <مفتاح [المسافة v] مضغوط؟> 
+    أنشئ نسخة من [Lightning v]
+  end
 end
 ```
 
 \--- /hint \--- \--- /hints \---
 
-+ Switch back to the `Lightning` sprite.
++ عُد مرة أخرى إلى كائن `Lightning`.
 
-+ Whenever a lightning bolt is created, it should appear and then move upwards until it reaches the top of the screen. Then it should disappear.
++ متى ما تم إنشاء صاعقة برقية، يجب أن تظهر ثم تتحرك إلى أعلى حتى تصل إلى أعلى الشاشة. ثم يجب أن تختفي.
 
 \--- hints \--- \--- hint \---
 
-When a new `Lightning` sprite clone appears:
+عندما تظهر نسخة جديدة من كائن `Lightning`:
 
-+ Display it
-+ Repeatedly move it up by `10` until it is touching the edge of the screen
-+ Then delete the clone \--- /hint \--- \--- hint \--- Here are the blocks you will need:
++ أظهرها
++ حرِّكها بمقدار `10` إلى أعلى بشكل متكرِّر حتى تلامس حافة الشاشة
++ ثم احذف النسخة \--- /hint \--- \--- hint \--- فيما يلي التعليمات البرمجية التي ستحتاج إليها:
 
-![Move lightning](images/move-hint-lightning.png) \--- /hint \--- \--- hint \--- Here is the code you will need to add to the `Lightning` sprite:
+![تحريك البرق](images/move-hint-lightning.png) \--- hint \--- \--- hint \--- هنا التعليمة البرمجية التي ستحتاج إلى إضافتها إلى كائن `Lightning`:
 
 ```blocks
-    when I start as a clone
-    show
-    repeat until <touching [edge v] ?>
-        change y by (10)
-    end
-    delete this clone
+    عندما تبدأ نسخة مني
+اظهر
+كرِّر حتى <touching [edge v] ?> 
+  غيِّر الموضع ص بمقدار (10)
+end
+احذف هذه النسخة
 ```
 
 \--- /hint \--- \--- /hints \---
 
-+ Test your `Lightning` sprite by clicking the green flag and then pressing the **space** bar. When you press **space**, does lightning appear and move up the screen? What problem can you spot?
++ اختبر كائن `Lightning` بالنقر على العلم الأخضر ثم الضغط على مفتاح **المسافة**. عندما تضغط على مفتاح **المسافة**، هل تظهر صاعقة برقية على الشاشة وتتحرك إلى أعلى؟ ما المشكلة التي يمكن أن تكتشفها؟
 
 ## \--- collapse \---
 
-## title: Answer
+## title: الإجابة
 
-Oops — at the moment the lightning always fires from the same place, regardless of where the spaceship is!
+يوجد خطأ — في الوقت الحالي، تُطلق الصواعق البرقية من المكان نفسه دائمًا، بغض النظر عن مكان سفينة الفضاء!
 
-Add this block just before the `show`{:class="blocklooks"} block to make the clone of the `Lightning` sprite move to the `Spaceship` sprite's position before it appears. This will make it look like the lightning bolt is firing out of the spaceship.
+أضف هذه التعليمة البرمجية قبل لبنة `أظهر`{:class="blocklooks"} مباشرة لتجعل نسخة كائن `Lightning` تتحرك إلى موقع كائن `Spaceship` قبل أن تظهر. وبذلك، ستبدو الصاعقة البرقية وكأنها تُطلق من سفينة الفضاء.
 
 ```blocks
-go to [Spaceship v]
+اذهب إلى [Spaceship v]
 ```
 
 \--- /collapse \---
 
-+ Press the **space** key to test whether your lightning bolt now fires correctly.
++ اضغط على مفتاح **المسافة** لتختبر ما إذا كانت الصواعق البرقية تُطلق الآن من مكانها الصحيح أم لا.
 
 \--- challenge \---
 
-### Challenge: fixing the lightning
+### التحدي: تنظيم ظهور الصواعق البرقية
 
-What happens if you hold down the **space** key? Can you use a `wait`{:class="blockcontrol"} block to fix this?
+ماذا يحدث إذا ضغطت مطولًا على مفتاح **المسافة**؟ هل يمكنك أن تستخدم لبنة `انتظر`{:class="blockcontrol"} لتنظيم ذلك؟
 
 \--- /challenge \---
