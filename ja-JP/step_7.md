@@ -1,61 +1,61 @@
-## Disappearing hippos
+## 消えるカバ
 
-When the spaceship is hit, all the hippos should disappear to give the player a chance to recover.
+スペースシップがカバにぶつかったらカバが全部消えるように設定しましょう。カバがすべて消えれば、プレイヤーに回復するチャンスが与えられます。
 
-+ Add a block to your code to `broadcast` the message "hit" when the spaceship is touching a hippo.
++ スペースシップがカバにぶつかったら「当たった」のメッセージを`送る`コードを入れましょう。
 
 [[[generic-scratch-broadcast-message]]]
 
-\--- hints \--- \--- hint \--- Create a `broadcast` 'hit' block by dragging the block from the **Events** tab and then clicking on the drop-down menu and selecting **new message**. \--- /hint \--- \--- hint \--- Here is what your block should look like:
+\--- hints \--- \--- hint \--- メッセージを送るためのブロックをたしましょう。**「イベント」**タブにある`送る`ブロックをステージに入れてください。**「新しいメッセージ」**を選んで名前をつけましょう。 \--- /hint \--- \--- hint \--- 以下のようなコードを加えてください：
 
 ```blocks
-broadcast [hit v]
+[当たった v] を送る
 ```
 
-\--- /hint \--- \--- hint \--- Here is what your code should look like:
+\--- /hint \--- \--- hint \--- 以下のようなコードを加えてください：
 
 ```blocks
-when flag clicked
-switch costume to [normal v]
-wait until <touching [Hippo1 v]>?
-switch costume to [hit v]
-broadcast [hit v]
+⚑ がクリックされたとき
+コスチュームを [普通 v] にする
+<[Hippo1 v] に触れた> まで待つ
+コスチュームを [当たった v] にする
+[当たった v] を送る
 ```
 
 \--- /hint \--- \--- /hints \---
 
-All of the `Hippo` sprite clones will hear this message, so you can now instruct them to disappear when the spaceship is hit.
+「当たった」のメッセージがすべての`カバ`に届くと、すべてのカバが消えます。
 
-+ Add this code to the `Hippo` sprite:
++ `カバ`のスプライト（Hippo1）に以下のコードを加えてください。
 
 ```blocks
-when I receive [hit v]
-delete this clone
+[当たった v] を受け取ったとき
+このクローンを削除する
 ```
 
-+ Test out this code by starting a new game and deliberately colliding with a hippo.
++ ゲームをテストしましょう。わざとスペースシップをカバにぶつけましょう。
 
 ![screenshot](images/invaders-hippo-collide.png)
 
-After you get hit, hippos start reappearing but the spaceship has still exploded! Let's make it possible for the spaceship to reset itself after being hit.
+スペースシップがカバにぶつかってばくはつした直後に再びカバが現れ始めます。スペースシップに回復するチャンスを与えましょう。
 
-+ Add a `forever`{:class="blockcontrol"} block around all of your code to make the process repeat, and a `wait`{:class="blockcontrol"} block at the end to add a small pause before hippos begin appearing again.
++ すべてのコードをずっとブロックに囲んでください。ぶつかった瞬間、カバがすぐにあらわれないように、`待つ`{:class="blockcontrol"}ブロックも加えましょう。
 
 ```blocks
-when flag clicked
-forever
-    switch costume to [normal v]
-    wait until <touching [Hippo1 v]>?
-    switch costume to [hit v]
-    broadcast [hit v]
-    wait (1) secs
+⚑ がクリックされたとき
+ずっと 
+  コスチュームを [普通 v] にする
+  <touching [Hippo1 v]> まで待つ
+  コスチュームを [当たった v] にする
+  [当たった v] を送る
+  (1) 秒待つ
 end
 ```
 
 \--- challenge \---
 
-### Challenge: lives and score
+### チャレンジ：命（いのち）と点数
 
-At the moment, the player has infinite lives. Can you add `lives`{:class="blockdata"}, a `score`{:class="blockdata"}, or even a `highscore`{:class="blockdata"} to your game?
+現時点では、プレイヤーはむげんの命を持っています。 `命`{:class="blockdata"}をあらわす変数、`点数`{:class="blockdata"}をあらわす変数、`最高点数`{:class="blockdata"}をあらわす変数をゲームに加えられますか？
 
 [[[generic-scratch-high-score]]] \--- /challenge \---
