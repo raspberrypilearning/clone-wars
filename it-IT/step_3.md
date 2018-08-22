@@ -1,22 +1,22 @@
-## Make a spaceship
+## Creare una navicella spaziale
 
-Let's make a spaceship that will defend the Earth!
+Creiamo una navicella spaziale che difenderà la Terra!
 
-+ Start a new Scratch project, and delete the cat sprite.
++ Inizia un nuovo progetto Scratch, e cancella lo sprite del gatto.
 
 [[[generic-scratch-new-project]]]
 
-+ Add the `stars` backdrop and the `Spaceship` sprite to your project.
++ Aggiungi lo sfondo `stelle` e lo sprite `Navicella` al tuo progetto.
     
-    ![screenshot](images/invaders-sprites.png)
+    ![copiaschermo](images/invaders-sprites.png)
 
 [[[generic-scratch-backdrop-from-library]]]
 
 [[[generic-scratch-sprite-from-library]]]
 
-+ Use the **shrink** tool to make your `Spaceship` sprite a bit smaller, and position it near the bottom of the screen.
++ Usa lo strumento **shrink** (restringi) per rendere un po' più piccolo il tuo sprite `Navicella`, e posizionalo vicino alla parte bassa dello schermo.
 
-+ When the **left** arrow key is pressed, the spaceship should move to the left. Add this code to make your spaceship move left when the **left** arrow is pressed:
++ Quando viene premuto il tasto freccia **sinistra**, la navicella spaziale dovrebbe muoversi verso sinistra. Aggiungi questo pezzo di codice per fare in modo che la tua navicella spaziale si muova verso sinistra quando viene premuto il tasto freccia **sinistra**:
 
 ```blocks
     when flag clicked
@@ -27,21 +27,21 @@ Let's make a spaceship that will defend the Earth!
     end
 ```
 
-The x-axis goes from left to right on the Stage, so if you make the the spaceship's x-position smaller by substracting from it, it will move further to the left. This code is the part which makes your spaceship move left:
+L'asse-x va da sinistra a destra sullo schermo, quindi se rendi la posizione-x della navicella spaziale più piccola sottraendo, la navicella si muoverà più a sinistra. Questo pezzo di codice è la parte che fa in modo che la tua navicella spaziale si muova verso sinistra:
 
 ```blocks
 change x by (-4)
 ```
 
-+ Add some more code inside the `forever`{:class="blockcontrol"} block to make your spaceship move to the right when the **right** arrow key is pressed.
++ Aggiungi un ulteriore pezzo di codice nel blocco `forever`{:class="blockcontrol"} per fare in modo che la navicella spaziale si muova a destra quando viene premuto il tasto freccia **destra**.
 
-\--- hints \--- \--- hint \--- If subtracting `4` from the spaceship's position made it move left, how could you make it move right by `4` instead? \--- /hint \--- \--- hint \--- You will need to use the same block, but with a different number:
+Se sottraendo `4` dalla posizione della navicella spaziale questa si muove a sinistra, invece come potresti fare in modo che si muova a destra di `4`? \--- /suggerimento \--- \--- suggerimento \--- Avrai bisogno di usare lo stesso blocco di codice, ma con un numero diverso:
 
 ```blocks
 change x by ( )
 ```
 
-\--- /hint \--- \--- hint \--- Here is the code you will need to add below the other code inside your `forever`{:class="blockcontrol"} block:
+\--- /suggerimento \--- \--- suggerimento \--- Questo è il pezzo di codice che hai bisogno di aggiungere sotto l'altro pezzo di codice all'interno del tuo blocco `forever`{:class="blockcontrol"}:
 
 ```blocks
 if <key [right arrow v] pressed?> then
@@ -49,6 +49,6 @@ if <key [right arrow v] pressed?> then
 end
 ```
 
-\--- /hint \--- \--- /hints \---
+-- /suggerimento \--- \--- /suggerimenti \---
 
-+ Test your project by clicking the green flag. Can you make your spaceship move left and right with the arrow keys?
++ Fai un test del tuo progetto cliccando la bandierina verde. Puoi muovere la tua navicella spaziale a sinistra e a destra con i tasti freccia?
