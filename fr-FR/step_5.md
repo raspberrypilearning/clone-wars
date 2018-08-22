@@ -4,70 +4,72 @@ Ajoutons beaucoup d'hippopotames volants qui essaieront de détruire votre vaiss
 
 + Créez un nouveau lutin avec l'image ` Hippo1 ` de la bibliothèque Scratch. Utilisez l'outil **rétrécir** pour faire que le lutin ` Hippo ` ait une taille similaire au lutin ` Spaceship `.
 
-![screenshot](images/invaders-hippo.png)
+![capture d'écran](images/invaders-hippo.png)
 
-+ Set the `Hippo` sprite's rotation style to be left-right only.
++ Définir le style de rotation de `l’hippopotame` dans le sens horaire seulement.
 
 [[[generic-scratch-sprite-rotation-style]]]
 
-+ Add some code to hide the `Hippo` sprite when the game starts.
++ Ajoutez du code pour cacher le lutin `Hippo` quand le jeu commence.
 
-\--- hints \--- \--- hint \--- The code for this is exactly the same as the code you used to hide the `Lightning` sprite when the game starts. \--- / hint \--- \--- indice \--- Voici le code dont vous aurez besoin:
-
-```blocks
-when green flag clicked
-hide
-```
-
-\--- / indice \--- \--- / indices \---
-
-+ Switch to the Stage by clicking on it in the bottom panel.
-
-+ Add some code to the Stage to create a new hippo every few seconds.
-
-\--- hints \--- \--- hint \--- When the green flag is clicked: Repeatedly...
-
-+ Attendez entre 2 et 4 secondes
-+ Créer un clone du lutin hippopotame
-
-\--- /hint \--- \--- hint \--- Here are the blocks you will need: ![Clone hippo hint](images/clone-hippo-hint.png)
-
-\--- /hint \--- \--- hint \--- Here is the code you will need:
+\--- hints \--- \--- hint \--- Le code pour ceci est exactement le même que le code que vous avez utilisé pour cacher le ` lutin eclair ` lorsque le jeu commence \--- / hint \--- \--- hint \--- Voici le code dont vous aurez besoin:
 
 ```blocks
-when flag clicked
-forever
-    wait (pick random (2) to (4)) secs
-    create clone of [Hippo1 v]
-end
+Quand le drapeau vert est cliqué
+cacher
+
 ```
 
 \--- /hint \--- \--- /hints \---
 
-+ Switch back to the `Hippo` sprite.
++ Passez à la scène en cliquant dessus dans le panneau inférieur.
 
-Each new hippo should appear at a random x-position, and each should have a random speed.
++ Ajoutez du code à la scène pour créer un nouvel hippopotame toutes les secondes.
 
-+ Create a new variable called `speed`{:class="blockdata"} that is for the `Hippo` sprite only.
+\--- hints \--- \--- hint \--- Quand le drapeau vert est cliqué : Répéter 
+
++ Attendez entre 2 et 4 secondes
++ Créer un clone du lutin hippopotame
+
+\--- / hint \--- \--- hint \--- Voici le code dont vous aurez besoin:![astuce clone de l'hippo](images/clone-hippo-hint.png)
+
+\--- / hint \--- \--- indice \--- Voici le code dont vous aurez besoin:
+
+```blocks
+Quand le drapeau vert est cliqué
+répéter indéfiniment
+   attendre (choisir aléatoirement entre (2) et (4)) secondes
+   créer un clone de [Hippo1 v]
+terminer
+
+```
+
+\--- /hint \--- \--- /hints \---
+
++ Revenez au lutin ` Hippo ` .
+
+Chaque nouvel hippopotame doit apparaître à une position x aléatoire et chacun doit avoir une vitesse aléatoire.
+
++ Créer une nouvelle variable appelée ` vitesse ` {: class = "blockdata"} pour le lutin ` hippo` uniquement.
 
 [[[generic-scratch-add-variable]]]
 
-You'll know you've done this correctly when you can see that the variable has the name of the sprite next to it, like this:
+Vous saurez que vous avez fait cela correctement lorsque vous pouvez voir que la variable porte le nom du lutin à côté de lui, comme ceci :
 
-![screenshot](images/invaders-var-test.png)
+![capture d'écran](images/invaders-var-test.png)
 
-+ When each hippo clone starts, pick a random speed and starting place before showing it on the screen.
++ Au démarrage de chaque clone de hippo, choisissez une vitesse aléatoire et le lieu de départ avant de le montrer sur l’écran.
 
 ```blocks
-when I start as a clone
-set [speed v] to (pick random (2) to (4))
-go to x: (pick random (-220) to (220)) y: (150)
-show
+quand je commence comme un ensemble de
+clone [vitesse v] (choisir au hasard 2 à 4)
+aller à x: (sélection aléatoirement entre -(220) et (220)) y: (150)
+montrer
 ```
 
-+ Test your code by clicking the green flag. Does a new hippo appear every few seconds? At the moment your hippos won't move.
++ Testez votre code en cliquant sur le drapeau vert. Un nouvel hippopotame apparaît-il toutes les quelques secondes? Pour le moment vos hippopotames ne bougeront pas.
 
-+ The hippo should move around randomly until it gets hit by a lightning bolt. To make that happen, attach this code below the blocks you just added:
++ L’hippopotame devrait se déplacer au hasard jusqu'à ce qu’il se fasse frapper par un éclair. Pour ce faire, fixez ce code sous les blocs que vous venez d’ajouter :
 
 ```blocks
 repeat until <touching [lightning v] ?>
@@ -78,8 +80,8 @@ end
 delete this clone
 ```
 
-+ Test out your hippo code. You should see a new hippo clone appear every few seconds, each moving at its own speed.
++ Testez le code de votre hippo. Vous devriez voir un nouveau clone apparaître toutes les secondes, chacun se déplaçant à sa propre vitesse.
     
-    ![screenshot](images/hippo-clones.gif)
+    ![capture d'écran](images/hippo-clones.gif)
 
-+ Test your laser cannon. If you hit a hippo, does it vanish?
++ Testez votre canon laser. Si vous frappez un hippopotame, disparaît il?
