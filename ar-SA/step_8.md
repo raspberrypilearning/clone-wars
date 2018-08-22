@@ -1,109 +1,109 @@
-## Fruit bat
+## خفاش الفاكهة
 
-To make the game a bit harder, let's make a fruit bat which throws oranges at the spaceship.
+لزيادة مستوى صعوبة اللعبة، لننشئ خفاش فاكهة يرمي برتقالًا على سفينة الفضاء.
 
-+ Add a `Bat` sprite and set its rotation style to **left–right** only.
++ أضف كائن `Bat` وعيِّن أسلوب دورانه إلى **اليسار-اليمين** فقط.
 
-+ Make the `Bat` sprite `move`{:class="blockmotion"} from side to side across the top of the Stage `forever`{:class="blockcontrol"}. Remember to test out your code.
++ اجعل الكائن `Bat` `يتحرك`{:class="blockmotion"} من جانب إلى آخر أعلى المنصة ضمن حلقة `كرِّر باستمرار`{:class="blockcontrol"}. تذكَّر أن تختبر التعليمة البرمجية.
 
-![screenshot](images/invaders-bat.png)
+![لقطة الشاشة](images/invaders-bat.png)
 
-\--- hints \--- \--- hint \--- When the flag is clicked, the `Bat` sprite should forever
+\--- hints \--- \--- hint \--- عند النقر على العلم، يجب أن يفعل الكائن `Bat` الأمرَين التاليَين باستمرار
 
-+ move 10 steps
-+ if it reaches the edge, bounce \--- /hint \--- \--- hint \--- Here is the code you will need:
++ يتحرك 10 خطوات
++ يرتدّ إذا وصل إلى الحافة \--- /hint \--- \--- hint \--- هذه هي التعليمة البرمجية التي ستحتاج إليها:
 
 ```blocks
-when flag clicked
-forever
-    move (10) steps
-    if on edge, bounce
+عند نقر ⚑
+كرر باستمرار 
+  تحرك (10) خطوة
+  ارتد إذا كنت عند الحافة
 end
 ```
 
 \--- /hint \--- \--- /hints \---
 
-If you look at the bat's costumes, you'll see that it already has two different ones:
+إذا نظرتَ إلى مظاهر الخفاش، فستجد انه لديه مظهرين مختلفين:
 
-![screenshot](images/invaders-bat-costume.png)
+![لقطة الشاشة](images/invaders-bat-costume.png)
 
-+ Use the `next costume`{:class="blocklooks"} block to make the bat flap its wings as it moves.
++ استخدم لبنة `المظهر التالي`{:class="blocklooks"} لتجعل الخفاش يضرب بجناحيه أثناء تحركه.
 
-\--- hints \--- \--- hint \--- After the bat has moved, it should show the `next costume`{:class="blocklooks"} and then `wait`{:class="blockcontrol"} for a short time. \--- /hint \--- \--- hint \--- Here is the code you will need:
+\--- hints \--- \--- hint \--- بعد أن يتحرك الخفاش، يجب أن يظهر `المظهر التالي`{:class="blocklooks"} ثم `ينتظر`{:class="blockcontrol"} لفترة قصيرة. \--- /hint \--- \--- hint \--- هذه هي التعليمة البرمجية التي ستحتاج إليها:
 
 ```blocks
-next costume
-wait (0.3) secs
+المظهر التالي
+انتظر (0.3) ثانية
 ```
 
-\--- /hint \--- \--- hint \--- Here is the full code with the new code added:
+\--- /hint \--- \--- hint \--- هذه هي التعليمات البرمجية الكاملة بعد إضافة التعليمة البرمجية الجديدة:
 
 ```blocks
-when flag clicked
-forever
-    move (10) steps
-    if on edge, bounce
-    next costume
-    wait (0.3) secs
+عند نقر ⚑
+كرر باستمرار 
+  تحرك (10) خطوة
+  ارتد إذا كنت عند الحافة
+  المظهر التالي
+  انتظر (0.3) ثانية
 end
 ```
 
 \--- /hint \--- \--- /hints \---
 
-Now let's make the bat throw oranges.
+والآن، لنجعل الخفاش يرمي البرتقال.
 
-+ Add a new `Orange` sprite from the Scratch library.
++ أضف كائن `Orange` جديدًا من مكتبة Scratch.
 
-![screenshot](images/invaders-orange.png)
+![لقطة الشاشة](images/invaders-orange.png)
 
-+ Add code to your bat so that, when the flag is clicked, it waits for a random time between 5 and 10 seconds and then creates a clone of the `Orange` sprite.
++ أضف تعليمة برمجية إلى الخفاش بحيث ينتظر، عندما يتم النقر على العلم، لوقت عشوائي من 5 إلى 10 ثوان ثم ينشئ نسخة من الكائن `Orange`.
 
-\--- hints \--- \--- hint \--- Look at the code you wrote when you created the `Lightning` sprite. The code you need now is very similar, except instead of an orange appearing when you press the **space** bar, it should appear after you `wait`{:class="blockcontrol"} for `5-10`{:class="blockoperators"} seconds. \--- /hint \--- \--- hint \--- `When the flag is clicked`{:class="blockcontrol"}, the `Bat` sprite should `forever`{:class="blockcontrol"}
+\--- hints \--- \--- hint \--- انظر إلى التعليمة البرمجية التي كتبتَها عندما أنشأتَ الكائن `Lightning`. إنها مشابهة جدًا للتعليمة البرمجية التي تحتاج إليها الآن، باستثناء ظهور برتقالة عند الظغط على مفتاح **المسافة**، والتي يجب أن تظهر بعد `الانتظار`{:class="blockcontrol"} لمدة `5-10`{:class="blockoperators"} ثانية. \--- /hint \--- \--- hint \--- ` عند النقر على العلم`{:class="blockcontrol"}، يجب أن ينفِّذ الكائن `Bat` الأمرَين التاليَين في حلقة `كرِّر باستمرار`{:class="blockcontrol"}
 
-+ `wait`{:class="blockcontrol"} for a `random`{:class="blockoperators"} time between `5-10`{:class="blockoperators"} seconds
-+ `create a clone`{:class="blockcontrol"} of the `Orange` sprite \--- /hint \--- \--- hint \--- Here is the code you will need:
++ `ينتظر`{:class="blockcontrol"} لمدة `عشوائية`{:class="blockoperators"} من `5 إلى 10`{:class="blockoperators"} ثانية
++ `يُنشئ نسخة`{:class="blockcontrol"} من الكائن `Orange` \--- /hint \--- \--- hint \--- هذه هي التعليمة البرمجية التي ستحتاج إليها:
 
 ```blocks
-when flag clicked
-forever
-    wait (pick random (5) to (10)) secs
-    create clone of [Orange v]
+عند نقر ⚑
+كرر باستمرار 
+  انتظر (اختر عدداً عشوائياً بين (5) و (10)) ثانية
+  أنشئ نسخة من [Orange v]
 end
 ```
 
 \--- /hint \--- \--- /hints \---
 
-+ Click on your `Orange` sprite and add some code to make each `Orange` sprite clone drop, starting from the `Bat` sprite and falling towards the bottom of the Stage.
++ انقر على الكائن `Orange` وأضف بعض التعليمات البرمجية لتجعل كل نسخة من الكائن `Orange` تسقط من موقع الكائن `Bat` وتتجه إلى أسفل المنصة.
 
-\--- hints \--- \--- hint \--- This code you want is almost the same as the code inside the `Lightning` sprite, except that the `Orange` sprite should `go to`{:class="blockmotion"} the `Bat` sprite's position, and it should use the `change y by`{:class="blockcontrol"} block to move downwards instead of upwards. \--- /hint \--- \--- hint \--- Here is the code you will need:
+\--- hints \--- \--- hint \--- هذه التعليمة البرمجية التي تحتاج إليها هي غالبًا التعليمة البرمجية نفسها الموجودة داخل الكائن `Lightning`، باستثناء أن الكائن `Orange` يجب أن `ينتقل إلى`{:class="blockmotion"} موقع الكائن `Bat`، ويجب أن يستخدم لبنة `غيِّر y بمقدار`{:class="blockcontrol"} للتحرك إلى أسفل بدلًا من إلى أعلى. \--- /hint \--- \--- hint \--- هذه هي التعليمة البرمجية التي ستحتاج إليها:
 
 ```blocks
-    when flag clicked
-    hide
+    عند نقر ⚑
+اختف
 
-    when I start as a clone
-    go to [Bat1 v]
-    show
-    repeat until <touching [edge v]?
-        change y by (-4)
-    end
-    delete this clone
+عندما تبدأ نسخة مني
+اذهب إلى [Bat1 v]
+اظهر
+كرِّر حتى <ملامس لـ [الحافة v] ؟> 
+  غيِّر الموضع ص بمقدار (-4)
+end
+احذف هذه النسخة
 
 ```
 
 \--- /hint \--- \--- /hints \---
 
-+ Add some more code to the `Orange` sprite so that when the `Spaceship` sprite is hit, it also disappears to give the player a chance to reset:
++ أضف بعض التعليمات البرمجية الأخرى إلى الكائن `Orange` بحيث عندما يصطدم الكائن `Spaceship`، يختفي هو الآخر ليعطي اللاعب فرصة لاستعادة قوته:
 
 ```blocks
-    when I receive [hit v]
-    delete this clone
+    عندما تستقبل [hit v]
+احذف هذه النسخة
 ```
 
-+ You'll also need to modify the code in your `Spaceship` sprite so that it is hit when it touches a `Hippo` sprite or an `Orange` sprite:
++ ستحتاج أيضًا إلى تعديل التعليمة البرمجية في الكائن `Spaceship` بحيث يصطدم عندما يلامس كائن `Hippo` أو كائن `Orange`:
 
 ```blocks
-    wait until < <touching [Hippo1 v]?> or <touching [Orange v]?>>
+    انتظر حتى <<ملامس لـ [Hippo1 v] ؟> أو <ملامس لـ [Orange v] ؟>>
 ```
 
-+ Test your game. What happens if you get hit by a falling orange?
++ اختبر لعبتك. ماذا سيحدث إذا اصطدمت السفينة ببرتقالة ساقطة؟
