@@ -2,7 +2,7 @@
 
 Dodajmy wiele latających hipopotamów, które spróbują zniszczyć twój statek kosmiczny.
 
-+ Stwórz nowego duszka za pomocą obrazu `Hipopotam1` z biblioteki Scratcha. Use the **shrink** tool to make the `Hippo` sprite a similar size to the `Spaceship` sprite.
++ Stwórz nowego duszka za pomocą obrazu `Hippo1` z biblioteki Scratcha. Use the **shrink** tool to make the `Hippo` sprite a similar size to the `Spaceship` sprite.
 
 ![zrzut ekranu](images/invaders-hippo.png)
 
@@ -65,7 +65,7 @@ go to x: (pick random (-220) to (220)) y: (150)
 show
 ```
 
-+ Test your code by clicking the green flag. Does a new hippo appear every few seconds? At the moment your hippos won't move.
++ Przetestuj swój kod, klikając zieloną flagę. Czy co kilka sekund pojawia się nowy hipopotam? W tej chwili twoje hipopotamy nie ruszają się.
 
 + The hippo should move around randomly until it gets hit by a lightning bolt. To make that happen, attach this code below the blocks you just added:
 
@@ -82,4 +82,4 @@ delete this clone
     
     ![zrzut ekranu](images/hippo-clones.gif)
 
-+ Test your laser cannon. If you hit a hippo, does it vanish?
++ Sprawdź swoje działo laserowe. Jeśli trafisz hipopotama, czy zniknie?
