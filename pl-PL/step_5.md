@@ -2,7 +2,7 @@
 
 Dodajmy wiele latających hipopotamów, które spróbują zniszczyć twój statek kosmiczny.
 
-+ Create a new sprite with the `Hippo1` image in the Scratch library. Use the **shrink** tool to make the `Hippo` sprite a similar size to the `Spaceship` sprite.
++ Stwórz nowego duszka za pomocą obrazu `Hippo1` z biblioteki Scratcha. Use the **shrink** tool to make the `Hippo` sprite a similar size to the `Spaceship` sprite.
 
 ![zrzut ekranu](images/invaders-hippo.png)
 
