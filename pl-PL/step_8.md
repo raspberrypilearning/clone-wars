@@ -29,7 +29,7 @@ Jeśli spojrzysz na kostiumy nietoperza, to zobaczysz, że ma już dwa:
 
 + Use the `next costume`{:class="blocklooks"} block to make the bat flap its wings as it moves.
 
-\--- hints \--- \--- hint \--- After the bat has moved, it should show the `next costume`{:class="blocklooks"} and then `wait`{:class="blockcontrol"} for a short time. \--- /hint \--- \--- hint \--- Here is the code you will need:
+\--- hints \--- \--- hint \--- After the bat has moved, it should show the `next costume`{:class="blocklooks"} and then `wait`{:class="blockcontrol"} for a short time. \--- /hint \--- \--- hint \--- To jest kod, którego będziesz potrzebować:
 
 ```blocks
 next costume
