@@ -26,7 +26,7 @@ broadcast [hit v]
 
 All of the `Hippo` sprite clones will hear this message, so you can now instruct them to disappear when the spaceship is hit.
 
-+ Add this code to the `Hippo` sprite:
++ Dodaj ten kod do duszka `Hipopotam`:
 
 ```blocks
 when I receive [hit v]
