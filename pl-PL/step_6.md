@@ -4,7 +4,7 @@ Kiedy hipopotam dotknie twojego statku kosmicznego, statek powinien eksplodować
 
 + Select the `Spaceship` sprite and rename the costume to 'normal'.
 
-+ Draw another costume of the spaceship exploding and call it 'hit'.
++ Narysuj inny kostium eksplodującego statku kosmicznego i nazwij go 'uderzenie'.
 
 ![screenshot](images/invaders-spaceship-costumes.png)
 
@@ -21,4 +21,4 @@ wait until <touching [Hippo1 v]>?
 switch costume to [hit v]
 ```
 
-+ Test your code by playing the game and colliding with a hippo. Does the spaceship change to the 'hit' costume?
++ Przetestuj swój kod, grając w grę i kolidując z hipopotamem. Czy statek kosmiczny zmienia się w kostium 'trafiony'?
