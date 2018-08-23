@@ -6,7 +6,7 @@ W tym projekcie nauczysz się, jak stworzyć grę, w której musisz uratować Zi
 
 Aby rozpocząć, kliknij na zieloną flagę w przykładowej grze poniżej, a następnie naciśnij strzałkę **w lewo** lub **w prawo**, aby przenieść statek kosmiczny i **spacje** żeby strzelić.
 
-Zdobądź jak najwięcej punktów, strzelając kosmicznymi latającymi hipopotamami. Stracisz życie, jeśli zostaniesz trafiony przez hipopotama lub pomarańczę upuszczoną przez owocowe nietoperze.
+Zdobądź jak najwięcej punktów, strzelając latającymi kosmo-hipopotamami. Stracisz życie, jeśli zostaniesz trafiony przez hipopotama lub pomarańczę upuszczoną przez owocowe nietoperze.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/46018140/?autostart=false" frameborder="0"></iframe>
