@@ -103,7 +103,7 @@ end
 + You'll also need to modify the code in your `Spaceship` sprite so that it is hit when it touches a `Hippo` sprite or an `Orange` sprite:
 
 ```blocks
-    wait until < <touching [Hippo1 v]?> or <touching [Orange v]?>>
+    czekaj aż <<touching [Hippo1 v]?> lub <touching [Orange v]?>>
 ```
 
 + Przetestuj swoją grę. Co się stanie, jeśli uderzy cię spadająca pomarańcza?
