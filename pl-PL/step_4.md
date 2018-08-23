@@ -41,13 +41,13 @@ end
 
 \--- /hint \--- \--- /hints \---
 
-+ Switch back to the `Lightning` sprite.
++ Wróć do duszka `Błyskawica`.
 
 + Ilekroć tworzona jest błyskawica, powinna pojawić się, a następnie przesuwać się w górę, aż osiągnie górną część ekranu. Wtedy powinna zniknąć.
 
 \--- hint \--- \--- /hints \---
 
-When a new `Lightning` sprite clone appears:
+Kiedy pojawia się nowy klon duszka `Błyskawica`:
 
 + Wyświetl to
 + Repeatedly move it up by `10` until it is touching the edge of the screen
