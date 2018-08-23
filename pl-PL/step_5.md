@@ -2,7 +2,7 @@
 
 Dodajmy wiele latających hipopotamów, które spróbują zniszczyć twój statek kosmiczny.
 
-+ Stwórz nowego duszka za pomocą obrazu `Hippo1` z biblioteki Scratcha. Use the **shrink** tool to make the `Hippo` sprite a similar size to the `Spaceship` sprite.
++ Stwórz nowego duszka za pomocą obrazu `Hipopotam1` z biblioteki Scratcha. Use the **shrink** tool to make the `Hippo` sprite a similar size to the `Spaceship` sprite.
 
 ![zrzut ekranu](images/invaders-hippo.png)
 
@@ -30,9 +30,9 @@ ukryj
 + Zaczekaj od 2 do 4 sekund
 + Stwórz klona duszka hipopotama
 
-\--- /hint \--- \--- hint \--- Here are the blocks you will need: ![Clone hippo hint](images/clone-hippo-hint.png)
+\--- /hint \--- \--- hint \--- Tu są bloczki, których potrzebujesz: ![Clone hippo hint](images/clone-hippo-hint.png)
 
-\--- /hint \--- \--- hint \--- Here is the code you will need:
+\--- /hint \--- \--- hint \--- To jest kod, którego będziesz potrzebować:
 
 ```blocks
 when flag clicked
@@ -44,11 +44,11 @@ end
 
 \--- /hint \--- \--- /hints \---
 
-+ Switch back to the `Hippo` sprite.
++ Wróć do duszka `Hipopotam`.
 
 Każdy nowy hipopotam powinien pojawić się w przypadkowej pozycji x i każdy powinien mieć losową prędkość.
 
-+ Create a new variable called `speed`{:class="blockdata"} that is for the `Hippo` sprite only.
++ Utwórz nową zmienną o nazwie `prędkość`{: class = "blockdata"} tylko dla duszka `hipopotam`.
 
 [[[generic-scratch-add-variable]]]
 
