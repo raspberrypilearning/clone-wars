@@ -6,7 +6,7 @@ When the spaceship is hit, all the hippos should disappear to give the player a 
 
 [[[generic-scratch-broadcast-message]]]
 
-\--- hints \--- \--- hint \--- Create a `broadcast` 'hit' block by dragging the block from the **Events** tab and then clicking on the drop-down menu and selecting **new message**. \--- /hint \--- \--- hint \--- Here is what your block should look like:
+\--- hints \--- \--- hint \--- Create a `broadcast` 'hit' block by dragging the block from the **Events** tab and then clicking on the drop-down menu and selecting **new message**. \--- /hint \--- \--- hint \--- Tak powinien wyglądać twój bloczek:
 
 ```blocks
 transmisja [hit v]
@@ -56,6 +56,6 @@ end
 
 ### Challenge: lives and score
 
-At the moment, the player has infinite lives. Can you add `lives`{:class="blockdata"}, a `score`{:class="blockdata"}, or even a `highscore`{:class="blockdata"} to your game?
+W tej chwili gracz ma nieskończoną ilość żyć. Can you add `lives`{:class="blockdata"}, a `score`{:class="blockdata"}, or even a `highscore`{:class="blockdata"} to your game?
 
 [[[generic-scratch-high-score]]] \--- /challenge \---
