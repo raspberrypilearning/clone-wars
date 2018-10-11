@@ -10,6 +10,8 @@ steps:
 - title: Introduction
 - title: Making a spaceship
 - title: Lightning bolts
+- title: 'Challenge: fixing the lightning'
+  challenge: true
 - title: Flying space-hippos
 - title: Exploding spaceship
 - title: Disappearing hippos

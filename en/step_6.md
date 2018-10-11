@@ -1,66 +1,24 @@
-## Disappearing hippos
+## Exploding spaceship
 
-When the spaceship is hit, all the hippos should disappear to give the player a chance to recover.
+When a hippo touches your spaceship, the ship should explode!
 
-+ Add a block to your code to `broadcast` the message "hit" when the spaceship is touching a hippo.
++ Select the `Spaceship` sprite and rename the costume to 'normal'.
 
-[[[generic-scratch-broadcast-message]]]
++ Draw another costume of the spaceship exploding and call it 'hit'.
 
---- hints ---
---- hint ---
-Create a `broadcast` 'hit' block by dragging the block from the **Events** tab and then clicking on the drop-down menu and selecting **new message**.
---- /hint ---
---- hint ---
-Here is what your block should look like:
-```blocks
-broadcast [hit v]
-```
---- /hint ---
---- hint ---
-Here is what your code should look like:
+![screenshot](images/invaders-spaceship-costumes.png)
+
+Or, if you don't want to draw the explosion, you could choose the 'Sun' costume from the Scratch library, and use the **Color a shape** tool to change its colour and remove the face.
+
+![screenshot](images/invaders-sun.png)
+
++ Add some code to your `Spaceship` sprite so that it starts off displaying the spaceship costume, but when it touches a flying hippo, it switches to the 'hit' costume:
 
 ```blocks
 when flag clicked
 switch costume to [normal v]
 wait until <touching [Hippo1 v]>?
 switch costume to [hit v]
-broadcast [hit v]
-```
---- /hint ---
---- /hints ---
-
-All of the `Hippo` sprite clones will hear this message, so you can now instruct them to disappear when the spaceship is hit.
-
-+ Add this code to the `Hippo` sprite:
-
-```blocks
-when I receive [hit v]
-delete this clone
 ```
 
-+ Test out this code by starting a new game and deliberately colliding with a hippo.
-
-![screenshot](images/invaders-hippo-collide.png)
-
-After you get hit, hippos start reappearing but the spaceship has still exploded! Let's make it possible for the spaceship to reset itself after being hit.
-
-+ Add a `forever`{:class="blockcontrol"} block around all of your code to make the process repeat, and a `wait`{:class="blockcontrol"} block at the end to add a small pause before hippos begin appearing again.
-
-```blocks
-when flag clicked
-forever
-    switch costume to [normal v]
-    wait until <touching [Hippo1 v]>?
-    switch costume to [hit v]
-    broadcast [hit v]
-    wait (1) secs
-end
-```
-
---- challenge ---
-### Challenge: lives and score
-
-At the moment, the player has infinite lives. Can you add `lives`{:class="blockdata"}, a `score`{:class="blockdata"}, or even a `highscore`{:class="blockdata"} to your game?
-
-[[[generic-scratch-high-score]]]
---- /challenge ---
++ Test your code by playing the game and colliding with a hippo. Does the spaceship change to the 'hit' costume?

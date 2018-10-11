@@ -18,6 +18,8 @@ Open the 'Clone wars' starter project.
 
 When the **left** arrow key is pressed, the spaceship should move to the left. Add this code to make your spaceship move left when the **left** arrow is pressed:
 
+![rocket sprite](images/rocket-sprite.png)
+
 ```blocks
 	when flag clicked
 	forever
@@ -60,6 +62,8 @@ change x by ( )
 --- hint ---
 
 Here is the code you will need to add below the other code inside your `forever`{:class="blockcontrol"} block:
+
+![rocket sprite](images/rocket-sprite.png)
 
 ```blocks
 if <key [right arrow v] pressed?> then

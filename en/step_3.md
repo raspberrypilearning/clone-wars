@@ -14,6 +14,8 @@ Add the `Lightning` sprite from the Scratch library.
 
 When the game is started, the `Lightning` sprite should be hidden until the spaceship fires its laser cannons, so add this code to the `Lightning` sprite:
 
+![lightning sprite](images/lightning-sprite.png)
+
 ```blocks
 when green flag clicked
 hide
@@ -26,6 +28,8 @@ At the moment you have a pretty gigantic lightning bolt for the spaceship to fir
 --- task ---
 
 Attach some code below the blocks you just added to make the `Lightning` sprite smaller and to turn it upside down. Then it will look like it fires pointy end–first out of the spaceship.
+
+![lightning sprite](images/lightning-sprite.png)
 
 ```blocks
 set size to (25) %
@@ -51,26 +55,26 @@ Add some new code to make the `Spaceship` sprite create a new lightning bolt whe
 Here are the blocks you will need:
 
 ```blocks
-forever
+if <> then
 end
 
-<key [space v] pressed?>
-
-if <> then
+forever
 end
 
 create clone of [Lightning v]
 
+<key [space v] pressed?>
+
 when flag clicked
 ```
-
-![Hint](images/hint-lightning.png)
 
 --- /hint ---
 
 --- hint ---
 
 Here is the code you will need:
+
+![rocket sprite](images/rocket-sprite.png)
 
 ```blocks
 when flag clicked
@@ -87,66 +91,25 @@ end
 
 --- /task ---
 
+--- task ---
 
-+ 
-+ 
+Whenever a lightning bolt is created, it should appear and then move upwards until it reaches the top of the screen. Then it should disappear.
 
-+ 
-
-+
-+ Switch back to the `Lightning` sprite.
-
-+ Whenever a lightning bolt is created, it should appear and then move upwards until it reaches the top of the screen. Then it should disappear.
-
---- hints ---
---- hint ---
-
-When a new `Lightning` sprite clone appears:
-- Display it
-- Repeatedly move it up by `10` until it is touching the edge of the screen
-- Then delete the clone
---- /hint ---
---- hint ---
-Here are the blocks you will need:
-
-![Move lightning](images/move-hint-lightning.png)
---- /hint ---
---- hint ---
-Here is the code you will need to add to the `Lightning` sprite:
+So add this code to the `Lightning` sprite so it moves up the screen until it is touching the edge.
 
 ```blocks
 	when I start as a clone
+	go to [Spaceship v]
     show
 	repeat until <touching [edge v] ?>
 		change y by (10)
 	end
 	delete this clone
 ```
---- /hint ---
---- /hints ---
 
+--- /task ---
 
+Press the **space** key to test whether your lightning bolt fires correctly.
 
-+ Test your `Lightning` sprite by clicking the green flag and then pressing the **space** bar. When you press **space**, does lightning appear and move up the screen? What problem can you spot?
+--- /task ---
 
---- collapse ---
----
-title: Answer
----
-Oops — at the moment the lightning always fires from the same place, regardless of where the spaceship is!
-
-Add this block just before the `show`{:class="blocklooks"} block to make the clone of the `Lightning` sprite move to the `Spaceship` sprite's position before it appears. This will make it look like the lightning bolt is firing out of the spaceship.
-
-```blocks
-go to [Spaceship v]
-```
-
---- /collapse ---
-
-+ Press the **space** key to test whether your lightning bolt now fires correctly.
-
---- challenge ---
-### Challenge: fixing the lightning
-What happens if you hold down the **space** key? Can you use a `wait`{:class="blockcontrol"} block to fix this?
-
---- /challenge ---
