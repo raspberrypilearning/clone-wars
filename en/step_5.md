@@ -28,6 +28,7 @@ Add some code to hide the `Hippo` sprite when the game starts.
 when green flag clicked
 hide
 ```
+--- /task ---
 
 --- task ---
 
@@ -37,7 +38,7 @@ Add some code to the Stage to create a new hippo every few seconds.
 
 --- hint ---
 
-When the `green flag is clicked`{:class="blockevents"} `repeatedly`{:class="blockcontrol"}, `wait`{:class="blockcontrol"} `between 2 and 4 seconds`{:class="blockoperator"}, `create a clone of the hippo sprite`{:class="blockcontrol"}
+When the `green flag is clicked`{:class="blockevents"} `repeatedly`{:class="blockcontrol"}, `wait`{:class="blockcontrol"} `between 2 and 4 seconds`{:class="blockoperators"}, `create a clone of the hippo sprite`{:class="blockcontrol"}
 
 --- /hint ---
 
@@ -55,7 +56,7 @@ create clone of [Hippo1 v]
 
 when flag clicked
 
-wait ()
+wait () secs
 ```
 
 ![Clone hippo hint](images/clone-hippo-hint.png)
