@@ -1,58 +1,152 @@
-## Make a spaceship
+## Lightning bolts
 
-Let's make a spaceship that will defend the Earth!
+Let's give the spaceship the ability to fire lightning bolts!
 
-+ Start a new Scratch project, and delete the cat sprite.
+--- task ---
 
-[[[generic-scratch-new-project]]]
-
-+ Add the `stars` backdrop and the `Spaceship` sprite to your project.
-
-	![screenshot](images/invaders-sprites.png)
-
-[[[generic-scratch-backdrop-from-library]]]
+Add the `Lightning` sprite from the Scratch library.  
 
 [[[generic-scratch-sprite-from-library]]]
 
-+ Use the **shrink** tool to make your `Spaceship` sprite a bit smaller, and position it near the bottom of the screen.
+--- /task ---
 
-+ When the **left** arrow key is pressed, the spaceship should move to the left. Add this code to make your spaceship move left when the **left** arrow is pressed:
+--- task ---
+
+When the game is started, the `Lightning` sprite should be hidden until the spaceship fires its laser cannons, so add this code to the `Lightning` sprite:
 
 ```blocks
-	when flag clicked
-	forever
-		if <key [left arrow v] pressed?> then
-			change x by (-4)
-		end
+when green flag clicked
+hide
+```
+
+At the moment you have a pretty gigantic lightning bolt for the spaceship to fire!
+
+--- /task ---
+
+--- task ---
+
+Attach some code below the blocks you just added to make the `Lightning` sprite smaller and to turn it upside down. Then it will look like it fires pointy end–first out of the spaceship.
+
+```blocks
+set size to (25) %
+point in direction (-90 v)
+```
+
+--- /task ---
+
+--- task ---
+
+Add some new code to make the `Spaceship` sprite create a new lightning bolt whenever the **space** key is pressed.
+
+--- hints ---
+
+--- hint ---
+
+`When the green flag is clicked`{:class="blockevents"} keep checking `forever`{:class="blockcontrol"} `if`{:class="blockcontrol"} the `**space** key was pressed`{:class="blocksensing"}, `create a clone of itself`{:class="blockcontrol"}.	
+
+--- /hint ---
+
+--- hint ---
+
+Here are the blocks you will need:
+
+```blocks
+forever
+end
+
+<key [space v] pressed?>
+
+if <> then
+end
+
+create clone of [Lightning v]
+
+when flag clicked
+```
+
+![Hint](images/hint-lightning.png)
+
+--- /hint ---
+
+--- hint ---
+
+Here is the code you will need:
+
+```blocks
+when flag clicked
+forever
+	if <key [space v] pressed?> then
+		create clone of [Lightning v]
 	end
+end
 ```
 
-The x-axis goes from left to right on the Stage, so if you make the the spaceship's x-position smaller by substracting from it, it will move further to the left. This code is the part which makes your spaceship move left:
+--- /hint ---
 
-```blocks
-change x by (-4)
-```
+--- /hints ---
 
-+ Add some more code inside the `forever`{:class="blockcontrol"} block to make your spaceship move to the right when the **right** arrow key is pressed.
+--- /task ---
+
+
++ 
++ 
+
++ 
+
++
++ Switch back to the `Lightning` sprite.
+
++ Whenever a lightning bolt is created, it should appear and then move upwards until it reaches the top of the screen. Then it should disappear.
 
 --- hints ---
 --- hint ---
-If subtracting `4` from the spaceship's position made it move left, how could you make it move right by `4` instead?
+
+When a new `Lightning` sprite clone appears:
+- Display it
+- Repeatedly move it up by `10` until it is touching the edge of the screen
+- Then delete the clone
 --- /hint ---
 --- hint ---
-You will need to use the same block, but with a different number:
-```blocks
-change x by ( )
-```
+Here are the blocks you will need:
+
+![Move lightning](images/move-hint-lightning.png)
 --- /hint ---
 --- hint ---
-Here is the code you will need to add below the other code inside your `forever`{:class="blockcontrol"} block:
+Here is the code you will need to add to the `Lightning` sprite:
+
 ```blocks
-if <key [right arrow v] pressed?> then
-	change x by (4)
-end
+	when I start as a clone
+    show
+	repeat until <touching [edge v] ?>
+		change y by (10)
+	end
+	delete this clone
 ```
 --- /hint ---
 --- /hints ---
 
-+ Test your project by clicking the green flag. Can you make your spaceship move left and right with the arrow keys?
+
+
++ Test your `Lightning` sprite by clicking the green flag and then pressing the **space** bar. When you press **space**, does lightning appear and move up the screen? What problem can you spot?
+
+--- collapse ---
+---
+title: Answer
+---
+Oops — at the moment the lightning always fires from the same place, regardless of where the spaceship is!
+
+Add this block just before the `show`{:class="blocklooks"} block to make the clone of the `Lightning` sprite move to the `Spaceship` sprite's position before it appears. This will make it look like the lightning bolt is firing out of the spaceship.
+
+```blocks
+go to [Spaceship v]
+```
+
+--- /collapse ---
+
++ Press the **space** key to test whether your lightning bolt now fires correctly.
+
+--- challenge ---
+### Challenge: fixing the lightning
+What happens if you hold down the **space** key? Can you use a `wait`{:class="blockcontrol"} block to fix this?
+
+--- /challenge ---

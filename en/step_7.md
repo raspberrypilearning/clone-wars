@@ -1,66 +1,133 @@
-## Disappearing hippos
+## Fruit bat
 
-When the spaceship is hit, all the hippos should disappear to give the player a chance to recover.
+To make the game a bit harder, let's make a fruit bat which throws oranges at the spaceship.
 
-+ Add a block to your code to `broadcast` the message "hit" when the spaceship is touching a hippo.
++ Add a `Bat` sprite and set its rotation style to **left–right** only.
 
-[[[generic-scratch-broadcast-message]]]
++ Make the `Bat` sprite `move`{:class="blockmotion"} from side to side across the top of the Stage `forever`{:class="blockcontrol"}. Remember to test out your code.
+
+![screenshot](images/invaders-bat.png)
 
 --- hints ---
 --- hint ---
-Create a `broadcast` 'hit' block by dragging the block from the **Events** tab and then clicking on the drop-down menu and selecting **new message**.
+When the flag is clicked, the `Bat` sprite should forever
+- move 10 steps
+- if it reaches the edge, bounce
 --- /hint ---
 --- hint ---
-Here is what your block should look like:
-```blocks
-broadcast [hit v]
-```
---- /hint ---
---- hint ---
-Here is what your code should look like:
-
-```blocks
-when flag clicked
-switch costume to [normal v]
-wait until <touching [Hippo1 v]>?
-switch costume to [hit v]
-broadcast [hit v]
-```
---- /hint ---
---- /hints ---
-
-All of the `Hippo` sprite clones will hear this message, so you can now instruct them to disappear when the spaceship is hit.
-
-+ Add this code to the `Hippo` sprite:
-
-```blocks
-when I receive [hit v]
-delete this clone
-```
-
-+ Test out this code by starting a new game and deliberately colliding with a hippo.
-
-![screenshot](images/invaders-hippo-collide.png)
-
-After you get hit, hippos start reappearing but the spaceship has still exploded! Let's make it possible for the spaceship to reset itself after being hit.
-
-+ Add a `forever`{:class="blockcontrol"} block around all of your code to make the process repeat, and a `wait`{:class="blockcontrol"} block at the end to add a small pause before hippos begin appearing again.
+Here is the code you will need:
 
 ```blocks
 when flag clicked
 forever
-    switch costume to [normal v]
-    wait until <touching [Hippo1 v]>?
-    switch costume to [hit v]
-    broadcast [hit v]
-    wait (1) secs
+    move (10) steps
+    if on edge, bounce
 end
 ```
+--- /hint ---
+--- /hints ---
 
---- challenge ---
-### Challenge: lives and score
+If you look at the bat's costumes, you'll see that it already has two different ones:
 
-At the moment, the player has infinite lives. Can you add `lives`{:class="blockdata"}, a `score`{:class="blockdata"}, or even a `highscore`{:class="blockdata"} to your game?
+![screenshot](images/invaders-bat-costume.png)
 
-[[[generic-scratch-high-score]]]
---- /challenge ---
++ Use the `next costume`{:class="blocklooks"} block to make the bat flap its wings as it moves.
+
+--- hints ---
+--- hint ---
+After the bat has moved, it should show the `next costume`{:class="blocklooks"} and then `wait`{:class="blockcontrol"} for a short time.
+--- /hint ---
+--- hint ---
+Here is the code you will need:
+
+```blocks
+next costume
+wait (0.3) secs
+```
+--- /hint ---
+--- hint ---
+Here is the full code with the new code added:
+
+```blocks
+when flag clicked
+forever
+    move (10) steps
+    if on edge, bounce
+    next costume
+    wait (0.3) secs
+end
+```
+--- /hint ---
+--- /hints ---
+
+Now let's make the bat throw oranges.
+
++ Add a new `Orange` sprite from the Scratch library.
+
+![screenshot](images/invaders-orange.png)
+
++ Add code to your bat so that, when the flag is clicked, it waits for a random time between 5 and 10 seconds and then creates a clone of the `Orange` sprite.
+
+--- hints ---
+--- hint ---
+Look at the code you wrote when you created the `Lightning` sprite. The code you need now is very similar, except instead of an orange appearing when you press the **space** bar, it should appear after you `wait`{:class="blockcontrol"} for `5-10`{:class="blockoperators"} seconds.
+--- /hint ---
+--- hint ---
+`When the flag is clicked`{:class="blockcontrol"}, the `Bat` sprite should
+`forever`{:class="blockcontrol"}
+- `wait`{:class="blockcontrol"} for a `random`{:class="blockoperators"} time between `5-10`{:class="blockoperators"} seconds
+- `create a clone`{:class="blockcontrol"} of the `Orange` sprite
+--- /hint ---
+--- hint ---
+Here is the code you will need:
+
+```blocks
+when flag clicked
+forever
+	wait (pick random (5) to (10)) secs
+	create clone of [Orange v]
+end
+```
+--- /hint ---
+--- /hints ---
+
++ Click on your `Orange` sprite and add some code to make each `Orange` sprite clone drop, starting from the `Bat` sprite and falling towards the bottom of the Stage.
+
+--- hints ---
+--- hint ---
+This code you want is almost the same as the code inside the `Lightning` sprite, except that the `Orange` sprite should `go to`{:class="blockmotion"} the `Bat` sprite's position, and it should use the `change y by`{:class="blockcontrol"} block to move downwards instead of upwards.
+--- /hint ---
+--- hint ---
+Here is the code you will need:
+
+```blocks
+	when flag clicked
+	hide
+
+	when I start as a clone
+	go to [Bat1 v]
+	show
+	repeat until <touching [edge v]?
+		change y by (-4)
+	end
+	delete this clone
+
+```
+--- /hint ---
+--- /hints ---
+
+
++ Add some more code to the `Orange` sprite so that when the `Spaceship` sprite is hit, it also disappears to give the player a chance to reset:
+
+```blocks
+	when I receive [hit v]
+	delete this clone
+```
+
++ You'll also need to modify the code in your `Spaceship` sprite so that it is hit when it touches a `Hippo` sprite or an `Orange` sprite:
+
+```blocks
+	wait until < <touching [Hippo1 v]?> or <touching [Orange v]?>>
+```
+
++ Test your game. What happens if you get hit by a falling orange?

@@ -4,23 +4,70 @@ In this project you will learn how to create a game in which you have to save th
 
 ### What you will make
 
+--- no-print ---
+
 Click the green flag in the example game below to start, and then press the **left** and **right** arrow keys to move the spaceship and the **space** key to shoot.
 
-Score as many points as you can by shooting flying space-hippos. You'll lose a life if you get hit by a hippo or by the oranges dropped by the fruit bats.
-
 <div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/46018140/?autostart=false" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/251794419/?autostart=false" frameborder="0"></iframe>
   <img src="images/invaders-final.png">
 </div>
 
-### What you will learn
+--- /no-print ---
+
+Score as many points as you can by shooting flying space-hippos. You'll lose a life if you get hit by a hippo or by the oranges dropped by the fruit bats.
+
+--- print-only ---
+
+![desc](images/showcase.png)
+
+--- /print-only ---
+
+--- collapse ---
+
+---
+title: What you will need
+---
+
+### Hardware
+
++ Computer capable of running Scratch 2.0
+
+### Software
+
++ Scratch 2.0 (either [online](https://scratch.mit.edu/projects/editor/) or [offline](https://scratch.mit.edu/scratch2download/))
+
+### Downloads
+
+[Downloads can be found here](http://rpf.io/clonewars-go).
+
+--- /collapse ---
+
+--- collapse ---
+
+---
+title: What you will learn
+---
 
 This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum){:target="_blank"}:
 
 + [Use basic programming constructs to create simple programs](https://www.raspberrypi.org/curriculum/programming/creator){:target="_blank"}
 
-### Additional information for educators
+--- /collapse ---
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/clone-wars/print){:target="_blank"} .
+--- collapse ---
 
-Use the link in the footer to access the GitHub repo for this project, which contains all resources (including an example finished project) in the ‘en/resources’ folder.
+---
+title: Additional notes for educators
+---
+
+--- no-print ---
+
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/clone-wars/print){:target="_blank"}.
+
+--- /no-print ---
+
+[If you need the solution to this project, you can find it here](http://rpf.io/clone-wars-get).
+
+--- /collapse ---
+

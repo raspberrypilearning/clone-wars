@@ -1,109 +1,96 @@
-## Lightning bolts
+## Flying space-hippos
 
-Let's give the spaceship the ability to fire lightning bolts!
+Let's add lots of flying hippos that will try to destroy your spaceship.
 
-+ Add the `Lightning` sprite from the Scratch library.  
++ Create a new sprite with the `Hippo1` image in the Scratch library. Use the **shrink** tool to make the `Hippo` sprite a similar size to the `Spaceship` sprite.
 
-+ When the game is started, the `Lightning` sprite should be hidden until the spaceship fires its laser cannons, so add this code to the `Lightning` sprite:
+![screenshot](images/invaders-hippo.png)
 
-```blocks
-when green flag clicked
-hide
-```
++ Set the `Hippo` sprite's rotation style to be left-right only.
 
-At the moment you have a pretty gigantic lightning bolt for the spaceship to fire!
+[[[generic-scratch-sprite-rotation-style]]]
 
-+ Attach some code below the blocks you just added to make the `Lightning` sprite smaller and to turn it upside down. Then it will look like it fires pointy end–first out of the spaceship.
-
-```blocks
-set size to (25) %
-point in direction (-90 v)
-```
-
-+ Switch to the `Spaceship` sprite by clicking on it in the Sprites panel below the Stage.
-
-+ Add some new code to make the `Spaceship` sprite create a new lightning bolt whenever the **space** key is pressed.
++ Add some code to hide the `Hippo` sprite when the game starts.
 
 --- hints ---
 --- hint ---
-Here is some pseudocode for you:
-
-When the green flag is clicked
-Keep checking forever
-If the **space** key was pressed, create a clone of the `Lightning` sprite
---- /hint ---
---- hint ---
-Here are the blocks you will need:
-
-![Hint](images/hint-lightning.png)
+The code for this is exactly the same as the code you used to hide the `Lightning` sprite when the game starts.
 --- /hint ---
 --- hint ---
 Here is the code you will need:
 
 ```blocks
+when green flag clicked
+hide
+```
+--- /hint ---
+--- /hints ---
+
++ Switch to the Stage by clicking on it in the bottom panel.
+
++ Add some code to the Stage to create a new hippo every few seconds.
+
+--- hints ---
+--- hint ---
+When the green flag is clicked:
+Repeatedly...
+- Wait between 2 and 4 seconds
+- Create a clone of the hippo sprite
+
+--- /hint ---
+--- hint ---
+Here are the blocks you will need:
+![Clone hippo hint](images/clone-hippo-hint.png)
+
+--- /hint ---
+--- hint ---
+Here is the code you will need:
+```blocks
 when flag clicked
 forever
-	if <key [space v] pressed?> then
-		create clone of [Lightning v]
-	end
+	wait (pick random (2) to (4)) secs
+	create clone of [Hippo1 v]
 end
 ```
 --- /hint ---
 --- /hints ---
 
-+ Switch back to the `Lightning` sprite.
++ Switch back to the `Hippo` sprite.
 
-+ Whenever a lightning bolt is created, it should appear and then move upwards until it reaches the top of the screen. Then it should disappear.
+Each new hippo should appear at a random x-position, and each should have a random speed.
 
---- hints ---
---- hint ---
++ Create a new variable called `speed`{:class="blockdata"} that is for the `Hippo` sprite only.
 
-When a new `Lightning` sprite clone appears:
-- Display it
-- Repeatedly move it up by `10` until it is touching the edge of the screen
-- Then delete the clone
---- /hint ---
---- hint ---
-Here are the blocks you will need:
+[[[generic-scratch-add-variable]]]
 
-![Move lightning](images/move-hint-lightning.png)
---- /hint ---
---- hint ---
-Here is the code you will need to add to the `Lightning` sprite:
+You'll know you've done this correctly when you can see that the variable has the name of the sprite next to it, like this:
+
+![screenshot](images/invaders-var-test.png)
+
++ When each hippo clone starts, pick a random speed and starting place before showing it on the screen.
 
 ```blocks
-	when I start as a clone
-    show
-	repeat until <touching [edge v] ?>
-		change y by (10)
-	end
-	delete this clone
+when I start as a clone
+set [speed v] to (pick random (2) to (4))
+go to x: (pick random (-220) to (220)) y: (150)
+show
 ```
---- /hint ---
---- /hints ---
 
++ Test your code by clicking the green flag. Does a new hippo appear every few seconds? At the moment your hippos won't move.
 
-
-+ Test your `Lightning` sprite by clicking the green flag and then pressing the **space** bar. When you press **space**, does lightning appear and move up the screen? What problem can you spot?
-
---- collapse ---
----
-title: Answer
----
-Oops — at the moment the lightning always fires from the same place, regardless of where the spaceship is!
-
-Add this block just before the `show`{:class="blocklooks"} block to make the clone of the `Lightning` sprite move to the `Spaceship` sprite's position before it appears. This will make it look like the lightning bolt is firing out of the spaceship.
++ The hippo should move around randomly until it gets hit by a lightning bolt. To make that happen, attach this code below the blocks you just added:
 
 ```blocks
-go to [Spaceship v]
+repeat until <touching [lightning v] ?>
+	move (speed) steps
+	turn right (pick random (-10) to (10)) degrees
+	if on edge, bounce
+end
+delete this clone
 ```
 
---- /collapse ---
++ Test out your hippo code. You should see a new hippo clone appear every few seconds, each moving at its own speed.
 
-+ Press the **space** key to test whether your lightning bolt now fires correctly.
+	![screenshot](images/hippo-clones.gif)
 
---- challenge ---
-### Challenge: fixing the lightning
-What happens if you hold down the **space** key? Can you use a `wait`{:class="blockcontrol"} block to fix this?
-
---- /challenge ---
++ Test your laser cannon. If you hit a hippo, does it vanish?
