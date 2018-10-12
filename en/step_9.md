@@ -88,7 +88,7 @@ Add a new `Orange` sprite from the Scratch library.
 
 --- task ---
 
-Add code to your bat so that `When the flag is clicked`{:class="blockevent"}, the `Bat` sprite will `forever`{:class="blockcontrol"} `wait`{:class="blockcontrol"} for a `random`{:class="blockoperators"} time between `5-10`{:class="blockoperators"} seconds and then `create a clone`{:class="blockcontrol"} of the `Orange` sprite
+Add code to your bat so that `When the flag is clicked`{:class="blockevents"}, the `Bat` sprite will `forever`{:class="blockcontrol"} `wait`{:class="blockcontrol"} for a `random`{:class="blockoperators"} time between `5-10`{:class="blockoperators"} seconds and then `create a clone`{:class="blockcontrol"} of the `Orange` sprite
 
 ![bat sprite](images/bat-sprite.png)
 
@@ -139,6 +139,8 @@ Add some more code to the `Orange` sprite so that when the `Spaceship` sprite is
 --- task ---
 
 You'll also need to modify the code in your `Spaceship` sprite so that it is "hit" when it touches a `Hippo` sprite or an `Orange` sprite:
+
+![rocket sprite](images/rocket-sprite.png)
 
 ```blocks
 	wait until < <touching [Hippo1 v]?> or <touching [Orange v]?>>
