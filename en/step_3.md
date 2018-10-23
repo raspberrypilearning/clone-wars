@@ -46,7 +46,7 @@ Add some new code to make the `Spaceship` sprite create a new lightning bolt whe
 
 --- hint ---
 
-`When the green flag is clicked`{:class="blockevents"} keep checking `forever`{:class="blockcontrol"} `if`{:class="blockcontrol"} the `**space** key was pressed`{:class="blocksensing"}, `create a clone of itself`{:class="blockcontrol"}.	
+`When the green flag is clicked`{:class="blockevents"} keep checking `forever`{:class="blockcontrol"} `if`{:class="blockcontrol"} the `space key was pressed`{:class="blocksensing"}, `create a clone of the Lightning`{:class="blockcontrol"}.	
 
 --- /hint ---
 
@@ -108,6 +108,8 @@ So add this code to the `Lightning` sprite so it moves up the screen until it is
 ```
 
 --- /task ---
+
+--- task ---
 
 Press the **space** key to test whether your lightning bolt fires correctly.
 

@@ -45,6 +45,8 @@ After you get hit, hippos start reappearing but the spaceship has still exploded
 
 Add a `forever`{:class="blockcontrol"} block around all of your code to make the process repeat, and a `wait`{:class="blockcontrol"} block at the end to add a small pause before hippos begin appearing again.
 
+![rocket sprite](images/rocket-sprite.png)
+
 ```blocks
 when flag clicked
 forever
