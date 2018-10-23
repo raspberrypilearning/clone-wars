@@ -49,9 +49,9 @@ title: What you will need
 title: What you will learn
 ---
 
-This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum){:target="_blank"}:
-
-+ [Use basic programming constructs to create simple programs](https://www.raspberrypi.org/curriculum/programming/creator){:target="_blank"}
++ How to make sprites move using keyboard input.
++ How to clone sprites to make copies of themselves.
++ How to use broadcast and receive blocks to send messages.
 
 --- /collapse ---
 
