@@ -35,7 +35,7 @@ title: What you will need
 
 ### Software
 
-+ Scratch 2.0 (either [online](https://scratch.mit.edu/projects/editor/) or [offline](https://scratch.mit.edu/scratch2download/))
++ Scratch 2.0 (either [online](https://rpf.io/scratch-on) or [offline](https://rpf.io/scratch-off))
 
 ### Downloads
 
