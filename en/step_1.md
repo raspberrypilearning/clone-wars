@@ -35,11 +35,11 @@ title: What you will need
 
 ### Software
 
-+ Scratch 2.0 (either [online](https://rpf.io/scratch-on) or [offline](https://rpf.io/scratch-off))
++ Scratch 2.0 (either [online](https://rpf.io/scratchon) or [offline](https://rpf.io/scratchoff))
 
 ### Downloads
 
-[Downloads can be found here](http://rpf.io/clonewars-go).
+[Downloads can be found here](http://rpf.io/p/en/clonewars-go).
 
 --- /collapse ---
 
@@ -67,7 +67,7 @@ If you need to print this project, please use the [printer-friendly version](htt
 
 --- /no-print ---
 
-[If you need the solution to this project, you can find it here](http://rpf.io/clone-wars-get).
+[If you need the solution to this project, you can find it here](http://rpf.io/p/en/clone-wars-get).
 
 --- /collapse ---
 
