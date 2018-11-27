@@ -6,7 +6,7 @@ In this project you will learn how to create a game in which you have to save th
 
 --- no-print ---
 
-Click the green flag in the example game below to start, and then press the **left** and **right** arrow keys to move the spaceship and the **space** key to shoot.
+Click the green flag in the example game below to start, and then press the <kbd>left</kbd> and <kbd>right</kbd> arrow keys to move the spaceship, and the <kbd>space</kbd> key to shoot.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/251794419/?autostart=false" frameborder="0"></iframe>
@@ -15,7 +15,7 @@ Click the green flag in the example game below to start, and then press the **le
 
 --- /no-print ---
 
-Score as many points as you can by shooting flying space-hippos. You'll lose a life if you get hit by a hippo or by the oranges dropped by the fruit bats.
+Score as many points as you can by shooting flying space-hippos. If you get hit by a hippo or by an orange dropped by the bats, you lose a life.
 
 --- print-only ---
 
@@ -31,7 +31,7 @@ title: What you will need
 
 ### Hardware
 
-+ Computer capable of running Scratch 2.0
++ A computer capable of running Scratch 2.0
 
 ### Software
 
@@ -39,7 +39,7 @@ title: What you will need
 
 ### Downloads
 
-[Downloads can be found here](http://rpf.io/p/en/clonewars-go).
+[Find the downloads here](http://rpf.io/p/en/clonewars-go).
 
 --- /collapse ---
 
@@ -49,9 +49,9 @@ title: What you will need
 title: What you will learn
 ---
 
-+ How to make sprites move using keyboard input.
-+ How to clone sprites to make copies of themselves.
-+ How to use broadcast and receive blocks to send messages.
++ How to make sprites move using keyboard input
++ How to clone sprites to make copies of them
++ How to use 'broadcast' and 'receive blocks' to send messages
 
 --- /collapse ---
 
