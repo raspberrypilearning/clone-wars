@@ -1,10 +1,10 @@
 ## Flying space-hippos
 
-Let's add lots of flying hippos that will try to destroy your spaceship.
+Now you're going to add lots of flying hippos that try to destroy your spaceship.
 
 --- task ---
 
-Create a new sprite with the `Hippo1` image in the Scratch library. Use the **shrink** tool to make the `Hippo` sprite a similar size to the `Spaceship` sprite.
+Create a new sprite with the 'Hippo1' image in the Scratch library. Use the **shrink** tool to make the `Hippo` sprite a similar size to the `Spaceship` sprite.
 
 ![screenshot](images/invaders-hippo.png)
 
@@ -12,7 +12,7 @@ Create a new sprite with the `Hippo1` image in the Scratch library. Use the **sh
 
 --- task ---
 
-Set the `Hippo` sprite's rotation style to be left-right only.
+Set the `Hippo` sprite's rotation style to **left-right**.
 
 [[[generic-scratch-sprite-rotation-style]]]
 
@@ -32,19 +32,19 @@ hide
 
 --- task ---
 
-Add some code to the Stage to create a new hippo every few seconds.
+Add some code to the Stage to create a new `Hippo` clone every few seconds.
 
 --- hints ---
 
 --- hint ---
 
-When the `green flag is clicked`{:class="blockevents"} `repeatedly`{:class="blockcontrol"}, `wait`{:class="blockcontrol"} `between 2 and 4 seconds`{:class="blockoperators"}, `create a clone of the hippo sprite`{:class="blockcontrol"}
+When the `green flag is clicked`{:class="blockevents"}, `repeatedly`{:class="blockcontrol"} `wait`{:class="blockcontrol"} `between 2 and 4 seconds`{:class="blockoperators"} and then `create a clone of the Hippo sprite`{:class="blockcontrol"}.
 
 --- /hint ---
 
 --- hint ---
 
-Here are the blocks you will need:
+Here are the blocks you need:
 
 ```blocks
 forever
@@ -65,6 +65,8 @@ wait () secs
 
 --- hint ---
 
+This is what your code should look like:
+
 ![stage sprite](images/stage-sprite.png)
 
 ```blocks
@@ -81,7 +83,7 @@ end
 
 --- /task ---
 
-Each new hippo should appear at a random x-position, and each should have a random speed.
+Each new hippo clone should appear at a random `x` position, and every clone should have a random speed.
 
 --- task ---
 
@@ -89,7 +91,7 @@ Create a new variable called `speed`{:class="blockdata"} that is for the `Hippo`
 
 [[[generic-scratch-add-variable]]]
 
-You'll know you've done this correctly when you can see that the variable has the name of the sprite next to it, like this:
+When you've done this correctly, the variable has the name of the sprite next to it, like this:
 
 ![screenshot](images/invaders-var-test.png)
 
@@ -97,7 +99,7 @@ You'll know you've done this correctly when you can see that the variable has th
 
 --- task ---
 
-When each hippo clone starts, pick a random speed and starting place before showing it on the screen.
+When each `Hippo` clone starts, pick a random speed and starting place for it. Then show the clone on the screen.
 
 ```blocks
 when I start as a clone
@@ -110,13 +112,15 @@ show
 
 --- task ---
 
-Test your code by clicking the green flag. Does a new hippo appear every few seconds? At the moment your hippos won't move.
+Test your code. Does a new hippo appear every few seconds?
 
 --- /task ---
 
+At the moment the hippos don't move.
+
 --- task ---
 
-The hippo should move around randomly until it gets hit by a lightning bolt. To make that happen, attach this code below the blocks you just added:
+Each hippo should move around randomly until it gets hit by a lightning bolt. To make that happen, attach this code below the blocks that are already in the `Hippo` sprite's code script:
 
 ```blocks
 repeat until <touching [lightning v] ?>
@@ -131,7 +135,7 @@ delete this clone
 
 --- task ---
 
-Test out your hippo code. You should see a new hippo clone appear every few seconds, each moving at its own speed.
+Test your code again. You should see a new hippo clone appear every few seconds, and each clone should move at a different speed.
 
 ![screenshot](images/hippo-clones.gif)
 
@@ -139,7 +143,7 @@ Test out your hippo code. You should see a new hippo clone appear every few seco
 
 --- task ---
 
-Test your laser cannon. If you hit a hippo, does it vanish?
+Now test the spaceship's laser cannon. If a lightning bolt hits a hippo, does the hippo vanish?
 
 --- /task ---
 
