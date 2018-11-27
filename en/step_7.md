@@ -1,10 +1,10 @@
 ## Disappearing hippos
 
-When the spaceship is hit, all the hippos should disappear to give the player a chance to recover.
+When the spaceship explodes, all the hippos should disappear so that players of the game can recover.
 
 --- task ---
 
-Add the code to spaceship so it `broadcasts`{:class="blockevents"} the message "hit" when the `spaceship touches a hippo`{:class="blocksensing"}.
+Add code to the spaceship sprite to make it `broadcast`{:class="blockevents"} the message "hit" when the `spaceship touches a hippo`{:class="blocksensing"}.
 
 ![rocket sprite](images/rocket-sprite.png)
 
@@ -20,7 +20,7 @@ switch costume to [hit v]
 
 --- task ---
 
-All of the `Hippo` sprite clones will hear the "hit" message, so you can instruct them to disappear when the spaceship is hit by adding this code:
+All of the `Hippo` sprite clones will receive the "hit" message, and you can instruct them to disappear when the spaceship is hit by adding this code to the `Hippo` sprite:
 
 ![hippo sprite](images/hippo-sprite.png)
 
@@ -33,17 +33,17 @@ delete this clone
 
 --- task ---
 
-Test out this code by starting a new game and deliberately colliding with a hippo.
+To check whether the new code works, click the green flag and make the spaceship collide with a hippo.
 
 ![screenshot](images/invaders-hippo-collide.png)
 
 --- /task ---
 
-After you get hit, hippos start reappearing but the spaceship has still exploded! Let's make it possible for the spaceship to reset itself after being hit.
+After the spaceship explodes, new `Hippo` clones appear, but the spaceship is still exploded! The spaceship needs to reset itself after being hit.
 
 --- task ---
 
-Add a `forever`{:class="blockcontrol"} block around all of your code to make the process repeat, and a `wait`{:class="blockcontrol"} block at the end to add a small pause before hippos begin appearing again.
+Add a `wait`{:class="blockcontrol"} block at the end of the `Spaceship` sprite's code to create a small pause before hippos begin appearing again. Then add a `forever`{:class="blockcontrol"} block around all of your code to make the code run repeatedly.
 
 ![rocket sprite](images/rocket-sprite.png)
 
