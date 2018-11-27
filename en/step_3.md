@@ -1,6 +1,6 @@
 ## Lightning bolts
 
-Let's give the spaceship the ability to fire lightning bolts!
+Now you are going to give the spaceship the ability to fire lightning bolts!
 
 --- task ---
 
@@ -12,7 +12,9 @@ Add the `Lightning` sprite from the Scratch library.
 
 --- task ---
 
-When the game is started, the `Lightning` sprite should be hidden until the spaceship fires its laser cannons, so add this code to the `Lightning` sprite:
+When the game starts, the `Lightning` sprite should be hidden until the spaceship fires its laser cannons.
+
+Add this code to the `Lightning` sprite:
 
 ![lightning sprite](images/lightning-sprite.png)
 
@@ -21,13 +23,13 @@ when green flag clicked
 hide
 ```
 
-At the moment you have a pretty gigantic lightning bolt for the spaceship to fire!
-
 --- /task ---
+
+At the moment, the lightning bolt is really big compared to the spaceship!
 
 --- task ---
 
-Attach some code below the blocks you just added to make the `Lightning` sprite smaller and to turn it upside down. Then it will look like it fires pointy end–first out of the spaceship.
+Below the code that the `Lightning` sprite already has, add some blocks to make the sprite smaller and to turn it upside down.
 
 ![lightning sprite](images/lightning-sprite.png)
 
@@ -36,23 +38,25 @@ set size to (25) %
 point in direction (-90 v)
 ```
 
+Now it looks like it fires pointy end–first out of the spaceship.
+
 --- /task ---
 
 --- task ---
 
-Add some new code to make the `Spaceship` sprite create a new lightning bolt whenever the **space** key is pressed.
+Add some new code to the `Spaceship` sprite to create a new clone of the lightning bolt if the <kbd>space</kbd> key is pressed.
 
 --- hints ---
 
 --- hint ---
 
-`When the green flag is clicked`{:class="blockevents"} keep checking `forever`{:class="blockcontrol"} `if`{:class="blockcontrol"} the `space key was pressed`{:class="blocksensing"}, `create a clone of the Lightning`{:class="blockcontrol"}.	
+`When the green flag is clicked`{:class="blockevents"}, keep checking `forever`{:class="blockcontrol"} `if`{:class="blockcontrol"} the `space key is pressed`{:class="blocksensing"}, and in that case `create a clone of the Lightning`{:class="blockcontrol"} sprite.	
 
 --- /hint ---
 
 --- hint ---
 
-Here are the blocks you will need:
+Here are the blocks you need:
 
 ```blocks
 if <> then
@@ -72,7 +76,7 @@ when flag clicked
 
 --- hint ---
 
-Here is the code you will need:
+Here is what your new code should look like:
 
 ![rocket sprite](images/rocket-sprite.png)
 
@@ -93,9 +97,11 @@ end
 
 --- task ---
 
-Whenever a lightning bolt is created, it should appear and then move upwards until it reaches the top of the screen. Then it should disappear.
+Whenever the game creates a `Lightning` sprite clone, the clone should appear and then move upwards until it reaches the top of the Stage. Then the clone should disappear.
 
-So add this code to the `Lightning` sprite so it moves up the screen until it is touching the edge.
+Add this code to the `Lightning` sprite so that clones of it move upwards until they touch the edge of the Stage, and then they get deleted.
+
+![lightning sprite](images/lightning-sprite.png)
 
 ```blocks
 	when I start as a clone
@@ -111,7 +117,7 @@ So add this code to the `Lightning` sprite so it moves up the screen until it is
 
 --- task ---
 
-Press the **space** key to test whether your lightning bolt fires correctly.
+Press the <kbd>space</kbd> key to test whether the lightning bolt moves correctly.
 
 --- /task ---
 
