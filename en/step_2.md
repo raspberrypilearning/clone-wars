@@ -1,14 +1,16 @@
 ## Make a spaceship
 
-Let's make a spaceship that will defend the Earth!
+First make a spaceship that can defend the Earth!
 
 --- task ---
 
-Open the 'Clone wars' starter project.
+Open the 'Clone wars' Scratch starter project.
 
-**Online:** Open Scratch starter project at [rpf.io/clone-wars-on](http://rpf.io/clone-wars-on). 
+**Online:** open the starter project at [rpf.io/clone-wars-on](http://rpf.io/clone-wars-on). 
 
-**Offline:** Download the starter project from [rpf.io/clone-wars-off](http://rpf.io/clone-wars-off) and then open it using the offline editor.
+**Offline:** download the starter project from [rpf.io/clone-wars-off](http://rpf.io/clone-wars-off), and then open it using the offline editor.
+
+If you need to download and install the Scratch offline editor, you can find it at rpf.io/scratchoff.
 
 --- /task ---
 
@@ -16,7 +18,7 @@ Open the 'Clone wars' starter project.
 
 --- task ---
 
-When the **left** arrow key is pressed, the spaceship should move to the left. Add this code to make your spaceship move left when the **left** arrow is pressed:
+Add this code to the spaceship sprite to make the spaceship move left if the <kbd>left</kbd> arrow is pressed:
 
 ![rocket sprite](images/rocket-sprite.png)
 
@@ -29,7 +31,7 @@ When the **left** arrow key is pressed, the spaceship should move to the left. A
 	end
 ```
 
-The x-axis goes from left to right on the Stage, so if you make the the spaceship's x-position smaller by substracting from it, it will move further to the left. This code is the part which makes your spaceship move left:
+The x-axis goes from the left side of the Stage to the right side. This means that the spaceship moves to the left when you subtract from the value of the spaceship sprite's `x` position. So this code block is the part that makes your spaceship move left:
 
 ```blocks
 change x by (-4)
@@ -39,19 +41,19 @@ change x by (-4)
 
 --- task ---
 
-Add some more code inside the `forever`{:class="blockcontrol"} block to make your spaceship move to the right when the **right** arrow key is pressed.
+Add some more code inside the `forever`{:class="blockcontrol"} block to make your spaceship move to the right if the <kbd>right</kbd> arrow key is pressed.
 
 --- hints ---
 
 --- hint ---
 
-If subtracting `4` from the spaceship's position made it move left, how could you make it move right by `4` instead?
+Subtracting `4` from the spaceship's `x` position made it move left, so how could you make the spaceship move right by `4` instead?
 
 --- /hint ---
 
 --- hint ---
 
-You will need to use the same block, but with a different number:
+You need the same code block, but with a different number:
 
 ```blocks
 change x by ( )
@@ -61,7 +63,7 @@ change x by ( )
 
 --- hint ---
 
-Here is the code you will need to add below the other code inside your `forever`{:class="blockcontrol"} block:
+Here is the code you need to add below the other code inside the `forever`{:class="blockcontrol"} block:
 
 ![rocket sprite](images/rocket-sprite.png)
 
@@ -78,7 +80,7 @@ end
 
 --- task ---
 
-Test your project by clicking the green flag. Can you make your spaceship move left and right with the arrow keys?
+Test your project by clicking the green flag. Can you press the arrow keys to make your spaceship move left and right?
 
 --- /task ---
 
