@@ -1,4 +1,4 @@
-## Flying space-hippos
+## Space-hippos
 
 Now you're going to add lots of flying hippos that try to destroy your spaceship.
 
