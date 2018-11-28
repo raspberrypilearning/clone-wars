@@ -1,4 +1,4 @@
-## Fruit bat
+## Space-bat
 
 To make your game a bit harder, you are going to create a bat that throws oranges at the spaceship.
 
