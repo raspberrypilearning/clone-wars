@@ -1,18 +1,18 @@
 ## Fruit bat
 
-To make the game a bit harder, let's make a fruit bat which throws oranges at the spaceship.
+To make your game a bit harder, you are going to create a bat that throws oranges at the spaceship.
 
 ![a bat throwing an orange at the spaceship](images/bat-oranges.png)
 
 --- task ---
 
-Add a `Bat` sprite and set its rotation style to **left–right** only.
+Add a `Bat` sprite and set its rotation style to **left–right**.
 
 --- /task ---
 
 --- task ---
 
-Make the `Bat` sprite `move`{:class="blockmotion"} from side to side across the top of the Stage `forever`{:class="blockcontrol"}. 
+Make the `Bat` sprite `move`{:class="blockmotion"} from left to right at the top of the Stage `forever`{:class="blockcontrol"}. 
 
 ![screenshot](images/invaders-bat.png)
 
@@ -26,11 +26,11 @@ forever
 end
 ```
 
-Remember to test out your code.
+Remember to test your code.
 
 --- /task ---
 
-If you look at the bat's costumes, you'll see that it already has two different ones:
+If you look at the bat's costumes, you can see that it has two different ones:
 
 ![screenshot](images/invaders-bat-costume.png)
 
@@ -48,7 +48,7 @@ After the bat has moved, it should show the `next costume`{:class="blocklooks"} 
 
 --- hint ---
 
-You will need to add these blocks to you code
+You need to add these blocks to you code:
 
 ```blocks
 wait (0.3) secs
@@ -75,12 +75,11 @@ end
 
 --- /task ---
 
-
-Now let's make the bat throw oranges.
+Now make the bat throw oranges!
 
 --- task ---
 
-Add a new `Orange` sprite from the Scratch library.
+Add an `Orange` sprite from the Scratch library.
 
 ![screenshot](images/invaders-orange.png)
 
@@ -88,7 +87,7 @@ Add a new `Orange` sprite from the Scratch library.
 
 --- task ---
 
-Add code to your bat so that `When the flag is clicked`{:class="blockevents"}, the `Bat` sprite will `forever`{:class="blockcontrol"} `wait`{:class="blockcontrol"} for a `random`{:class="blockoperators"} time between `5-10`{:class="blockoperators"} seconds and then `create a clone`{:class="blockcontrol"} of the `Orange` sprite
+Add code to your bat so that `when the flag is clicked`{:class="blockevents"}, the `Bat` sprite `forever`{:class="blockcontrol"} `waits`{:class="blockcontrol"} for a `random`{:class="blockoperators"} length of time between `5 to 10`{:class="blockoperators"} seconds and then `creates a clone`{:class="blockcontrol"} of the `Orange` sprite.
 
 ![bat sprite](images/bat-sprite.png)
 
@@ -104,7 +103,7 @@ end
 
 --- task ---
 
-Add the code to make each `Orange` sprite clone drop, starting from the `Bat` sprite and falling towards the bottom of the Stage.
+Add code to the `Orange` to make each of its clone drop, starting from the `Bat` sprite and falling towards the bottom of the Stage.
 
 ![orange sprite](images/orange-sprite.png)
 
@@ -125,7 +124,7 @@ Add the code to make each `Orange` sprite clone drop, starting from the `Bat` sp
 
 --- task ---
 
-Add some more code to the `Orange` sprite so that when the `Spaceship` sprite is hit, it also disappears to give the player a chance to reset:
+Add some more code to the `Orange` sprite so that when an `Orange` clone hits the `Spaceship` sprite, the clone also disappears to give the player a chance to reset:
 
 ![orange sprite](images/orange-sprite.png)
 
@@ -138,7 +137,7 @@ Add some more code to the `Orange` sprite so that when the `Spaceship` sprite is
 
 --- task ---
 
-You'll also need to modify the code in your `Spaceship` sprite so that it is "hit" when it touches a `Hippo` sprite or an `Orange` sprite:
+Modify the code of your `Spaceship` sprite so that the sprite is "hit" when it touches a `Hippo` sprite or an `Orange` sprite:
 
 ![rocket sprite](images/rocket-sprite.png)
 
@@ -150,7 +149,7 @@ You'll also need to modify the code in your `Spaceship` sprite so that it is "hi
 
 --- task ---
 
-Test your game. What happens if you get hit by a falling orange?
+Test your game. What happens if the spaceship gets hit by a falling orange?
 
 --- /task ---
 
