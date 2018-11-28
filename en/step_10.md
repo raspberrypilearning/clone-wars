@@ -6,7 +6,7 @@ Next, you're going to add a 'game over' message at the end of the game.
 
 If you haven't already, create a new variable called `lives`{:class="blockdata"}.
 
-Your spaceship should start with three lives and lose a life whenever it touches a hippo or an orange. Your game should stop when the `lives`{:class="blockdata"} run out. If you need help, you can take a look at the [Catch the dots](https://codeclubprojects.org/en-GB/scratch/catch-the-dots/) project.
+Your spaceship should start with three lives and lose a life whenever it touches a hippo or an orange. Your game should stop when the `lives`{:class="blockdata"} run out.
 
 --- /task ---
 
