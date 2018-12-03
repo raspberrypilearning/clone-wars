@@ -14,7 +14,7 @@ Create a new sprite with the 'Hippo1' image in the Scratch library. Use the **sh
 
 Set the `Hippo` sprite's rotation style to **left-right**.
 
-[[[generic-scratch-sprite-rotation-style]]]
+[[[generic-scratch3-sprite-rotation-style]]]
 
 --- /task ---
 
@@ -24,7 +24,7 @@ Add some code to hide the `Hippo` sprite when the game starts.
 
 ![hippo sprite](images/hippo-sprite.png)
 
-```blocks
+```blocks3
 when green flag clicked
 hide
 ```
@@ -38,7 +38,7 @@ Add some code to the Stage to create a new `Hippo` clone every few seconds.
 
 --- hint ---
 
-When the `green flag is clicked`{:class="blockevents"}, `repeatedly`{:class="blockcontrol"} `wait`{:class="blockcontrol"} `between 2 and 4 seconds`{:class="blockoperators"} and then `create a clone of the Hippo sprite`{:class="blockcontrol"}.
+When the `green flag is clicked`{:class="block3events"}, `repeatedly`{:class="block3control"} `wait`{:class="block3control"} `between 2 and 4 seconds`{:class="block3operators"} and then `create a clone of the Hippo sprite`{:class="block3control"}.
 
 --- /hint ---
 
@@ -46,7 +46,7 @@ When the `green flag is clicked`{:class="blockevents"}, `repeatedly`{:class="blo
 
 Here are the blocks you need:
 
-```blocks
+```blocks3
 forever
 end
 
@@ -69,7 +69,7 @@ This is what your code should look like:
 
 ![stage sprite](images/stage-sprite.png)
 
-```blocks
+```blocks3
 when flag clicked
 forever
 	wait (pick random (2) to (4)) secs
@@ -87,9 +87,9 @@ Each new hippo clone should appear at a random `x` position, and every clone sho
 
 --- task ---
 
-Create a new variable called `speed`{:class="blockdata"} that is for the `Hippo` sprite only.
+Create a new variable called `speed`{:class="block3variables"} that is for the `Hippo` sprite only.
 
-[[[generic-scratch-add-variable]]]
+[[[generic-scratch3-add-variable]]]
 
 When you've done this correctly, the variable has the name of the sprite next to it, like this:
 
@@ -101,7 +101,7 @@ When you've done this correctly, the variable has the name of the sprite next to
 
 When each `Hippo` clone starts, pick a random speed and starting place for it. Then show the clone on the screen.
 
-```blocks
+```blocks3
 when I start as a clone
 set [speed v] to (pick random (2) to (4))
 go to x: (pick random (-220) to (220)) y: (150)
@@ -122,7 +122,7 @@ At the moment the hippos don't move.
 
 Each hippo should move around randomly until it gets hit by a lightning bolt. To make that happen, attach this code below the blocks that are already in the `Hippo` sprite's code script:
 
-```blocks
+```blocks3
 repeat until <touching [lightning v] ?>
 	move (speed) steps
 	turn right (pick random (-10) to (10)) degrees

@@ -6,7 +6,7 @@ Now you are going to give the spaceship the ability to fire lightning bolts!
 
 Add the `Lightning` sprite from the Scratch library.  
 
-[[[generic-scratch-sprite-from-library]]]
+[[[generic-scratch3-sprite-from-library]]]
 
 --- /task ---
 
@@ -18,7 +18,7 @@ Add this code to the `Lightning` sprite:
 
 ![lightning sprite](images/lightning-sprite.png)
 
-```blocks
+```blocks3
 when green flag clicked
 hide
 ```
@@ -33,7 +33,7 @@ Below the code that the `Lightning` sprite already has, add some blocks to make 
 
 ![lightning sprite](images/lightning-sprite.png)
 
-```blocks
+```blocks3
 set size to (25) %
 point in direction (-90 v)
 ```
@@ -50,7 +50,7 @@ Add some new code to the `Spaceship` sprite to create a new clone of the lightni
 
 --- hint ---
 
-`When the green flag is clicked`{:class="blockevents"}, keep checking `forever`{:class="blockcontrol"} `if`{:class="blockcontrol"} the `space key is pressed`{:class="blocksensing"}, and in that case `create a clone of the Lightning`{:class="blockcontrol"} sprite.	
+`When the green flag is clicked`{:class="block3events"}, keep checking `forever`{:class="block3control"} `if`{:class="block3control"} the `space key is pressed`{:class="block3sensing"}, and in that case `create a clone of the Lightning`{:class="block3control"} sprite.	
 
 --- /hint ---
 
@@ -58,7 +58,7 @@ Add some new code to the `Spaceship` sprite to create a new clone of the lightni
 
 Here are the blocks you need:
 
-```blocks
+```blocks3
 if <> then
 end
 
@@ -80,7 +80,7 @@ Here is what your new code should look like:
 
 ![rocket sprite](images/rocket-sprite.png)
 
-```blocks
+```blocks3
 when flag clicked
 forever
 	if <key [space v] pressed?> then
@@ -103,7 +103,7 @@ Add this code to the `Lightning` sprite so that clones of it move upwards until 
 
 ![lightning sprite](images/lightning-sprite.png)
 
-```blocks
+```blocks3
 	when I start as a clone
 	go to [Spaceship v]
     show

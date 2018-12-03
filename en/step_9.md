@@ -12,13 +12,13 @@ Add a `Bat` sprite and set its rotation style to **left–right**.
 
 --- task ---
 
-Make the `Bat` sprite `move`{:class="blockmotion"} from left to right at the top of the Stage `forever`{:class="blockcontrol"}. 
+Make the `Bat` sprite `move`{:class="block3motion"} from left to right at the top of the Stage `forever`{:class="block3control"}. 
 
 ![screenshot](images/invaders-bat.png)
 
 ![bat sprite](images/bat-sprite.png)
 
-```blocks
+```blocks3
 when flag clicked
 forever
     move (10) steps
@@ -36,13 +36,13 @@ If you look at the bat's costumes, you can see that it has two different ones:
 
 --- task ---
 
-Use the `next costume`{:class="blocklooks"} block to make the bat flap its wings as it moves.
+Use the `next costume`{:class="block3looks"} block to make the bat flap its wings as it moves.
 
 --- hints ---
 
 --- hint ---
 
-After the bat has moved, it should show the `next costume`{:class="blocklooks"} and then `wait`{:class="blockcontrol"} for a short time.
+After the bat has moved, it should show the `next costume`{:class="block3looks"} and then `wait`{:class="block3control"} for a short time.
 
 --- /hint ---
 
@@ -50,7 +50,7 @@ After the bat has moved, it should show the `next costume`{:class="blocklooks"} 
 
 You need to add these blocks to you code:
 
-```blocks
+```blocks3
 wait (0.3) secs
 
 next costume
@@ -60,7 +60,7 @@ next costume
 --- hint ---
 You code should look like this:
 
-```blocks
+```blocks3
 when flag clicked
 forever
     move (10) steps
@@ -87,11 +87,11 @@ Add an `Orange` sprite from the Scratch library.
 
 --- task ---
 
-Add code to your bat so that `when the flag is clicked`{:class="blockevents"}, the `Bat` sprite `forever`{:class="blockcontrol"} `waits`{:class="blockcontrol"} for a `random`{:class="blockoperators"} length of time between `5 to 10`{:class="blockoperators"} seconds and then `creates a clone`{:class="blockcontrol"} of the `Orange` sprite.
+Add code to your bat so that `when the flag is clicked`{:class="block3events"}, the `Bat` sprite `forever`{:class="block3control"} `waits`{:class="block3control"} for a `random`{:class="block3operators"} length of time between `5 to 10`{:class="block3operators"} seconds and then `creates a clone`{:class="block3control"} of the `Orange` sprite.
 
 ![bat sprite](images/bat-sprite.png)
 
-```blocks
+```blocks3
 when flag clicked
 forever
 	wait (pick random (5) to (10)) secs
@@ -107,7 +107,7 @@ Add code to the `Orange` to make each of its clone drop, starting from the `Bat`
 
 ![orange sprite](images/orange-sprite.png)
 
-```blocks
+```blocks3
 	when flag clicked
 	hide
 
@@ -128,7 +128,7 @@ Add some more code to the `Orange` sprite so that when an `Orange` clone hits th
 
 ![orange sprite](images/orange-sprite.png)
 
-```blocks
+```blocks3
 	when I receive [hit v]
 	delete this clone
 ```
@@ -141,7 +141,7 @@ Modify the code of your `Spaceship` sprite so that the sprite is "hit" when it t
 
 ![rocket sprite](images/rocket-sprite.png)
 
-```blocks
+```blocks3
 	wait until < <touching [Hippo1 v]?> or <touching [Orange v]?>>
 ```
 

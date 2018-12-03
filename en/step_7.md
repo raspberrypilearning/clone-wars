@@ -4,11 +4,11 @@ When the spaceship explodes, all the hippos should disappear so that players of 
 
 --- task ---
 
-Add code to the spaceship sprite to make it `broadcast`{:class="blockevents"} the message "hit" when the `spaceship touches a hippo`{:class="blocksensing"}.
+Add code to the spaceship sprite to make it `broadcast`{:class="block3events"} the message "hit" when the `spaceship touches a hippo`{:class="block3sensing"}.
 
 ![rocket sprite](images/rocket-sprite.png)
 
-```blocks
+```blocks3
 when flag clicked
 switch costume to [normal v]
 wait until <touching [Hippo1 v]>?
@@ -24,7 +24,7 @@ All of the `Hippo` sprite clones will receive the "hit" message, and you can ins
 
 ![hippo sprite](images/hippo-sprite.png)
 
-```blocks
+```blocks3
 when I receive [hit v]
 delete this clone
 ```
@@ -43,11 +43,11 @@ After the spaceship explodes, new `Hippo` clones appear, but the spaceship is st
 
 --- task ---
 
-Add a `wait`{:class="blockcontrol"} block at the end of the `Spaceship` sprite's code to create a small pause before hippos begin appearing again. Then add a `forever`{:class="blockcontrol"} block around all of your code to make the code run repeatedly.
+Add a `wait`{:class="block3control"} block at the end of the `Spaceship` sprite's code to create a small pause before hippos begin appearing again. Then add a `forever`{:class="block3control"} block around all of your code to make the code run repeatedly.
 
 ![rocket sprite](images/rocket-sprite.png)
 
-```blocks
+```blocks3
 when flag clicked
 forever
     switch costume to [normal v]
