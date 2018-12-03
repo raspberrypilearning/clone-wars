@@ -45,7 +45,7 @@ title: What you will need
 
 ### Downloads
 
-[Find the downloads here](http://rpf.io/p/en/clonewars-go).
+[Find the downloads here](http://rpf.io/p/en/clone-wars-go).
 
 --- /collapse ---
 

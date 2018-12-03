@@ -14,12 +14,11 @@ Add a `Bat` sprite and set its rotation style to **left–right**.
 
 Make the `Bat` sprite `move`{:class="block3motion"} from left to right at the top of the Stage `forever`{:class="block3control"}. 
 
-![screenshot](images/invaders-bat.png)
-
 ![bat sprite](images/bat-sprite.png)
 
 ```blocks3
 when flag clicked
+set size to (50) %
 forever
     move (10) steps
     if on edge, bounce
@@ -30,7 +29,7 @@ Remember to test your code.
 
 --- /task ---
 
-If you look at the bat's costumes, you can see that it has two different ones:
+If you look at the bat's costumes, you can see that it has four different ones:
 
 ![screenshot](images/invaders-bat-costume.png)
 
@@ -112,7 +111,7 @@ Add code to the `Orange` to make each of its clone drop, starting from the `Bat`
 	hide
 
 	when I start as a clone
-	go to [Bat1 v]
+	go to [Bat v]
 	show
 	repeat until <touching [edge v]?
 		change y by (-4)

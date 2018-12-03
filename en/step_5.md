@@ -32,7 +32,7 @@ hide
 
 --- task ---
 
-Add some code to the Stage to create a new `Hippo` clone every few seconds.
+Add some code to the **Stage** to create a new `Hippo` clone every few seconds.
 
 --- hints ---
 
@@ -137,7 +137,11 @@ delete this clone
 
 Test your code again. You should see a new hippo clone appear every few seconds, and each clone should move at a different speed.
 
+--- no-print ---
+
 ![screenshot](images/hippo-clones.gif)
+
+--- /no-print ---
 
 --- /task ---
 
