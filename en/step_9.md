@@ -61,6 +61,7 @@ You code should look like this:
 
 ```blocks3
 when flag clicked
+set size to (50) %
 forever
     move (10) steps
     if on edge, bounce
