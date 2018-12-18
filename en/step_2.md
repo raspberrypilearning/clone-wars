@@ -25,7 +25,7 @@ Add this code to the spaceship sprite to make the spaceship move left if the <kb
 ```blocks3
 	when flag clicked
 	forever
-		if <key [left arrow v] pressed?> then
+		if <key (left arrow v) pressed?> then
 			change x by (-4)
 		end
 	end
@@ -68,7 +68,7 @@ Here is the code you need to add below the other code inside the `forever`{:clas
 ![rocket sprite](images/rocket-sprite.png)
 
 ```blocks3
-if <key [right arrow v] pressed?> then
+if <key (right arrow v) pressed?> then
 	change x by (4)
 end
 ```

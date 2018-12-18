@@ -95,7 +95,7 @@ Add code to your bat so that `when the flag is clicked`{:class="block3events"}, 
 when flag clicked
 forever
 	wait (pick random (5) to (10)) secs
-	create clone of [Orange v]
+	create clone of (Orange v)
 end
 ```
 
@@ -114,7 +114,7 @@ Add code to the `Orange` to make each of its clone drop, starting from the `Bat`
 	when I start as a clone
 	go to [Bat v]
 	show
-	repeat until <touching [edge v]?
+	repeat until <touching (edge v)?
 		change y by (-4)
 	end
 	delete this clone
@@ -142,7 +142,7 @@ Modify the code of your `Spaceship` sprite so that the sprite is "hit" when it t
 ![rocket sprite](images/rocket-sprite.png)
 
 ```blocks3
-	wait until < <touching [Hippo1 v]?> or <touching [Orange v]?>>
+	wait until < <touching (Hippo1 v)?> or <touching (Orange v)?>>
 ```
 
 --- /task ---

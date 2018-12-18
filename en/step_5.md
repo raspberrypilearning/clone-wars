@@ -50,7 +50,7 @@ Here are the blocks you need:
 forever
 end
 
-create clone of [Hippo1 v]
+create clone of (Hippo1 v)
 
 (pick random (2) to (4))
 
@@ -73,7 +73,7 @@ This is what your code should look like:
 when flag clicked
 forever
 	wait (pick random (2) to (4)) secs
-	create clone of [Hippo1 v]
+	create clone of (Hippo1 v)
 end
 ```
 
@@ -123,8 +123,8 @@ At the moment the hippos don't move.
 Each hippo should move around randomly until it gets hit by a lightning bolt. To make that happen, attach this code below the blocks that are already in the `Hippo` sprite's code script:
 
 ```blocks3
-repeat until <touching [lightning v] ?>
-	move (speed) steps
+repeat until <touching (lightning v) ?>
+	move (speed :: variables) steps
 	turn right (pick random (-10) to (10)) degrees
 	if on edge, bounce
 end

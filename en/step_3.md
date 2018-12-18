@@ -35,7 +35,7 @@ Below the code that the `Lightning` sprite already has, add some blocks to make 
 
 ```blocks3
 set size to (25) %
-point in direction (-90 v)
+point in direction (-90)
 ```
 
 Now it looks like it fires pointy end–first out of the spaceship.
@@ -65,9 +65,9 @@ end
 forever
 end
 
-create clone of [Lightning v]
+create clone of (Lightning v)
 
-<key [space v] pressed?>
+<key (space v) pressed?>
 
 when flag clicked
 ```
@@ -83,8 +83,8 @@ Here is what your new code should look like:
 ```blocks3
 when flag clicked
 forever
-	if <key [space v] pressed?> then
-		create clone of [Lightning v]
+	if <key (space v) pressed?> then
+		create clone of (Lightning v)
 	end
 end
 ```
@@ -105,9 +105,9 @@ Add this code to the `Lightning` sprite so that clones of it move upwards until 
 
 ```blocks3
 	when I start as a clone
-	go to [Spaceship v]
+	go to (Spaceship v)
     show
-	repeat until <touching [edge v] ?>
+	repeat until <touching (edge v) ?>
 		change y by (10)
 	end
 	delete this clone

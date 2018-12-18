@@ -25,7 +25,7 @@ On the Stage, broadcast a `game over`{:class="block3events"} message just before
 ![gameover sprite](images/stage-sprite.png)
 
 ```blocks3
-broadcast [game over v] and wait
+broadcast (game over v) and wait
 ```
 
 --- /task ---

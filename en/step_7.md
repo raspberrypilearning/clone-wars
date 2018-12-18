@@ -10,10 +10,10 @@ Add code to the spaceship sprite to make it `broadcast`{:class="block3events"} t
 
 ```blocks3
 when flag clicked
-switch costume to [normal v]
-wait until <touching [Hippo1 v]>?
-switch costume to [hit v]
-+ broadcast [hit v]
+switch costume to (normal v)
+wait until <touching (Hippo1 v)>?
+switch costume to (hit v)
++ broadcast (hit v)
 ```
 
 --- /task ---
@@ -50,10 +50,10 @@ Add a `wait`{:class="block3control"} block at the end of the `Spaceship` sprite'
 ```blocks3
 when flag clicked
 forever
-    switch costume to [normal v]
-    wait until <touching [Hippo1 v]>?
-    switch costume to [hit v]
-    broadcast [hit v]
+    switch costume to (normal v)
+    wait until <touching (Hippo1 v)>?
+    switch costume to (hit v)
+    broadcast (hit v)
     wait (1) secs
 end
 ```

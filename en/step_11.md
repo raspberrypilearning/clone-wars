@@ -14,5 +14,5 @@ Here are some ideas:
 + Make more enemies appear when your score gets to `100`.
 
 ```blocks3
-	wait until <(score) = [100]>
+	wait until <(score :: variables) = [100]>
 ```
