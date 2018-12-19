@@ -59,8 +59,6 @@ when flag clicked
 wait () secs
 ```
 
-![Clone hippo hint](images/clone-hippo-hint.png)
-
 --- /hint ---
 
 --- hint ---
