@@ -8,13 +8,7 @@ Add code to the spaceship sprite to make it `broadcast`{:class="block3events"} t
 
 ![rocket sprite](images/rocket-sprite.png)
 
-```blocks3
-when flag clicked
-switch costume to (normal v)
-wait until <touching (Hippo1 v)>?
-switch costume to (hit v)
-+ broadcast (hit v)
-```
+![blocks_1545306265_6291156](images/blocks_1545306265_6291156.png)
 
 --- /task ---
 
@@ -24,10 +18,7 @@ All of the `Hippo` sprite clones will receive the "hit" message, and you can ins
 
 ![hippo sprite](images/hippo-sprite.png)
 
-```blocks3
-when I receive [hit v]
-delete this clone
-```
+![blocks_1545306266_8382988](images/blocks_1545306266_8382988.png)
 
 --- /task ---
 
@@ -47,16 +38,7 @@ Add a `wait`{:class="block3control"} block at the end of the `Spaceship` sprite'
 
 ![rocket sprite](images/rocket-sprite.png)
 
-```blocks3
-when flag clicked
-forever
-    switch costume to (normal v)
-    wait until <touching (Hippo1 v)>?
-    switch costume to (hit v)
-    broadcast (hit v)
-    wait (1) seconds
-end
-```
+![blocks_1545306267_9845622](images/blocks_1545306267_9845622.png)
 
 --- /task ---
 

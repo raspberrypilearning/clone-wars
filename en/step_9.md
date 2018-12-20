@@ -16,14 +16,7 @@ Make the `Bat` sprite `move`{:class="block3motion"} from left to right at the to
 
 ![bat sprite](images/bat-sprite.png)
 
-```blocks3
-when flag clicked
-set size to (50) %
-forever
-    move (10) steps
-    if on edge, bounce
-end
-```
+![blocks_1545306269_1404805](images/blocks_1545306269_1404805.png)
 
 Remember to test your code.
 
@@ -49,26 +42,13 @@ After the bat has moved, it should show the `next costume`{:class="block3looks"}
 
 You need to add these blocks to you code:
 
-```blocks3
-wait (0.3) seconds
-
-next costume
-```
+![blocks_1545306270_2933042](images/blocks_1545306270_2933042.png)
 --- /hint ---
 
 --- hint ---
 You code should look like this:
 
-```blocks3
-when flag clicked
-set size to (50) %
-forever
-    move (10) steps
-    if on edge, bounce
-    next costume
-    wait (0.3) seconds
-end
-```
+![blocks_1545306271_4382732](images/blocks_1545306271_4382732.png)
 --- /hint ---
 
 --- /hints ---
@@ -91,13 +71,7 @@ Add code to your bat so that `when the flag is clicked`{:class="block3events"}, 
 
 ![bat sprite](images/bat-sprite.png)
 
-```blocks3
-when flag clicked
-forever
-	wait (pick random (5) to (10)) secs
-	create clone of (Orange v)
-end
-```
+![blocks_1545306272_5220869](images/blocks_1545306272_5220869.png)
 
 --- /task ---
 
@@ -107,18 +81,7 @@ Add code to the `Orange` to make each of its clone drop, starting from the `Bat`
 
 ![orange sprite](images/orange-sprite.png)
 
-```blocks3
-	when flag clicked
-	hide
-
-	when I start as a clone
-	go to [Bat v]
-	show
-	repeat until <touching (edge v)?
-		change y by (-4)
-	end
-	delete this clone
-```
+![blocks_1545306273_682255](images/blocks_1545306273_682255.png)
 
 --- /task ---
 
@@ -128,10 +91,7 @@ Add some more code to the `Orange` sprite so that when an `Orange` clone hits th
 
 ![orange sprite](images/orange-sprite.png)
 
-```blocks3
-	when I receive [hit v]
-	delete this clone
-```
+![blocks_1545306274_855224](images/blocks_1545306274_855224.png)
 
 --- /task ---
 
@@ -141,9 +101,7 @@ Modify the code of your `Spaceship` sprite so that the sprite is "hit" when it t
 
 ![rocket sprite](images/rocket-sprite.png)
 
-```blocks3
-	wait until < <touching (Hippo1 v)?> or <touching (Orange v)?>>
-```
+![blocks_1545306275_9991343](images/blocks_1545306275_9991343.png)
 
 --- /task ---
 

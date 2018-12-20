@@ -24,10 +24,7 @@ Add some code to hide the `Hippo` sprite when the game starts.
 
 ![hippo sprite](images/hippo-sprite.png)
 
-```blocks3
-when green flag clicked
-hide
-```
+![blocks_1545306258_8366911](images/blocks_1545306258_8366911.png)
 --- /task ---
 
 --- task ---
@@ -46,18 +43,7 @@ When the `green flag is clicked`{:class="block3events"}, `repeatedly`{:class="bl
 
 Here are the blocks you need:
 
-```blocks3
-forever
-end
-
-create clone of (Hippo1 v)
-
-(pick random (2) to (4))
-
-when flag clicked
-
-wait () secs
-```
+![blocks_1545306259_928944](images/blocks_1545306259_928944.png)
 
 --- /hint ---
 
@@ -67,13 +53,7 @@ This is what your code should look like:
 
 ![stage sprite](images/stage-sprite.png)
 
-```blocks3
-when flag clicked
-forever
-	wait (pick random (2) to (4)) secs
-	create clone of (Hippo1 v)
-end
-```
+![blocks_1545306261_049943](images/blocks_1545306261_049943.png)
 
 --- /hint ---
 
@@ -99,12 +79,7 @@ When you've done this correctly, the variable has the name of the sprite next to
 
 When each `Hippo` clone starts, pick a random speed and starting place for it. Then show the clone on the screen.
 
-```blocks3
-when I start as a clone
-set [speed v] to (pick random (2) to (4))
-go to x: (pick random (-220) to (220)) y: (150)
-show
-```
+![blocks_1545306262_1674566](images/blocks_1545306262_1674566.png)
 
 --- /task ---
 
@@ -120,14 +95,7 @@ At the moment the hippos don't move.
 
 Each hippo should move around randomly until it gets hit by a lightning bolt. To make that happen, attach this code below the blocks that are already in the `Hippo` sprite's code script:
 
-```blocks3
-repeat until <touching (lightning v) ?>
-	move (speed :: variables) steps
-	turn right (pick random (-10) to (10)) degrees
-	if on edge, bounce
-end
-delete this clone
-```	
+![blocks_1545306263_311691](images/blocks_1545306263_311691.png)
 
 --- /task ---
 
