@@ -54,7 +54,7 @@ forever
     wait until <touching (Hippo1 v)>?
     switch costume to (hit v)
     broadcast (hit v)
-    wait (1) secs
+    wait (1) seconds
 end
 ```
 

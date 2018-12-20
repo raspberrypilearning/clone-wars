@@ -50,7 +50,7 @@ After the bat has moved, it should show the `next costume`{:class="block3looks"}
 You need to add these blocks to you code:
 
 ```blocks3
-wait (0.3) secs
+wait (0.3) seconds
 
 next costume
 ```
@@ -66,7 +66,7 @@ forever
     move (10) steps
     if on edge, bounce
     next costume
-    wait (0.3) secs
+    wait (0.3) seconds
 end
 ```
 --- /hint ---
