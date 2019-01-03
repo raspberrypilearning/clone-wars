@@ -13,4 +13,4 @@ Here are some ideas:
 
 + Make more enemies appear when your score gets to `100`.
 
-![blocks_1545306247_5825117](images/blocks_1545306247_5825117.png)
+![blocks_1546522852_9177506](images/blocks_1546522852_9177506.png)
