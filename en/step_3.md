@@ -1,58 +1,90 @@
-## Make a spaceship
+## Lightning bolts
 
-Let's make a spaceship that will defend the Earth!
+Now you are going to give the spaceship the ability to fire lightning bolts!
 
-+ Start a new Scratch project, and delete the cat sprite.
+--- task ---
 
-[[[generic-scratch-new-project]]]
+Add the `Lightning` sprite from the Scratch library.  
 
-+ Add the `stars` backdrop and the `Spaceship` sprite to your project.
+[[[generic-scratch3-sprite-from-library]]]
 
-	![screenshot](images/invaders-sprites.png)
+--- /task ---
 
-[[[generic-scratch-backdrop-from-library]]]
+--- task ---
 
-[[[generic-scratch-sprite-from-library]]]
+When the game starts, the `Lightning` sprite should be hidden until the spaceship fires its laser cannons.
 
-+ Use the **shrink** tool to make your `Spaceship` sprite a bit smaller, and position it near the bottom of the screen.
+Add this code to the `Lightning` sprite:
 
-+ When the **left** arrow key is pressed, the spaceship should move to the left. Add this code to make your spaceship move left when the **left** arrow is pressed:
+![lightning sprite](images/lightning-sprite.png)
 
-```blocks
-	when flag clicked
-	forever
-		if <key [left arrow v] pressed?> then
-			change x by (-4)
-		end
-	end
-```
+![blocks_1545306253_1889262](images/blocks_1545306253_1889262.png)
 
-The x-axis goes from left to right on the Stage, so if you make the the spaceship's x-position smaller by substracting from it, it will move further to the left. This code is the part which makes your spaceship move left:
+--- /task ---
 
-```blocks
-change x by (-4)
-```
+At the moment, the lightning bolt is really big compared to the spaceship!
 
-+ Add some more code inside the `forever`{:class="blockcontrol"} block to make your spaceship move to the right when the **right** arrow key is pressed.
+--- task ---
+
+Below the code that the `Lightning` sprite already has, add some blocks to make the sprite smaller and to turn it upside down.
+
+![lightning sprite](images/lightning-sprite.png)
+
+![blocks_1545306254_2631054](images/blocks_1545306254_2631054.png)
+
+Now it looks like it fires pointy end–first out of the spaceship.
+
+--- /task ---
+
+--- task ---
+
+Add some new code to the `Spaceship` sprite to create a new clone of the lightning bolt if the <kbd>space</kbd> key is pressed.
 
 --- hints ---
+
 --- hint ---
-If subtracting `4` from the spaceship's position made it move left, how could you make it move right by `4` instead?
+
+`When the green flag is clicked`{:class="block3events"}, keep checking `forever`{:class="block3control"} `if`{:class="block3control"} the `space key is pressed`{:class="block3sensing"}, and in that case `create a clone of the Lightning`{:class="block3control"} sprite.	
+
 --- /hint ---
+
 --- hint ---
-You will need to use the same block, but with a different number:
-```blocks
-change x by ( )
-```
+
+Here are the blocks you need:
+
+![blocks_1545306255_4140275](images/blocks_1545306255_4140275.png)
+
 --- /hint ---
+
 --- hint ---
-Here is the code you will need to add below the other code inside your `forever`{:class="blockcontrol"} block:
-```blocks
-if <key [right arrow v] pressed?> then
-	change x by (4)
-end
-```
+
+Here is what your new code should look like:
+
+![rocket sprite](images/rocket-sprite.png)
+
+![blocks_1545306256_5735552](images/blocks_1545306256_5735552.png)
+
 --- /hint ---
+
 --- /hints ---
 
-+ Test your project by clicking the green flag. Can you make your spaceship move left and right with the arrow keys?
+--- /task ---
+
+--- task ---
+
+Whenever the game creates a `Lightning` sprite clone, the clone should appear and then move upwards until it reaches the top of the Stage. Then the clone should disappear.
+
+Add this code to the `Lightning` sprite so that clones of it move upwards until they touch the edge of the Stage, and then they get deleted.
+
+![lightning sprite](images/lightning-sprite.png)
+
+![blocks_1545306257_726677](images/blocks_1545306257_726677.png)
+
+--- /task ---
+
+--- task ---
+
+Press the <kbd>space</kbd> key to test whether the lightning bolt moves correctly.
+
+--- /task ---
+

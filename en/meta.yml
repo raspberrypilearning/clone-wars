@@ -1,28 +1,24 @@
 hero_image: images/clone-wars.png
 theme: violet
-duration: 2
 listed: true
-ingredient: false
 copyedit: true
-curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
 title: Clone wars
 description: Create a game in which you have to save the Earth from space monsters
-original_url: https://codeclubprojects.org/en-GB/scratch/clone-wars
-interests: games
-technologies: scratch
-site_areas: projects
-hardware: ''
-software: scratch
-version: 4
-last_tested: 2017-01-01
+version: 4.1.0
+last_tested: 2018-10-11
 steps: 
 - title: Introduction
-- title: What you will need
-- title: Making a spaceship
+- title: Make a spaceship
 - title: Lightning bolts
-- title: Flying space-hippos
-- title: Exploding spaceship
-- title: Disappearing hippos
-- title: Fruit bat
+- title: 'Challenge: improve the lightning'
+  challenge: true
+- title: Space-hippos
+- title: Spaceship explosion
+- title: Hippos that disappear
+- title: 'Challenge: lives and score'
+  challenge: true
+- title: Space-bat
 - title: Game over
 - title: 'Challenge: improve your game'
+  challenge: true
+- title: What next?
