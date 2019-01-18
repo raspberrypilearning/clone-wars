@@ -4,11 +4,11 @@ This is the **Scratch 3** version of the project. There is also a [Scratch 2 ver
 
 \--- /no-print \---
 
-## Introduction
+## Uvod
 
 In this project you will learn how to create a game in which you have to save the Earth from space monsters.
 
-### What you will make
+### Kreirat ćeš
 
 \--- no-print \---
 
