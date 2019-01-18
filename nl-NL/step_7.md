@@ -1,58 +1,43 @@
-## Verdwijnende nijlpaarden
+## Hippos that disappear
 
-Wanneer het ruimteschip wordt geraakt, moeten alle nijlpaarden verdwijnen om de speler een kans te geven om te herstellen.
+When the spaceship explodes, all the hippos should disappear so that players of the game can recover.
 
-+ Voeg een blok toe aan je code voor een` zend signaal ` "geraakt" bericht wanneer het ruimteschip een nijlpaard raakt.
+\--- task \---
 
-[[[generic-scratch-broadcast-message]]]
+Add code to the spaceship sprite to make it `broadcast`{:class="block3events"} the message "hit" when the `spaceship touches a hippo`{:class="block3sensing"}.
 
-\--- hints \--- \--- hint \--- Maak een ` -zend signaal 'geraakt'` blok door het blok uit de ** gebeurtenissen ** tab te slepen en klik vervolgens op het pijltje ernaast en selecteer ** nieuw bericht... **. \--- / hint \--- \--- hint \--- Hier is hoe je blok eruit zou moeten zien:
+![rocket sprite](images/rocket-sprite.png)
 
-```blocks
-zend signaal [geraakt v]
-```
+![blocks_1546522879_1027734](images/blocks_1546522879_1027734.png)
 
-\--- / hint \--- \--- hint \--- Hier is hoe je blok eruit zou moeten zien:
+\--- /task \---
 
-```blocks
-wanneer groene vlag wordt aangeklikt
-verander uiterlijk naar [normaal v] 
-wacht tot <touching [Hippo1 v]>? 
-verander uiterlijk naar [geraakt v]
-```
+\--- task \---
 
-\--- /hint \--- \--- /hints \---
+All of the `Hippo` sprite clones will receive the "hit" message, and you can instruct them to disappear when the spaceship is hit by adding this code to the `Hippo` sprite:
 
-Alle ` Hippo ` sprite-klonen zullen dit bericht horen, zodat je ze nu kunt instrueren om te verdwijnen wanneer het ruimteschip wordt geraakt.
+![hippo sprite](images/hippo-sprite.png)
 
-+ Voeg deze code toe aan de ` Hippo ` sprite:
+![blocks_1546522880_7433825](images/blocks_1546522880_7433825.png)
 
-```blocks
-wanneer ik signaal [geraakt v] ontvang, 
-verwijder deze kloon
-```
+\--- /task \---
 
-+ Test deze code door een nieuw spel te starten en opzettelijk in botsing te komen met een nijlpaard.
+\--- task \---
+
+To check whether the new code works, click the green flag and make the spaceship collide with a hippo.
 
 ![screenshot](images/invaders-hippo-collide.png)
 
-Nadat je bent geraakt, verschijnen de nijlpaarden weer, maar het ruimteschip is nog steeds geëxplodeerd! Laten we het mogelijk maken dat het ruimteschip zichzelf reset na geraakt te zijn.
+\--- /task \---
 
-+ Voeg een `herhaal ` {: class="blockcontrol"} blok toe rondom al je code om het proces te laten herhalen, en een ` wacht ` {: class="blockcontrol"} blok aan het einde toe om een ​​kleine pauze in te voegen voordat nijlpaarden weer verschijnen.
+After the spaceship explodes, new `Hippo` clones appear, but the spaceship is still exploded! The spaceship needs to reset itself after being hit.
 
-```blocks
-wanneer groene vlag wordt aangeklikt
-verander uiterlijk naar [normaal v] 
-wacht tot <touching [Hippo1 v]>? 
-verander uiterlijk naar [geraakt v]
-zend signaal [geraakt]
-wacht (1) sec
-```
+\--- task \---
 
-\--- challenge \---
+Add a `wait`{:class="block3control"} block at the end of the `Spaceship` sprite's code to create a small pause before hippos begin appearing again. Then add a `forever`{:class="block3control"} block around all of your code to make the code run repeatedly.
 
-### Challenge: levens en score
+![rocket sprite](images/rocket-sprite.png)
 
-Op dit moment heeft de speler een oneindig aantal levens. Kun je ` levens ` {: class="blockdata"}, een ` score ` {: class="blockdata"}, of zelfs een ` highscore ` {: class="blockdata"} toevoegen aan je spel?
+![blocks_1546522882_3185935](images/blocks_1546522882_3185935.png)
 
-[[[generic-scratch-high-score]]] \--- /challenge \---
+\--- /task \---
