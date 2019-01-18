@@ -1,54 +1,89 @@
-## Зробіть космічний корабель
+## Lightning bolts
 
-Зробіть космічний корабель, що буде захищати Землю!
+Now you are going to give the spaceship the ability to fire lightning bolts!
 
-+ Почніть новий Scratch проект та видаліть спрайт кота.
+\--- task \---
 
-[[[generic-scratch-new-project]]]
+Add the `Lightning` sprite from the Scratch library.
 
-+ Додайте фон ` зірки` та фон ` Космічний корабель` до вашого проекту.
-    
-    ![знімок екрану](images/invaders-sprites.png)
+[[[generic-scratch3-sprite-from-library]]]
 
-[[[generic-scratch-backdrop-from-library]]]
+\--- /task \---
 
-[[[generic-scratch-sprite-from-library]]]
+\--- task \---
 
-+ Використайте інструмент **скорочення**, щоб звробити спрайт`Космічного корабля` трішки меншим, та розташуйте його в нижній частині екрану.
+When the game starts, the `Lightning` sprite should be hidden until the spaceship fires its laser cannons.
 
-+ Коли клавіша ** вліво** зі стрілкою натиснута, космічний корабель має рухатися вліво. Додайте цей код, щоб корабель рухався вліво, коли стрілка **вліво** буде натиснута:
+Add this code to the `Lightning` sprite:
 
-```blocks
-    коли натиснуто ⚑
-завжди 
-  якщо <key [left arrow v] pressed?> то 
-    змінити x на (-4)
-  end
-end
-```
+![lightning sprite](images/lightning-sprite.png)
 
-Вісь х розташована з ліва на право на сцені, тому, якщо ви зменшете координату х космічного корабля шляхом віднімання то він буде рухатися вліво. Цей код є частиною, яка змушує космічний корабель рухатися вліво:
+![blocks_1546522861_1148694](images/blocks_1546522861_1148694.png)
 
-```blocks
-змінити значення х на (-4)
-```
+\--- /task \---
 
-+ Додайте ще один код усередині блоку `назавжди` {:class="blockcontrol"}, щоб ваш космічний корабель рухався вправо коли клавіша зі стрілкою **вправо** натиснута.
+At the moment, the lightning bolt is really big compared to the spaceship!
 
-\--- hints \--- \--- hint \--- Якщо віднімання `4` з позиції космічного корабля змусило його рухатися вліво, як ви могли б змусити його рухатися прямо по `4` замість цього? \--- /hint \--- \--- hint \--- Вам потрібно використовувати цей самий блок, але з іншим номером:
+\--- task \---
 
-```blocks
-змінити значення х на ( )
-```
+Below the code that the `Lightning` sprite already has, add some blocks to make the sprite smaller and to turn it upside down.
 
-\--- /hint \--- \--- hint \--- Це код, який вам потрібно додати нижче іншого коду, всередині блоку `назавжди`{:class="blockcontrol"}:
+![lightning sprite](images/lightning-sprite.png)
 
-```blocks
-якщо <key [right arrow v] pressed?> то 
-  змінити x на (4)
-end
-```
+![blocks_1546522862_7402277](images/blocks_1546522862_7402277.png)
 
-\--- /hint \--- \--- /hints \---
+Now it looks like it fires pointy end–first out of the spaceship.
 
-+ Випробуйте ваш проект натиснувши на зелений прапорець. Чи можете ви рухати космічним кораблем ліворуч і праворуч за допомогою клавіші зі стрілками?
+\--- /task \---
+
+\--- task \---
+
+Add some new code to the `Spaceship` sprite to create a new clone of the lightning bolt if the <kbd>space</kbd> key is pressed.
+
+\--- hints \---
+
+\--- hint \---
+
+`When the green flag is clicked`{:class="block3events"}, keep checking `forever`{:class="block3control"} `if`{:class="block3control"} the `space key is pressed`{:class="block3sensing"}, and in that case `create a clone of the Lightning`{:class="block3control"} sprite.
+
+\--- /hint \---
+
+\--- hint \---
+
+Here are the blocks you need:
+
+![blocks_1546522864_3579764](images/blocks_1546522864_3579764.png)
+
+\--- /hint \---
+
+\--- hint \---
+
+Here is what your new code should look like:
+
+![rocket sprite](images/rocket-sprite.png)
+
+![blocks_1546522866_0371468](images/blocks_1546522866_0371468.png)
+
+\--- /hint \---
+
+\--- /hints \---
+
+\--- /task \---
+
+\--- task \---
+
+Whenever the game creates a `Lightning` sprite clone, the clone should appear and then move upwards until it reaches the top of the Stage. Then the clone should disappear.
+
+Add this code to the `Lightning` sprite so that clones of it move upwards until they touch the edge of the Stage, and then they get deleted.
+
+![lightning sprite](images/lightning-sprite.png)
+
+![blocks_1546522867_7058573](images/blocks_1546522867_7058573.png)
+
+\--- /task \---
+
+\--- task \---
+
+Press the <kbd>space</kbd> key to test whether the lightning bolt moves correctly.
+
+\--- /task \---
