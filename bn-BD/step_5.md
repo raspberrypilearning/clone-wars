@@ -2,31 +2,31 @@
 
 Now you're going to add lots of flying hippos that try to destroy your spaceship.
 
-\--- task \---
+\--- কাজ \---
 
 Create a new sprite with the 'Hippo1' image in the Scratch library. Use the **shrink** tool to make the `Hippo` sprite a similar size to the `Spaceship` sprite.
 
 ![screenshot](images/invaders-hippo.png)
 
-\--- /task \---
+\--- /কাজ \---
 
-\--- task \---
+\--- কাজ \---
 
 Set the `Hippo` sprite's rotation style to **left-right**.
 
 [[[generic-scratch3-sprite-rotation-style]]]
 
-\--- /task \---
+\--- /কাজ \---
 
-\--- task \---
+\--- কাজ \---
 
 Add some code to hide the `Hippo` sprite when the game starts.
 
 ![hippo sprite](images/hippo-sprite.png)
 
-![blocks_1546522869_3620155](images/blocks_1546522869_3620155.png) \--- /task \---
+![blocks_1546522869_3620155](images/blocks_1546522869_3620155.png) \--- /কাজ \---
 
-\--- task \---
+\--- কাজ \---
 
 Add some code to the Stage to create a new `Hippo` clone every few seconds.
 
@@ -58,11 +58,11 @@ This is what your code should look like:
 
 \--- /hints \---
 
-\--- /task \---
+\--- /কাজ \---
 
 Each new hippo clone should appear at a random `x` position, and every clone should have a random speed.
 
-\--- task \---
+\--- কাজ \---
 
 Create a new variable called `speed`{:class="block3variables"} that is for the `Hippo` sprite only.
 
@@ -72,46 +72,46 @@ When you've done this correctly, the variable has the name of the sprite next to
 
 ![screenshot](images/invaders-var-test.png)
 
-\--- /task \---
+\--- /কাজ \---
 
-\--- task \---
+\--- কাজ \---
 
 When each `Hippo` clone starts, pick a random speed and starting place for it. Then show the clone on the screen.
 
 ![blocks_1546522874_2438061](images/blocks_1546522874_2438061.png)
 
-\--- /task \---
+\--- /কাজ \---
 
-\--- task \---
+\--- কাজ \---
 
 Test your code. Does a new hippo appear every few seconds?
 
-\--- /task \---
+\--- /কাজ \---
 
 At the moment the hippos don't move.
 
-\--- task \---
+\--- কাজ \---
 
 Each hippo should move around randomly until it gets hit by a lightning bolt. To make that happen, attach this code below the blocks that are already in the `Hippo` sprite's code script:
 
 ![blocks_1546522875_874299](images/blocks_1546522875_874299.png)
 
-\--- /task \---
+\--- /কাজ \---
 
-\--- task \---
+\--- কাজ \---
 
 Test your code again. You should see a new hippo clone appear every few seconds, and each clone should move at a different speed.
 
-\--- no-print \---
+\----প্রিন্ট করা লাগবেনা --
 
 ![screenshot](images/hippo-clones.gif)
 
-\--- /no-print \---
+\----প্রিন্ট করা লাগবেনা --
 
-\--- /task \---
+\--- /কাজ \---
 
-\--- task \---
+\--- কাজ \---
 
 Now test the spaceship's laser cannon. If a lightning bolt hits a hippo, does the hippo vanish?
 
-\--- /task \---
+\--- /কাজ \---
