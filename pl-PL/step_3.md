@@ -1,54 +1,89 @@
-## Stwórz statek kosmiczny
+## Lightning bolts
 
-Stwórzmy statek kosmiczny, który będzie bronił Ziemi!
+Now you are going to give the spaceship the ability to fire lightning bolts!
 
-+ Rozpocznij nowy projekt Scratch i usuń duszek kota.
+\--- task \---
 
-[[[generic-scratch-new-project]]]
+Add the `Lightning` sprite from the Scratch library.
 
-+ Dodaj tło z `gwiazdek` i duszka `statku kosmicznego` do twojego projektu.
-    
-    ![zrzut ekranu](images/invaders-sprites.png)
+[[[generic-scratch3-sprite-from-library]]]
 
-[[[generic-scratch-backdrop-from-library]]]
+\--- /task \---
 
-[[[generic-scratch-sprite-from-library]]]
+\--- task \---
 
-+ Użyj narzędzia **zmniejsz** żeby trochę pomniejszyć twój ` statek kosmiczny ` i ustaw go w dolnej części ekranu.
+When the game starts, the `Lightning` sprite should be hidden until the spaceship fires its laser cannons.
 
-+ Kiedy klawisz strzałki ** w lewo ** jest wciśnięty, statek kosmiczny powinien przesunąć się w lewo. Dodaj ten kod, aby twój statek kosmiczny przesuwał się w lewo, gdy strzałka ** w lewo ** jest wciśnięta:
+Add this code to the `Lightning` sprite:
 
-```blocks
-    kiedy kliknięto zieloną flagę
-     zawsze 
-       jeżeli <klawisz [strzałka w lewo v] naciśnięty?> to 
-         zmień x o (-4)
-     end
-    end
-```
+![lightning sprite](images/lightning-sprite.png)
 
-W scenie, oś x przebiega od lewej do prawej, więc jeśli zmniejszysz pozycję x statku kosmicznego, odejmując od niej, przesunie się dalej w lewo. Ten kod sprawia, że ​​twój statek kosmiczny przesuwa się w lewo:
+![blocks_1546522861_1148694](images/blocks_1546522861_1148694.png)
 
-```blocks
-zmień x o (-4)
-```
+\--- /task \---
 
-+ Dodaj więcej kodu wewnątrz bloku ` zawsze`, aby twój statek kosmiczny przesuwał się w prawo, gdy strzałka** w prawo ** jest wciśnięta.
+At the moment, the lightning bolt is really big compared to the spaceship!
 
-\--- hints \--- \--- hint \--- Jeśli odjęcie` 4 `od pozycji x statku kosmicznego spowodowało, że przesunął się w lewo, w jaki sposób można go przesunąć o ` 4 ` w prawo? \--- /hint \--- \--- hint \--- Będziesz musiał użyć tego samego bloku, ale z inną liczbą:
+\--- task \---
 
-```blocks
-zmień x o ()
-```
+Below the code that the `Lightning` sprite already has, add some blocks to make the sprite smaller and to turn it upside down.
 
-\--- /hint \--- \--- hint \--- Oto kod, który będziesz musiał dodać wewnątrz poprzednio stworzonego bloku `zawsze` pod kodem który już tam jest:
+![lightning sprite](images/lightning-sprite.png)
 
-```blocks
-jeżeli <klawisz [strzałka w prawo v] naciśnięty?> to 
-  zmień x o (4)
-end
-```
+![blocks_1546522862_7402277](images/blocks_1546522862_7402277.png)
 
-\--- /hint \--- \--- /hints \---
+Now it looks like it fires pointy end–first out of the spaceship.
 
-+ Przetestuj swój projekt, klikając zieloną flagę. Czy potrafisz sprawić, by twój statek kosmiczny poruszał się w lewo i prawo za pomocą klawiszy strzałek?
+\--- /task \---
+
+\--- task \---
+
+Add some new code to the `Spaceship` sprite to create a new clone of the lightning bolt if the <kbd>space</kbd> key is pressed.
+
+\--- hints \---
+
+\--- hint \---
+
+`When the green flag is clicked`{:class="block3events"}, keep checking `forever`{:class="block3control"} `if`{:class="block3control"} the `space key is pressed`{:class="block3sensing"}, and in that case `create a clone of the Lightning`{:class="block3control"} sprite.
+
+\--- /hint \---
+
+\--- hint \---
+
+Here are the blocks you need:
+
+![blocks_1546522864_3579764](images/blocks_1546522864_3579764.png)
+
+\--- /hint \---
+
+\--- hint \---
+
+Here is what your new code should look like:
+
+![rocket sprite](images/rocket-sprite.png)
+
+![blocks_1546522866_0371468](images/blocks_1546522866_0371468.png)
+
+\--- /hint \---
+
+\--- /hints \---
+
+\--- /task \---
+
+\--- task \---
+
+Whenever the game creates a `Lightning` sprite clone, the clone should appear and then move upwards until it reaches the top of the Stage. Then the clone should disappear.
+
+Add this code to the `Lightning` sprite so that clones of it move upwards until they touch the edge of the Stage, and then they get deleted.
+
+![lightning sprite](images/lightning-sprite.png)
+
+![blocks_1546522867_7058573](images/blocks_1546522867_7058573.png)
+
+\--- /task \---
+
+\--- task \---
+
+Press the <kbd>space</kbd> key to test whether the lightning bolt moves correctly.
+
+\--- /task \---
