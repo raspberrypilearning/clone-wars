@@ -1,39 +1,37 @@
 ---
 hero_image: images / clone-wars.png
 theme: violet
-duration: 2
 listed: true
-ingredient: false
 copyedit: true
-curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
 title: Війни клонів
 description: Створіть гру, в якій ви повинні зберегти Землю від космічних монстрів
-original_url: https://codeclubprojects.org/en-GB/scratch/clone-wars
-interests: games
-technologies: scratch
-site_areas: projects
-hardware: ''
-software: scratch
 version: 4
 last_tested: 2017-01-01
 steps:
   - 
     title: Вступ
   - 
-    title: Те, що вам знадобиться
+    title: Make a spaceship
   - 
-    title: Створення космічного корабеля
+    title: Lightning bolts
   - 
-    title: Блискавка
+    title: 'Challenge: improve the lightning'
+    challenge: true
   - 
-    title: Літаючі космічні бегемоти
+    title: Space-hippos
   - 
-    title: Вибух космічного корабля
+    title: Spaceship explosion
   - 
-    title: Зникаючі бегемоти
+    title: Hippos that disappear
   - 
-    title: Фруктовий кажан
+    title: 'Challenge: lives and score'
+    challenge: true
   - 
-    title: Кінець гри
+    title: Space-bat
   - 
-    title: 'Завдання: вдоскональте свою гру'
+    title: Game over
+  - 
+    title: 'Challenge: improve your game'
+    challenge: true
+  - 
+    title: What next?
