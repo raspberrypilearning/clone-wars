@@ -2,7 +2,7 @@
 
 Next, you're going to add a 'game over' message at the end of the game.
 
-\--- task \---
+\--- task --
 
 If you haven't already, create a new variable called `lives`{:class="block3variables"}.
 
@@ -10,15 +10,15 @@ Your spaceship should start with three lives and lose a life whenever it touches
 
 \--- /task \---
 
-\--- task \---
+\--- task --
 
-Draw a new sprite called `Game Over` using the **text** tool.
+Σχεδίασε ένα νέο χαρακτήρα με το όνομα `Τέλος Παιχνιδιού` χρησιμοποιώντας το εργαλείο **κειμένου**.
 
 ![screenshot](images/invaders-game-over.png)
 
 \--- /task \---
 
-\--- task \---
+\--- task --
 
 On the Stage, broadcast a `game over`{:class="block3events"} message just before the game ends.
 
@@ -28,7 +28,7 @@ On the Stage, broadcast a `game over`{:class="block3events"} message just before
 
 \--- /task \---
 
-\--- task \---
+\--- task --
 
 Add this code to your `Game Over` sprite so that it shows at the end of the game:
 
@@ -40,7 +40,7 @@ Because you've used a `broadcast [game over] and wait`{:class="block3events"} bl
 
 \--- /task \---
 
-\--- task \---
+\--- task --
 
 Test your game. How many points can you score? If the game is too easy or too hard, can you think of ways to improve it?
 
