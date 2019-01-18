@@ -1,17 +1,17 @@
-## Challenge: improve your game
+## Wyzwanie: udoskonal swoją grę
 
-What improvements can you make to your game?
+Jakie udoskonalenia możesz wprowadzić w swojej grze?
 
-Here are some ideas:
+Oto kilka pomysłów:
 
-+ Add health packs that you can collect to gain extra lives.
++ Dodaj pakiety zdrowia, które możesz zebrać, aby zyskać dodatkowe życia.
 
-![screenshot](images/invaders-aid.png)
+![zrzut ekranu](images/invaders-aid.png)
 
-+ Add floating rocks that your spaceship must avoid.
++ Dodaj pływające skały, których twój statek kosmiczny musi unikać.
 
-![screenshot](images/invaders-rocks.png)
+![zrzut ekranu](images/invaders-rocks.png)
 
-+ Make more enemies appear when your score gets to `100`.
++ Zwiększ liczbę wrogów pokazujących się, gdy twój wynik osiągnie poziom `100`.
 
 ![blocks_1546522852_9177506](images/blocks_1546522852_9177506.png)
