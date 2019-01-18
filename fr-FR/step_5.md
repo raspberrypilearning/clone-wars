@@ -1,4 +1,4 @@
-## Space-hippos
+## Une chauve-souris !
 
 Now you're going to add lots of flying hippos that try to destroy your spaceship.
 
@@ -6,7 +6,7 @@ Now you're going to add lots of flying hippos that try to destroy your spaceship
 
 Create a new sprite with the 'Hippo1' image in the Scratch library. Use the **shrink** tool to make the `Hippo` sprite a similar size to the `Spaceship` sprite.
 
-![screenshot](images/invaders-hippo.png)
+![capture d'écran](images/invaders-hippo.png)
 
 \--- /task \---
 
@@ -20,7 +20,7 @@ Set the `Hippo` sprite's rotation style to **left-right**.
 
 \--- task \---
 
-Add some code to hide the `Hippo` sprite when the game starts.
+Ajoutez du code pour cacher le lutin `Hippo` quand le jeu commence.
 
 ![hippo sprite](images/hippo-sprite.png)
 
@@ -30,7 +30,7 @@ Add some code to hide the `Hippo` sprite when the game starts.
 
 Add some code to the Stage to create a new `Hippo` clone every few seconds.
 
-\--- hints \---
+\--- astuces \---
 
 \--- hint \---
 
@@ -44,7 +44,7 @@ Here are the blocks you need:
 
 ![blocks_1546522870_9668188](images/blocks_1546522870_9668188.png)
 
-\--- /hint \---
+\--- /indice \---
 
 \--- hint \---
 
@@ -56,7 +56,7 @@ This is what your code should look like:
 
 \--- /hint \---
 
-\--- /hints \---
+\--- /astuces \---
 
 \--- /task \---
 
@@ -70,7 +70,7 @@ Create a new variable called `speed`{:class="block3variables"} that is for the `
 
 When you've done this correctly, the variable has the name of the sprite next to it, like this:
 
-![screenshot](images/invaders-var-test.png)
+![capture d'écran](images/invaders-var-test.png)
 
 \--- /task \---
 
