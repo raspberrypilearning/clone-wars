@@ -1,49 +1,43 @@
-## Εξαφανισμένοι ιπποπόταμοι
+## Hippos that disappear
 
-Όταν το διαστημόπλοιο χτυπηθεί, όλοι οι ιπποπόταμοι πρέπει να εξαφανιστούν για να δώσουν στον παίκτη την ευκαιρία να ανακάμψει.
+When the spaceship explodes, all the hippos should disappear so that players of the game can recover.
 
-+ Προσθέστε ένα μπλοκ στον κωδικό σας σε `μεταδίδοντας` το μήνυμα "χτύπημα" όταν το διαστημόπλοιο αγγίζει μια ιπποπόταμο.
+\--- task \---
 
-[[[generic-scratch-broadcast-message]]]
+Add code to the spaceship sprite to make it `broadcast`{:class="block3events"} the message "hit" when the `spaceship touches a hippo`{:class="block3sensing"}.
 
-\--- υποδείξεις \--- \--- \--- υπόδειξη Δημιουργία `εκπομπή` «χτύπημα» μπλοκ, σύροντας το μπλοκ από τις **Εκδηλώσεις** καρτέλα και, στη συνέχεια, κάνοντας κλικ στο αναπτυσσόμενο μενού και επιλέγοντας **νέο μήνυμα**. \--- / hint \--- \--- hint \--- Εδώ είναι αυτό που πρέπει να μοιάζει με το μπλοκ σας:
+![rocket sprite](images/rocket-sprite.png)
 
-```blocks
-μετάδοση [hit v]
-```
+![blocks_1546522879_1027734](images/blocks_1546522879_1027734.png)
 
-\--- / hint \--- \--- hint \--- Εδώ είναι που πρέπει να μοιάζει ο κωδικός σας:
+\--- /task \---
 
-```blocks
-όταν η σημαία κτύπησε κοστούμι διακόπτη σε [κανονική v] περιμένετε μέχρι <touching [Hippo1 v]>; μεταπήδηση κοστουμιών στο [hit v] μετάδοση [hit v]
-```
+\--- task \---
 
-\--- / υπαινιγμός \--- \--- / υπαινιγμοί \---
+All of the `Hippo` sprite clones will receive the "hit" message, and you can instruct them to disappear when the spaceship is hit by adding this code to the `Hippo` sprite:
 
-Όλοι οι κλώνοι `Hippo` sprite θα ακούσουν αυτό το μήνυμα, ώστε να μπορείτε να τους δώσετε εντολή να εξαφανιστούν όταν χτυπήσει το διαστημόπλοιο.
+![hippo sprite](images/hippo-sprite.png)
 
-+ Προσθέστε αυτόν τον κώδικα στο `Hippo` sprite:
+![blocks_1546522880_7433825](images/blocks_1546522880_7433825.png)
 
-```blocks
-όταν λαμβάνω [χτυπήστε v] διαγράψτε αυτόν τον κλώνο
-```
+\--- /task \---
 
-+ Δοκιμάστε αυτόν τον κώδικα ξεκινώντας ένα νέο παιχνίδι και σκόπιμα συγκρούοντας με μια ιπποπόταμο.
+\--- task \---
+
+To check whether the new code works, click the green flag and make the spaceship collide with a hippo.
 
 ![screenshot](images/invaders-hippo-collide.png)
 
-Αφού χτυπήσετε, οι ιπποπόταμοι αρχίζουν ξανά να εμφανίζονται, αλλά το διαστημόπλοιο έχει ακόμα εκραγεί! Ας κάνουμε δυνατό για το διαστημόπλοιο να επαναρυθμίσει τον εαυτό του μετά το χτύπημα.
+\--- /task \---
 
-+ Προσθέστε ένα `για πάντα`{: class = «blockcontrol»} μπλοκ γύρω από όλα τον κωδικό σας για να κάνετε την επανάληψη της διαδικασίας, και `αναμονής`{: class = «blockcontrol»} μπλοκ στο τέλος για να προσθέσετε μια μικρή παύση πριν αρχίσει ιπποπόταμοι εμφανίζεται και πάλι.
+After the spaceship explodes, new `Hippo` clones appear, but the spaceship is still exploded! The spaceship needs to reset itself after being hit.
 
-```blocks
-όταν η σημαία πατήθηκε για πάντα κοστούμι διακόπτη σε [κανονική v] περιμένετε μέχρι <touching [Hippo1 v]>; μεταπήδηση κοστουμιών σε [hit v] εκπομπή [hit v] wait (1) secs end
-```
+\--- task \---
 
-\--- πρόκληση \---
+Add a `wait`{:class="block3control"} block at the end of the `Spaceship` sprite's code to create a small pause before hippos begin appearing again. Then add a `forever`{:class="block3control"} block around all of your code to make the code run repeatedly.
 
-### Πρόκληση: ζωή και σκορ
+![rocket sprite](images/rocket-sprite.png)
 
-Προς το παρόν, ο παίκτης έχει άπειρες ζωές. Μπορείτε να προσθέσετε `ζωές`{: class = "blockdata"}, `βαθμούς`{: class = "blockdata"}, ή ακόμα και `βαθμολογίες`{: class = "blockdata"} στο παιχνίδι σας;
+![blocks_1546522882_3185935](images/blocks_1546522882_3185935.png)
 
-[[[generic-scratch-high-score]]] \--- / πρόκληση \---
+\--- /task \---
