@@ -1,85 +1,117 @@
-## とべるスペースカバ
+## Space-hippos
 
-あなたのスペースシップを攻撃してくる、とべるスペースカバをたくさん作りましょう！
+Now you're going to add lots of flying hippos that try to destroy your spaceship.
 
-+ • スクラッチのライブラリの中の `カバ`のスプライト（Hippo1）をステージにたしてください。 **「縮小」**のツールで カバのスプライトを`スペースシップ`ぐらいの大きさまで縮めてください。
+\--- task \---
 
-![スクリーンショット](images/invaders-hippo.png)
+Create a new sprite with the 'Hippo1' image in the Scratch library. Use the **shrink** tool to make the `Hippo` sprite a similar size to the `Spaceship` sprite.
 
-+ `カバ`のスプライトの回転種類を左右だけに設定しましょう。
+![screenshot](images/invaders-hippo.png)
 
-[[[generic-scratch-sprite-rotation-style]]]
+\--- /task \---
 
-+ ゲームが始まったとき、 `カバ`のスプライトを隠したじょうたいにするコードを加えましょう。
+\--- task \---
 
-\--- hints \--- \--- hint \--- `いなずま`のスプライト（Lightning）を隠すために加えたコードと似たようなものです。 \--- /hint \--- \--- hint \--- 必要なコード：
+Set the `Hippo` sprite's rotation style to **left-right**.
 
-```blocks
-⚑ がクリックされたとき
-隠す
-```
+[[[generic-scratch3-sprite-rotation-style]]]
 
-\--- /hint \--- \--- /hints \---
+\--- /task \---
 
-+ 下のパネルでステージを選んでください。
+\--- task \---
 
-+ ステージが数秒ごとにゲームに新しいカバを追加するコードを加えましょう。
+Add some code to hide the `Hippo` sprite when the game starts.
 
-\--- hints \--- \--- hint \--- みどりのはたがクリックされたとき： くりかえし。。。
+![hippo sprite](images/hippo-sprite.png)
 
-+ 2〜4秒待つ
-+ カバのスプライトをクローンする
+![blocks_1546522869_3620155](images/blocks_1546522869_3620155.png) \--- /task \---
 
-\--- /hint \--- \--- hint \--- 必要なコードブロック：![カバのコピーヒント](images/clone-hippo-hint.png)
+\--- task \---
 
-\--- /hint \--- \--- hint \--- 必要なコード：
+Add some code to the Stage to create a new `Hippo` clone every few seconds.
 
-```blocks
-⚑ がクリックされたとき
-ずっと 
-  ((2) から (4) までの乱数) 秒待つ
-  [Hippo1 v] のクローンを作る
-end
-```
+\--- hints \---
 
-\--- /hint \--- \--- /hints \---
+\--- hint \---
 
-+ `カバ`のスプライトを選んでください。
+When the `green flag is clicked`{:class="block3events"}, `repeatedly`{:class="block3control"} `wait`{:class="block3control"} `between 2 and 4 seconds`{:class="block3operators"} and then `create a clone of the Hippo sprite`{:class="block3control"}.
 
-ランダムな位置に新しいカバを作りましょう。カバはランダムな速度で動くようにしてください。
+\--- /hint \---
 
-+ 新しい変数 `speed`{:class="blockdata"} を作りましょう。この変数はカバのスプライトの速度をあらわす変数です。
+\--- hint \---
 
-[[[generic-scratch-add-variable]]]
+Here are the blocks you need:
 
-以下のように変数が表示されていれば正しく作られています：
+![blocks_1546522870_9668188](images/blocks_1546522870_9668188.png)
 
-![スクリーンショット](images/invaders-var-test.png)
+\--- /hint \---
 
-+ クローンされたかばがランダムな位置に表示され、ランダムなスピードで動くようにしましょう。
+\--- hint \---
 
-```blocks
-クローンされたとき
-[スピード v] を ((2) から (4) までの乱数) にする
-x座標を ((-220) から (220) までの乱数) 、y座標を (150) にする
-表示する
-```
+This is what your code should look like:
 
-+ みどりのはたをクリックしてゲームを実行してください。新しいカバが数秒ごとにあらわれましたか？今のところカバは動かないじょうたいです。
+![stage sprite](images/stage-sprite.png)
 
-+ カバはいなづまに打たれるまで、ずっとランダムに動くよう設定してください。以下のコードを加えましょう。
+![blocks_1546522872_610604](images/blocks_1546522872_610604.png)
 
-```blocks
-<[lightning v] に触れた> まで繰り返す 
-  (スピード) 歩動かす
-  ↻ ((-10) から (10) までの乱数) 度回す
-  もし端に着いたら、跳ね返る
-end
-このクローンを削除する
-```
+\--- /hint \---
 
-+ ゲームを実行しましょう！数秒ごとに新しいカバが現れ、様々なスピードで動いてますか？
-    
-    ![スクリーンショット](images/hippo-clones.gif)
+\--- /hints \---
 
-+ いなづまをテストしましょう！カバに当たったらカバは消えますか？
+\--- /task \---
+
+Each new hippo clone should appear at a random `x` position, and every clone should have a random speed.
+
+\--- task \---
+
+Create a new variable called `speed`{:class="block3variables"} that is for the `Hippo` sprite only.
+
+[[[generic-scratch3-add-variable]]]
+
+When you've done this correctly, the variable has the name of the sprite next to it, like this:
+
+![screenshot](images/invaders-var-test.png)
+
+\--- /task \---
+
+\--- task \---
+
+When each `Hippo` clone starts, pick a random speed and starting place for it. Then show the clone on the screen.
+
+![blocks_1546522874_2438061](images/blocks_1546522874_2438061.png)
+
+\--- /task \---
+
+\--- task \---
+
+Test your code. Does a new hippo appear every few seconds?
+
+\--- /task \---
+
+At the moment the hippos don't move.
+
+\--- task \---
+
+Each hippo should move around randomly until it gets hit by a lightning bolt. To make that happen, attach this code below the blocks that are already in the `Hippo` sprite's code script:
+
+![blocks_1546522875_874299](images/blocks_1546522875_874299.png)
+
+\--- /task \---
+
+\--- task \---
+
+Test your code again. You should see a new hippo clone appear every few seconds, and each clone should move at a different speed.
+
+\--- no-print \---
+
+![screenshot](images/hippo-clones.gif)
+
+\--- /no-print \---
+
+\--- /task \---
+
+\--- task \---
+
+Now test the spaceship's laser cannon. If a lightning bolt hits a hippo, does the hippo vanish?
+
+\--- /task \---
