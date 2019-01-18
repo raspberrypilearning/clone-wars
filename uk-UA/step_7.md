@@ -1,61 +1,43 @@
-## Зникаючі бегемоти
+## Hippos that disappear
 
-Всі бегемоти повинні зникнути при ударі з космічним кораблем, щоб дати гравцю можливість відновити життя.
+When the spaceship explodes, all the hippos should disappear so that players of the game can recover.
 
-+ Додайте блок до коду, щоб `транслювати` повідомлення "удар", коли космічний корабель доторкнеться до бегемота.
+\--- task \---
 
-[[[generic-scratch-broadcast-message]]]
+Add code to the spaceship sprite to make it `broadcast`{:class="block3events"} the message "hit" when the `spaceship touches a hippo`{:class="block3sensing"}.
 
-\--- hints \--- \--- hint \--- Створіть `трансляцію` 'удар' блоку, перетягуючи блок з вкладки **Події** і потім натисніть на спадне меню та виберіть **нове повідомлення**. \--- /hint \--- \--- hint \--- Так повинен виглядати ваш блок:
+![rocket sprite](images/rocket-sprite.png)
 
-```blocks
-оповістити [удар v]
-```
+![blocks_1546522879_1027734](images/blocks_1546522879_1027734.png)
 
-\--- /hint \--- \--- hint \--- Так повинен виглядати ваш блок:
+\--- /task \---
 
-```blocks
-коли натиснуто ⚑
-змінити образ на [нормальнийv]
-чекати поки <touching [Hippo1 v]>
-змінити образ на [удар v]
-оповістити [удар v]
-```
+\--- task \---
 
-\--- /hint \--- \--- /hints \---
+All of the `Hippo` sprite clones will receive the "hit" message, and you can instruct them to disappear when the spaceship is hit by adding this code to the `Hippo` sprite:
 
-Всі клони спрайта `бегемот` почують це повідомлення, тому ви можете навчити їх зникати, коли вони вдаряються об космічний корабель.
+![hippo sprite](images/hippo-sprite.png)
 
-+ Додайте цей код до спрайту `Бегемот`:
+![blocks_1546522880_7433825](images/blocks_1546522880_7433825.png)
 
-```blocks
-коли я отримаю [удар v]
-вилучити цей клон
-```
+\--- /task \---
 
-+ Протестуйте цей код, запустивши нову гру, та навмисно зіткніться з бегемотом.
+\--- task \---
 
-![знімок екрану](images/invaders-hippo-collide.png)
+To check whether the new code works, click the green flag and make the spaceship collide with a hippo.
 
-Після того, як корабель вдарять, бегемоти почнуть з'являтися знову, але космічний корабель вибухне! Давайте зробимо можливим, щоб космічний корабель повернувся в початкове положення після удару.
+![screenshot](images/invaders-hippo-collide.png)
 
-+ Додайте блок ` завжди ` {: class = "blockcontrol"} навколо всього вашого коду, щоб процес повторювався, та блок ` чекати ` {: class = "blockcontrol"} в кінці, щоб додати невелику паузу, перш ніж бегемоти з'являться знову.
+\--- /task \---
 
-```blocks
-коли натиснуто ⚑
-завжди 
-  змінити образ на [нормальний v]
-  чекати поки <touching [Hippo1 v]>
-  змінити образ на [удар v]
-  оповістити [удар v]
-  чекати (1) секунд
-end
-```
+After the spaceship explodes, new `Hippo` clones appear, but the spaceship is still exploded! The spaceship needs to reset itself after being hit.
 
-\--- challenge \---
+\--- task \---
 
-### Challenge: життя і рахунок
+Add a `wait`{:class="block3control"} block at the end of the `Spaceship` sprite's code to create a small pause before hippos begin appearing again. Then add a `forever`{:class="block3control"} block around all of your code to make the code run repeatedly.
 
-На даний момент гравець має нескінченне життя. Чи можете ви додати `Життя`:class="blockdata"}, `рахунок`{:class="blockdata"}, чи навіть `рекорд` {:class="blockdata"} до вашої гри?
+![rocket sprite](images/rocket-sprite.png)
 
-[[[generic-scratch-high-score]]] \--- /challenge \---
+![blocks_1546522882_3185935](images/blocks_1546522882_3185935.png)
+
+\--- /task \---
