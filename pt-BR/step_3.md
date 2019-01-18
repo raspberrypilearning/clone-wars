@@ -1,10 +1,10 @@
-## Lightning bolts
+## Raios elétricos
 
 Now you are going to give the spaceship the ability to fire lightning bolts!
 
 \--- task \---
 
-Add the `Lightning` sprite from the Scratch library.
+Adicione o ator `Lightning` da biblioteca Scratch.
 
 [[[generic-scratch3-sprite-from-library]]]
 
@@ -40,7 +40,7 @@ Now it looks like it fires pointy end–first out of the spaceship.
 
 Add some new code to the `Spaceship` sprite to create a new clone of the lightning bolt if the <kbd>space</kbd> key is pressed.
 
-\--- hints \---
+\--- dica \---
 
 \--- hint \---
 
