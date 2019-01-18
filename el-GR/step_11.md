@@ -1,17 +1,17 @@
-## Challenge: improve your game
+## Πρόκληση: βελτίωσε το παιχνίδι σου
 
-What improvements can you make to your game?
+Τι βελτιώσεις μπορείς να κάνεις στο παιχνίδι σου;
 
-Here are some ideas:
+Ακολουθούν μερικές ιδέες:
 
-+ Add health packs that you can collect to gain extra lives.
++ Πρόσθεσε πακέτα ζωής που μπορείς να συλλέξεις για να κερδίσεις επιπλέον ζωές.
 
 ![screenshot](images/invaders-aid.png)
 
-+ Add floating rocks that your spaceship must avoid.
++ Πρόσθεσε αιωρούμενους βράχους που το διαστημόπλοιο σου πρέπει να αποφύγει.
 
 ![screenshot](images/invaders-rocks.png)
 
-+ Make more enemies appear when your score gets to `100`.
++ Δημιούργησε περισσότερους εχθρούς όταν το σκορ σου φτάσει στα `100`.
 
 ![blocks_1546522852_9177506](images/blocks_1546522852_9177506.png)
