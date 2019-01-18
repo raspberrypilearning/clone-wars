@@ -6,14 +6,14 @@ copyedit: true
 title: La guerre des clones
 description: Crée un jeu dans lequel tu dois sauver la Terre des monstres de l'espace
 version: 4
-last_tested: 2017-01-01
+last_tested: 10/11/2018
 steps:
   - 
     title: Introduction
   - 
-    title: Fabrication d'un vaisseau spatial
+    title: Créer un vaisseau spatial
   - 
-    title: Coup de tonnerre
+    title: éclairs
   - 
     title: 'Hippopotames spatiaux'
     challenge: true
@@ -24,14 +24,14 @@ steps:
   - 
     title: 'Défi : Améliorez votre jeu'
   - 
-    title: 'Challenge: lives and score'
+    title: 'Défi: vie et score'
     challenge: true
   - 
     title: Space-bat
   - 
-    title: Game over
+    title: Game Over
   - 
-    title: 'Challenge: improve your game'
+    title: 'Défi : Améliorez votre jeu'
     challenge: true
   - 
-    title: What next?
+    title: Que faire ensuite?
