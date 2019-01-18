@@ -1,4 +1,4 @@
-## Space-hippos
+## أفراس فضاء طائرة
 
 Now you're going to add lots of flying hippos that try to destroy your spaceship.
 
@@ -6,9 +6,9 @@ Now you're going to add lots of flying hippos that try to destroy your spaceship
 
 Create a new sprite with the 'Hippo1' image in the Scratch library. Use the **shrink** tool to make the `Hippo` sprite a similar size to the `Spaceship` sprite.
 
-![screenshot](images/invaders-hippo.png)
+![لقطة الشاشة](images/invaders-hippo.png)
 
-\--- /task \---
+\---/task--
 
 \--- task \---
 
@@ -20,11 +20,11 @@ Set the `Hippo` sprite's rotation style to **left-right**.
 
 \--- task \---
 
-Add some code to hide the `Hippo` sprite when the game starts.
+أضف بعض التعليمات البرمجية لإخفاء الكائن `Hippo` عندما تبدأ اللعبة.
 
 ![hippo sprite](images/hippo-sprite.png)
 
-![blocks_1546522869_3620155](images/blocks_1546522869_3620155.png) \--- /task \---
+![blocks_1546522869_3620155](images/blocks_1546522869_3620155.png) \---/task\---
 
 \--- task \---
 
@@ -36,7 +36,7 @@ Add some code to the Stage to create a new `Hippo` clone every few seconds.
 
 When the `green flag is clicked`{:class="block3events"}, `repeatedly`{:class="block3control"} `wait`{:class="block3control"} `between 2 and 4 seconds`{:class="block3operators"} and then `create a clone of the Hippo sprite`{:class="block3control"}.
 
-\--- /hint \---
+\--- hint/ \---
 
 \--- hint \---
 
@@ -44,7 +44,7 @@ Here are the blocks you need:
 
 ![blocks_1546522870_9668188](images/blocks_1546522870_9668188.png)
 
-\--- /hint \---
+\--- hint/ \---
 
 \--- hint \---
 
@@ -54,9 +54,9 @@ This is what your code should look like:
 
 ![blocks_1546522872_610604](images/blocks_1546522872_610604.png)
 
-\--- /hint \---
+\--- hint/ \---
 
-\--- /hints \---
+\--- hints/ \---
 
 \--- /task \---
 
@@ -70,7 +70,7 @@ Create a new variable called `speed`{:class="block3variables"} that is for the `
 
 When you've done this correctly, the variable has the name of the sprite next to it, like this:
 
-![screenshot](images/invaders-var-test.png)
+![لقطة الشاشة](images/invaders-var-test.png)
 
 \--- /task \---
 
@@ -104,7 +104,7 @@ Test your code again. You should see a new hippo clone appear every few seconds,
 
 \--- no-print \---
 
-![screenshot](images/hippo-clones.gif)
+![لقطة الشاشة](images/hippo-clones.gif)
 
 \--- /no-print \---
 
