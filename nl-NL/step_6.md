@@ -1,4 +1,4 @@
-## Spaceship explosion
+## Exploderend ruimteschip
 
 When a hippo touches your spaceship, the spaceship should explode!
 
@@ -8,7 +8,7 @@ Select the `Spaceship` sprite and rename its costume 'normal'.
 
 \--- /task \---
 
-\--- task \---
+\--- task \----
 
 Draw another costume of an exploding spaceship, and call the new costume 'hit'.
 
@@ -20,7 +20,7 @@ If you don't want to draw the explosion, you can select the 'Sun' costume from t
 
 \--- /task \---
 
-\--- task \---
+\--- task \----
 
 Add some code to your `Spaceship` sprite so that it displays the 'normal' costume when the game starts, and switches to the 'hit' costume when it touches a hippo:
 
@@ -30,7 +30,7 @@ Add some code to your `Spaceship` sprite so that it displays the 'normal' costum
 
 \--- /task \---
 
-\--- task \---
+\--- taak \---
 
 Test your code. Make the spaceship collide with a hippo. Does the spaceship change to the 'hit' costume?
 
