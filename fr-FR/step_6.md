@@ -1,24 +1,37 @@
-## L'explosion du vaisseau
+## Spaceship explosion
 
-Quand un hippopotame touche votre vaisseau spatial, il devrait exploser !
+When a hippo touches your spaceship, the spaceship should explode!
 
-+ Sélectionnez le lutin `vaisseau spatial` et renommez le costume « normal ».
+\--- task \---
 
-+ Dessinez un autre costume pour le vaisseau spatial qui explose et appelez-le «touché».
+Select the `Spaceship` sprite and rename its costume 'normal'.
 
-![capture d'écran](images/invaders-spaceship-costumes.png)
+\--- /task \---
 
-Ou, si vous ne voulez pas attirer l’explosion, vous pourriez choisir le costume du « Sun » de la bibliothèque de Scratch et utiliser ** l’outil de couleur** pour changer sa couleur et enlever le visage.
+\--- task \---
 
-![capture d'écran](images/invaders-sun.png)
+Draw another costume of an exploding spaceship, and call the new costume 'hit'.
 
-+ Ajoutez du code à votre ` Spaceship ` sprite pour qu'il commence par afficher le costume normal, mais quand il touche un hippopotame volant, il passe au costume "touché":
+![screenshot](images/invaders-spaceship-costumes.png)
 
-```blocks
-lorsque le drapeau vert est cliqué 
-changez de costume pour [normal v]
-attendez jusqu'à <touching [Hippo1 v]>?
-changer de costume pour [touché v]
-```
+If you don't want to draw the explosion, you can select the 'Sun' costume from the Scratch library, and then use the **Color a shape** tool to change the costume's colour and face.
 
-+ Testez votre code en jouant le jeu et entrer en collision avec un hippopotame. Est-ce que le vaisseau spatial change pour le costume « frappé » ?
+![screenshot](images/invaders-sun.png)
+
+\--- /task \---
+
+\--- task \---
+
+Add some code to your `Spaceship` sprite so that it displays the 'normal' costume when the game starts, and switches to the 'hit' costume when it touches a hippo:
+
+![rocket sprite](images/rocket-sprite.png)
+
+![blocks_1546522877_4694302](images/blocks_1546522877_4694302.png)
+
+\--- /task \---
+
+\--- task \---
+
+Test your code. Make the spaceship collide with a hippo. Does the spaceship change to the 'hit' costume?
+
+\--- /task \---
