@@ -1,8 +1,8 @@
-## Hippos that disappear
+## Verdwijnende nijlpaarden
 
 When the spaceship explodes, all the hippos should disappear so that players of the game can recover.
 
-\--- task \---
+\--- task \----
 
 Add code to the spaceship sprite to make it `broadcast`{:class="block3events"} the message "hit" when the `spaceship touches a hippo`{:class="block3sensing"}.
 
@@ -22,7 +22,7 @@ All of the `Hippo` sprite clones will receive the "hit" message, and you can ins
 
 \--- /task \---
 
-\--- task \---
+\--- task \----
 
 To check whether the new code works, click the green flag and make the spaceship collide with a hippo.
 
@@ -32,7 +32,7 @@ To check whether the new code works, click the green flag and make the spaceship
 
 After the spaceship explodes, new `Hippo` clones appear, but the spaceship is still exploded! The spaceship needs to reset itself after being hit.
 
-\--- task \---
+\--- task \----
 
 Add a `wait`{:class="block3control"} block at the end of the `Spaceship` sprite's code to create a small pause before hippos begin appearing again. Then add a `forever`{:class="block3control"} block around all of your code to make the code run repeatedly.
 
