@@ -24,31 +24,31 @@ Remember to test your code.
 
 If you look at the bat's costumes, you can see that it has four different ones:
 
-![screenshot](images/invaders-bat-costume.png)
+![zrzut ekranu](images/invaders-bat-costume.png)
 
 \--- task \---
 
 Use the `next costume`{:class="block3looks"} block to make the bat flap its wings as it moves.
 
-\--- hints \---
+\--- wskazówka \---
 
 \--- hint \---
 
 After the bat has moved, it should show the `next costume`{:class="block3looks"} and then `wait`{:class="block3control"} for a short time.
 
-\--- /hint \---
+\--- /wskazówka \---
 
 \--- hint \---
 
 You need to add these blocks to you code:
 
-![blocks_1546522885_6359174](images/blocks_1546522885_6359174.png) \--- /hint \---
+![blocks_1546522885_6359174](images/blocks_1546522885_6359174.png) \--- /wskazówka \---
 
 \--- hint \--- You code should look like this:
 
-![blocks_1546522887_2722294](images/blocks_1546522887_2722294.png) \--- /hint \---
+![blocks_1546522887_2722294](images/blocks_1546522887_2722294.png) \--- /wskazówka \---
 
-\--- /hints \---
+\--- /wskazówka \---
 
 \--- /task \---
 
@@ -58,7 +58,7 @@ Now make the bat throw oranges!
 
 Add an `Orange` sprite from the Scratch library.
 
-![screenshot](images/invaders-orange.png)
+![zrzut ekranu](images/invaders-orange.png)
 
 \--- /task \---
 
