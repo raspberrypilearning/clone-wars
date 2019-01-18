@@ -1,31 +1,109 @@
-## Game Over
+## Space-bat
 
-Ajoutons un message 'game over' à la fin du jeu.
+To make your game a bit harder, you are going to create a bat that throws oranges at the spaceship.
 
-+ Si vous ne l'avez pas déjà fait, créez une nouvelle variable appelée ` vies ` {: class = "blockdata"}.
+![a bat throwing an orange at the spaceship](images/bat-oranges.png)
 
-Votre vaisseau spatial devrait commencer avec trois vies et perdre une vie chaque fois qu'il touche un hippopotame ou une orange. Votre jeu devrait également s'arrêter lorsque vous n'avez plus de vie. Si vous avez besoin d'aide, vous pouvez utiliser le projet [ Catch the dots ](https://codeclubprojects.org/en-GB/scratch/catch-the-dots/) pour vous aider.
+\--- task \---
 
-+ Dessine un nouveau sprite appelé ` Game Over ` en utilisant le texte ** ** outil.
+Add a `Bat` sprite and set its rotation style to **left–right**.
 
-![capture d'écran](images/invaders-game-over.png)
+\--- /task \---
 
-+ Sur votre scène, diffuser un message ` game over ` {: class = "blockevents"} juste avant la fin de la partie.
+\--- task \---
 
-```blocks
-diffusion [game over v] et attendez
-```
+Make the `Bat` sprite `move`{:class="block3motion"} from left to right at the top of the Stage `forever`{:class="block3control"}.
 
-+ Ajoutez ce code à votre lutin `Game Over`, jusqu'à ce que le message indique à la fin du jeu :
+![bat sprite](images/bat-sprite.png)
 
-```blocks
-quand le drapeau cliqué
-cacher
+![blocks_1546522883_9902587](images/blocks_1546522883_9902587.png)
 
-quand je reçois [game over v]
-montrer
-```
+Remember to test your code.
 
-Parce que vous avez utilisé un bloc `diffuser [game over] et attendre` { : class = « blockevents »} sur votre scène, le lutin `Game Over` attendra après avoir été afficher avant de terminer le jeu.
+\--- /task \---
 
-+ Testez votre jeu. Combien de points pouvez-vous marquer? Si c'est trop facile ou trop difficile, pouvez-vous trouver des moyens d'améliorer votre jeu?
+If you look at the bat's costumes, you can see that it has four different ones:
+
+![screenshot](images/invaders-bat-costume.png)
+
+\--- task \---
+
+Use the `next costume`{:class="block3looks"} block to make the bat flap its wings as it moves.
+
+\--- hints \---
+
+\--- hint \---
+
+After the bat has moved, it should show the `next costume`{:class="block3looks"} and then `wait`{:class="block3control"} for a short time.
+
+\--- /hint \---
+
+\--- hint \---
+
+You need to add these blocks to you code:
+
+![blocks_1546522885_6359174](images/blocks_1546522885_6359174.png) \--- /hint \---
+
+\--- hint \--- You code should look like this:
+
+![blocks_1546522887_2722294](images/blocks_1546522887_2722294.png) \--- /hint \---
+
+\--- /hints \---
+
+\--- /task \---
+
+Now make the bat throw oranges!
+
+\--- task \---
+
+Add an `Orange` sprite from the Scratch library.
+
+![screenshot](images/invaders-orange.png)
+
+\--- /task \---
+
+\--- task \---
+
+Add code to your bat so that `when the flag is clicked`{:class="block3events"}, the `Bat` sprite `forever`{:class="block3control"} `waits`{:class="block3control"} for a `random`{:class="block3operators"} length of time between `5 to 10`{:class="block3operators"} seconds and then `creates a clone`{:class="block3control"} of the `Orange` sprite.
+
+![bat sprite](images/bat-sprite.png)
+
+![blocks_1546522888_8938003](images/blocks_1546522888_8938003.png)
+
+\--- /task \---
+
+\--- task \---
+
+Add code to the `Orange` to make each of its clone drop, starting from the `Bat` sprite and falling towards the bottom of the Stage.
+
+![orange sprite](images/orange-sprite.png)
+
+![blocks_1546522890_544698](images/blocks_1546522890_544698.png)
+
+\--- /task \---
+
+\--- task \---
+
+Add some more code to the `Orange` sprite so that when an `Orange` clone hits the `Spaceship` sprite, the clone also disappears to give the player a chance to reset:
+
+![orange sprite](images/orange-sprite.png)
+
+![blocks_1546522892_2124374](images/blocks_1546522892_2124374.png)
+
+\--- /task \---
+
+\--- task \---
+
+Modify the code of your `Spaceship` sprite so that the sprite is "hit" when it touches a `Hippo` sprite or an `Orange` sprite:
+
+![rocket sprite](images/rocket-sprite.png)
+
+![blocks_1546522893_821553](images/blocks_1546522893_821553.png)
+
+\--- /task \---
+
+\--- task \---
+
+Test your game. What happens if the spaceship gets hit by a falling orange?
+
+\--- /task \---
