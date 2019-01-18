@@ -11,9 +11,9 @@ steps:
   - 
     title: Вступ
   - 
-    title: Make a spaceship
+    title: Зробіть космічний корабель
   - 
-    title: Lightning bolts
+    title: Блискавка
   - 
     title: 'Challenge: improve the lightning'
     challenge: true
@@ -24,14 +24,14 @@ steps:
   - 
     title: Hippos that disappear
   - 
-    title: 'Challenge: lives and score'
+    title: 'Challenge: життя і рахунок'
     challenge: true
   - 
     title: Space-bat
   - 
-    title: Game over
+    title: Кінець гри
   - 
-    title: 'Challenge: improve your game'
+    title: 'Завдання: вдоскональте свою гру'
     challenge: true
   - 
     title: What next?
