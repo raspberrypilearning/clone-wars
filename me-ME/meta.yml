@@ -5,15 +5,15 @@ listed: true
 copyedit: true
 title: Ratovi klonova
 description: Napravi igru u kojoj treba da spasiš Zemlju od svemirskih čudovišta
-version: 4
-last_tested: 2017-01-01
+version: 4.1.0
+last_tested: 2018-10-11
 steps:
   - 
     title: Uvod
   - 
-    title: Šta će ti biti potrebno
-  - 
     title: Izrada svemirskog broda
+  - 
+    title: Munje
   - 
     title: 'Munje'
     challenge: true
@@ -24,14 +24,14 @@ steps:
   - 
     title: Nilski konji koji nestaju
   - 
-    title: 'Slijepi miš sa voćem'
+    title: 'Izazov: životi i rezultat'
     challenge: true
   - 
     title: Kraj igre
   - 
-    title: 'Izazov: poboljšaj svoju igru'
+    title: Kraj igre
   - 
-    title: 'Challenge: improve your game'
+    title: 'Izazov: poboljšaj svoju igru'
     challenge: true
   - 
     title: What next?
