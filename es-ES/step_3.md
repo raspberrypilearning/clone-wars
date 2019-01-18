@@ -1,54 +1,89 @@
-## Haz una nave espacial
+## Lightning bolts
 
-¡Hagamos una nave espacial que defenderá la Tierra!
+Now you are going to give the spaceship the ability to fire lightning bolts!
 
-+ Comienza un nuevo proyecto de Scratch y elimina el sprite de gato.
+\--- task \---
 
-[[[generic-scratch-new-project]]]
+Add the `Lightning` sprite from the Scratch library.
 
-+ Añade el fondo de `estrellas` y el sprite de la `nave espacial` a tu proyecto.
-    
-    ![screenshot](images/invaders-sprites.png)
+[[[generic-scratch3-sprite-from-library]]]
 
-[[[generic-scratch-backdrop-from-library]]]
+\--- /task \---
 
-[[[generic-scratch-sprite-from-library]]]
+\--- task \---
 
-+ Usa la herramienta **shrink** para hacer tu sprite `nave espacial` un poco más pequeño y colocalo en la parte inferior de la pantalla.
+When the game starts, the `Lightning` sprite should be hidden until the spaceship fires its laser cannons.
 
-+ Cuando se presiona la tecla de dirección **izquierda**, lave espacial debería moverse hacia la izquierda. Añade este código para hacer que tu nave espacial se mueva hacia la izquierda cuando se presiona la tecla de dirección **izquierda**:
+Add this code to the `Lightning` sprite:
 
-```blocks
-    when flag clicked
-    forever
-        if <key [left arrow v] pressed?> then
-            change x by (-4)
-        end
-    end
-```
+![lightning sprite](images/lightning-sprite.png)
 
-El eje x va de izquierda a derecha en el escenario, así que si reduces la posición x de la nave espacial restando de ella, se moverá más hacia la izquierda. Este código es la parte que hace que tu nave espacial se mueva hacia la izquierda:
+![blocks_1546522861_1148694](images/blocks_1546522861_1148694.png)
 
-```blocks
-cambia x por (-4)
-```
+\--- /task \---
 
-+ Añade un poco más de código dentro del bloque `forever`{:class="blockcontrol"} para hacer que tu nave espacial se mueva hacia la derecha cuando se presiona la tecla de dirección **derecha**.
+At the moment, the lightning bolt is really big compared to the spaceship!
 
-\--- hints \--- \--- hint \--- Si restando `4` de la posición de la nave espacial hizo que se moviera hacia la izquierda, ¿cómo puedes hacer que se mueva a la derecha por `4`? \--- /hint \--- \--- hint \--- Necesitarás usar el mismo bloque, pero con un número diferente:
+\--- task \---
 
-```blocks
-cambia x por ( )
-```
+Below the code that the `Lightning` sprite already has, add some blocks to make the sprite smaller and to turn it upside down.
 
-\--- /hint \--- \--- hint \--- Aquí está el código que debes añadir debajo el otro código dentro de tu bloque `forever`{:class="blockcontrol"}:
+![lightning sprite](images/lightning-sprite.png)
 
-```blocks
-si <key [right arrow v] pressed?> luego
-    cambia x por (4)
-final
-```
+![blocks_1546522862_7402277](images/blocks_1546522862_7402277.png)
 
-\--- /hint \--- \--- /hints \---
+Now it looks like it fires pointy end–first out of the spaceship.
 
-+ Prueba tu proyecto haciendo clic en la bandera verde. ¿Puedes hacer que tu nave se mueva a la izquierda y la derecha con las teclas de dirección?
+\--- /task \---
+
+\--- task \---
+
+Add some new code to the `Spaceship` sprite to create a new clone of the lightning bolt if the <kbd>space</kbd> key is pressed.
+
+\--- hints \---
+
+\--- hint \---
+
+`When the green flag is clicked`{:class="block3events"}, keep checking `forever`{:class="block3control"} `if`{:class="block3control"} the `space key is pressed`{:class="block3sensing"}, and in that case `create a clone of the Lightning`{:class="block3control"} sprite.
+
+\--- /hint \---
+
+\--- hint \---
+
+Here are the blocks you need:
+
+![blocks_1546522864_3579764](images/blocks_1546522864_3579764.png)
+
+\--- /hint \---
+
+\--- hint \---
+
+Here is what your new code should look like:
+
+![rocket sprite](images/rocket-sprite.png)
+
+![blocks_1546522866_0371468](images/blocks_1546522866_0371468.png)
+
+\--- /hint \---
+
+\--- /hints \---
+
+\--- /task \---
+
+\--- task \---
+
+Whenever the game creates a `Lightning` sprite clone, the clone should appear and then move upwards until it reaches the top of the Stage. Then the clone should disappear.
+
+Add this code to the `Lightning` sprite so that clones of it move upwards until they touch the edge of the Stage, and then they get deleted.
+
+![lightning sprite](images/lightning-sprite.png)
+
+![blocks_1546522867_7058573](images/blocks_1546522867_7058573.png)
+
+\--- /task \---
+
+\--- task \---
+
+Press the <kbd>space</kbd> key to test whether the lightning bolt moves correctly.
+
+\--- /task \---
