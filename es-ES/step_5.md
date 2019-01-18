@@ -1,4 +1,4 @@
-## Space-hippos
+## ¡Murciélagos de la fruta!
 
 Now you're going to add lots of flying hippos that try to destroy your spaceship.
 
@@ -6,7 +6,7 @@ Now you're going to add lots of flying hippos that try to destroy your spaceship
 
 Create a new sprite with the 'Hippo1' image in the Scratch library. Use the **shrink** tool to make the `Hippo` sprite a similar size to the `Spaceship` sprite.
 
-![screenshot](images/invaders-hippo.png)
+![captura de pantalla](images/invaders-hippo.png)
 
 \--- /task \---
 
@@ -20,7 +20,7 @@ Set the `Hippo` sprite's rotation style to **left-right**.
 
 \--- task \---
 
-Add some code to hide the `Hippo` sprite when the game starts.
+Agregue un código para ocultar el sprite `hippo` cuando comienza el juego.
 
 ![hippo sprite](images/hippo-sprite.png)
 
@@ -30,7 +30,7 @@ Add some code to hide the `Hippo` sprite when the game starts.
 
 Add some code to the Stage to create a new `Hippo` clone every few seconds.
 
-\--- hints \---
+\--- consejos \---
 
 \--- hint \---
 
@@ -104,7 +104,7 @@ Test your code again. You should see a new hippo clone appear every few seconds,
 
 \--- no-print \---
 
-![screenshot](images/hippo-clones.gif)
+![captura de pantalla](images/hippo-clones.gif)
 
 \--- /no-print \---
 
