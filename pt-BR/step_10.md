@@ -1,4 +1,4 @@
-## Game over
+## Fim do jogo
 
 Next, you're going to add a 'game over' message at the end of the game.
 
