@@ -1,61 +1,43 @@
-## Hippopotames disparus
+## Hippos that disappear
 
-Lorsque le vaisseau spatial est touché, tous les hippopotames doivent disparaître pour permettre au joueur de récupérer.
+When the spaceship explodes, all the hippos should disappear so that players of the game can recover.
 
-+ Ajouter un bloc à votre code pour `diffuser` le message «touché » lorsque le vaisseau spatial entre en contact avec un hippopotame.
+\--- task \---
 
-[[[generic-scratch-broadcast-message]]]
+Add code to the spaceship sprite to make it `broadcast`{:class="block3events"} the message "hit" when the `spaceship touches a hippo`{:class="block3sensing"}.
 
-\--- hints \--- \--- hint \--- Créer une diffusion ` ` "touché" en faisant glisser le bloc des ** événements ** puis en cliquant sur le menu déroulant et en sélectionnant ** nouveau message ** . \---/hint\--- \---hint\--- Voici a quoi devrait ressembler votre bloc
+![rocket sprite](images/rocket-sprite.png)
 
-```blocks
-diffuser [touché v]
-```
+![blocks_1546522879_1027734](images/blocks_1546522879_1027734.png)
 
-\---/hint\--- \---hint\--- Voici a quoi devrait ressembler votre bloc
+\--- /task \---
 
-```blocks
-lorsque le drapeau vert est cliqué 
-changez de costume pour [normal v]
-attendez jusqu'à <touché par [Hippo]>?
-changer de costume pour [touché v]
-diffuser [touché v]
-```
+\--- task \---
 
-\--- /hint \--- \--- /hints \---
+All of the `Hippo` sprite clones will receive the "hit" message, and you can instruct them to disappear when the spaceship is hit by adding this code to the `Hippo` sprite:
 
-Tous les clones ` Hippo ` entendront ce message, vous pouvez donc leur demander de disparaître lorsque le vaisseau spatial est touché.
+![hippo sprite](images/hippo-sprite.png)
 
-+ Ajoutez ce code au lutin ` Hippo ` :
+![blocks_1546522880_7433825](images/blocks_1546522880_7433825.png)
 
-```blocks
-quand je reçois [touché v]
-effacer ce clone
-```
+\--- /task \---
 
-+ Testez ce code en commençant un nouveau jeu et en entrant en collision avec un hippopotame.
+\--- task \---
 
-![capture d'écran](images/invaders-hippo-collide.png)
+To check whether the new code works, click the green flag and make the spaceship collide with a hippo.
 
-Après avoir été touché, les hippopotames commencent à réapparaître mais le vaisseau spatial a encore explosé! Permettons au vaisseau spatial de se réinitialiser après avoir été touché.
+![screenshot](images/invaders-hippo-collide.png)
 
-+ Ajouter une boucle ` indéfiniment ` {: class = "blockcontrol"} autour de tout votre code pour que le processus se répète, et un `attendre` {: class = "blockcontrol"} à la fin pour ajouter une petite pause avant que les hippopotames ne réapparaissent.
+\--- /task \---
 
-```blocks
-lorsque le drapeau vert est cliqué
-répéter indéfiniment  
-   changez de costume pour [normal v]
-   attendez jusqu'à <touché par [Hippo]>?
-   changer de costume pour [touché v]
-   diffuser [touché v]
-   attendre (1) secondes
-terminer
-```
+After the spaceship explodes, new `Hippo` clones appear, but the spaceship is still exploded! The spaceship needs to reset itself after being hit.
 
-\--- challenge \---
+\--- task \---
 
-### Défi: vie et score
+Add a `wait`{:class="block3control"} block at the end of the `Spaceship` sprite's code to create a small pause before hippos begin appearing again. Then add a `forever`{:class="block3control"} block around all of your code to make the code run repeatedly.
 
-Pour le moment, le joueur a des vies illimitées. Pouvez-vous ajouter des variables ` vies ` {: class = "blockdata"}, ` score ` {: class = "blockdata"}, ou même ` meilleur score ` {: class = "blockdata"} à votre jeu?
+![rocket sprite](images/rocket-sprite.png)
 
-[[[generic-scratch-high-score]]] \--- / challenge \---
+![blocks_1546522882_3185935](images/blocks_1546522882_3185935.png)
+
+\--- /task \---
