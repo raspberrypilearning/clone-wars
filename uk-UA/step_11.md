@@ -1,17 +1,17 @@
-## Challenge: improve your game
+## Завдання: вдоскональте свою гру
 
-What improvements can you make to your game?
+Які удосконалення ви можете зробити у вашій грі?
 
-Here are some ideas:
+Ось деякі ідеї:
 
-+ Add health packs that you can collect to gain extra lives.
++ Додайте пакети здоров'я, які ви можете збирати для отримання додаткових життів.
 
-![screenshot](images/invaders-aid.png)
+![знімок екрану](images/invaders-aid.png)
 
-+ Add floating rocks that your spaceship must avoid.
++ Додайте метеорити, які ваш корабель повинен уникати.
 
-![screenshot](images/invaders-rocks.png)
+![скріншот](images/invaders-rocks.png)
 
-+ Make more enemies appear when your score gets to `100`.
++ Зробіть більше ворогів, які з'являються, коли ваш рахунок досягне `100`.
 
 ![blocks_1546522852_9177506](images/blocks_1546522852_9177506.png)
