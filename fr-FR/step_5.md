@@ -1,87 +1,117 @@
-## Hippopotames spatial volant
+## Space-hippos
 
-Ajoutons beaucoup d'hippopotames volants qui essaieront de détruire votre vaisseau spatial.
+Now you're going to add lots of flying hippos that try to destroy your spaceship.
 
-+ Créez un nouveau lutin avec l'image ` Hippo1 ` de la bibliothèque Scratch. Utilisez l'outil **rétrécir** pour faire que le lutin ` Hippo ` ait une taille similaire au lutin ` Spaceship `.
+\--- task \---
 
-![capture d'écran](images/invaders-hippo.png)
+Create a new sprite with the 'Hippo1' image in the Scratch library. Use the **shrink** tool to make the `Hippo` sprite a similar size to the `Spaceship` sprite.
 
-+ Définir le style de rotation de `l’hippopotame` dans le sens horaire seulement.
+![screenshot](images/invaders-hippo.png)
 
-[[[generic-scratch-sprite-rotation-style]]]
+\--- /task \---
 
-+ Ajoutez du code pour cacher le lutin `Hippo` quand le jeu commence.
+\--- task \---
 
-\--- hints \--- \--- hint \--- Le code pour ceci est exactement le même que le code que vous avez utilisé pour cacher le ` lutin eclair ` lorsque le jeu commence \--- / hint \--- \--- hint \--- Voici le code dont vous aurez besoin:
+Set the `Hippo` sprite's rotation style to **left-right**.
 
-```blocks
-Quand le drapeau vert est cliqué
-cacher
+[[[generic-scratch3-sprite-rotation-style]]]
 
-```
+\--- /task \---
 
-\--- /hint \--- \--- /hints \---
+\--- task \---
 
-+ Passez à la scène en cliquant dessus dans le panneau inférieur.
+Add some code to hide the `Hippo` sprite when the game starts.
 
-+ Ajoutez du code à la scène pour créer un nouvel hippopotame toutes les secondes.
+![hippo sprite](images/hippo-sprite.png)
 
-\--- hints \--- \--- hint \--- Quand le drapeau vert est cliqué : Répéter 
+![blocks_1546522869_3620155](images/blocks_1546522869_3620155.png) \--- /task \---
 
-+ Attendez entre 2 et 4 secondes
-+ Créer un clone du lutin hippopotame
+\--- task \---
 
-\--- / hint \--- \--- hint \--- Voici le code dont vous aurez besoin:![astuce clone de l'hippo](images/clone-hippo-hint.png)
+Add some code to the Stage to create a new `Hippo` clone every few seconds.
 
-\--- / hint \--- \--- indice \--- Voici le code dont vous aurez besoin:
+\--- hints \---
 
-```blocks
-Quand le drapeau vert est cliqué
-répéter indéfiniment
-   attendre (choisir aléatoirement entre (2) et (4)) secondes
-   créer un clone de [Hippo1 v]
-terminer
+\--- hint \---
 
-```
+When the `green flag is clicked`{:class="block3events"}, `repeatedly`{:class="block3control"} `wait`{:class="block3control"} `between 2 and 4 seconds`{:class="block3operators"} and then `create a clone of the Hippo sprite`{:class="block3control"}.
 
-\--- /hint \--- \--- /hints \---
+\--- /hint \---
 
-+ Revenez au lutin ` Hippo ` .
+\--- hint \---
 
-Chaque nouvel hippopotame doit apparaître à une position x aléatoire et chacun doit avoir une vitesse aléatoire.
+Here are the blocks you need:
 
-+ Créer une nouvelle variable appelée ` vitesse ` {: class = "blockdata"} pour le lutin ` hippo` uniquement.
+![blocks_1546522870_9668188](images/blocks_1546522870_9668188.png)
 
-[[[generic-scratch-add-variable]]]
+\--- /hint \---
 
-Vous saurez que vous avez fait cela correctement lorsque vous pouvez voir que la variable porte le nom du lutin à côté de lui, comme ceci :
+\--- hint \---
 
-![capture d'écran](images/invaders-var-test.png)
+This is what your code should look like:
 
-+ Au démarrage de chaque clone de hippo, choisissez une vitesse aléatoire et le lieu de départ avant de le montrer sur l’écran.
+![stage sprite](images/stage-sprite.png)
 
-```blocks
-quand je commence comme un ensemble de
-clone [vitesse v] (choisir au hasard 2 à 4)
-aller à x: (sélection aléatoirement entre -(220) et (220)) y: (150)
-montrer
-```
+![blocks_1546522872_610604](images/blocks_1546522872_610604.png)
 
-+ Testez votre code en cliquant sur le drapeau vert. Un nouvel hippopotame apparaît-il toutes les quelques secondes? Pour le moment vos hippopotames ne bougeront pas.
+\--- /hint \---
 
-+ L’hippopotame devrait se déplacer au hasard jusqu'à ce qu’il se fasse frapper par un éclair. Pour ce faire, fixez ce code sous les blocs que vous venez d’ajouter :
+\--- /hints \---
 
-```blocks
-repeat until <touching [lightning v] ?>
-    move (speed) steps
-    turn right (pick random (-10) to (10)) degrees
-    if on edge, bounce
-end
-delete this clone
-```
+\--- /task \---
 
-+ Testez le code de votre hippo. Vous devriez voir un nouveau clone apparaître toutes les secondes, chacun se déplaçant à sa propre vitesse.
-    
-    ![capture d'écran](images/hippo-clones.gif)
+Each new hippo clone should appear at a random `x` position, and every clone should have a random speed.
 
-+ Testez votre canon laser. Si vous frappez un hippopotame, disparaît il?
+\--- task \---
+
+Create a new variable called `speed`{:class="block3variables"} that is for the `Hippo` sprite only.
+
+[[[generic-scratch3-add-variable]]]
+
+When you've done this correctly, the variable has the name of the sprite next to it, like this:
+
+![screenshot](images/invaders-var-test.png)
+
+\--- /task \---
+
+\--- task \---
+
+When each `Hippo` clone starts, pick a random speed and starting place for it. Then show the clone on the screen.
+
+![blocks_1546522874_2438061](images/blocks_1546522874_2438061.png)
+
+\--- /task \---
+
+\--- task \---
+
+Test your code. Does a new hippo appear every few seconds?
+
+\--- /task \---
+
+At the moment the hippos don't move.
+
+\--- task \---
+
+Each hippo should move around randomly until it gets hit by a lightning bolt. To make that happen, attach this code below the blocks that are already in the `Hippo` sprite's code script:
+
+![blocks_1546522875_874299](images/blocks_1546522875_874299.png)
+
+\--- /task \---
+
+\--- task \---
+
+Test your code again. You should see a new hippo clone appear every few seconds, and each clone should move at a different speed.
+
+\--- no-print \---
+
+![screenshot](images/hippo-clones.gif)
+
+\--- /no-print \---
+
+\--- /task \---
+
+\--- task \---
+
+Now test the spaceship's laser cannon. If a lightning bolt hits a hippo, does the hippo vanish?
+
+\--- /task \---
