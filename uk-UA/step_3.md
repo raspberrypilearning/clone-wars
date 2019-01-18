@@ -1,10 +1,10 @@
-## Lightning bolts
+## Блискавка
 
 Now you are going to give the spaceship the ability to fire lightning bolts!
 
 \--- task \---
 
-Add the `Lightning` sprite from the Scratch library.
+Додайте спрайт `блискавки` з Scratch бібліотеки.
 
 [[[generic-scratch3-sprite-from-library]]]
 
