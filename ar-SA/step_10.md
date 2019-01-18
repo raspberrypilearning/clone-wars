@@ -1,4 +1,4 @@
-## Game over
+## انتهت اللعبة
 
 Next, you're going to add a 'game over' message at the end of the game.
 
@@ -8,13 +8,13 @@ If you haven't already, create a new variable called `lives`{:class="block3varia
 
 Your spaceship should start with three lives and lose a life whenever it touches a hippo or an orange. Your game should stop when the `lives`{:class="block3variables"} run out.
 
-\--- /task \---
+\---/task--
 
 \--- task \---
 
-Draw a new sprite called `Game Over` using the **text** tool.
+ارسم كائنًا جديدًا يُسمى `انتهت اللعبة` باستخدام أداة **النصوص**.
 
-![screenshot](images/invaders-game-over.png)
+![لقطة الشاشة](images/invaders-game-over.png)
 
 \--- /task \---
 
@@ -26,7 +26,7 @@ On the Stage, broadcast a `game over`{:class="block3events"} message just before
 
 ![blocks_1546522848_8063066](images/blocks_1546522848_8063066.png)
 
-\--- /task \---
+\---/task\---
 
 \--- task \---
 
