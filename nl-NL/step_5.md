@@ -1,85 +1,117 @@
-## Vliegende ruimte-nijlpaarden
+## Space-hippos
 
-Laten we heel veel vliegende nijlpaarden toevoegen die proberen je ruimteschip te vernietigen.
+Now you're going to add lots of flying hippos that try to destroy your spaceship.
 
-+ Maak een nieuwe sprite met de ` Hippo1 ` afbeelding uit de Scratch-bibliotheek. Gebruik het **Kleiner maken ** hulpmiddel om de ` Hippo ` Sprite net zo klein te maken als de ` Spaceship ` sprite.
+\--- task \---
+
+Create a new sprite with the 'Hippo1' image in the Scratch library. Use the **shrink** tool to make the `Hippo` sprite a similar size to the `Spaceship` sprite.
 
 ![screenshot](images/invaders-hippo.png)
 
-+ Stel de ` Hippo ` sprite in de draaistijl zodat deze alleen links-rechts draait.
+\--- /task \---
 
-[[[generic-scratch-sprite-rotation-style]]]
+\--- task \---
 
-+ Voeg code toe om als het spel begint de ` Hippo` Sprite te verbergen.
+Set the `Hippo` sprite's rotation style to **left-right**.
 
-\--- hints \--- \--- hint \--- De code hiervoor is precies hetzelfde als de code die je hebt gebruikt om de ` Lightning ` Sprite aan het begin van het spel te verbergen. \--- / hint \--- \--- hint \--- Dit is de code die je nodig hebt:
+[[[generic-scratch3-sprite-rotation-style]]]
 
-```blocks
-wanneer groene vlag wordt aangeklikt 
- verdwijn
-```
+\--- /task \---
 
-\--- /hint \--- \--- /hints \---
+\--- task \---
 
-+ Ga naar de stars achtergrond door te klikken op de achtergrond links onder.
+Add some code to hide the `Hippo` sprite when the game starts.
 
-+ Voeg wat code toe aan de achtergrond om elke paar seconden een nieuw nijlpaard te maken.
+![hippo sprite](images/hippo-sprite.png)
 
-\--- hints \--- \--- hint \--- Wanneer op de groene vlag wordt geklikt: herhaal...
+![blocks_1546522869_3620155](images/blocks_1546522869_3620155.png) \--- /task \---
 
-+ Wacht tussen 2 en 4 seconden
-+ Maak een kloon van de hippo-sprite
+\--- task \---
 
-\--- / hint \--- \--- hint \--- Hier is de code die je nodig hebt: ![Clone hippo hint](images/clone-hippo-hint.png)
+Add some code to the Stage to create a new `Hippo` clone every few seconds.
 
-\--- / hint \--- \--- hint \--- Hier is de code die je nodig hebt:
+\--- hints \---
 
-```blocks
-wanneer de groene vlag wordt aangeklikt 
-herhaal
-   wacht (willekeurig getal tussen (2) tot (4)) sec.
-   maak kloon van [Hippo1 v] 
-einde
-```
+\--- hint \---
 
-\--- /hint \--- \--- /hints \---
+When the `green flag is clicked`{:class="block3events"}, `repeatedly`{:class="block3control"} `wait`{:class="block3control"} `between 2 and 4 seconds`{:class="block3operators"} and then `create a clone of the Hippo sprite`{:class="block3control"}.
 
-+ Schakel terug naar de ` Hippo ` sprite.
+\--- /hint \---
 
-Elke nieuw nijlpaard moet op een willekeurige x-positie verschijnen en moet een willekeurige snelheid hebben.
+\--- hint \---
 
-+ Maak een nieuwe variabele met de naam ` snelheid ` {: class="blockdata"} deze is alleen voor de ` Hippo ` sprite.
+Here are the blocks you need:
 
-[[[generic-scratch-add-variable]]]
+![blocks_1546522870_9668188](images/blocks_1546522870_9668188.png)
 
-Je hebt dit goed gedaan als je de variabele naam van de sprite ernaast ziet staan, zoals hier:
+\--- /hint \---
+
+\--- hint \---
+
+This is what your code should look like:
+
+![stage sprite](images/stage-sprite.png)
+
+![blocks_1546522872_610604](images/blocks_1546522872_610604.png)
+
+\--- /hint \---
+
+\--- /hints \---
+
+\--- /task \---
+
+Each new hippo clone should appear at a random `x` position, and every clone should have a random speed.
+
+\--- task \---
+
+Create a new variable called `speed`{:class="block3variables"} that is for the `Hippo` sprite only.
+
+[[[generic-scratch3-add-variable]]]
+
+When you've done this correctly, the variable has the name of the sprite next to it, like this:
 
 ![screenshot](images/invaders-var-test.png)
 
-+ Bij elke nijlpaardenkloon, kies je een willekeurige snelheid en startplaats voordat je deze op het scherm laat zien.
+\--- /task \---
 
-```blocks
-wanneer ik als kloon start
-maak [snelheid v] (willekeurig getal tussen (2) tot (4)) 
-ga naar x: (kies willekeurig (-220) tot (220)) y: (150) 
-verschijn
-```
+\--- task \---
 
-+ Test je code door op de groene vlag te klikken. Verschijnt er om de paar seconden een nieuwe nijlpaard? Op dit moment bewegen je nijlpaarden niet.
+When each `Hippo` clone starts, pick a random speed and starting place for it. Then show the clone on the screen.
 
-+ De nijlpaard moet willekeurig rondvliegen totdat hij wordt geraakt door een bliksemflits. Om dit mogelijk te maken, plak je deze code onder de blokken die je zojuist hebt toegevoegd:
+![blocks_1546522874_2438061](images/blocks_1546522874_2438061.png)
 
-```blocks
-herhaal tot <touching [lightning v] ?> 
-   neem (snelheid) stappen
-   draai naar rechts (willekeurig getal (-10) tot (10)) graden
-   keer om aan de rand
-einde
-deze kloon verwijderen
-```
+\--- /task \---
 
-+ Test je hippocode. Je zou elke paar seconden een nieuwe nijlpaardkloon moeten zien verschijnen, elk met zijn eigen snelheid.
-    
-    ![screenshot](images/hippo-clones.gif)
+\--- task \---
 
-+ Test je laserkanon. Als je een nijlpaard raakt, verdwijnt die dan?
+Test your code. Does a new hippo appear every few seconds?
+
+\--- /task \---
+
+At the moment the hippos don't move.
+
+\--- task \---
+
+Each hippo should move around randomly until it gets hit by a lightning bolt. To make that happen, attach this code below the blocks that are already in the `Hippo` sprite's code script:
+
+![blocks_1546522875_874299](images/blocks_1546522875_874299.png)
+
+\--- /task \---
+
+\--- task \---
+
+Test your code again. You should see a new hippo clone appear every few seconds, and each clone should move at a different speed.
+
+\--- no-print \---
+
+![screenshot](images/hippo-clones.gif)
+
+\--- /no-print \---
+
+\--- /task \---
+
+\--- task \---
+
+Now test the spaceship's laser cannon. If a lightning bolt hits a hippo, does the hippo vanish?
+
+\--- /task \---
