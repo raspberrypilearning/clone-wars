@@ -1,39 +1,37 @@
 ---
 hero_image: images/clone-wars.png
 theme: violet
-duration: 2
 listed: true
-ingredient: false
 copyedit: true
-curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
-title: Guerra dos clones
-description: Crie um jogo no qual você terá que salvar a Terra de monstros espaciais
-original_url: https://codeclubprojects.org/en-GB/scratch/clone-wars
-interests: games
-technologies: scratch
-site_areas: projects
-hardware: ''
-software: scratch
+title: Guerra dos Clones
+description: Neste projeto você aprenderá a criar um jogo no qual você terá que salvar a Terra de monstros espaciais.
 version: 4
 last_tested: 2017-01-01
 steps:
   - 
-    title: Introdução
+    title: Guerra dos Clones
   - 
-    title: What you will need
+    title: Make a spaceship
   - 
-    title: Construindo uma nave espacial
+    title: Lightning bolts
   - 
-    title: Raios elétricos
+    title: 'Challenge: improve the lightning'
+    challenge: true
   - 
-    title: Hipopótamos-espaciais voadores
+    title: Space-hippos
   - 
-    title: Nave espacial explodindo
+    title: Spaceship explosion
   - 
-    title: Hipopótamos desaparecendo
+    title: Hippos that disappear
   - 
-    title: Morcego das frutas
+    title: 'Challenge: lives and score'
+    challenge: true
   - 
-    title: Fim do jogo
+    title: Space-bat
   - 
-    title: 'Desafio: melhore seu jogo'
+    title: Game over
+  - 
+    title: 'Challenge: improve your game'
+    challenge: true
+  - 
+    title: What next?
