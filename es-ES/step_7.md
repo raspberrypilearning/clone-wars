@@ -1,4 +1,4 @@
-## Hippos that disappear
+## Reto: Mejorar el juego
 
 When the spaceship explodes, all the hippos should disappear so that players of the game can recover.
 
