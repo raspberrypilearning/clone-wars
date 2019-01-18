@@ -1,3 +1,3 @@
-## Challenge: improve the lightning
+## Hipopótamos espaciales voladores
 
 What happens if you hold down the <kbd>space</kbd> key? Can you use a `wait`{:class="block3control"} block to fix this?
