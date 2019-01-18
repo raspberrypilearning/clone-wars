@@ -20,7 +20,7 @@ Set the `Hippo` sprite's rotation style to **left-right**.
 
 \--- task \---
 
-Add some code to hide the `Hippo` sprite when the game starts.
+Adicione um código para esconder o ator `Hipo` quando o jogo começar.
 
 ![hippo sprite](images/hippo-sprite.png)
 
@@ -30,7 +30,7 @@ Add some code to hide the `Hippo` sprite when the game starts.
 
 Add some code to the Stage to create a new `Hippo` clone every few seconds.
 
-\--- hints \---
+\--- dica \---
 
 \--- hint \---
 
@@ -70,7 +70,7 @@ Create a new variable called `speed`{:class="block3variables"} that is for the `
 
 When you've done this correctly, the variable has the name of the sprite next to it, like this:
 
-![screenshot](images/invaders-var-test.png)
+![captura de tela](images/invaders-var-test.png)
 
 \--- /task \---
 
