@@ -11,9 +11,9 @@ steps:
   - 
     title: Εισαγωγή
   - 
-    title: Make a spaceship
+    title: Φτιάξε ένα διαστημόπλοιο
   - 
-    title: Lightning bolts
+    title: Αστραπές
   - 
     title: 'Challenge: improve the lightning'
     challenge: true
@@ -24,14 +24,14 @@ steps:
   - 
     title: Hippos that disappear
   - 
-    title: 'Challenge: lives and score'
+    title: 'Πρόκληση: ζωές και σκορ'
     challenge: true
   - 
     title: Space-bat
   - 
     title: Game over
   - 
-    title: 'Challenge: improve your game'
+    title: 'Πρόκληση: βελτίωσε το παιχνίδι σου'
     challenge: true
   - 
-    title: What next?
+    title: Τι υπάρχει στη συνέχεια;
