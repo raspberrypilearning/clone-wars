@@ -1,19 +1,19 @@
 ---
 hero_image: images/clone-wars.png
-theme: viola
+theme: violet
 listed: true
 copyedit: true
 title: Guerre dei Cloni
 description: Crea un gioco in cui dovrai salvare la Terra dai mostri dello spazio
-version: 4
-last_tested: 2017-01-01
+version: 4.1.0
+last_tested: 2018-10-11
 steps:
   - 
     title: Introduzione
   - 
-    title: Creare un'Astronave
+    title: Creare una navicella spaziale
   - 
-    title: Fulmini
+    title: Ippopotami Spaziali Volanti
   - 
     title: 'Ippopotami Spaziali Volanti'
     challenge: true
@@ -29,9 +29,9 @@ steps:
   - 
     title: Space-bat
   - 
-    title: Game over
+    title: Fine gioco
   - 
-    title: 'Challenge: improve your game'
+    title: 'Sfida: migliora il tuo gioco'
     challenge: true
   - 
-    title: What next?
+    title: E adesso?
