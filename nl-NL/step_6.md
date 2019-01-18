@@ -1,24 +1,37 @@
-## Exploderend ruimteschip
+## Spaceship explosion
 
-Wanneer een nijlpaard je ruimteschip raakt, moet het schip ontploffen!
+When a hippo touches your spaceship, the spaceship should explode!
 
-+ Selecteer de ` Spaceship ` sprite en hernoem het uiterlijk naar 'normaal'.
+\--- task \---
 
-+ Teken een ander uiterlijk van een ruimteschip dat explodeert en noem het 'geraakt'.
+Select the `Spaceship` sprite and rename its costume 'normal'.
+
+\--- /task \---
+
+\--- task \---
+
+Draw another costume of an exploding spaceship, and call the new costume 'hit'.
 
 ![screenshot](images/invaders-spaceship-costumes.png)
 
-Of, als je de explosie niet wilt tekenen, kun je het 'Sun'-kostuum uit de Scratch-bibliotheek kiezen en de ** kleur een vorm ** hulpmiddel gebruiken om de kleur te veranderen en het gezicht te verwijderen.
+If you don't want to draw the explosion, you can select the 'Sun' costume from the Scratch library, and then use the **Color a shape** tool to change the costume's colour and face.
 
 ![screenshot](images/invaders-sun.png)
 
-+ Voeg een code toe aan uw ` Spaceship ` sprite zodat het begint met het weergeven van het normaal-uiterlijk, maar wanneer het een vliegende nijlpaard raakt, schakelt het over naar het 'raak'-kostuum:
+\--- /task \---
 
-```blocks
-wanneer vlag wordt aangeklikt
-verander uiterlijk naar [normaal v] 
-wacht tot <touching [Hippo1 v]>? 
-verander uiterlijk naar [geraakt v]
-```
+\--- task \---
 
-+ Test je code door het spel te spelen en in botsing te komen met een nijlpaard. Verandert het ruimteschip in het 'geraakt'-kostuum?
+Add some code to your `Spaceship` sprite so that it displays the 'normal' costume when the game starts, and switches to the 'hit' costume when it touches a hippo:
+
+![rocket sprite](images/rocket-sprite.png)
+
+![blocks_1546522877_4694302](images/blocks_1546522877_4694302.png)
+
+\--- /task \---
+
+\--- task \---
+
+Test your code. Make the spaceship collide with a hippo. Does the spaceship change to the 'hit' costume?
+
+\--- /task \---
