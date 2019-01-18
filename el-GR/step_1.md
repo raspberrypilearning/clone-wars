@@ -1,26 +1,78 @@
+\--- no-print \---
+
+This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/clone-wars-scratch2).
+
+\--- /no-print \---
+
 ## Εισαγωγή
 
-Σε αυτό το έργο θα μάθετε πώς να δημιουργήσετε ένα παιχνίδι στο οποίο θα πρέπει να σώσετε τη Γη από τα τέρατα του διαστήματος.
+In this project you will learn how to create a game in which you have to save the Earth from space monsters.
 
-### Τι θα κάνετε
+### Τι θα κάνεις
 
-Κάντε κλικ στην πράσινη σημαία στο παράδειγμα παιχνιδιού παρακάτω για να ξεκινήσετε και, στη συνέχεια, πατήστε το **αριστερά** και **δεξιά** πλήκτρα βέλους για να μετακινήσετε το διαστημόπλοιο και το **το διάστημα** κλειδί για να πυροβολήσει.
+\--- no-print \---
 
-Αποκτήστε όσο περισσότερους πόντους μπορείτε, τραβώντας ιπτάμενοι διαστημικούς ιππότες. Θα χάσετε μια ζωή αν χτυπηθείτε από έναν ιππόκαμπο ή από τα πορτοκάλια που έπεσαν από τις νυχτερίδες.
+Click the green flag in the example game below to start, and then press the <kbd>left</kbd> and <kbd>right</kbd> arrow keys to move the spaceship, and the <kbd>space</kbd> key to shoot.
 
 <div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/46018140/?autostart=false" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/276887163/?autostart=false" frameborder="0" scrolling="no"></iframe>
   <img src="images/invaders-final.png">
 </div>
 
-### Τι θα μάθετε
+\--- /no-print \---
 
-Αυτό το πρόγραμμα καλύπτει στοιχεία από τις ακόλουθες πτυχές του μαθήματος [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum){: target = "_ blank"}:
+Score as many points as you can by shooting flying space-hippos. If you get hit by a hippo or by an orange dropped by the bats, you lose a life.
 
-+ [Χρησιμοποιήστε βασικές δομές προγραμματισμού για να δημιουργήσετε απλά προγράμματα](https://www.raspberrypi.org/curriculum/programming/creator){: target = "_ blank"}
+\--- print-only \---
 
-### Πρόσθετες πληροφορίες για εκπαιδευτικούς
+![desc](images/showcase.png)
 
-Αν χρειαστεί να εκτυπώσετε αυτό το έργο, χρησιμοποιήστε την έκδοση [φιλική προς τον εκτυπωτή](https://projects.raspberrypi.org/en/projects/clone-wars/print){: target = "_ blank"}.
+\--- /print-only \---
 
-Χρησιμοποιήστε το σύνδεσμο στο υποσέλιδο για να αποκτήσετε πρόσβαση στο repo GitHub για αυτό το έργο, το οποίο περιέχει όλους τους πόρους (συμπεριλαμβανομένου ενός έργου που έχει ολοκληρωθεί στο παράδειγμα) στο φάκελο 'en / resources'.
+\--- collapse \---
+
+* * *
+
+## title: What you will need
+
+### Hardware
+
++ A computer capable of running Scratch 3
+
+### Software
+
++ Scratch 3 (either [online](https://rpf.io/scratchon){:target="_blank"} or [offline](https://rpf.io/scratchoff){:target="_blank"})
+
+### Downloads
+
+[Find the downloads here](http://rpf.io/p/en/clone-wars-go).
+
+\--- /collapse \---
+
+\--- collapse \---
+
+* * *
+
+## title: What you will learn
+
++ How to make sprites move using keyboard input
++ How to clone sprites to make copies of them
++ How to use 'broadcast' and 'receive blocks' to send messages
+
+\--- /collapse \---
+
+\--- collapse \---
+
+* * *
+
+## title: Additional notes for educators
+
+\--- no-print \---
+
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/clone-wars/print){:target="_blank"}.
+
+\--- /no-print \---
+
+[If you need the solution to this project, you can find it here](http://rpf.io/p/en/clone-wars-get).
+
+\--- /collapse \---
