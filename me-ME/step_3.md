@@ -1,54 +1,89 @@
-## Izrada svemirskog broda
+## Lightning bolts
 
-Napravimo svemirski brod koji će braniti Zemlju!
+Now you are going to give the spaceship the ability to fire lightning bolts!
 
-+ Započni novi Scratch projekat i obriši lik mačke.
+\--- task \---
 
-[[[generic-scratch-new-project]]]
+Add the `Lightning` sprite from the Scratch library.
 
-+ Dodaj u svoj projekat pozadinu (backdrop) `zvijezde` i lik (sprite) `Svemirskog broda`.
-    
-    ![screenshot](images/invaders-sprites.png)
+[[[generic-scratch3-sprite-from-library]]]
 
-[[[generic-scratch-backdrop-from-library]]]
+\--- /task \---
 
-[[[generic-scratch-sprite-from-library]]]
+\--- task \---
 
-+ Koristi alat **shrink** (smanji) da malo smanjiš lik `Svemirskog broda` i postavi ga u donji dio ekrana.
+When the game starts, the `Lightning` sprite should be hidden until the spaceship fires its laser cannons.
 
-+ Kada je pritisnut taster sa strelicom **ulijevo**, svemirski brod treba da se kreće ulijevo. Dodaj ovaj kôd, da napraviš da se tvoj svemirski brod kreće ulijevo kada je pritisnuta strelica **ulijevo** (when the left arrow is pressed):
+Add this code to the `Lightning` sprite:
 
-```blocks
-    when flag clicked
-    forever
-        if <key [left arrow v] pressed?> then
-            change x by (-4)
-        end
-    end
-```
+![lightning sprite](images/lightning-sprite.png)
 
-Pošto osa x ide slijeva nadesno na Pozornici, ako umanjiš x-poziciju svemirskog broda oduzimanjem, brod će se kretati ulijevo. Ovaj kôd je dio koji će učiniti da se tvoj svemirski brod kreće ulijevo:
+![blocks_1546522861_1148694](images/blocks_1546522861_1148694.png)
 
-```blocks
-change x by (-4)
-```
+\--- /task \---
 
-+ Dodaj još kôda unutar bloka `forever`{:class="blockcontrol"} (ponavljaj) da napraviš da se tvoj svemirski brod kreće udesno kada je pritisnut taster sa strelicom **udesno**.
+At the moment, the lightning bolt is really big compared to the spaceship!
 
-Ako smo oduzimanjem `4` od pozicije svemirskog broda napravili da se on kreće ulijevo, kako možeš da napraviš da se kreće udesno za `4`? \--- /hint \--- \--- hint \--- Treba da koristiš isti blok, samo sa drugim brojem:
+\--- task \---
 
-```blocks
-change x by ( )
-```
+Below the code that the `Lightning` sprite already has, add some blocks to make the sprite smaller and to turn it upside down.
 
-\--- /hint \--- \--- hint \--- Ovdje je kôd koji treba da dodaš ispod prethodno dodatog kôda unutar bloka `forever`{:class="blockcontrol"} (ponavljaj):
+![lightning sprite](images/lightning-sprite.png)
 
-```blocks
-if <key [right arrow v] pressed?> then
-    change x by (4)
-end
-```
+![blocks_1546522862_7402277](images/blocks_1546522862_7402277.png)
 
-\--- /hint \--- \--- /hints \---
+Now it looks like it fires pointy end–first out of the spaceship.
 
-+ Klikni na zelenu zastavicu i isprobaj svoj projekat. Možeš li da pokrećeš svoj svemirski brod ulijevo i udesno koristeći tastere sa strelicama?
+\--- /task \---
+
+\--- task \---
+
+Add some new code to the `Spaceship` sprite to create a new clone of the lightning bolt if the <kbd>space</kbd> key is pressed.
+
+\--- hints \---
+
+\--- hint \---
+
+`When the green flag is clicked`{:class="block3events"}, keep checking `forever`{:class="block3control"} `if`{:class="block3control"} the `space key is pressed`{:class="block3sensing"}, and in that case `create a clone of the Lightning`{:class="block3control"} sprite.
+
+\--- /hint \---
+
+\--- hint \---
+
+Here are the blocks you need:
+
+![blocks_1546522864_3579764](images/blocks_1546522864_3579764.png)
+
+\--- /hint \---
+
+\--- hint \---
+
+Here is what your new code should look like:
+
+![rocket sprite](images/rocket-sprite.png)
+
+![blocks_1546522866_0371468](images/blocks_1546522866_0371468.png)
+
+\--- /hint \---
+
+\--- /hints \---
+
+\--- /task \---
+
+\--- task \---
+
+Whenever the game creates a `Lightning` sprite clone, the clone should appear and then move upwards until it reaches the top of the Stage. Then the clone should disappear.
+
+Add this code to the `Lightning` sprite so that clones of it move upwards until they touch the edge of the Stage, and then they get deleted.
+
+![lightning sprite](images/lightning-sprite.png)
+
+![blocks_1546522867_7058573](images/blocks_1546522867_7058573.png)
+
+\--- /task \---
+
+\--- task \---
+
+Press the <kbd>space</kbd> key to test whether the lightning bolt moves correctly.
+
+\--- /task \---
