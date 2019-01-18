@@ -1,54 +1,89 @@
-## Creare una navicella spaziale
+## Lightning bolts
 
-Creiamo una navicella spaziale che difenderà la Terra!
+Now you are going to give the spaceship the ability to fire lightning bolts!
 
-+ Inizia un nuovo progetto Scratch, e cancella lo sprite del gatto.
+\--- task \---
 
-[[[generic-scratch-new-project]]]
+Add the `Lightning` sprite from the Scratch library.
 
-+ Aggiungi lo sfondo `stelle` e lo sprite `Navicella` al tuo progetto.
-    
-    ![copiaschermo](images/invaders-sprites.png)
+[[[generic-scratch3-sprite-from-library]]]
 
-[[[generic-scratch-backdrop-from-library]]]
+\--- /task \---
 
-[[[generic-scratch-sprite-from-library]]]
+\--- task \---
 
-+ Usa lo strumento **shrink** (restringi) per rendere un po' più piccolo il tuo sprite `Navicella`, e posizionalo vicino alla parte bassa dello schermo.
+When the game starts, the `Lightning` sprite should be hidden until the spaceship fires its laser cannons.
 
-+ Quando viene premuto il tasto freccia **sinistra**, la navicella spaziale dovrebbe muoversi verso sinistra. Aggiungi questo pezzo di codice per fare in modo che la tua navicella spaziale si muova verso sinistra quando viene premuto il tasto freccia **sinistra**:
+Add this code to the `Lightning` sprite:
 
-```blocks
-    when flag clicked
-    forever
-        if <key [left arrow v] pressed?> then
-            change x by (-4)
-        end
-    end
-```
+![lightning sprite](images/lightning-sprite.png)
 
-L'asse-x va da sinistra a destra sullo schermo, quindi se rendi la posizione-x della navicella spaziale più piccola sottraendo, la navicella si muoverà più a sinistra. Questo pezzo di codice è la parte che fa in modo che la tua navicella spaziale si muova verso sinistra:
+![blocks_1546522861_1148694](images/blocks_1546522861_1148694.png)
 
-```blocks
-change x by (-4)
-```
+\--- /task \---
 
-+ Aggiungi un ulteriore pezzo di codice nel blocco `forever`{:class="blockcontrol"} per fare in modo che la navicella spaziale si muova a destra quando viene premuto il tasto freccia **destra**.
+At the moment, the lightning bolt is really big compared to the spaceship!
 
-Se sottraendo `4` dalla posizione della navicella spaziale questa si muove a sinistra, invece come potresti fare in modo che si muova a destra di `4`? \--- /suggerimento \--- \--- suggerimento \--- Avrai bisogno di usare lo stesso blocco di codice, ma con un numero diverso:
+\--- task \---
 
-```blocks
-change x by ( )
-```
+Below the code that the `Lightning` sprite already has, add some blocks to make the sprite smaller and to turn it upside down.
 
-\--- /suggerimento \--- \--- suggerimento \--- Questo è il pezzo di codice che hai bisogno di aggiungere sotto l'altro pezzo di codice all'interno del tuo blocco `forever`{:class="blockcontrol"}:
+![lightning sprite](images/lightning-sprite.png)
 
-```blocks
-if <key [right arrow v] pressed?> then
-    change x by (4)
-end
-```
+![blocks_1546522862_7402277](images/blocks_1546522862_7402277.png)
 
--- /suggerimento \--- \--- /suggerimenti \---
+Now it looks like it fires pointy end–first out of the spaceship.
 
-+ Fai un test del tuo progetto cliccando la bandierina verde. Puoi muovere la tua navicella spaziale a sinistra e a destra con i tasti freccia?
+\--- /task \---
+
+\--- task \---
+
+Add some new code to the `Spaceship` sprite to create a new clone of the lightning bolt if the <kbd>space</kbd> key is pressed.
+
+\--- hints \---
+
+\--- hint \---
+
+`When the green flag is clicked`{:class="block3events"}, keep checking `forever`{:class="block3control"} `if`{:class="block3control"} the `space key is pressed`{:class="block3sensing"}, and in that case `create a clone of the Lightning`{:class="block3control"} sprite.
+
+\--- /hint \---
+
+\--- hint \---
+
+Here are the blocks you need:
+
+![blocks_1546522864_3579764](images/blocks_1546522864_3579764.png)
+
+\--- /hint \---
+
+\--- hint \---
+
+Here is what your new code should look like:
+
+![rocket sprite](images/rocket-sprite.png)
+
+![blocks_1546522866_0371468](images/blocks_1546522866_0371468.png)
+
+\--- /hint \---
+
+\--- /hints \---
+
+\--- /task \---
+
+\--- task \---
+
+Whenever the game creates a `Lightning` sprite clone, the clone should appear and then move upwards until it reaches the top of the Stage. Then the clone should disappear.
+
+Add this code to the `Lightning` sprite so that clones of it move upwards until they touch the edge of the Stage, and then they get deleted.
+
+![lightning sprite](images/lightning-sprite.png)
+
+![blocks_1546522867_7058573](images/blocks_1546522867_7058573.png)
+
+\--- /task \---
+
+\--- task \---
+
+Press the <kbd>space</kbd> key to test whether the lightning bolt moves correctly.
+
+\--- /task \---
