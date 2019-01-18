@@ -1,4 +1,4 @@
-## Make a spaceship
+## Baue ein Raumschiff
 
 First make a spaceship that can defend the Earth!
 
@@ -34,7 +34,7 @@ The x-axis goes from the left side of the Stage to the right side. This means th
 
 Add some more code inside the `forever`{:class="block3control"} block to make your spaceship move to the right if the <kbd>right</kbd> arrow key is pressed.
 
-\--- hints \---
+\--- hinweise \---
 
 \--- hint \---
 
@@ -58,7 +58,7 @@ Here is the code you need to add below the other code inside the `forever`{:clas
 
 ![blocks_1546522859_4543552](images/blocks_1546522859_4543552.png) \--- /hint \---
 
-\--- /hints \---
+\---/hints\---
 
 \--- /task \---
 
