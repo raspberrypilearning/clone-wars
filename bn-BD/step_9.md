@@ -4,13 +4,13 @@ To make your game a bit harder, you are going to create a bat that throws orange
 
 ![a bat throwing an orange at the spaceship](images/bat-oranges.png)
 
-\--- task \---
+\--- কাজ \---
 
 Add a `Bat` sprite and set its rotation style to **left–right**.
 
-\--- /task \---
+\--- /কাজ \---
 
-\--- task \---
+\--- কাজ \---
 
 Make the `Bat` sprite `move`{:class="block3motion"} from left to right at the top of the Stage `forever`{:class="block3control"}.
 
@@ -20,13 +20,13 @@ Make the `Bat` sprite `move`{:class="block3motion"} from left to right at the to
 
 Remember to test your code.
 
-\--- /task \---
+\--- /কাজ \---
 
 If you look at the bat's costumes, you can see that it has four different ones:
 
 ![screenshot](images/invaders-bat-costume.png)
 
-\--- task \---
+\--- কাজ \---
 
 Use the `next costume`{:class="block3looks"} block to make the bat flap its wings as it moves.
 
@@ -50,19 +50,19 @@ You need to add these blocks to you code:
 
 \--- /hints \---
 
-\--- /task \---
+\--- /কাজ \---
 
 Now make the bat throw oranges!
 
-\--- task \---
+\--- কাজ \---
 
 Add an `Orange` sprite from the Scratch library.
 
 ![screenshot](images/invaders-orange.png)
 
-\--- /task \---
+\--- /কাজ \---
 
-\--- task \---
+\--- কাজ \---
 
 Add code to your bat so that `when the flag is clicked`{:class="block3events"}, the `Bat` sprite `forever`{:class="block3control"} `waits`{:class="block3control"} for a `random`{:class="block3operators"} length of time between `5 to 10`{:class="block3operators"} seconds and then `creates a clone`{:class="block3control"} of the `Orange` sprite.
 
@@ -70,9 +70,9 @@ Add code to your bat so that `when the flag is clicked`{:class="block3events"}, 
 
 ![blocks_1546522888_8938003](images/blocks_1546522888_8938003.png)
 
-\--- /task \---
+\--- /কাজ \---
 
-\--- task \---
+\--- কাজ \---
 
 Add code to the `Orange` to make each of its clone drop, starting from the `Bat` sprite and falling towards the bottom of the Stage.
 
@@ -80,9 +80,9 @@ Add code to the `Orange` to make each of its clone drop, starting from the `Bat`
 
 ![blocks_1546522890_544698](images/blocks_1546522890_544698.png)
 
-\--- /task \---
+\--- /কাজ \---
 
-\--- task \---
+\--- কাজ \---
 
 Add some more code to the `Orange` sprite so that when an `Orange` clone hits the `Spaceship` sprite, the clone also disappears to give the player a chance to reset:
 
@@ -90,9 +90,9 @@ Add some more code to the `Orange` sprite so that when an `Orange` clone hits th
 
 ![blocks_1546522892_2124374](images/blocks_1546522892_2124374.png)
 
-\--- /task \---
+\--- /কাজ \---
 
-\--- task \---
+\--- কাজ \---
 
 Modify the code of your `Spaceship` sprite so that the sprite is "hit" when it touches a `Hippo` sprite or an `Orange` sprite:
 
@@ -100,10 +100,10 @@ Modify the code of your `Spaceship` sprite so that the sprite is "hit" when it t
 
 ![blocks_1546522893_821553](images/blocks_1546522893_821553.png)
 
-\--- /task \---
+\--- /কাজ \---
 
-\--- task \---
+\--- কাজ \---
 
 Test your game. What happens if the spaceship gets hit by a falling orange?
 
-\--- /task \---
+\--- /কাজ \---
