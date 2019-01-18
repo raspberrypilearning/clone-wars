@@ -1,6 +1,6 @@
 ---
-hero_image: Изображения / клон-wars.png
-theme: Фиолетовый
+hero_image: images/clone-wars.png
+theme: фиолетовое
 listed: true
 copyedit: true
 title: Войны клонов
@@ -34,4 +34,4 @@ steps:
     title: 'Challenge: improve your game'
     challenge: true
   - 
-    title: What next?
+    title: Что дальше?
