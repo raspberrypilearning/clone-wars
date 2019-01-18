@@ -1,61 +1,43 @@
-## Disappearing hippos
+## Hippos that disappear
 
-When the spaceship is hit, all the hippos should disappear to give the player a chance to recover.
+When the spaceship explodes, all the hippos should disappear so that players of the game can recover.
 
-+ Add a block to your code to `broadcast` the message "hit" when the spaceship is touching a hippo.
+\--- task \---
 
-[[[generic-scratch-broadcast-message]]]
+Add code to the spaceship sprite to make it `broadcast`{:class="block3events"} the message "hit" when the `spaceship touches a hippo`{:class="block3sensing"}.
 
-\--- hints \--- \--- hint \--- Create a `broadcast` 'hit' block by dragging the block from the **Events** tab and then clicking on the drop-down menu and selecting **new message**. \--- /hint \--- \--- hint \--- Here is what your block should look like:
+![rocket sprite](images/rocket-sprite.png)
 
-```blocks
-broadcast [hit v]
-```
+![blocks_1546522879_1027734](images/blocks_1546522879_1027734.png)
 
-\--- /hint \--- \--- hint \--- Here is what your code should look like:
+\--- /task \---
 
-```blocks
-when flag clicked
-switch costume to [normal v]
-wait until <touching [Hippo1 v]>?
-switch costume to [hit v]
-broadcast [hit v]
-```
+\--- task \---
 
-\--- /hint \--- \--- /hints \---
+All of the `Hippo` sprite clones will receive the "hit" message, and you can instruct them to disappear when the spaceship is hit by adding this code to the `Hippo` sprite:
 
-All of the `Hippo` sprite clones will hear this message, so you can now instruct them to disappear when the spaceship is hit.
+![hippo sprite](images/hippo-sprite.png)
 
-+ Add this code to the `Hippo` sprite:
+![blocks_1546522880_7433825](images/blocks_1546522880_7433825.png)
 
-```blocks
-when I receive [hit v]
-delete this clone
-```
+\--- /task \---
 
-+ Test out this code by starting a new game and deliberately colliding with a hippo.
+\--- task \---
+
+To check whether the new code works, click the green flag and make the spaceship collide with a hippo.
 
 ![screenshot](images/invaders-hippo-collide.png)
 
-After you get hit, hippos start reappearing but the spaceship has still exploded! Let's make it possible for the spaceship to reset itself after being hit.
+\--- /task \---
 
-+ Add a `forever`{:class="blockcontrol"} block around all of your code to make the process repeat, and a `wait`{:class="blockcontrol"} block at the end to add a small pause before hippos begin appearing again.
+After the spaceship explodes, new `Hippo` clones appear, but the spaceship is still exploded! The spaceship needs to reset itself after being hit.
 
-```blocks
-when flag clicked
-forever
-    switch costume to [normal v]
-    wait until <touching [Hippo1 v]>?
-    switch costume to [hit v]
-    broadcast [hit v]
-    wait (1) secs
-end
-```
+\--- task \---
 
-\--- challenge \---
+Add a `wait`{:class="block3control"} block at the end of the `Spaceship` sprite's code to create a small pause before hippos begin appearing again. Then add a `forever`{:class="block3control"} block around all of your code to make the code run repeatedly.
 
-### Challenge: lives and score
+![rocket sprite](images/rocket-sprite.png)
 
-At the moment, the player has infinite lives. Can you add `lives`{:class="blockdata"}, a `score`{:class="blockdata"}, or even a `highscore`{:class="blockdata"} to your game?
+![blocks_1546522882_3185935](images/blocks_1546522882_3185935.png)
 
-[[[generic-scratch-high-score]]] \--- /challenge \---
+\--- /task \---
