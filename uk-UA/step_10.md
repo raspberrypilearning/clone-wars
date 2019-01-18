@@ -1,4 +1,4 @@
-## Game over
+## Кінець гри
 
 Next, you're going to add a 'game over' message at the end of the game.
 
@@ -12,9 +12,9 @@ Your spaceship should start with three lives and lose a life whenever it touches
 
 \--- task \---
 
-Draw a new sprite called `Game Over` using the **text** tool.
+Намалюйте новий спрайт з назвою `Кінець гри!` використовуючи інструмент **текст**.
 
-![screenshot](images/invaders-game-over.png)
+![Знімок екрану](images/invaders-game-over.png)
 
 \--- /task \---
 
