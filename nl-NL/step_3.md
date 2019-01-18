@@ -1,16 +1,16 @@
-## Lightning bolts
+## Bliksemschichten
 
 Now you are going to give the spaceship the ability to fire lightning bolts!
 
-\--- task \---
+\--- task \----
 
-Add the `Lightning` sprite from the Scratch library.
+Voeg de `Lightning ` sprite toe uit de Scratch-bibliotheek.
 
 [[[generic-scratch3-sprite-from-library]]]
 
 \--- /task \---
 
-\--- task \---
+\--- task \----
 
 When the game starts, the `Lightning` sprite should be hidden until the spaceship fires its laser cannons.
 
@@ -24,7 +24,7 @@ Add this code to the `Lightning` sprite:
 
 At the moment, the lightning bolt is really big compared to the spaceship!
 
-\--- task \---
+\--- task \----
 
 Below the code that the `Lightning` sprite already has, add some blocks to make the sprite smaller and to turn it upside down.
 
@@ -82,7 +82,7 @@ Add this code to the `Lightning` sprite so that clones of it move upwards until 
 
 \--- /task \---
 
-\--- task \---
+\--- task \----
 
 Press the <kbd>space</kbd> key to test whether the lightning bolt moves correctly.
 
