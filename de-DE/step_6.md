@@ -1,4 +1,4 @@
-## Spaceship explosion
+## Game over
 
 When a hippo touches your spaceship, the spaceship should explode!
 
@@ -12,11 +12,11 @@ Select the `Spaceship` sprite and rename its costume 'normal'.
 
 Draw another costume of an exploding spaceship, and call the new costume 'hit'.
 
-![screenshot](images/invaders-spaceship-costumes.png)
+![Screenshot](images/invaders-spaceship-costumes.png)
 
 If you don't want to draw the explosion, you can select the 'Sun' costume from the Scratch library, and then use the **Color a shape** tool to change the costume's colour and face.
 
-![screenshot](images/invaders-sun.png)
+![Screenshot](images/invaders-sun.png)
 
 \--- /task \---
 
