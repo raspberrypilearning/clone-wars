@@ -1,4 +1,4 @@
-## Hippos that disappear
+## إخفاء أفراس الفضاء
 
 When the spaceship explodes, all the hippos should disappear so that players of the game can recover.
 
@@ -26,7 +26,7 @@ All of the `Hippo` sprite clones will receive the "hit" message, and you can ins
 
 To check whether the new code works, click the green flag and make the spaceship collide with a hippo.
 
-![screenshot](images/invaders-hippo-collide.png)
+![لقطة الشاشة](images/invaders-hippo-collide.png)
 
 \--- /task \---
 
