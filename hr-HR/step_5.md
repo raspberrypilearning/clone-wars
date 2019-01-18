@@ -30,13 +30,13 @@ Add some code to hide the `Hippo` sprite when the game starts.
 
 Add some code to the Stage to create a new `Hippo` clone every few seconds.
 
-\--- hints \---
+\--- pomoć \---
 
 \--- hint \---
 
 When the `green flag is clicked`{:class="block3events"}, `repeatedly`{:class="block3control"} `wait`{:class="block3control"} `between 2 and 4 seconds`{:class="block3operators"} and then `create a clone of the Hippo sprite`{:class="block3control"}.
 
-\--- /hint \---
+\--- /pomoć \---
 
 \--- hint \---
 
@@ -44,7 +44,7 @@ Here are the blocks you need:
 
 ![blocks_1546522870_9668188](images/blocks_1546522870_9668188.png)
 
-\--- /hint \---
+\--- /pomoć \---
 
 \--- hint \---
 
@@ -56,7 +56,7 @@ This is what your code should look like:
 
 \--- /hint \---
 
-\--- /hints \---
+\--- /pomoć \---
 
 \--- /task \---
 
