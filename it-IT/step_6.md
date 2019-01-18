@@ -1,4 +1,4 @@
-## Spaceship explosion
+## Game over
 
 When a hippo touches your spaceship, the spaceship should explode!
 
