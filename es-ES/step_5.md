@@ -1,85 +1,117 @@
-## Hipopótamos espaciales voladores
+## Space-hippos
 
-Agreguemos muchos hipopótamos voladores que intentarán destruir tu nave espacial.
+Now you're going to add lots of flying hippos that try to destroy your spaceship.
 
-+ Crea un nuevo sprite con el imagen `hippo1` en la biblioteca Scratch. Utiliza la herramienta **shrink** para hacer que el sprite `hippo` sea un tamaño similar al sprite `nave espacial`.
+\--- task \---
+
+Create a new sprite with the 'Hippo1' image in the Scratch library. Use the **shrink** tool to make the `Hippo` sprite a similar size to the `Spaceship` sprite.
 
 ![screenshot](images/invaders-hippo.png)
 
-+ Establece el estilo de la rotación del sprite `hippo` para hacerlo izquierda a derecha solamente.
+\--- /task \---
 
-[[[generic-scratch-sprite-rotation-style]]]
+\--- task \---
 
-+ Agregue un código para ocultar el sprite `hippo` cuando comienza el juego.
+Set the `Hippo` sprite's rotation style to **left-right**.
 
-\--- hints \--- \--- hint \--- El código para esto es exactamente el mismo quel el código que utilizaste para ocultar el sprite `relámpago` cuando comienza el juego. \--- /hint \--- \--- hint \--- Aquí está el código que necesitarás:
+[[[generic-scratch3-sprite-rotation-style]]]
 
-```blocks
-al presionar la bandera verde
-oculta
-```
+\--- /task \---
 
-\--- /hint \--- \--- /hints \---
+\--- task \---
 
-+ Cambia al escenario haciendo clic en él en el panel inferior.
+Add some code to hide the `Hippo` sprite when the game starts.
 
-+ Agregue un código al escenario para crear un nuevo hipopótamo cada pocos segundos.
+![hippo sprite](images/hippo-sprite.png)
 
-\--- hints \--- \--- hint \--- Cuando se hace clic en la bandera verde: Repetidamente...
+![blocks_1546522869_3620155](images/blocks_1546522869_3620155.png) \--- /task \---
 
-+ Espera entre 2 y 4 segundos
-+ Crea un clon del sprite de hipopótamo
+\--- task \---
 
-\--- /hint \--- \--- hint \--- Aquí están los bloques que necesitarás: ![Clone hippo hint](images/clone-hippo-hint.png)
+Add some code to the Stage to create a new `Hippo` clone every few seconds.
 
-\--- /hint \--- \--- hint \--- Aquí está el código que necesitarás:
+\--- hints \---
 
-```blocks
-al presionar la bandera
-para siempre
-    espera (elige un número aleatorio de segundas entre (2) y (4))
-    crea un clon de [Hippo1 v]
-fin
-```
+\--- hint \---
 
-\--- /hint \--- \--- /hints \---
+When the `green flag is clicked`{:class="block3events"}, `repeatedly`{:class="block3control"} `wait`{:class="block3control"} `between 2 and 4 seconds`{:class="block3operators"} and then `create a clone of the Hippo sprite`{:class="block3control"}.
 
-+ Regresa al sprite `hipopótamo`.
+\--- /hint \---
 
-Cada nuevo hipopótamo debe aparecer en una posición aleatoria x, y cada uno debe tener una velocidad aleatoria.
+\--- hint \---
 
-+ Crea una nueva variable que se llama `velocidad`{:class="blockdata"} que es solo para el sprite `hipopótamo`.
+Here are the blocks you need:
 
-[[[generic-scratch-add-variable]]]
+![blocks_1546522870_9668188](images/blocks_1546522870_9668188.png)
 
-Sabrás que has hecho esto correctamente cuando puedes ver que la variable tiene el nombre del sprite al lado, así:
+\--- /hint \---
+
+\--- hint \---
+
+This is what your code should look like:
+
+![stage sprite](images/stage-sprite.png)
+
+![blocks_1546522872_610604](images/blocks_1546522872_610604.png)
+
+\--- /hint \---
+
+\--- /hints \---
+
+\--- /task \---
+
+Each new hippo clone should appear at a random `x` position, and every clone should have a random speed.
+
+\--- task \---
+
+Create a new variable called `speed`{:class="block3variables"} that is for the `Hippo` sprite only.
+
+[[[generic-scratch3-add-variable]]]
+
+When you've done this correctly, the variable has the name of the sprite next to it, like this:
 
 ![screenshot](images/invaders-var-test.png)
 
-+ Cuando se inicia cada clon de hipopótamo, escoge una velocidad aleatoria y un punto de partida antes de mostrarlo en la pantalla.
+\--- /task \---
 
-```blocks
-al comenzar como un clon
-determina [speed v] para (escoger random (2) a (4))
-ve a x: (escoger random (-220) a (220)) y: (150)
-muestra
-```
+\--- task \---
 
-+ Prueba el código haciendo clic en la bandera verde. ¿El hipopótamo nuevo aparece cada pocos segundos? Por el momento no se moverá los hipopótamos.
+When each `Hippo` clone starts, pick a random speed and starting place for it. Then show the clone on the screen.
 
-+ El hipopótamo debe moverse al azar hasta que sea atropellado por un relámpago. Para que esto suceda, coloca este código debajo de los bloques que acabas de agregar:
+![blocks_1546522874_2438061](images/blocks_1546522874_2438061.png)
 
-```blocks
-repite hasta <touching [lightning v] ?>
-    mueva (velocidad) pasos
-    girar a la derecha (escoge random (-10) a (10)) grados
-    si en el borde, rebota
-fin
-elimina este clon
-```
+\--- /task \---
 
-+ Prueba el código de hipopótamo. Debe aparecer un nuevo clon de hipopótamo cada pocos segundos, cada movimiento a su propia velocidad.
-    
-    ![screenshot](images/hippo-clones.gif)
+\--- task \---
 
-+ Prueba su cañón láser. Si golpeas a un hipopótamo, ¿desaparece?
+Test your code. Does a new hippo appear every few seconds?
+
+\--- /task \---
+
+At the moment the hippos don't move.
+
+\--- task \---
+
+Each hippo should move around randomly until it gets hit by a lightning bolt. To make that happen, attach this code below the blocks that are already in the `Hippo` sprite's code script:
+
+![blocks_1546522875_874299](images/blocks_1546522875_874299.png)
+
+\--- /task \---
+
+\--- task \---
+
+Test your code again. You should see a new hippo clone appear every few seconds, and each clone should move at a different speed.
+
+\--- no-print \---
+
+![screenshot](images/hippo-clones.gif)
+
+\--- /no-print \---
+
+\--- /task \---
+
+\--- task \---
+
+Now test the spaceship's laser cannon. If a lightning bolt hits a hippo, does the hippo vanish?
+
+\--- /task \---
