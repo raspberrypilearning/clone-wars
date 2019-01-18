@@ -1,23 +1,47 @@
-\--- challenge \---
+## Game over
 
-## Défi : Améliorez votre jeu
+Next, you're going to add a 'game over' message at the end of the game.
 
-Quelles améliorations pouvez-vous apporter à votre jeu?
+\--- task \---
 
-Voici quelques idées:
+If you haven't already, create a new variable called `lives`{:class="block3variables"}.
 
-+ Ajouter des packs de santé que vous pouvez collecter pour obtenir des vies supplémentaires.
+Your spaceship should start with three lives and lose a life whenever it touches a hippo or an orange. Your game should stop when the `lives`{:class="block3variables"} run out.
 
-![capture d'écran](images/invaders-aid.png)
+\--- /task \---
 
-+ Ajoutez des roches flottantes que votre vaisseau spatial doit éviter.
+\--- task \---
 
-![capture d'écran](images/invaders-rocks.png)
+Draw a new sprite called `Game Over` using the **text** tool.
 
-+ Faites apparaître plus d'ennemis lorsque votre score atteint ` 100 ` .
+![screenshot](images/invaders-game-over.png)
 
-```blocks
-    attendre jusqu'à <(score) = [100]>
-```
+\--- /task \---
 
-\--- /challenge \---
+\--- task \---
+
+On the Stage, broadcast a `game over`{:class="block3events"} message just before the game ends.
+
+![gameover sprite](images/stage-sprite.png)
+
+![blocks_1546522848_8063066](images/blocks_1546522848_8063066.png)
+
+\--- /task \---
+
+\--- task \---
+
+Add this code to your `Game Over` sprite so that it shows at the end of the game:
+
+![gameover sprite](images/gameover-sprite.png)
+
+![blocks_1546522851_2452476](images/blocks_1546522851_2452476.png)
+
+Because you've used a `broadcast [game over] and wait`{:class="block3events"} block on your Stage, the Stage will wait for the `Game Over` sprite to be displayed before ending the game.
+
+\--- /task \---
+
+\--- task \---
+
+Test your game. How many points can you score? If the game is too easy or too hard, can you think of ways to improve it?
+
+\--- /task \---
