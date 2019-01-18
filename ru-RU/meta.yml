@@ -1,0 +1,37 @@
+---
+hero_image: Изображения / клон-wars.png
+theme: Фиолетовый
+listed: true
+copyedit: true
+title: Войны клонов
+description: Создайте игру, в которой вы должны спасти Землю от космических монстров
+version: 4.1.0
+last_tested: 2018-10-11
+steps:
+  - 
+    title: Введение
+  - 
+    title: Make a spaceship
+  - 
+    title: Lightning bolts
+  - 
+    title: 'Challenge: improve the lightning'
+    challenge: true
+  - 
+    title: Space-hippos
+  - 
+    title: Spaceship explosion
+  - 
+    title: Hippos that disappear
+  - 
+    title: 'Challenge: lives and score'
+    challenge: true
+  - 
+    title: Space-bat
+  - 
+    title: Game over
+  - 
+    title: 'Challenge: improve your game'
+    challenge: true
+  - 
+    title: What next?
