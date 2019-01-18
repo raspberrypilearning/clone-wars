@@ -1,61 +1,43 @@
-## 消えるカバ
+## Hippos that disappear
 
-スペースシップがカバにぶつかったらカバが全部消えるように設定しましょう。カバがすべて消えれば、プレイヤーに回復するチャンスが与えられます。
+When the spaceship explodes, all the hippos should disappear so that players of the game can recover.
 
-+ スペースシップがカバにぶつかったら「当たった」のメッセージを`送る`コードを入れましょう。
+\--- task \---
 
-[[[generic-scratch-broadcast-message]]]
+Add code to the spaceship sprite to make it `broadcast`{:class="block3events"} the message "hit" when the `spaceship touches a hippo`{:class="block3sensing"}.
 
-\--- hints \--- \--- hint \--- メッセージを送るためのブロックをたしましょう。**「イベント」**タブにある`送る`ブロックをステージに入れてください。**「新しいメッセージ」**を選んで名前をつけましょう。 \--- /hint \--- \--- hint \--- 以下のようなコードを加えてください：
+![rocket sprite](images/rocket-sprite.png)
 
-```blocks
-[当たった v] を送る
-```
+![blocks_1546522879_1027734](images/blocks_1546522879_1027734.png)
 
-\--- /hint \--- \--- hint \--- 以下のようなコードを加えてください：
+\--- /task \---
 
-```blocks
-⚑ がクリックされたとき
-コスチュームを [普通 v] にする
-<[Hippo1 v] に触れた> まで待つ
-コスチュームを [当たった v] にする
-[当たった v] を送る
-```
+\--- task \---
 
-\--- /hint \--- \--- /hints \---
+All of the `Hippo` sprite clones will receive the "hit" message, and you can instruct them to disappear when the spaceship is hit by adding this code to the `Hippo` sprite:
 
-「当たった」のメッセージがすべての`カバ`に届くと、すべてのカバが消えます。
+![hippo sprite](images/hippo-sprite.png)
 
-+ `カバ`のスプライト（Hippo1）に以下のコードを加えてください。
+![blocks_1546522880_7433825](images/blocks_1546522880_7433825.png)
 
-```blocks
-[当たった v] を受け取ったとき
-このクローンを削除する
-```
+\--- /task \---
 
-+ ゲームをテストしましょう。わざとスペースシップをカバにぶつけましょう。
+\--- task \---
+
+To check whether the new code works, click the green flag and make the spaceship collide with a hippo.
 
 ![screenshot](images/invaders-hippo-collide.png)
 
-スペースシップがカバにぶつかってばくはつした直後に再びカバが現れ始めます。スペースシップに回復するチャンスを与えましょう。
+\--- /task \---
 
-+ すべてのコードをずっとブロックに囲んでください。ぶつかった瞬間、カバがすぐにあらわれないように、`待つ`{:class="blockcontrol"}ブロックも加えましょう。
+After the spaceship explodes, new `Hippo` clones appear, but the spaceship is still exploded! The spaceship needs to reset itself after being hit.
 
-```blocks
-⚑ がクリックされたとき
-ずっと 
-  コスチュームを [普通 v] にする
-  <touching [Hippo1 v]> まで待つ
-  コスチュームを [当たった v] にする
-  [当たった v] を送る
-  (1) 秒待つ
-end
-```
+\--- task \---
 
-\--- challenge \---
+Add a `wait`{:class="block3control"} block at the end of the `Spaceship` sprite's code to create a small pause before hippos begin appearing again. Then add a `forever`{:class="block3control"} block around all of your code to make the code run repeatedly.
 
-### チャレンジ：命（いのち）と点数
+![rocket sprite](images/rocket-sprite.png)
 
-現時点では、プレイヤーはむげんの命を持っています。 `命`{:class="blockdata"}をあらわす変数、`点数`{:class="blockdata"}をあらわす変数、`最高点数`{:class="blockdata"}をあらわす変数をゲームに加えられますか？
+![blocks_1546522882_3185935](images/blocks_1546522882_3185935.png)
 
-[[[generic-scratch-high-score]]] \--- /challenge \---
+\--- /task \---
