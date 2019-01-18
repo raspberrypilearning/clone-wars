@@ -1,85 +1,117 @@
-## Літаючі космічні бегемоти
+## Space-hippos
 
-Додайте багато літаючих бегемотів, які будуть намагатися знищити ваш космічний корабель.
+Now you're going to add lots of flying hippos that try to destroy your spaceship.
 
-+ Створіть новий спрайт з зображенням `Бегемот 1 ` в Скретч бібліотеці. Використайте інструмент **зменшити** для створення спрайту `бегемота` схожого розміру до спрайту `Космічного корабля`.
+\--- task \---
 
-![знімок екрану](images/invaders-hippo.png)
+Create a new sprite with the 'Hippo1' image in the Scratch library. Use the **shrink** tool to make the `Hippo` sprite a similar size to the `Spaceship` sprite.
 
-+ Встановіть стиль обертання спрайту `бегемот` лише зліва направо.
+![screenshot](images/invaders-hippo.png)
 
-[[[generic-scratch-sprite-rotation-style]]]
+\--- /task \---
 
-+ Додайте код, щоб приховати спрайт `бегемота`, коли починається гра.
+\--- task \---
 
-\--- hints \--- \--- hint \--- Код для цього, такий самий, як код, який ви використовували, щоб приховати спрайт `блискавки`, коли гра починається. \--- /hint \--- \--- hint \--- Код який вам потрібен:
+Set the `Hippo` sprite's rotation style to **left-right**.
 
-```blocks
-коли натиснуто ⚑
-сховати
-```
+[[[generic-scratch3-sprite-rotation-style]]]
 
-\--- /hint \--- \--- /hints \---
+\--- /task \---
 
-+ Перейдіть на Сцену, натиснувши на її іконку на нижній панелі.
+\--- task \---
 
-+ Додайте код до Сцени, щоб створювати нового бегемота кожних кілька секунд.
+Add some code to hide the `Hippo` sprite when the game starts.
 
-\--- hints \--- \--- hint \--- Коли зелений прапорець натискається постійно...
+![hippo sprite](images/hippo-sprite.png)
 
-+ Зачекайте 2-4 секунди
-+ Створіть копію спрайта бегемота
+![blocks_1546522869_3620155](images/blocks_1546522869_3620155.png) \--- /task \---
 
-\--- /hint \--- \--- hint \--- Це блоки, які вам потрібні: ![Клон бегемота hint](images/clone-hippo-hint.png)
+\--- task \---
 
-\--- /hint \--- \--- hint \--- Це код, який вам потрібен:
+Add some code to the Stage to create a new `Hippo` clone every few seconds.
 
-```blocks
-коли натиснуто ⚑
-завжди 
-  чекати (випадкове від (2) до (4)) секунд
-  створити клон з [Бегемот v]
-end
-```
+\--- hints \---
 
-\--- /hint \--- \--- /hints \---
+\--- hint \---
 
-+ Поверніться назад до спрайта `бегемота`.
+When the `green flag is clicked`{:class="block3events"}, `repeatedly`{:class="block3control"} `wait`{:class="block3control"} `between 2 and 4 seconds`{:class="block3operators"} and then `create a clone of the Hippo sprite`{:class="block3control"}.
 
-Кожен новий бегемот має з'являтися у випадковому позиції х, і кожен має мати випадкову швидкість.
+\--- /hint \---
 
-+ Створіть нову змінну з назвою `швдкість`{:class="blockdata"} лише для спрайту `Бегемот`.
+\--- hint \---
 
-[[[generic-scratch-add-variable]]]
+Here are the blocks you need:
 
-Ви будете знати, що зробили це правильно коли побачите, що змінна має назву спрайту біля нього, наприклад:
+![blocks_1546522870_9668188](images/blocks_1546522870_9668188.png)
 
-![знімок екрану](images/invaders-var-test.png)
+\--- /hint \---
 
-+ Коли кожнен клон бегемота з'являється, виберіть випадкову швидкість та місце старту перш ніж показувати його на екрані.
+\--- hint \---
 
-```blocks
-коли я починаю як клон
-надати [швидкість v] значення (випадкове від (2) до (4))
-перемістити в x: (випадкове від (-220) до (220)) y: (150)
-показати
-```
+This is what your code should look like:
 
-+ Протестуйте свій код, натиснувши на зелений прапорець. Новий бегемон з'являється кожні кілька секунд? На даний момент ваші бегемоти не рухаються.
+![stage sprite](images/stage-sprite.png)
 
-+ Бегемот повинен рухатися як-небудь, поки в нього не потрапить блискавка. Щоб це сталося, додайте цей код внизу блоків, які ви вже додали:
+![blocks_1546522872_610604](images/blocks_1546522872_610604.png)
 
-```blocks
-повторити поки не <touching [lightning v] ?> 
-  перемістити на (швидкість) кроків
-  поворот ↻ (випадкове від (-10) до (10)) градусів
-  відбивати від меж
-end
-вилучити цей клон
-```
+\--- /hint \---
 
-+ Протестуйте код вашого бегемота. Ви повинні побачити нового клона бегемота, який буде з'являтися кожні кілька секунд, і кожен з яких рухатиметься зі своєю швидкістю.
-    
-    ![знімок екрану](images/hippo-clones.gif)
+\--- /hints \---
 
-+ Перевірте лазерну гармату. Коли ви влучили в бегемота, він розчинився?
+\--- /task \---
+
+Each new hippo clone should appear at a random `x` position, and every clone should have a random speed.
+
+\--- task \---
+
+Create a new variable called `speed`{:class="block3variables"} that is for the `Hippo` sprite only.
+
+[[[generic-scratch3-add-variable]]]
+
+When you've done this correctly, the variable has the name of the sprite next to it, like this:
+
+![screenshot](images/invaders-var-test.png)
+
+\--- /task \---
+
+\--- task \---
+
+When each `Hippo` clone starts, pick a random speed and starting place for it. Then show the clone on the screen.
+
+![blocks_1546522874_2438061](images/blocks_1546522874_2438061.png)
+
+\--- /task \---
+
+\--- task \---
+
+Test your code. Does a new hippo appear every few seconds?
+
+\--- /task \---
+
+At the moment the hippos don't move.
+
+\--- task \---
+
+Each hippo should move around randomly until it gets hit by a lightning bolt. To make that happen, attach this code below the blocks that are already in the `Hippo` sprite's code script:
+
+![blocks_1546522875_874299](images/blocks_1546522875_874299.png)
+
+\--- /task \---
+
+\--- task \---
+
+Test your code again. You should see a new hippo clone appear every few seconds, and each clone should move at a different speed.
+
+\--- no-print \---
+
+![screenshot](images/hippo-clones.gif)
+
+\--- /no-print \---
+
+\--- /task \---
+
+\--- task \---
+
+Now test the spaceship's laser cannon. If a lightning bolt hits a hippo, does the hippo vanish?
+
+\--- /task \---
