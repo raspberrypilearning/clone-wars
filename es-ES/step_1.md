@@ -6,7 +6,7 @@ This is the **Scratch 3** version of the project. There is also a [Scratch 2 ver
 
 ## Introducción
 
-In this project you will learn how to create a game in which you have to save the Earth from space monsters.
+En este proyecto aprenderás cómo crear un juego en el que debes salvar la Tierra de monstruos espaciales.
 
 ### Lo que crearás
 
@@ -33,15 +33,15 @@ Score as many points as you can by shooting flying space-hippos. If you get hit 
 
 * * *
 
-## title: What you will need
+## title: Lo que necesitarás
 
 ### Hardware
 
-+ A computer capable of running Scratch 3
++ Ordenador capaz de ejecutar Scratch 3
 
 ### Software
 
-+ Scratch 3 (either [online](https://rpf.io/scratchon){:target="_blank"} or [offline](https://rpf.io/scratchoff){:target="_blank"})
++ Scratch 3 ([en línea](https://rpf.io/scratchon){:target="_blank"} o [sin conexión](https://rpf.io/scratchoff){:target="_blank"})
 
 ### Downloads
 
@@ -53,7 +53,7 @@ Score as many points as you can by shooting flying space-hippos. If you get hit 
 
 * * *
 
-## title: What you will learn
+## title: Lo que aprenderás
 
 + How to make sprites move using keyboard input
 + How to clone sprites to make copies of them
@@ -69,7 +69,7 @@ Score as many points as you can by shooting flying space-hippos. If you get hit 
 
 \--- no-print \---
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/clone-wars/print){:target="_blank"}.
+Si necesitas imprimir este proyecto, usa la [versión para imprimir](https://projects.raspberrypi.org/en/projects/clone-wars/print){:target="_blank"}.
 
 \--- /no-print \---
 
