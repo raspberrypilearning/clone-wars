@@ -34,13 +34,13 @@ The x-axis goes from the left side of the Stage to the right side. This means th
 
 Add some more code inside the `forever`{:class="block3control"} block to make your spaceship move to the right if the <kbd>right</kbd> arrow key is pressed.
 
-\--- hints \---
+\--- pomoć \---
 
 \--- hint \---
 
 Subtracting `4` from the spaceship's `x` position made it move left, so how could you make the spaceship move right by `4` instead?
 
-\--- /hint \---
+\--- /pomoć \---
 
 \--- hint \---
 
@@ -48,7 +48,7 @@ You need the same code block, but with a different number:
 
 ![blocks_1546522857_8176646](images/blocks_1546522857_8176646.png)
 
-\--- /hint \---
+\--- /pomoć \---
 
 \--- hint \---
 
@@ -56,9 +56,9 @@ Here is the code you need to add below the other code inside the `forever`{:clas
 
 ![rocket sprite](images/rocket-sprite.png)
 
-![blocks_1546522859_4543552](images/blocks_1546522859_4543552.png) \--- /hint \---
+![blocks_1546522859_4543552](images/blocks_1546522859_4543552.png) \--- /pomoć \---
 
-\--- /hints \---
+\--- /pomoć \---
 
 \--- /task \---
 
