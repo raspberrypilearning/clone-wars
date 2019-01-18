@@ -1,24 +1,37 @@
-## Nave espacial explosiva
+## Spaceship explosion
 
-Cuando un hipopótamo toca tu nave espacial, la nave debe explotar!
+When a hippo touches your spaceship, the spaceship should explode!
 
-+ Selecciona el sprite `nave espacial` y renombra el disfrace a 'normal'.
+\--- task \---
 
-+ Dibuja otro disfraz de la explosión de la nave espacial y lo llama 'hit'.
+Select the `Spaceship` sprite and rename its costume 'normal'.
+
+\--- /task \---
+
+\--- task \---
+
+Draw another costume of an exploding spaceship, and call the new costume 'hit'.
 
 ![screenshot](images/invaders-spaceship-costumes.png)
 
-O, si no quieres dibujar la explosión, podrías elegir el disfraz 'sol' de la biblioteca Scratch y utilizar la herramienta **Colora una forma** para cambiar su color y sacar la cara.
+If you don't want to draw the explosion, you can select the 'Sun' costume from the Scratch library, and then use the **Color a shape** tool to change the costume's colour and face.
 
 ![screenshot](images/invaders-sun.png)
 
-+ Agrega un código a tu sprite `nave espacial` para que empieza mostrando el traje de la nave espacial, pero cuando toca un hipopótamo volador, cambie el traje de 'hit':
+\--- /task \---
 
-```blocks
-al presionar la bandera
-cambia el disfraz a [normal v]
-espera hasta que <touching [Hippo1 v]>?
-cambia el disfraz a [hit v]
-```
+\--- task \---
 
-+ Prueba tu código jugando y chocando con un hipopótamo. ¿La nave espacial cambia al disfraz 'hit'?
+Add some code to your `Spaceship` sprite so that it displays the 'normal' costume when the game starts, and switches to the 'hit' costume when it touches a hippo:
+
+![rocket sprite](images/rocket-sprite.png)
+
+![blocks_1546522877_4694302](images/blocks_1546522877_4694302.png)
+
+\--- /task \---
+
+\--- task \---
+
+Test your code. Make the spaceship collide with a hippo. Does the spaceship change to the 'hit' costume?
+
+\--- /task \---
