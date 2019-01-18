@@ -1,24 +1,37 @@
-## انفجار سفينة الفضاء
+## Spaceship explosion
 
-عندما يلمس فراس النهر سفينة الفضاء، يجب أن تنفجر السفينة!
+When a hippo touches your spaceship, the spaceship should explode!
 
-+ حدِّد كائن `Spaceship` وأعد تسمية مظهره إلى 'عادي'.
+\--- task \---
 
-+ ارسم مظهرًا آخر لسفينة فضاء تنفجر وسمِّه 'اصطدام'.
+Select the `Spaceship` sprite and rename its costume 'normal'.
 
-![لقطة الشاشة](images/invaders-spaceship-costumes.png)
+\--- /task \---
 
-أو إذا كنت لا تريد أن ترسم مظهر الانفجار، يمكنك أن تختار المظهر 'Sun' من مكتبة Scratch، وتستخدم أداة **تلوين الشكل** لتغيير لونه وإزالة الوجه.
+\--- task \---
 
-![لقطة الشاشة](images/invaders-sun.png)
+Draw another costume of an exploding spaceship, and call the new costume 'hit'.
 
-+ أضف بعض التعليمات البرمجية إلى كائن `Spaceship` بحيث يبدأ بمظهر سفينة الفضاء العادي، لكن عندما تصطدم السفينة بفرس النهر، تتحول إلى مظهر 'اصطدام':
+![screenshot](images/invaders-spaceship-costumes.png)
 
-```blocks
-عند نقر ⚑
-غيّر المظهر إلى [normal v]
-انتظر حتى <ملامس لـ [Hippo1 v] ؟>
-غيّر المظهر إلى [hit v]
-```
+If you don't want to draw the explosion, you can select the 'Sun' costume from the Scratch library, and then use the **Color a shape** tool to change the costume's colour and face.
 
-+ اختبر التعليمة البرمجية بتشغيل اللعبة والاصطدام السفينة الفضائية بفرس النهر. هل تتغير سفينة الفضاء إلى مظهر 'اصطدام'؟
+![screenshot](images/invaders-sun.png)
+
+\--- /task \---
+
+\--- task \---
+
+Add some code to your `Spaceship` sprite so that it displays the 'normal' costume when the game starts, and switches to the 'hit' costume when it touches a hippo:
+
+![rocket sprite](images/rocket-sprite.png)
+
+![blocks_1546522877_4694302](images/blocks_1546522877_4694302.png)
+
+\--- /task \---
+
+\--- task \---
+
+Test your code. Make the spaceship collide with a hippo. Does the spaceship change to the 'hit' costume?
+
+\--- /task \---
