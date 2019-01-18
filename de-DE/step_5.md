@@ -1,4 +1,4 @@
-## Space-hippos
+## Flughunde!
 
 Now you're going to add lots of flying hippos that try to destroy your spaceship.
 
@@ -30,7 +30,7 @@ Add some code to hide the `Hippo` sprite when the game starts.
 
 Add some code to the Stage to create a new `Hippo` clone every few seconds.
 
-\--- hints \---
+\--- hinweise \---
 
 \--- hint \---
 
@@ -56,7 +56,7 @@ This is what your code should look like:
 
 \--- /hint \---
 
-\--- /hints \---
+\---/hints\---
 
 \--- /task \---
 
@@ -70,7 +70,7 @@ Create a new variable called `speed`{:class="block3variables"} that is for the `
 
 When you've done this correctly, the variable has the name of the sprite next to it, like this:
 
-![screenshot](images/invaders-var-test.png)
+![Screenshot](images/invaders-var-test.png)
 
 \--- /task \---
 
@@ -104,7 +104,7 @@ Test your code again. You should see a new hippo clone appear every few seconds,
 
 \--- no-print \---
 
-![screenshot](images/hippo-clones.gif)
+![Screenshot](images/hippo-clones.gif)
 
 \--- /no-print \---
 
