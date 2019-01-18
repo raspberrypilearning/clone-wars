@@ -5,15 +5,15 @@ listed: true
 copyedit: true
 title: Klonkriege
 description: Erstelle ein Spiel in dem du den Planet Erde vor den Weltraummonstern retten musst
-version: 4
-last_tested: 2017-01-01
+version: 4.1.0
+last_tested: 2018-10-11
 steps:
   - 
-    title: Einführung
+    title: Einleitung
   - 
-    title: Ein Raumschiff bauen
+    title: Baue ein Raumschiff
   - 
-    title: Blitze
+    title: Fliegende Weltraum-Nilpfherde
   - 
     title: 'Fliegende Weltraum-Nilpfherde'
     challenge: true
