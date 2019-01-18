@@ -26,7 +26,7 @@ All of the `Hippo` sprite clones will receive the "hit" message, and you can ins
 
 To check whether the new code works, click the green flag and make the spaceship collide with a hippo.
 
-![screenshot](images/invaders-hippo-collide.png)
+![スクリーンショット](images/invaders-hippo-collide.png)
 
 \--- /task \---
 
