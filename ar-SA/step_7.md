@@ -1,61 +1,43 @@
-## إخفاء أفراس النهر الفضائية الطائرة
+## Hippos that disappear
 
-عندما تصطدم سفينة الفضاء، يجب أن تختفي كل الأفراس لإعطاء اللاعب فرصة لاستعادة قوته.
+When the spaceship explodes, all the hippos should disappear so that players of the game can recover.
 
-+ أضف لبنة إلى التعليمة البرمجية لـ`بث` رسالة "اصطدام" عندما تلامس سفينة الفضاء فرسًا.
+\--- task \---
 
-[[[generic-scratch-broadcast-message]]]
+Add code to the spaceship sprite to make it `broadcast`{:class="block3events"} the message "hit" when the `spaceship touches a hippo`{:class="block3sensing"}.
 
-\--- hints \--- \--- hint \--- أنشئ لبنة `بُث` 'اصطدام' من خلال سحب لبنة من علامة التبويب **الأحداث** ثم النقر على القائمة المنسدلة و تحديد **رسالة جديدة**. \--- /hint \--- \--- hint \--- يجب أن تكون التعليمة البرمجية كما يلي:
+![rocket sprite](images/rocket-sprite.png)
 
-```blocks
-بث [hit v]
-```
+![blocks_1546522879_1027734](images/blocks_1546522879_1027734.png)
 
-\--- /hint \--- \--- hint \--- يجب أن تكون التعليمة البرمجية كما يلي:
+\--- /task \---
 
-```blocks
-عند نقر ⚑
-غيّر المظهر إلى [normal v]
-انتظر حتى <ملامس لـ [Hippo1 v] ؟>
-غيّر المظهر إلى [hit v]
-بث [hit v]
-```
+\--- task \---
 
-\--- /hint \--- \--- /hints \---
+All of the `Hippo` sprite clones will receive the "hit" message, and you can instruct them to disappear when the spaceship is hit by adding this code to the `Hippo` sprite:
 
-ستتلقى كل نسخ كائن `Hippo` هذه الرسالة، لذا يمكنك الآن أن تأمرهم بالإختفاء عندما تصطدم سفينة الفضاء.
+![hippo sprite](images/hippo-sprite.png)
 
-+ أضف هذه التعليمات البرمجية إلى كائن `Hippo`:
+![blocks_1546522880_7433825](images/blocks_1546522880_7433825.png)
 
-```blocks
-عندما تستقبل [hit v]
-احذف هذه النسخة
-```
+\--- /task \---
 
-+ اختبر هذه التعليمة البرمجية ببدء لعبة جديدة وجعل السفينة تصطدم بفرس.
+\--- task \---
 
-![لقطة الشاشة](images/invaders-hippo-collide.png)
+To check whether the new code works, click the green flag and make the spaceship collide with a hippo.
 
-بعد اصطدام السفينة، تبدأ الأفراس في الظهور مرة أخرى في الوقت الذي لا تزال فيه السفينة متفجرة! لنعطِ فرصة للسفينة لتستعيد نفسها بعد الاصطدام.
+![screenshot](images/invaders-hippo-collide.png)
 
-+ أضف لبنة `كرِّر باستمرار`{:class="blockcontrol"} بحيث تشمل كل التعليمة البرمجية لكي تتكرر العملية، و لبنة `انتظر`{:class="blockcontrol"} في النهاية لإضافة فترة إيقاف مؤقت قصيرة قبل أن تبدأ الأفراس في الظهور مرة أخرى.
+\--- /task \---
 
-```blocks
-عند نقر ⚑
-كرر باستمرار 
-  غيّر المظهر إلى [normal v]
-  انتظر حتى <ملامس لـ [Hippo1 v] ؟>
-  غيّر المظهر إلى [hit v]
-  بث [hit v]
-  انتظر (1) ثانية
-end
-```
+After the spaceship explodes, new `Hippo` clones appear, but the spaceship is still exploded! The spaceship needs to reset itself after being hit.
 
-\--- challenge \---
+\--- task \---
 
-### التحدي: المحاولات و النتيجة
+Add a `wait`{:class="block3control"} block at the end of the `Spaceship` sprite's code to create a small pause before hippos begin appearing again. Then add a `forever`{:class="block3control"} block around all of your code to make the code run repeatedly.
 
-في الوقت الحالي، لدى اللاعب عدد لانهائي من المحاولات. هل يمكنك إضافة `محاولات`{:class="blockdata"} أو `نتيجة`{:class="blockdata"} أو حتى `أعلى نتيجة`{:class="blockdata"} إلى لعبتك؟
+![rocket sprite](images/rocket-sprite.png)
 
-[[[generic-scratch-high-score]]] \--- /challenge \---
+![blocks_1546522882_3185935](images/blocks_1546522882_3185935.png)
+
+\--- /task \---
