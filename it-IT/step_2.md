@@ -1,4 +1,4 @@
-## Make a spaceship
+## Creare una navicella spaziale
 
 First make a spaceship that can defend the Earth!
 
@@ -34,7 +34,7 @@ The x-axis goes from the left side of the Stage to the right side. This means th
 
 Add some more code inside the `forever`{:class="block3control"} block to make your spaceship move to the right if the <kbd>right</kbd> arrow key is pressed.
 
-\--- hints \---
+\--- hint \---
 
 \--- hint \---
 
