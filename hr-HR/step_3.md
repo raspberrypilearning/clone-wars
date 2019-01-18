@@ -40,7 +40,7 @@ Now it looks like it fires pointy end–first out of the spaceship.
 
 Add some new code to the `Spaceship` sprite to create a new clone of the lightning bolt if the <kbd>space</kbd> key is pressed.
 
-\--- hints \---
+\--- pomoć \---
 
 \--- hint \---
 
@@ -64,9 +64,9 @@ Here is what your new code should look like:
 
 ![blocks_1546522866_0371468](images/blocks_1546522866_0371468.png)
 
-\--- /hint \---
+\--- /pomoć \---
 
-\--- /hints \---
+\--- /pomoć \---
 
 \--- /task \---
 
