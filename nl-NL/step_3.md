@@ -1,54 +1,89 @@
-## Maak een ruimteschip
+## Lightning bolts
 
-Laten we een ruimteschip maken dat de aarde zal verdedigen!
+Now you are going to give the spaceship the ability to fire lightning bolts!
 
-+ Start een nieuw Scratch-project en verwijder de cat-sprite.
+\--- task \---
 
-[[[generic-scratch-new-project]]]
+Add the `Lightning` sprite from the Scratch library.
 
-+ Voeg de ` stars ` achtergrond en de ` spaceship ` sprite aan je project toe.
-    
-    ![screenshot](images/invaders-sprites.png)
+[[[generic-scratch3-sprite-from-library]]]
 
-[[[generic-scratch-backdrop-from-library]]]
+\--- /task \---
 
-[[[generic-scratch-sprite-from-library]]]
+\--- task \---
 
-+ Gebruik het **kleiner maken ** hulpmiddel om je ` spaceship ` Sprite een beetje kleiner te maken en plaats deze onder aan het scherm.
+When the game starts, the `Lightning` sprite should be hidden until the spaceship fires its laser cannons.
 
-+ Als de ** linker ** de pijltjestoets wordt ingedrukt, moet het ruimteschip naar links bewegen. Voeg deze code toe om je ruimteschip naar links te verplaatsen wanneer de **linker ** pijltjestoets wordt ingedrukt:
+Add this code to the `Lightning` sprite:
 
-```blocks
-    wanneer groene vlag wordt aangeklikt
-  herhaal
-    als <key [left arrow v] pressed?> dan
-      verander x met (-4)
-    einde
-  einde
-```
+![lightning sprite](images/lightning-sprite.png)
 
-De x-as gaat van links naar rechts in het speelveld, dus als je de x-positie van het ruimteschip verandert door een getal ervan af te trekken, zal het ruimteschip naar links bewegen. Deze code is het deel dat je ruimteschip naar links verplaatst:
+![blocks_1546522861_1148694](images/blocks_1546522861_1148694.png)
 
-```blocks
-verander x met (-4)
-```
+\--- /task \---
 
-+ Voeg code toe in het ` herhaal ` {: class = "blockcontrol"} blok om je ruimteschip naar rechts te verplaatsen wanneer de **rechter ** pijltjestoets wordt ingedrukt.
+At the moment, the lightning bolt is really big compared to the spaceship!
 
-\--- hints \--- \--- hint \--- Als je ` 4 ` van de positie van het ruimteschip aftrekt ging het naar links, hoe kun je in plaats daarvan het ruimteschip naar rechts laten bewegen met ` 4 `? \--- / hint \--- \--- hint \--- Je moet hetzelfde blok gebruiken, maar met een andere waarde:
+\--- task \---
 
-```blocks
-verander x met ( )
-```
+Below the code that the `Lightning` sprite already has, add some blocks to make the sprite smaller and to turn it upside down.
 
-\--- / hint \--- \--- hint \--- Dit is de code die je nodig hebt om onder de andere code in het ` herhaal ` Blok {: class = "blockcontrol"} blok in te voegen:
+![lightning sprite](images/lightning-sprite.png)
 
-```blocks
-als <key [right arrow v] pressed?> dan
-   verander x met (4)
-einde
-```
+![blocks_1546522862_7402277](images/blocks_1546522862_7402277.png)
 
-\--- /hint \--- \--- /hints \---
+Now it looks like it fires pointy end–first out of the spaceship.
 
-+ Test je project door op de groene vlag te klikken. Kun je je ruimteschip links en rechts laten bewegen met de pijltjestoetsen?
+\--- /task \---
+
+\--- task \---
+
+Add some new code to the `Spaceship` sprite to create a new clone of the lightning bolt if the <kbd>space</kbd> key is pressed.
+
+\--- hints \---
+
+\--- hint \---
+
+`When the green flag is clicked`{:class="block3events"}, keep checking `forever`{:class="block3control"} `if`{:class="block3control"} the `space key is pressed`{:class="block3sensing"}, and in that case `create a clone of the Lightning`{:class="block3control"} sprite.
+
+\--- /hint \---
+
+\--- hint \---
+
+Here are the blocks you need:
+
+![blocks_1546522864_3579764](images/blocks_1546522864_3579764.png)
+
+\--- /hint \---
+
+\--- hint \---
+
+Here is what your new code should look like:
+
+![rocket sprite](images/rocket-sprite.png)
+
+![blocks_1546522866_0371468](images/blocks_1546522866_0371468.png)
+
+\--- /hint \---
+
+\--- /hints \---
+
+\--- /task \---
+
+\--- task \---
+
+Whenever the game creates a `Lightning` sprite clone, the clone should appear and then move upwards until it reaches the top of the Stage. Then the clone should disappear.
+
+Add this code to the `Lightning` sprite so that clones of it move upwards until they touch the edge of the Stage, and then they get deleted.
+
+![lightning sprite](images/lightning-sprite.png)
+
+![blocks_1546522867_7058573](images/blocks_1546522867_7058573.png)
+
+\--- /task \---
+
+\--- task \---
+
+Press the <kbd>space</kbd> key to test whether the lightning bolt moves correctly.
+
+\--- /task \---
