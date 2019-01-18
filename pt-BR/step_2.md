@@ -1,4 +1,4 @@
-## Make a spaceship
+## Construindo uma espaçonave
 
 First make a spaceship that can defend the Earth!
 
@@ -14,7 +14,7 @@ If you need to download and install the Scratch offline editor, you can find it 
 
 \--- /task \---
 
-![starter project](images/starter-project.png)
+![projeto inicial](images/starter-project.png)
 
 \--- task \---
 
@@ -34,7 +34,7 @@ The x-axis goes from the left side of the Stage to the right side. This means th
 
 Add some more code inside the `forever`{:class="block3control"} block to make your spaceship move to the right if the <kbd>right</kbd> arrow key is pressed.
 
-\--- hints \---
+\--- dica \---
 
 \--- hint \---
 
