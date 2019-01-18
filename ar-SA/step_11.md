@@ -1,17 +1,17 @@
-## Challenge: improve your game
+## التحدي: تحسين لعبتك
 
-What improvements can you make to your game?
+ما التحسينات التي يمكنك أن تُدخلها على لعبتك؟
 
-Here are some ideas:
+إليك بعض الأفكار:
 
-+ Add health packs that you can collect to gain extra lives.
++ أضف مساعدات طبية يمكنك الحصول عليها لاستعادة القوة وكسب محاولات إضافية.
 
-![screenshot](images/invaders-aid.png)
+![لقطة شاشة](images/invaders-aid.png)
 
-+ Add floating rocks that your spaceship must avoid.
++ أضف صخورًا سابحة في الفضاء بحيث يجب أن تتفاداها سفينتك.
 
-![screenshot](images/invaders-rocks.png)
+![لقطة الشاشة](images/invaders-rocks.png)
 
-+ Make more enemies appear when your score gets to `100`.
++ اصنع مزيدًا من الأعداء بحيث يظهرون عندما تصل نتيجتك إلى `100` نقطة.
 
 ![blocks_1546522852_9177506](images/blocks_1546522852_9177506.png)
