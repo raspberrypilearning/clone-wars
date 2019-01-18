@@ -10,15 +10,15 @@ Your spaceship should start with three lives and lose a life whenever it touches
 
 \--- /task \---
 
-\--- task \---
+\--- task \----
 
-Draw a new sprite called `Game Over` using the **text** tool.
+Teken een nieuwe sprite genaamd ` Game Over ` met behulp van de ** tekst ** tool.
 
 ![screenshot](images/invaders-game-over.png)
 
 \--- /task \---
 
-\--- task \---
+\--- task \----
 
 On the Stage, broadcast a `game over`{:class="block3events"} message just before the game ends.
 
@@ -40,7 +40,7 @@ Because you've used a `broadcast [game over] and wait`{:class="block3events"} bl
 
 \--- /task \---
 
-\--- task \---
+\--- task \----
 
 Test your game. How many points can you score? If the game is too easy or too hard, can you think of ways to improve it?
 
