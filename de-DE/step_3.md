@@ -1,10 +1,10 @@
-## Lightning bolts
+## Blitze
 
 Now you are going to give the spaceship the ability to fire lightning bolts!
 
 \--- task \---
 
-Add the `Lightning` sprite from the Scratch library.
+Fügen Sie den ` Blitz hinzu ` Sprite aus der Scratch-Bibliothek.
 
 [[[generic-scratch3-sprite-from-library]]]
 
@@ -40,7 +40,7 @@ Now it looks like it fires pointy end–first out of the spaceship.
 
 Add some new code to the `Spaceship` sprite to create a new clone of the lightning bolt if the <kbd>space</kbd> key is pressed.
 
-\--- hints \---
+\--- hinweise \---
 
 \--- hint \---
 
@@ -66,7 +66,7 @@ Here is what your new code should look like:
 
 \--- /hint \---
 
-\--- /hints \---
+\---/hints\---
 
 \--- /task \---
 
