@@ -1,4 +1,4 @@
-## Make a spaceship
+## Izrada svemirskog broda
 
 First make a spaceship that can defend the Earth!
 
@@ -14,7 +14,7 @@ If you need to download and install the Scratch offline editor, you can find it 
 
 \--- /task \---
 
-![starter project](images/starter-project.png)
+![početni projekat](images/starter-project.png)
 
 \--- task \---
 
@@ -34,7 +34,7 @@ The x-axis goes from the left side of the Stage to the right side. This means th
 
 Add some more code inside the `forever`{:class="block3control"} block to make your spaceship move to the right if the <kbd>right</kbd> arrow key is pressed.
 
-\--- hints \---
+\--- pomoć \---
 
 \--- hint \---
 
@@ -42,7 +42,7 @@ Subtracting `4` from the spaceship's `x` position made it move left, so how coul
 
 \--- /hint \---
 
-\--- hint \---
+\--- pomoć \---
 
 You need the same code block, but with a different number:
 
@@ -50,7 +50,7 @@ You need the same code block, but with a different number:
 
 \--- /hint \---
 
-\--- hint \---
+\--- pomoć \---
 
 Here is the code you need to add below the other code inside the `forever`{:class="block3control"} block:
 
