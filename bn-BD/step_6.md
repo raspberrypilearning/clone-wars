@@ -2,13 +2,13 @@
 
 When a hippo touches your spaceship, the spaceship should explode!
 
-\--- task \---
+\--- কাজ \---
 
 Select the `Spaceship` sprite and rename its costume 'normal'.
 
-\--- /task \---
+\--- /কাজ \---
 
-\--- task \---
+\--- কাজ \---
 
 Draw another costume of an exploding spaceship, and call the new costume 'hit'.
 
@@ -18,9 +18,9 @@ If you don't want to draw the explosion, you can select the 'Sun' costume from t
 
 ![screenshot](images/invaders-sun.png)
 
-\--- /task \---
+\--- /কাজ \---
 
-\--- task \---
+\--- কাজ \---
 
 Add some code to your `Spaceship` sprite so that it displays the 'normal' costume when the game starts, and switches to the 'hit' costume when it touches a hippo:
 
@@ -28,10 +28,10 @@ Add some code to your `Spaceship` sprite so that it displays the 'normal' costum
 
 ![blocks_1546522877_4694302](images/blocks_1546522877_4694302.png)
 
-\--- /task \---
+\--- /কাজ \---
 
-\--- task \---
+\--- কাজ \---
 
 Test your code. Make the spaceship collide with a hippo. Does the spaceship change to the 'hit' costume?
 
-\--- /task \---
+\--- /কাজ \---
