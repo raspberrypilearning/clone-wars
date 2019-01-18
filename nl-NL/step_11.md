@@ -1,17 +1,17 @@
-## Challenge: improve your game
+## Challenge: verbeter je spel
 
-What improvements can you make to your game?
+Welke verbeteringen kunt je aanbrengen in je spel?
 
-Here are some ideas:
+Hier zijn wat ideeën:
 
-+ Add health packs that you can collect to gain extra lives.
++ Voeg pakketten toe die je kunt verzamelen om extra levens te verdienen.
 
 ![screenshot](images/invaders-aid.png)
 
-+ Add floating rocks that your spaceship must avoid.
++ Voeg zwevende stenen toe die je ruimteschip moet vermijden.
 
 ![screenshot](images/invaders-rocks.png)
 
-+ Make more enemies appear when your score gets to `100`.
++ Laat wanneer je score ` 100 wordt ` meer vijanden verschijnen.
 
 ![blocks_1546522852_9177506](images/blocks_1546522852_9177506.png)
