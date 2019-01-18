@@ -6,7 +6,7 @@ This is the **Scratch 3** version of the project. There is also a [Scratch 2 ver
 
 ## Вступ
 
-In this project you will learn how to create a game in which you have to save the Earth from space monsters.
+У цьому проекті ви дізнаєтеся як створити гру, в якій ви повинні врятувати Землю від космічних монстрів.
 
 ### Що ви будете робити
 
@@ -35,11 +35,11 @@ Score as many points as you can by shooting flying space-hippos. If you get hit 
 
 ## title: What you will need
 
-### Hardware
+### Обладнання
 
-+ A computer capable of running Scratch 3
++ Комп'ютер, що підтримує Scratch 3
 
-### Software
+### Програмне забезпечення
 
 + Scratch 3 (either [online](https://rpf.io/scratchon){:target="_blank"} or [offline](https://rpf.io/scratchoff){:target="_blank"})
 
@@ -69,7 +69,7 @@ Score as many points as you can by shooting flying space-hippos. If you get hit 
 
 \--- no-print \---
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/clone-wars/print){:target="_blank"}.
+Якщо вам потрібно роздрукувати цей проект, будь ласка скористайтеся [ версією для друку ](https://projects.raspberrypi.org/en/projects/clone-wars/print) {: target = "_ blank"}.
 
 \--- /no-print \---
 
