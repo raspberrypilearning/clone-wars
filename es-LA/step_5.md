@@ -1,85 +1,117 @@
-## Flying space-hippos
+## Space-hippos
 
-Let's add lots of flying hippos that will try to destroy your spaceship.
+Now you're going to add lots of flying hippos that try to destroy your spaceship.
 
-+ Create a new sprite with the `Hippo1` image in the Scratch library. Use the **shrink** tool to make the `Hippo` sprite a similar size to the `Spaceship` sprite.
+\--- task \---
+
+Create a new sprite with the 'Hippo1' image in the Scratch library. Use the **shrink** tool to make the `Hippo` sprite a similar size to the `Spaceship` sprite.
 
 ![screenshot](images/invaders-hippo.png)
 
-+ Set the `Hippo` sprite's rotation style to be left-right only.
+\--- /task \---
 
-[[[generic-scratch-sprite-rotation-style]]]
+\--- task \---
 
-+ Add some code to hide the `Hippo` sprite when the game starts.
+Set the `Hippo` sprite's rotation style to **left-right**.
 
-\--- hints \--- \--- hint \--- The code for this is exactly the same as the code you used to hide the `Lightning` sprite when the game starts. \--- /hint \--- \--- hint \--- Here is the code you will need:
+[[[generic-scratch3-sprite-rotation-style]]]
 
-```blocks
-when green flag clicked
-hide
-```
+\--- /task \---
 
-\--- /hint \--- \--- /hints \---
+\--- task \---
 
-+ Switch to the Stage by clicking on it in the bottom panel.
+Add some code to hide the `Hippo` sprite when the game starts.
 
-+ Add some code to the Stage to create a new hippo every few seconds.
+![hippo sprite](images/hippo-sprite.png)
 
-\--- hints \--- \--- hint \--- When the green flag is clicked: Repeatedly...
+![blocks_1546522869_3620155](images/blocks_1546522869_3620155.png) \--- /task \---
 
-+ Wait between 2 and 4 seconds
-+ Create a clone of the hippo sprite
+\--- task \---
 
-\--- /hint \--- \--- hint \--- Here are the blocks you will need: ![Clone hippo hint](images/clone-hippo-hint.png)
+Add some code to the Stage to create a new `Hippo` clone every few seconds.
 
-\--- /hint \--- \--- hint \--- Here is the code you will need:
+\--- hints \---
 
-```blocks
-when flag clicked
-forever
-    wait (pick random (2) to (4)) secs
-    create clone of [Hippo1 v]
-end
-```
+\--- hint \---
 
-\--- /hint \--- \--- /hints \---
+When the `green flag is clicked`{:class="block3events"}, `repeatedly`{:class="block3control"} `wait`{:class="block3control"} `between 2 and 4 seconds`{:class="block3operators"} and then `create a clone of the Hippo sprite`{:class="block3control"}.
 
-+ Switch back to the `Hippo` sprite.
+\--- /hint \---
 
-Each new hippo should appear at a random x-position, and each should have a random speed.
+\--- hint \---
 
-+ Create a new variable called `speed`{:class="blockdata"} that is for the `Hippo` sprite only.
+Here are the blocks you need:
 
-[[[generic-scratch-add-variable]]]
+![blocks_1546522870_9668188](images/blocks_1546522870_9668188.png)
 
-You'll know you've done this correctly when you can see that the variable has the name of the sprite next to it, like this:
+\--- /hint \---
+
+\--- hint \---
+
+This is what your code should look like:
+
+![stage sprite](images/stage-sprite.png)
+
+![blocks_1546522872_610604](images/blocks_1546522872_610604.png)
+
+\--- /hint \---
+
+\--- /hints \---
+
+\--- /task \---
+
+Each new hippo clone should appear at a random `x` position, and every clone should have a random speed.
+
+\--- task \---
+
+Create a new variable called `speed`{:class="block3variables"} that is for the `Hippo` sprite only.
+
+[[[generic-scratch3-add-variable]]]
+
+When you've done this correctly, the variable has the name of the sprite next to it, like this:
 
 ![screenshot](images/invaders-var-test.png)
 
-+ When each hippo clone starts, pick a random speed and starting place before showing it on the screen.
+\--- /task \---
 
-```blocks
-when I start as a clone
-set [speed v] to (pick random (2) to (4))
-go to x: (pick random (-220) to (220)) y: (150)
-show
-```
+\--- task \---
 
-+ Test your code by clicking the green flag. Does a new hippo appear every few seconds? At the moment your hippos won't move.
+When each `Hippo` clone starts, pick a random speed and starting place for it. Then show the clone on the screen.
 
-+ The hippo should move around randomly until it gets hit by a lightning bolt. To make that happen, attach this code below the blocks you just added:
+![blocks_1546522874_2438061](images/blocks_1546522874_2438061.png)
 
-```blocks
-repeat until <touching [lightning v] ?>
-    move (speed) steps
-    turn right (pick random (-10) to (10)) degrees
-    if on edge, bounce
-end
-delete this clone
-```
+\--- /task \---
 
-+ Test out your hippo code. You should see a new hippo clone appear every few seconds, each moving at its own speed.
-    
-    ![screenshot](images/hippo-clones.gif)
+\--- task \---
 
-+ Test your laser cannon. If you hit a hippo, does it vanish?
+Test your code. Does a new hippo appear every few seconds?
+
+\--- /task \---
+
+At the moment the hippos don't move.
+
+\--- task \---
+
+Each hippo should move around randomly until it gets hit by a lightning bolt. To make that happen, attach this code below the blocks that are already in the `Hippo` sprite's code script:
+
+![blocks_1546522875_874299](images/blocks_1546522875_874299.png)
+
+\--- /task \---
+
+\--- task \---
+
+Test your code again. You should see a new hippo clone appear every few seconds, and each clone should move at a different speed.
+
+\--- no-print \---
+
+![screenshot](images/hippo-clones.gif)
+
+\--- /no-print \---
+
+\--- /task \---
+
+\--- task \---
+
+Now test the spaceship's laser cannon. If a lightning bolt hits a hippo, does the hippo vanish?
+
+\--- /task \---
