@@ -6,7 +6,7 @@ This is the **Scratch 3** version of the project. There is also a [Scratch 2 ver
 
 ## はじめに
 
-In this project you will learn how to create a game in which you have to save the Earth from space monsters.
+このプロジェクトでは、宇宙のかいぶつから地球を救うゲームを作ります。
 
 ### 作るもの
 
@@ -33,15 +33,15 @@ Score as many points as you can by shooting flying space-hippos. If you get hit 
 
 * * *
 
-## title: What you will need
+## title: 必要なもの
 
-### Hardware
+### ハードウェア
 
-+ A computer capable of running Scratch 3
++ Scratch 3を実行できるコンピュータ
 
-### Software
+### ソフトウェア
 
-+ Scratch 3 (either [online](https://rpf.io/scratchon){:target="_blank"} or [offline](https://rpf.io/scratchoff){:target="_blank"})
++ Scratch 3 ([オンライン](https://rpf.io/scratchon){:target="_blank"}または[オフライン](https://rpf.io/scratchoff){:target="_blank"})
 
 ### Downloads
 
@@ -53,7 +53,7 @@ Score as many points as you can by shooting flying space-hippos. If you get hit 
 
 * * *
 
-## title: What you will learn
+## title: 学習すること
 
 + How to make sprites move using keyboard input
 + How to clone sprites to make copies of them
@@ -69,7 +69,7 @@ Score as many points as you can by shooting flying space-hippos. If you get hit 
 
 \--- no-print \---
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/clone-wars/print){:target="_blank"}.
+このプロジェクトを印刷する必要がある場合は、 [印刷用バージョン](https://projects.raspberrypi.org/en/projects/clone-wars/print){:target="_ blank"}を使用してください。
 
 \--- /no-print \---
 
