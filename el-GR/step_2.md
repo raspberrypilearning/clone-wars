@@ -1,8 +1,8 @@
-## Make a spaceship
+## Φτιάξε ένα διαστημόπλοιο
 
 First make a spaceship that can defend the Earth!
 
-\--- task \---
+\--- task --
 
 Open the 'Clone wars' Scratch starter project.
 
@@ -14,9 +14,9 @@ If you need to download and install the Scratch offline editor, you can find it 
 
 \--- /task \---
 
-![starter project](images/starter-project.png)
+![αρχικοποίηση έργου](images/starter-project.png)
 
-\--- task \---
+\--- task --
 
 Add this code to the spaceship sprite to make the spaceship move left if the <kbd>left</kbd> arrow is pressed:
 
@@ -30,11 +30,11 @@ The x-axis goes from the left side of the Stage to the right side. This means th
 
 \--- /task \---
 
-\--- task \---
+\--- task --
 
 Add some more code inside the `forever`{:class="block3control"} block to make your spaceship move to the right if the <kbd>right</kbd> arrow key is pressed.
 
-\--- hints \---
+\--- υποδείξεις \---
 
 \--- hint \---
 
@@ -58,11 +58,11 @@ Here is the code you need to add below the other code inside the `forever`{:clas
 
 ![blocks_1546522859_4543552](images/blocks_1546522859_4543552.png) \--- /hint \---
 
-\--- /hints \---
+\--- /υποδείξεις \---
 
 \--- /task \---
 
-\--- task \---
+\--- task --
 
 Test your project by clicking the green flag. Can you press the arrow keys to make your spaceship move left and right?
 
