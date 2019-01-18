@@ -1,16 +1,16 @@
-\--- no-print \---
+\----প্রিন্ট করা লাগবেনা --
 
 This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/clone-wars-scratch2).
 
-\--- /no-print \---
+\----প্রিন্ট করা লাগবেনা --
 
-## Introduction
+## পরিচিতি
 
 In this project you will learn how to create a game in which you have to save the Earth from space monsters.
 
-### What you will make
+### যা তৈরি করতে হবে
 
-\--- no-print \---
+\----প্রিন্ট করা লাগবেনা --
 
 Click the green flag in the example game below to start, and then press the <kbd>left</kbd> and <kbd>right</kbd> arrow keys to move the spaceship, and the <kbd>space</kbd> key to shoot.
 
@@ -19,27 +19,27 @@ Click the green flag in the example game below to start, and then press the <kbd
   <img src="images/invaders-final.png">
 </div>
 
-\--- /no-print \---
+\----প্রিন্ট করা লাগবেনা --
 
 Score as many points as you can by shooting flying space-hippos. If you get hit by a hippo or by an orange dropped by the bats, you lose a life.
 
-\--- print-only \---
+\---প্রিন্ট শুধুমাত্র\---
 
 ![desc](images/showcase.png)
 
-\--- /print-only \---
+\---প্রিন্ট শুধুমাত্র\---
 
 \--- collapse \---
 
 * * *
 
-## title: What you will need
+## যা যা প্রয়োজন
 
-### Hardware
+### হার্ডওয়্যার
 
-+ A computer capable of running Scratch 3
++ একটি কম্পিউটার যেথানে স্ক্র্যাচ ২.০ (Scratch 3) চালানো যাবে
 
-### Software
+### সফটওয়্যার
 
 + Scratch 3 (either [online](https://rpf.io/scratchon){:target="_blank"} or [offline](https://rpf.io/scratchoff){:target="_blank"})
 
@@ -47,19 +47,19 @@ Score as many points as you can by shooting flying space-hippos. If you get hit 
 
 [Find the downloads here](http://rpf.io/p/en/clone-wars-go).
 
-\--- /collapse \---
+-- /collapse \---
 
 \--- collapse \---
 
 * * *
 
-## title: What you will learn
+## যা শিখতে পারবেন
 
 + How to make sprites move using keyboard input
 + How to clone sprites to make copies of them
 + How to use 'broadcast' and 'receive blocks' to send messages
 
-\--- /collapse \---
+-- /collapse \---
 
 \--- collapse \---
 
@@ -67,12 +67,12 @@ Score as many points as you can by shooting flying space-hippos. If you get hit 
 
 ## title: Additional notes for educators
 
-\--- no-print \---
+\----প্রিন্ট করা লাগবেনা --
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/clone-wars/print){:target="_blank"}.
+আপনি যদি এই প্রজেক্টটি প্রিন্ট করতে চান তবে [printer-friendly version](https://projects.raspberrypi.org/en/projects/clone-wars/print) ব্যবহার করুন {: target = "_ blank"}।
 
-\--- /no-print \---
+\----প্রিন্ট করা লাগবেনা --
 
 [If you need the solution to this project, you can find it here](http://rpf.io/p/en/clone-wars-get).
 
-\--- /collapse \---
+-- /collapse \---
