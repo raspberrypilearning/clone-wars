@@ -1,4 +1,4 @@
-## Space-hippos
+## Vliegende ruimte-nijlpaarden
 
 Now you're going to add lots of flying hippos that try to destroy your spaceship.
 
@@ -10,7 +10,7 @@ Create a new sprite with the 'Hippo1' image in the Scratch library. Use the **sh
 
 \--- /task \---
 
-\--- task \---
+\--- task \----
 
 Set the `Hippo` sprite's rotation style to **left-right**.
 
@@ -18,15 +18,15 @@ Set the `Hippo` sprite's rotation style to **left-right**.
 
 \--- /task \---
 
-\--- task \---
+\--- task \----
 
-Add some code to hide the `Hippo` sprite when the game starts.
+Voeg code toe om als het spel begint de ` Hippo` Sprite te verbergen.
 
 ![hippo sprite](images/hippo-sprite.png)
 
 ![blocks_1546522869_3620155](images/blocks_1546522869_3620155.png) \--- /task \---
 
-\--- task \---
+\--- task \----
 
 Add some code to the Stage to create a new `Hippo` clone every few seconds.
 
@@ -62,7 +62,7 @@ This is what your code should look like:
 
 Each new hippo clone should appear at a random `x` position, and every clone should have a random speed.
 
-\--- task \---
+\--- task \----
 
 Create a new variable called `speed`{:class="block3variables"} that is for the `Hippo` sprite only.
 
@@ -74,7 +74,7 @@ When you've done this correctly, the variable has the name of the sprite next to
 
 \--- /task \---
 
-\--- task \---
+\--- task \----
 
 When each `Hippo` clone starts, pick a random speed and starting place for it. Then show the clone on the screen.
 
@@ -82,7 +82,7 @@ When each `Hippo` clone starts, pick a random speed and starting place for it. T
 
 \--- /task \---
 
-\--- task \---
+\--- task \----
 
 Test your code. Does a new hippo appear every few seconds?
 
@@ -98,7 +98,7 @@ Each hippo should move around randomly until it gets hit by a lightning bolt. To
 
 \--- /task \---
 
-\--- task \---
+\--- task \----
 
 Test your code again. You should see a new hippo clone appear every few seconds, and each clone should move at a different speed.
 
