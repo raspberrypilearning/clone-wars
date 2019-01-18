@@ -1,54 +1,89 @@
-## إنشاء سفينة فضاء
+## Lightning bolts
 
-لننشئ سفينة فضاء تدافع عن كوكب الأرض!
+Now you are going to give the spaceship the ability to fire lightning bolts!
 
-+ ابدأ مشروع Scratch جديدًا، واحذف كائن القطة.
+\--- task \---
 
-[[[generic-scratch-new-project]]]
+Add the `Lightning` sprite from the Scratch library.
 
-+ أضف الخلفية `stars` والكائن `Spaceship` لمشروعك.
-    
-    ![لقطة الشاشة](images/invaders-sprites.png)
+[[[generic-scratch3-sprite-from-library]]]
 
-[[[generic-scratch-backdrop-from-library]]]
+\--- /task \---
 
-[[[generic-scratch-sprite-from-library]]]
+\--- task \---
 
-+ استخدم الأداة **التقليص** لتصغير الكائن `Spaceship` بعض الشيء، واجعل موقعه بالقرب من أسفل الشاشة.
+When the game starts, the `Lightning` sprite should be hidden until the spaceship fires its laser cannons.
 
-+ عند الضغط على مفتاح سهم **اليسار**، يجب أن تتحرك سفينة الفضاء إلى اليسار. أضف هذه التعليمة البرمجية لتتحرك سفينة الفضاء إلى اليسار عند الضغط على مفتاح سهم **اليسار**:
+Add this code to the `Lightning` sprite:
 
-```blocks
-    عند نقر ⚑
-كرر باستمرار 
-  إذا <key [left arrow v] pressed?> 
-    غيِّر الموضع س بمقدار (-4)
-  end
-end
-```
+![lightning sprite](images/lightning-sprite.png)
 
-يتحرك المحور x من اليسار إلى اليمين على المنصة، لذا إذا جعلتَ موقع x لسفينة الفضاء أصغر من خلال الطرح منه، فسوف تتحرك سفينة الفضاء مسافة ابعد إلى اليسار. هذه التعليمة البرمجية هي الجزء الذي يجعل سفينة الفضاء تتحرك إلى اليسار:
+![blocks_1546522861_1148694](images/blocks_1546522861_1148694.png)
 
-```blocks
-غيِّر الموضع س بمقدار (-4)
-```
+\--- /task \---
 
-+ أضف بعض التعليمات البرمجية الأخرى داخل لبنة `كرِّر باستمرار`{:class="blockcontrol"} لتجعل سفينة الفضاء تتحرك إلى اليمين عند الضغط على مفتاح سهم **اليمين**.
+At the moment, the lightning bolt is really big compared to the spaceship!
 
-\--- hints \--- \--- hint \--- إذا أدى طرح `4` من موقع سفينة الفضاء إلى تحريكها إلى اليسار، فكيف تجعلها تتحرك بمقدار`4` إلى اليمين؟ \--- /hint \--- \--- hint \--- ستحتاج إلى استخدام التعليمة البرمجية نفسها لكن باستخدام رقم آخر:
+\--- task \---
 
-```blocks
-غيِّر الموضع س بمقدار ()
-```
+Below the code that the `Lightning` sprite already has, add some blocks to make the sprite smaller and to turn it upside down.
 
-\--- /hint \--- \--- hint \--- هذه هي التعليمة البرمجية التي ستحتاج إلى إضافتها أسفل التعليمات البرمجية الأخرى داخل لبنة `كرِّر باستمرار`{:class="blockcontrol"}:
+![lightning sprite](images/lightning-sprite.png)
 
-```blocks
-إذا <مفتاح [السهم الأيمن v] مضغوط؟> 
-  غيِّر الموضع س بمقدار (4)
-end
-```
+![blocks_1546522862_7402277](images/blocks_1546522862_7402277.png)
 
-\--- /hint \--- \--- /hints \---
+Now it looks like it fires pointy end–first out of the spaceship.
 
-+ اختبر مشروعك بالنقر على العلم الأخضر. هل يمكنك أن تجعل سفينة الفضاء تتحرك إلى اليسار وإلى اليمين باستخدام مفاتيح الأسهم؟
+\--- /task \---
+
+\--- task \---
+
+Add some new code to the `Spaceship` sprite to create a new clone of the lightning bolt if the <kbd>space</kbd> key is pressed.
+
+\--- hints \---
+
+\--- hint \---
+
+`When the green flag is clicked`{:class="block3events"}, keep checking `forever`{:class="block3control"} `if`{:class="block3control"} the `space key is pressed`{:class="block3sensing"}, and in that case `create a clone of the Lightning`{:class="block3control"} sprite.
+
+\--- /hint \---
+
+\--- hint \---
+
+Here are the blocks you need:
+
+![blocks_1546522864_3579764](images/blocks_1546522864_3579764.png)
+
+\--- /hint \---
+
+\--- hint \---
+
+Here is what your new code should look like:
+
+![rocket sprite](images/rocket-sprite.png)
+
+![blocks_1546522866_0371468](images/blocks_1546522866_0371468.png)
+
+\--- /hint \---
+
+\--- /hints \---
+
+\--- /task \---
+
+\--- task \---
+
+Whenever the game creates a `Lightning` sprite clone, the clone should appear and then move upwards until it reaches the top of the Stage. Then the clone should disappear.
+
+Add this code to the `Lightning` sprite so that clones of it move upwards until they touch the edge of the Stage, and then they get deleted.
+
+![lightning sprite](images/lightning-sprite.png)
+
+![blocks_1546522867_7058573](images/blocks_1546522867_7058573.png)
+
+\--- /task \---
+
+\--- task \---
+
+Press the <kbd>space</kbd> key to test whether the lightning bolt moves correctly.
+
+\--- /task \---
