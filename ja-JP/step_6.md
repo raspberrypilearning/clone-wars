@@ -1,24 +1,37 @@
-## ばくはつするスペースシップ
+## Spaceship explosion
 
-カバにぶつかたらスペースシップがばくはつするようにしましょう！
+When a hippo touches your spaceship, the spaceship should explode!
 
-+ `スペースシップ`のスプライト（Spaceship）を選んでコスチュームの名前を「普通」に変えて下さい。
+\--- task \---
 
-+ ばくはつしたよきのスペースシップのコスチュームを描いてみましょう。「当たった」という名前をコスチュームにつけましょう。
+Select the `Spaceship` sprite and rename its costume 'normal'.
 
-![スクリーンショット](images/invaders-spaceship-costumes.png)
+\--- /task \---
 
-ばくはつしたスペースシップを描きたくない場合、スクラッチのライブラリーから「Sun」コスチュームを選んで**「図形の色」**のツールで太陽の顔を消し、色を変えましょう。そうするとばくはつのようなコスチュームを作れます。
+\--- task \---
 
-![スクリーンショット](images/invaders-sun.png)
+Draw another costume of an exploding spaceship, and call the new costume 'hit'.
 
-+ カバにぶつかたらスペースシップのコスチュームが「普通」から「当たった」に変わるようにしましょう。`スペースシップ`のスプライトにコードを加えます：
+![screenshot](images/invaders-spaceship-costumes.png)
 
-```blocks
-⚑ がクリックされたとき
-コスチュームを [普通 v] にする
-<[Hippo1 v] に触れた> まで待つ
-コスチュームを [当たった v] にする
-```
+If you don't want to draw the explosion, you can select the 'Sun' costume from the Scratch library, and then use the **Color a shape** tool to change the costume's colour and face.
 
-+ ゲームを実行しましょう。スペースシップがカバにぶつかったとき、スペースシップは「当たった」というコスチュームに変わりますか？
+![screenshot](images/invaders-sun.png)
+
+\--- /task \---
+
+\--- task \---
+
+Add some code to your `Spaceship` sprite so that it displays the 'normal' costume when the game starts, and switches to the 'hit' costume when it touches a hippo:
+
+![rocket sprite](images/rocket-sprite.png)
+
+![blocks_1546522877_4694302](images/blocks_1546522877_4694302.png)
+
+\--- /task \---
+
+\--- task \---
+
+Test your code. Make the spaceship collide with a hippo. Does the spaceship change to the 'hit' costume?
+
+\--- /task \---
