@@ -1,61 +1,43 @@
-## Nilski konji koji nestaju
+## Hippos that disappear
 
-Kada je svemirski brod udaren, svi nilski konji treba da nestanu kako bi igraču dali mogućnost da se oporavi.
+When the spaceship explodes, all the hippos should disappear so that players of the game can recover.
 
-+ Dodaj blok svom kôdu da `pošalje` (broadcast) poruku ''udaren'' kada svemirski brod dodirne nilskog konja.
+\--- task \---
 
-[[[generic-scratch-broadcast-message]]]
+Add code to the spaceship sprite to make it `broadcast`{:class="block3events"} the message "hit" when the `spaceship touches a hippo`{:class="block3sensing"}.
 
-\--- hints \--- \--- hint \--- Napravi blok `broadcast` 'udaren' tako što ćeš prevući blok sa kartice **Events** (Događaji), a zatim kliknuti na padajući meni i izabrati **new message** (nova poruka). \--- /hint \--- \--- hint \--- Ovako treba da izgleda tvoj blok:
+![rocket sprite](images/rocket-sprite.png)
 
-```blocks
-broadcast [udaren v]
-```
+![blocks_1546522879_1027734](images/blocks_1546522879_1027734.png)
 
-\--- /hint \--- \--- hint \--- Ovako treba da izgleda tvoj kôd:
+\--- /task \---
 
-```blocks
-when flag clicked
-switch costume to [normalan v]
-wait until <touching [Hippo1 v]>?
-switch costume to [udaren v]
-broadcast [udaren v]
-```
+\--- task \---
 
-\--- /hint \--- \--- /hints \---
+All of the `Hippo` sprite clones will receive the "hit" message, and you can instruct them to disappear when the spaceship is hit by adding this code to the `Hippo` sprite:
 
-Svi klonovi lika `Nilskog konja` će čuti ovu poruku, tako da sada možeš da im daš naredbu da nestanu kada je svemirski brod udaren.
+![hippo sprite](images/hippo-sprite.png)
 
-+ Dodaj ovaj kôd liku `Nilskog konja`:
+![blocks_1546522880_7433825](images/blocks_1546522880_7433825.png)
 
-```blocks
-when I receive [udaren v]
-delete this clone
-```
+\--- /task \---
 
-+ Isprobaj ovaj kôd tako što ćeš započeti novu igru i namjerno se sudariti sa nilskim konjem.
+\--- task \---
+
+To check whether the new code works, click the green flag and make the spaceship collide with a hippo.
 
 ![screenshot](images/invaders-hippo-collide.png)
 
-Nakon sudara, nilski konji počinju ponovo da se pojavljuju, a svemirski brod još uvijek eksplodira! Napravimo da svemirski brod može da se vrati u početno stanje nakon što je udaren.
+\--- /task \---
 
-+ Dodaj blok `forever`{:class="blockcontrol"} (ponavljaj) oko cijelog svog kôda da napraviš da se proces ponavlja, i blok `wait`{:class="blockcontrol"} (čekaj) na kraju, da dodaš malu pauzu prije nego što nilski konji počnu ponovo da se pojavljuju.
+After the spaceship explodes, new `Hippo` clones appear, but the spaceship is still exploded! The spaceship needs to reset itself after being hit.
 
-```blocks
-when flag clicked
-forever
-    switch costume to [normalan v]
-    wait until <touching [Hippo1 v]>?
-    switch costume to [udaren v]
-    broadcast [udaren v]
-    wait (1) secs
-end
-```
+\--- task \---
 
-\--- challenge \---
+Add a `wait`{:class="block3control"} block at the end of the `Spaceship` sprite's code to create a small pause before hippos begin appearing again. Then add a `forever`{:class="block3control"} block around all of your code to make the code run repeatedly.
 
-### Izazov: životi i rezultat
+![rocket sprite](images/rocket-sprite.png)
 
-Trenutno igrač ima neograničen broj života. Da li možeš u svoju igru da dodaš `živote`{:class="blockdata"}, `rezultat`{:class="blockdata"}, pa čak i `najbolji rezultat`{:class="blockdata"}?
+![blocks_1546522882_3185935](images/blocks_1546522882_3185935.png)
 
-[[[generic-scratch-high-score]]] \--- /challenge \---
+\--- /task \---
