@@ -1,10 +1,10 @@
-## Lightning bolts
+## Foudre
 
 Now you are going to give the spaceship the ability to fire lightning bolts!
 
 \--- task \---
 
-Add the `Lightning` sprite from the Scratch library.
+Ajouter le lutin `Lightning `de la bibliothèque Scratch.
 
 [[[generic-scratch3-sprite-from-library]]]
 
@@ -40,13 +40,13 @@ Now it looks like it fires pointy end–first out of the spaceship.
 
 Add some new code to the `Spaceship` sprite to create a new clone of the lightning bolt if the <kbd>space</kbd> key is pressed.
 
-\--- hints \---
+\--- astuces \---
 
 \--- hint \---
 
 `When the green flag is clicked`{:class="block3events"}, keep checking `forever`{:class="block3control"} `if`{:class="block3control"} the `space key is pressed`{:class="block3sensing"}, and in that case `create a clone of the Lightning`{:class="block3control"} sprite.
 
-\--- /hint \---
+\--- /indice \---
 
 \--- hint \---
 
@@ -54,7 +54,7 @@ Here are the blocks you need:
 
 ![blocks_1546522864_3579764](images/blocks_1546522864_3579764.png)
 
-\--- /hint \---
+\--- /indice \---
 
 \--- hint \---
 
@@ -64,9 +64,9 @@ Here is what your new code should look like:
 
 ![blocks_1546522866_0371468](images/blocks_1546522866_0371468.png)
 
-\--- /hint \---
+\--- /indice \---
 
-\--- /hints \---
+\--- /astuces \---
 
 \--- /task \---
 
