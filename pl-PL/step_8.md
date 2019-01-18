@@ -1,4 +1,4 @@
-## Challenge: lives and score
+## Wyzwanie: życia i punkty
 
 At the moment, you can play the game forever, but it doesn't count how many hippos you shoot or how many times your spaceship explodes.
 
