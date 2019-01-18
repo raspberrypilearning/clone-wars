@@ -33,15 +33,15 @@ Score as many points as you can by shooting flying space-hippos. If you get hit 
 
 * * *
 
-## title: What you will need
+## title: Trebat ćeš
 
-### Hardware
+### Hardver
 
-+ A computer capable of running Scratch 3
++ Računalo koje može pokrenuti Scratch 3
 
-### Software
+### Softver
 
-+ Scratch 3 (either [online](https://rpf.io/scratchon){:target="_blank"} or [offline](https://rpf.io/scratchoff){:target="_blank"})
++ Scratch 3 ([online](https://rpf.io/scratchon){:target="_blank"} ili [offline](https://rpf.io/scratchoff) verziju{:target="_blank"})
 
 ### Downloads
 
@@ -53,7 +53,7 @@ Score as many points as you can by shooting flying space-hippos. If you get hit 
 
 * * *
 
-## title: What you will learn
+## title: Naučit ćeš
 
 + How to make sprites move using keyboard input
 + How to clone sprites to make copies of them
@@ -69,7 +69,7 @@ Score as many points as you can by shooting flying space-hippos. If you get hit 
 
 \--- no-print \---
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/clone-wars/print){:target="_blank"}.
+Ako trebate ispisati ovaj projekt, koristite [printer-friendly version](https://projects.raspberrypi.org/en/projects/clone-wars/print){:Target="_ blank"}.
 
 \--- /no-print \---
 
