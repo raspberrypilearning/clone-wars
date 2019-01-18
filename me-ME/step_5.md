@@ -1,4 +1,4 @@
-## Space-hippos
+## Leteći svemirski nilski konji
 
 Now you're going to add lots of flying hippos that try to destroy your spaceship.
 
@@ -20,7 +20,7 @@ Set the `Hippo` sprite's rotation style to **left-right**.
 
 \--- task \---
 
-Add some code to hide the `Hippo` sprite when the game starts.
+Dodaj kôd da lik `Nilskog konja` bude sakriven kada igra započne.
 
 ![hippo sprite](images/hippo-sprite.png)
 
@@ -30,15 +30,15 @@ Add some code to hide the `Hippo` sprite when the game starts.
 
 Add some code to the Stage to create a new `Hippo` clone every few seconds.
 
-\--- hints \---
+\--- pomoć \---
 
-\--- hint \---
+\--- pomoć \---
 
 When the `green flag is clicked`{:class="block3events"}, `repeatedly`{:class="block3control"} `wait`{:class="block3control"} `between 2 and 4 seconds`{:class="block3operators"} and then `create a clone of the Hippo sprite`{:class="block3control"}.
 
 \--- /hint \---
 
-\--- hint \---
+\--- pomoć \---
 
 Here are the blocks you need:
 
@@ -46,7 +46,7 @@ Here are the blocks you need:
 
 \--- /hint \---
 
-\--- hint \---
+\--- pomoć \---
 
 This is what your code should look like:
 
