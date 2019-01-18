@@ -1,24 +1,37 @@
-## Вибух космічного корабля
+## Spaceship explosion
 
-Коли бегемот торкається космічного корабля, корабель повинен вибухнути!
+When a hippo touches your spaceship, the spaceship should explode!
 
-+ Виберіть спрайт `Космічний корабель` і перейменуйте образ на 'нормальний'.
+\--- task \---
 
-+ Намалюйте інший образ для космічного корабля, що вибухне і назвіть його 'удар'.
+Select the `Spaceship` sprite and rename its costume 'normal'.
 
-![знімок екрану](images/invaders-spaceship-costumes.png)
+\--- /task \---
 
-Або, якщо ви не хочете малювати вибух, ви можете вибрати образ 'Сонце' з Скретч бібліотеки, і використати інструмент ** Колір форми** для зміни кольору та скидання обличчя.
+\--- task \---
 
-![знімок екрану](images/invaders-sun.png)
+Draw another costume of an exploding spaceship, and call the new costume 'hit'.
 
-+ Додайте код до спрайту `Космічного корабля` так, щоб він почав відображав образ космічного корабля, але коли корабель торкнеться до літаючого бегемота, то образ має змінитися на 'удар':
+![screenshot](images/invaders-spaceship-costumes.png)
 
-```blocks
-коли натиснуто ⚑
-змінити образ на [нормльний v]
-чекати поки <touching [Hippo1 v]>
-змінити образ на [удар v]
-```
+If you don't want to draw the explosion, you can select the 'Sun' costume from the Scratch library, and then use the **Color a shape** tool to change the costume's colour and face.
 
-+ Перевірте свій код, зігравши у гру та зіткнувшись з бегемотом. Чи змінюється образ космічного корабеля на 'удар'?
+![screenshot](images/invaders-sun.png)
+
+\--- /task \---
+
+\--- task \---
+
+Add some code to your `Spaceship` sprite so that it displays the 'normal' costume when the game starts, and switches to the 'hit' costume when it touches a hippo:
+
+![rocket sprite](images/rocket-sprite.png)
+
+![blocks_1546522877_4694302](images/blocks_1546522877_4694302.png)
+
+\--- /task \---
+
+\--- task \---
+
+Test your code. Make the spaceship collide with a hippo. Does the spaceship change to the 'hit' costume?
+
+\--- /task \---
