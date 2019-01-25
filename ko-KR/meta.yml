@@ -1,0 +1,37 @@
+---
+hero_image: images/clone-wars.png
+theme: violet
+listed: true
+copyedit: true
+title: 복제 전쟁
+description: 우주 몬스터로부터 지구를 구해야하는 게임을 만드십시오.
+version: 4.1.0
+last_tested: 2018-10-11
+steps:
+  - 
+    title: 소개
+  - 
+    title: 우주선을 만드십시오.
+  - 
+    title: 번개
+  - 
+    title: '과제 : 번개를 개선하십시오.'
+    challenge: true
+  - 
+    title: 우주 - 하마
+  - 
+    title: 우주선 폭발
+  - 
+    title: 사라지는 마
+  - 
+    title: '도전 : 삶과 점수'
+    challenge: true
+  - 
+    title: 우주 박쥐
+  - 
+    title: 게임 끝
+  - 
+    title: '과제 : 게임 개선'
+    challenge: true
+  - 
+    title: 더 나아가기
