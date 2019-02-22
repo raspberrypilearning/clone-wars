@@ -1,6 +1,6 @@
 \--- no-print \---
 
-This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/clone-wars-scratch2).
+Esta é a versão **Scratch 3** do projeto. Há também uma versão [Scratch 2 do projeto](https://projects.raspberrypi.org/en/projects/clone-wars-scratch2).
 
 \--- /no-print \---
 
@@ -12,7 +12,7 @@ Neste projeto você aprenderá como criar um jogo no qual você tem que salvar a
 
 \--- no-print \---
 
-Click the green flag in the example game below to start, and then press the <kbd>left</kbd> and <kbd>right</kbd> arrow keys to move the spaceship, and the <kbd>space</kbd> key to shoot.
+Clique na bandeira verde no jogo de exemplo abaixo para começar, e depois pressione as setas para <kbd>esquerda</kbd> e <kbd>direita</kbd> para mover a nave espacial, e <kbd>barra de espaço</kbd> para atirar.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/276887163/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -21,7 +21,7 @@ Click the green flag in the example game below to start, and then press the <kbd
 
 \--- /no-print \---
 
-Score as many points as you can by shooting flying space-hippos. If you get hit by a hippo or by an orange dropped by the bats, you lose a life.
+Marque o máximo de pontos que você puder atirando "space-hippos" voadores. Se você for atingido por um "hippo" ou por uma laranja jogada pelos morcegos, você perderá uma vida.
 
 \--- print-only \---
 
@@ -45,7 +45,7 @@ Score as many points as you can by shooting flying space-hippos. If you get hit 
 
 ### Downloads
 
-[Find the downloads here](http://rpf.io/p/en/clone-wars-go).
+[Encontre os arquivos para baixar aqui](http://rpf.io/p/en/clone-wars-go).
 
 \--- /collapse \---
 
@@ -73,6 +73,6 @@ Se você precisar imprimir este projeto, por favor, use a [versão para impress�
 
 \--- /no-print \---
 
-[If you need the solution to this project, you can find it here](http://rpf.io/p/en/clone-wars-get).
+[Se você precisar da solução para esse projeto, você pode encontrá-la aqui](http://rpf.io/p/en/clone-wars-get).
 
 \--- /collapse \---
