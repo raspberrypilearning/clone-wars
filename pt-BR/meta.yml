@@ -15,16 +15,16 @@ steps:
   - 
     title: Raios elétricos
   - 
-    title: 'Challenge: improve the lightning'
+    title: 'Desafio: melhore a iluminação'
     challenge: true
   - 
     title: Space-hippos
   - 
-    title: Spaceship explosion
+    title: Explosão de nave espacial
   - 
     title: Hippos that disappear
   - 
-    title: 'Challenge: lives and score'
+    title: 'Desafio: vidas e placar'
     challenge: true
   - 
     title: Space-bat
