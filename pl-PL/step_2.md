@@ -22,11 +22,20 @@ Add this code to the spaceship sprite to make the spaceship move left if the <kb
 
 ![rocket sprite](images/rocket-sprite.png)
 
-![blocks_1546522854_5664086](images/blocks_1546522854_5664086.png)
+```blocks3
+    when flag clicked
+    forever
+        if <key (left arrow v) pressed?> then
+            change x by (-4)
+        end
+    end
+```
 
 The x-axis goes from the left side of the Stage to the right side. This means that the spaceship moves to the left when you subtract from the value of the spaceship sprite's `x` position. So this code block is the part that makes your spaceship move left:
 
-![blocks_1546522856_2172396](images/blocks_1546522856_2172396.png)
+```blocks3
+change x by (-4)
+```
 
 \--- /task \---
 
@@ -34,7 +43,7 @@ The x-axis goes from the left side of the Stage to the right side. This means th
 
 Add some more code inside the `forever`{:class="block3control"} block to make your spaceship move to the right if the <kbd>right</kbd> arrow key is pressed.
 
-\--- wskazówka \---
+\--- hints \---
 
 \--- hint \---
 
@@ -46,9 +55,11 @@ Subtracting `4` from the spaceship's `x` position made it move left, so how coul
 
 You need the same code block, but with a different number:
 
-![blocks_1546522857_8176646](images/blocks_1546522857_8176646.png)
+```blocks3
+change x by ( )
+```
 
-\--- /wskazówka \---
+\--- /hint \---
 
 \--- hint \---
 
@@ -56,9 +67,15 @@ Here is the code you need to add below the other code inside the `forever`{:clas
 
 ![rocket sprite](images/rocket-sprite.png)
 
-![blocks_1546522859_4543552](images/blocks_1546522859_4543552.png) \--- /wskazówka \---
+```blocks3
+if <key (right arrow v) pressed?> then
+    change x by (4)
+end
+```
 
-\--- /wskazówka \---
+\--- /hint \---
+
+\--- /hints \---
 
 \--- /task \---
 
