@@ -26,12 +26,17 @@
 
 ![로켓 스프라이트](images/rocket-sprite.png)
 
-![블록 _1546522877_4694302](images/blocks_1546522877_4694302.png)
+```blocks3
+when flag clicked
+switch costume to (normal v)
+wait until <touching (Hippo1 v)>?
+switch costume to (hit v)
+```
 
 \--- /task \---
 
 \--- task \---
 
-코드를 테스트하십시오. 우주선이 하마와 충돌하게하십시오. 우주선이 '히트'복장으로 바뀌 었습니까?
+Test your code. Make the spaceship collide with a hippo. Does the spaceship change to the 'hit' costume?
 
 \--- /task \---
