@@ -26,11 +26,16 @@ Add some code to your `Spaceship` sprite so that it displays the 'normal' costum
 
 ![rocket sprite](images/rocket-sprite.png)
 
-![blocks_1546522877_4694302](images/blocks_1546522877_4694302.png)
+```blocks3
+when flag clicked
+switch costume to (normal v)
+wait until <touching (Hippo1 v)>?
+switch costume to (hit v)
+```
 
 \--- /task \---
 
-\--- task --
+\--- task \---
 
 Test your code. Make the spaceship collide with a hippo. Does the spaceship change to the 'hit' costume?
 
