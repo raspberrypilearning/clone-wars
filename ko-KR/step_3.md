@@ -18,72 +18,105 @@
 
 ![번개 스프라이트](images/lightning-sprite.png)
 
-![블록 _1546522861_1148694](images/blocks_1546522861_1148694.png)
+```blocks3
+when green flag clicked
+hide
+```
 
 \--- /task \---
 
-현재, 번개는 우주선에 비해 정말 큽니다!
+At the moment, the lightning bolt is really big compared to the spaceship!
 
 \--- task \---
 
-하여 코드 아래 `번개` 스프라이트가 이미 가지고, 스프라이트 작게하고 뒤집어 일부 블록을 추가합니다.
+Below the code that the `Lightning` sprite already has, add some blocks to make the sprite smaller and to turn it upside down.
 
-![번개 스프라이트](images/lightning-sprite.png)
+![lightning sprite](images/lightning-sprite.png)
 
-![blocks_1546522862_7402277](images/blocks_1546522862_7402277.png)
+```blocks3
+set size to (25) %
+point in direction (-90)
+```
 
-이제 우주선에서 뾰족한 것부터 시작됩니다.
+Now it looks like it fires pointy end–first out of the spaceship.
 
 \--- /task \---
 
 \--- task \---
 
-<kbd>스페이스</kbd> 키를 누르면 번개 모양의 새로운 클론을 생성하기 위해 `우주선` 스프라이트에 새로운 코드를 추가하십시오.
+Add some new code to the `Spaceship` sprite to create a new clone of the lightning bolt if the <kbd>space</kbd> key is pressed.
 
-\--- 힌트 \---
+\--- hints \---
 
 \--- hint \---
 
-`녹색 플래그가 클릭되면`{CLASS = "block3events를"}, 계속 확인 `영원히`{CLASS = "block3control"} `경우`{CLASS = "block3control"}을 `스페이스 키를 누르면`{ 클래스} "block3sensing", 그 경우 = `번개의 클론 생성`{CLASS = "block3control"} 스프라이트.
+`When the green flag is clicked`{:class="block3events"}, keep checking `forever`{:class="block3control"} `if`{:class="block3control"} the `space key is pressed`{:class="block3sensing"}, and in that case `create a clone of the Lightning`{:class="block3control"} sprite.
 
-\--- / 귀뜸말 \---
-
-\--- hint \---
-
-필요한 블록은 다음과 같습니다.
-
-![blocks_1546522864_3579764](images/blocks_1546522864_3579764.png)
-
-\--- /귀뜸말 \---
+\--- /hint \---
 
 \--- hint \---
 
-다음은 새 코드의 모양입니다.
+Here are the blocks you need:
 
-![로켓 스프라이트](images/rocket-sprite.png)
+```blocks3
+if <> then
+end
 
-![블록 _1546522866_0371468](images/blocks_1546522866_0371468.png)
+forever
+end
 
-\--- / 귀뜸말 \---
+create clone of (Lightning v)
 
-\--- / 귀뜸말 \---
+<key (space v) pressed?>
+
+when flag clicked
+```
+
+\--- /hint \---
+
+\--- hint \---
+
+Here is what your new code should look like:
+
+![rocket sprite](images/rocket-sprite.png)
+
+```blocks3
+when flag clicked
+forever
+    if <key (space v) pressed?> then
+        create clone of (Lightning v)
+    end
+end
+```
+
+\--- /hint \---
+
+\--- /hints \---
 
 \--- /task \---
 
 \--- task \---
 
-게임에서 `번개` 스프라이트 복제본이 생성 될 때마다 클론이 나타나야하며 스테이지의 상단에 도달 할 때까지 위쪽으로 이동해야합니다. 그런 다음 클론이 사라져야합니다.
+Whenever the game creates a `Lightning` sprite clone, the clone should appear and then move upwards until it reaches the top of the Stage. Then the clone should disappear.
 
-`번개` 스프라이트에이 코드를 추가하여 스테이지의 가장자리에 닿을 때까지 클론이 위로 이동 한 다음 삭제됩니다.
+Add this code to the `Lightning` sprite so that clones of it move upwards until they touch the edge of the Stage, and then they get deleted.
 
-![번개 스프라이트](images/lightning-sprite.png)
+![lightning sprite](images/lightning-sprite.png)
 
-![블록 _1546522867_7058573](images/blocks_1546522867_7058573.png)
+```blocks3
+    when I start as a clone
+    go to (Spaceship v)
+    show
+    repeat until <touching (edge v) ?>
+        change y by (10)
+    end
+    delete this clone
+```
 
 \--- /task \---
 
 \--- task \---
 
-번개가 제대로 움직이는 지 확인하려면 <kbd>칸</kbd> 키를 누르십시오.
+Press the <kbd>space</kbd> key to test whether the lightning bolt moves correctly.
 
 \--- /task \---
