@@ -16,94 +16,141 @@
 
 ![박쥐 스프 라이트](images/bat-sprite.png)
 
-![블록 _1546522883_9902587](images/blocks_1546522883_9902587.png)
+```blocks3
+when flag clicked
+set size to (50) %
+forever
+    move (10) steps
+    if on edge, bounce
+end
+```
 
-코드를 테스트하는 것을 잊지 마십시오.
+Remember to test your code.
 
 \--- /task \---
 
-박쥐의 의상을 보면 네 가지 의상이 있음을 알 수 있습니다.
+If you look at the bat's costumes, you can see that it has four different ones:
 
-![스크린샷](images/invaders-bat-costume.png)
+![screenshot](images/invaders-bat-costume.png)
 
 \--- task \---
 
-`다음 코스튬`{: class = "block3looks"} 블록을 사용하여 박쥐 날개가 움직이는대로 날개를 만듭니다.
+Use the `next costume`{:class="block3looks"} block to make the bat flap its wings as it moves.
 
-\--- 힌트 \---
+\--- hints \---
 
 \--- hint \---
 
-박쥐가 이동 한 후에는 표시해야합니다 `다음 의상`: {클래스 = "block3looks"} 다음 `대기`짧은 시간 동안 {클래스 = "block3control을"}.
+After the bat has moved, it should show the `next costume`{:class="block3looks"} and then `wait`{:class="block3control"} for a short time.
 
-\--- /귀뜸말 \---
+\--- /hint \---
 
 \--- hint \---
 
-코드에 다음 블록을 추가해야합니다.
+You need to add these blocks to you code:
 
-![블록 _1546522885_6359174](images/blocks_1546522885_6359174.png) \--- /귀뜸말 \---
+```blocks3
+wait (0.3) seconds
 
-\--- 힌트 \--- 코드는 다음과 같이 보일 것입니다 :
+next costume
+```
 
-![블록 _1546522887_2722294](images/blocks_1546522887_2722294.png) \--- /귀뜸말 \---
+\--- /hint \---
 
-\--- / 귀뜸말 \---
+\--- hint \--- You code should look like this:
 
-\--- /task \---
+```blocks3
+when flag clicked
+set size to (50) %
+forever
+move (10) steps
+if on edge, bounce
 
-이제 배트 던지기 오렌지를 만드십시오!
++ next costume
++ wait (0.3) seconds
+end
+```
 
-\--- task \---
+\--- /hint \---
 
-스크래치 라이브러리에서 오렌지</code> 스프라이트를 `추가하십시오.</p>
-
-<p><img src="images/invaders-orange.png" alt="스크린샷" /></p>
-
-<p>--- /task ---</p>
-
-<p>--- task ---</p>
-
-<p>박쥐에 코드를 추가하여 플래그를 클릭하면 <code>되도록합니다.`{: class = "block3events"}, `박쥐` 스프라이트 `영원히`{: class = "block3control"} `대기`{: class = "block3control"} A의 `랜덤`사이의 시간의 길이 : {CLASS = "block3operators"} `5 10 행`: 다음 {CLASS = "block3operators"} 초 `클론을 생성한다`{CLASS = "block3control"}의 `오렌지` 스프라이트.
-
-![박쥐 스프 라이트](images/bat-sprite.png)
-
-![블록 _1546522888_8938003](images/blocks_1546522888_8938003.png)
+\--- /hints \---
 
 \--- /task \---
 
-\--- task \---
-
-`Orange` 에 코드를 추가하여 `Bat` 스프라이트에서 시작하여 스테이지의 아래쪽으로 떨어지는 각각의 복제본을 드롭합니다.
-
-![오렌지 스프라이트](images/orange-sprite.png)
-
-![블록 _1546522890_544698](images/blocks_1546522890_544698.png)
-
-\--- /task \---
+Now make the bat throw oranges!
 
 \--- task \---
 
-`Orange` 스프라이트에 코드를 더 추가하여 `Orange` 클론이 `Spaceship` 스프라이트에 도달하면 클론 또한 사라져서 플레이어에게 초기화 할 수있는 기회를줍니다.
+Add an `Orange` sprite from the Scratch library.
 
-![오렌지 스프라이트](images/orange-sprite.png)
-
-![블록 _1546522892_2124374](images/blocks_1546522892_2124374.png)
+![screenshot](images/invaders-orange.png)
 
 \--- /task \---
 
 \--- task \---
 
-`Spaceship` 스프라이트의 코드를 수정하여 Sprite가 `Hippo` 스프라이트 또는 `Orange` 스프라이트에 닿을 때 "히트"되도록 수정하십시오 :
+Add code to your bat so that `when the flag is clicked`{:class="block3events"}, the `Bat` sprite `forever`{:class="block3control"} `waits`{:class="block3control"} for a `random`{:class="block3operators"} length of time between `5 to 10`{:class="block3operators"} seconds and then `creates a clone`{:class="block3control"} of the `Orange` sprite.
 
-![로켓 스프라이트](images/rocket-sprite.png)
+![bat sprite](images/bat-sprite.png)
 
-![blocks_1546522893_821553](images/blocks_1546522893_821553.png)
+```blocks3
+when flag clicked
+forever
+    wait (pick random (5) to (10)) secs
+    create clone of (Orange v)
+end
+```
 
 \--- /task \---
 
 \--- task \---
 
-게임을 테스트 해보십시오. 우주선이 주황색으로 타격을 받으면 어떻게 될까요?
+Add code to the `Orange` to make each of its clone drop, starting from the `Bat` sprite and falling towards the bottom of the Stage.
+
+![orange sprite](images/orange-sprite.png)
+
+```blocks3
+    when flag clicked
+    hide
+
+    when I start as a clone
+    go to (Bat v)
+    show
+    repeat until <touching (edge v)?
+        change y by (-4)
+    end
+    delete this clone
+```
+
+\--- /task \---
+
+\--- task \---
+
+Add some more code to the `Orange` sprite so that when an `Orange` clone hits the `Spaceship` sprite, the clone also disappears to give the player a chance to reset:
+
+![orange sprite](images/orange-sprite.png)
+
+```blocks3
+    when I receive [hit v]
+    delete this clone
+```
+
+\--- /task \---
+
+\--- task \---
+
+Modify the code of your `Spaceship` sprite so that the sprite is "hit" when it touches a `Hippo` sprite or an `Orange` sprite:
+
+![rocket sprite](images/rocket-sprite.png)
+
+```blocks3
+    wait until < <touching (Hippo1 v)?> or <touching (Orange v)?>>
+```
+
+\--- /task \---
+
+\--- task \---
+
+Test your game. What happens if the spaceship gets hit by a falling orange?
 
 \--- /task \---
