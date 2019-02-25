@@ -14,4 +14,6 @@ Hier zijn wat ideeën:
 
 + Laat wanneer je score ` 100 wordt ` meer vijanden verschijnen.
 
-![blocks_1546522852_9177506](images/blocks_1546522852_9177506.png)
+```blocks3
+    wait until <(score :: variables) = [100]>
+```
