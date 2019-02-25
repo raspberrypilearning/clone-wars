@@ -8,7 +8,14 @@ Add code to the spaceship sprite to make it `broadcast`{:class="block3events"} t
 
 ![rocket sprite](images/rocket-sprite.png)
 
-![blocks_1546522879_1027734](images/blocks_1546522879_1027734.png)
+```blocks3
+when flag clicked
+switch costume to (normal v)
+wait until <touching (Hippo1 v)>?
+switch costume to (hit v)
+
++ broadcast (hit v)
+```
 
 \--- /task \---
 
@@ -18,11 +25,14 @@ All of the `Hippo` sprite clones will receive the "hit" message, and you can ins
 
 ![hippo sprite](images/hippo-sprite.png)
 
-![blocks_1546522880_7433825](images/blocks_1546522880_7433825.png)
+```blocks3
+when I receive [hit v]
+delete this clone
+```
 
 \--- /task \---
 
-\--- task \----
+\--- task \---
 
 To check whether the new code works, click the green flag and make the spaceship collide with a hippo.
 
@@ -32,12 +42,22 @@ To check whether the new code works, click the green flag and make the spaceship
 
 After the spaceship explodes, new `Hippo` clones appear, but the spaceship is still exploded! The spaceship needs to reset itself after being hit.
 
-\--- task \----
+\--- task \---
 
 Add a `wait`{:class="block3control"} block at the end of the `Spaceship` sprite's code to create a small pause before hippos begin appearing again. Then add a `forever`{:class="block3control"} block around all of your code to make the code run repeatedly.
 
 ![rocket sprite](images/rocket-sprite.png)
 
-![blocks_1546522882_3185935](images/blocks_1546522882_3185935.png)
+```blocks3
+when flag clicked
+forever
+switch costume to (normal v)
+wait until <touching (Hippo1 v)>?
+switch costume to (hit v)
+broadcast (hit v)
+
++ wait (1) seconds
+end
+```
 
 \--- /task \---
