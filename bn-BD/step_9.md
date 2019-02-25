@@ -16,17 +16,24 @@ Make the `Bat` sprite `move`{:class="block3motion"} from left to right at the to
 
 ![bat sprite](images/bat-sprite.png)
 
-![blocks_1546522883_9902587](images/blocks_1546522883_9902587.png)
+```blocks3
+when flag clicked
+set size to (50) %
+forever
+    move (10) steps
+    if on edge, bounce
+end
+```
 
 Remember to test your code.
 
-\--- /কাজ \---
+\--- /task \---
 
 If you look at the bat's costumes, you can see that it has four different ones:
 
 ![screenshot](images/invaders-bat-costume.png)
 
-\--- কাজ \---
+\--- task \---
 
 Use the `next costume`{:class="block3looks"} block to make the bat flap its wings as it moves.
 
@@ -42,63 +49,103 @@ After the bat has moved, it should show the `next costume`{:class="block3looks"}
 
 You need to add these blocks to you code:
 
-![blocks_1546522885_6359174](images/blocks_1546522885_6359174.png) \--- /hint \---
+```blocks3
+wait (0.3) seconds
+
+next costume
+```
+
+\--- /hint \---
 
 \--- hint \--- You code should look like this:
 
-![blocks_1546522887_2722294](images/blocks_1546522887_2722294.png) \--- /hint \---
+```blocks3
+when flag clicked
+set size to (50) %
+forever
+move (10) steps
+if on edge, bounce
+
++ next costume
++ wait (0.3) seconds
+end
+```
+
+\--- /hint \---
 
 \--- /hints \---
 
-\--- /কাজ \---
+\--- /task \---
 
 Now make the bat throw oranges!
 
-\--- কাজ \---
+\--- task \---
 
 Add an `Orange` sprite from the Scratch library.
 
 ![screenshot](images/invaders-orange.png)
 
-\--- /কাজ \---
+\--- /task \---
 
-\--- কাজ \---
+\--- task \---
 
 Add code to your bat so that `when the flag is clicked`{:class="block3events"}, the `Bat` sprite `forever`{:class="block3control"} `waits`{:class="block3control"} for a `random`{:class="block3operators"} length of time between `5 to 10`{:class="block3operators"} seconds and then `creates a clone`{:class="block3control"} of the `Orange` sprite.
 
 ![bat sprite](images/bat-sprite.png)
 
-![blocks_1546522888_8938003](images/blocks_1546522888_8938003.png)
+```blocks3
+when flag clicked
+forever
+    wait (pick random (5) to (10)) secs
+    create clone of (Orange v)
+end
+```
 
-\--- /কাজ \---
+\--- /task \---
 
-\--- কাজ \---
+\--- task \---
 
 Add code to the `Orange` to make each of its clone drop, starting from the `Bat` sprite and falling towards the bottom of the Stage.
 
 ![orange sprite](images/orange-sprite.png)
 
-![blocks_1546522890_544698](images/blocks_1546522890_544698.png)
+```blocks3
+    when flag clicked
+    hide
 
-\--- /কাজ \---
+    when I start as a clone
+    go to (Bat v)
+    show
+    repeat until <touching (edge v)?
+        change y by (-4)
+    end
+    delete this clone
+```
 
-\--- কাজ \---
+\--- /task \---
+
+\--- task \---
 
 Add some more code to the `Orange` sprite so that when an `Orange` clone hits the `Spaceship` sprite, the clone also disappears to give the player a chance to reset:
 
 ![orange sprite](images/orange-sprite.png)
 
-![blocks_1546522892_2124374](images/blocks_1546522892_2124374.png)
+```blocks3
+    when I receive [hit v]
+    delete this clone
+```
 
-\--- /কাজ \---
+\--- /task \---
 
-\--- কাজ \---
+\--- task \---
 
 Modify the code of your `Spaceship` sprite so that the sprite is "hit" when it touches a `Hippo` sprite or an `Orange` sprite:
 
 ![rocket sprite](images/rocket-sprite.png)
 
-![blocks_1546522893_821553](images/blocks_1546522893_821553.png)
+```blocks3
+    wait until < <touching (Hippo1 v)?> or <touching (Orange v)?>>
+```
 
 \--- /কাজ \---
 
@@ -106,4 +153,4 @@ Modify the code of your `Spaceship` sprite so that the sprite is "hit" when it t
 
 Test your game. What happens if the spaceship gets hit by a falling orange?
 
-\--- /কাজ \---
+\--- /task \---
