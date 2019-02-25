@@ -13,4 +13,6 @@ Here are some ideas:
 
 + Make more enemies appear when your score gets to `100`.
 
-![blocks_1546522852_9177506](images/blocks_1546522852_9177506.png)
+```blocks3
+	wait until <(score :: variables) = [100]>
+```
