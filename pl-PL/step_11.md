@@ -14,4 +14,6 @@ Oto kilka pomysłów:
 
 + Zwiększ liczbę wrogów pokazujących się, gdy twój wynik osiągnie poziom `100`.
 
-![blocks_1546522852_9177506](images/blocks_1546522852_9177506.png)
+```blocks3
+    wait until <(score :: variables) = [100]>
+```
