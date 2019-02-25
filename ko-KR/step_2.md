@@ -22,48 +22,65 @@ Scratch 오프라인 편집기를 다운로드하여 설치해야하는 경우 [
 
 ![로켓 스프라이트](images/rocket-sprite.png)
 
-![블록 _1546522854_5664086](images/blocks_1546522854_5664086.png)
+```blocks3
+    when flag clicked
+    forever
+        if <key (left arrow v) pressed?> then
+            change x by (-4)
+        end
+    end
+```
 
-x 축은 스테이지의 왼쪽에서 오른쪽으로갑니다. 즉, 우주선 스프라이트의 `x` 위치 값에서 빼면 우주선이 왼쪽으로 이동합니다. 따라서이 코드 블록은 우주선을 왼쪽으로 이동시키는 부분입니다.
+The x-axis goes from the left side of the Stage to the right side. This means that the spaceship moves to the left when you subtract from the value of the spaceship sprite's `x` position. So this code block is the part that makes your spaceship move left:
 
-![블록 _1546522856_2172396](images/blocks_1546522856_2172396.png)
-
-\--- /task \---
-
-\--- task \---
-
-내부에 좀 더 코드를 추가 `영원히`경우 오른쪽으로 우주선 이동을 만들기 위해 블록 : {클래스 = "block3control"} <kbd>바로</kbd> 화살표 키를 누르면됩니다.
-
-\--- 힌트 \---
-
-\--- hint \---
-
-우주선의 `x` 위치에서 `4` 을 빼면 왼쪽으로 이동 했으므로 어떻게 우주선을 `4` 로 바로 이동할 수 있습니까?
-
-\--- /귀뜸말 \---
-
-\--- hint \---
-
-동일한 코드 블록이 필요하지만 다른 번호가 필요합니다.
-
-![블록 _1546522857_8176646](images/blocks_1546522857_8176646.png)
-
-\--- /귀뜸말 \---
-
-\--- hint \---
-
-다음은 내부의 다른 코드 아래에 추가해야하는 코드입니다 `영원히`블록 : {클래스 = "block3control은"} :
-
-![로켓 스프라이트](images/rocket-sprite.png)
-
-![블록 _1546522859_4543552](images/blocks_1546522859_4543552.png) \--- / 귀뜸말 \---
-
-\--- / 귀뜸말 \---
+```blocks3
+change x by (-4)
+```
 
 \--- /task \---
 
 \--- task \---
 
-녹색 깃발을 클릭하여 프로젝트를 테스트하십시오. 화살표 키를 눌러 우주선을 좌우로 움직일 수 있습니까?
+Add some more code inside the `forever`{:class="block3control"} block to make your spaceship move to the right if the <kbd>right</kbd> arrow key is pressed.
+
+\--- hints \---
+
+\--- hint \---
+
+Subtracting `4` from the spaceship's `x` position made it move left, so how could you make the spaceship move right by `4` instead?
+
+\--- /hint \---
+
+\--- hint \---
+
+You need the same code block, but with a different number:
+
+```blocks3
+change x by ( )
+```
+
+\--- /hint \---
+
+\--- hint \---
+
+Here is the code you need to add below the other code inside the `forever`{:class="block3control"} block:
+
+![rocket sprite](images/rocket-sprite.png)
+
+```blocks3
+if <key (right arrow v) pressed?> then
+    change x by (4)
+end
+```
+
+\--- /hint \---
+
+\--- /hints \---
+
+\--- /task \---
+
+\--- task \---
+
+Test your project by clicking the green flag. Can you press the arrow keys to make your spaceship move left and right?
 
 \--- /task \---
