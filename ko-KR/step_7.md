@@ -8,36 +8,56 @@
 
 ![로켓 스프라이트](images/rocket-sprite.png)
 
-![블록 _1546522879_1027734](images/blocks_1546522879_1027734.png)
+```blocks3
+when flag clicked
+switch costume to (normal v)
+wait until <touching (Hippo1 v)>?
+switch costume to (hit v)
+
++ broadcast (hit v)
+```
 
 \--- /task \---
 
 \--- task \---
 
-의 모든 `하마` 스프라이트 클론은 "히트"메시지가 나타납니다, 당신은이 코드를 추가하여 우주선이 충돌 할 때 사라하도록 지시 할 수 있습니다 `하마` 스프라이트를 :
+All of the `Hippo` sprite clones will receive the "hit" message, and you can instruct them to disappear when the spaceship is hit by adding this code to the `Hippo` sprite:
 
-![하마 스프라이트](images/hippo-sprite.png)
+![hippo sprite](images/hippo-sprite.png)
 
-![blocks_1546522880_7433825](images/blocks_1546522880_7433825.png)
+```blocks3
+when I receive [hit v]
+delete this clone
+```
 
 \--- /task \---
 
 \--- task \---
 
-새 코드가 작동하는지 확인하려면 녹색 깃발을 클릭하고 우주선을 하마와 충돌 시키십시오.
+To check whether the new code works, click the green flag and make the spaceship collide with a hippo.
 
-![스크린샷](images/invaders-hippo-collide.png)
+![screenshot](images/invaders-hippo-collide.png)
 
 \--- /task \---
 
-우주선이 폭발 한 후에 새로운 `하마` 클론이 나타나지만 우주선은 여전히 폭발합니다! 우주선은 공격당한 후에 스스로 리셋해야합니다.
+After the spaceship explodes, new `Hippo` clones appear, but the spaceship is still exploded! The spaceship needs to reset itself after being hit.
 
 \--- task \---
 
-하마가 다시 나타나기 전에 작은 멈춤을 만들기 위해 `우주선` 스프라이트의 코드 끝에 `대기`{: class = "block3control"} 블록을 추가하십시오. 그런 다음 추가 `영원히`반복적으로 코드를 실행할 수 있도록하는 코드의 모든 주위 : {클래스 = "block3control"} 블록을.
+Add a `wait`{:class="block3control"} block at the end of the `Spaceship` sprite's code to create a small pause before hippos begin appearing again. Then add a `forever`{:class="block3control"} block around all of your code to make the code run repeatedly.
 
-![로켓 스프라이트](images/rocket-sprite.png)
+![rocket sprite](images/rocket-sprite.png)
 
-![블록 _1546522882_3185935](images/blocks_1546522882_3185935.png)
+```blocks3
+when flag clicked
+forever
+switch costume to (normal v)
+wait until <touching (Hippo1 v)>?
+switch costume to (hit v)
+broadcast (hit v)
+
++ wait (1) seconds
+end
+```
 
 \--- /task \---
