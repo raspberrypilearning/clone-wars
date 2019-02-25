@@ -18,7 +18,10 @@ Add this code to the `Lightning` sprite:
 
 ![lightning sprite](images/lightning-sprite.png)
 
-![blocks_1546522861_1148694](images/blocks_1546522861_1148694.png)
+```blocks3
+when green flag clicked
+hide
+```
 
 \--- /task \---
 
@@ -30,7 +33,10 @@ Below the code that the `Lightning` sprite already has, add some blocks to make 
 
 ![lightning sprite](images/lightning-sprite.png)
 
-![blocks_1546522862_7402277](images/blocks_1546522862_7402277.png)
+```blocks3
+set size to (25) %
+point in direction (-90)
+```
 
 Now it looks like it fires pointy end–first out of the spaceship.
 
@@ -40,7 +46,7 @@ Now it looks like it fires pointy end–first out of the spaceship.
 
 Add some new code to the `Spaceship` sprite to create a new clone of the lightning bolt if the <kbd>space</kbd> key is pressed.
 
-\--- consejos \---
+\--- hints \---
 
 \--- hint \---
 
@@ -52,7 +58,19 @@ Add some new code to the `Spaceship` sprite to create a new clone of the lightni
 
 Here are the blocks you need:
 
-![blocks_1546522864_3579764](images/blocks_1546522864_3579764.png)
+```blocks3
+if <> then
+end
+
+forever
+end
+
+create clone of (Lightning v)
+
+<key (space v) pressed?>
+
+when flag clicked
+```
 
 \--- /hint \---
 
@@ -62,7 +80,14 @@ Here is what your new code should look like:
 
 ![rocket sprite](images/rocket-sprite.png)
 
-![blocks_1546522866_0371468](images/blocks_1546522866_0371468.png)
+```blocks3
+when flag clicked
+forever
+    if <key (space v) pressed?> then
+        create clone of (Lightning v)
+    end
+end
+```
 
 \--- /hint \---
 
@@ -78,7 +103,15 @@ Add this code to the `Lightning` sprite so that clones of it move upwards until 
 
 ![lightning sprite](images/lightning-sprite.png)
 
-![blocks_1546522867_7058573](images/blocks_1546522867_7058573.png)
+```blocks3
+    when I start as a clone
+    go to (Spaceship v)
+    show
+    repeat until <touching (edge v) ?>
+        change y by (10)
+    end
+    delete this clone
+```
 
 \--- /task \---
 
