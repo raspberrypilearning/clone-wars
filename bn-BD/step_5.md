@@ -24,7 +24,12 @@ Add some code to hide the `Hippo` sprite when the game starts.
 
 ![hippo sprite](images/hippo-sprite.png)
 
-![blocks_1546522869_3620155](images/blocks_1546522869_3620155.png) \--- /কাজ \---
+```blocks3
+when green flag clicked
+hide
+```
+
+\--- /কাজ \---
 
 \--- কাজ \---
 
@@ -42,7 +47,18 @@ When the `green flag is clicked`{:class="block3events"}, `repeatedly`{:class="bl
 
 Here are the blocks you need:
 
-![blocks_1546522870_9668188](images/blocks_1546522870_9668188.png)
+```blocks3
+forever
+end
+
+create clone of (Hippo1 v)
+
+(pick random (2) to (4))
+
+when flag clicked
+
+wait () secs
+```
 
 \--- /hint \---
 
@@ -52,17 +68,23 @@ This is what your code should look like:
 
 ![stage sprite](images/stage-sprite.png)
 
-![blocks_1546522872_610604](images/blocks_1546522872_610604.png)
+```blocks3
+when flag clicked
+forever
+    wait (pick random (2) to (4)) secs
+    create clone of (Hippo1 v)
+end
+```
 
 \--- /hint \---
 
 \--- /hints \---
 
-\--- /কাজ \---
+\--- /task \---
 
 Each new hippo clone should appear at a random `x` position, and every clone should have a random speed.
 
-\--- কাজ \---
+\--- task \---
 
 Create a new variable called `speed`{:class="block3variables"} that is for the `Hippo` sprite only.
 
@@ -72,17 +94,22 @@ When you've done this correctly, the variable has the name of the sprite next to
 
 ![screenshot](images/invaders-var-test.png)
 
-\--- /কাজ \---
+\--- /task \---
 
-\--- কাজ \---
+\--- task \---
 
 When each `Hippo` clone starts, pick a random speed and starting place for it. Then show the clone on the screen.
 
-![blocks_1546522874_2438061](images/blocks_1546522874_2438061.png)
+```blocks3
+when I start as a clone
+set [speed v] to (pick random (2) to (4))
+go to x: (pick random (-220) to (220)) y: (150)
+show
+```
 
-\--- /কাজ \---
+\--- /task \---
 
-\--- কাজ \---
+\--- task \---
 
 Test your code. Does a new hippo appear every few seconds?
 
@@ -90,28 +117,35 @@ Test your code. Does a new hippo appear every few seconds?
 
 At the moment the hippos don't move.
 
-\--- কাজ \---
+\--- task \---
 
 Each hippo should move around randomly until it gets hit by a lightning bolt. To make that happen, attach this code below the blocks that are already in the `Hippo` sprite's code script:
 
-![blocks_1546522875_874299](images/blocks_1546522875_874299.png)
+```blocks3
+repeat until <touching (lightning v) ?>
+    move (speed :: variables) steps
+    turn right (pick random (-10) to (10)) degrees
+    if on edge, bounce
+end
+delete this clone
+```
 
-\--- /কাজ \---
+\--- /task \---
 
 \--- কাজ \---
 
 Test your code again. You should see a new hippo clone appear every few seconds, and each clone should move at a different speed.
 
-\----প্রিন্ট করা লাগবেনা --
+\--- no-print \---
 
 ![screenshot](images/hippo-clones.gif)
 
-\----প্রিন্ট করা লাগবেনা --
+\--- /no-print \---
 
-\--- /কাজ \---
+\--- /task \---
 
-\--- কাজ \---
+\--- task \---
 
 Now test the spaceship's laser cannon. If a lightning bolt hits a hippo, does the hippo vanish?
 
-\--- /কাজ \---
+\--- /task \---
