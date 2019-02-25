@@ -18,25 +18,31 @@ Add this code to the `Lightning` sprite:
 
 ![lightning sprite](images/lightning-sprite.png)
 
-![blocks_1546522861_1148694](images/blocks_1546522861_1148694.png)
+```blocks3
+when green flag clicked
+hide
+```
 
-\--- /কাজ \---
+\--- /task \---
 
 At the moment, the lightning bolt is really big compared to the spaceship!
 
-\--- কাজ \---
+\--- task \---
 
 Below the code that the `Lightning` sprite already has, add some blocks to make the sprite smaller and to turn it upside down.
 
 ![lightning sprite](images/lightning-sprite.png)
 
-![blocks_1546522862_7402277](images/blocks_1546522862_7402277.png)
+```blocks3
+set size to (25) %
+point in direction (-90)
+```
 
 Now it looks like it fires pointy end–first out of the spaceship.
 
-\--- /কাজ \---
+\--- /task \---
 
-\--- কাজ \---
+\--- task \---
 
 Add some new code to the `Spaceship` sprite to create a new clone of the lightning bolt if the <kbd>space</kbd> key is pressed.
 
@@ -52,7 +58,19 @@ Add some new code to the `Spaceship` sprite to create a new clone of the lightni
 
 Here are the blocks you need:
 
-![blocks_1546522864_3579764](images/blocks_1546522864_3579764.png)
+```blocks3
+if <> then
+end
+
+forever
+end
+
+create clone of (Lightning v)
+
+<key (space v) pressed?>
+
+when flag clicked
+```
 
 \--- /hint \---
 
@@ -62,15 +80,22 @@ Here is what your new code should look like:
 
 ![rocket sprite](images/rocket-sprite.png)
 
-![blocks_1546522866_0371468](images/blocks_1546522866_0371468.png)
+```blocks3
+when flag clicked
+forever
+    if <key (space v) pressed?> then
+        create clone of (Lightning v)
+    end
+end
+```
 
 \--- /hint \---
 
 \--- /hints \---
 
-\--- /কাজ \---
+\--- /task \---
 
-\--- কাজ \---
+\--- task \---
 
 Whenever the game creates a `Lightning` sprite clone, the clone should appear and then move upwards until it reaches the top of the Stage. Then the clone should disappear.
 
@@ -78,12 +103,20 @@ Add this code to the `Lightning` sprite so that clones of it move upwards until 
 
 ![lightning sprite](images/lightning-sprite.png)
 
-![blocks_1546522867_7058573](images/blocks_1546522867_7058573.png)
+```blocks3
+    when I start as a clone
+    go to (Spaceship v)
+    show
+    repeat until <touching (edge v) ?>
+        change y by (10)
+    end
+    delete this clone
+```
 
-\--- /কাজ \---
+\--- /task \---
 
-\--- কাজ \---
+\--- task \---
 
 Press the <kbd>space</kbd> key to test whether the lightning bolt moves correctly.
 
-\--- /কাজ \---
+\--- /task \---
