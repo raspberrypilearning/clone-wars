@@ -8,7 +8,14 @@ Add code to the spaceship sprite to make it `broadcast`{:class="block3events"} t
 
 ![rocket sprite](images/rocket-sprite.png)
 
-![blocks_1546522879_1027734](images/blocks_1546522879_1027734.png)
+```blocks3
+when flag clicked
+switch costume to (normal v)
+wait until <touching (Hippo1 v)>?
+switch costume to (hit v)
+
++ broadcast (hit v)
+```
 
 \--- /task \---
 
@@ -18,7 +25,10 @@ All of the `Hippo` sprite clones will receive the "hit" message, and you can ins
 
 ![hippo sprite](images/hippo-sprite.png)
 
-![blocks_1546522880_7433825](images/blocks_1546522880_7433825.png)
+```blocks3
+when I receive [hit v]
+delete this clone
+```
 
 \--- /task \---
 
@@ -26,7 +36,7 @@ All of the `Hippo` sprite clones will receive the "hit" message, and you can ins
 
 To check whether the new code works, click the green flag and make the spaceship collide with a hippo.
 
-![zrzut ekranu](images/invaders-hippo-collide.png)
+![screenshot](images/invaders-hippo-collide.png)
 
 \--- /task \---
 
@@ -38,6 +48,16 @@ Add a `wait`{:class="block3control"} block at the end of the `Spaceship` sprite'
 
 ![rocket sprite](images/rocket-sprite.png)
 
-![blocks_1546522882_3185935](images/blocks_1546522882_3185935.png)
+```blocks3
+when flag clicked
+forever
+switch costume to (normal v)
+wait until <touching (Hippo1 v)>?
+switch costume to (hit v)
+broadcast (hit v)
+
++ wait (1) seconds
+end
+```
 
 \--- /task \---
