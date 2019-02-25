@@ -24,7 +24,12 @@
 
 ![하마 스프라이트](images/hippo-sprite.png)
 
-![blocks_1546522869_3620155](images/blocks_1546522869_3620155.png) \--- /task \---
+```blocks3
+when green flag clicked
+hide
+```
+
+\--- /task \---
 
 \--- task \---
 
@@ -42,69 +47,98 @@
 
 필요한 블록은 다음과 같습니다.
 
-![블록 _1546522870_9668188](images/blocks_1546522870_9668188.png)
+```blocks3
+forever
+end
 
-\--- /귀뜸말 \---
+create clone of (Hippo1 v)
+
+(pick random (2) to (4))
+
+when flag clicked
+
+wait () secs
+```
+
+\--- /hint \---
 
 \--- hint \---
 
-이 코드는 다음과 같습니다.
+This is what your code should look like:
 
-![무대 스프라이트](images/stage-sprite.png)
+![stage sprite](images/stage-sprite.png)
 
-![블록 _1546522872_610604](images/blocks_1546522872_610604.png)
+```blocks3
+when flag clicked
+forever
+    wait (pick random (2) to (4)) secs
+    create clone of (Hippo1 v)
+end
+```
 
-\--- /귀뜸말 \---
+\--- /hint \---
 
-\--- / 귀뜸말 \---
+\--- /hints \---
 
 \--- /task \---
 
-각각의 새로운 하마 클론은 임의의 `x` 위치에 나타나야하며 모든 클론은 임의의 속도를 가져야합니다.
+Each new hippo clone should appear at a random `x` position, and every clone should have a random speed.
 
 \--- task \---
 
-`Hippo` 스프라이트에만 해당되는 `speed`{: class = "block3variables"}이라는 새 변수를 만듭니다.
+Create a new variable called `speed`{:class="block3variables"} that is for the `Hippo` sprite only.
 
 [[[generic-scratch3-add-variable]]]
 
-이 작업을 올바르게 수행하면 변수의 스프라이트 이름이 다음과 같이됩니다.
+When you've done this correctly, the variable has the name of the sprite next to it, like this:
 
-![스크린샷](images/invaders-var-test.png)
-
-\--- /task \---
-
-\--- task \---
-
-각각의 경우 `하마` 복제가 시작, 그것을 위해 임의의 속도와 출발점을 선택합니다. 그런 다음 클론을 화면에 표시하십시오.
-
-![블록 _1546522874_2438061](images/blocks_1546522874_2438061.png)
+![screenshot](images/invaders-var-test.png)
 
 \--- /task \---
 
 \--- task \---
 
-코드를 테스트하십시오. 몇 초마다 새로운 하마가 나타 납니까?
+When each `Hippo` clone starts, pick a random speed and starting place for it. Then show the clone on the screen.
 
-\--- /task \---
-
-현재 하마는 움직이지 않습니다.
-
-\--- task \---
-
-각 하마는 번개가 치기까지 무작위로 움직여야합니다. 즉, 일어나는 이미 블록 아래에이 코드를 첨부 만들려면 `하마` 스프라이트의 코드 스크립트를 :
-
-![블록 _1546522875_874299](images/blocks_1546522875_874299.png)
+```blocks3
+when I start as a clone
+set [speed v] to (pick random (2) to (4))
+go to x: (pick random (-220) to (220)) y: (150)
+show
+```
 
 \--- /task \---
 
 \--- task \---
 
-코드를 다시 테스트하십시오. 몇 초마다 새로운 하마 복제품이 나타나야하며 각 클론은 다른 속도로 움직여야합니다.
+Test your code. Does a new hippo appear every few seconds?
+
+\--- /task \---
+
+At the moment the hippos don't move.
+
+\--- task \---
+
+Each hippo should move around randomly until it gets hit by a lightning bolt. To make that happen, attach this code below the blocks that are already in the `Hippo` sprite's code script:
+
+```blocks3
+repeat until <touching (lightning v) ?>
+    move (speed :: variables) steps
+    turn right (pick random (-10) to (10)) degrees
+    if on edge, bounce
+end
+delete this clone
+```
+
+\--- /task \---
+
+\--- task \---
+
+Test your code again. You should see a new hippo clone appear every few seconds, and each clone should move at a different speed.
 
 \--- no-print \---
 
-![스크린샷](images/hippo-clones.gif)
+![screenshot](images/hippo-clones.gif)
 
 \--- /no-print \---
 
@@ -112,6 +146,6 @@
 
 \--- task \---
 
-이제 우주선의 레이저 대포를 시험해보십시오. 번개가 하마를 때리는 경우 하마가 사라지나요?
+Now test the spaceship's laser cannon. If a lightning bolt hits a hippo, does the hippo vanish?
 
 \--- /task \---
