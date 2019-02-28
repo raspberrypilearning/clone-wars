@@ -62,7 +62,7 @@ wait () secs
 
 \--- /hint \---
 
-\--- hint \---
+\--- pomoć \---
 
 This is what your code should look like:
 
@@ -102,7 +102,7 @@ When each `Hippo` clone starts, pick a random speed and starting place for it. T
 
 ```blocks3
 when I start as a clone
-set [speed v] to (pick random (2) to (4))
+set [brzina v] to (pick random (2) to (4))
 go to x: (pick random (-220) to (220)) y: (150)
 show
 ```
