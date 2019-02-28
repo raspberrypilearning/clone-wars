@@ -2,7 +2,7 @@
 
 Now you are going to give the spaceship the ability to fire lightning bolts!
 
-\--- task \----
+\--- task \---
 
 Voeg de `Lightning ` sprite toe uit de Scratch-bibliotheek.
 
@@ -10,7 +10,7 @@ Voeg de `Lightning ` sprite toe uit de Scratch-bibliotheek.
 
 \--- /task \---
 
-\--- task \----
+\--- task \---
 
 When the game starts, the `Lightning` sprite should be hidden until the spaceship fires its laser cannons.
 
@@ -19,8 +19,8 @@ Add this code to the `Lightning` sprite:
 ![lightning sprite](images/lightning-sprite.png)
 
 ```blocks3
-when green flag clicked
-hide
+wanneer groene vlag wordt aangeklikt 
+ verdwijn
 ```
 
 \--- /task \---
