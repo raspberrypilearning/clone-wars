@@ -2,7 +2,7 @@
 
 When the spaceship explodes, all the hippos should disappear so that players of the game can recover.
 
-\--- task \----
+\--- task \---
 
 Add code to the spaceship sprite to make it `broadcast`{:class="block3events"} the message "hit" when the `spaceship touches a hippo`{:class="block3sensing"}.
 
@@ -26,8 +26,8 @@ All of the `Hippo` sprite clones will receive the "hit" message, and you can ins
 ![hippo sprite](images/hippo-sprite.png)
 
 ```blocks3
-when I receive [hit v]
-delete this clone
+wanneer ik signaal [geraakt v] ontvang, 
+verwijder deze kloon
 ```
 
 \--- /task \---
