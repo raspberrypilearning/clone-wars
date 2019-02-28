@@ -33,10 +33,10 @@ wait until <touching (Hippo1 v)>?
 switch costume to (hit v)
 ```
 
-\--- /task \---
+\--- /কাজ \---
 
-\--- task \---
+\--- কাজ \---
 
 Test your code. Make the spaceship collide with a hippo. Does the spaceship change to the 'hit' costume?
 
-\--- /task \---
+\--- /কাজ \---
