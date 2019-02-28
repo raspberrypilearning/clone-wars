@@ -1,4 +1,4 @@
-## Space-bat
+## Chauve-souris de l'espace
 
 To make your game a bit harder, you are going to create a bat that throws oranges at the spaceship.
 
@@ -37,13 +37,13 @@ If you look at the bat's costumes, you can see that it has four different ones:
 
 Use the `next costume`{:class="block3looks"} block to make the bat flap its wings as it moves.
 
-\--- hints \---
+\--- astuces \---
 
 \--- hint \---
 
 After the bat has moved, it should show the `next costume`{:class="block3looks"} and then `wait`{:class="block3control"} for a short time.
 
-\--- /hint \---
+\--- /indice \---
 
 \--- hint \---
 
@@ -55,7 +55,7 @@ wait (0.3) seconds
 next costume
 ```
 
-\--- /hint \---
+\--- /indice \---
 
 \--- hint \--- You code should look like this:
 
@@ -71,9 +71,9 @@ if on edge, bounce
 end
 ```
 
-\--- /hint \---
+\--- /indice \---
 
-\--- /hints \---
+\--- /astuces \---
 
 \--- /task \---
 
@@ -83,7 +83,7 @@ Now make the bat throw oranges!
 
 Add an `Orange` sprite from the Scratch library.
 
-![screenshot](images/invaders-orange.png)
+![capture d'écran](images/invaders-orange.png)
 
 \--- /task \---
 
