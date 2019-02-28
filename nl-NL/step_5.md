@@ -10,7 +10,7 @@ Create a new sprite with the 'Hippo1' image in the Scratch library. Use the **sh
 
 \--- /task \---
 
-\--- task \----
+\--- task \---
 
 Set the `Hippo` sprite's rotation style to **left-right**.
 
@@ -18,20 +18,20 @@ Set the `Hippo` sprite's rotation style to **left-right**.
 
 \--- /task \---
 
-\--- task \----
+\--- task \---
 
 Voeg code toe om als het spel begint de ` Hippo` Sprite te verbergen.
 
 ![hippo sprite](images/hippo-sprite.png)
 
 ```blocks3
-when green flag clicked
-hide
+wanneer groene vlag wordt aangeklikt 
+ verdwijn
 ```
 
 \--- /task \---
 
-\--- task \----
+\--- task \---
 
 Add some code to the Stage to create a new `Hippo` clone every few seconds.
 
@@ -101,10 +101,10 @@ When you've done this correctly, the variable has the name of the sprite next to
 When each `Hippo` clone starts, pick a random speed and starting place for it. Then show the clone on the screen.
 
 ```blocks3
-when I start as a clone
-set [speed v] to (pick random (2) to (4))
-go to x: (pick random (-220) to (220)) y: (150)
-show
+wanneer ik als kloon start
+maak [snelheid v] (willekeurig getal tussen (2) tot (4)) 
+ga naar x: (kies willekeurig (-220) tot (220)) y: (150) 
+verschijn
 ```
 
 \--- /task \---
