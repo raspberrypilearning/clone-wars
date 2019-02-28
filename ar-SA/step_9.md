@@ -27,11 +27,11 @@ end
 
 Remember to test your code.
 
-\--- /task \---
+\---/task\---
 
 If you look at the bat's costumes, you can see that it has four different ones:
 
-![screenshot](images/invaders-bat-costume.png)
+![لقطة الشاشة](images/invaders-bat-costume.png)
 
 \--- task \---
 
@@ -43,7 +43,7 @@ Use the `next costume`{:class="block3looks"} block to make the bat flap its wing
 
 After the bat has moved, it should show the `next costume`{:class="block3looks"} and then `wait`{:class="block3control"} for a short time.
 
-\--- /hint \---
+\--- hint/ \---
 
 \--- hint \---
 
@@ -55,7 +55,7 @@ wait (0.3) seconds
 next costume
 ```
 
-\--- /hint \---
+\--- hint/ \---
 
 \--- hint \--- You code should look like this:
 
@@ -71,9 +71,9 @@ if on edge, bounce
 end
 ```
 
-\--- /hint \---
+\--- hint/ \---
 
-\--- /hints \---
+\--- hints/ \---
 
 \--- /task \---
 
@@ -83,7 +83,7 @@ Now make the bat throw oranges!
 
 Add an `Orange` sprite from the Scratch library.
 
-![screenshot](images/invaders-orange.png)
+![لقطة الشاشة](images/invaders-orange.png)
 
 \--- /task \---
 
@@ -131,8 +131,8 @@ Add some more code to the `Orange` sprite so that when an `Orange` clone hits th
 ![orange sprite](images/orange-sprite.png)
 
 ```blocks3
-    when I receive [hit v]
-    delete this clone
+    عندما تستقبل [hit v]
+احذف هذه النسخة
 ```
 
 \--- /task \---
