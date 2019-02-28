@@ -8,7 +8,7 @@ This is the **Scratch 3** version of the project. There is also a [Scratch 2 ver
 
 En este proyecto aprenderás cómo crear un juego en el que debes salvar la Tierra de monstruos espaciales.
 
-### Lo que crearás
+### Lo que harás
 
 \--- no-print \---
 
@@ -37,13 +37,13 @@ Score as many points as you can by shooting flying space-hippos. If you get hit 
 
 ### Hardware
 
-+ Ordenador capaz de ejecutar Scratch 3
++ Una computadora capaz de hacer correr Scratch 3
 
 ### Software
 
-+ Scratch 3 ([en línea](https://rpf.io/scratchon){:target="_blank"} o [sin conexión](https://rpf.io/scratchoff){:target="_blank"})
++ Scratch 3 (ya sea [online](https://rpf.io/scratchon){:target="_blank"} u [offline](https://rpf.io/scratchoff) {:target="_blank"})
 
-### Downloads
+### Descargas
 
 [Find the downloads here](http://rpf.io/p/en/clone-wars-go).
 
@@ -53,7 +53,7 @@ Score as many points as you can by shooting flying space-hippos. If you get hit 
 
 * * *
 
-## title: Lo que aprenderás
+## title: Lo que vas a aprender
 
 + How to make sprites move using keyboard input
 + How to clone sprites to make copies of them
