@@ -1,6 +1,6 @@
 \--- no-print \---
 
-This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/clone-wars-scratch2).
+Ta wersja projektu jest przeznaczona dla języka **Scratch 3**. Projekt dostępny jest również [w wersji dla języka Scratch 2](https://projects.raspberrypi.org/en/projects/clone-wars-scratch2).
 
 \--- /no-print \---
 
@@ -41,7 +41,7 @@ Score as many points as you can by shooting flying space-hippos. If you get hit 
 
 ### Oprogramowanie
 
-+ Scratch 3 (either [online](https://rpf.io/scratchon){:target="_blank"} or [offline](https://rpf.io/scratchoff){:target="_blank"})
++ Scratch 3 ([online](https://rpf.io/scratchon){:target="_blank"} lub [offline](https://rpf.io/scratchoff){:target="_blank"})
 
 ### Downloads
 
