@@ -35,7 +35,7 @@ switch costume to (hit v)
 
 \--- /task \---
 
-\--- task \---
+\--- task --
 
 Test your code. Make the spaceship collide with a hippo. Does the spaceship change to the 'hit' costume?
 
