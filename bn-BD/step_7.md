@@ -17,9 +17,9 @@ switch costume to (hit v)
 + broadcast (hit v)
 ```
 
-\--- /task \---
+\--- /কাজ \---
 
-\--- task \---
+\--- কাজ \---
 
 All of the `Hippo` sprite clones will receive the "hit" message, and you can instruct them to disappear when the spaceship is hit by adding this code to the `Hippo` sprite:
 
@@ -30,19 +30,19 @@ when I receive [hit v]
 delete this clone
 ```
 
-\--- /task \---
+\--- /কাজ \---
 
-\--- task \---
+\--- কাজ \---
 
 To check whether the new code works, click the green flag and make the spaceship collide with a hippo.
 
 ![screenshot](images/invaders-hippo-collide.png)
 
-\--- /task \---
+\--- /কাজ \---
 
 After the spaceship explodes, new `Hippo` clones appear, but the spaceship is still exploded! The spaceship needs to reset itself after being hit.
 
-\--- task \---
+\--- কাজ \---
 
 Add a `wait`{:class="block3control"} block at the end of the `Spaceship` sprite's code to create a small pause before hippos begin appearing again. Then add a `forever`{:class="block3control"} block around all of your code to make the code run repeatedly.
 
@@ -60,4 +60,4 @@ broadcast (hit v)
 end
 ```
 
-\--- /task \---
+\--- /কাজ \---
