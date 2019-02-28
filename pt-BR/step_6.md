@@ -1,4 +1,4 @@
-## Spaceship explosion
+## Explosão de nave espacial
 
 When a hippo touches your spaceship, the spaceship should explode!
 
