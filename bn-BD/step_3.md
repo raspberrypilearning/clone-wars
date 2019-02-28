@@ -23,11 +23,11 @@ when green flag clicked
 hide
 ```
 
-\--- /task \---
+\--- /কাজ \---
 
 At the moment, the lightning bolt is really big compared to the spaceship!
 
-\--- task \---
+\--- কাজ \---
 
 Below the code that the `Lightning` sprite already has, add some blocks to make the sprite smaller and to turn it upside down.
 
@@ -40,9 +40,9 @@ point in direction (-90)
 
 Now it looks like it fires pointy end–first out of the spaceship.
 
-\--- /task \---
+\--- /কাজ \---
 
-\--- task \---
+\--- কাজ \---
 
 Add some new code to the `Spaceship` sprite to create a new clone of the lightning bolt if the <kbd>space</kbd> key is pressed.
 
@@ -93,9 +93,9 @@ end
 
 \--- /hints \---
 
-\--- /task \---
+\--- /কাজ \---
 
-\--- task \---
+\--- কাজ \---
 
 Whenever the game creates a `Lightning` sprite clone, the clone should appear and then move upwards until it reaches the top of the Stage. Then the clone should disappear.
 
@@ -113,10 +113,10 @@ Add this code to the `Lightning` sprite so that clones of it move upwards until 
     delete this clone
 ```
 
-\--- /task \---
+\--- /কাজ \---
 
-\--- task \---
+\--- কাজ \---
 
 Press the <kbd>space</kbd> key to test whether the lightning bolt moves correctly.
 
-\--- /task \---
+\--- /কাজ \---
