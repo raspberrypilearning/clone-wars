@@ -19,8 +19,8 @@ Add this code to the `Lightning` sprite:
 ![lightning sprite](images/lightning-sprite.png)
 
 ```blocks3
-when green flag clicked
-hide
+коли натиснуто ⚑
+сховати
 ```
 
 \--- /task \---
