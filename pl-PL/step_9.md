@@ -31,19 +31,19 @@ Remember to test your code.
 
 If you look at the bat's costumes, you can see that it has four different ones:
 
-![screenshot](images/invaders-bat-costume.png)
+![zrzut ekranu](images/invaders-bat-costume.png)
 
 \--- task \---
 
 Use the `next costume`{:class="block3looks"} block to make the bat flap its wings as it moves.
 
-\--- hints \---
+\--- wskazówka \---
 
 \--- hint \---
 
 After the bat has moved, it should show the `next costume`{:class="block3looks"} and then `wait`{:class="block3control"} for a short time.
 
-\--- /hint \---
+\--- /wskazówka \---
 
 \--- hint \---
 
@@ -55,7 +55,7 @@ wait (0.3) seconds
 next costume
 ```
 
-\--- /hint \---
+\--- /wskazówka \---
 
 \--- hint \--- You code should look like this:
 
@@ -71,9 +71,9 @@ if on edge, bounce
 end
 ```
 
-\--- /hint \---
+\--- /wskazówka \---
 
-\--- /hints \---
+\--- /wskazówka \---
 
 \--- /task \---
 
@@ -83,7 +83,7 @@ Now make the bat throw oranges!
 
 Add an `Orange` sprite from the Scratch library.
 
-![screenshot](images/invaders-orange.png)
+![zrzut ekranu](images/invaders-orange.png)
 
 \--- /task \---
 
@@ -131,8 +131,8 @@ Add some more code to the `Orange` sprite so that when an `Orange` clone hits th
 ![orange sprite](images/orange-sprite.png)
 
 ```blocks3
-    when I receive [hit v]
-    delete this clone
+    kiedy otrzymam [trafiony v]
+  usuń tego klona
 ```
 
 \--- /task \---
@@ -144,7 +144,7 @@ Modify the code of your `Spaceship` sprite so that the sprite is "hit" when it t
 ![rocket sprite](images/rocket-sprite.png)
 
 ```blocks3
-    wait until < <touching (Hippo1 v)?> or <touching (Orange v)?>>
+    czekaj aż <<touching (Hippo1 v)?> lub <touching (Orange v)?>>
 ```
 
 \--- /task \---
