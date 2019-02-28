@@ -43,7 +43,7 @@ change x by (-4)
 
 Add some more code inside the `forever`{:class="block3control"} block to make your spaceship move to the right if the <kbd>right</kbd> arrow key is pressed.
 
-\--- hints \---
+\--- dica \---
 
 \--- hint \---
 
