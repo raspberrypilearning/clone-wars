@@ -43,13 +43,13 @@ change x by (-4)
 
 Add some more code inside the `forever`{:class="block3control"} block to make your spaceship move to the right if the <kbd>right</kbd> arrow key is pressed.
 
-\--- hints \---
+\--- pomoć \---
 
 \--- hint \---
 
 Subtracting `4` from the spaceship's `x` position made it move left, so how could you make the spaceship move right by `4` instead?
 
-\--- /hint \---
+\--- /pomoć \---
 
 \--- hint \---
 
@@ -59,7 +59,7 @@ You need the same code block, but with a different number:
 change x by ( )
 ```
 
-\--- /hint \---
+\--- /pomoć \---
 
 \--- hint \---
 
@@ -73,9 +73,9 @@ if <key (right arrow v) pressed?> then
 end
 ```
 
-\--- /hint \---
+\--- /pomoć \---
 
-\--- /hints \---
+\--- /pomoć \---
 
 \--- /task \---
 
