@@ -47,7 +47,7 @@ Score as many points as you can by shooting flying space-hippos. If you get hit 
 
 [Find the downloads here](http://rpf.io/p/en/clone-wars-go).
 
-\--- /collapse \---
+\--- / chiudi \---
 
 \--- collapse \---
 
@@ -59,7 +59,7 @@ Score as many points as you can by shooting flying space-hippos. If you get hit 
 + How to clone sprites to make copies of them
 + How to use 'broadcast' and 'receive blocks' to send messages
 
-\--- /collapse \---
+\--- / chiudi \---
 
 \--- collapse \---
 
@@ -75,4 +75,4 @@ Se intendete stampare questo progetto, cliccate su [Versione stampabile](https:/
 
 [If you need the solution to this project, you can find it here](http://rpf.io/p/en/clone-wars-get).
 
-\--- /collapse \---
+\--- / chiudi \---
