@@ -40,7 +40,7 @@ Add this code to your `Game Over` sprite so that it shows at the end of the game
 when flag clicked
 hide
 
-when I receive [game over v]
+when I receive [kraj igre v]
 show
 ```
 
