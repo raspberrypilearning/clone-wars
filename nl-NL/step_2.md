@@ -2,7 +2,7 @@
 
 First make a spaceship that can defend the Earth!
 
-\--- task \----
+\--- task \---
 
 Open the 'Clone wars' Scratch starter project.
 
@@ -16,25 +16,25 @@ If you need to download and install the Scratch offline editor, you can find it 
 
 ![startproject](images/starter-project.png)
 
-\--- task \----
+\--- task \---
 
 Add this code to the spaceship sprite to make the spaceship move left if the <kbd>left</kbd> arrow is pressed:
 
 ![rocket sprite](images/rocket-sprite.png)
 
 ```blocks3
-    when flag clicked
-    forever
-        if <key (left arrow v) pressed?> then
-            change x by (-4)
-        end
-    end
+    wanneer groene vlag wordt aangeklikt
+  herhaal
+    als <key (left arrow v) pressed?> dan
+      verander x met (-4)
+    einde
+  einde
 ```
 
 The x-axis goes from the left side of the Stage to the right side. This means that the spaceship moves to the left when you subtract from the value of the spaceship sprite's `x` position. So this code block is the part that makes your spaceship move left:
 
 ```blocks3
-change x by (-4)
+verander x met (-4)
 ```
 
 \--- /task \---
@@ -56,7 +56,7 @@ Subtracting `4` from the spaceship's `x` position made it move left, so how coul
 You need the same code block, but with a different number:
 
 ```blocks3
-change x by ( )
+verander x met ( )
 ```
 
 \--- /hint \---
@@ -68,9 +68,9 @@ Here is the code you need to add below the other code inside the `forever`{:clas
 ![rocket sprite](images/rocket-sprite.png)
 
 ```blocks3
-if <key (right arrow v) pressed?> then
-    change x by (4)
-end
+als <key (right arrow v) pressed?> dan
+   verander x met (4)
+einde
 ```
 
 \--- /hint \---
