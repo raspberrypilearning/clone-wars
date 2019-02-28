@@ -33,17 +33,17 @@ If you look at the bat's costumes, you can see that it has four different ones:
 
 ![screenshot](images/invaders-bat-costume.png)
 
-\--- task \---
+\--- task --
 
 Use the `next costume`{:class="block3looks"} block to make the bat flap its wings as it moves.
 
-\--- hints \---
+\--- υποδείξεις \---
 
 \--- hint \---
 
 After the bat has moved, it should show the `next costume`{:class="block3looks"} and then `wait`{:class="block3control"} for a short time.
 
-\--- /hint \---
+\--- /υπόδειξη \---
 
 \--- hint \---
 
@@ -55,7 +55,7 @@ wait (0.3) seconds
 next costume
 ```
 
-\--- /hint \---
+\--- /υπόδειξη \---
 
 \--- hint \--- You code should look like this:
 
@@ -71,15 +71,15 @@ if on edge, bounce
 end
 ```
 
-\--- /hint \---
+\--- /υπόδειξη \---
 
-\--- /hints \---
+\--- /υποδείξεις \---
 
 \--- /task \---
 
 Now make the bat throw oranges!
 
-\--- task \---
+\--- task --
 
 Add an `Orange` sprite from the Scratch library.
 
@@ -87,7 +87,7 @@ Add an `Orange` sprite from the Scratch library.
 
 \--- /task \---
 
-\--- task \---
+\--- task --
 
 Add code to your bat so that `when the flag is clicked`{:class="block3events"}, the `Bat` sprite `forever`{:class="block3control"} `waits`{:class="block3control"} for a `random`{:class="block3operators"} length of time between `5 to 10`{:class="block3operators"} seconds and then `creates a clone`{:class="block3control"} of the `Orange` sprite.
 
@@ -103,7 +103,7 @@ end
 
 \--- /task \---
 
-\--- task \---
+\--- task --
 
 Add code to the `Orange` to make each of its clone drop, starting from the `Bat` sprite and falling towards the bottom of the Stage.
 
@@ -124,7 +124,7 @@ Add code to the `Orange` to make each of its clone drop, starting from the `Bat`
 
 \--- /task \---
 
-\--- task \---
+\--- task --
 
 Add some more code to the `Orange` sprite so that when an `Orange` clone hits the `Spaceship` sprite, the clone also disappears to give the player a chance to reset:
 
@@ -137,7 +137,7 @@ Add some more code to the `Orange` sprite so that when an `Orange` clone hits th
 
 \--- /task \---
 
-\--- task \---
+\--- task --
 
 Modify the code of your `Spaceship` sprite so that the sprite is "hit" when it touches a `Hippo` sprite or an `Orange` sprite:
 
