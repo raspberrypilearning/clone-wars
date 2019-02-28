@@ -80,11 +80,11 @@ end
 
 \--- /hints \---
 
-\--- /task \---
+\--- /কাজ \---
 
 Each new hippo clone should appear at a random `x` position, and every clone should have a random speed.
 
-\--- task \---
+\--- কাজ \---
 
 Create a new variable called `speed`{:class="block3variables"} that is for the `Hippo` sprite only.
 
@@ -94,9 +94,9 @@ When you've done this correctly, the variable has the name of the sprite next to
 
 ![screenshot](images/invaders-var-test.png)
 
-\--- /task \---
+\--- /কাজ \---
 
-\--- task \---
+\--- কাজ \---
 
 When each `Hippo` clone starts, pick a random speed and starting place for it. Then show the clone on the screen.
 
@@ -107,9 +107,9 @@ go to x: (pick random (-220) to (220)) y: (150)
 show
 ```
 
-\--- /task \---
+\--- /কাজ \---
 
-\--- task \---
+\--- কাজ \---
 
 Test your code. Does a new hippo appear every few seconds?
 
@@ -117,7 +117,7 @@ Test your code. Does a new hippo appear every few seconds?
 
 At the moment the hippos don't move.
 
-\--- task \---
+\--- কাজ \---
 
 Each hippo should move around randomly until it gets hit by a lightning bolt. To make that happen, attach this code below the blocks that are already in the `Hippo` sprite's code script:
 
@@ -130,22 +130,22 @@ end
 delete this clone
 ```
 
-\--- /task \---
+\--- /কাজ \---
 
 \--- কাজ \---
 
 Test your code again. You should see a new hippo clone appear every few seconds, and each clone should move at a different speed.
 
-\--- no-print \---
+\----প্রিন্ট করা লাগবেনা --
 
 ![screenshot](images/hippo-clones.gif)
 
-\--- /no-print \---
+\----প্রিন্ট করা লাগবেনা --
 
-\--- /task \---
+\--- /কাজ \---
 
-\--- task \---
+\--- কাজ \---
 
 Now test the spaceship's laser cannon. If a lightning bolt hits a hippo, does the hippo vanish?
 
-\--- /task \---
+\--- /কাজ \---
