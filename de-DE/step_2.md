@@ -23,10 +23,10 @@ Add this code to the spaceship sprite to make the spaceship move left if the <kb
 ![rocket sprite](images/rocket-sprite.png)
 
 ```blocks3
-    when flag clicked
-    forever
-        if <key (left arrow v) pressed?> then
-            change x by (-4)
+    wenn grüne Fahne angeklickt
+    wiederhole fortlaufend
+        falls <key (left arrow v) pressed?> dann
+            ändere x um (-4)
         end
     end
 ```
@@ -34,7 +34,7 @@ Add this code to the spaceship sprite to make the spaceship move left if the <kb
 The x-axis goes from the left side of the Stage to the right side. This means that the spaceship moves to the left when you subtract from the value of the spaceship sprite's `x` position. So this code block is the part that makes your spaceship move left:
 
 ```blocks3
-change x by (-4)
+ändere x um (-4)
 ```
 
 \--- /task \---
@@ -43,7 +43,7 @@ change x by (-4)
 
 Add some more code inside the `forever`{:class="block3control"} block to make your spaceship move to the right if the <kbd>right</kbd> arrow key is pressed.
 
-\--- hints \---
+\--- hinweise \---
 
 \--- hint \---
 
@@ -56,7 +56,7 @@ Subtracting `4` from the spaceship's `x` position made it move left, so how coul
 You need the same code block, but with a different number:
 
 ```blocks3
-change x by ( )
+ändere x um ( )
 ```
 
 \--- /hint \---
@@ -68,14 +68,14 @@ Here is the code you need to add below the other code inside the `forever`{:clas
 ![rocket sprite](images/rocket-sprite.png)
 
 ```blocks3
-if <key (right arrow v) pressed?> then
-    change x by (4)
+falls <key (right arrow v) pressed?> dann
+  ändere x um (4)
 end
 ```
 
 \--- /hint \---
 
-\--- /hints \---
+\---/hints\---
 
 \--- /task \---
 
