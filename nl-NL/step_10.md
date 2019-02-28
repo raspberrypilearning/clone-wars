@@ -10,7 +10,7 @@ Your spaceship should start with three lives and lose a life whenever it touches
 
 \--- /task \---
 
-\--- task \----
+\--- task \---
 
 Teken een nieuwe sprite genaamd ` Game Over ` met behulp van de ** tekst ** tool.
 
@@ -18,7 +18,7 @@ Teken een nieuwe sprite genaamd ` Game Over ` met behulp van de ** tekst ** tool
 
 \--- /task \---
 
-\--- task \----
+\--- task \---
 
 On the Stage, broadcast a `game over`{:class="block3events"} message just before the game ends.
 
@@ -37,11 +37,11 @@ Add this code to your `Game Over` sprite so that it shows at the end of the game
 ![gameover sprite](images/gameover-sprite.png)
 
 ```blocks3
-when flag clicked
-hide
+wanneer op de vlag wordt geklikt
+verdwijn
 
-when I receive [game over v]
-show
+wanneer ik signaal [game over v] ontvang
+verschijn
 ```
 
 Because you've used a `broadcast (game over) and wait`{:class="block3events"} block on your Stage, the Stage will wait for the `Game Over` sprite to be displayed before ending the game.
