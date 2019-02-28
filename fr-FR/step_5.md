@@ -25,8 +25,9 @@ Ajoutez du code pour cacher le lutin `Hippo` quand le jeu commence.
 ![hippo sprite](images/hippo-sprite.png)
 
 ```blocks3
-when green flag clicked
-hide
+Quand le drapeau vert est cliqué
+cacher
+
 ```
 
 \--- /task \---
@@ -41,7 +42,7 @@ Add some code to the Stage to create a new `Hippo` clone every few seconds.
 
 When the `green flag is clicked`{:class="block3events"}, `repeatedly`{:class="block3control"} `wait`{:class="block3control"} `between 2 and 4 seconds`{:class="block3operators"} and then `create a clone of the Hippo sprite`{:class="block3control"}.
 
-\--- /hint \---
+\--- /indice \---
 
 \--- hint \---
 
@@ -60,7 +61,7 @@ when flag clicked
 wait () secs
 ```
 
-\--- /hint \---
+\--- /indice \---
 
 \--- hint \---
 
@@ -76,9 +77,9 @@ forever
 end
 ```
 
-\--- /hint \---
+\--- /indice \---
 
-\--- /hints \---
+\--- /astuces \---
 
 \--- /task \---
 
@@ -92,7 +93,7 @@ Create a new variable called `speed`{:class="block3variables"} that is for the `
 
 When you've done this correctly, the variable has the name of the sprite next to it, like this:
 
-![screenshot](images/invaders-var-test.png)
+![capture d'écran](images/invaders-var-test.png)
 
 \--- /task \---
 
@@ -101,10 +102,10 @@ When you've done this correctly, the variable has the name of the sprite next to
 When each `Hippo` clone starts, pick a random speed and starting place for it. Then show the clone on the screen.
 
 ```blocks3
-when I start as a clone
-set [speed v] to (pick random (2) to (4))
-go to x: (pick random (-220) to (220)) y: (150)
-show
+quand je commence comme un ensemble de
+clone [vitesse v] (choisir au hasard 2 à 4)
+aller à x: (sélection aléatoirement entre -(220) et (220)) y: (150)
+montrer
 ```
 
 \--- /task \---
@@ -138,7 +139,7 @@ Test your code again. You should see a new hippo clone appear every few seconds,
 
 \--- no-print \---
 
-![screenshot](images/hippo-clones.gif)
+![capture d'écran](images/hippo-clones.gif)
 
 \--- /no-print \---
 
