@@ -10,7 +10,7 @@ Open the 'Clone wars' Scratch starter project.
 
 **Offline:** download the starter project from [rpf.io/p/en/clone-wars-go](http://rpf.io/p/en/clone-wars-go), and then open it using the offline editor.
 
-If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
+Si necesitas descargar e instalar el editor offline de Scratch, puedes encontrarlo en [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
 
 \--- /task \---
 
@@ -34,7 +34,7 @@ Add this code to the spaceship sprite to make the spaceship move left if the <kb
 The x-axis goes from the left side of the Stage to the right side. This means that the spaceship moves to the left when you subtract from the value of the spaceship sprite's `x` position. So this code block is the part that makes your spaceship move left:
 
 ```blocks3
-change x by (-4)
+cambia x por (-4)
 ```
 
 \--- /task \---
@@ -43,7 +43,7 @@ change x by (-4)
 
 Add some more code inside the `forever`{:class="block3control"} block to make your spaceship move to the right if the <kbd>right</kbd> arrow key is pressed.
 
-\--- hints \---
+\--- consejos \---
 
 \--- hint \---
 
@@ -56,7 +56,7 @@ Subtracting `4` from the spaceship's `x` position made it move left, so how coul
 You need the same code block, but with a different number:
 
 ```blocks3
-change x by ( )
+cambia x por ( )
 ```
 
 \--- /hint \---
@@ -68,9 +68,9 @@ Here is the code you need to add below the other code inside the `forever`{:clas
 ![rocket sprite](images/rocket-sprite.png)
 
 ```blocks3
-if <key (right arrow v) pressed?> then
-    change x by (4)
-end
+si <key (right arrow v) pressed?> luego
+    cambia x por (4)
+final
 ```
 
 \--- /hint \---
