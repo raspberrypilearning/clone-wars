@@ -25,11 +25,11 @@ Set the `Hippo` sprite's rotation style to **left-right**.
 ![hippo sprite](images/hippo-sprite.png)
 
 ```blocks3
-when green flag clicked
-hide
+عند نقر ⚑
+اختف
 ```
 
-\---/task\---
+\--- /task \---
 
 \--- task \---
 
@@ -60,7 +60,7 @@ when flag clicked
 wait () secs
 ```
 
-\--- /hint \---
+\--- hint/ \---
 
 \--- hint \---
 
@@ -76,9 +76,9 @@ forever
 end
 ```
 
-\--- /hint \---
+\--- hint/ \---
 
-\--- /hints \---
+\--- hints/ \---
 
 \--- /task \---
 
@@ -92,7 +92,7 @@ Create a new variable called `speed`{:class="block3variables"} that is for the `
 
 When you've done this correctly, the variable has the name of the sprite next to it, like this:
 
-![screenshot](images/invaders-var-test.png)
+![لقطة الشاشة](images/invaders-var-test.png)
 
 \--- /task \---
 
@@ -101,10 +101,10 @@ When you've done this correctly, the variable has the name of the sprite next to
 When each `Hippo` clone starts, pick a random speed and starting place for it. Then show the clone on the screen.
 
 ```blocks3
-when I start as a clone
-set [speed v] to (pick random (2) to (4))
-go to x: (pick random (-220) to (220)) y: (150)
-show
+عندما تبدأ نسخة مني
+اجعل [speed v] مساوياً (اختر عدداً عشوائياً بين (2) و (4))
+اذهب إلى الموضع س: (اختر عدداً عشوائياً بين (-220) و (220)) ص: (150)
+اظهر
 ```
 
 \--- /task \---
@@ -138,7 +138,7 @@ Test your code again. You should see a new hippo clone appear every few seconds,
 
 \--- no-print \---
 
-![screenshot](images/hippo-clones.gif)
+![لقطة الشاشة](images/hippo-clones.gif)
 
 \--- /no-print \---
 
