@@ -31,19 +31,19 @@ Remember to test your code.
 
 If you look at the bat's costumes, you can see that it has four different ones:
 
-![screenshot](images/invaders-bat-costume.png)
+![스크린샷](images/invaders-bat-costume.png)
 
 \--- task \---
 
 Use the `next costume`{:class="block3looks"} block to make the bat flap its wings as it moves.
 
-\--- hints \---
+\--- 힌트 \---
 
 \--- hint \---
 
 After the bat has moved, it should show the `next costume`{:class="block3looks"} and then `wait`{:class="block3control"} for a short time.
 
-\--- /hint \---
+\--- /귀뜸말 \---
 
 \--- hint \---
 
@@ -55,7 +55,7 @@ wait (0.3) seconds
 next costume
 ```
 
-\--- /hint \---
+\--- /귀뜸말 \---
 
 \--- hint \--- You code should look like this:
 
@@ -71,9 +71,9 @@ if on edge, bounce
 end
 ```
 
-\--- /hint \---
+\--- /귀뜸말 \---
 
-\--- /hints \---
+\--- / 귀뜸말 \---
 
 \--- /task \---
 
@@ -83,7 +83,7 @@ Now make the bat throw oranges!
 
 Add an `Orange` sprite from the Scratch library.
 
-![screenshot](images/invaders-orange.png)
+![스크린샷](images/invaders-orange.png)
 
 \--- /task \---
 
