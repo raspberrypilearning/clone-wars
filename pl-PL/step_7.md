@@ -26,8 +26,8 @@ All of the `Hippo` sprite clones will receive the "hit" message, and you can ins
 ![hippo sprite](images/hippo-sprite.png)
 
 ```blocks3
-when I receive [hit v]
-delete this clone
+kiedy otrzymam [trafienie v]
+usuń tego klona
 ```
 
 \--- /task \---
@@ -36,7 +36,7 @@ delete this clone
 
 To check whether the new code works, click the green flag and make the spaceship collide with a hippo.
 
-![screenshot](images/invaders-hippo-collide.png)
+![zrzut ekranu](images/invaders-hippo-collide.png)
 
 \--- /task \---
 
