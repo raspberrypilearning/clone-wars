@@ -28,9 +28,9 @@ On the Stage, broadcast a `game over`{:class="block3events"} message just before
 broadcast (game over v) and wait
 ```
 
-\--- /task \---
+\--- /কাজ \---
 
-\--- task \---
+\--- কাজ \---
 
 Add this code to your `Game Over` sprite so that it shows at the end of the game:
 
@@ -46,10 +46,10 @@ show
 
 Because you've used a `broadcast (game over) and wait`{:class="block3events"} block on your Stage, the Stage will wait for the `Game Over` sprite to be displayed before ending the game.
 
-\--- /task \---
+\--- /কাজ \---
 
-\--- task \---
+\--- কাজ \---
 
 Test your game. How many points can you score? If the game is too easy or too hard, can you think of ways to improve it?
 
-\--- /task \---
+\--- /কাজ \---
