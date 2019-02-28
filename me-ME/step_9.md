@@ -37,15 +37,15 @@ If you look at the bat's costumes, you can see that it has four different ones:
 
 Use the `next costume`{:class="block3looks"} block to make the bat flap its wings as it moves.
 
-\--- hints \---
+\--- pomoć \---
 
-\--- hint \---
+\--- pomoć \---
 
 After the bat has moved, it should show the `next costume`{:class="block3looks"} and then `wait`{:class="block3control"} for a short time.
 
 \--- /hint \---
 
-\--- hint \---
+\--- pomoć \---
 
 You need to add these blocks to you code:
 
@@ -131,7 +131,7 @@ Add some more code to the `Orange` sprite so that when an `Orange` clone hits th
 ![orange sprite](images/orange-sprite.png)
 
 ```blocks3
-    when I receive [hit v]
+    when I receive [udaren v]
     delete this clone
 ```
 
