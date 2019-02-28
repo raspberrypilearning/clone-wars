@@ -25,8 +25,8 @@ Agregue un código para ocultar el sprite `hippo` cuando comienza el juego.
 ![hippo sprite](images/hippo-sprite.png)
 
 ```blocks3
-when green flag clicked
-hide
+al presionar la bandera verde
+oculta
 ```
 
 \--- /task \---
@@ -92,7 +92,7 @@ Create a new variable called `speed`{:class="block3variables"} that is for the `
 
 When you've done this correctly, the variable has the name of the sprite next to it, like this:
 
-![screenshot](images/invaders-var-test.png)
+![captura de pantalla](images/invaders-var-test.png)
 
 \--- /task \---
 
@@ -101,10 +101,10 @@ When you've done this correctly, the variable has the name of the sprite next to
 When each `Hippo` clone starts, pick a random speed and starting place for it. Then show the clone on the screen.
 
 ```blocks3
-when I start as a clone
-set [speed v] to (pick random (2) to (4))
-go to x: (pick random (-220) to (220)) y: (150)
-show
+al comenzar como un clon
+determina [speed v] para (escoger random (2) a (4))
+ve a x: (escoger random (-220) a (220)) y: (150)
+muestra
 ```
 
 \--- /task \---
@@ -138,7 +138,7 @@ Test your code again. You should see a new hippo clone appear every few seconds,
 
 \--- no-print \---
 
-![screenshot](images/hippo-clones.gif)
+![captura de pantalla](images/hippo-clones.gif)
 
 \--- /no-print \---
 
