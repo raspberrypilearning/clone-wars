@@ -30,7 +30,7 @@ broadcast (game over v) and wait
 
 \--- /task \---
 
-\--- task \---
+\--- task --
 
 Add this code to your `Game Over` sprite so that it shows at the end of the game:
 
@@ -48,7 +48,7 @@ Because you've used a `broadcast (game over) and wait`{:class="block3events"} bl
 
 \--- /task \---
 
-\--- task \---
+\--- task --
 
 Test your game. How many points can you score? If the game is too easy or too hard, can you think of ways to improve it?
 
