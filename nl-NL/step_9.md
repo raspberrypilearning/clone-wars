@@ -4,13 +4,13 @@ To make your game a bit harder, you are going to create a bat that throws orange
 
 ![a bat throwing an orange at the spaceship](images/bat-oranges.png)
 
-\--- task \----
+\--- task \---
 
 Add a `Bat` sprite and set its rotation style to **left–right**.
 
 \--- /task \---
 
-\--- task \----
+\--- task \---
 
 Make the `Bat` sprite `move`{:class="block3motion"} from left to right at the top of the Stage `forever`{:class="block3control"}.
 
@@ -33,7 +33,7 @@ If you look at the bat's costumes, you can see that it has four different ones:
 
 ![screenshot](images/invaders-bat-costume.png)
 
-\--- task \---
+\--- task \----
 
 Use the `next costume`{:class="block3looks"} block to make the bat flap its wings as it moves.
 
@@ -131,8 +131,8 @@ Add some more code to the `Orange` sprite so that when an `Orange` clone hits th
 ![orange sprite](images/orange-sprite.png)
 
 ```blocks3
-    when I receive [hit v]
-    delete this clone
+    wanneer ik signaal [geraakt] ontvang, 
+   verwijder deze kloon
 ```
 
 \--- /task \---
@@ -144,12 +144,12 @@ Modify the code of your `Spaceship` sprite so that the sprite is "hit" when it t
 ![rocket sprite](images/rocket-sprite.png)
 
 ```blocks3
-    wait until < <touching (Hippo1 v)?> or <touching (Orange v)?>>
+    wacht tot < <touching (Hippo1 v)?> of <touching (Orange v)?>>
 ```
 
 \--- /task \---
 
-\--- task \----
+\--- task \---
 
 Test your game. What happens if the spaceship gets hit by a falling orange?
 
