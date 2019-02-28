@@ -46,13 +46,13 @@ Now it looks like it fires pointy end–first out of the spaceship.
 
 Add some new code to the `Spaceship` sprite to create a new clone of the lightning bolt if the <kbd>space</kbd> key is pressed.
 
-\--- hints \---
+\--- 힌트 \---
 
 \--- hint \---
 
 `When the green flag is clicked`{:class="block3events"}, keep checking `forever`{:class="block3control"} `if`{:class="block3control"} the `space key is pressed`{:class="block3sensing"}, and in that case `create a clone of the Lightning`{:class="block3control"} sprite.
 
-\--- /hint \---
+\--- /귀뜸말 \---
 
 \--- hint \---
 
@@ -72,7 +72,7 @@ create clone of (Lightning v)
 when flag clicked
 ```
 
-\--- /hint \---
+\--- /귀뜸말 \---
 
 \--- hint \---
 
@@ -89,9 +89,9 @@ forever
 end
 ```
 
-\--- /hint \---
+\--- /귀뜸말 \---
 
-\--- /hints \---
+\--- / 귀뜸말 \---
 
 \--- /task \---
 
