@@ -46,7 +46,7 @@ Now it looks like it fires pointy end–first out of the spaceship.
 
 Add some new code to the `Spaceship` sprite to create a new clone of the lightning bolt if the <kbd>space</kbd> key is pressed.
 
-\--- hints \---
+\--- dica \---
 
 \--- hint \---
 
