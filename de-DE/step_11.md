@@ -1,4 +1,4 @@
-## Challenge: improve your game
+## Herausforderung: Erstelle mehr Blöcke
 
 What improvements can you make to your game?
 
@@ -6,7 +6,7 @@ Hier sind ein paar Vorschläge:
 
 + Add health packs that you can collect to gain extra lives.
 
-![Screenshot](images/invaders-aid.png)
+![screenshot](images/invaders-aid.png)
 
 + Add floating rocks that your spaceship must avoid.
 
