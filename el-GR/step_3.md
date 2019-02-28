@@ -27,7 +27,7 @@ hide
 
 At the moment, the lightning bolt is really big compared to the spaceship!
 
-\--- task \---
+\--- task --
 
 Below the code that the `Lightning` sprite already has, add some blocks to make the sprite smaller and to turn it upside down.
 
@@ -42,17 +42,17 @@ Now it looks like it fires pointy end–first out of the spaceship.
 
 \--- /task \---
 
-\--- task \---
+\--- task --
 
 Add some new code to the `Spaceship` sprite to create a new clone of the lightning bolt if the <kbd>space</kbd> key is pressed.
 
-\--- hints \---
+\--- υποδείξεις \---
 
 \--- hint \---
 
 `When the green flag is clicked`{:class="block3events"}, keep checking `forever`{:class="block3control"} `if`{:class="block3control"} the `space key is pressed`{:class="block3sensing"}, and in that case `create a clone of the Lightning`{:class="block3control"} sprite.
 
-\--- /hint \---
+\--- /υπόδειξη \---
 
 \--- hint \---
 
@@ -72,7 +72,7 @@ create clone of (Lightning v)
 when flag clicked
 ```
 
-\--- /hint \---
+\--- /υπόδειξη \---
 
 \--- hint \---
 
@@ -89,13 +89,13 @@ forever
 end
 ```
 
-\--- /hint \---
+\--- /υπόδειξη \---
 
-\--- /hints \---
+\--- /υποδείξεις \---
 
 \--- /task \---
 
-\--- task \---
+\--- task --
 
 Whenever the game creates a `Lightning` sprite clone, the clone should appear and then move upwards until it reaches the top of the Stage. Then the clone should disappear.
 
@@ -115,7 +115,7 @@ Add this code to the `Lightning` sprite so that clones of it move upwards until 
 
 \--- /task \---
 
-\--- task \---
+\--- task --
 
 Press the <kbd>space</kbd> key to test whether the lightning bolt moves correctly.
 
