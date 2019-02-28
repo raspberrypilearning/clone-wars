@@ -60,7 +60,7 @@ when flag clicked
 wait () secs
 ```
 
-\--- /hint \---
+\--- /pomoć \---
 
 \--- hint \---
 
@@ -76,9 +76,9 @@ forever
 end
 ```
 
-\--- /hint \---
+\--- /pomoć \---
 
-\--- /hints \---
+\--- /pomoć \---
 
 \--- /task \---
 
