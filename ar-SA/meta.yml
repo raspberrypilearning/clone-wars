@@ -11,9 +11,9 @@ steps:
   - 
     title: المقدمة
   - 
-    title: ما ستحتاج إليه
-  - 
     title: إنشاء سفينة فضاء
+  - 
+    title: صواعق برقية
   - 
     title: 'صواعق برقية'
     challenge: true
@@ -24,12 +24,12 @@ steps:
   - 
     title: إخفاء أفراس الفضاء
   - 
-    title: 'خفاش الفاكهة'
+    title: 'التحدي: المحاولات و النتيجة'
     challenge: true
   - 
     title: انتهت اللعبة
   - 
-    title: 'التحدي: تحسين لعبتك'
+    title: انتهت اللعبة
   - 
     title: 'التحدي: تحسين لعبتك'
     challenge: true
