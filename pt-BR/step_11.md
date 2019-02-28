@@ -6,7 +6,7 @@ Aqui estão algumas idéias:
 
 + Add health packs that you can collect to gain extra lives.
 
-![captura de tela](images/invaders-aid.png)
+![screenshot](images/invaders-aid.png)
 
 + Add floating rocks that your spaceship must avoid.
 
