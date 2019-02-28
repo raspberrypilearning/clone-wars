@@ -60,7 +60,7 @@ when flag clicked
 wait () secs
 ```
 
-\--- /hint \---
+\--- /υπόδειξη \---
 
 \--- hint \---
 
@@ -76,15 +76,15 @@ forever
 end
 ```
 
-\--- /hint \---
+\--- /υπόδειξη \---
 
-\--- /hints \---
+\--- /υποδείξεις \---
 
 \--- /task \---
 
 Each new hippo clone should appear at a random `x` position, and every clone should have a random speed.
 
-\--- task \---
+\--- task --
 
 Create a new variable called `speed`{:class="block3variables"} that is for the `Hippo` sprite only.
 
@@ -96,7 +96,7 @@ When you've done this correctly, the variable has the name of the sprite next to
 
 \--- /task \---
 
-\--- task \---
+\--- task --
 
 When each `Hippo` clone starts, pick a random speed and starting place for it. Then show the clone on the screen.
 
@@ -109,7 +109,7 @@ show
 
 \--- /task \---
 
-\--- task \---
+\--- task --
 
 Test your code. Does a new hippo appear every few seconds?
 
@@ -117,7 +117,7 @@ Test your code. Does a new hippo appear every few seconds?
 
 At the moment the hippos don't move.
 
-\--- task \---
+\--- task --
 
 Each hippo should move around randomly until it gets hit by a lightning bolt. To make that happen, attach this code below the blocks that are already in the `Hippo` sprite's code script:
 
@@ -144,7 +144,7 @@ Test your code again. You should see a new hippo clone appear every few seconds,
 
 \--- /task \---
 
-\--- task \---
+\--- task --
 
 Now test the spaceship's laser cannon. If a lightning bolt hits a hippo, does the hippo vanish?
 
