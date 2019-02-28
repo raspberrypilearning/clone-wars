@@ -41,7 +41,7 @@ hide
 
 `녹색 플래그가 클릭되면`{: class = "block3events"}, `반복`{: class = "block3control"} `대기`{: class = "block3control"} `2 ~ 4 초`{: class = "block3operators"} 다음 `하마 스프라이트의 클론 만들`{: 클래스 = "block3control"}.
 
-\--- / 귀뜸말 \---
+\--- /귀뜸말 \---
 
 \--- hint \---
 
@@ -60,7 +60,7 @@ when flag clicked
 wait () secs
 ```
 
-\--- /hint \---
+\--- /귀뜸말 \---
 
 \--- hint \---
 
@@ -76,9 +76,9 @@ forever
 end
 ```
 
-\--- /hint \---
+\--- /귀뜸말 \---
 
-\--- /hints \---
+\--- / 귀뜸말 \---
 
 \--- /task \---
 
@@ -92,7 +92,7 @@ Create a new variable called `speed`{:class="block3variables"} that is for the `
 
 When you've done this correctly, the variable has the name of the sprite next to it, like this:
 
-![screenshot](images/invaders-var-test.png)
+![스크린샷](images/invaders-var-test.png)
 
 \--- /task \---
 
@@ -138,7 +138,7 @@ Test your code again. You should see a new hippo clone appear every few seconds,
 
 \--- no-print \---
 
-![screenshot](images/hippo-clones.gif)
+![스크린샷](images/hippo-clones.gif)
 
 \--- /no-print \---
 
