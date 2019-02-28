@@ -37,11 +37,11 @@ Add this code to your `Game Over` sprite so that it shows at the end of the game
 ![gameover sprite](images/gameover-sprite.png)
 
 ```blocks3
-when flag clicked
-hide
+quand le drapeau cliqué
+cacher
 
-when I receive [game over v]
-show
+quand je reçois [game over v]
+montrer
 ```
 
 Because you've used a `broadcast (game over) and wait`{:class="block3events"} block on your Stage, the Stage will wait for the `Game Over` sprite to be displayed before ending the game.
