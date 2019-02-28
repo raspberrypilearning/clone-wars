@@ -27,13 +27,13 @@ end
 
 Remember to test your code.
 
-\--- /task \---
+\--- /কাজ \---
 
 If you look at the bat's costumes, you can see that it has four different ones:
 
 ![screenshot](images/invaders-bat-costume.png)
 
-\--- task \---
+\--- কাজ \---
 
 Use the `next costume`{:class="block3looks"} block to make the bat flap its wings as it moves.
 
@@ -75,19 +75,19 @@ end
 
 \--- /hints \---
 
-\--- /task \---
+\--- /কাজ \---
 
 Now make the bat throw oranges!
 
-\--- task \---
+\--- কাজ \---
 
 Add an `Orange` sprite from the Scratch library.
 
 ![screenshot](images/invaders-orange.png)
 
-\--- /task \---
+\--- /কাজ \---
 
-\--- task \---
+\--- কাজ \---
 
 Add code to your bat so that `when the flag is clicked`{:class="block3events"}, the `Bat` sprite `forever`{:class="block3control"} `waits`{:class="block3control"} for a `random`{:class="block3operators"} length of time between `5 to 10`{:class="block3operators"} seconds and then `creates a clone`{:class="block3control"} of the `Orange` sprite.
 
@@ -101,9 +101,9 @@ forever
 end
 ```
 
-\--- /task \---
+\--- /কাজ \---
 
-\--- task \---
+\--- কাজ \---
 
 Add code to the `Orange` to make each of its clone drop, starting from the `Bat` sprite and falling towards the bottom of the Stage.
 
@@ -122,9 +122,9 @@ Add code to the `Orange` to make each of its clone drop, starting from the `Bat`
     delete this clone
 ```
 
-\--- /task \---
+\--- /কাজ \---
 
-\--- task \---
+\--- কাজ \---
 
 Add some more code to the `Orange` sprite so that when an `Orange` clone hits the `Spaceship` sprite, the clone also disappears to give the player a chance to reset:
 
@@ -135,9 +135,9 @@ Add some more code to the `Orange` sprite so that when an `Orange` clone hits th
     delete this clone
 ```
 
-\--- /task \---
+\--- /কাজ \---
 
-\--- task \---
+\--- কাজ \---
 
 Modify the code of your `Spaceship` sprite so that the sprite is "hit" when it touches a `Hippo` sprite or an `Orange` sprite:
 
@@ -153,4 +153,4 @@ Modify the code of your `Spaceship` sprite so that the sprite is "hit" when it t
 
 Test your game. What happens if the spaceship gets hit by a falling orange?
 
-\--- /task \---
+\--- /কাজ \---
