@@ -19,11 +19,11 @@ Add this code to the `Lightning` sprite:
 ![lightning sprite](images/lightning-sprite.png)
 
 ```blocks3
-when green flag clicked
-hide
+عند نقر ⚑
+اختف
 ```
 
-\--- /task \---
+\---/task\---
 
 At the moment, the lightning bolt is really big compared to the spaceship!
 
@@ -52,7 +52,7 @@ Add some new code to the `Spaceship` sprite to create a new clone of the lightni
 
 `When the green flag is clicked`{:class="block3events"}, keep checking `forever`{:class="block3control"} `if`{:class="block3control"} the `space key is pressed`{:class="block3sensing"}, and in that case `create a clone of the Lightning`{:class="block3control"} sprite.
 
-\--- /hint \---
+\--- hint/ \---
 
 \--- hint \---
 
@@ -72,7 +72,7 @@ create clone of (Lightning v)
 when flag clicked
 ```
 
-\--- /hint \---
+\--- hint/ \---
 
 \--- hint \---
 
@@ -89,9 +89,9 @@ forever
 end
 ```
 
-\--- /hint \---
+\--- hint/ \---
 
-\--- /hints \---
+\--- hints/ \---
 
 \--- /task \---
 
