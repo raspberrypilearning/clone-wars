@@ -1,7 +1,7 @@
 ## Πρόκληση: ζωές και σκορ
 
-At the moment, you can play the game forever, but it doesn't count how many hippos you shoot or how many times your spaceship explodes.
+Προς το παρόν, μπορείς να παίζεις το παιχνίδι για πάντα, αλλά δεν μετράει πόσους ιπποπόταμους πυροβολείς ή πόσες φορές το διαστημόπλοιο σου έχει εκραγεί.
 
-Can you add `lives`{:class="block3variables"}, a `score`{:class="block3variables"}, or even a `highscore`{:class="block3variables"} to your game?
+Μπορείς να προσθέσεις `ζωές`{:class="block3variables"}, `σκορ`{:class="block3variables"}, ή ακόμη και `υψηλότερο σκορ`{:class="block3variables"} στο παιχνίδι σου;
 
 [[[generic-scratch3-high-score]]]
