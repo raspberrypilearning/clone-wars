@@ -16,7 +16,7 @@ Click the green flag in the example game below to start, and then press the <kbd
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/276887163/?autostart=false" frameborder="0" scrolling="no"></iframe>
-  <img src="images/invaders-final.png">
+  <img src="images/showcase.png">
 </div>
 
 \----প্রিন্ট করা লাগবেনা --
