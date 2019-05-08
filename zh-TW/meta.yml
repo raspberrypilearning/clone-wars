@@ -1,0 +1,37 @@
+---
+hero_image: 圖像/克隆wars.png
+theme: 紫色
+listed: true
+copyedit: true
+title: 克隆戰爭
+description: 創建一個遊戲，您必須從太空怪物中保存地球
+version: 4.1.0
+last_tested: 2018年10月11日
+steps:
+  - 
+    title: 介紹
+  - 
+    title: 製造宇宙飛船
+  - 
+    title: 閃電
+  - 
+    title: '挑戰：改善閃電'
+    challenge: true
+  - 
+    title: 空間河馬
+  - 
+    title: 宇宙飛船爆炸
+  - 
+    title: 河馬消失了
+  - 
+    title: '挑戰：生活和得分'
+    challenge: true
+  - 
+    title: 空間蝙蝠
+  - 
+    title: 遊戲結束
+  - 
+    title: '挑戰：改善你的遊戲'
+    challenge: true
+  - 
+    title: 接下來是什麼？
