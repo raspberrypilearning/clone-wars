@@ -35,7 +35,7 @@ verstecken
 
 Add some code to the Stage to create a new `Hippo` clone every few seconds.
 
-\--- hinweise \---
+\--- hints \---
 
 \--- hint \---
 
