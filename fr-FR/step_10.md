@@ -1,12 +1,12 @@
 ## Game Over
 
-Next, you're going to add a 'game over' message at the end of the game.
+Ensuite, tu va rajouter un message 'game over' à la fin du jeu.
 
 \--- task \---
 
-If you haven't already, create a new variable called `lives`{:class="block3variables"}.
+Si tu ne l'a pas déjà fait, crée une nouvelle variable appelée ` vies `{:class="block3variables"}.
 
-Your spaceship should start with three lives and lose a life whenever it touches a hippo or an orange. Your game should stop when the `lives`{:class="block3variables"} run out.
+Ton vaisseau spatial devrait commencer avec trois vies et perdre une vie à chaque fois qu’il touche un hippopotame ou une orange. Ton jeu devrait s'arrêter lorsque les ` vies `{:class="block3variables"} sont épuisées.
 
 \--- /task \---
 
@@ -20,9 +20,9 @@ Dessine un nouveau sprite appelé ` Game Over ` en utilisant le texte ** ** outi
 
 \--- task \---
 
-On the Stage, broadcast a `game over`{:class="block3events"} message just before the game ends.
+Sur la scène, diffuser un message ` game over ` {: class = "blockevents"} juste avant la fin de la partie.
 
-![gameover sprite](images/stage-sprite.png)
+![lutin de gameover](images/stage-sprite.png)
 
 ```blocks3
 broadcast (game over v) and wait
