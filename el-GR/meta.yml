@@ -15,23 +15,23 @@ steps:
   - 
     title: Αστραπές
   - 
-    title: 'Challenge: improve the lightning'
+    title: 'Πρόκληση: βελτίωση της αστραπής'
     challenge: true
   - 
-    title: Space-hippos
+    title: Διαστημικοί ιπποπόταμοι
   - 
-    title: Spaceship explosion
+    title: Έκρηξη διαστημόπλοιου
   - 
-    title: Hippos that disappear
+    title: Ιπποπόταμοι που εξαφανίζονται
   - 
     title: 'Πρόκληση: ζωές και σκορ'
     challenge: true
   - 
-    title: Space-bat
+    title: Διαστημική νυχτερίδα
   - 
-    title: Game over
+    title: Τέλος παιχνιδιού
   - 
     title: 'Πρόκληση: βελτίωσε το παιχνίδι σου'
     challenge: true
   - 
-    title: 'Πρόκληση: περισσότερα μολύβια'
+    title: Τι υπάρχει στη συνέχεια;
