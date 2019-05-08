@@ -1,3 +1,3 @@
-## Challenge: improve the lightning
+## Πρόκληση: βελτίωση της αστραπής
 
-What happens if you hold down the <kbd>space</kbd> key? Can you use a `wait`{:class="block3control"} block to fix this?
+Τι συμβαίνει εάν κρατάς πατημένο το πλήκτρο <kbd>space</kbd>; Μπορείς να χρησιμοποιήσεις ένα μπλοκ `wait`{:class="block3control"} για να διορθώσεις αυτό το πρόβλημα;
