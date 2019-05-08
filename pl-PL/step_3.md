@@ -52,7 +52,7 @@ Add some new code to the `Spaceship` sprite to create a new clone of the lightni
 
 `When the green flag is clicked`{:class="block3events"}, keep checking `forever`{:class="block3control"} `if`{:class="block3control"} the `space key is pressed`{:class="block3sensing"}, and in that case `create a clone of the Lightning`{:class="block3control"} sprite.
 
-\--- /wskazówka \---
+\--- /hint \---
 
 \--- hint \---
 
@@ -72,7 +72,7 @@ create clone of (Lightning v)
 when flag clicked
 ```
 
-\--- /wskazówka \---
+\--- /hint \---
 
 \--- hint \---
 
@@ -89,9 +89,9 @@ forever
 end
 ```
 
-\--- /wskazówka \---
+\--- /hint \---
 
-\--- /wskazówka \---
+\--- /hints \---
 
 \--- /task \---
 
