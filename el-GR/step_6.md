@@ -1,20 +1,20 @@
-## Spaceship explosion
+## Έκρηξη διαστημόπλοιου
 
-When a hippo touches your spaceship, the spaceship should explode!
+Όταν ένας ιπποπόταμος αγγίζει το διαστημόπλοιο σου, το σκάφος πρέπει να εκραγεί!
 
 \--- task --
 
-Select the `Spaceship` sprite and rename its costume 'normal'.
+Επίλεξε το χαρακτήρα `Spaceship` και μετονόμασε την εμφάνιση σε «κανονική».
 
 \--- /task \---
 
 \--- task --
 
-Draw another costume of an exploding spaceship, and call the new costume 'hit'.
+Σχεδίασε μια νέα εμφάνιση ενός διαστημόπλοιου που εκρήγνυται και ονόμασε τη νέα εμφάνιση "χτυπημένο".
 
 ![screenshot](images/invaders-spaceship-costumes.png)
 
-If you don't want to draw the explosion, you can select the 'Sun' costume from the Scratch library, and then use the **Color a shape** tool to change the costume's colour and face.
+Αν δεν θέλεις να σχεδιάσεις την έκρηξη, μπορείς να επιλέξεις την εμφάνιση 'Sun' από τη βιβλιοθήκη Scratch και να χρησιμοποιήσεις το εργαλείο **Ζωγράφισε ένα σχέδιο** για να αλλάξεις το χρώμα του και να αφαιρέσεις το πρόσωπο.
 
 ![screenshot](images/invaders-sun.png)
 
@@ -22,9 +22,9 @@ If you don't want to draw the explosion, you can select the 'Sun' costume from t
 
 \--- task --
 
-Add some code to your `Spaceship` sprite so that it displays the 'normal' costume when the game starts, and switches to the 'hit' costume when it touches a hippo:
+Πρόσθεσε κώδικα στον χαρακτήρα του `διαστημόπλοιου` έτσι ώστε να εμφανίζει την «κανονική» εμφάνιση όταν ξεκινά το παιχνίδι και να αλλάζει στην εμφάνιση "χτυπημένο" όταν αγγίζει έναν ιπποπόταμο:
 
-![rocket sprite](images/rocket-sprite.png)
+![χαρακτήρας πύραυλου](images/rocket-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -37,6 +37,6 @@ switch costume to (hit v)
 
 \--- task --
 
-Test your code. Make the spaceship collide with a hippo. Does the spaceship change to the 'hit' costume?
+Δοκίμασε τον κώδικα παίζοντας το παιχνίδι και άσε το διαστημόπλοιο να συγκρουστεί με έναν ιπποπόταμο. Όντως το διαστημόπλοιο αλλάζει την εμφάνισή του στην εμφάνιση «χτυπημένο»;
 
 \--- /task \---
