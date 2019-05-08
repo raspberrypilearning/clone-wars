@@ -1,6 +1,6 @@
 \--- no-print \---
 
-This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/clone-wars-scratch2).
+Αυτή είναι η έκδοση **Scratch 3** του έργου. Υπάρχει επίσης και μία έκδοση [Scratch 2](https://projects.raspberrypi.org/en/projects/clone-wars-scratch2) του έργου.
 
 \--- /no-print \---
 
@@ -12,16 +12,16 @@ This is the **Scratch 3** version of the project. There is also a [Scratch 2 ver
 
 \--- no-print \---
 
-Click the green flag in the example game below to start, and then press the <kbd>left</kbd> and <kbd>right</kbd> arrow keys to move the spaceship, and the <kbd>space</kbd> key to shoot.
+Κάνε κλικ στην πράσινη σημαία στο παράδειγμα παρακάτω για να ξεκινήσεις και, στη συνέχεια, πάτησε το <kbd>αριστερό</kbd> και το <kbd>δεξί</kbd> πλήκτρο βέλους για να μετακινήσεις το διαστημόπλοιο και το <kbd>κενό</kbd> πλήκτρο για να πυροβολήσει.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/276887163/?autostart=false" frameborder="0" scrolling="no"></iframe>
-  <img src="images/invaders-final.png">
+  <img src="images/showcase.png">
 </div>
 
 \--- /no-print \---
 
-Score as many points as you can by shooting flying space-hippos. If you get hit by a hippo or by an orange dropped by the bats, you lose a life.
+Απόκτησε όσο περισσότερους πόντους μπορείς, πυροβολώντας ιπτάμενους διαστημικούς ιπποπόταμους. Θα χάσεις μια ζωή αν χτυπηθείς από έναν ιπποπόταμο ή από τα πορτοκάλια που πετούν οι φρουτονυχτερίδες.
 
 \--- print-only \---
 
@@ -43,9 +43,9 @@ Score as many points as you can by shooting flying space-hippos. If you get hit 
 
 + Scratch 3 (είτε [online](https://rpf.io/scratchon){:target="_blank"} είτε [offline](https://rpf.io/scratchoff){:target="_blank"})
 
-### Downloads
+### Λήψεις
 
-[Find the downloads here](http://rpf.io/p/en/clone-wars-go).
+[Βρες τις λήψεις εδώ](http://rpf.io/p/en/clone-wars-go).
 
 \--- /collapse \---
 
@@ -55,9 +55,9 @@ Score as many points as you can by shooting flying space-hippos. If you get hit 
 
 ## title: Τι θα μάθεις
 
-+ How to make sprites move using keyboard input
-+ How to clone sprites to make copies of them
-+ How to use 'broadcast' and 'receive blocks' to send messages
++ Πώς θα κάνεις τους χαρακτήρες να κινούνται με τη χρήση του πληκτρολόγιου
++ Πώς θα δημιουργήσεις αντίγραφα των χαρακτήρων
++ Πώς να χρησιμοποιήσεις τη λειτουργία "εκπομπή" και "λήψη μπλοκ" για την αποστολή μηνυμάτων
 
 \--- /collapse \---
 
@@ -65,7 +65,7 @@ Score as many points as you can by shooting flying space-hippos. If you get hit 
 
 * * *
 
-## title: Additional notes for educators
+## title: Πρόσθετες σημειώσεις για εκπαιδευτικούς
 
 \--- no-print \---
 
@@ -73,6 +73,6 @@ Score as many points as you can by shooting flying space-hippos. If you get hit 
 
 \--- /no-print \---
 
-[If you need the solution to this project, you can find it here](http://rpf.io/p/en/clone-wars-get).
+[ Εάν χρειάζεσαι τη λύση αυτού του έργου, μπορείς να τη βρείς εδώ ](http://rpf.io/p/en/clone-wars-get).
 
 \--- /collapse \---
