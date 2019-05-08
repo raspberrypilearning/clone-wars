@@ -8,19 +8,21 @@
 
 **Online :** [rpf.io/clone-wars-on](http://rpf.io/clone-wars-on){: target = "_ blank"}에서 시작 프로젝트를 엽니 다.
 
-**오프라인 :** 다운로드에서 스타터 프로젝트 [rpf.io/p/en/clone-wars-go](http://rpf.io/p/en/clone-wars-go)다음 및 오프라인 편집기를 사용하여 엽니 다.
+If you have a Scratch account you can make a copy by clicking **Remix**.
 
-Scratch 오프라인 편집기를 다운로드하여 설치해야하는 경우 [rpf.io/scratchoff](https://rpf.io/scratchoff){: target = "_ blank"}에서 찾을 수 있습니다.
+**Offline:** download the starter project from [rpf.io/p/en/clone-wars-go](http://rpf.io/p/en/clone-wars-go), and then open it using the offline editor.
+
+If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
 
 \--- /task \---
 
-![시동기 프로젝트](images/starter-project.png)
+![starter project](images/starter-project.png)
 
 \--- task \---
 
-경우 우주선 이동이 왼쪽으로 만들기 위해 우주선 스프라이트에이 코드를 추가 <kbd>왼쪽</kbd> 화살표를 누르면 :
+Add this code to the spaceship sprite to make the spaceship move left if the <kbd>left</kbd> arrow is pressed:
 
-![로켓 스프라이트](images/rocket-sprite.png)
+![rocket sprite](images/rocket-sprite.png)
 
 ```blocks3
     when flag clicked
@@ -43,13 +45,13 @@ change x by (-4)
 
 Add some more code inside the `forever`{:class="block3control"} block to make your spaceship move to the right if the <kbd>right</kbd> arrow key is pressed.
 
-\--- 힌트 \---
+\--- hints \---
 
 \--- hint \---
 
 Subtracting `4` from the spaceship's `x` position made it move left, so how could you make the spaceship move right by `4` instead?
 
-\--- /귀뜸말 \---
+\--- /hint \---
 
 \--- hint \---
 
@@ -59,7 +61,7 @@ You need the same code block, but with a different number:
 change x by ( )
 ```
 
-\--- /귀뜸말 \---
+\--- /hint \---
 
 \--- hint \---
 
@@ -73,9 +75,9 @@ if <key (right arrow v) pressed?> then
 end
 ```
 
-\--- /귀뜸말 \---
+\--- /hint \---
 
-\--- / 귀뜸말 \---
+\--- /hints \---
 
 \--- /task \---
 
