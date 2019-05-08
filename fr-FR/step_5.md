@@ -46,35 +46,35 @@ When the `green flag is clicked`{:class="block3events"}, `repeatedly`{:class="bl
 
 \--- hint \---
 
-Here are the blocks you need:
+Voici les blocs que tu as besoin:
 
 ```blocks3
-forever
-end
+pour toujours
+fin
 
-create clone of (Hippo1 v)
+créer le clone de (Hippo1 v)
 
-(pick random (2) to (4))
+(choisir aléatoire (2) à (4))
 
-when flag clicked
+lorsque le drapeau cliqué
 
-wait () secs
+attendre () secs
 ```
 
 \--- /indice \---
 
 \--- hint \---
 
-This is what your code should look like:
+C’est ce que ton code devrait ressembler :
 
-![stage sprite](images/stage-sprite.png)
+![lutin de scène](images/stage-sprite.png)
 
 ```blocks3
-when flag clicked
-forever
-    wait (pick random (2) to (4)) secs
-    create clone of (Hippo1 v)
-end
+quand le drapeau vert est cliqué
+répéter indéfiniment
+   attendre (choisir aléatoirement entre (2) et (4)) secondes
+   créer un clone de (Hippo1 v)
+terminer
 ```
 
 \--- /indice \---
@@ -83,15 +83,15 @@ end
 
 \--- /task \---
 
-Each new hippo clone should appear at a random `x` position, and every clone should have a random speed.
+Chaque nouvel clone d´hippopotame doit apparaître à une position `x` aléatoire et chaque clone doit avoir une vitesse aléatoire.
 
 \--- task \---
 
-Create a new variable called `speed`{:class="block3variables"} that is for the `Hippo` sprite only.
+Créer une nouvelle variable appelée ` vitesse `{:class="block3variables"} pour le lutin ` hippo` uniquement.
 
 [[[generic-scratch3-add-variable]]]
 
-When you've done this correctly, the variable has the name of the sprite next to it, like this:
+Une fois que tu auras fait cela correctement, la variable porte le nom du lutin à côté de lui, comme ceci :
 
 ![capture d'écran](images/invaders-var-test.png)
 
@@ -99,7 +99,7 @@ When you've done this correctly, the variable has the name of the sprite next to
 
 \--- task \---
 
-When each `Hippo` clone starts, pick a random speed and starting place for it. Then show the clone on the screen.
+Au démarrage de chaque clone de `Hippo`, choisis une vitesse aléatoire et le lieu de départ pour le clone. Puis affiche le clone a l’écran.
 
 ```blocks3
 quand je commence comme un ensemble de
@@ -112,11 +112,11 @@ montrer
 
 \--- task \---
 
-Test your code. Does a new hippo appear every few seconds?
+Testez ton code. Un nouveau hippo apparaît-il toutes les quelques secondes ?
 
 \--- /task \---
 
-At the moment the hippos don't move.
+Pour le moment, les hippos ne bougent pas.
 
 \--- task \---
 
