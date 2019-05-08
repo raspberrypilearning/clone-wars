@@ -1,3 +1,3 @@
-## Ippopotami Spaziali Volanti
+## Sfida: migliora il fulmine
 
-What happens if you hold down the <kbd>space</kbd> key? Can you use a `wait`{:class="block3control"} block to fix this?
+Cosa succede se si tiene premuto la <kbd>barra spaziatrice</kbd>? Puoi usare un blocco ` aspetta ` {: class = "block3control"} per migliorarlo?
