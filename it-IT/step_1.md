@@ -1,6 +1,6 @@
 \--- no-print \---
 
-This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/clone-wars-scratch2).
+Questa è la versione **Scratch 3** del progetto. C'è anche una [versione Scratch 2 del progetto](https://projects.raspberrypi.org/en/projects/clone-wars-scratch2).
 
 \--- /no-print \---
 
@@ -12,20 +12,20 @@ In questo progetto imparerai come creare un gioco in cui il giocatore deve salva
 
 \--- no-print \---
 
-Click the green flag in the example game below to start, and then press the <kbd>left</kbd> and <kbd>right</kbd> arrow keys to move the spaceship, and the <kbd>space</kbd> key to shoot.
+Per iniziare clicca sulla bandierina verde nel gioco di esempio qui sotto, poi premi i tasti freccia <kbd>sinistra</kbd> e <kbd>destra</kbd> per spostare la navicella, e il tasto <kbd>spazio</kbd> per sparare.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/276887163/?autostart=false" frameborder="0" scrolling="no"></iframe>
-  <img src="images/invaders-final.png">
+  <img src="images/showcase.png">
 </div>
 
 \--- /no-print \---
 
-Score as many points as you can by shooting flying space-hippos. If you get hit by a hippo or by an orange dropped by the bats, you lose a life.
+Fai quanti più punti possibile sparando agli ippopotami spaziali volanti. Perderai una vita se vieni colpito da un ippopotamo o da una delle arance fatte cadere dai pipistrelli.
 
 \--- print-only \---
 
-![desc](images/showcase.png)
+![descrizione](images/showcase.png)
 
 \--- /print-only \---
 
@@ -43,9 +43,9 @@ Score as many points as you can by shooting flying space-hippos. If you get hit 
 
 + Scratch 3 ([online](https://rpf.io/scratchon){:target="_blank"} o [offline](https://rpf.io/scratchoff){:target="_blank"}"})
 
-### Downloads
+### Download
 
-[Find the downloads here](http://rpf.io/p/en/clone-wars-go).
+[Trova i download qui ](http://rpf.io/p/en/clone-wars-go).
 
 \--- / chiudi \---
 
@@ -55,9 +55,9 @@ Score as many points as you can by shooting flying space-hippos. If you get hit 
 
 ## title: Cosa imparerai
 
-+ How to make sprites move using keyboard input
-+ How to clone sprites to make copies of them
-+ How to use 'broadcast' and 'receive blocks' to send messages
++ Come far muovere gli sprite usando l'input da tastiera
++ Come clonare gli sprite per farne delle copie
++ Come usare 'broadcast' e 'ricevi blocchi' per inviare messaggi
 
 \--- / chiudi \---
 
@@ -65,7 +65,7 @@ Score as many points as you can by shooting flying space-hippos. If you get hit 
 
 * * *
 
-## title: Additional notes for educators
+## title: Note addizionali per gli educatori
 
 \--- no-print \---
 
@@ -73,6 +73,6 @@ Se intendete stampare questo progetto, cliccate su [Versione stampabile](https:/
 
 \--- /no-print \---
 
-[If you need the solution to this project, you can find it here](http://rpf.io/p/en/clone-wars-get).
+[ Se hai bisogno della soluzione per questo progetto, puoi trovarlo qui ](http://rpf.io/p/en/clone-wars-get).
 
 \--- / chiudi \---
