@@ -8,15 +8,17 @@ Open the 'Clone wars' Scratch starter project.
 
 **Online:** open the starter project at [rpf.io/clone-wars-on](http://rpf.io/clone-wars-on){:target="_blank"}.
 
+If you have a Scratch account you can make a copy by clicking **Remix**.
+
 **Offline:** download the starter project from [rpf.io/p/en/clone-wars-go](http://rpf.io/p/en/clone-wars-go), and then open it using the offline editor.
 
 If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
 
-\--- /কাজ \---
+\--- /task \---
 
 ![starter project](images/starter-project.png)
 
-\--- কাজ \---
+\--- task \---
 
 Add this code to the spaceship sprite to make the spaceship move left if the <kbd>left</kbd> arrow is pressed:
 
@@ -37,9 +39,9 @@ The x-axis goes from the left side of the Stage to the right side. This means th
 change x by (-4)
 ```
 
-\--- /কাজ \---
+\--- /task \---
 
-\--- কাজ \---
+\--- task \---
 
 Add some more code inside the `forever`{:class="block3control"} block to make your spaceship move to the right if the <kbd>right</kbd> arrow key is pressed.
 
@@ -77,10 +79,10 @@ end
 
 \--- /hints \---
 
-\--- /কাজ \---
+\--- /task \---
 
-\--- কাজ \---
+\--- task \---
 
 Test your project by clicking the green flag. Can you press the arrow keys to make your spaceship move left and right?
 
-\--- /কাজ \---
+\--- /task \---
