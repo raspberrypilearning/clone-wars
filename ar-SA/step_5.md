@@ -45,7 +45,7 @@ When the `green flag is clicked`{:class="block3events"}, `repeatedly`{:class="bl
 
 \--- hint \---
 
-Here are the blocks you need:
+إليك الكتل التي تحتاجها:
 
 ```blocks3
 forever
@@ -64,7 +64,7 @@ wait () secs
 
 \--- hint \---
 
-This is what your code should look like:
+و هذا ما يجب أن تبدو عليه التعليمات البرمجية الخاصة بك:
 
 ![stage sprite](images/stage-sprite.png)
 
