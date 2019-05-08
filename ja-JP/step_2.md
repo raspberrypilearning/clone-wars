@@ -8,6 +8,8 @@ Open the 'Clone wars' Scratch starter project.
 
 **Online:** open the starter project at [rpf.io/clone-wars-on](http://rpf.io/clone-wars-on){:target="_blank"}.
 
+If you have a Scratch account you can make a copy by clicking **Remix**.
+
 **Offline:** download the starter project from [rpf.io/p/en/clone-wars-go](http://rpf.io/p/en/clone-wars-go), and then open it using the offline editor.
 
 If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
@@ -43,13 +45,13 @@ x座標を (-4) ずつ変える
 
 Add some more code inside the `forever`{:class="block3control"} block to make your spaceship move to the right if the <kbd>right</kbd> arrow key is pressed.
 
-\--- ヒント \---
+\--- hints \---
 
 \--- hint \---
 
 Subtracting `4` from the spaceship's `x` position made it move left, so how could you make the spaceship move right by `4` instead?
 
-\--- /ヒント \---
+\--- /hint \---
 
 \--- hint \---
 
@@ -59,7 +61,7 @@ You need the same code block, but with a different number:
 x座標を () ずつ変える
 ```
 
-\--- /ヒント \---
+\--- /hint \---
 
 \--- hint \---
 
@@ -73,9 +75,9 @@ if <key (right arrow v) pressed?> then
 end
 ```
 
-\--- /ヒント \---
+\--- /hint \---
 
-\--- /ヒント \---
+\--- /hints \---
 
 \--- /task \---
 
