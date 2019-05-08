@@ -1,12 +1,14 @@
 ## Creare una navicella spaziale
 
-First make a spaceship that can defend the Earth!
+Creiamo una navicella spaziale che difenderà la Terra!
 
 \--- task \---
 
-Open the 'Clone wars' Scratch starter project.
+Apri il progetto starter 'Clone wars'.
 
-**Online:** open the starter project at [rpf.io/clone-wars-on](http://rpf.io/clone-wars-on){:target="_blank"}.
+**Online:** apri il progetto iniziale su [rpf.io/clone-wars-on](http://rpf.io/clone-wars-on){:target="_blank"}.
+
+If you have a Scratch account you can make a copy by clicking **Remix**.
 
 **Offline:** download the starter project from [rpf.io/p/en/clone-wars-go](http://rpf.io/p/en/clone-wars-go), and then open it using the offline editor.
 
@@ -43,7 +45,7 @@ change x by (-4)
 
 Add some more code inside the `forever`{:class="block3control"} block to make your spaceship move to the right if the <kbd>right</kbd> arrow key is pressed.
 
-\--- hint \---
+\--- hints \---
 
 \--- hint \---
 
