@@ -1,0 +1,37 @@
+---
+hero_image: images/clone-wars.png
+theme: violet
+listed: true
+copyedit: true
+title: Bekrig Klonerne
+description: I dette projekt skal du lære, hvordan du laver et spil, hvor du skal redde Jorden fra monstre i rummet.
+version: 4
+last_tested: 2017-01-01
+steps:
+  - 
+    title: Bekrig Klonerne
+  - 
+    title: Make a spaceship
+  - 
+    title: Lightning bolts
+  - 
+    title: 'Challenge: improve the lightning'
+    challenge: true
+  - 
+    title: Space-hippos
+  - 
+    title: Spaceship explosion
+  - 
+    title: Hippos that disappear
+  - 
+    title: 'Challenge: lives and score'
+    challenge: true
+  - 
+    title: Space-bat
+  - 
+    title: Game over
+  - 
+    title: 'Challenge: improve your game'
+    challenge: true
+  - 
+    title: What next?
