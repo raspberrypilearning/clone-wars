@@ -1,12 +1,12 @@
-## Game over
+## Τέλος παιχνιδιού
 
-Next, you're going to add a 'game over' message at the end of the game.
+Ας προσθέσουμε ένα μήνυμα 'τέλος παιχνιδιού' όταν ολοκληρωθεί.
 
 \--- task --
 
-If you haven't already, create a new variable called `lives`{:class="block3variables"}.
+Αν δεν το έχεις κάνει ήδη, δημιούργησε μια νέα μεταβλητή που ονομάζεται `ζωές`{:class="blockdata"}.
 
-Your spaceship should start with three lives and lose a life whenever it touches a hippo or an orange. Your game should stop when the `lives`{:class="block3variables"} run out.
+Το διαστημόπλοιό σου πρέπει να ξεκινήσει με τρεις ζωές και να χάνει μια ζωή όποτε αγγίζει έναν ιπποπόταμο ή ένα πορτοκάλι. Το παιχνίδι σου πρέπει να σταματήσει όταν η μεταβλητή `ζωές`{:class="block3variables"} μηδενιστεί.
 
 \--- /task \---
 
@@ -20,9 +20,9 @@ Your spaceship should start with three lives and lose a life whenever it touches
 
 \--- task --
 
-On the Stage, broadcast a `game over`{:class="block3events"} message just before the game ends.
+Στο σκηνικό σου, μεταδίδεις ένα μήνυμα `τέλος παιχνιδιού`{:class="block3events"} λίγο πριν τελειώσει το παιχνίδι.
 
-![gameover sprite](images/stage-sprite.png)
+![χαρακτήρας τέλους παιχνιδιού](images/stage-sprite.png)
 
 ```blocks3
 broadcast (game over v) and wait
@@ -32,9 +32,9 @@ broadcast (game over v) and wait
 
 \--- task --
 
-Add this code to your `Game Over` sprite so that it shows at the end of the game:
+Πρόσθεσε αυτόν τον κώδικα στο χαρακτήρα `Τέλος Παιχνιδιού`, έτσι ώστε το μήνυμα να εμφανίζεται στο τέλος του παιχνιδιού:
 
-![gameover sprite](images/gameover-sprite.png)
+![χαρακτήρας τέλους παιχνιδιού](images/gameover-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -44,12 +44,12 @@ when I receive [game over v]
 show
 ```
 
-Because you've used a `broadcast (game over) and wait`{:class="block3events"} block on your Stage, the Stage will wait for the `Game Over` sprite to be displayed before ending the game.
+Επειδή έχεις χρησιμοποιήσει ένα μπλοκ `broadcast (game over) and wait`{:class="block3events"} στο σκηνικό σου, θα περιμένει να εμφανιστεί ο χαρακτήρας `Τέλος Παιχνιδιού` πριν τελειώσει το παιχνίδι.
 
 \--- /task \---
 
 \--- task --
 
-Test your game. How many points can you score? If the game is too easy or too hard, can you think of ways to improve it?
+Δοκίμασε το παιχνίδι σου. Πόσους πόντους μπορείς να πετύχεις; Εάν είναι πολύ εύκολο ή πολύ δύσκολο, μπορείς να σκεφτείς τρόπους για να βελτιώσεις το παιχνίδι σου;
 
 \--- /task \---
