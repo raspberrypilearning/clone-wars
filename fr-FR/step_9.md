@@ -60,15 +60,15 @@ next costume
 \--- hint \--- You code should look like this:
 
 ```blocks3
-when flag clicked
-set size to (50) %
-forever
-move (10) steps
-if on edge, bounce
+quand le drapeau cliqué sur
+taille définie à (50) %
+pour toujours
+déplacer (10) pas
+si sur le bord, rebondissez
 
-+ next costume
-+ wait (0.3) seconds
-end
++ prochain costume
++ attendre (0.3) secondes
+fin
 ```
 
 \--- /indice \---
@@ -77,11 +77,11 @@ end
 
 \--- /task \---
 
-Now make the bat throw oranges!
+Maintenant, fait en sorte que la chauve-souris jette des oranges !
 
 \--- task \---
 
-Add an `Orange` sprite from the Scratch library.
+Ajouter un lutin `Orange`de la bibliothèque Scratch.
 
 ![capture d'écran](images/invaders-orange.png)
 
@@ -89,68 +89,68 @@ Add an `Orange` sprite from the Scratch library.
 
 \--- task \---
 
-Add code to your bat so that `when the flag is clicked`{:class="block3events"}, the `Bat` sprite `forever`{:class="block3control"} `waits`{:class="block3control"} for a `random`{:class="block3operators"} length of time between `5 to 10`{:class="block3operators"} seconds and then `creates a clone`{:class="block3control"} of the `Orange` sprite.
+Ajoutez du code à ta chauve-souris pour que ` quand le drapeau est cliqué ` {: class = "block3events"}, le `lutin de la ` chauve-souris ` attend ` {: class = "block3control"} ` pour toujours ` {: class = "block3control"} pour une ` durée aléatoire ` {: class = "block3operators"} entre ` 5 et 10 ` {: class = "block3operators"} secondes puis ` crée un clone ` {: class = "block3control"} du lutin de ` l´orange `.
 
-![bat sprite](images/bat-sprite.png)
+![lutin de chauve-souris](images/bat-sprite.png)
 
 ```blocks3
-when flag clicked
-forever
-    wait (pick random (5) to (10)) secs
-    create clone of (Orange v)
-end
+quand le drapeau vert est cliqué
+répéter indéfiniment
+   attendre (choisir aléatoirement entre (5) et (10)) secondes
+   créer un clone de (Orange v)
+terminer
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Add code to the `Orange` to make each of its clone drop, starting from the `Bat` sprite and falling towards the bottom of the Stage.
+Ajoutez du code a au lutin `d’orange` pour faire chacun de ses clones, à partir du lutin de `chauve-souris` et descendre vers le bas de la scène.
 
-![orange sprite](images/orange-sprite.png)
+![lutin d´orange](images/orange-sprite.png)
 
 ```blocks3
-    when flag clicked
-    hide
+    quand le drapeau cliqué
+    cacher
 
-    when I start as a clone
-    go to (Bat v)
-    show
-    repeat until <touching (edge v)?
-        change y by (-4)
-    end
-    delete this clone
+    quand je commence comme clone
+    aller à (Chauve-souris v)
+    montrer
+    répéter jusqu'à <toucher (bord v)?
+        changer y par (-4)
+    fin
+    supprimer ce clone
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Add some more code to the `Orange` sprite so that when an `Orange` clone hits the `Spaceship` sprite, the clone also disappears to give the player a chance to reset:
+Ajoutez plus de code au lutin `d´orange` afin que lorsque un clone `d´orange` touche le lutin de `vaisseau spatial`, le clone disparaît également pour donner au joueur une chance de réinitialiser :
 
-![orange sprite](images/orange-sprite.png)
+![lutin d´orange](images/orange-sprite.png)
 
 ```blocks3
-    when I receive [hit v]
-    delete this clone
+    quand je reçois [touché v]
+    effacer ce clone
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Modify the code of your `Spaceship` sprite so that the sprite is "hit" when it touches a `Hippo` sprite or an `Orange` sprite:
+Modifier le code de votre lutin de `vaisseau spatial` afin que le lutin soit « touché » lorsqu’il touche un lutin `hippo` ou un lutin `orange` :
 
-![rocket sprite](images/rocket-sprite.png)
+![lutin de roquette](images/rocket-sprite.png)
 
 ```blocks3
-    wait until < <touching (Hippo1 v)?> or <touching (Orange v)?>>
+    patienter jusqu'à < <touching (Hippo1 v)?> or <touching (Orange v)?>>
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Test your game. What happens if the spaceship gets hit by a falling orange?
+Testez ton jeu. Que se passe-t-il si le vaisseau spatial se fait frapper par une orange qui tombe ?
 
 \--- /task \---
