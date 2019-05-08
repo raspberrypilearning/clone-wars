@@ -1,6 +1,6 @@
 ---
 hero_image: images/clone-wars.png
-theme: violet
+theme: viola
 listed: true
 copyedit: true
 title: Guerre dei Cloni
@@ -24,14 +24,14 @@ steps:
   - 
     title: 'Sfida: Migliora il tuo gioco'
   - 
-    title: 'Challenge: lives and score'
+    title: 'Sfida: vite e punteggio'
     challenge: true
   - 
-    title: Space-bat
+    title: Pipistrello dello spazio
   - 
     title: Fine gioco
   - 
     title: 'Sfida: migliora il tuo gioco'
     challenge: true
   - 
-    title: 'Sfida: Più matite'
+    title: E adesso?
