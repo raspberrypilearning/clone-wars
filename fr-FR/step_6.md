@@ -24,7 +24,7 @@ If you don't want to draw the explosion, you can select the 'Sun' costume from t
 
 Add some code to your `Spaceship` sprite so that it displays the 'normal' costume when the game starts, and switches to the 'hit' costume when it touches a hippo:
 
-![rocket sprite](images/rocket-sprite.png)
+![lutin de roquette](images/rocket-sprite.png)
 
 ```blocks3
 when flag clicked
