@@ -16,7 +16,7 @@ Cliquez sur le drapeau vert dans le jeu de l'exemple ci-dessous pour démarrer, 
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/276887163/?autostart=false" frameborder="0" scrolling="no"></iframe>
-  <img src="images/invaders-final.png">
+  <img src="images/showcase.png">
 </div>
 
 \--- /no-print \---
@@ -56,8 +56,8 @@ Marquez autant de points que possible en tirant sur des hippopotames volants. Tu
 ## title: Ce que tu vas apprendre
 
 + Comment faire bouger les lutins en utilisant les touches du clavier
-+ How to clone sprites to make copies of them
-+ How to use 'broadcast' and 'receive blocks' to send messages
++ Comment cloner des lutins pour en faire des copies
++ Comment utiliser « diffuser » et « recevoir des blocs » pour envoyer des messages
 
 \--- /collapse \---
 
@@ -65,7 +65,7 @@ Marquez autant de points que possible en tirant sur des hippopotames volants. Tu
 
 * * *
 
-## title: Additional notes for educators
+## titre: Notes supplémentaires pour les éducateurs
 
 \--- no-print \---
 
@@ -73,6 +73,6 @@ Si tu as besoin d'imprimer ce projet, merci d'utiliser la [Version imprimable](h
 
 \--- /no-print \---
 
-[If you need the solution to this project, you can find it here](http://rpf.io/p/en/clone-wars-get).
+[Si tu a besoin de la solution à ce projet, tu peux le trouver ici](http://rpf.io/p/en/clone-wars-get).
 
 \--- /collapse \---
