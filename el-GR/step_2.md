@@ -1,12 +1,14 @@
 ## Φτιάξε ένα διαστημόπλοιο
 
-First make a spaceship that can defend the Earth!
+Ας δημιουργήσουμε ένα διαστημόπλοιο που θα υπερασπιστεί τη Γη!
 
 \--- task --
 
-Open the 'Clone wars' Scratch starter project.
+Άνοιξε το αρχικό έργο Scratch "Πόλεμος των κλώνων".
 
-**Online:** open the starter project at [rpf.io/clone-wars-on](http://rpf.io/clone-wars-on){:target="_blank"}.
+**Online:** άνοιξε το αρχικό έργο στο[rpf.io/clone-wars-on](http://rpf.io/clone-wars-on){:target="_blank"}.
+
+If you have a Scratch account you can make a copy by clicking **Remix**.
 
 **Offline:** download the starter project from [rpf.io/p/en/clone-wars-go](http://rpf.io/p/en/clone-wars-go), and then open it using the offline editor.
 
@@ -14,9 +16,9 @@ If you need to download and install the Scratch offline editor, you can find it 
 
 \--- /task \---
 
-![αρχικοποίηση έργου](images/starter-project.png)
+![starter project](images/starter-project.png)
 
-\--- task --
+\--- task \---
 
 Add this code to the spaceship sprite to make the spaceship move left if the <kbd>left</kbd> arrow is pressed:
 
@@ -39,17 +41,17 @@ change x by (-4)
 
 \--- /task \---
 
-\--- task --
+\--- task \---
 
 Add some more code inside the `forever`{:class="block3control"} block to make your spaceship move to the right if the <kbd>right</kbd> arrow key is pressed.
 
-\--- υποδείξεις \---
+\--- hints \---
 
 \--- hint \---
 
 Subtracting `4` from the spaceship's `x` position made it move left, so how could you make the spaceship move right by `4` instead?
 
-\--- /υπόδειξη \---
+\--- /hint \---
 
 \--- hint \---
 
@@ -59,7 +61,7 @@ You need the same code block, but with a different number:
 change x by ( )
 ```
 
-\--- /υπόδειξη \---
+\--- /hint \---
 
 \--- hint \---
 
@@ -73,13 +75,13 @@ if <key (right arrow v) pressed?> then
 end
 ```
 
-\--- /υπόδειξη \---
+\--- /hint \---
 
-\--- /υποδείξεις \---
+\--- /hints \---
 
 \--- /task \---
 
-\--- task --
+\--- task \---
 
 Test your project by clicking the green flag. Can you press the arrow keys to make your spaceship move left and right?
 
