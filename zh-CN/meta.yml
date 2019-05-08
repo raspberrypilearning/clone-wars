@@ -1,0 +1,37 @@
+---
+hero_image: images/clone-wars.png
+theme: violet
+listed: true
+copyedit: true
+title: 克隆战争
+description: 创作一个游戏，在游戏中，你必须战胜太空怪物，拯救地球
+version: 4.1.0
+last_tested: 2018-10-11
+steps:
+  - 
+    title: 介绍
+  - 
+    title: 你将需要什么
+  - 
+    title: 制作一艘宇宙飞船
+  - 
+    title: '闪电球'
+    challenge: true
+  - 
+    title: 会飞的太空河马
+  - 
+    title: 爆炸的宇宙飞船
+  - 
+    title: 消失的河马
+  - 
+    title: '果蝠'
+    challenge: true
+  - 
+    title: 游戏结束
+  - 
+    title: 挑战：完善你的游戏
+  - 
+    title: 'Challenge: improve your game'
+    challenge: true
+  - 
+    title: What next?
