@@ -16,7 +16,7 @@ Clique na bandeira verde no jogo de exemplo abaixo para começar, e depois press
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/276887163/?autostart=false" frameborder="0" scrolling="no"></iframe>
-  <img src="images/invaders-final.png">
+  <img src="images/showcase.png">
 </div>
 
 \--- /no-print \---
