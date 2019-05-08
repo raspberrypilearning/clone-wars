@@ -43,7 +43,7 @@ Use the `next costume`{:class="block3looks"} block to make the bat flap its wing
 
 After the bat has moved, it should show the `next costume`{:class="block3looks"} and then `wait`{:class="block3control"} for a short time.
 
-\--- /wskazówka \---
+\--- /hint \---
 
 \--- hint \---
 
@@ -55,7 +55,7 @@ wait (0.3) seconds
 next costume
 ```
 
-\--- /wskazówka \---
+\--- /hint \---
 
 \--- hint \--- You code should look like this:
 
@@ -71,9 +71,9 @@ if on edge, bounce
 end
 ```
 
-\--- /wskazówka \---
+\--- /hint \---
 
-\--- /wskazówka \---
+\--- /hints \---
 
 \--- /task \---
 
