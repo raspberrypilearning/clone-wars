@@ -6,23 +6,23 @@
 
 Άνοιξε το αρχικό έργο Scratch "Πόλεμος των κλώνων".
 
-**Online:** άνοιξε το αρχικό έργο στο[rpf.io/clone-wars-on](http://rpf.io/clone-wars-on){:target="_blank"}.
+**Online:** άνοιξε το αρχικό έργο στο [rpf.io/clone-wars-on](http://rpf.io/clone-wars-on){:target="_blank"}.
 
-If you have a Scratch account you can make a copy by clicking **Remix**.
+Αν έχεις λογαριασμό Scratch μπορείς να κάνεις ένα αντίγραφο, κάνοντας κλικ στο κουμπί **Ανάμειξη**.
 
-**Offline:** download the starter project from [rpf.io/p/en/clone-wars-go](http://rpf.io/p/en/clone-wars-go), and then open it using the offline editor.
+**Offline:** κατέβασε το αρχικό έργο από το [rpf.io/p/en/clone-wars-go](http://rpf.io/p/en/clone-wars-go), και κατόπιν άνοιξέ το με τον offline editor.
 
-If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
+Αν χρειαστεί να κατεβάσεις και να εγκαταστήσεις τον offline editor για το Scratch, μπορείς να το βρεις στο [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
 
 \--- /task \---
 
-![starter project](images/starter-project.png)
+![αρχικό έργο](images/starter-project.png)
 
-\--- task \---
+\--- task --
 
-Add this code to the spaceship sprite to make the spaceship move left if the <kbd>left</kbd> arrow is pressed:
+Πρόσθεσε αυτόν τον κώδικα στο χαρακτήρα του διαστημόπλοιου για να μετακινήσεις το διαστημόπλοιο αριστερά εάν πατηθεί το <kbd>αριστερό</kbd> βέλος:
 
-![rocket sprite](images/rocket-sprite.png)
+![χαρακτήρας πύραυλου](images/rocket-sprite.png)
 
 ```blocks3
     when flag clicked
@@ -33,7 +33,7 @@ Add this code to the spaceship sprite to make the spaceship move left if the <kb
     end
 ```
 
-The x-axis goes from the left side of the Stage to the right side. This means that the spaceship moves to the left when you subtract from the value of the spaceship sprite's `x` position. So this code block is the part that makes your spaceship move left:
+Ο άξονας x πηγαίνει από την αριστερή πλευρά του σκηνικού προς τη δεξιά πλευρά. Αυτό σημαίνει ότι το διαστημόπλοιο κινείται προς τα αριστερά όταν μειώνεις την τιμή του `x`. Αυτός ο κώδικας θα κάνει το διαστημόπλοιο σου να μετακινηθεί αριστερά:
 
 ```blocks3
 change x by (-4)
@@ -41,21 +41,21 @@ change x by (-4)
 
 \--- /task \---
 
-\--- task \---
+\--- task --
 
-Add some more code inside the `forever`{:class="block3control"} block to make your spaceship move to the right if the <kbd>right</kbd> arrow key is pressed.
+Πρόσθεσε τον αντίστοιχο κώδικα μέσα στο μπλοκ του βρόχου `forever`{: class = «block3control»} για να κινηθεί το διαστημόπλοιο προς τα δεξιά όταν πατηθεί το <kbd>δεξί</kbd> βέλος.
 
 \--- hints \---
 
 \--- hint \---
 
-Subtracting `4` from the spaceship's `x` position made it move left, so how could you make the spaceship move right by `4` instead?
+Αφαιρώντας `4` από τη θέση `x` του διαστημόπλοιου το έκανε να μετακινηθεί προς τα αριστερά, οπότε πώς θα μπορούσες να κάνεις το διαστημόπλοιο να μετακινηθεί δεξιά κατά `4`;
 
 \--- /hint \---
 
 \--- hint \---
 
-You need the same code block, but with a different number:
+Χρειάζεσαι το ίδιο μπλοκ κώδικα, αλλά με διαφορετικό αριθμό:
 
 ```blocks3
 change x by ( )
@@ -65,9 +65,9 @@ change x by ( )
 
 \--- hint \---
 
-Here is the code you need to add below the other code inside the `forever`{:class="block3control"} block:
+Εδώ είναι ο κώδικας που θα χρειαστεί να προσθέσεις κάτω από τον άλλο κώδικα μέσα στο μπλοκ `forever`{:class="block3control"}:
 
-![rocket sprite](images/rocket-sprite.png)
+![χαρακτήρας πύραυλου](images/rocket-sprite.png)
 
 ```blocks3
 if <key (right arrow v) pressed?> then
@@ -81,8 +81,8 @@ end
 
 \--- /task \---
 
-\--- task \---
+\--- task --
 
-Test your project by clicking the green flag. Can you press the arrow keys to make your spaceship move left and right?
+Δοκίμασε το έργο σου κάνοντας κλικ στην πράσινη σημαία. Μπορείς να πατήσεις τα πλήκτρα βέλους για να μεταφέρεις το διαστημόπλοιο σου αριστερά και δεξιά;
 
 \--- /task \---
