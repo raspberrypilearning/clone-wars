@@ -64,9 +64,9 @@ wait () secs
 
 \--- hint \---
 
-Έτσι πρέπει να φαίνεται ο κώδικάς σου:
+Έτσι πρέπει να μοιάζει ο κώδικας:
 
-![χαρακτήρας σκηνικού](images/stage-sprite.png)
+![stage sprite](images/stage-sprite.png)
 
 ```blocks3
 when flag clicked
