@@ -1,0 +1,25 @@
+---
+hero_image: images/clone-wars.png
+theme: violet
+listed: true
+copyedit: true
+title: Ο πόλεμος των κλώνων
+description: Δημιούργησε ένα παιχνίδι στο οποίο θα πρέπει να σώσεις τη Γη από τα τέρατα του διαστήματος
+version: 4.1.0
+last_tested: 2018-10-11
+steps:
+  - title: Εισαγωγή
+  - title: Φτιάξε ένα διαστημόπλοιο
+  - title: Αστραπές
+  - title: 'Πρόκληση: βελτίωση της αστραπής'
+    challenge: true
+  - title: Διαστημικοί ιπποπόταμοι
+  - title: Έκρηξη διαστημόπλοιου
+  - title: Ιπποπόταμοι που εξαφανίζονται
+  - title: 'Πρόκληση: ζωές και σκορ'
+    challenge: true
+  - title: Διαστημική νυχτερίδα
+  - title: Τέλος παιχνιδιού
+  - title: 'Πρόκληση: βελτίωσε το παιχνίδι σου'
+    challenge: true
+  - title: Και τώρα;
