@@ -39,7 +39,7 @@ Voeg wat code toe aan de achtergrond om elke paar seconden een nieuwe `Hippo` (n
 
 \--- hint \---
 
-Wanneer de `groene vlag wordt geklikt`{:class="block3events"}, `herhaal`{:class="block3control"} `wacht`{:class="block3control"} `tussen 2 en 4 seconden`{:class="block3operators"} en vervolgens `maak een kloon van mijzelf`{:class="block3control"}.
+Wanneer de `groene vlag wordt geklikt`{:class="block3events"}, `herhaal`{:class="block3control"} `wacht`{:class="block3control"} `tussen 2 en 4 seconden`{:class="block3operators"} en vervolgens `maak een kloon van Hippo1`{:class="block3control"}.
 
 \--- /hint \---
 
@@ -48,31 +48,31 @@ Wanneer de `groene vlag wordt geklikt`{:class="block3events"}, `herhaal`{:class=
 Dit zijn de blokken die je nodig hebt:
 
 ```blocks3
-forever
+herhaal
 end
 
-create clone of (Hippo1 v)
+maak een kloon van (Hippo1 v)
 
-(pick random (2) to (4))
+(willekeurig getal tussen (2) en (4))
 
-when flag clicked
+wanneer groene vlag wordt aangeklikt
 
-wait () secs
+wacht () sec.
 ```
 
 \--- /hint \---
 
 \--- hint \---
 
-This is what your code should look like:
+Dit is hoe je code eruit zou moeten zien:
 
 ![stage sprite](images/stage-sprite.png)
 
 ```blocks3
-when flag clicked
-forever
-    wait (pick random (2) to (4)) secs
-    create clone of (Hippo1 v)
+wanneer groene vlag wordt aangeklikt
+herhaal 
+  wacht (willekeurig getal tussen (2) en (4)) sec.
+  maak een kloon van (Hippo1 v)
 end
 ```
 
@@ -82,15 +82,15 @@ end
 
 \--- /task \---
 
-Each new hippo clone should appear at a random `x` position, and every clone should have a random speed.
+Elke nieuw nijlpaard moet op een willekeurige `x`-positie verschijnen en moet een willekeurige snelheid hebben.
 
 \--- task \---
 
-Create a new variable called `speed`{:class="block3variables"} that is for the `Hippo` sprite only.
+Maak een nieuwe variabele met de naam `snelheid`{:class="blockdata"} deze is alleen voor de `Hippo` sprite.
 
 [[[generic-scratch3-add-variable]]]
 
-When you've done this correctly, the variable has the name of the sprite next to it, like this:
+Als je dit goed hebt gedaan, staat voor de variabele de naam van de sprite, zoals dit:
 
 ![screenshot](images/invaders-var-test.png)
 
@@ -98,7 +98,7 @@ When you've done this correctly, the variable has the name of the sprite next to
 
 \--- task \---
 
-When each `Hippo` clone starts, pick a random speed and starting place for it. Then show the clone on the screen.
+Wanneer elke `Hippo` kloon start, kies dan een willekeurige snelheid en start plaats voor de kloon. Laat de kloon dan zien op het scherm.
 
 ```blocks3
 wanneer ik als kloon start
@@ -111,15 +111,15 @@ verschijn
 
 \--- task \---
 
-Test your code. Does a new hippo appear every few seconds?
+Test je code. Wordt elke paar seconden een nieuwe nijlpaard getoond?
 
 \--- /task \---
 
-At the moment the hippos don't move.
+Op dit moment verplaatsen de nijlpaarden niet.
 
 \--- task \---
 
-Each hippo should move around randomly until it gets hit by a lightning bolt. To make that happen, attach this code below the blocks that are already in the `Hippo` sprite's code script:
+Elke hippo zou willekeurig moeten verplaatsen totdat het geraakt wordt door een bliksemschicht. Om dat te doen, voeg deze code toe onder de blokken die al in het `Hippo` sprite's script staan:
 
 ```blocks3
 repeat until <touching (lightning v) ?>
