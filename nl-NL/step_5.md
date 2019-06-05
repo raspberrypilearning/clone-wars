@@ -66,7 +66,7 @@ wacht () sec.
 
 Dit is hoe je code eruit zou moeten zien:
 
-![stage sprite](images/stage-sprite.png)
+![achtergrond sprite](images/stage-sprite.png)
 
 ```blocks3
 wanneer groene vlag wordt aangeklikt
@@ -122,19 +122,19 @@ Op dit moment verplaatsen de nijlpaarden niet.
 Elke hippo zou willekeurig moeten verplaatsen totdat het geraakt wordt door een bliksemschicht. Om dat te doen, voeg deze code toe onder de blokken die al in het `Hippo` sprite's script staan:
 
 ```blocks3
-repeat until <touching (lightning v) ?>
-    move (speed :: variables) steps
-    turn right (pick random (-10) to (10)) degrees
-    if on edge, bounce
+herhaal tot <touching (lightning v) ?> 
+  neem (snelheid :: variables) stappen
+  draai (willekeurig getal tussen (-10) en (10)) graden naar rechts
+  keer om aan de rand
 end
-delete this clone
+verwijder deze kloon
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Test your code again. You should see a new hippo clone appear every few seconds, and each clone should move at a different speed.
+Test je code opnieuw. Je zou moeten zien dat elke paar seconden een nieuwe nijlpaard kloon verschijnt, en elke kloon moet op een andere snelheid bewegen.
 
 \--- no-print \---
 
@@ -146,6 +146,6 @@ Test your code again. You should see a new hippo clone appear every few seconds,
 
 \--- task \---
 
-Now test the spaceship's laser cannon. If a lightning bolt hits a hippo, does the hippo vanish?
+Test nu de laser kanon van het ruimteschip. Als een bliksemschicht een nijlpaard raakt, verdwijnt dan het nijlpaard?
 
 \--- /task \---
