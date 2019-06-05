@@ -1,6 +1,6 @@
 ## Bliksemschichten
 
-Now you are going to give the spaceship the ability to fire lightning bolts!
+Nu ga je het ruimteschip de mogelijkheid geven om bliksemschichten af te vuren!
 
 \--- task \---
 
