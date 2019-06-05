@@ -1,10 +1,10 @@
 ## Vliegende ruimte-nijlpaarden
 
-Now you're going to add lots of flying hippos that try to destroy your spaceship.
+Nu ga je veel vliegende nijlpaarden (flying hippos) toevoegen die proberen jouw spaceschip te vernietigen.
 
 \--- task \---
 
-Create a new sprite with the 'Hippo1' image in the Scratch library. Use the **shrink** tool to make the `Hippo` sprite a similar size to the `Spaceship` sprite.
+Maak een nieuwe sprite met de 'Hippo1' afbeelding in de Scratch bibliotheek. Gebruik de **grootte** instelling om de `Hippo1` sprite even groot als de `Spaceship` sprite te maken.
 
 ![screenshot](images/invaders-hippo.png)
 
@@ -12,7 +12,7 @@ Create a new sprite with the 'Hippo1' image in the Scratch library. Use the **sh
 
 \--- task \---
 
-Set the `Hippo` sprite's rotation style to **left-right**.
+Stel de `Hippo` sprite's draaistijl in op **links-rechts**.
 
 [[[generic-scratch3-sprite-rotation-style]]]
 
@@ -33,19 +33,19 @@ wanneer groene vlag wordt aangeklikt
 
 \--- task \---
 
-Add some code to the Stage to create a new `Hippo` clone every few seconds.
+Voeg wat code toe aan de achtergrond om elke paar seconden een nieuwe `Hippo` (nijlpaard) te maken.
 
 \--- hints \---
 
 \--- hint \---
 
-When the `green flag is clicked`{:class="block3events"}, `repeatedly`{:class="block3control"} `wait`{:class="block3control"} `between 2 and 4 seconds`{:class="block3operators"} and then `create a clone of the Hippo sprite`{:class="block3control"}.
+Wanneer de `groene vlag wordt geklikt`{:class="block3events"}, `herhaal`{:class="block3control"} `wacht`{:class="block3control"} `tussen 2 en 4 seconden`{:class="block3operators"} en vervolgens `maak een kloon van mijzelf`{:class="block3control"}.
 
 \--- /hint \---
 
 \--- hint \---
 
-Here are the blocks you need:
+Dit zijn de blokken die je nodig hebt:
 
 ```blocks3
 forever
