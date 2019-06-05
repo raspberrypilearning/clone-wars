@@ -44,48 +44,48 @@ Nu lijkt het erop dat de punt het eerst uit het ruimteschip wordt geschoten.
 
 \--- task \---
 
-Add some new code to the `Spaceship` sprite to create a new clone of the lightning bolt if the <kbd>space</kbd> key is pressed.
+Voeg nieuwe code toe om de `spaceship` sprite een nieuwe bliksemschicht te laten maken als op de <kbd>spatie</kbd> toets wordt gedrukt.
 
 \--- hints \---
 
 \--- hint \---
 
-`When the green flag is clicked`{:class="block3events"}, keep checking `forever`{:class="block3control"} `if`{:class="block3control"} the `space key is pressed`{:class="block3sensing"}, and in that case `create a clone of the Lightning`{:class="block3control"} sprite.
+`Wanneer op de groene vlag wordt geklikt`{:class="block3events"}, controleer `voor altijd`{:class="block3control"} `als`{:class="block3control"} de `spatie toets wordt ingedrukt`{:class="block3sensing"}, en in dat geval `maak een kloon van de Lightning`{:class="block3control"} sprite.
 
 \--- /hint \---
 
 \--- hint \---
 
-Here are the blocks you need:
+Dit zijn de blokken die je nodig hebt:
 
 ```blocks3
-if <> then
+als <> dan
 end
 
-forever
+herhaal
 end
 
-create clone of (Lightning v)
+maak een kloon van (Lightning v)
 
-<key (space v) pressed?>
+&lt;key (space v) pressed?&gt;
 
-when flag clicked
+wanneer groene vlag wordt aangeklikt
 ```
 
 \--- /hint \---
 
 \--- hint \---
 
-Here is what your new code should look like:
+Dit is hoe je code eruit zou moeten zien:
 
 ![rocket sprite](images/rocket-sprite.png)
 
 ```blocks3
-when flag clicked
-forever
-    if <key (space v) pressed?> then
-        create clone of (Lightning v)
-    end
+wanneer groene vlag wordt aangeklikt
+herhaal 
+  als <key (space v) pressed?> dan 
+    maak een kloon van (Lightning v)
+  end
 end
 ```
 
@@ -97,26 +97,26 @@ end
 
 \--- task \---
 
-Whenever the game creates a `Lightning` sprite clone, the clone should appear and then move upwards until it reaches the top of the Stage. Then the clone should disappear.
+Wanneer het spel een `Bliksemschicht` sprite kloont, moet de kloon verschijnen en vervolgens naar boven gaan totdat het de bovenkant van het speelveld bereikt. Dan moet de kloon verdwijnen.
 
-Add this code to the `Lightning` sprite so that clones of it move upwards until they touch the edge of the Stage, and then they get deleted.
+Voeg deze code toe aan de `Lightning` sprite zodat klonen ervan naar boven bewegen totdat ze de rand van het speelveld raken, en vervolgens verwijderd worden.
 
 ![lightning sprite](images/lightning-sprite.png)
 
 ```blocks3
-    when I start as a clone
-    go to (Spaceship v)
-    show
-    repeat until <touching (edge v) ?>
-        change y by (10)
-    end
-    delete this clone
+    wanneer ik als kloon start
+ga naar (Spaceship v)
+verschijn
+herhaal tot <touching (edge v) ?> 
+  verander y met (10)
+end
+verwijder deze kloon
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Press the <kbd>space</kbd> key to test whether the lightning bolt moves correctly.
+Druk op de <kbd>spatietoets </kbd> om te testen of je bliksemschicht nu correct wordt afgevuurd.
 
 \--- /task \---
