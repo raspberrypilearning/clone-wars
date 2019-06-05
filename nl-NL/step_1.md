@@ -12,7 +12,7 @@ In dit project leer je een spel te maken waarin je de aarde moet redden van ruim
 
 \--- no-print \---
 
-Click the green flag in the example game below to start, and then press the <kbd>left</kbd> and <kbd>right</kbd> arrow keys to move the spaceship, and the <kbd>space</kbd> key to shoot.
+Klik op de groene vlag in het onderstaande voorbeeld om het spel te starten en druk vervolgens op de pijltjetoets <kbd>links</kbd> en <kbd>rechts</kbd>, om het ruimteschip in de <kbd>ruimte</kbd> te verplaatsen en druk op de spatiebalk om te schieten.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/276887163/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -21,7 +21,7 @@ Click the green flag in the example game below to start, and then press the <kbd
 
 \--- /no-print \---
 
-Score as many points as you can by shooting flying space-hippos. If you get hit by a hippo or by an orange dropped by the bats, you lose a life.
+Scoor zoveel mogelijk punten door op de vliegende ruimte-nijlpaarden te schieten. Je verliest een leven als je wordt geraakt door een nijlpaard of door de sinaasappels die door de fruitvleermuizen worden gegooid.
 
 \--- print-only \---
 
@@ -45,7 +45,7 @@ Score as many points as you can by shooting flying space-hippos. If you get hit 
 
 ### Downloads
 
-[Find the downloads here](http://rpf.io/p/en/clone-wars-go).
+Je kunt [de downloads hier vinden](http://rpf.io/p/en/clone-wars-go).
 
 \--- /collapse \---
 
@@ -55,9 +55,9 @@ Score as many points as you can by shooting flying space-hippos. If you get hit 
 
 ## title: Wat ga je leren
 
-+ How to make sprites move using keyboard input
-+ How to clone sprites to make copies of them
-+ How to use 'broadcast' and 'receive blocks' to send messages
++ Hoe laat je sprites bewegen met gebruik van het toetsenbord
++ Hoe maak je een kopie van een sprite door te klonen
++ Hoe gebruik je 'zend' en 'ontvang signaal blokken' om berichten te verzenden
 
 \--- /collapse \---
 
@@ -65,7 +65,7 @@ Score as many points as you can by shooting flying space-hippos. If you get hit 
 
 * * *
 
-## title: Additional notes for educators
+## title: Aanvullende informatie voor docenten
 
 \--- no-print \---
 
@@ -73,6 +73,6 @@ Als je dit project wilt afdrukken, gebruik dan de [ printvriendelijke versie ](h
 
 \--- /no-print \---
 
-[If you need the solution to this project, you can find it here](http://rpf.io/p/en/clone-wars-get).
+[Als je de oplossing voor dit project nodig hebt, kunt je het hier vinden](http://rpf.io/p/en/clone-wars-get).
 
 \--- /collapse \---
