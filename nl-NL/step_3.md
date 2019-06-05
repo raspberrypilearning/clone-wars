@@ -12,9 +12,9 @@ Voeg de `Lightning ` sprite toe uit de Scratch-bibliotheek.
 
 \--- task \---
 
-When the game starts, the `Lightning` sprite should be hidden until the spaceship fires its laser cannons.
+Wanneer het spel begint, moeten de `Lightning` sprites verborgen worden totdat het spaceship zijn laser kanon afschiet.
 
-Add this code to the `Lightning` sprite:
+Voeg deze code toe aan de `Lightning` sprite:
 
 ![lightning sprite](images/lightning-sprite.png)
 
@@ -25,20 +25,20 @@ wanneer groene vlag wordt aangeklikt
 
 \--- /task \---
 
-At the moment, the lightning bolt is really big compared to the spaceship!
+Op dit moment is de bliksemschicht echt groot in vergelijking met het ruimteschip!
 
 \--- task \---
 
-Below the code that the `Lightning` sprite already has, add some blocks to make the sprite smaller and to turn it upside down.
+Onder de code die `Lightning` sprite al heeft, voeg je enkele blokken toe om de sprite kleiner te maken en om deze om te draaien.
 
 ![lightning sprite](images/lightning-sprite.png)
 
 ```blocks3
-set size to (25) %
-point in direction (-90)
+maak grootte (25) %
+richt naar (-90) graden
 ```
 
-Now it looks like it fires pointy end–first out of the spaceship.
+Nu lijkt het erop dat de punt het eerst uit het ruimteschip wordt geschoten.
 
 \--- /task \---
 
