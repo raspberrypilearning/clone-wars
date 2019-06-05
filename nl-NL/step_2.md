@@ -49,13 +49,13 @@ Voeg wat meer code toe aan het `herhaal`{:class="block3control"} blok om je spac
 
 \--- hint \---
 
-Subtracting `4` from the spaceship's `x` position made it move left, so how could you make the spaceship move right by `4` instead?
+Het aftrekken van `4` van de spaceship `x` positie verplaatst deze naar links, dus hoe kun je in plaats daarvan het spaceship `4` naar rechts verplaatsen?
 
 \--- /hint \---
 
 \--- hint \---
 
-You need the same code block, but with a different number:
+Je hebt hetzelfde code blok nodig, maar met een ander nummer:
 
 ```blocks3
 verander x met ( )
@@ -65,7 +65,7 @@ verander x met ( )
 
 \--- hint \---
 
-Here is the code you need to add below the other code inside the `forever`{:class="block3control"} block:
+Hier is de code die je onder de andere code binnen het `herhaal`{:class="block3control"} blok moet toevoegen:
 
 ![rocket sprite](images/rocket-sprite.png)
 
@@ -83,6 +83,6 @@ einde
 
 \--- task \---
 
-Test your project by clicking the green flag. Can you press the arrow keys to make your spaceship move left and right?
+Test je project door op de groene vlag te klikken. Kun je op de pijltjes toetsen drukken om je spaceship naar links en rechts te laten bewegen?
 
 \--- /task \---
