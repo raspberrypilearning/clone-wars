@@ -1,18 +1,18 @@
 ## Maak een ruimteschip
 
-First make a spaceship that can defend the Earth!
+Maak eerst een ruimteschip dat de aarde kan verdedigen!
 
 \--- task \---
 
-Open the 'Clone wars' Scratch starter project.
+Open het 'Kloon wars' Scratch starter project.
 
-**Online:** open the starter project at [rpf.io/clone-wars-on](http://rpf.io/clone-wars-on){:target="_blank"}.
+**Online**: open het starter project op [rpf.io/clone-wars-on](http://rpf.io/clone-wars-on){:target="_ blank"}.
 
-If you have a Scratch account you can make a copy by clicking **Remix**.
+Als je een Scratch-account hebt, kun je een kopie maken door op **Remix** te klikken.
 
-**Offline:** download the starter project from [rpf.io/p/en/clone-wars-go](http://rpf.io/p/en/clone-wars-go), and then open it using the offline editor.
+**Offline:** download het starter project op [rpf.io/p/en/clone-wars-go](http://rpf.io/p/en/clone-wars-go), en open het vervolgens met behulp van de Scratch offline editor.
 
-If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
+Als je de Scratch offline editor wilt downloaden en installeren dan kan je die vinden op [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
 
 \--- /task \---
 
@@ -20,7 +20,7 @@ If you need to download and install the Scratch offline editor, you can find it 
 
 \--- task \---
 
-Add this code to the spaceship sprite to make the spaceship move left if the <kbd>left</kbd> arrow is pressed:
+Voeg deze code toe aan de spaceship sprite om het ruimteschip te verplaatsen als de <kbd>links</kbd> pijl wordt ingedrukt:
 
 ![rocket sprite](images/rocket-sprite.png)
 
@@ -33,7 +33,7 @@ Add this code to the spaceship sprite to make the spaceship move left if the <kb
   einde
 ```
 
-The x-axis goes from the left side of the Stage to the right side. This means that the spaceship moves to the left when you subtract from the value of the spaceship sprite's `x` position. So this code block is the part that makes your spaceship move left:
+De x-as gaat van de linkerkant van het speelveld naar de rechterkant. Dit betekent dat het ruimteschip naar links gaat wanneer je de waarde van de `x` positie aftrekt. Dit code blok is dus het onderdeel dat je spaceship naar links verplaatst:
 
 ```blocks3
 verander x met (-4)
@@ -43,7 +43,7 @@ verander x met (-4)
 
 \--- task \---
 
-Add some more code inside the `forever`{:class="block3control"} block to make your spaceship move to the right if the <kbd>right</kbd> arrow key is pressed.
+Voeg wat meer code toe aan het `herhaal`{:class="block3control"} blok om je spaceship naar rechts te verplaatsen als de <kbd>rechts</kbd> pijl toets wordt ingedrukt.
 
 \--- hints \---
 
