@@ -1,29 +1,28 @@
 ## Verdwijnende nijlpaarden
 
-When the spaceship explodes, all the hippos should disappear so that players of the game can recover.
+Wanneer het ruimteschip ontploft, moeten alle nijlpaarden verdwijnen zodat de speler het spel kan hervatten.
 
 \--- task \---
 
-Add code to the spaceship sprite to make it `broadcast`{:class="block3events"} the message "hit" when the `spaceship touches a hippo`{:class="block3sensing"}.
+Voeg code aan de ruimteschip sprite toe om het `zend signaal`{:class="block3events"} bericht "raak" te maken wanneer het `ruimteschip een nijlpaard raakt`{:class="block3sensing"}.
 
-![rocket sprite](images/rocket-sprite.png)
+![ruimteschip sprite](images/rocket-sprite.png)
 
 ```blocks3
-when flag clicked
-switch costume to (normal v)
-wait until <touching (Hippo1 v)>?
-switch costume to (hit v)
-
-+ broadcast (hit v)
+wanneer groene vlag wordt aangeklikt
+verander uiterlijk naar (normaal v)
+wacht tot <touching (Hippo1 v)>
+verander uiterlijk naar (raak v)
+zend signaal (raak v)
 ```
 
 \--- /task \---
 
 \--- task \---
 
-All of the `Hippo` sprite clones will receive the "hit" message, and you can instruct them to disappear when the spaceship is hit by adding this code to the `Hippo` sprite:
+Alle `nijlpaard` klonen ontvangen het "raak" bericht, en kan je hen opdragen als het schip wordt getroffen om te verdwijnen door deze code toe te voegen aan `nijlpaard` sprite:
 
-![hippo sprite](images/hippo-sprite.png)
+![nijlpaard sprite](images/hippo-sprite.png)
 
 ```blocks3
 wanneer ik signaal [geraakt v] ontvang, 
@@ -34,29 +33,28 @@ verwijder deze kloon
 
 \--- task \---
 
-To check whether the new code works, click the green flag and make the spaceship collide with a hippo.
+Om te controleren of de nieuwe code werkt, klik op de groene vlag en laat het ruimteschip een nijlpaard raken.
 
 ![screenshot](images/invaders-hippo-collide.png)
 
 \--- /task \---
 
-After the spaceship explodes, new `Hippo` clones appear, but the spaceship is still exploded! The spaceship needs to reset itself after being hit.
+Nadat het ruimteschip ontploft, verschijnen nieuwe `nijlpaard` klonen, maar het ruimteschip is nog steeds ontploft! Het schip moet zichzelf herstellen na geraakt te zijn.
 
 \--- task \---
 
-Add a `wait`{:class="block3control"} block at the end of the `Spaceship` sprite's code to create a small pause before hippos begin appearing again. Then add a `forever`{:class="block3control"} block around all of your code to make the code run repeatedly.
+Voeg een `wacht`{:class="block3control"} blok toe aan het einde van ce `ruimteschip` sprite code om een kleine pauze te maken voordat de nijlpaarden weer beginnen te verschijnen. Voeg vervolgens een `herhaal`{:class="block3control"} blok rond al je code toe om de code herhaaldelijk uit te laten voeren.
 
-![rocket sprite](images/rocket-sprite.png)
+![ruimteschip sprite](images/rocket-sprite.png)
 
 ```blocks3
-when flag clicked
-forever
-switch costume to (normal v)
-wait until <touching (Hippo1 v)>?
-switch costume to (hit v)
-broadcast (hit v)
-
-+ wait (1) seconds
+wanneer groene vlag wordt aangeklikt
+herhaal 
+ verander uiterlijk naar (normaal v)
+ wacht tot <touching (Hippo1 v)>
+ verander uiterlijk naar (raak v)
+ zend signaal (raak v)
+ wacht (1) sec.
 end
 ```
 
