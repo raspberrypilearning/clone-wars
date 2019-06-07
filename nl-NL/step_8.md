@@ -1,7 +1,7 @@
 ## Challenge: levens en score
 
-At the moment, you can play the game forever, but it doesn't count how many hippos you shoot or how many times your spaceship explodes.
+Op dit moment kun je het spel blijven spelen, maar het telt niet hoeveel nijlpaarden je schiet of hoeveel keer je ruimteschip ontploft.
 
-Can you add `lives`{:class="block3variables"}, a `score`{:class="block3variables"}, or even a `highscore`{:class="block3variables"} to your game?
+Kan je `levens`{:class="block3variabelen"}, een `score`{:class="block3variables"}, of zelfs een `Hoogste score`{:class="block3variabelen"} toevoegen aan je spel?
 
 [[[generic-scratch3-high-score]]]
