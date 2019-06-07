@@ -1,10 +1,10 @@
 ## Vliegende ruimte-nijlpaarden
 
-Nu ga je veel vliegende nijlpaarden (flying hippos) toevoegen die proberen jouw spaceschip te vernietigen.
+Nu ga je veel vliegende nijlpaarden (flying hippos) toevoegen die proberen jouw ruimteschip te vernietigen.
 
 \--- task \---
 
-Maak een nieuwe sprite met de 'Hippo1' afbeelding in de Scratch bibliotheek. Gebruik de **grootte** instelling om de `Hippo1` sprite even groot als de `Spaceship` sprite te maken.
+Maak een nieuwe sprite met de 'Hippo1' afbeelding in de Scratch bibliotheek. Gebruik de **grootte** instelling om de `Hippo1` sprite even groot als de `Ruimteschip` sprite te maken.
 
 ![screenshot](images/invaders-hippo.png)
 
@@ -12,7 +12,7 @@ Maak een nieuwe sprite met de 'Hippo1' afbeelding in de Scratch bibliotheek. Geb
 
 \--- task \---
 
-Stel de `Hippo` sprite's draaistijl in op **links-rechts**.
+Stel de `nijlpaard` sprite's draaistijl in op **links-rechts**.
 
 [[[generic-scratch3-sprite-rotation-style]]]
 
@@ -22,7 +22,7 @@ Stel de `Hippo` sprite's draaistijl in op **links-rechts**.
 
 Voeg code toe om als het spel begint de ` Hippo` Sprite te verbergen.
 
-![hippo sprite](images/hippo-sprite.png)
+![nijlpaard sprite](images/hippo-sprite.png)
 
 ```blocks3
 wanneer groene vlag wordt aangeklikt 
@@ -33,7 +33,7 @@ wanneer groene vlag wordt aangeklikt
 
 \--- task \---
 
-Voeg wat code toe aan de achtergrond om elke paar seconden een nieuwe `Hippo` (nijlpaard) te maken.
+Voeg wat code toe aan de achtergrond om elke paar seconden een nieuwe `nijlpaard` aan te maken.
 
 \--- hints \---
 
@@ -90,7 +90,7 @@ Maak een nieuwe variabele met de naam `snelheid`{:class="blockdata"} deze is all
 
 [[[generic-scratch3-add-variable]]]
 
-Als je dit goed hebt gedaan, staat voor de variabele de naam van de sprite, zoals dit:
+Als je dit goed hebt gedaan, staat voor de variabele de naam van de sprite, zoals hier:
 
 ![screenshot](images/invaders-var-test.png)
 
@@ -98,7 +98,7 @@ Als je dit goed hebt gedaan, staat voor de variabele de naam van de sprite, zoal
 
 \--- task \---
 
-Wanneer elke `Hippo` kloon start, kies dan een willekeurige snelheid en start plaats voor de kloon. Laat de kloon dan zien op het scherm.
+Wanneer elke `nijlpaard` kloon start, kies dan een willekeurige snelheid en start plaats voor de kloon. Laat de kloon dan zien op het scherm.
 
 ```blocks3
 wanneer ik als kloon start
@@ -119,7 +119,7 @@ Op dit moment verplaatsen de nijlpaarden niet.
 
 \--- task \---
 
-Elke hippo zou willekeurig moeten verplaatsen totdat het geraakt wordt door een bliksemschicht. Om dat te doen, voeg deze code toe onder de blokken die al in het `Hippo` sprite's script staan:
+Elke hippo zou willekeurig moeten verplaatsen totdat het geraakt wordt door een bliksemschicht. Om dat te doen, voeg deze code toe onder de blokken die al in het `nijlpaard` sprite script staan:
 
 ```blocks3
 herhaal tot <touching (lightning v) ?> 
@@ -134,7 +134,7 @@ verwijder deze kloon
 
 \--- task \---
 
-Test je code opnieuw. Je zou moeten zien dat elke paar seconden een nieuwe nijlpaard kloon verschijnt, en elke kloon moet op een andere snelheid bewegen.
+Test je code opnieuw. Je zou moeten zien dat elke paar seconden een nieuwe nijlpaard kloon verschijnt, en elke kloon moet met een andere snelheid bewegen.
 
 \--- no-print \---
 
@@ -146,6 +146,6 @@ Test je code opnieuw. Je zou moeten zien dat elke paar seconden een nieuwe nijlp
 
 \--- task \---
 
-Test nu de laser kanon van het ruimteschip. Als een bliksemschicht een nijlpaard raakt, verdwijnt dan het nijlpaard?
+Test nu het laser kanon van het ruimteschip. Als een bliksemschicht een nijlpaard raakt, verdwijnt dan het nijlpaard?
 
 \--- /task \---
