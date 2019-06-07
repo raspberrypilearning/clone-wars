@@ -22,7 +22,7 @@ Als je de Scratch offline editor wilt downloaden en installeren dan kan je die v
 
 Voeg deze code toe aan de spaceship sprite om het ruimteschip te verplaatsen als de <kbd>links</kbd> pijl wordt ingedrukt:
 
-![rocket sprite](images/rocket-sprite.png)
+![ruimteschip sprite](images/rocket-sprite.png)
 
 ```blocks3
     wanneer groene vlag wordt aangeklikt
@@ -33,7 +33,7 @@ Voeg deze code toe aan de spaceship sprite om het ruimteschip te verplaatsen als
   einde
 ```
 
-De x-as gaat van de linkerkant van het speelveld naar de rechterkant. Dit betekent dat het ruimteschip naar links gaat wanneer je de waarde van de `x` positie aftrekt. Dit code blok is dus het onderdeel dat je spaceship naar links verplaatst:
+De x-as gaat van de linkerkant van het speelveld naar de rechterkant. Dit betekent dat het ruimteschip naar links gaat wanneer je de waarde van de `x` positie aftrekt. Dit code blok is dus het onderdeel dat je ruimteschip naar links verplaatst:
 
 ```blocks3
 verander x met (-4)
@@ -43,13 +43,13 @@ verander x met (-4)
 
 \--- task \---
 
-Voeg wat meer code toe aan het `herhaal`{:class="block3control"} blok om je spaceship naar rechts te verplaatsen als de <kbd>rechts</kbd> pijl toets wordt ingedrukt.
+Voeg wat meer code toe aan het `herhaal`{:class="block3control"} blok om je ruimteschip naar rechts te verplaatsen als de <kbd>rechts</kbd> pijl toets wordt ingedrukt.
 
 \--- hints \---
 
 \--- hint \---
 
-Het aftrekken van `4` van de spaceship `x` positie verplaatst deze naar links, dus hoe kun je in plaats daarvan het spaceship `4` naar rechts verplaatsen?
+Het aftrekken van `4` van de ruimteschip `x` positie verplaatst deze naar links, dus hoe kun je in plaats daarvan het ruimteschip `4` naar rechts verplaatsen?
 
 \--- /hint \---
 
@@ -67,7 +67,7 @@ verander x met ( )
 
 Hier is de code die je onder de andere code binnen het `herhaal`{:class="block3control"} blok moet toevoegen:
 
-![rocket sprite](images/rocket-sprite.png)
+![ruimteschip sprite](images/rocket-sprite.png)
 
 ```blocks3
 als <key (right arrow v) pressed?> dan
