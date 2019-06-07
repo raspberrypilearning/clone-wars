@@ -33,7 +33,7 @@ Score as many points as you can by shooting flying space-hippos. If you get hit 
 
 * * *
 
-## title: What you will need
+## title: Що вам знадобиться
 
 ### Обладнання
 
@@ -43,7 +43,7 @@ Score as many points as you can by shooting flying space-hippos. If you get hit 
 
 + Scratch 3 (either [online](https://rpf.io/scratchon){:target="_blank"} or [offline](https://rpf.io/scratchoff){:target="_blank"})
 
-### Downloads
+### Завантаження
 
 [Find the downloads here](http://rpf.io/p/en/clone-wars-go).
 
@@ -53,7 +53,7 @@ Score as many points as you can by shooting flying space-hippos. If you get hit 
 
 * * *
 
-## title: What you will learn
+## title: Що ви вивчите
 
 + How to make sprites move using keyboard input
 + How to clone sprites to make copies of them
@@ -65,7 +65,7 @@ Score as many points as you can by shooting flying space-hippos. If you get hit 
 
 * * *
 
-## title: Additional notes for educators
+## title: Додаткові примітки для викладачів
 
 \--- no-print \---
 
