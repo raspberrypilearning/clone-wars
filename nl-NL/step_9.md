@@ -1,73 +1,72 @@
 ## Game over
 
-To make your game a bit harder, you are going to create a bat that throws oranges at the spaceship.
+Om het spel een beetje moeilijker te maken, laten we een vleermuis maken die sinaasappels naar het ruimteschip gooit.
 
 ![a bat throwing an orange at the spaceship](images/bat-oranges.png)
 
 \--- task \---
 
-Add a `Bat` sprite and set its rotation style to **left–right**.
+Voeg een `Bat (vleermuis)` sprite toe en zet de draaistijl op **links-rechts**.
 
 \--- /task \---
 
 \--- task \---
 
-Make the `Bat` sprite `move`{:class="block3motion"} from left to right at the top of the Stage `forever`{:class="block3control"}.
+Zorg ervoor dat de `vleermuis` sprite zich van links naar rechts aan de bovenkant van het speelveld `verplaatst`{:class="block3motion"} door middel van een `herhaal`{:class="block3control"} blok.
 
 ![bat sprite](images/bat-sprite.png)
 
 ```blocks3
-when flag clicked
-set size to (50) %
-forever
-    move (10) steps
-    if on edge, bounce
+wanneer groene vlag wordt aangeklikt
+maak grootte (50) %
+herhaal 
+  neem (10) stappen
+  keer om aan de rand
 end
 ```
 
-Remember to test your code.
+Vergeet niet om je code te testen.
 
 \--- /task \---
 
-If you look at the bat's costumes, you can see that it has four different ones:
+Als je naar de uiterlijken van de vleermuis kijkt, zie je dat deze vier verschillende heeft:
 
 ![screenshot](images/invaders-bat-costume.png)
 
 \--- task \----
 
-Use the `next costume`{:class="block3looks"} block to make the bat flap its wings as it moves.
+Gebruik het `Volgend uiterlijk`{:class="block3looks"} blok om de vleermuis te laten vliegen als het beweegt.
 
 \--- hints \---
 
 \--- hint \---
 
-After the bat has moved, it should show the `next costume`{:class="block3looks"} and then `wait`{:class="block3control"} for a short time.
+Nadat de vleermuis is verplaatst, moet het het `volgend uiterlijk`{:class="block3look"} weergeven en vervolgens `wachten`{:class="block3control"} voor een korte tijd.
 
 \--- /hint \---
 
 \--- hint \---
 
-You need to add these blocks to you code:
+Je moet deze blokken toevoegen aan jouw code:
 
 ```blocks3
-wait (0.3) seconds
+wacht (0.3) sec.
 
-next costume
+volgend uiterlijk
 ```
 
 \--- /hint \---
 
-\--- hint \--- You code should look like this:
+\--- hint \--- Je code zou er zo uitzien:
 
 ```blocks3
-when flag clicked
-set size to (50) %
-forever
-move (10) steps
-if on edge, bounce
-
-+ next costume
-+ wait (0.3) seconds
+wanneer groene vlag wordt aangeklikt
+maak grootte (50) %
+herhaal 
+ neem (10) stappen
+ keer om aan de rand
+ volgend uiterlijk
+ wacht (0.3) sec.
 end
 ```
 
@@ -77,11 +76,11 @@ end
 
 \--- /task \---
 
-Now make the bat throw oranges!
+Nu laten we de vleermuis sinaasappels gooien!
 
 \--- task \---
 
-Add an `Orange` sprite from the Scratch library.
+Voeg een nieuwe `Orange (sinaasappel)` sprite toe uit de Scratch-bibliotheek.
 
 ![screenshot](images/invaders-orange.png)
 
@@ -89,15 +88,15 @@ Add an `Orange` sprite from the Scratch library.
 
 \--- task \---
 
-Add code to your bat so that `when the flag is clicked`{:class="block3events"}, the `Bat` sprite `forever`{:class="block3control"} `waits`{:class="block3control"} for a `random`{:class="block3operators"} length of time between `5 to 10`{:class="block3operators"} seconds and then `creates a clone`{:class="block3control"} of the `Orange` sprite.
+Voeg code toe aan je vleermuis zodat `wanneer op de groene vlag wordt geklikt`:class="block3events"}, de `vleermuis` sprite `herhaal`{:class="block3control"} `wacht`{:class="block3control"} voor een `willekeurige`{:class="block3operators"} tijdsduur tussen `5 tot 10` {:class="block3operators"} seconden en vervolgens `een kloon maakt`{:class="block3control"} van de `sinaasappel` sprite.
 
 ![bat sprite](images/bat-sprite.png)
 
 ```blocks3
-when flag clicked
-forever
-    wait (pick random (5) to (10)) secs
-    create clone of (Orange v)
+wanneer groene vlag wordt aangeklikt
+herhaal 
+  wacht (willekeurig getal tussen (5) en (10)) sec.
+  maak een kloon van (Orange v)
 end
 ```
 
@@ -105,28 +104,28 @@ end
 
 \--- task \---
 
-Add code to the `Orange` to make each of its clone drop, starting from the `Bat` sprite and falling towards the bottom of the Stage.
+Voeg code toe aan de `sinaasappel` sprite om elke sinaasappel-kloon vanaf de `vleermuis` naar de onderkant van het speelveld te laten vallen.
 
 ![orange sprite](images/orange-sprite.png)
 
 ```blocks3
-    when flag clicked
-    hide
+    wanneer groene vlag wordt aangeklikt
+verdwijn
 
-    when I start as a clone
-    go to (Bat v)
-    show
-    repeat until <touching (edge v)?
-        change y by (-4)
-    end
-    delete this clone
+wanneer ik als kloon start
+ga naar (Bat v)
+verschijn
+herhaal tot &lt;<raak ik (rand v)?> 
+  verander y met (-4)
+end
+verwijder deze kloon
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Add some more code to the `Orange` sprite so that when an `Orange` clone hits the `Spaceship` sprite, the clone also disappears to give the player a chance to reset:
+Voeg wat meer code toe aan `sinaasappel` sprite zodat wanneer een `sinaasappel` kloon de `ruimteschip` sprite raakt, de kloon ook verdwijnt om de speler een kans te geven om te resetten:
 
 ![orange sprite](images/orange-sprite.png)
 
@@ -139,7 +138,7 @@ Add some more code to the `Orange` sprite so that when an `Orange` clone hits th
 
 \--- task \---
 
-Modify the code of your `Spaceship` sprite so that the sprite is "hit" when it touches a `Hippo` sprite or an `Orange` sprite:
+Wijzig de code van je `ruimteschip` sprite zodat de sprite "geraakt" is wanneer het een `nijlpaard` of een `sinaasappel` sprite aanraakt:
 
 ![rocket sprite](images/rocket-sprite.png)
 
@@ -151,6 +150,6 @@ Modify the code of your `Spaceship` sprite so that the sprite is "hit" when it t
 
 \--- task \---
 
-Test your game. What happens if the spaceship gets hit by a falling orange?
+Test je spel. Wat gebeurt er als het ruimteschip geraakt wordt door een vallende sinaasappel?
 
 \--- /task \---
