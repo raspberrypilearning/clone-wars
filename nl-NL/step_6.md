@@ -1,20 +1,20 @@
 ## Exploderend ruimteschip
 
-When a hippo touches your spaceship, the spaceship should explode!
+Wanneer een nijlpaard je ruimteschip raakt, moet het schip ontploffen!
 
 \--- task \---
 
-Select the `Spaceship` sprite and rename its costume 'normal'.
+Selecteer de `ruimteschip` sprite en hernoem het uiterlijk naar 'normaal'.
 
 \--- /task \---
 
 \--- task \---
 
-Draw another costume of an exploding spaceship, and call the new costume 'hit'.
+Teken een ander uiterlijk van een exploderende ruimteschip en noem het nieuwe uiterlijk 'raak'.
 
 ![screenshot](images/invaders-spaceship-costumes.png)
 
-If you don't want to draw the explosion, you can select the 'Sun' costume from the Scratch library, and then use the **Color a shape** tool to change the costume's colour and face.
+Of, als je de explosie niet wilt tekenen, kun je het 'Sun'-uiterlijk uit de Scratch-bibliotheek kiezen en het **gereedschap** gebruiken om de kleur te veranderen en het gezicht te verwijderen.
 
 ![screenshot](images/invaders-sun.png)
 
@@ -22,21 +22,21 @@ If you don't want to draw the explosion, you can select the 'Sun' costume from t
 
 \--- task \---
 
-Add some code to your `Spaceship` sprite so that it displays the 'normal' costume when the game starts, and switches to the 'hit' costume when it touches a hippo:
+Voeg wat code toe aan je `ruimteschip` sprite zodat het het 'normaal' uiterlijk toont wanneer het spel begint, en schakelt naar het 'raak' uiterlijk wanneer het een hippo raakt:
 
-![rocket sprite](images/rocket-sprite.png)
+![ruimteschip sprite](images/rocket-sprite.png)
 
 ```blocks3
-when flag clicked
-switch costume to (normal v)
-wait until <touching (Hippo1 v)>?
-switch costume to (hit v)
+wanneer groene vlag wordt aangeklikt
+verander uiterlijk naar (normal v)
+wacht tot <touching (Hippo1 v)>
+verander uiterlijk naar (hit v)
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Test your code. Make the spaceship collide with a hippo. Does the spaceship change to the 'hit' costume?
+Test je code. Raak het ruimteship met een nijlpaard. Is het ruimteschip veranderd in het 'raak'-uiterlijk?
 
 \--- /task \---
