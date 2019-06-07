@@ -38,13 +38,13 @@ maak grootte (25) %
 richt naar (-90) graden
 ```
 
-Nu lijkt het erop dat de punt het eerst uit het ruimteschip wordt geschoten.
+Nu lijkt het als of de punt het eerst uit het ruimteschip wordt geschoten.
 
 \--- /task \---
 
 \--- task \---
 
-Voeg nieuwe code toe om de `spaceship` sprite een nieuwe bliksemschicht te laten maken als op de <kbd>spatie</kbd> toets wordt gedrukt.
+Voeg nieuwe code toe om de `ruimteschip` sprite een nieuwe bliksemschicht te laten maken als op de <kbd>spatie</kbd> toets wordt gedrukt.
 
 \--- hints \---
 
@@ -78,7 +78,7 @@ wanneer groene vlag wordt aangeklikt
 
 Dit is hoe je code eruit zou moeten zien:
 
-![rocket sprite](images/rocket-sprite.png)
+![ruimteschip sprite](images/rocket-sprite.png)
 
 ```blocks3
 wanneer groene vlag wordt aangeklikt
@@ -97,7 +97,7 @@ end
 
 \--- task \---
 
-Wanneer het spel een `Bliksemschicht` sprite kloont, moet de kloon verschijnen en vervolgens naar boven gaan totdat het de bovenkant van het speelveld bereikt. Dan moet de kloon verdwijnen.
+Wanneer het spel een `lightning` sprite kloont, moet de kloon verschijnen en vervolgens naar boven gaan totdat het de bovenkant van het speelveld bereikt. Dan moet de kloon verdwijnen.
 
 Voeg deze code toe aan de `Lightning` sprite zodat klonen ervan naar boven bewegen totdat ze de rand van het speelveld raken, en vervolgens verwijderd worden.
 
@@ -105,7 +105,7 @@ Voeg deze code toe aan de `Lightning` sprite zodat klonen ervan naar boven beweg
 
 ```blocks3
     wanneer ik als kloon start
-ga naar (Spaceship v)
+ga naar (Ruimteschip v)
 verschijn
 herhaal tot <touching (edge v) ?> 
   verander y met (10)
