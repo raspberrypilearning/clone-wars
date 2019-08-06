@@ -47,7 +47,7 @@ Fai quanti più punti possibile sparando agli ippopotami spaziali volanti. Perde
 
 [Trova i download qui ](http://rpf.io/p/en/clone-wars-go).
 
-\--- / chiudi \---
+\--- /collapse \---
 
 \--- collapse \---
 
@@ -59,7 +59,7 @@ Fai quanti più punti possibile sparando agli ippopotami spaziali volanti. Perde
 + Come clonare gli sprite per farne delle copie
 + Come usare 'broadcast' e 'ricevi blocchi' per inviare messaggi
 
-\--- / chiudi \---
+\--- /collapse \---
 
 \--- collapse \---
 
@@ -73,6 +73,6 @@ Se intendete stampare questo progetto, cliccate su [Versione stampabile](https:/
 
 \--- /no-print \---
 
-[ Se hai bisogno della soluzione per questo progetto, puoi trovarlo qui ](http://rpf.io/p/en/clone-wars-get).
+You can find the [completed project here](http://rpf.io/p/en/clone-wars-get).
 
-\--- / chiudi \---
+\--- /collapse \---
