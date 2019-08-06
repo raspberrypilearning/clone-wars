@@ -15,23 +15,23 @@ steps:
   - 
     title: Bliksemschichten
   - 
-    title: 'Bliksemschichten'
+    title: 'Uitdaging: Bliksemschichten verbeteren'
     challenge: true
   - 
-    title: Vliegende ruimte-nijlpaarden
+    title: Ruimte-nijlpaarden
   - 
     title: Exploderend ruimteschip
   - 
     title: Verdwijnende nijlpaarden
   - 
-    title: 'Challenge: levens en score'
+    title: 'Uitdaging: levens en score'
     challenge: true
   - 
-    title: Game over
+    title: Ruimte-vleermuis
   - 
-    title: Game over
+    title: Wedstrijd voorbij
   - 
-    title: 'Challenge: verbeter je spel'
+    title: 'Uitdaging: verbeter je spel'
     challenge: true
   - 
-    title: Wat kun je verder nog doen?
+    title: Hoe nu verder?
