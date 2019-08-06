@@ -2,15 +2,15 @@
 
 Now you are going to give the spaceship the ability to fire lightning bolts!
 
-\--- task \---
+\--- función \---
 
 Add the `Lightning` sprite from the Scratch library.
 
 [[[generic-scratch3-sprite-from-library]]]
 
-\--- /task \---
+\--- / tarea \---
 
-\--- task \---
+\--- tarea \---
 
 When the game starts, the `Lightning` sprite should be hidden until the spaceship fires its laser cannons.
 
@@ -23,11 +23,11 @@ when green flag clicked
 hide
 ```
 
-\--- /task \---
+\--- / tarea \---
 
 At the moment, the lightning bolt is really big compared to the spaceship!
 
-\--- task \---
+\--- tarea \---
 
 Below the code that the `Lightning` sprite already has, add some blocks to make the sprite smaller and to turn it upside down.
 
@@ -40,9 +40,9 @@ point in direction (-90)
 
 Now it looks like it fires pointy end–first out of the spaceship.
 
-\--- /task \---
+\--- / tarea \---
 
-\--- task \---
+\--- tarea \---
 
 Add some new code to the `Spaceship` sprite to create a new clone of the lightning bolt if the <kbd>space</kbd> key is pressed.
 
@@ -91,11 +91,11 @@ end
 
 \--- /hint \---
 
-\--- /hints \---
+\--- / consejos \---
 
-\--- /task \---
+\--- / tarea \---
 
-\--- task \---
+\--- tarea \---
 
 Whenever the game creates a `Lightning` sprite clone, the clone should appear and then move upwards until it reaches the top of the Stage. Then the clone should disappear.
 
@@ -113,10 +113,10 @@ Add this code to the `Lightning` sprite so that clones of it move upwards until 
     delete this clone
 ```
 
-\--- /task \---
+\--- / tarea \---
 
-\--- task \---
+\--- tarea \---
 
 Press the <kbd>space</kbd> key to test whether the lightning bolt moves correctly.
 
-\--- /task \---
+\--- / tarea \---
