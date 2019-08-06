@@ -6,13 +6,13 @@ First make a spaceship that can defend the Earth!
 
 Open the 'Clone wars' Scratch starter project.
 
-**Online:** open the starter project at [rpf.io/clone-wars-on](http://rpf.io/clone-wars-on){:target="_blank"}.
+**Онлайн:** открой стартовый проект по адресу [rpf.io/clone-wars-on](http://rpf.io/clone-wars-on){:target="_blank"}.
 
-If you have a Scratch account you can make a copy by clicking **Remix**.
+Если у тебя есть учетная запись Scratch, то ты можешь сделать копию, нажав **Ремикс**.
 
 **Offline:** download the starter project from [rpf.io/p/en/clone-wars-go](http://rpf.io/p/en/clone-wars-go), and then open it using the offline editor.
 
-If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
+Если тебе нужно скачать и установить оффлайн редактор Scratch, ты можешь найти его по адресу [rpf.io/scratchoff](https://rpf.io/scratchoff)\--- /task"}.
 
 \--- /task \---
 
@@ -77,7 +77,7 @@ end
 
 \--- /hint \---
 
-\--- /hints \---
+\--- /подсказки \---
 
 \--- /task \---
 
