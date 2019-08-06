@@ -11,7 +11,7 @@ Add code to the spaceship sprite to make it `broadcast`{:class="block3events"} t
 ```blocks3
 kada je kliknuta zelena zastava
 promijeni kostim u (normalan)
-čekaj do <dodiruje (Hippo1 v)>
+čekaj do <touching (Hippo1 v)>
 promijeni kostim u (pogođen)
 
 + pošalji (pogođen v)
@@ -49,15 +49,14 @@ Add a `wait`{:class="block3control"} block at the end of the `Spaceship` sprite'
 ![lik rakete](images/rocket-sprite.png)
 
 ```blocks3
-when flag clicked
-forever
-switch costume to (normal v)
-wait until <touching (Hippo1 v)>?
-switch costume to (hit v)
-broadcast (hit v)
+kada je kliknuta zelena zastava
+ponavljaj
+promijeni kostim u (normalan v)
+čekaj do <touching (Hippo1 v)>
+pošalji (pogodak v)
 
-+ wait (1) seconds
-end
++ čekaj (1) sekundi
+kraj
 ```
 
 \--- /task \---
