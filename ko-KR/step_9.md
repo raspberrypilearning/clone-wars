@@ -12,76 +12,75 @@
 
 \--- task \---
 
-`Bat` 스프라이트 `Stage <code>의 맨 위에서 왼쪽에서 오른쪽으로`{: class = "block3motion"} 영원히</code>{: class = "block3control"} 이동시킵니다.
+`박쥐` 스프라이트 `Stage <code>의 맨 위에서 왼쪽에서 오른쪽으로`{: class = "block3motion"} 영원히</code>{: class = "block3control"} 이동시킵니다.
 
 ![박쥐 스프 라이트](images/bat-sprite.png)
 
 ```blocks3
-when flag clicked
-set size to (50) %
-forever
-    move (10) steps
-    if on edge, bounce
-end
+녹색 깃발을 클릭했을 때
+크기를 (50) % 로 정하기
+무한 반복
+    (10) 만큼 움직이기
+    벽에 닿으면 튕기기
+끝
 ```
 
-Remember to test your code.
+코드를 테스트하는 것을 기억하세요.
 
 \--- /task \---
 
-If you look at the bat's costumes, you can see that it has four different ones:
+박쥐의 의상을 보면 네 가지 의상이 있음을 알 수 있습니다:
 
 ![스크린샷](images/invaders-bat-costume.png)
 
 \--- task \---
 
-Use the `next costume`{:class="block3looks"} block to make the bat flap its wings as it moves.
+`다음 모양으로 바꾸기`{:class="block3looks"} 블록을 사용하여 박쥐의 날개를 흔들도록 합니다.
 
-\--- 힌트 \---
-
-\--- hint \---
-
-After the bat has moved, it should show the `next costume`{:class="block3looks"} and then `wait`{:class="block3control"} for a short time.
-
-\--- /귀뜸말 \---
+\--- hints \---
 
 \--- hint \---
 
-You need to add these blocks to you code:
+박쥐가 움직 인 후에는 `다음 모양으로 바꾸기`{: class = "block3looks"}를 한 이후 짧은 시간 동안 `기다리기` {: class = "block3control"} 해야 합니다.
+
+\--- /hint \---
+
+\--- hint \---
+
+코드에 다음 블록을 추가해야합니다.
 
 ```blocks3
-wait (0.3) seconds
-
-next costume
+(0.3) 초 기다리기
+다음 모양으로 바꾸기
 ```
 
-\--- /귀뜸말 \---
+\--- /hint \---
 
-\--- hint \--- You code should look like this:
+\--- 힌트 \--- 코드는 다음과 같이 보일 것입니다:
 
 ```blocks3
-when flag clicked
-set size to (50) %
-forever
-move (10) steps
-if on edge, bounce
+초록색 깃발을 클릭했을 때
+크기를 (50)% 로 정하기
+무한 반복
+(10) 만큼 이동하기
+벽에 닿으면 튕기기
 
-+ next costume
-+ wait (0.3) seconds
-end
++ 다음 모양으로 바꾸기
++ (0.3)초 기다리기
+끝
 ```
 
-\--- /귀뜸말 \---
+\--- /hint \---
 
-\--- / 귀뜸말 \---
+\--- /hints \---
 
 \--- /task \---
 
-Now make the bat throw oranges!
+이제 박쥐에게 오렌지를 던지세요!
 
 \--- task \---
 
-Add an `Orange` sprite from the Scratch library.
+스크래치 라이브러리에서 `오렌지` 스프라이트를 추가하세요.
 
 ![스크린샷](images/invaders-orange.png)
 
@@ -89,68 +88,66 @@ Add an `Orange` sprite from the Scratch library.
 
 \--- task \---
 
-Add code to your bat so that `when the flag is clicked`{:class="block3events"}, the `Bat` sprite `forever`{:class="block3control"} `waits`{:class="block3control"} for a `random`{:class="block3operators"} length of time between `5 to 10`{:class="block3operators"} seconds and then `creates a clone`{:class="block3control"} of the `Orange` sprite.
+박쥐 스프라이트에 다음 코드를 추가하세요. `초록색 깃발을 클릭했을 때`{:class="block3events"}, `박쥐` 스프라이트는 `무한반복`{:class="block3control"}한 후 `5 에서 10`{:class="block3operators"} 초 정도 `랜덤`{:class="block3operators"} 한 시간 동안 `대기`{:class="block3control"} 이후 `오렌지 스프라이트` 에 대한 `클론을 생성한다`{:class="block3control"}.
 
-![bat sprite](images/bat-sprite.png)
+![박쥐 스프라이트](images/bat-sprite.png)
 
 ```blocks3
-when flag clicked
-forever
-    wait (pick random (5) to (10)) secs
-    create clone of (Orange v)
-end
+초록색 깃발이 클릭되었을 때
+무한 반복
+   ((5) 부터 (10) 사이의 난수) 초 기다리기
+    (Orange v) 복제하기
+끝
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Add code to the `Orange` to make each of its clone drop, starting from the `Bat` sprite and falling towards the bottom of the Stage.
+`박쥐 `스프라이트부터 시작하게 무대 아래쪽에 향하여 낙하하듯 각각의 복제를 드롭하게 `오렌지`에 코드를 추가합니다.
 
-![orange sprite](images/orange-sprite.png)
+![오렌지 스프라이트](images/orange-sprite.png)
 
 ```blocks3
-    when flag clicked
-    hide
-
-    when I start as a clone
-    go to (Bat v)
-    show
-    repeat until <touching (edge v)?
-        change y by (-4)
-    end
-    delete this clone
+    초록색 깃발이 클릭되었을 때
+    숨기기
+    (Bat v) 로 이동
+    보이기
+    < touching (edge v)? 까지 반복
+        y를 (-4) 만큼 바꾸기
+    끝
+    이 복제본 삭제하기
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Add some more code to the `Orange` sprite so that when an `Orange` clone hits the `Spaceship` sprite, the clone also disappears to give the player a chance to reset:
+`오렌지` 스프라이트에 더 코드를 추가하여 `오렌지` 클론이 `우주선` 스프라이트에 맞았을 때에는 클론을 해제하고 플레이어에게 리셋을 할 수 있도록 기회를 줍니다. 
 
-![orange sprite](images/orange-sprite.png)
+![오렌지 스프라이트](images/orange-sprite.png)
 
 ```blocks3
-    when I receive [hit v]
-    delete this clone
+    [hit v] 신호를 받았을 때
+    이 복제본 삭제하기
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Modify the code of your `Spaceship` sprite so that the sprite is "hit" when it touches a `Hippo` sprite or an `Orange` sprite:
+`우주선` 스프라이트의 코드를 수정하고 `하마` 스프라이트 또는 `오렌지` 스프라이트를 건드렸을 때 그 스프라이트가 "맞도록" 하겠습니다. 
 
-![rocket sprite](images/rocket-sprite.png)
+![로켓 스프라이트](images/rocket-sprite.png)
 
 ```blocks3
-    wait until < <touching (Hippo1 v)?> or <touching (Orange v)?>>
+    < <touching (Hippo1 v)?> 또는 <touching (Orange v)?> > 까지 기다리기
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Test your game. What happens if the spaceship gets hit by a falling orange?
+게임을 테스트 해보십시오. 우주선이 주황색으로 타격을 받으면 어떻게 될까요?
 
 \--- /task \---
