@@ -2,23 +2,23 @@
 
 First make a spaceship that can defend the Earth!
 
-\--- task \---
+\--- función \---
 
 Open the 'Clone wars' Scratch starter project.
 
-**Online:** open the starter project at [rpf.io/clone-wars-on](http://rpf.io/clone-wars-on){:target="_blank"}.
+** Online **: abra un nuevo proyecto Scratch en línea en [ rpf.io/clone-wars-on ](http://rpf.io/clone-wars-on)"}.
 
 If you have a Scratch account you can make a copy by clicking **Remix**.
 
 **Offline:** download the starter project from [rpf.io/p/en/clone-wars-go](http://rpf.io/p/en/clone-wars-go), and then open it using the offline editor.
 
-If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
+Si necesitas descargar e instalar el editor offline de Scratch, puedes encontrarlo en [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
 
-\--- /task \---
+\--- / tarea \---
 
 ![starter project](images/starter-project.png)
 
-\--- task \---
+\--- tarea \---
 
 Add this code to the spaceship sprite to make the spaceship move left if the <kbd>left</kbd> arrow is pressed:
 
@@ -41,7 +41,7 @@ change x by (-4)
 
 \--- /task \---
 
-\--- task \---
+\--- tarea \---
 
 Add some more code inside the `forever`{:class="block3control"} block to make your spaceship move to the right if the <kbd>right</kbd> arrow key is pressed.
 
@@ -77,12 +77,12 @@ end
 
 \--- /hint \---
 
-\--- /hints \---
+\--- / consejos \---
 
-\--- /task \---
+\--- / tarea \---
 
-\--- task \---
+\--- tarea \---
 
 Test your project by clicking the green flag. Can you press the arrow keys to make your spaceship move left and right?
 
-\--- /task \---
+\--- / tarea \---
