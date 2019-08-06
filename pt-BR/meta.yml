@@ -4,12 +4,12 @@ theme: violet
 listed: true
 copyedit: true
 title: Guerra dos Clones
-description: Neste projeto você aprenderá a criar um jogo no qual você terá que salvar a Terra de monstros espaciais.
+description: Crie um jogo no qual você terá que salvar a Terra de monstros espaciais
 version: 4.1.0
 last_tested: 2018-10-11
 steps:
   - 
-    title: Guerra dos Clones
+    title: Introdução
   - 
     title: Construindo uma espaçonave
   - 
@@ -18,16 +18,16 @@ steps:
     title: 'Desafio: melhore a iluminação'
     challenge: true
   - 
-    title: Space-hippos
+    title: Hipopótamos do espaço
   - 
     title: Explosão de nave espacial
   - 
-    title: Hippos that disappear
+    title: Hipopótamos que desaparecem
   - 
     title: 'Desafio: vidas e placar'
     challenge: true
   - 
-    title: Space-bat
+    title: morcego espacial
   - 
     title: Fim do jogo
   - 
