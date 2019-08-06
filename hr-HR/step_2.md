@@ -1,77 +1,77 @@
-## Make a spaceship
+## Napravite svemirski brod
 
-First make a spaceship that can defend the Earth!
+Prvo napravite svemirski brod koji može obraniti Zemlju!
 
 \--- task \---
 
-Open the 'Clone wars' Scratch starter project.
+Otvorite početni projekt 'Clone wars' Scratch.
 
-**Online:** open the starter project at [rpf.io/clone-wars-on](http://rpf.io/clone-wars-on){:target="_blank"}.
+** Online: ** otvorite početni projekt na [ rpf.io/clone-wars-on ](http://rpf.io/clone-wars-on) {: Target = "_ blank"}.
 
-If you have a Scratch account you can make a copy by clicking **Remix**.
+Ako imate Scratch račun, možete napraviti kopiju klikom na ** Remix **.
 
-**Offline:** download the starter project from [rpf.io/p/en/clone-wars-go](http://rpf.io/p/en/clone-wars-go), and then open it using the offline editor.
+** Offline: ** preuzmite početni projekt iz [ rpf.io/p/en/clone-wars-go ](http://rpf.io/p/en/clone-wars-go), a zatim ga otvorite pomoću izvanmrežnog editora.
 
-If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
+Ako trebate preuzeti i instalirati izvanmrežni Scratch editor, možete ga pronaći na [ rpf.io/scratchoff ](https://rpf.io/scratchoff) {: Target = "_ blank"}.
 
 \--- /task \---
 
-![starter project](images/starter-project.png)
+![početni projekt](images/starter-project.png)
 
 \--- task \---
 
-Add this code to the spaceship sprite to make the spaceship move left if the <kbd>left</kbd> arrow is pressed:
+Dodajte ovaj kôd svemirskom brodu da bi se svemirski brod pomaknuo lijevo ako je <kbd> lijevo </kbd> strelica je pritisnuta:
 
-![rocket sprite](images/rocket-sprite.png)
+![lik rakete](images/rocket-sprite.png)
 
 ```blocks3
-    when flag clicked
-    forever
-        if <key (left arrow v) pressed?> then
-            change x by (-4)
+    kada je kliknuta zastava
+    ponavljaj
+        ako <tipka (strelica lijevo) pritisnuta?> onda
+            promijeni x za (-4)
         end
     end
 ```
 
-The x-axis goes from the left side of the Stage to the right side. This means that the spaceship moves to the left when you subtract from the value of the spaceship sprite's `x` position. So this code block is the part that makes your spaceship move left:
+Os x ide s lijeve prema desnoj strani prozora. To znači da se svemirski brod pomiče ulijevo kada se oduzme vrijednost od ` x ` položaja svemirskog broda. Dakle, ovaj blok kôda je dio koji pomiče vaš svemirski brod lijevo:
 
 ```blocks3
-change x by (-4)
+promijeni x za (-4)
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Add some more code inside the `forever`{:class="block3control"} block to make your spaceship move to the right if the <kbd>right</kbd> arrow key is pressed.
+Dodajte još naredbi unutar `forever`{:class="block3control"} bloka kako bi se svemirski brod kretao udesno ako je pritisnuta <kbd>right</kbd> tipka sa strelicom.
 
 \--- hints \---
 
 \--- hint \---
 
-Subtracting `4` from the spaceship's `x` position made it move left, so how could you make the spaceship move right by `4` instead?
+Oduzimanje `4` od položaja svemirskog broda `x` ga pomiče ulijevo, pa kako bi ste napravili da se svemirski brod pomakne udesno za `4`?
 
 \--- /hint \---
 
 \--- hint \---
 
-You need the same code block, but with a different number:
+Potreban vam je isti blok koda, ali s drugim brojem:
 
 ```blocks3
-change x by ( )
+promijeni x za ( )
 ```
 
 \--- /hint \---
 
 \--- hint \---
 
-Here is the code you need to add below the other code inside the `forever`{:class="block3control"} block:
+Ovdje je kôd koji trebate dodati ispod drugog koda unutar ` ponavljaj ` {: class = "block3control"} bloka:
 
-![rocket sprite](images/rocket-sprite.png)
+![sprite rakete](images/rocket-sprite.png)
 
 ```blocks3
-if <key (right arrow v) pressed?> then
-    change x by (4)
+ako <key (right arrow v) pressed?> onda
+    promijeni za (4)
 end
 ```
 
@@ -83,6 +83,6 @@ end
 
 \--- task \---
 
-Test your project by clicking the green flag. Can you press the arrow keys to make your spaceship move left and right?
+Testirajte svoj projekt klikom na zelenu zastavu. Možete li pritisnuti tipke sa strelicama kako bi se vaš svemirski brod pomaknuo lijevo i desno?
 
 \--- /task \---
