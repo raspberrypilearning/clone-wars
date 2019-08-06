@@ -15,5 +15,5 @@
 + プレイヤーが`100`点達すると、敵（カバやコウモリ）の数を増やす。
 
 ```blocks3
-    wait until <(score :: variables) = [100]>
+    <（score :: variables）= [100]>まで待つ
 ```
