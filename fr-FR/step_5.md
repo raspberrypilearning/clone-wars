@@ -1,10 +1,10 @@
 ## Une chauve-souris !
 
-Now you're going to add lots of flying hippos that try to destroy your spaceship.
+Vous allez maintenant ajouter de nombreux hippopotames volants qui tentent de détruire votre vaisseau spatial.
 
 \--- task \---
 
-Create a new sprite with the 'Hippo1' image in the Scratch library. Use the **shrink** tool to make the `Hippo` sprite a similar size to the `Spaceship` sprite.
+Créez une nouvelle image-objet avec l'image 'Hippo1' dans la bibliothèque Scratch. Utilisez l’outil **shrink** pour donner à l’image-objet `Hippo` une taille similaire à celle de l’image-objet `Spaceship`.
 
 ![capture d'écran](images/invaders-hippo.png)
 
@@ -12,7 +12,7 @@ Create a new sprite with the 'Hippo1' image in the Scratch library. Use the **sh
 
 \--- task \---
 
-Set the `Hippo` sprite's rotation style to **left-right**.
+Définissez le style de rotation de l’image-objet `Hippo` sur **gauche-droite**.
 
 [[[generic-scratch3-sprite-rotation-style]]]
 
@@ -34,13 +34,13 @@ cacher
 
 \--- task \---
 
-Add some code to the Stage to create a new `Hippo` clone every few seconds.
+Ajoutez du code sur la scène pour créer un nouveau clone `Hippo` toutes les quelques secondes.
 
-\--- astuces \---
+\--- hints \---
 
 \--- hint \---
 
-When the `green flag is clicked`{:class="block3events"}, `repeatedly`{:class="block3control"} `wait`{:class="block3control"} `between 2 and 4 seconds`{:class="block3operators"} and then `create a clone of the Hippo sprite`{:class="block3control"}.
+Lorsque le drapeau vert `est cliqué`{: class = "block3events"}, `plusieurs reprises`{: class = "block3control"} `wait`{: class = "block3control"} `entre 2 et 4 secondes`{: class = "block3operators"} puis `créez un clone de l'image-objet Hippo`{: class = "block3control"}.
 
 \--- /indice \---
 
@@ -61,11 +61,11 @@ lorsque le drapeau cliqué
 attendre () secs
 ```
 
-\--- /indice \---
+\--- /hint \---
 
 \--- hint \---
 
-C’est ce que ton code devrait ressembler :
+Voici à quoi ton code devrait ressembler:
 
 ![lutin de scène](images/stage-sprite.png)
 
@@ -77,7 +77,7 @@ répéter indéfiniment
 terminer
 ```
 
-\--- /indice \---
+\--- /hint \---
 
 \--- /astuces \---
 
@@ -120,22 +120,22 @@ Pour le moment, les hippos ne bougent pas.
 
 \--- task \---
 
-Each hippo should move around randomly until it gets hit by a lightning bolt. To make that happen, attach this code below the blocks that are already in the `Hippo` sprite's code script:
+Chaque hippopotame doit se déplacer de manière aléatoire jusqu’à ce qu’il soit frappé par un éclair. Pour ce faire, attachez ce code sous les blocs déjà présents dans le script de code du sprite `Hippo`:
 
 ```blocks3
-repeat until <touching (lightning v) ?>
-    move (speed :: variables) steps
-    turn right (pick random (-10) to (10)) degrees
-    if on edge, bounce
-end
-delete this clone
+répéter jusqu'à <touching (lightning v) ?>
+    mouvement (vitesse :: variables) étapes
+    tourner à droite (choisir au hasard (-10) à (10)) degrés
+    si sur le bord, rebond
+fin
+supprimer ce clone
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Test your code again. You should see a new hippo clone appear every few seconds, and each clone should move at a different speed.
+Testez votre code à nouveau. Vous devriez voir apparaître un nouveau clone hippo toutes les quelques secondes et chaque clone devrait se déplacer à une vitesse différente.
 
 \--- no-print \---
 
@@ -147,6 +147,6 @@ Test your code again. You should see a new hippo clone appear every few seconds,
 
 \--- task \---
 
-Now test the spaceship's laser cannon. If a lightning bolt hits a hippo, does the hippo vanish?
+Maintenant, testez le canon laser du vaisseau spatial. Si un éclair frappe un hippopotame, l'hippopotame disparaît-il?
 
 \--- /task \---
