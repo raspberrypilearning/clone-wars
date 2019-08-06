@@ -4,7 +4,7 @@ Maak eerst een ruimteschip dat de aarde kan verdedigen!
 
 \--- task \---
 
-Open het 'Kloon wars' Scratch starter project.
+Open het 'Clone wars' Scratch starter project.
 
 **Online**: open het starter project op [rpf.io/clone-wars-on](http://rpf.io/clone-wars-on){:target="_ blank"}.
 
@@ -83,6 +83,6 @@ einde
 
 \--- task \---
 
-Test je project door op de groene vlag te klikken. Kun je op de pijltjes toetsen drukken om je spaceship naar links en rechts te laten bewegen?
+Test je project door op de groene vlag te klikken. Kun je op de pijltjes toetsen drukken om je ruimteschip naar links en rechts te laten bewegen?
 
 \--- /task \---
