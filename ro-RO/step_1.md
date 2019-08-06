@@ -73,6 +73,6 @@ Dacă trebuie să printezi acest proiect, folosește [versiunea printabilă](htt
 
 \--- /no-print \---
 
-You can find the [completed project here](http://rpf.io/p/en/clone-wars-get).
+Poți găsi [ proiectul finalizat aici](http://rpf.io/p/en/clone-wars-get).
 
 \--- /collapse \---
