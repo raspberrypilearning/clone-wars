@@ -1,4 +1,4 @@
-## Lightning bolts
+## 制作一艘宇宙飞船
 
 Now you are going to give the spaceship the ability to fire lightning bolts!
 
@@ -46,7 +46,7 @@ Now it looks like it fires pointy end–first out of the spaceship.
 
 Add some new code to the `Spaceship` sprite to create a new clone of the lightning bolt if the <kbd>space</kbd> key is pressed.
 
-\--- hints \---
+\--- hint \---
 
 \--- hint \---
 
@@ -91,7 +91,7 @@ end
 
 \--- /hint \---
 
-\--- /hints \---
+\--- /hint \---
 
 \--- /task \---
 
