@@ -1,14 +1,14 @@
 \--- no-print \---
 
-This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/clone-wars-scratch2).
+Ez a projekt **Scratch 3**-as verziója. Van [Scratch 2-es változata is](https://projects.raspberrypi.org/en/projects/clone-wars-scratch2).
 
 \--- /no-print \---
 
-## Introduction
+## Bevezetés
 
 In this project you will learn how to create a game in which you have to save the Earth from space monsters.
 
-### What you will make
+### Mit fogsz elkészíteni
 
 \--- no-print \---
 
@@ -33,17 +33,17 @@ Score as many points as you can by shooting flying space-hippos. If you get hit 
 
 * * *
 
-## title: What you will need
+## title: Mire lesz szükséged
 
-### Hardware
+### Hardver
 
-+ A computer capable of running Scratch 3
++ Egy, a Scratch 3 futtatására alkalmas számítógép
 
-### Software
+### Szoftver
 
-+ Scratch 3 (either [online](https://rpf.io/scratchon){:target="_blank"} or [offline](https://rpf.io/scratchoff){:target="_blank"})
++ Scratch 3 (vagy [online](https://rpf.io/scratchon){: target = "_ blank"} vagy [offline](https://rpf.io/scratchoff){: target = "_ blank"})
 
-### Downloads
+### Letöltések
 
 [Find the downloads here](http://rpf.io/p/en/clone-wars-go).
 
@@ -53,7 +53,7 @@ Score as many points as you can by shooting flying space-hippos. If you get hit 
 
 * * *
 
-## title: What you will learn
+## title: Mit fogsz megtanulni
 
 + How to make sprites move using keyboard input
 + How to clone sprites to make copies of them
@@ -65,14 +65,14 @@ Score as many points as you can by shooting flying space-hippos. If you get hit 
 
 * * *
 
-## title: Additional notes for educators
+## title: További információk oktatóknak
 
 \--- no-print \---
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/clone-wars/print){:target="_blank"}.
+Ha ki szeretnéd nyomtatni ezt a projektet, kérjük, használd a [nyomtatóbarát verzió](https://projects.raspberrypi.org/en/projects/clone-wars/print) -t {:target="_ blank"}.
 
 \--- /no-print \---
 
-You can find the [completed project here](http://rpf.io/p/en/clone-wars-get).
+Itt található a [befejezett projekt](http://rpf.io/p/en/clone-wars-get).
 
 \--- /collapse \---
