@@ -37,7 +37,7 @@ If you look at the bat's costumes, you can see that it has four different ones:
 
 Use the `next costume`{:class="block3looks"} block to make the bat flap its wings as it moves.
 
-\--- hints \---
+\--- подсказки \---
 
 \--- hint \---
 
