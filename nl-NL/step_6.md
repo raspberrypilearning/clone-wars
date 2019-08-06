@@ -10,11 +10,11 @@ Selecteer de `ruimteschip` sprite en hernoem het uiterlijk naar 'normaal'.
 
 \--- task \---
 
-Teken een ander uiterlijk van een exploderende ruimteschip en noem het nieuwe uiterlijk 'raak'.
+Teken een ander uiterlijk van een exploderend ruimteschip en noem het nieuwe uiterlijk 'raak'.
 
 ![screenshot](images/invaders-spaceship-costumes.png)
 
-Of, als je de explosie niet wilt tekenen, kun je het 'Sun'-uiterlijk uit de Scratch-bibliotheek kiezen en het **gereedschap** gebruiken om de kleur te veranderen en het gezicht te verwijderen.
+Of, als je de explosie niet wilt tekenen, kun je het 'Sun'-uiterlijk uit de Scratch-bibliotheek kiezen en het **gereedschap** gebruiken om de kleur en het gezicht te veranderen.
 
 ![screenshot](images/invaders-sun.png)
 
@@ -28,7 +28,7 @@ Voeg wat code toe aan je `ruimteschip` sprite zodat het het 'normaal' uiterlijk 
 
 ```blocks3
 wanneer groene vlag wordt aangeklikt
-verander uiterlijk naar (normal v)
+verander uiterlijk naar (normaal v)
 wacht tot <touching (Hippo1 v)>
 verander uiterlijk naar (hit v)
 ```
@@ -37,6 +37,6 @@ verander uiterlijk naar (hit v)
 
 \--- task \---
 
-Test je code. Raak het ruimteship met een nijlpaard. Is het ruimteschip veranderd in het 'raak'-uiterlijk?
+Test je code. Raak het ruimteschip met een nijlpaard. Is het ruimteschip veranderd in het 'raak'-uiterlijk?
 
 \--- /task \---
