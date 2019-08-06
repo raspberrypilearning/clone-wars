@@ -1,8 +1,8 @@
-## Game over
+## Ruimte-vleermuis
 
-Om het spel een beetje moeilijker te maken, laten we een vleermuis maken die sinaasappels naar het ruimteschip gooit.
+Om het spel een beetje moeilijker te maken, maken we een vleermuis die sinaasappels naar het ruimteschip gooit.
 
-![a bat throwing an orange at the spaceship](images/bat-oranges.png)
+![een vleermuis die een sinaasappel naar het ruimteschip gooit](images/bat-oranges.png)
 
 \--- task \---
 
@@ -14,7 +14,7 @@ Voeg een `Bat (vleermuis)` sprite toe en zet de draaistijl op **links-rechts**.
 
 Zorg ervoor dat de `vleermuis` sprite zich van links naar rechts aan de bovenkant van het speelveld `verplaatst`{:class="block3motion"} door middel van een `herhaal`{:class="block3control"} blok.
 
-![bat sprite](images/bat-sprite.png)
+![vleermuis sprite](images/bat-sprite.png)
 
 ```blocks3
 wanneer groene vlag wordt aangeklikt
@@ -33,7 +33,7 @@ Als je naar de uiterlijken van de vleermuis kijkt, zie je dat deze vier verschil
 
 ![screenshot](images/invaders-bat-costume.png)
 
-\--- task \----
+\--- task \---
 
 Gebruik het `Volgend uiterlijk`{:class="block3looks"} blok om de vleermuis te laten vliegen als het beweegt.
 
@@ -90,7 +90,7 @@ Voeg een nieuwe `Orange (sinaasappel)` sprite toe uit de Scratch-bibliotheek.
 
 Voeg code toe aan je vleermuis zodat `wanneer op de groene vlag wordt geklikt`:class="block3events"}, de `vleermuis` sprite `herhaal`{:class="block3control"} `wacht`{:class="block3control"} voor een `willekeurige`{:class="block3operators"} tijdsduur tussen `5 tot 10` {:class="block3operators"} seconden en vervolgens `een kloon maakt`{:class="block3control"} van de `sinaasappel` sprite.
 
-![bat sprite](images/bat-sprite.png)
+![vleermuis sprite](images/bat-sprite.png)
 
 ```blocks3
 wanneer groene vlag wordt aangeklikt
@@ -106,7 +106,7 @@ end
 
 Voeg code toe aan de `sinaasappel` sprite om elke sinaasappel-kloon vanaf de `vleermuis` naar de onderkant van het speelveld te laten vallen.
 
-![orange sprite](images/orange-sprite.png)
+![sinaasappel sprite](images/orange-sprite.png)
 
 ```blocks3
     wanneer groene vlag wordt aangeklikt
@@ -115,7 +115,7 @@ verdwijn
 wanneer ik als kloon start
 ga naar (Bat v)
 verschijn
-herhaal tot &lt;<raak ik (rand v)?> 
+herhaal tot <raak ik (rand v)?
   verander y met (-4)
 end
 verwijder deze kloon
@@ -125,22 +125,22 @@ verwijder deze kloon
 
 \--- task \---
 
-Voeg wat meer code toe aan `sinaasappel` sprite zodat wanneer een `sinaasappel` kloon de `ruimteschip` sprite raakt, de kloon ook verdwijnt om de speler een kans te geven om te resetten:
+Voeg wat meer code toe aan de`sinaasappel` sprite zodat wanneer een `sinaasappel` kloon de `ruimteschip` sprite raakt, de kloon ook verdwijnt om de speler een kans te geven om te resetten:
 
-![orange sprite](images/orange-sprite.png)
+![sinaasappel sprite](images/orange-sprite.png)
 
 ```blocks3
-    wanneer ik signaal [geraakt] ontvang, 
-   verwijder deze kloon
+    wanneer ik signaal [raak v] ontvang
+verwijder deze kloon
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Wijzig de code van je `ruimteschip` sprite zodat de sprite "geraakt" is wanneer het een `nijlpaard` of een `sinaasappel` sprite aanraakt:
+Wijzig de code van je `ruimteschip` sprite zodat de sprite "geraakt" is wanneer het een `nijlpaard` of een `sinaasappel` sprite raakt:
 
-![rocket sprite](images/rocket-sprite.png)
+![ruimteschip sprite](images/rocket-sprite.png)
 
 ```blocks3
     wacht tot < <touching (Hippo1 v)?> of <touching (Orange v)?>>
