@@ -1,8 +1,8 @@
-## What next?
+## Bước tiếp theo?
 
 Have a go at our [Create your own world](https://projects.raspberrypi.org/en/projects/create-your-own-world?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) project, where you’ll create your own adventure game!
 
-\--- no-print \---
+\--- không in \---
 
 Click the green flag to start. Use the arrow keys to move your character around in the world.
 
@@ -11,7 +11,7 @@ Click the green flag to start. Use the arrow keys to move your character around 
   <img src="images/create-showcase.png">
 </div>
 
-\--- /no-print \---
+\--- / không in \---
 
 \--- print-only \---
 
