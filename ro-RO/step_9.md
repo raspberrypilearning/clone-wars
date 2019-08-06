@@ -1,73 +1,73 @@
-## Space-bat
+## Liliac-spațial
 
-To make your game a bit harder, you are going to create a bat that throws oranges at the spaceship.
+Pentru a face jocul tău un pic mai greu, vei crea un liliac care aruncă portocale către nava spațială.
 
-![a bat throwing an orange at the spaceship](images/bat-oranges.png)
+![un liliac aruncând o portocală către o nava spațială](images/bat-oranges.png)
 
 \--- task \---
 
-Add a `Bat` sprite and set its rotation style to **left–right**.
+Adaugă un personaj `Liliac` și setează stilul lui de rotație să fie **stânga–dreapta**.
 
 \--- /task \---
 
 \--- task \---
 
-Make the `Bat` sprite `move`{:class="block3motion"} from left to right at the top of the Stage `forever`{:class="block3control"}.
+Fă personajul `Liliac` să `meargă`{:class="block3motion"} de la stânga la dreapta în partea de sus a Scenei `la infinit`{:class="block3control"}.
 
-![bat sprite](images/bat-sprite.png)
+![personaj liliac](images/bat-sprite.png)
 
 ```blocks3
-when flag clicked
-set size to (50) %
-forever
-    move (10) steps
-    if on edge, bounce
+când se dă click pe stegulețul verde
+setează mărimea la (50) %
+la infinit 
+  mergi (10) pași
+  dacă atinge marginea, ricoșează
 end
 ```
 
-Remember to test your code.
+Nu uita să îți testezi codul.
 
 \--- /task \---
 
-If you look at the bat's costumes, you can see that it has four different ones:
+Dacă te uiți la costumele liliacului, poți vedea că are patru costume diferite:
 
-![screenshot](images/invaders-bat-costume.png)
+![captură de ecran](images/invaders-bat-costume.png)
 
 \--- task \---
 
-Use the `next costume`{:class="block3looks"} block to make the bat flap its wings as it moves.
+Folosește blocul `costumul următor`{:class="block3looks"} pentru a face ca liliacul să își bată aripile în timp ce se mișcă.
 
 \--- hints \---
 
 \--- hint \---
 
-After the bat has moved, it should show the `next costume`{:class="block3looks"} and then `wait`{:class="block3control"} for a short time.
+După ce liliacul s-a mutat, ar trebui să arate `costumul următor`{:class="block3looks"} și apoi să `aștepte`{:class="block3control"} pentru o perioadă scurtă de timp.
 
 \--- /hint \---
 
 \--- hint \---
 
-You need to add these blocks to you code:
+Trebuie să adaugi aceste blocuri la codul tău:
 
 ```blocks3
-wait (0.3) seconds
+așteaptă (0.3) secunde
 
-next costume
+costumul următor
 ```
 
 \--- /hint \---
 
-\--- hint \--- You code should look like this:
+\--- hint \--- Codul tău ar trebui să arate așa:
 
 ```blocks3
-when flag clicked
-set size to (50) %
-forever
-move (10) steps
-if on edge, bounce
+când se dă click pe stegulețul verde
+setează mărimea la (50) %
+la infinit 
+mergi (10) pași
+dacă atinge marginea, ricoșează
 
-+ next costume
-+ wait (0.3) seconds
++ costumul următor
++ așteaptă (0.3) secunde
 end
 ```
 
@@ -77,27 +77,27 @@ end
 
 \--- /task \---
 
-Now make the bat throw oranges!
+Acum fă ca liliacul să arunce portocale!
 
 \--- task \---
 
-Add an `Orange` sprite from the Scratch library.
+Adaugă un personaj `Portocală` din biblioteca Scratch.
 
-![screenshot](images/invaders-orange.png)
+![captură de ecran](images/invaders-orange.png)
 
 \--- /task \---
 
 \--- task \---
 
-Add code to your bat so that `when the flag is clicked`{:class="block3events"}, the `Bat` sprite `forever`{:class="block3control"} `waits`{:class="block3control"} for a `random`{:class="block3operators"} length of time between `5 to 10`{:class="block3operators"} seconds and then `creates a clone`{:class="block3control"} of the `Orange` sprite.
+Adaugă cod liliacului tău, astfel încât `când se dă click pe stegulețul verde`{:class="block3events"}, personajul `Liliac` `la infinit`{:class="block3control"} `așteaptă`{:class="block3control"} pentru o perioadă `aleatorie`{:class="block3operators"} de timp între `5 și 10`{:class="block3operators"} secunde și apoi `creează o clonă`{:class="block3control"} a personajului `Portocală`.
 
-![bat sprite](images/bat-sprite.png)
+![personaj liliac](images/bat-sprite.png)
 
 ```blocks3
-when flag clicked
-forever
-    wait (pick random (5) to (10)) secs
-    create clone of (Orange v)
+când se dă click pe stegulețul verde
+la infinit 
+  așteaptă (alege aleator între (5) și (10)) secunde
+  creează o clonă a (Portocală v)
 end
 ```
 
@@ -105,52 +105,52 @@ end
 
 \--- task \---
 
-Add code to the `Orange` to make each of its clone drop, starting from the `Bat` sprite and falling towards the bottom of the Stage.
+Adaugă cod personajului `Portocală` pentru a face ca fiecare dintre clonele sale să cadă, pornind de la personajul `Liliac` și căzând spre partea de jos a Scenei.
 
-![orange sprite](images/orange-sprite.png)
+![personaj portocală](images/orange-sprite.png)
 
 ```blocks3
-    when flag clicked
-    hide
+    când se dă click pe stegulețul verde
+ascunde
 
-    when I start as a clone
-    go to (Bat v)
-    show
-    repeat until <touching (edge v)?
-        change y by (-4)
-    end
-    delete this clone
+când încep ca și clonă
+mergi la (Liliac v)
+arată
+repetă până când <atinge (marginea v)?
+  modifică y cu (-4)
+end
+șterge această clonă
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Add some more code to the `Orange` sprite so that when an `Orange` clone hits the `Spaceship` sprite, the clone also disappears to give the player a chance to reset:
+Adaugă cod personajului `Portocală` astfel încât atunci când o clonă `Portocală` lovește personajul `Navă Spațială`, clona dispare pentru a da jucătorului șansa de a reseta:
 
-![orange sprite](images/orange-sprite.png)
+![personaj portocală](images/orange-sprite.png)
 
 ```blocks3
-    when I receive [hit v]
-    delete this clone
+    când primesc [lovit v]
+    șterge această clonă
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Modify the code of your `Spaceship` sprite so that the sprite is "hit" when it touches a `Hippo` sprite or an `Orange` sprite:
+Modifică codul personajului tau `Navă Spațială`, astfel încât personajul devine „lovit” atunci când atinge un personaj `Hippo` sau un personaj `Portocală`:
 
-![rocket sprite](images/rocket-sprite.png)
+![personaj rachetă](images/rocket-sprite.png)
 
 ```blocks3
-    wait until < <touching (Hippo1 v)?> or <touching (Orange v)?>>
+    așteaptă până când <<atinge (Hippo1 v)?> sau <atinge (Portocală v)?>>
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Test your game. What happens if the spaceship gets hit by a falling orange?
+Testează-ți jocul. Ce se întâmplă dacă nava spațială este lovită de o portocală în cădere?
 
 \--- /task \---
