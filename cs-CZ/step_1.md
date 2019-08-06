@@ -1,14 +1,14 @@
 \--- no-print \---
 
-This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/clone-wars-scratch2).
+Toto je **Scratch 3** verze projektu. K dispozici je také verze pro [Scratch 2](https://projects.raspberrypi.org/en/projects/clone-wars-scratch2).
 
 \--- /no-print \---
 
-## Introduction
+## Úvod
 
 In this project you will learn how to create a game in which you have to save the Earth from space monsters.
 
-### What you will make
+### Co budeš dělat
 
 \--- no-print \---
 
@@ -33,17 +33,17 @@ Score as many points as you can by shooting flying space-hippos. If you get hit 
 
 * * *
 
-## title: What you will need
+## title: Co budeš potřebovat
 
 ### Hardware
 
-+ A computer capable of running Scratch 3
++ Počítač schopný spustit aplikaci Scratch 3
 
 ### Software
 
-+ Scratch 3 (either [online](https://rpf.io/scratchon){:target="_blank"} or [offline](https://rpf.io/scratchoff){:target="_blank"})
++ Scratch 3 (buď [online](https://rpf.io/scratchon){:target="_blank"} nebo [offline](https://rpf.io/scratchoff){:target="_blank"} verzi"})
 
-### Downloads
+### Ke stažení
 
 [Find the downloads here](http://rpf.io/p/en/clone-wars-go).
 
@@ -53,7 +53,7 @@ Score as many points as you can by shooting flying space-hippos. If you get hit 
 
 * * *
 
-## title: What you will learn
+## title: Co se naučíš
 
 + How to make sprites move using keyboard input
 + How to clone sprites to make copies of them
@@ -65,11 +65,11 @@ Score as many points as you can by shooting flying space-hippos. If you get hit 
 
 * * *
 
-## title: Additional notes for educators
+## title: Doplňující poznámky pro lektory
 
 \--- no-print \---
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/clone-wars/print){:target="_blank"}.
+Potřebujete-li tento projekt vytisknout, použijte verzi [pro-tisk](https://projects.raspberrypi.org/en/projects/clone-wars/print){:target="_blank"}.
 
 \--- /no-print \---
 
