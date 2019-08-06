@@ -73,6 +73,6 @@ Score as many points as you can by shooting flying space-hippos. If you get hit 
 
 \--- /no-print \---
 
-You can find the [completed project here](http://rpf.io/p/en/clone-wars-get).
+Тут можна знайти [завершений проект](http://rpf.io/p/en/clone-wars-get).
 
 \--- /collapse \---
