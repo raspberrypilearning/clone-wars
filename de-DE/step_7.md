@@ -1,63 +1,63 @@
 ## Aufgabe: Verbessere dein Spiel
 
-When the spaceship explodes, all the hippos should disappear so that players of the game can recover.
+Wenn das Raumschiff explodiert, sollten alle Flusspferde verschwinden, damit sich die Spieler des Spiels erholen können.
 
 \--- task \---
 
-Add code to the spaceship sprite to make it `broadcast`{:class="block3events"} the message "hit" when the `spaceship touches a hippo`{:class="block3sensing"}.
+Fügen Sie dem Raumschiffsprite Code hinzu, damit `Nachricht`{: class = "block3events"} "hit" sendet, wenn das Raumschiff `ein Flusspferd berührt`{: class = "block3sensing"}.
 
-![rocket sprite](images/rocket-sprite.png)
+![Raketen-Sprite](images/rocket-sprite.png)
 
 ```blocks3
-when flag clicked
-switch costume to (normal v)
-wait until <touching (Hippo1 v)>?
-switch costume to (hit v)
+wenn Flagge geklickt
+Kostüm wechseln zu (normal v)
+warten bis <touching (Hippo1 v)>?
+Kostüm wechseln zu (hit v)
 
-+ broadcast (hit v)
++ Sendung (hit v)
 ```
 
 \--- /task \---
 
 \--- task \---
 
-All of the `Hippo` sprite clones will receive the "hit" message, and you can instruct them to disappear when the spaceship is hit by adding this code to the `Hippo` sprite:
+Alle `Hippo` Sprite-Klone erhalten die Nachricht "hit", und Sie können sie anweisen, zu verschwinden, wenn das Raumschiff getroffen wird, indem Sie dem `Hippo` Sprite diesen Code hinzufügen:
 
-![hippo sprite](images/hippo-sprite.png)
+![Hippo Sprite](images/hippo-sprite.png)
 
 ```blocks3
-when I receive [hit v]
-delete this clone
+Wenn ich [hit v]
+erhalte, lösche diesen Klon
 ```
 
 \--- /task \---
 
 \--- task \---
 
-To check whether the new code works, click the green flag and make the spaceship collide with a hippo.
+Um zu überprüfen, ob der neue Code funktioniert, klicken Sie auf die grüne Flagge und lassen Sie das Raumschiff mit einem Flusspferd kollidieren.
 
 ![screenshot](images/invaders-hippo-collide.png)
 
 \--- /task \---
 
-After the spaceship explodes, new `Hippo` clones appear, but the spaceship is still exploded! The spaceship needs to reset itself after being hit.
+Nachdem das Raumschiff explodiert ist, erscheinen neue `Hippo` Klone, aber das Raumschiff ist immer noch explodiert! Das Raumschiff muss sich nach einem Treffer selbst zurücksetzen.
 
 \--- task \---
 
-Add a `wait`{:class="block3control"} block at the end of the `Spaceship` sprite's code to create a small pause before hippos begin appearing again. Then add a `forever`{:class="block3control"} block around all of your code to make the code run repeatedly.
+Fügen Sie am Ende des `Spaceship` Sprite-Codes einen `wait`{: class = "block3control"} -Block hinzu, um eine kleine Pause zu erstellen, bevor wieder Flusspferde angezeigt werden. Fügen Sie dann einen Block `für immer`{: class = "block3control"} um Ihren gesamten Code hinzu, damit der Code wiederholt ausgeführt wird.
 
-![rocket sprite](images/rocket-sprite.png)
+![Raketen-Sprite](images/rocket-sprite.png)
 
 ```blocks3
-when flag clicked
-forever
-switch costume to (normal v)
-wait until <touching (Hippo1 v)>?
-switch costume to (hit v)
-broadcast (hit v)
+als die Flagge für immer auf
+geklickt hat
+Kostüm wechseln zu (normal v)
+Warten bis <touching (Hippo1 v)>?
+Kostüm wechseln zu (v)
+Senden (v)
 
-+ wait (1) seconds
-end
++ Warten (1) Sekunden
+Ende
 ```
 
 \--- /task \---
