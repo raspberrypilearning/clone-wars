@@ -2,7 +2,7 @@
 
 When the spaceship explodes, all the hippos should disappear so that players of the game can recover.
 
-\--- task \---
+\--- uppgift \---
 
 Add code to the spaceship sprite to make it `broadcast`{:class="block3events"} the message "hit" when the `spaceship touches a hippo`{:class="block3sensing"}.
 
@@ -32,11 +32,11 @@ delete this clone
 
 \--- /task \---
 
-\--- task \---
+\--- uppgift \---
 
 To check whether the new code works, click the green flag and make the spaceship collide with a hippo.
 
-![screenshot](images/invaders-hippo-collide.png)
+![skärmdump](images/invaders-hippo-collide.png)
 
 \--- /task \---
 
