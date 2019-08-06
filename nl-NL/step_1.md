@@ -73,6 +73,6 @@ Als je dit project wilt afdrukken, gebruik dan de [printvriendelijke versie](htt
 
 \--- /no-print \---
 
-You can find the [completed project here](http://rpf.io/p/en/clone-wars-get).
+Hier kun je het [voltooide project](http://rpf.io/p/en/clone-wars-get) downloaden.
 
 \--- /collapse \---
