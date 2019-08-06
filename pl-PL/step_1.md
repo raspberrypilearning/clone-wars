@@ -73,6 +73,6 @@ Jeśli chcesz wydrukować ten projekt, użyj [wersji do druku](https://projects.
 
 \--- /no-print \---
 
-You can find the [completed project here](http://rpf.io/p/en/clone-wars-get).
+Możesz znaleźć [ukończoną wersję projektu tutaj](http://rpf.io/p/en/clone-wars-get).
 
 \--- /collapse \---
