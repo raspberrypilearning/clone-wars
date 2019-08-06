@@ -1,4 +1,4 @@
-## 사라지는 마
+## 사라지는 하마
 
 우주선이 폭발하면 모든 하마가 사라져 게임 플레이어가 회복 될 수 있습니다.
 
@@ -9,55 +9,55 @@
 ![로켓 스프라이트](images/rocket-sprite.png)
 
 ```blocks3
-when flag clicked
-switch costume to (normal v)
-wait until <touching (Hippo1 v)>?
-switch costume to (hit v)
+녹색 깃발이 클릭된 경우
+모양을 (normal v) 로 바꾸기
+<touching (Hippo1 v)> 까지 기다리기
+모양을 (hit v) 로 바꾸기
 
-+ broadcast (hit v)
+ + (hit v) 신호 보내기
 ```
 
 \--- /task \---
 
 \--- task \---
 
-All of the `Hippo` sprite clones will receive the "hit" message, and you can instruct them to disappear when the spaceship is hit by adding this code to the `Hippo` sprite:
+모든 `하마` 스프라이트 클론은 "hit" 메시지를 받을 수 있으며, 하마 스프라이트에 이 코드를 추가하여 우주선이 공격을 받을 때 `하마` 가 사라지도록 할 수 있습니다.
 
-![hippo sprite](images/hippo-sprite.png)
+![하마 스프라이트](images/hippo-sprite.png)
 
 ```blocks3
-when I receive [hit v]
-delete this clone
+[hit v] 신호를 받았을 때
+이 복제본 삭제하기
 ```
 
 \--- /task \---
 
 \--- task \---
 
-To check whether the new code works, click the green flag and make the spaceship collide with a hippo.
+새 코드가 작동하는지 확인하려면 녹색 깃발을 클릭하고 우주선을 하마와 충돌 시키십시오.
 
 ![스크린샷](images/invaders-hippo-collide.png)
 
 \--- /task \---
 
-After the spaceship explodes, new `Hippo` clones appear, but the spaceship is still exploded! The spaceship needs to reset itself after being hit.
+우주선이 폭발 한 후에 새로운 `하마` 클론이 나타나지만 우주선은 여전히 폭발하고 있습니다! 우주선은 공격당한 후에 스스로 리셋되어야 합니다.
 
 \--- task \---
 
-Add a `wait`{:class="block3control"} block at the end of the `Spaceship` sprite's code to create a small pause before hippos begin appearing again. Then add a `forever`{:class="block3control"} block around all of your code to make the code run repeatedly.
+`기다리기`{:class="block3control"} 블록을 `우주선` 스프라이트 코드에 추가하여 하마가 다시 나타나기 전에 짧은 대기시간을 만드세요. 이후 `무한 반복`{:class="block3control"} 블록을 코드에 추가하여 무한 반복되도록 하세요.
 
-![rocket sprite](images/rocket-sprite.png)
+![로켓 스프라이트](images/rocket-sprite.png)
 
 ```blocks3
-when flag clicked
-forever
-switch costume to (normal v)
-wait until <touching (Hippo1 v)>?
-switch costume to (hit v)
-broadcast (hit v)
+초록색 깃발이 클릭되었을 때
+무한 반복
+모양을 (normal v) 로 바꾸기
+<touching (Hippo1 v)> 만큼 기다리기
+모양을 (hit v) 로 바꾸기
+(hit v) 신호 보내기
 
-+ wait (1) seconds
-end
++ (1) 초 기다리기
+끝
 ```
 
 \--- /task \---
