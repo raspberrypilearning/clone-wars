@@ -1,7 +1,7 @@
 ## チャレンジ：命（いのち）と点数
 
-At the moment, you can play the game forever, but it doesn't count how many hippos you shoot or how many times your spaceship explodes.
+現時点では、ゲームを永遠にプレイすることができますが、それはあなたが撃ったカバの数やあなたの宇宙船が爆発した回数を数えません。
 
-Can you add `lives`{:class="block3variables"}, a `score`{:class="block3variables"}, or even a `highscore`{:class="block3variables"} to your game?
+`ライフ`{：class = "block3variables"}、 `スコア`{：class = "block3variables"}、さらには `ハイスコア`{：class = "block3variables"}をゲームに追加できますか？
 
 [[[generic-scratch3-high-score]]]
