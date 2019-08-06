@@ -1,6 +1,6 @@
 ## いなずま
 
-Now you are going to give the spaceship the ability to fire lightning bolts!
+今、あなたは宇宙船に稲妻を発射する能力を与えようとしています！
 
 \--- task \---
 
@@ -12,11 +12,11 @@ Now you are going to give the spaceship the ability to fire lightning bolts!
 
 \--- task \---
 
-When the game starts, the `Lightning` sprite should be hidden until the spaceship fires its laser cannons.
+ゲームが始まるとき、宇宙船がレーザー砲を発射するまで `Lightning` スプライトは隠されるべきです。
 
-Add this code to the `Lightning` sprite:
+このコードを `Lightning` スプライトに追加します。
 
-![lightning sprite](images/lightning-sprite.png)
+![雷スプライト](images/lightning-sprite.png)
 
 ```blocks3
 ⚑ がクリックされたとき
@@ -25,66 +25,66 @@ Add this code to the `Lightning` sprite:
 
 \--- /task \---
 
-At the moment, the lightning bolt is really big compared to the spaceship!
+現時点では、稲妻は宇宙船に比べて本当に大きいです！
 
 \--- task \---
 
-Below the code that the `Lightning` sprite already has, add some blocks to make the sprite smaller and to turn it upside down.
+`Lightning` スプライトが既に持っているコードの下に、スプライトを小さくして逆さにするためにいくつかのブロックを追加します。
 
-![lightning sprite](images/lightning-sprite.png)
+![雷スプライト](images/lightning-sprite.png)
 
 ```blocks3
-set size to (25) %
-point in direction (-90)
+サイズを（25）％
+方向に向ける（-90）
 ```
 
-Now it looks like it fires pointy end–first out of the spaceship.
+今は宇宙船から先のとがった端を発射するように見えます。
 
 \--- /task \---
 
 \--- task \---
 
-Add some new code to the `Spaceship` sprite to create a new clone of the lightning bolt if the <kbd>space</kbd> key is pressed.
+<kbd>スペース</kbd> キーを押した場合は、 `宇宙船` スプライトに新しいコードを追加して稲妻の新しいクローンを作成します。
 
 \--- ヒント \---
 
 \--- hint \---
 
-`When the green flag is clicked`{:class="block3events"}, keep checking `forever`{:class="block3control"} `if`{:class="block3control"} the `space key is pressed`{:class="block3sensing"}, and in that case `create a clone of the Lightning`{:class="block3control"} sprite.
+`緑のフラグをクリックすると`{：クラス= "block3eventsを"}、チェックし続ける `永久`{：クラス= "block3control"} `であれば`{：クラス= "block3control"} `スペースキーが押された`{。クラス=「block3sensing」}、その場合 `雷のクローン作成`{：クラス=「block3control」}スプライト。
 
 \--- /ヒント \---
 
 \--- hint \---
 
-Here are the blocks you need:
+必要なブロックは次のとおりです。
 
 ```blocks3
-if <> then
-end
+フラグがクリックされたとき <> そして
+終わり
 
-forever
-end
+永遠に
+終わり
 
-create clone of (Lightning v)
+（Lightning v）
 
 <key (space v) pressed?>
 
-when flag clicked
+クローンを作成する
 ```
 
 \--- /ヒント \---
 
 \--- hint \---
 
-Here is what your new code should look like:
+新しいコードは次のようになります。
 
-![rocket sprite](images/rocket-sprite.png)
+![ロケットスプライト](images/rocket-sprite.png)
 
 ```blocks3
-when flag clicked
-forever
-    if <key (space v) pressed?> then
-        create clone of (Lightning v)
+旗が永遠に
+クリックしたとき
+ <key (space v) pressed?> なら
+        （Lightning v）のクローンを作成する
     end
 end
 ```
@@ -97,26 +97,26 @@ end
 
 \--- task \---
 
-Whenever the game creates a `Lightning` sprite clone, the clone should appear and then move upwards until it reaches the top of the Stage. Then the clone should disappear.
+ゲームが `Lightning` スプライトクローンを作成するたびに、そのクローンは出現し、それがステージのトップに達するまで上方に動くはずです。クローンは消えます。
 
-Add this code to the `Lightning` sprite so that clones of it move upwards until they touch the edge of the Stage, and then they get deleted.
+このコードを `Lightning` スプライトに追加すると、クローンがステージの端に触れるまで上に移動し、削除されます。
 
-![lightning sprite](images/lightning-sprite.png)
+![雷スプライト](images/lightning-sprite.png)
 
 ```blocks3
-    when I start as a clone
-    go to (Spaceship v)
-    show
-    repeat until <touching (edge v) ?>
-        change y by (10)
-    end
-    delete this clone
+    私はクローンとして起動したときに
+    （宇宙船V）へ行く
+    ショー
+    反復まで <touching (edge v) ?>
+        （10）によって変化Y
+    端
+    このクローンを削除します
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Press the <kbd>space</kbd> key to test whether the lightning bolt moves correctly.
+稲妻が正しく動くかどうかテストするために <kbd>スペース</kbd> キーを押してください。
 
 \--- /task \---
