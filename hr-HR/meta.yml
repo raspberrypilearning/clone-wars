@@ -11,14 +11,14 @@ steps:
   - 
     title: Sretan rođendan
   - 
-    title: Make a spaceship
+    title: Napravite svemirski brod
   - 
-    title: Lightning bolts
+    title: Munje
   - 
-    title: 'Challenge: improve the lightning'
+    title: 'Izazov: Popravljanje munje'
     challenge: true
   - 
-    title: Space-hippos
+    title: Svemirski nilski konji
   - 
     title: Spaceship explosion
   - 
@@ -34,4 +34,4 @@ steps:
     title: 'Challenge: improve your game'
     challenge: true
   - 
-    title: What next?
+    title: Što dalje?
