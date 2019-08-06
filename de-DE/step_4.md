@@ -1,3 +1,3 @@
 ## Fliegende Weltraum-Nilpfherde
 
-What happens if you hold down the <kbd>space</kbd> key? Can you use a `wait`{:class="block3control"} block to fix this?
+Was passiert, wenn Sie die <kbd>-Leertaste</kbd> gedrückt halten? Können Sie einen `wait`{: class = "block3control"} -Block verwenden, um dies zu beheben?
