@@ -15,5 +15,5 @@ Dyma rai syniadau:
 + Gwneud i fwy o elynion ymddangos pan mae dy sgôr yn cyrraedd `100`.
 
 ```blocks3
-    wait until <(score :: variables) = [100]>
+    aros hyd at <(sgôr :: variables) = [100]>
 ```
