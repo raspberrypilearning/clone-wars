@@ -13,23 +13,23 @@ steps:
   - 
     title: Creare una navicella spaziale
   - 
-    title: Ippopotami Spaziali Volanti
+    title: Fulmini
   - 
-    title: 'Ippopotami Spaziali Volanti'
+    title: 'Sfida: migliora il fulmine'
     challenge: true
   - 
-    title: Pipistrelli della Frutta!
+    title: Ippopotami spaziali
   - 
-    title: Game over
+    title: Esplosione della nave spaziale
   - 
-    title: 'Sfida: Migliora il tuo gioco'
+    title: Ippopotami che scompaiono
   - 
     title: 'Sfida: vite e punteggio'
     challenge: true
   - 
     title: Pipistrello dello spazio
   - 
-    title: Fine gioco
+    title: Partita finita
   - 
     title: 'Sfida: migliora il tuo gioco'
     challenge: true
