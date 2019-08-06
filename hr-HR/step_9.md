@@ -104,7 +104,7 @@ kraj
 
 \--- task \---
 
-Add code to the `Orange` to make each of its clone drop, starting from the `Bat` sprite and falling towards the bottom of the Stage.
+Dodaj naredbe liku `Naranča` kako bi svaki njegov klon ispustio, počevši od lika `Šišmiš` i padajući prema dnu pozornice.
 
 ![orange sprite](images/orange-sprite.png)
 
