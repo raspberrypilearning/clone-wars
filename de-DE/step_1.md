@@ -12,7 +12,7 @@ In diesem Projekt lernst du, wie man ein Spiel erstellt, in dem man die Erde vor
 
 \--- no-print \---
 
-Click the green flag in the example game below to start, and then press the <kbd>left</kbd> and <kbd>right</kbd> arrow keys to move the spaceship, and the <kbd>space</kbd> key to shoot.
+Klicken Sie auf die grüne Flagge im folgenden Beispielspiel, um zu beginnen, und drücken Sie dann die Pfeiltasten <kbd>links</kbd> und <kbd>rechts</kbd> , um das Raumschiff zu bewegen, und die Taste <kbd>Leertaste</kbd> , um zu schießen.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/276887163/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -21,11 +21,11 @@ Click the green flag in the example game below to start, and then press the <kbd
 
 \--- /no-print \---
 
-Score as many points as you can by shooting flying space-hippos. If you get hit by a hippo or by an orange dropped by the bats, you lose a life.
+Erziele so viele Punkte wie möglich, indem du fliegende Weltraum-Nilpferde abschießst. Wenn Sie von einem Nilpferd oder einer Orange getroffen werden, die von den Fledermäusen fallen gelassen wird, verlieren Sie ein Leben.
 
 \--- print-only \---
 
-![desc](images/showcase.png)
+![absteigend](images/showcase.png)
 
 \--- /print-only \---
 
@@ -45,7 +45,7 @@ Score as many points as you can by shooting flying space-hippos. If you get hit 
 
 ### Downloads
 
-[Find the downloads here](http://rpf.io/p/en/clone-wars-go).
+[finden Sie die Downloads](http://rpf.io/p/en/clone-wars-go).
 
 \--- /collapse \---
 
@@ -55,9 +55,9 @@ Score as many points as you can by shooting flying space-hippos. If you get hit 
 
 ## title: Was du lernen wirst
 
-+ How to make sprites move using keyboard input
-+ How to clone sprites to make copies of them
-+ How to use 'broadcast' and 'receive blocks' to send messages
++ So bewegen Sie Sprites mithilfe der Tastatureingabe
++ So klonen Sie Sprites, um Kopien davon zu erstellen
++ Verwendung von "Broadcast" und "Empfangsblöcken" zum Senden von Nachrichten
 
 \--- /collapse \---
 
@@ -73,6 +73,6 @@ Wenn du dieses Projekt ausdrucken möchtest, verwende die [druckerfreundliche Ve
 
 \--- /no-print \---
 
-[If you need the solution to this project, you can find it here](http://rpf.io/p/en/clone-wars-get).
+You can find the [completed project here](http://rpf.io/p/en/clone-wars-get).
 
 \--- /collapse \---
