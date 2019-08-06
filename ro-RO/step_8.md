@@ -1,7 +1,7 @@
-## Challenge: lives and score
+## Provocare: vieți și scor
 
-At the moment, you can play the game forever, but it doesn't count how many hippos you shoot or how many times your spaceship explodes.
+În acest moment, poți juca jocul pentru totdeauna, dar nu contează câți hipopotami împuști sau de câte ori explodează nava ta.
 
-Can you add `lives`{:class="block3variables"}, a `score`{:class="block3variables"}, or even a `highscore`{:class="block3variables"} to your game?
+Poți adăuga `vieți`{:class="block3variables"}, `scor`{:class="block3variables"} sau chiar `cel mai mare scor`{:class="block3variables"} la jocul tău?
 
 [[[generic-scratch3-high-score]]]
