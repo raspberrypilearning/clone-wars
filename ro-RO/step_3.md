@@ -1,10 +1,10 @@
-## Lightning bolts
+## Fulgere
 
-Now you are going to give the spaceship the ability to fire lightning bolts!
+Acum vei face ca nava spațială să poată trage cu fulgere!
 
 \--- task \---
 
-Add the `Lightning` sprite from the Scratch library.
+Adaugă personajul `Fulger` din biblioteca Scratch.
 
 [[[generic-scratch3-sprite-from-library]]]
 
@@ -12,79 +12,79 @@ Add the `Lightning` sprite from the Scratch library.
 
 \--- task \---
 
-When the game starts, the `Lightning` sprite should be hidden until the spaceship fires its laser cannons.
+Când jocul începe, personajul `Fulger` trebuie ascuns până când nava spațială va folosi tunurile cu laser.
 
-Add this code to the `Lightning` sprite:
+Adaugă acest cod la personajul `Fulger`:
 
-![lightning sprite](images/lightning-sprite.png)
+![personaj fulger](images/lightning-sprite.png)
 
 ```blocks3
-when green flag clicked
-hide
+când se dă click pe stegulețul verde
+ascunde
 ```
 
 \--- /task \---
 
-At the moment, the lightning bolt is really big compared to the spaceship!
+În acest moment, fulgerul este foarte mare în comparație cu nava spațială!
 
 \--- task \---
 
-Below the code that the `Lightning` sprite already has, add some blocks to make the sprite smaller and to turn it upside down.
+Sub codul pe care personajul `Fulger` îl are deja, adaugă câteva blocuri pentru a face personajul mai mic și pentru a îl întoarce cu susul în jos.
 
-![lightning sprite](images/lightning-sprite.png)
+![personaj fulger](images/lightning-sprite.png)
 
 ```blocks3
-set size to (25) %
-point in direction (-90)
+setează mărimea la (25) %
+orientează-te in direcția (-90)
 ```
 
-Now it looks like it fires pointy end–first out of the spaceship.
+Acum arată ca și cum părăsește nava spațială cu vârful înainte.
 
 \--- /task \---
 
 \--- task \---
 
-Add some new code to the `Spaceship` sprite to create a new clone of the lightning bolt if the <kbd>space</kbd> key is pressed.
+Adaugă ceva cod la personajul `Navă spațială` pentru a crea o nouă clonă a fulgerului dacă tasta <kbd>spațiu</kbd> este apăsată.
 
 \--- hints \---
 
 \--- hint \---
 
-`When the green flag is clicked`{:class="block3events"}, keep checking `forever`{:class="block3control"} `if`{:class="block3control"} the `space key is pressed`{:class="block3sensing"}, and in that case `create a clone of the Lightning`{:class="block3control"} sprite.
+`când se face click pe stegulețul verde`{:class="block3events"}, continuă să verifici `la infinit`{:class="block3control"} `dacă`{:class="block3control"} `tasta spațiu este apăsată?`{:class="block3sensing"}, și în acest caz `creează o clonă a personajului Fulger`{:class="block3control"}.
 
 \--- /hint \---
 
 \--- hint \---
 
-Here are the blocks you need:
+Iată care sunt blocurile de care ai nevoie:
 
 ```blocks3
-if <> then
+dacă <> atunci
 end
 
-forever
+la infinit
 end
 
-create clone of (Lightning v)
+creează o clonă a (Fulger v)
 
-<key (space v) pressed?>
+<tasta (spațiu v) apăsată?>
 
-when flag clicked
+când se dă click pe stegulețul verde
 ```
 
 \--- /hint \---
 
 \--- hint \---
 
-Here is what your new code should look like:
+Iată cum ar trebui să arate noul tău cod:
 
-![rocket sprite](images/rocket-sprite.png)
+![personaj rachetă](images/rocket-sprite.png)
 
 ```blocks3
-when flag clicked
-forever
-    if <key (space v) pressed?> then
-        create clone of (Lightning v)
+când se dă click pe stegulețul verde
+la infinit 
+  dacă <tasta (spațiu v) apăsată?> atunci 
+    creează o clonă a (Fulger v)
     end
 end
 ```
@@ -97,26 +97,26 @@ end
 
 \--- task \---
 
-Whenever the game creates a `Lightning` sprite clone, the clone should appear and then move upwards until it reaches the top of the Stage. Then the clone should disappear.
+Ori de câte ori jocul creează o clonă a personajului `Fulger`, clona ar trebui să apară și apoi să se deplaseze în sus până ajunge în partea de sus a Scenei. Atunci clona ar trebui să dispară.
 
-Add this code to the `Lightning` sprite so that clones of it move upwards until they touch the edge of the Stage, and then they get deleted.
+Adaugă acest cod la personajul `Fulger` astfel încât clonele acestuia să se deplaseze în sus până când ating marginea Scenei, iar apoi sunt șterse.
 
-![lightning sprite](images/lightning-sprite.png)
+![personaj fulger](images/lightning-sprite.png)
 
 ```blocks3
-    when I start as a clone
-    go to (Spaceship v)
-    show
-    repeat until <touching (edge v) ?>
-        change y by (10)
-    end
-    delete this clone
+    când încep ca și clonă
+mergi la (Navă Spațială v)
+arată
+repetă până când <atinge (marginea v) ?> 
+  modifică y cu (10)
+end
+șterge această clonă
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Press the <kbd>space</kbd> key to test whether the lightning bolt moves correctly.
+Apasă tasta <kbd>spațiu</kbd> pentru a testa dacă fulgerul se mișcă corect.
 
 \--- /task \---
