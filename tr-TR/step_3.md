@@ -8,7 +8,7 @@ Add the `Lightning` sprite from the Scratch library.
 
 [[[generic-scratch3-sprite-from-library]]]
 
-\--- /task \---
+\--- /görev \---
 
 \--- task \---
 
@@ -46,15 +46,15 @@ Now it looks like it fires pointy end–first out of the spaceship.
 
 Add some new code to the `Spaceship` sprite to create a new clone of the lightning bolt if the <kbd>space</kbd> key is pressed.
 
-\--- hints \---
-
 \--- hint \---
+
+\---hint\---
 
 `When the green flag is clicked`{:class="block3events"}, keep checking `forever`{:class="block3control"} `if`{:class="block3control"} the `space key is pressed`{:class="block3sensing"}, and in that case `create a clone of the Lightning`{:class="block3control"} sprite.
 
 \--- /hint \---
 
-\--- hint \---
+\---hint\---
 
 Here are the blocks you need:
 
@@ -74,7 +74,7 @@ when flag clicked
 
 \--- /hint \---
 
-\--- hint \---
+\---hint\---
 
 Here is what your new code should look like:
 
@@ -91,7 +91,7 @@ end
 
 \--- /hint \---
 
-\--- /hints \---
+\--- /hint \---
 
 \--- /task \---
 
