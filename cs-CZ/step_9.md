@@ -37,13 +37,13 @@ If you look at the bat's costumes, you can see that it has four different ones:
 
 Use the `next costume`{:class="block3looks"} block to make the bat flap its wings as it moves.
 
-\--- hints \---
+\--- tipy \---
 
 \--- hint \---
 
 After the bat has moved, it should show the `next costume`{:class="block3looks"} and then `wait`{:class="block3control"} for a short time.
 
-\--- /hint \---
+\--- /tip \---
 
 \--- hint \---
 
@@ -55,7 +55,7 @@ wait (0.3) seconds
 next costume
 ```
 
-\--- /hint \---
+\--- /tip \---
 
 \--- hint \--- You code should look like this:
 
@@ -71,9 +71,9 @@ if on edge, bounce
 end
 ```
 
-\--- /hint \---
+\--- /tip \---
 
-\--- /hints \---
+\--- /tipy \---
 
 \--- /task \---
 
