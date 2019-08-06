@@ -73,6 +73,6 @@
 
 \--- /no-print \---
 
-[ Εάν χρειάζεσαι τη λύση αυτού του έργου, μπορείς να τη βρείς εδώ ](http://rpf.io/p/en/clone-wars-get).
+You can find the [completed project here](http://rpf.io/p/en/clone-wars-get).
 
 \--- /collapse \---
