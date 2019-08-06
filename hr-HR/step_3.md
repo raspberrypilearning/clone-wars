@@ -1,10 +1,10 @@
-## Lightning bolts
+## Munje
 
-Now you are going to give the spaceship the ability to fire lightning bolts!
+Sada ćete dati svemirskom brodu mogućnost pucanja munja!
 
 \--- task \---
 
-Add the `Lightning` sprite from the Scratch library.
+Dodajte lik ` Munja ` iz Scratch biblioteke.
 
 [[[generic-scratch3-sprite-from-library]]]
 
@@ -12,39 +12,39 @@ Add the `Lightning` sprite from the Scratch library.
 
 \--- task \---
 
-When the game starts, the `Lightning` sprite should be hidden until the spaceship fires its laser cannons.
+Kada se igra pokrene, munja bi trebala biti skrivena sve dok svemirski brod ne ispali laserske topove.
 
-Add this code to the `Lightning` sprite:
-
-![lightning sprite](images/lightning-sprite.png)
-
-```blocks3
-when green flag clicked
-hide
-```
-
-\--- /task \---
-
-At the moment, the lightning bolt is really big compared to the spaceship!
-
-\--- task \---
-
-Below the code that the `Lightning` sprite already has, add some blocks to make the sprite smaller and to turn it upside down.
+Dodaj ovaj kôd liku `Munja`:
 
 ![lightning sprite](images/lightning-sprite.png)
 
 ```blocks3
-set size to (25) %
-point in direction (-90)
+Kada je kliknuta zelena zastava
+sakrij
 ```
 
-Now it looks like it fires pointy end–first out of the spaceship.
+\--- /task \---
+
+Trenutno je munja puno veća u odnosu na svemirski brod!
+
+\--- task \---
+
+Ispod kôda koji je lik ` Munja ` već ima, dodajte nekoliko blokova kako bi lik bio manji i okrenite ga naopako.
+
+![lightning sprite](images/lightning-sprite.png)
+
+```blocks3
+postavi veličinu na (25) %
+okreni se u smjeru (-90)
+```
+
+Sada se ispaljuje šiljati kraj prvi iz svemirskog broda.
 
 \--- /task \---
 
 \--- task \---
 
-Add some new code to the `Spaceship` sprite to create a new clone of the lightning bolt if the <kbd>space</kbd> key is pressed.
+Dodajte novi kôd liku ` Svemirski brod ` da bi ste stvorili novi klon munje ako je tipka <kbd> razmaknica</kbd> pritisnuta.
 
 \--- pomoć \---
 
@@ -56,37 +56,37 @@ Add some new code to the `Spaceship` sprite to create a new clone of the lightni
 
 \--- hint \---
 
-Here are the blocks you need:
+Ovdje su blokovi koji vam trebaju:
 
 ```blocks3
-if <> then
-end
+ako <> onda
+kraj
 
-forever
-end
+pnovaljaj
+kraj
 
-create clone of (Lightning v)
+kloniraj (Munja v)
 
-<key (space v) pressed?>
+kada je tipka (razmaknica) pritisnuta
 
-when flag clicked
+kada je zelena zastava kliknuta
 ```
 
 \--- /pomoć \---
 
 \--- hint \---
 
-Here is what your new code should look like:
+Evo kako bi vaš novi kôd trebao izgledati:
 
 ![rocket sprite](images/rocket-sprite.png)
 
 ```blocks3
-when flag clicked
-forever
-    if <key (space v) pressed?> then
-        create clone of (Lightning v)
-    end
-end
+kada je kliknuta zelena zastava 
+ponavljaj
+    ako <tipka razmaknica pritisnuta?> onda
+        kloniraj (Munja v)
+    kraj
+kraj
 ```
 
 \--- /pomoć \---
@@ -97,26 +97,26 @@ end
 
 \--- task \---
 
-Whenever the game creates a `Lightning` sprite clone, the clone should appear and then move upwards until it reaches the top of the Stage. Then the clone should disappear.
+Kad god igra stvori klon lika ` Munja `, klon bi se trebao pojaviti, a zatim pomaknuti prema gore sve dok ne dosegne vrh pozornice. Tada bi klon trebao nestati.
 
-Add this code to the `Lightning` sprite so that clones of it move upwards until they touch the edge of the Stage, and then they get deleted.
+Dodajte ovaj kôd u lik ` Munja `, tako da se njegovi klonovi kreću prema gore sve dok ne dodirnu rub pozornice, a zatim se izbrišu.
 
 ![lightning sprite](images/lightning-sprite.png)
 
 ```blocks3
-    when I start as a clone
-    go to (Spaceship v)
-    show
-    repeat until <touching (edge v) ?>
-        change y by (10)
-    end
-    delete this clone
+    kada krećem kao klon
+    idi do (Svemirski brod v)
+    prikaži
+    ponavljaj dok nije <dodiruje (rub)?>
+        promijeni y za (10)
+    kraj
+    izbriši klona
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Press the <kbd>space</kbd> key to test whether the lightning bolt moves correctly.
+Pokreni projekt i testiraj munje držeći pritisnutu razmaknicu.
 
 \--- /task \---
