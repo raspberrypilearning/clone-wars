@@ -1,10 +1,10 @@
-## Space-hippos
+## 宇宙カバ
 
-Now you're going to add lots of flying hippos that try to destroy your spaceship.
+今、あなたはあなたの宇宙船を破壊しようとするたくさんの空飛ぶカバを追加するつもりです。
 
 \--- task \---
 
-Create a new sprite with the 'Hippo1' image in the Scratch library. Use the **shrink** tool to make the `Hippo` sprite a similar size to the `Spaceship` sprite.
+スクラッチライブラリの 'Hippo1'イメージで新しいスプライトを作成します。 `Hippo` スプライトを `Spaceship` スプライトと同じサイズにするには、 **縮小** ツールを使用し** 。</p> 
 
 ![スクリーンショット](images/invaders-hippo.png)
 
@@ -12,7 +12,7 @@ Create a new sprite with the 'Hippo1' image in the Scratch library. Use the **sh
 
 \--- task \---
 
-Set the `Hippo` sprite's rotation style to **left-right**.
+`カバ` スプライトの回転スタイルを **左右**ます。
 
 [[[generic-scratch3-sprite-rotation-style]]]
 
@@ -22,7 +22,7 @@ Set the `Hippo` sprite's rotation style to **left-right**.
 
 ゲームが始まったとき、 `カバ`のスプライトを隠したじょうたいにするコードを加えましょう。
 
-![hippo sprite](images/hippo-sprite.png)
+![カバスプライト](images/hippo-sprite.png)
 
 ```blocks3
 ⚑ がクリックされたとき
@@ -33,46 +33,46 @@ Set the `Hippo` sprite's rotation style to **left-right**.
 
 \--- task \---
 
-Add some code to the Stage to create a new `Hippo` clone every few seconds.
+数秒ごとに新しい `Hippo` クローンを作成するためにステージにコードを追加します。
 
 \--- ヒント \---
 
 \--- hint \---
 
-When the `green flag is clicked`{:class="block3events"}, `repeatedly`{:class="block3control"} `wait`{:class="block3control"} `between 2 and 4 seconds`{:class="block3operators"} and then `create a clone of the Hippo sprite`{:class="block3control"}.
+場合 `グリーンフラグがクリックされた`{：クラス= "block3eventsを"}、 `繰り返し`{：クラス= "block3control"} `ウェイト`{：クラス= "block3control"} `秒2〜4`{：クラス=そして "block3operators"}そしてそれから `Hippoスプライトのクローンを作成する`{：class = "block3control"}。
 
 \--- /ヒント \---
 
 \--- hint \---
 
-Here are the blocks you need:
+必要なブロックは次のとおりです。
 
 ```blocks3
-forever
-end
+永遠に
+終了
 
-create clone of (Hippo1 v)
+（Hippo1 V）のクローンを作成
 
-(pick random (2) to (4))
+（（4）に（2）ランダム選択）
 
-when flag clicked
+フラグがクリックされたときに
 
-wait () secs
+待機（）秒を
 ```
 
 \--- /ヒント \---
 
 \--- hint \---
 
-This is what your code should look like:
+これはあなたのコードがどのように見えるべきかです：
 
-![stage sprite](images/stage-sprite.png)
+![ステージスプライト](images/stage-sprite.png)
 
 ```blocks3
-when flag clicked
-forever
-    wait (pick random (2) to (4)) secs
-    create clone of (Hippo1 v)
+flagがいつまでもクリックされたとき
+永遠に
+    待機（ランダムに選択（2）から（4））secs
+    （Hippo1 v）のクローンを作成する
 end
 ```
 
@@ -82,15 +82,15 @@ end
 
 \--- /task \---
 
-Each new hippo clone should appear at a random `x` position, and every clone should have a random speed.
+それぞれの新しいカバクローンは、ランダムな `x` 位置に表示され、すべてのクローンはランダムなスピードを持つべきです。
 
 \--- task \---
 
-Create a new variable called `speed`{:class="block3variables"} that is for the `Hippo` sprite only.
+`Hippo` スプライト専用の `speed`{：class = "block3variables"}という新しい変数を作成します。
 
 [[[generic-scratch3-add-variable]]]
 
-When you've done this correctly, the variable has the name of the sprite next to it, like this:
+これを正しく行うと、変数の隣には次のようなスプライトの名前が表示されます。
 
 ![スクリーンショット](images/invaders-var-test.png)
 
@@ -98,7 +98,7 @@ When you've done this correctly, the variable has the name of the sprite next to
 
 \--- task \---
 
-When each `Hippo` clone starts, pick a random speed and starting place for it. Then show the clone on the screen.
+各 `Hippo` クローンが起動したら、ランダムな速度とそれの開始場所を選択します。次にクローンを画面に表示します。
 
 ```blocks3
 クローンされたとき
@@ -111,30 +111,30 @@ x座標を ((-220) から (220) までの乱数) 、y座標を (150) にする
 
 \--- task \---
 
-Test your code. Does a new hippo appear every few seconds?
+コードをテストしてください。新しいカバは数秒ごとに表示されますか？
 
 \--- /task \---
 
-At the moment the hippos don't move.
+現時点ではカバは移動しません。
 
 \--- task \---
 
-Each hippo should move around randomly until it gets hit by a lightning bolt. To make that happen, attach this code below the blocks that are already in the `Hippo` sprite's code script:
+各カバは、稲妻にぶつかるまでランダムに動き回るはずです。これを実現するには、 `Hippo` スプライトのコードスクリプトに既に含まれているブロックの下に次のコードを添付します。
 
 ```blocks3
-repeat until <touching (lightning v) ?>
-    move (speed :: variables) steps
-    turn right (pick random (-10) to (10)) degrees
-    if on edge, bounce
-end
-delete this clone
+まで繰り返す <touching (lightning v) ?>
+    動き（速度::変数）ステップ
+    度（（10）-10（ランダムピック））右折
+    エッジにいる場合、バウンス
+端部
+このクローンを削除
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Test your code again. You should see a new hippo clone appear every few seconds, and each clone should move at a different speed.
+もう一度コードをテストしてください。新しいカバクローンが数秒ごとに表示され、各クローンは異なる速度で移動するはずです。
 
 \--- no-print \---
 
@@ -146,6 +146,6 @@ Test your code again. You should see a new hippo clone appear every few seconds,
 
 \--- task \---
 
-Now test the spaceship's laser cannon. If a lightning bolt hits a hippo, does the hippo vanish?
+今宇宙船のレーザー大砲をテストします。稲妻がカバに当たった場合、カバは消えますか？
 
 \--- /task \---
