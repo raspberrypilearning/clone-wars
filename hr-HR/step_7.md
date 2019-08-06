@@ -1,6 +1,6 @@
 ## Nilski konji koji nestaju
 
-When the spaceship explodes, all the hippos should disappear so that players of the game can recover.
+Kad svemirski brod eksplodira, svi nilski konji trebali bi nestati tako da igrači mogu ponovno započeti igru.
 
 \--- task \---
 
