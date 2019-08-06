@@ -64,7 +64,7 @@ wait () secs
 
 \--- hint \---
 
-This is what your code should look like:
+Tak powinien wyglądać Twój kod:
 
 ![duszek sceny](images/stage-sprite.png)
 
