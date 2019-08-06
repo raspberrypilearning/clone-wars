@@ -20,7 +20,7 @@ Stel de `nijlpaard` sprite's draaistijl in op **links-rechts**.
 
 \--- task \---
 
-Voeg code toe om als het spel begint de ` Hippo` Sprite te verbergen.
+Voeg code toe om als het spel begint de `nijlpaard` Sprite te verbergen.
 
 ![nijlpaard sprite](images/hippo-sprite.png)
 
@@ -39,7 +39,7 @@ Voeg wat code toe aan de achtergrond om elke paar seconden een nieuwe `nijlpaard
 
 \--- hint \---
 
-Wanneer de `groene vlag wordt geklikt`{:class="block3events"}, `herhaal`{:class="block3control"} `wacht`{:class="block3control"} `tussen 2 en 4 seconden`{:class="block3operators"} en vervolgens `maak een kloon van Hippo1`{:class="block3control"}.
+Wanneer op de `groene vlag wordt geklikt`{:class="block3events"}, `herhaal`{:class="block3control"} `wacht`{:class="block3control"} `tussen 2 en 4 seconden`{:class="block3operators"} en vervolgens `maak een kloon van Hippo1`{:class="block3control"}.
 
 \--- /hint \---
 
@@ -86,7 +86,7 @@ Elke nieuw nijlpaard moet op een willekeurige `x`-positie verschijnen en moet ee
 
 \--- task \---
 
-Maak een nieuwe variabele met de naam `snelheid`{:class="blockdata"} deze is alleen voor de `Hippo` sprite.
+Maak een nieuwe variabele met de naam `snelheid`{:class="blockdata"} die alleen voor de `Hippo` sprite is.
 
 [[[generic-scratch3-add-variable]]]
 
@@ -111,15 +111,15 @@ verschijn
 
 \--- task \---
 
-Test je code. Wordt elke paar seconden een nieuwe nijlpaard getoond?
+Test je code. Verschijnt er om de paar seconden een nieuwe nijlpaard?
 
 \--- /task \---
 
-Op dit moment verplaatsen de nijlpaarden niet.
+Op dit moment bewegen de nijlpaarden niet.
 
 \--- task \---
 
-Elke hippo zou willekeurig moeten verplaatsen totdat het geraakt wordt door een bliksemschicht. Om dat te doen, voeg deze code toe onder de blokken die al in het `nijlpaard` sprite script staan:
+Elke hippo zou willekeurig moeten bewegen totdat het geraakt wordt door een bliksemschicht. Om dat te doen, voeg deze code toe onder de blokken die al in het `nijlpaard` sprite script staan:
 
 ```blocks3
 herhaal tot <touching (lightning v) ?> 
