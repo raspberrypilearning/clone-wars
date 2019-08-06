@@ -8,7 +8,7 @@ Open the 'Clone wars' Scratch starter project.
 
 ** Online **: abra un nuevo proyecto Scratch en línea en [ rpf.io/clone-wars-on ](http://rpf.io/clone-wars-on)"}.
 
-If you have a Scratch account you can make a copy by clicking **Remix**.
+Si tienes una cuenta Scratch puedes hacer una copia haciendo clic en **Remix**.
 
 **Offline:** download the starter project from [rpf.io/p/en/clone-wars-go](http://rpf.io/p/en/clone-wars-go), and then open it using the offline editor.
 
