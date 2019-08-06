@@ -1,18 +1,18 @@
 \--- no-print \---
 
-This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/clone-wars-scratch2).
+Ovo je ** Scratch 3 ** verzija projekta. Također postoji i verzija projekta [ Scratch 2 ](https://projects.raspberrypi.org/en/projects/clone-wars-scratch2).
 
 \--- /no-print \---
 
 ## Uvod
 
-In this project you will learn how to create a game in which you have to save the Earth from space monsters.
+U ovom projektu naučit ćete kako napraviti igru u kojoj morate spasiti Zemlju od svemirskih čudovišta.
 
 ### Što ćete napraviti
 
 \--- no-print \---
 
-Click the green flag in the example game below to start, and then press the <kbd>left</kbd> and <kbd>right</kbd> arrow keys to move the spaceship, and the <kbd>space</kbd> key to shoot.
+Kliknite na zelenu zastavicu u primjeru igre ispod kako bi ju pokrenuli, a zatim pritisnite <kbd> lijevo </kbd> i <kbd> desno </kbd> tipke sa strelicama za pomicanje svemirskog broda i <kbd> space </kbd> za snimanje.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/276887163/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -21,7 +21,7 @@ Click the green flag in the example game below to start, and then press the <kbd
 
 \--- /no-print \---
 
-Score as many points as you can by shooting flying space-hippos. If you get hit by a hippo or by an orange dropped by the bats, you lose a life.
+Postignite što više bodova pucajući leteće svemirske nilske konje. Ako Vas pogodi nilski konj ili naranča koju je ispustio šišmiš, gubite život.
 
 \--- print-only \---
 
@@ -33,7 +33,7 @@ Score as many points as you can by shooting flying space-hippos. If you get hit 
 
 * * *
 
-## title: Trebat ćeš
+## title: Trebati će Vam
 
 ### Hardver
 
@@ -43,21 +43,9 @@ Score as many points as you can by shooting flying space-hippos. If you get hit 
 
 + Scratch 3 ([online](https://rpf.io/scratchon){:target="_blank"} ili [offline](https://rpf.io/scratchoff) verziju{:target="_blank"})
 
-### Downloads
+### Preuzimanja
 
-[Find the downloads here](http://rpf.io/p/en/clone-wars-go).
-
-\--- /collapse \---
-
-\--- collapse \---
-
-* * *
-
-## title: Naučit ćeš
-
-+ How to make sprites move using keyboard input
-+ How to clone sprites to make copies of them
-+ How to use 'broadcast' and 'receive blocks' to send messages
+Pronađi preuzimanja ovdje.
 
 \--- /collapse \---
 
@@ -65,7 +53,19 @@ Score as many points as you can by shooting flying space-hippos. If you get hit 
 
 * * *
 
-## title: Additional notes for educators
+## title: Što ćete naučiti
+
++ Kako napraviti da se spriteovi kreću koristeći tipkovnicu
++ Kako klonirati likove kako bi napravili njihove kopije
++ Kako koristiti 'broadcast' i 'receive blocks' za slanje poruka
+
+\--- /collapse \---
+
+\--- collapse \---
+
+* * *
+
+## title: Dodatne informacije za voditelje kluba
 
 \--- no-print \---
 
@@ -73,6 +73,6 @@ Ako trebate ispisati ovaj projekt, koristite [printer-friendly version](https://
 
 \--- /no-print \---
 
-[If you need the solution to this project, you can find it here](http://rpf.io/p/en/clone-wars-get).
+You can find the [completed project here](http://rpf.io/p/en/clone-wars-get).
 
 \--- /collapse \---
