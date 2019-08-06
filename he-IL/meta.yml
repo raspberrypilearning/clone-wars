@@ -1,15 +1,15 @@
 ---
 hero_image: images/clone-wars.png
-theme: violet
+theme: סגול
 listed: true
 copyedit: true
 title: Clone wars
 description: Create a game in which you have to save the Earth from space monsters
-version: 4.1.0
+version: 3
 last_tested: 2018-10-11
 steps:
   - 
-    title: Introduction
+    title: הקדמה
   - 
     title: Make a spaceship
   - 
@@ -34,4 +34,4 @@ steps:
     title: 'Challenge: improve your game'
     challenge: true
   - 
-    title: What next?
+    title: מה הלאה?
