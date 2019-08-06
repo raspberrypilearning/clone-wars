@@ -34,13 +34,13 @@ izbriši klona
 
 \--- task \---
 
-To check whether the new code works, click the green flag and make the spaceship collide with a hippo.
+Da biste provjerili radi li novi kôd, kliknite zelenu zastavu i sudarite svemirski brod s nilskim konjem.
 
 ![screenshot](images/invaders-hippo-collide.png)
 
 \--- /task \---
 
-After the spaceship explodes, new `Hippo` clones appear, but the spaceship is still exploded! The spaceship needs to reset itself after being hit.
+Nakon što svemirski brod eksplodira, novi klonovi lika ` Nilski konj ` se pojavljuju, ali svemirski brod još uvijek uništen! Svemirski brod se mora resetirati nakon što je pogođen.
 
 \--- task \---
 
