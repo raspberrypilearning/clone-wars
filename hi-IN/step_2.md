@@ -1,4 +1,4 @@
-## Make a spaceship
+## आपको किसकी ज़रूरत होगी
 
 First make a spaceship that can defend the Earth!
 
@@ -12,11 +12,11 @@ If you have a Scratch account you can make a copy by clicking **Remix**.
 
 **Offline:** download the starter project from [rpf.io/p/en/clone-wars-go](http://rpf.io/p/en/clone-wars-go), and then open it using the offline editor.
 
-If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
+यदि आपको स्क्रैच ऑफ़लाइन संपादक को डाउनलोड और इंस्टॉल करने की आवश्यकता है, तो आप इसे [rpf.io/scratchoff](https://rpf.io/scratchoff) {:target="_blank"} पर पा सकते हैं।
 
 \--- /task \---
 
-![starter project](images/starter-project.png)
+![स्टार्टर प्रोजेक्ट](images/starter-project.png)
 
 \--- task \---
 
