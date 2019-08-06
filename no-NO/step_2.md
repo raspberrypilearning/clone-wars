@@ -12,7 +12,7 @@ If you have a Scratch account you can make a copy by clicking **Remix**.
 
 **Offline:** download the starter project from [rpf.io/p/en/clone-wars-go](http://rpf.io/p/en/clone-wars-go), and then open it using the offline editor.
 
-If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
+Hvis du trenger å laste ned og installere Scratch editoren, finner du den på [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
 
 \--- /task \---
 
@@ -47,13 +47,13 @@ Add some more code inside the `forever`{:class="block3control"} block to make yo
 
 \--- hints \---
 
-\--- hint \---
+DO NOT TRANSLATE
 
 Subtracting `4` from the spaceship's `x` position made it move left, so how could you make the spaceship move right by `4` instead?
 
 \--- /hint \---
 
-\--- hint \---
+DO NOT TRANSLATE
 
 You need the same code block, but with a different number:
 
@@ -63,7 +63,7 @@ change x by ( )
 
 \--- /hint \---
 
-\--- hint \---
+DO NOT TRANSLATE
 
 Here is the code you need to add below the other code inside the `forever`{:class="block3control"} block:
 
