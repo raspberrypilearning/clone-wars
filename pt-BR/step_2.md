@@ -1,14 +1,14 @@
 ## Construindo uma espaçonave
 
-First make a spaceship that can defend the Earth!
+Primeiro faça uma nave espacial que possa defender a Terra!
 
 \--- task \---
 
-Open the 'Clone wars' Scratch starter project.
+Abra o projeto 'Guerra do Clone' projeto inicial.
 
-**Online:** open the starter project at [rpf.io/clone-wars-on](http://rpf.io/clone-wars-on){:target="_blank"}.
+** Online: ** abra o projeto inicial em [ rpf.io/clone-wars-on ](http://rpf.io/clone-wars-on) {: target = "_ blank"}.
 
-If you have a Scratch account you can make a copy by clicking **Remix**.
+Se você tiver uma conta do Scratch, pode fazer uma cópia clicando em ** Remix **.
 
 **Offline:** download the starter project from [rpf.io/p/en/clone-wars-go](http://rpf.io/p/en/clone-wars-go), and then open it using the offline editor.
 
@@ -16,7 +16,7 @@ If you need to download and install the Scratch offline editor, you can find it 
 
 \--- /task \---
 
-![starter project](images/starter-project.png)
+![projeto inicial](images/starter-project.png)
 
 \--- task \---
 
@@ -45,7 +45,7 @@ change x by (-4)
 
 Add some more code inside the `forever`{:class="block3control"} block to make your spaceship move to the right if the <kbd>right</kbd> arrow key is pressed.
 
-\--- hints \---
+\--- dica \---
 
 \--- hint \---
 
