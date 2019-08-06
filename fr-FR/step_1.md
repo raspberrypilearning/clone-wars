@@ -73,6 +73,6 @@ Si tu as besoin d'imprimer ce projet, merci d'utiliser la [Version imprimable](h
 
 \--- /no-print \---
 
-You can find the [completed project here](http://rpf.io/p/en/clone-wars-get).
+Vous pouvez trouver le [ projet terminé ici ](http://rpf.io/p/en/clone-wars-get) .
 
 \--- /collapse \---
