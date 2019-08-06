@@ -1,74 +1,74 @@
-## Space-bat
+## スペースバット
 
-To make your game a bit harder, you are going to create a bat that throws oranges at the spaceship.
+あなたのゲームを少し難しくするために、あなたは宇宙船でオレンジを投げるバットを作成しようとしています。
 
-![a bat throwing an orange at the spaceship](images/bat-oranges.png)
+![宇宙船でオレンジを投げるコウモリ](images/bat-oranges.png)
 
 \--- task \---
 
-Add a `Bat` sprite and set its rotation style to **left–right**.
+`Bat` スプライトを追加して、回転スタイルを **left - right**ます。
 
 \--- /task \---
 
 \--- task \---
 
-Make the `Bat` sprite `move`{:class="block3motion"} from left to right at the top of the Stage `forever`{:class="block3control"}.
+`バット` スプライト ``{：class = "block3motion"}移動し、ステージ `最上部を左から右に`{：class = "block3control"}移動します。
 
-![bat sprite](images/bat-sprite.png)
+![バットスプライト](images/bat-sprite.png)
 
 ```blocks3
-when flag clicked
-set size to (50) %
-forever
-    move (10) steps
-    if on edge, bounce
-end
+フラグがクリックされたとき
+サイズを（50）％
+永久に設定する
+    移動する（10）ステップ
+    エッジ上であれば、
+バウンスする
 ```
 
-Remember to test your code.
+コードをテストするのを忘れないでください。
 
 \--- /task \---
 
-If you look at the bat's costumes, you can see that it has four different ones:
+あなたがバットの衣装を見れば、あなたはそれが4つの異なるものを持っていることがわかります：
 
 ![スクリーンショット](images/invaders-bat-costume.png)
 
 \--- task \---
 
-Use the `next costume`{:class="block3looks"} block to make the bat flap its wings as it moves.
+使用 `次コスチューム`が移動するようにバットフラップにその翼を製造するためにブロック：{クラス=「block3looks」}を。
 
 \--- ヒント \---
 
 \--- hint \---
 
-After the bat has moved, it should show the `next costume`{:class="block3looks"} and then `wait`{:class="block3control"} for a short time.
+コウモリが動いた後、それは `次の衣装`{：class = "block3looks"}を見せてから `しばらく待ちます`{：class = "block3control"}。
 
 \--- /ヒント \---
 
 \--- hint \---
 
-You need to add these blocks to you code:
+これらのブロックをコードに追加する必要があります。
 
 ```blocks3
-wait (0.3) seconds
+次の衣装を待つ（0.3）秒
 
-next costume
+
 ```
 
 \--- /ヒント \---
 
-\--- hint \--- You code should look like this:
+\---ヒント\--- コードは次のようになります。
 
 ```blocks3
-when flag clicked
-set size to (50) %
-forever
-move (10) steps
-if on edge, bounce
+フラグがクリックされたときに
+（50）％に設定されたサイズを
+永久
+ムーブ（10）ステップ
+エッジ上の場合、バウンス
 
-+ next costume
-+ wait (0.3) seconds
-end
++次の衣装
++待つ（0.3）秒
+の端を
 ```
 
 \--- /ヒント \---
@@ -77,11 +77,11 @@ end
 
 \--- /task \---
 
-Now make the bat throw oranges!
+今コウモリはオレンジを投げるように！
 
 \--- task \---
 
-Add an `Orange` sprite from the Scratch library.
+スクラッチライブラリから `Orange` スプライトを追加します。
 
 ![スクリーンショット](images/invaders-orange.png)
 
@@ -89,46 +89,46 @@ Add an `Orange` sprite from the Scratch library.
 
 \--- task \---
 
-Add code to your bat so that `when the flag is clicked`{:class="block3events"}, the `Bat` sprite `forever`{:class="block3control"} `waits`{:class="block3control"} for a `random`{:class="block3operators"} length of time between `5 to 10`{:class="block3operators"} seconds and then `creates a clone`{:class="block3control"} of the `Orange` sprite.
+フラグがクリックされたときに `が`{：class = "block3events"}、 `Bat` スプライト `永遠に`{：class = "block3control"} `が`{：class = "block3control"}を待つようにbatにコードを追加します。 `5から10`秒の間の `ランダム`{：class = "block3operators"}長さの時間のためにそれから `は <code>オレンジのクローン`{：class = "block3control"}を作成します</code> スプライト
 
-![bat sprite](images/bat-sprite.png)
+![バットスプライト](images/bat-sprite.png)
 
 ```blocks3
-when flag clicked
-forever
-    wait (pick random (5) to (10)) secs
-    create clone of (Orange v)
-end
+旗が
+永久にクリックしたとき
+    待つ（ランダムに選ぶ（5）から（10））secs
+    （Orange v）
+endのクローンを作る
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Add code to the `Orange` to make each of its clone drop, starting from the `Bat` sprite and falling towards the bottom of the Stage.
+`Bat` スプライトから開始してステージの下部に向かって落下するように、それぞれのクローンをドロップするように `Orange` にコードを追加します。
 
-![orange sprite](images/orange-sprite.png)
+![オレンジ色のスプライト](images/orange-sprite.png)
 
 ```blocks3
-    when flag clicked
-    hide
+    フラグがクリックされたときに
+    を隠す
 
-    when I start as a clone
-    go to (Bat v)
-    show
-    repeat until <touching (edge v)?
-        change y by (-4)
+    、私はクローンとして起動したときに
+    （バットV）に行く
+    番組
+    まで繰り返し <感動（エッジV）？
+        yを（-4）
     end
-    delete this clone
+    するこのクローンを削除する
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Add some more code to the `Orange` sprite so that when an `Orange` clone hits the `Spaceship` sprite, the clone also disappears to give the player a chance to reset:
+`Orange` スプライトにさらにコードを追加して、 `Orange` クローンが `Spaceship` スプライトに当たったときにもクローンを消して、プレーヤーにリセットの機会を与えます。
 
-![orange sprite](images/orange-sprite.png)
+![オレンジ色のスプライト](images/orange-sprite.png)
 
 ```blocks3
     [当たった v] を受け取ったとき
@@ -139,18 +139,18 @@ Add some more code to the `Orange` sprite so that when an `Orange` clone hits th
 
 \--- task \---
 
-Modify the code of your `Spaceship` sprite so that the sprite is "hit" when it touches a `Hippo` sprite or an `Orange` sprite:
+あなたの `Spaceship` スプライトのコードを修正して、 `Hippo` スプライトまたは `Orange` スプライトに触れたときにそのスプライトが「ヒット」するようにします。
 
-![rocket sprite](images/rocket-sprite.png)
+![ロケットスプライト](images/rocket-sprite.png)
 
 ```blocks3
-    wait until < <touching (Hippo1 v)?> or <touching (Orange v)?>>
+    < <touching (Hippo1 v)?> または <touching (Orange v)?>>まで待つ
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Test your game. What happens if the spaceship gets hit by a falling orange?
+ゲームをテストしてください。宇宙船がオレンジ色の落下に見舞われたらどうなりますか？
 
 \--- /task \---
