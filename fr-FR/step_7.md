@@ -1,27 +1,27 @@
 ## Défi : Améliorez votre jeu
 
-When the spaceship explodes, all the hippos should disappear so that players of the game can recover.
+Lorsque le vaisseau spatial explose, tous les hippopotames devraient disparaître afin que les joueurs puissent se remettre
 
 \--- task \---
 
-Add code to the spaceship sprite to make it `broadcast`{:class="block3events"} the message "hit" when the `spaceship touches a hippo`{:class="block3sensing"}.
+Ajoutez du code au sprite du vaisseau spatial pour le rendre `diffusé`{: class = "block3events"} le message "touché" lorsque le vaisseau spatial `touche un hippo`{: class = "block3sensing"}.
 
-![rocket sprite](images/rocket-sprite.png)
+![lutin de roquette](images/rocket-sprite.png)
 
 ```blocks3
-when flag clicked
-switch costume to (normal v)
-wait until <touching (Hippo1 v)>?
-switch costume to (hit v)
+lorsque le drapeau a cliqué sur
+passez de costume à (normal v)
+attendez jusqu'à <touching (Hippo1 v)>?
+costume de commutation pour (hit v)
 
-+ broadcast (hit v)
++ diffusion (hit v)
 ```
 
 \--- /task \---
 
 \--- task \---
 
-All of the `Hippo` sprite clones will receive the "hit" message, and you can instruct them to disappear when the spaceship is hit by adding this code to the `Hippo` sprite:
+Tous les `clones du sprite` Hippo recevront le message "hit", et vous pouvez leur demander de disparaître quand le vaisseau spatial est touché en ajoutant ce code au sprite `Hippo`:
 
 ![hippo sprite](images/hippo-sprite.png)
 
@@ -34,29 +34,29 @@ effacer ce clone
 
 \--- task \---
 
-To check whether the new code works, click the green flag and make the spaceship collide with a hippo.
+Pour vérifier si le nouveau code fonctionne, cliquez sur le drapeau vert et faites entrer le vaisseau spatial en collision avec un hippopotame.
 
 ![screenshot](images/invaders-hippo-collide.png)
 
 \--- /task \---
 
-After the spaceship explodes, new `Hippo` clones appear, but the spaceship is still exploded! The spaceship needs to reset itself after being hit.
+Après l'explosion du vaisseau spatial, de nouveaux clones `Hippo` apparaissent, mais le vaisseau spatial explose encore! Le vaisseau spatial doit se réinitialiser après avoir été touché.
 
 \--- task \---
 
-Add a `wait`{:class="block3control"} block at the end of the `Spaceship` sprite's code to create a small pause before hippos begin appearing again. Then add a `forever`{:class="block3control"} block around all of your code to make the code run repeatedly.
+Ajoutez un bloc `wait`{: class = "block3control"} à la fin du code du sprite `Spaceship` pour créer une petite pause avant la réapparition des hippopotames. Ajoutez ensuite un bloc `pour toujours`{: class = "block3control"} autour de tout votre code pour le faire exécuter à plusieurs reprises.
 
-![rocket sprite](images/rocket-sprite.png)
+![lutin de roquette](images/rocket-sprite.png)
 
 ```blocks3
-when flag clicked
-forever
-switch costume to (normal v)
-wait until <touching (Hippo1 v)>?
-switch costume to (hit v)
-broadcast (hit v)
+quand le drapeau a cliqué sur
+pour toujours
+changer de costume en (normal v)
+attendre jusqu'à <touching (Hippo1 v)>?
+costume de commutation pour (hit v)
+diffusion (hit v)
 
-+ wait (1) seconds
++ wait (1) secondes
 end
 ```
 
