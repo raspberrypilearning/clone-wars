@@ -1,16 +1,16 @@
-\--- no-print \---
+.
 
-This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/clone-wars-scratch2).
+Bu, projenin **Scratch 3** sürümüdür. Projenin aynı zamanda [Scratch 2 sürümü](https://projects.raspberrypi.org/en/projects/clone-wars-scratch2) de vardır.
 
 \--- /no-print \---
 
-## Introduction
+## Giriş
 
 In this project you will learn how to create a game in which you have to save the Earth from space monsters.
 
-### What you will make
+### Ne yapacaksınız
 
-\--- no-print \---
+.
 
 Click the green flag in the example game below to start, and then press the <kbd>left</kbd> and <kbd>right</kbd> arrow keys to move the spaceship, and the <kbd>space</kbd> key to shoot.
 
@@ -19,7 +19,7 @@ Click the green flag in the example game below to start, and then press the <kbd
   <img src="images/showcase.png">
 </div>
 
-\--- /no-print \---
+.
 
 Score as many points as you can by shooting flying space-hippos. If you get hit by a hippo or by an orange dropped by the bats, you lose a life.
 
@@ -29,31 +29,31 @@ Score as many points as you can by shooting flying space-hippos. If you get hit 
 
 \--- /print-only \---
 
-\--- collapse \---
+\---collapse\---
 
 * * *
 
-## title: What you will need
+## İhtiyacınız olacak şeyler
 
-### Hardware
+### Donanım
 
-+ A computer capable of running Scratch 3
++ Scratch 3 çalıştırabilen bir bilgisayar
 
-### Software
+### Yazılım
 
-+ Scratch 3 (either [online](https://rpf.io/scratchon){:target="_blank"} or [offline](https://rpf.io/scratchoff){:target="_blank"})
++ Scratch 3 ([çevrimiçi](https://rpf.io/scratchon){:target="_blank"} veya [çevrimdışı](https://rpf.io/scratchoff){:target="_blank"})
 
-### Downloads
+### İndirilecekler
 
 [Find the downloads here](http://rpf.io/p/en/clone-wars-go).
 
-\--- /collapse \---
+.
 
-\--- collapse \---
+\---collapse\---
 
 * * *
 
-## title: What you will learn
+## title: Ne öğreneceksiniz
 
 + How to make sprites move using keyboard input
 + How to clone sprites to make copies of them
@@ -61,17 +61,17 @@ Score as many points as you can by shooting flying space-hippos. If you get hit 
 
 \--- /collapse \---
 
-\--- collapse \---
+\---collapse\---
 
 * * *
 
 ## title: Additional notes for educators
 
-\--- no-print \---
+.
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/clone-wars/print){:target="_blank"}.
+Bu projeyi yazdırmanız gerekiyorsa, lütfen [yazıcı-dostu sürüm](https://projects.raspberrypi.org/en/projects/clone-wars/print) 'ü kullanın {: target = "_ blank"}.
 
-\--- /no-print \---
+.
 
 You can find the [completed project here](http://rpf.io/p/en/clone-wars-get).
 
