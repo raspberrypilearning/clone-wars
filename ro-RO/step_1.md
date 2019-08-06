@@ -1,18 +1,18 @@
 \--- no-print \---
 
-This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/clone-wars-scratch2).
+Aceasta este versiunea **Scratch 3** a proiectului. Există, de asemenea, o [versiune Scratch 2 a proiectului](https://projects.raspberrypi.org/en/projects/clone-wars-scratch2).
 
 \--- /no-print \---
 
-## Introduction
+## Introducere
 
-In this project you will learn how to create a game in which you have to save the Earth from space monsters.
+În acest proiect vei învăța cum să creezi un joc în care trebuie să salvezi Pământul de monștrii din spațiu.
 
-### What you will make
+### Ce vei face
 
 \--- no-print \---
 
-Click the green flag in the example game below to start, and then press the <kbd>left</kbd> and <kbd>right</kbd> arrow keys to move the spaceship, and the <kbd>space</kbd> key to shoot.
+Dă click pe steagul verde din exemplul de mai jos pentru a începe, apoi apasă tastele săgeată <kbd>stânga</kbd> și <kbd>dreapta</kbd> pentru a mișca nava spațială și tasta <kbd>spațiu</kbd> pentru a trage.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/276887163/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -21,7 +21,7 @@ Click the green flag in the example game below to start, and then press the <kbd
 
 \--- /no-print \---
 
-Score as many points as you can by shooting flying space-hippos. If you get hit by a hippo or by an orange dropped by the bats, you lose a life.
+Fă cât mai multe puncte trăgând în hipopotamii zburători din spațiu. Dacă ești lovit de un hipopotam sau de o portocală aruncată de lilieci, pierzi o viață.
 
 \--- print-only \---
 
@@ -33,31 +33,19 @@ Score as many points as you can by shooting flying space-hippos. If you get hit 
 
 * * *
 
-## title: What you will need
+## title: De ce vei avea nevoie
 
 ### Hardware
 
-+ A computer capable of running Scratch 3
++ Un computer capabil să ruleze Scratch 3
 
 ### Software
 
-+ Scratch 3 (either [online](https://rpf.io/scratchon){:target="_blank"} or [offline](https://rpf.io/scratchoff){:target="_blank"})
++ Scratch 3 (fie [online](https://rpf.io/scratchon){:target="_blank"} sau [offline](https://rpf.io/scratchoff){:target="_blank"})
 
-### Downloads
+### Fișiere descărcabile
 
-[Find the downloads here](http://rpf.io/p/en/clone-wars-go).
-
-\--- /collapse \---
-
-\--- collapse \---
-
-* * *
-
-## title: What you will learn
-
-+ How to make sprites move using keyboard input
-+ How to clone sprites to make copies of them
-+ How to use 'broadcast' and 'receive blocks' to send messages
+[Găsești fișierele descărcabile aici](http://rpf.io/p/en/clone-wars-go).
 
 \--- /collapse \---
 
@@ -65,14 +53,26 @@ Score as many points as you can by shooting flying space-hippos. If you get hit 
 
 * * *
 
-## title: Additional notes for educators
+## title: Ce vei învăța
+
++ Cum să miști un personaj folosind tastatura
++ Cum să clonezi personaje făcând copii ale lor
++ Cum să folosești blocuri de tipul „difuzează” sau „când primesc” pentru a trimite mesaje
+
+\--- /collapse \---
+
+\--- collapse \---
+
+* * *
+
+## title: Informații suplimentare pentru educatori
 
 \--- no-print \---
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/clone-wars/print){:target="_blank"}.
+Dacă trebuie să printezi acest proiect, folosește [versiunea printabilă](https://projects.raspberrypi.org/en/projects/clone-wars/print){:target="_blank"}.
 
 \--- /no-print \---
 
-[If you need the solution to this project, you can find it here](http://rpf.io/p/en/clone-wars-get).
+You can find the [completed project here](http://rpf.io/p/en/clone-wars-get).
 
 \--- /collapse \---
