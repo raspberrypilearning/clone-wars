@@ -1,6 +1,6 @@
 ---
 hero_image: images/clone-wars.png
-theme: violet
+theme: 紫色
 listed: true
 copyedit: true
 title: 克隆战争
@@ -31,7 +31,7 @@ steps:
   - 
     title: 挑战：完善你的游戏
   - 
-    title: 'Challenge: improve your game'
+    title: '高分'
     challenge: true
   - 
     title: 接下来呢？
