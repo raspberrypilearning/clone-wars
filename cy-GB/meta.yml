@@ -1,12 +1,12 @@
 ---
 hero_image: images/clone-wars.png
-theme: fioled
+theme: violet
 listed: true
 copyedit: true
-title: Brwydro Clonau
-description: Dysga sut i greu gêm lle mae angen achub y Ddaear rhag anghenfilod y gofod
-version: 4
-last_tested: 2017-01-01
+title: Brwydr Clonau
+description: Creu gêm lle mae'n rhaid achub y Byd wrth anghenfilod o'r gofod
+version: 4.1.0
+last_tested: 2018-10-11
 steps:
   - 
     title: Cyflwyniad
@@ -15,14 +15,14 @@ steps:
   - 
     title: Mellt
   - 
-    title: 'Hipopotamws yn hedfan yn y gofod'
+    title: 'Her: gwella''r mellt'
     challenge: true
   - 
-    title: Ystlumod Ffrwythau!
+    title: Hippos-gofod
   - 
-    title: Gêm drosodd
+    title: Ffrwydrad llong ofod
   - 
-    title: 'Her: Gwella dy gêm'
+    title: Hippos sy'n diflannu
   - 
     title: 'Her: bywydau a sgôr'
     challenge: true
