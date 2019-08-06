@@ -3,35 +3,35 @@ hero_image: images/clone-wars.png
 theme: violet
 listed: true
 copyedit: true
-title: Clone wars
-description: Create a game in which you have to save the Earth from space monsters
+title: Războiul clonelor
+description: Creează un joc în care trebuie să salvezi Pământul de monștrii din spațiu
 version: 4.1.0
 last_tested: 2018-10-11
 steps:
   - 
-    title: Introduction
+    title: Introducere
   - 
-    title: Make a spaceship
+    title: Creează o navă spațială
   - 
-    title: Lightning bolts
+    title: Fulgere
   - 
-    title: 'Challenge: improve the lightning'
+    title: 'Provocare: Îmbunătățeste fulgerul'
     challenge: true
   - 
-    title: Space-hippos
+    title: Hipopotami-spațiali
   - 
-    title: Spaceship explosion
+    title: Explozia navei spațiale
   - 
-    title: Hippos that disappear
+    title: Hipopotami care dispar
   - 
-    title: 'Challenge: lives and score'
+    title: 'Provocare: vieți și scor'
     challenge: true
   - 
-    title: Space-bat
+    title: Liliac-spațial
   - 
-    title: Game over
+    title: Finalul jocului
   - 
-    title: 'Challenge: improve your game'
+    title: 'Provocare: Îmbunătățește-ți jocul'
     challenge: true
   - 
-    title: What next?
+    title: Ce urmează?
