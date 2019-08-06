@@ -73,6 +73,6 @@ Ako trebate ispisati ovaj projekt, koristite [printer-friendly version](https://
 
 \--- /no-print \---
 
-You can find the [completed project here](http://rpf.io/p/en/clone-wars-get).
+[Ovdje](http://rpf.io/p/en/clone-wars-get) možete pronaći dovršen projekt.
 
 \--- /collapse \---
