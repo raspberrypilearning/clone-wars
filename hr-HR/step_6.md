@@ -1,20 +1,20 @@
-## Spaceship explosion
+## Eksplozija svemirskog broda
 
-When a hippo touches your spaceship, the spaceship should explode!
+Kada nilski konj dotakne vaš svemirski brod, on bi trebao eksplodirati!
 
 \--- task \---
 
-Select the `Spaceship` sprite and rename its costume 'normal'.
+Odaberite lik `Svemirski brod` i promijenite naziv njegovog kostima u 'normalan'.
 
 \--- /task \---
 
 \--- task \---
 
-Draw another costume of an exploding spaceship, and call the new costume 'hit'.
+Nacrtajte još jedan kostim svemirskog broda koji eksplodira i nazovite novi kostim 'pogodak'.
 
 ![screenshot](images/invaders-spaceship-costumes.png)
 
-If you don't want to draw the explosion, you can select the 'Sun' costume from the Scratch library, and then use the **Color a shape** tool to change the costume's colour and face.
+Ako ne želite nacrtati eksploziju, možete odabrati "Sunce" kostim iz Scratch knjižnice i zatim upotrijebite **Oboji oblik** alat za promjenu boje i lica kostima.
 
 ![screenshot](images/invaders-sun.png)
 
