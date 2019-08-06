@@ -8,7 +8,7 @@ To make your game a bit harder, you are going to create a bat that throws orange
 
 Add a `Bat` sprite and set its rotation style to **left–right**.
 
-\--- /task \---
+\--- /görev \---
 
 \--- task \---
 
@@ -31,21 +31,21 @@ Remember to test your code.
 
 If you look at the bat's costumes, you can see that it has four different ones:
 
-![screenshot](images/invaders-bat-costume.png)
+![ekran görüntüsü](images/invaders-bat-costume.png)
 
 \--- task \---
 
 Use the `next costume`{:class="block3looks"} block to make the bat flap its wings as it moves.
 
-\--- hints \---
-
 \--- hint \---
+
+\---hint\---
 
 After the bat has moved, it should show the `next costume`{:class="block3looks"} and then `wait`{:class="block3control"} for a short time.
 
 \--- /hint \---
 
-\--- hint \---
+\---hint\---
 
 You need to add these blocks to you code:
 
@@ -73,7 +73,7 @@ end
 
 \--- /hint \---
 
-\--- /hints \---
+\--- /hint \---
 
 \--- /task \---
 
@@ -83,7 +83,7 @@ Now make the bat throw oranges!
 
 Add an `Orange` sprite from the Scratch library.
 
-![screenshot](images/invaders-orange.png)
+![ekran görüntüsü](images/invaders-orange.png)
 
 \--- /task \---
 
