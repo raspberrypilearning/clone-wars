@@ -1,4 +1,4 @@
-## Challenge: verbeter je spel
+## Uitdaging: verbeter je spel
 
 Welke verbeteringen kunt je aanbrengen in je spel?
 
@@ -15,5 +15,5 @@ Hier zijn wat ideeën:
 + Laat wanneer je score ` 100 wordt ` meer vijanden verschijnen.
 
 ```blocks3
-    wait until <(score :: variables) = [100]>
+    wacht tot <(score :: variables) = [100]>
 ```
