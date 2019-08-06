@@ -8,7 +8,7 @@ Select the `Spaceship` sprite and rename its costume 'normal'.
 
 \--- /task \---
 
-\--- task \---
+\--- feladat \---
 
 Draw another costume of an exploding spaceship, and call the new costume 'hit'.
 
