@@ -6,7 +6,7 @@ Voici quelques idées:
 
 + Ajouter des packs de santé que vous pouvez collecter pour obtenir des vies supplémentaires.
 
-![screenshot](images/invaders-aid.png)
+![capture d’écran](images/invaders-aid.png)
 
 + Ajoutez des roches flottantes que votre vaisseau spatial doit éviter.
 
