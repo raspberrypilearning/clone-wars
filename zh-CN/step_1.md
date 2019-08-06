@@ -1,16 +1,16 @@
-\--- no-print \---
+--无打印--
 
-This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/clone-wars-scratch2).
+这个项目是基于**Scratch 3**版本的，另外还有一个基于[Scratch 2的版本](https://projects.raspberrypi.org/en/projects/clone-wars-scratch2)。
 
 \--- /no-print \---
 
-## Introduction
+## 简介
 
 In this project you will learn how to create a game in which you have to save the Earth from space monsters.
 
-### What you will make
+### 学习成果
 
-\--- no-print \---
+--无打印--
 
 Click the green flag in the example game below to start, and then press the <kbd>left</kbd> and <kbd>right</kbd> arrow keys to move the spaceship, and the <kbd>space</kbd> key to shoot.
 
@@ -33,15 +33,15 @@ Score as many points as you can by shooting flying space-hippos. If you get hit 
 
 * * *
 
-## title: What you will need
+## title: 你需要准备什么
 
-### Hardware
+### 硬件
 
-+ A computer capable of running Scratch 3
++ 一台能够运行Scratch 3的电脑
 
-### Software
+### 软件
 
-+ Scratch 3 (either [online](https://rpf.io/scratchon){:target="_blank"} or [offline](https://rpf.io/scratchoff){:target="_blank"})
++ Scratch 3（[在线版本](https://rpf.io/scratchon){:target="_blank"}或[离线版本](https://rpf.io/scratchoff){:target="_blank"}）
 
 ### Downloads
 
@@ -53,7 +53,7 @@ Score as many points as you can by shooting flying space-hippos. If you get hit 
 
 * * *
 
-## title: What you will learn
+## title: 你将学到什么
 
 + How to make sprites move using keyboard input
 + How to clone sprites to make copies of them
@@ -65,11 +65,11 @@ Score as many points as you can by shooting flying space-hippos. If you get hit 
 
 * * *
 
-## title: Additional notes for educators
+## 题目: 教师附加说明
 
-\--- no-print \---
+--无打印--
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/clone-wars/print){:target="_blank"}.
+如果您需要打印本项目文件，请使用[适合打印版本](https://projects.raspberrypi.org/en/projects/clone-wars/print){:target="_blank"}。
 
 \--- /no-print \---
 
