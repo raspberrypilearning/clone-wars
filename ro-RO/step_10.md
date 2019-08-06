@@ -1,55 +1,55 @@
-## Game over
+## Finalul jocului
 
-Next, you're going to add a 'game over' message at the end of the game.
+Acum, vei adăuga un mesaj „Finalul jocului” la sfârșitul jocului.
 
 \--- task \---
 
-If you haven't already, create a new variable called `lives`{:class="block3variables"}.
+Dacă nu ai făcut deja asta, creează o nouă variabilă numită `vieți`{:class="block3variables"}.
 
-Your spaceship should start with three lives and lose a life whenever it touches a hippo or an orange. Your game should stop when the `lives`{:class="block3variables"} run out.
+Nava ta spațială ar trebui sa înceapă cu trei vieți și să piardă o viață când atinge un hipopotam sau o portocală. Jocul tău ar trebui să se oprească atunci când ai 0 `vieți`{:class="block3variables"}.
 
 \--- /task \---
 
 \--- task \---
 
-Draw a new sprite called `Game Over` using the **text** tool.
+Desenează un nou personaj numit `Finalul jocului` folosind unealta **text**.
 
-![screenshot](images/invaders-game-over.png)
+![captură de ecran](images/invaders-game-over.png)
 
 \--- /task \---
 
 \--- task \---
 
-On the Stage, broadcast a `game over`{:class="block3events"} message just before the game ends.
+Pe Scenă, difuzează un mesaj `finalul jocului`{:class="block3events"} chiar înainte de finalizarea jocului.
 
-![gameover sprite](images/stage-sprite.png)
+![personaj final de joc](images/stage-sprite.png)
 
 ```blocks3
-broadcast (game over v) and wait
+difuzează (finalul jocului v) și așteaptă
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Add this code to your `Game Over` sprite so that it shows at the end of the game:
+Adaugă acest cod personajului `Finalul jocului`, astfel încât să apară la sfârșitul jocului:
 
-![gameover sprite](images/gameover-sprite.png)
+![personaj final de joc](images/gameover-sprite.png)
 
 ```blocks3
-when flag clicked
-hide
+când se dă click pe stegulețul verde
+ascunde
 
-when I receive [game over v]
-show
+când primesc [finalul jocului v]
+arată
 ```
 
-Because you've used a `broadcast (game over) and wait`{:class="block3events"} block on your Stage, the Stage will wait for the `Game Over` sprite to be displayed before ending the game.
+Pentru că ai folosit un bloc `difuzează (finalul jocului) și așteaptă`{:class="block3events"} pe Scena ta, Scena va aștepta până când personajul `Finalul jocului` va fi afișat înainte de a încheia jocul.
 
 \--- /task \---
 
 \--- task \---
 
-Test your game. How many points can you score? If the game is too easy or too hard, can you think of ways to improve it?
+Testează-ți jocul. Ce punctaj poți obține? Dacă jocul este prea ușor sau prea greu, te poți gândi la modalități de îmbunătățire a acestuia?
 
 \--- /task \---
