@@ -1,6 +1,6 @@
 \--- no-print \---
 
-This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/clone-wars-scratch2).
+これはプロジェクトの **Scratch 3** バージョンです。プロジェクト</a>Scratch 2バージョンもあります。</p> 
 
 \--- /no-print \---
 
@@ -12,7 +12,7 @@ This is the **Scratch 3** version of the project. There is also a [Scratch 2 ver
 
 \--- no-print \---
 
-Click the green flag in the example game below to start, and then press the <kbd>left</kbd> and <kbd>right</kbd> arrow keys to move the spaceship, and the <kbd>space</kbd> key to shoot.
+下のゲーム例の緑色の旗をクリックして開始し、次に <kbd>左</kbd> と <kbd>右</kbd> 矢印キーを押して宇宙船を移動し、 <kbd>スペース</kbd> キーを押して射撃します。
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/276887163/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -21,7 +21,7 @@ Click the green flag in the example game below to start, and then press the <kbd
 
 \--- /no-print \---
 
-Score as many points as you can by shooting flying space-hippos. If you get hit by a hippo or by an orange dropped by the bats, you lose a life.
+飛んでスペースカバを撮影することによってあなたができる限り多くのポイントを獲得。あなたがカバやコウモリによって落とされたオレンジによって打たれるならば、あなたは命を失います。
 
 \--- print-only \---
 
@@ -43,9 +43,9 @@ Score as many points as you can by shooting flying space-hippos. If you get hit 
 
 + Scratch 3 ([オンライン](https://rpf.io/scratchon){:target="_blank"}または[オフライン](https://rpf.io/scratchoff){:target="_blank"})
 
-### Downloads
+### ダウンロード
 
-[Find the downloads here](http://rpf.io/p/en/clone-wars-go).
+[ダウンロードはこちら](http://rpf.io/p/en/clone-wars-go)
 
 \--- /collapse \---
 
@@ -55,9 +55,9 @@ Score as many points as you can by shooting flying space-hippos. If you get hit 
 
 ## title: 学習すること
 
-+ How to make sprites move using keyboard input
-+ How to clone sprites to make copies of them
-+ How to use 'broadcast' and 'receive blocks' to send messages
++ キーボード入力を使ってスプライトを動かす方法
++ スプライトを複製してコピーする方法
++ メッセージを送信するための 'broadcast'と 'receive blocks'の使い方
 
 \--- /collapse \---
 
@@ -65,7 +65,7 @@ Score as many points as you can by shooting flying space-hippos. If you get hit 
 
 * * *
 
-## title: Additional notes for educators
+## title：教育者向けの追加メモ
 
 \--- no-print \---
 
@@ -73,6 +73,6 @@ Score as many points as you can by shooting flying space-hippos. If you get hit 
 
 \--- /no-print \---
 
-[If you need the solution to this project, you can find it here](http://rpf.io/p/en/clone-wars-get).
+You can find the [completed project here](http://rpf.io/p/en/clone-wars-get).
 
 \--- /collapse \---
