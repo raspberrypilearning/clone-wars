@@ -24,12 +24,12 @@ steps:
   - 
     title: 'Aufgabe: Verbessere dein  Spiel'
   - 
-    title: 'Challenge: lives and score'
+    title: 'Herausforderung: lebt und punktet'
     challenge: true
   - 
-    title: Space-bat
+    title: Raumschläger
   - 
-    title: Game over
+    title: Spiel ist aus
   - 
     title: 'Herausforderung: Erstelle mehr Blöcke'
     challenge: true
