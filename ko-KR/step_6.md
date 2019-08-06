@@ -27,16 +27,16 @@
 ![로켓 스프라이트](images/rocket-sprite.png)
 
 ```blocks3
-when flag clicked
-switch costume to (normal v)
-wait until <touching (Hippo1 v)>?
-switch costume to (hit v)
+녹색 깃발이 클릭된 경우
+모양을 (normal v) 로 바꾸기
+<touching (Hippo1 v)> 까지 기다리기
+모양을 (hit v) 로 바꾸기
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Test your code. Make the spaceship collide with a hippo. Does the spaceship change to the 'hit' costume?
+코드를 테스트해 보세요. 우주선이 하마와 충돌하도록 하십시오. 우주선이 '맞은' 코스튬으로 바뀌었습니까?
 
 \--- /task \---
