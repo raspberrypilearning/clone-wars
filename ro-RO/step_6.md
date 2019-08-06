@@ -1,42 +1,42 @@
-## Spaceship explosion
+## Explozia navei spațiale
 
-When a hippo touches your spaceship, the spaceship should explode!
+Atunci când hipopotamul atinge nava ta spațială, nava spațială ar trebui să explodeze!
 
 \--- task \---
 
-Select the `Spaceship` sprite and rename its costume 'normal'.
+Selectează personajul `Navă Spațială` și redenumește-i costumul „normal”.
 
 \--- /task \---
 
 \--- task \---
 
-Draw another costume of an exploding spaceship, and call the new costume 'hit'.
+Desenează un alt costum al unei nave spațiale care explodează și numește noul costum „lovit”.
 
-![screenshot](images/invaders-spaceship-costumes.png)
+![captură de ecran](images/invaders-spaceship-costumes.png)
 
-If you don't want to draw the explosion, you can select the 'Sun' costume from the Scratch library, and then use the **Color a shape** tool to change the costume's colour and face.
+Dacă nu dorești să desenezi explozia, poți selecta costumul „Soare” din biblioteca Scratch, apoi poți utiliza unealta **Colorează o formă** pentru a schimba culoarea și fața costumului.
 
-![screenshot](images/invaders-sun.png)
+![captură de ecran](images/invaders-sun.png)
 
 \--- /task \---
 
 \--- task \---
 
-Add some code to your `Spaceship` sprite so that it displays the 'normal' costume when the game starts, and switches to the 'hit' costume when it touches a hippo:
+Adaugă cod personajului tau `Navă Spațială`, astfel încât să afișeze costumul „normal” la începutul jocului și să își schimbe costumul în „lovit” atunci când atinge un hipopotam:
 
-![rocket sprite](images/rocket-sprite.png)
+![personaj rachetă](images/rocket-sprite.png)
 
 ```blocks3
-when flag clicked
-switch costume to (normal v)
-wait until <touching (Hippo1 v)>?
-switch costume to (hit v)
+când se dă click pe stegulețul verde
+schimbă costumul la (normal v)
+așteaptă până când <atinge (Hippo1 v) ?>
+schimbă costumul la (lovit v)
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Test your code. Make the spaceship collide with a hippo. Does the spaceship change to the 'hit' costume?
+Testează-ți codul. Fă ca nava spațială să se ciocnească cu un hipopotam. Își schimbă nava spațială costumul în „lovit”?
 
 \--- /task \---
