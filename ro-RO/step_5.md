@@ -1,18 +1,18 @@
-## Space-hippos
+## Hipopotami-spațiali
 
-Now you're going to add lots of flying hippos that try to destroy your spaceship.
+Acum vei adăuga o mulțime de hipopotami zburători care încearcă să îți distrugă nava spațială.
 
 \--- task \---
 
-Create a new sprite with the 'Hippo1' image in the Scratch library. Use the **shrink** tool to make the `Hippo` sprite a similar size to the `Spaceship` sprite.
+Creează un nou personaj folosind imaginea „Hippo1” din biblioteca Scratch. Folosește unealta **de micșorare** pentru a face personajul `Hippo` o dimensiune similară cu personajul `Navă Spațială`.
 
-![screenshot](images/invaders-hippo.png)
+![captură de ecran](images/invaders-hippo.png)
 
 \--- /task \---
 
 \--- task \---
 
-Set the `Hippo` sprite's rotation style to **left-right**.
+Setează stilul de rotație al personajului `Hippo` să fie **stânga-dreapta**.
 
 [[[generic-scratch3-sprite-rotation-style]]]
 
@@ -20,60 +20,59 @@ Set the `Hippo` sprite's rotation style to **left-right**.
 
 \--- task \---
 
-Add some code to hide the `Hippo` sprite when the game starts.
+Adaugă cod pentru a ascunde personajul `Hippo` când începe jocul.
 
-![hippo sprite](images/hippo-sprite.png)
+![personaj hipopotam](images/hippo-sprite.png)
 
 ```blocks3
-when green flag clicked
-hide
+când se dă click pe stegulețul verde
+ascunde
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Add some code to the Stage to create a new `Hippo` clone every few seconds.
+Adaugă cod Scenei pentru a crea o nouă clonă a `Hippo` la fiecare câteva secunde.
 
 \--- hints \---
 
 \--- hint \---
 
-When the `green flag is clicked`{:class="block3events"}, `repeatedly`{:class="block3control"} `wait`{:class="block3control"} `between 2 and 4 seconds`{:class="block3operators"} and then `create a clone of the Hippo sprite`{:class="block3control"}.
+Când `se face click pe stegulețul verde`{:class="block3events"}, `în mod repetat`{:class="block3control"} `așteaptă`{:class="block3control"} `între 2 și 4 secunde`{:class="block3operators"} și apoi `creează o clonă a personajului Hippo`{:class="block3control"}.
 
 \--- /hint \---
 
 \--- hint \---
 
-Here are the blocks you need:
+Iată care sunt blocurile de care ai nevoie:
 
 ```blocks3
-forever
+la infinit
 end
 
-create clone of (Hippo1 v)
+creează o clonă a (Hippo1 v)
 
-(pick random (2) to (4))
+(alege aleator între (2) și (4))
 
-when flag clicked
+când se dă click pe stegulețul verde
 
-wait () secs
+așteaptă () secunde
 ```
 
 \--- /hint \---
 
 \--- hint \---
 
-This is what your code should look like:
+Iată cum ar trebui să arate noul tău cod:
 
-![stage sprite](images/stage-sprite.png)
+![personaj scena](images/stage-sprite.png)
 
 ```blocks3
-when flag clicked
-forever
-    wait (pick random (2) to (4)) secs
-    create clone of (Hippo1 v)
-end
+când se face click pe stegulețul verde
+la infinit 
+  așteaptă (alege aleator între (2) și (4)) secunde
+  creează o clonă a (Hippo1 v)
 ```
 
 \--- /hint \---
@@ -82,63 +81,63 @@ end
 
 \--- /task \---
 
-Each new hippo clone should appear at a random `x` position, and every clone should have a random speed.
+Fiecare nouă clonă a hipopotamului ar trebui să apară la o poziție `x` aleatorie și fiecare clonă ar trebui să aibă o viteză aleatorie.
 
 \--- task \---
 
-Create a new variable called `speed`{:class="block3variables"} that is for the `Hippo` sprite only.
+Creează o nouă variabilă numită `viteză`{:class="block3variables"} doar pentru personajul `Hippo`.
 
 [[[generic-scratch3-add-variable]]]
 
-When you've done this correctly, the variable has the name of the sprite next to it, like this:
+Când ai făcut acest lucru corect, variabila va avea numele personajului alături, astfel:
 
-![screenshot](images/invaders-var-test.png)
+![captură de ecran](images/invaders-var-test.png)
 
 \--- /task \---
 
 \--- task \---
 
-When each `Hippo` clone starts, pick a random speed and starting place for it. Then show the clone on the screen.
+Când fiecare clonă `Hippo` apare, alege o viteză aleatorie și locul de pornire pentru ea. Apoi, afișează clona pe ecran.
 
 ```blocks3
-when I start as a clone
-set [speed v] to (pick random (2) to (4))
-go to x: (pick random (-220) to (220)) y: (150)
-show
+când încep ca și clonă
+setează [viteză v] la (alege aleator între (2) și (4))
+mergi la x (alege aleator între (-220) și (220)) y: (150)
+arată
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Test your code. Does a new hippo appear every few seconds?
+Testează-ți codul. Apare un hipopotam nou la fiecare câteva secunde?
 
 \--- /task \---
 
-At the moment the hippos don't move.
+Momentan hipopotamii nu se mișcă.
 
 \--- task \---
 
-Each hippo should move around randomly until it gets hit by a lightning bolt. To make that happen, attach this code below the blocks that are already in the `Hippo` sprite's code script:
+Fiecare hipopotam ar trebui să se miște la întâmplare până când este lovit de un fulger. Pentru a face acest lucru, atașează acest cod sub blocurile care sunt deja în script pentru personajul `Hippo`:
 
 ```blocks3
-repeat until <touching (lightning v) ?>
-    move (speed :: variables) steps
-    turn right (pick random (-10) to (10)) degrees
-    if on edge, bounce
+repetă până când <atinge (Fulger v) ?> 
+  mergi (viteză :: variables) pași
+  rotește la dreapta (alege aleator între (-10) și (10)) grade
+  dacă atinge marginea, ricoșează
 end
-delete this clone
+șterge această clonă
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Test your code again. You should see a new hippo clone appear every few seconds, and each clone should move at a different speed.
+Testează-ți din nou codul. Ar trebui să vezi o nouă clonă a hipopotamului ce apare la fiecare câteva secunde și fiecare clonă ar trebui să se miște cu o viteză diferită.
 
 \--- no-print \---
 
-![screenshot](images/hippo-clones.gif)
+![captură de ecran](images/hippo-clones.gif)
 
 \--- /no-print \---
 
@@ -146,6 +145,6 @@ Test your code again. You should see a new hippo clone appear every few seconds,
 
 \--- task \---
 
-Now test the spaceship's laser cannon. If a lightning bolt hits a hippo, does the hippo vanish?
+Acum testează tunul laser al navei spațiale. Dacă un fulger lovește un hipopotam, dispare hipopotamul?
 
 \--- /task \---
