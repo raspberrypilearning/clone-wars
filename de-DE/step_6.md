@@ -1,20 +1,20 @@
 ## Game over
 
-When a hippo touches your spaceship, the spaceship should explode!
+Wenn ein Nilpferd Ihr Raumschiff berührt, sollte das Raumschiff explodieren!
 
 \--- task \---
 
-Select the `Spaceship` sprite and rename its costume 'normal'.
+Wählen Sie das Sprite `Spaceship` und benennen Sie das Kostüm in "normal" um.
 
 \--- /task \---
 
 \--- task \---
 
-Draw another costume of an exploding spaceship, and call the new costume 'hit'.
+Zeichnen Sie ein weiteres Kostüm eines explodierenden Raumschiffs und nennen Sie das neue Kostüm "Hit".
 
 ![Screenshot](images/invaders-spaceship-costumes.png)
 
-If you don't want to draw the explosion, you can select the 'Sun' costume from the Scratch library, and then use the **Color a shape** tool to change the costume's colour and face.
+Wenn Sie die Explosion nicht zeichnen möchten, können Sie das Kostüm 'Sonne' aus der Scratch-Bibliothek auswählen und dann mit dem Werkzeug **Farbe eine Form** die Farbe und das Gesicht des Kostüms ändern.
 
 ![Screenshot](images/invaders-sun.png)
 
@@ -22,21 +22,21 @@ If you don't want to draw the explosion, you can select the 'Sun' costume from t
 
 \--- task \---
 
-Add some code to your `Spaceship` sprite so that it displays the 'normal' costume when the game starts, and switches to the 'hit' costume when it touches a hippo:
+Fügen Sie Ihrem `Spaceship` Sprite Code hinzu, sodass es zu Beginn des Spiels das „normale“ Kostüm anzeigt und zum „Hit“ -Kostüm wechselt, wenn es ein Nilpferd berührt:
 
-![rocket sprite](images/rocket-sprite.png)
+![Raketen-Sprite](images/rocket-sprite.png)
 
 ```blocks3
-when flag clicked
-switch costume to (normal v)
-wait until <touching (Hippo1 v)>?
-switch costume to (hit v)
+wenn Flagge geklickt
+Kostüm wechseln zu (normal v)
+warten bis <touching (Hippo1 v)>?
+Kostüm wechseln zu (Hit V)
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Test your code. Make the spaceship collide with a hippo. Does the spaceship change to the 'hit' costume?
+Testen Sie Ihren Code. Lass das Raumschiff mit einem Nilpferd kollidieren. Ändert sich das Raumschiff zum "Hit" -Kostüm?
 
 \--- /task \---
