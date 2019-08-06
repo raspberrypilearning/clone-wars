@@ -73,6 +73,6 @@ Se intendete stampare questo progetto, cliccate su [Versione stampabile](https:/
 
 \--- /no-print \---
 
-You can find the [completed project here](http://rpf.io/p/en/clone-wars-get).
+Puoi trovare il [progetto completo qui](http://rpf.io/p/en/clone-wars-get){: target="_blank.
 
 \--- /collapse \---
