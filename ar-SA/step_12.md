@@ -4,7 +4,7 @@ Have a go at our [Create your own world](https://projects.raspberrypi.org/en/pro
 
 \--- no-print \---
 
-Click the green flag to start. Use the arrow keys to move your character around in the world.
+انقر على العلم الأخضر للبدء. استخدم مفاتيح الأسهم لتحريك شخصيتك في أنحاء العالم.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/258757783/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -15,6 +15,6 @@ Click the green flag to start. Use the arrow keys to move your character around 
 
 \--- print-only \---
 
-You'll use the arrow keys to move your character around in the world. ![showcase.png](images/create-showcase.png)
+سوف تستخدم مفاتيح الأسهم لتحريك شخصيتك في أنحاء العالم. ![showcase.png](images/create-showcase.png)
 
 \--- /print-only \---
