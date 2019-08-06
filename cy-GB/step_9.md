@@ -17,11 +17,11 @@ Gwna i'r corlun `Ystlum` i `symud`{:class="block3motion"} o'r chwith i'r dde ar 
 ![corlun ystlum](images/bat-sprite.png)
 
 ```blocks3
-when flag clicked
-set size to (50) %
-forever
-    move (10) steps
-    if on edge, bounce
+pan fo'r flag werdd yn cael ei glicio
+gosod maint i (50) %
+am byth 
+  symud (10) cam
+  os ar ymyl, bowndio
 end
 ```
 
@@ -50,9 +50,9 @@ Ar ôl i'r ystlum symud, fe ddylai ddangos `gwisg newydd`{:class="block3looks"} 
 Mae angen ychwanegu'r blociau yma i dy gôd:
 
 ```blocks3
-wait (0.3) seconds
+aros (0.3) eiliad
 
-next costume
+gwisg nesaf
 ```
 
 \--- /hint \---
@@ -60,14 +60,14 @@ next costume
 \--- hint \--- Fe ddylai dy gôd edrych fel hyn:
 
 ```blocks3
-when flag clicked
-set size to (50) %
-forever
-move (10) steps
-if on edge, bounce
+pan fo'r flag werdd yn cael ei glicio
+gosod maint i (50) %
+am byth 
+  symud (10) cam
+  os ar ymyl, bowndio
 
-+ next costume
-+ wait (0.3) seconds
+  + gwisg nesaf
+  + aros (0.3) eiliad
 end
 ```
 
@@ -94,10 +94,10 @@ Ychwanega gôd fel `pan fo'r faner wedi ei glicio`{:class="block3events"}, bydd 
 ![corlun ystlum](images/bat-sprite.png)
 
 ```blocks3
-when flag clicked
-forever
-    wait (pick random (5) to (10)) secs
-    create clone of (Orange v)
+pan fo'r flag werdd yn cael ei glicio
+am byth 
+  aros (dewis ar hap (5) i (10)) eiliad
+  creu clôn o (Orange v)
 end
 ```
 
@@ -110,16 +110,16 @@ Ychwanega gôd i'r `Oren` i wneud i bob clôn ollwng, yn cychwyn gyda'r `Ystlum`
 ![corlun oren](images/orange-sprite.png)
 
 ```blocks3
-    when flag clicked
-    hide
+    pan fo'r flag werdd yn cael ei glicio
+cuddio
 
-    when I start as a clone
-    go to (Bat v)
-    show
-    repeat until <touching (edge v)?
-        change y by (-4)
-    end
-    delete this clone
+pan rwy'n dechrau fel clôn
+mynd i (Bat v)
+dangos
+ailadrodd hyd at <cyffwrdd (edge v) ?> 
+  newid y gan (-4)
+end
+dileu y clôn hwn
 ```
 
 \--- /task \---
@@ -131,8 +131,8 @@ Ychwanega mwy o gôd i'r corlun `Oren` fel pan fo'r clôn `Oren` yn taro'r `Llon
 ![corlun oren](images/orange-sprite.png)
 
 ```blocks3
-    when I receive [hit v]
-    delete this clone
+    pan rwy'n derbyn [ffrwydro v]
+dileu y clôn hwn
 ```
 
 \--- /task \---
@@ -144,7 +144,7 @@ Addasa gôd y `Llong ofod` fel pan fo'r corlun yn cael ei "daro" mae'n cyffwrdd 
 ![corlun roced](images/rocket-sprite.png)
 
 ```blocks3
-    wait until < <touching (Hippo1 v)?> or <touching (Orange v)?>>
+    aros hyd at <<cyffwrdd (Hippo1 v) ?> neu <cyffwrdd (Orange v) ?>>
 ```
 
 \--- /task \---
