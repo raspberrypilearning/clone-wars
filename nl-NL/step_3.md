@@ -12,7 +12,7 @@ Voeg de `Lightning ` sprite toe uit de Scratch-bibliotheek.
 
 \--- task \---
 
-Wanneer het spel begint, moeten de `Lightning` sprites verborgen worden totdat het spaceship zijn laser kanon afschiet.
+Wanneer het spel begint, moeten de `Lightning` sprites verborgen worden totdat het ruimteschip zijn laser kanon afschiet.
 
 Voeg deze code toe aan de `Lightning` sprite:
 
@@ -97,7 +97,7 @@ end
 
 \--- task \---
 
-Wanneer het spel een `lightning` sprite kloont, moet de kloon verschijnen en vervolgens naar boven gaan totdat het de bovenkant van het speelveld bereikt. Dan moet de kloon verdwijnen.
+Wanneer het spel een `Lightning` sprite kloont, moet de kloon verschijnen en vervolgens naar boven gaan totdat het de bovenkant van het speelveld bereikt. Dan moet de kloon verdwijnen.
 
 Voeg deze code toe aan de `Lightning` sprite zodat klonen ervan naar boven bewegen totdat ze de rand van het speelveld raken, en vervolgens verwijderd worden.
 
