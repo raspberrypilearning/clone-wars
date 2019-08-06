@@ -27,10 +27,10 @@ Ychwanega’r côd yma i dy `long ofod` fel ei fod yn arddangos gwisg 'normal' p
 ![corlun roced](images/rocket-sprite.png)
 
 ```blocks3
-when flag clicked
-switch costume to (normal v)
-wait until <touching (Hippo1 v)>?
-switch costume to (hit v)
+pan fo'r flag werdd yn cael ei glicio
+newid gwisg i (normal v)
+aros hyd at <cyffwrdd (Hippo1 v) ?>
+newid gwisg i (ffrwydro v)
 ```
 
 \--- /task \---
