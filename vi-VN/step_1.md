@@ -1,16 +1,16 @@
-\--- no-print \---
+\--- không in \---
 
-This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/clone-wars-scratch2).
+Đây là phiên bản **Scratch 3** của dự án. Ngoài ra còn có một [phiên bản Scratch 2 của dự án](https://projects.raspberrypi.org/en/projects/clone-wars-scratch2).
 
-\--- /no-print \---
+\--- / không in \---
 
-## Introduction
+## Giới thiệu
 
 In this project you will learn how to create a game in which you have to save the Earth from space monsters.
 
-### What you will make
+### Những gì bạn sẽ làm
 
-\--- no-print \---
+\--- không in \---
 
 Click the green flag in the example game below to start, and then press the <kbd>left</kbd> and <kbd>right</kbd> arrow keys to move the spaceship, and the <kbd>space</kbd> key to shoot.
 
@@ -19,7 +19,7 @@ Click the green flag in the example game below to start, and then press the <kbd
   <img src="images/showcase.png">
 </div>
 
-\--- /no-print \---
+\--- / không in \---
 
 Score as many points as you can by shooting flying space-hippos. If you get hit by a hippo or by an orange dropped by the bats, you lose a life.
 
@@ -29,19 +29,19 @@ Score as many points as you can by shooting flying space-hippos. If you get hit 
 
 \--- /print-only \---
 
-\--- collapse \---
+\--- sụp đổ \---
 
 * * *
 
-## title: What you will need
+## tiêu đề: Những gì bạn sẽ cần
 
-### Hardware
+### Phần cứng
 
-+ A computer capable of running Scratch 3
++ Một máy tính có khả năng chạy Scratch 3
 
-### Software
+### Phần mềm
 
-+ Scratch 3 (either [online](https://rpf.io/scratchon){:target="_blank"} or [offline](https://rpf.io/scratchoff){:target="_blank"})
++ Cào 3 ( [trực tuyến](https://rpf.io/scratchon){: target = "_ blank"} hoặc [ngoại tuyến](https://rpf.io/scratchoff){: target = "_ blank"})
 
 ### Downloads
 
@@ -49,11 +49,11 @@ Score as many points as you can by shooting flying space-hippos. If you get hit 
 
 \--- /collapse \---
 
-\--- collapse \---
+\--- sụp đổ \---
 
 * * *
 
-## title: What you will learn
+## tiêu đề: bạn sẽ học được gì
 
 + How to make sprites move using keyboard input
 + How to clone sprites to make copies of them
@@ -61,18 +61,18 @@ Score as many points as you can by shooting flying space-hippos. If you get hit 
 
 \--- /collapse \---
 
-\--- collapse \---
+\--- sụp đổ \---
 
 * * *
 
-## title: Additional notes for educators
+## tiêu đề: Ghi chú bổ sung cho các nhà giáo dục
 
-\--- no-print \---
+\--- không in \---
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/clone-wars/print){:target="_blank"}.
+Nếu bạn cần in dự án này, vui lòng sử dụng [bản in](https://projects.raspberrypi.org/en/projects/clone-wars/print){:target="_ blank"}.
 
-\--- /no-print \---
+\--- / không in \---
 
-[If you need the solution to this project, you can find it here](http://rpf.io/p/en/clone-wars-get).
+You can find the [completed project here](http://rpf.io/p/en/clone-wars-get).
 
 \--- /collapse \---
