@@ -73,6 +73,6 @@
 
 \--- /無印刷\---
 
-[如果您需要此項目的解決方案，可以在此處找到它](http://rpf.io/p/en/clone-wars-get)。
+You can find the [completed project here](http://rpf.io/p/en/clone-wars-get).
 
 - - /坍方 - -
