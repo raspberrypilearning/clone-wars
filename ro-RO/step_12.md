@@ -1,10 +1,10 @@
-## What next?
+## Ce urmează?
 
-Have a go at our [Create your own world](https://projects.raspberrypi.org/en/projects/create-your-own-world?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) project, where you’ll create your own adventure game!
+Încearcă proiectul [Creează-ți propria lume](https://projects.raspberrypi.org/en/projects/create-your-own-world?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects), unde îți vei crea propriul joc de aventură!
 
 \--- no-print \---
 
-Click the green flag to start. Use the arrow keys to move your character around in the world.
+Dă click pe steagul verde pentru a începe. Folosește săgețile pentru a muta personajul tău în jurul lumii.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/258757783/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -15,6 +15,6 @@ Click the green flag to start. Use the arrow keys to move your character around 
 
 \--- print-only \---
 
-You'll use the arrow keys to move your character around in the world. ![showcase.png](images/create-showcase.png)
+Vei folosi săgețile pentru a muta personajul tău în aceasta lume. ![showcase.png](images/create-showcase.png)
 
 \--- /print-only \---
