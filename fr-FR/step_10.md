@@ -25,16 +25,16 @@ Sur la scène, diffuser un message ` game over ` {: class = "blockevents"} juste
 ![lutin de gameover](images/stage-sprite.png)
 
 ```blocks3
-broadcast (game over v) and wait
+diffuser (game over v) et attendre
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Add this code to your `Game Over` sprite so that it shows at the end of the game:
+Ajoutez ce code à votre `Game Over` sprite pour qu’il apparaisse à la fin du jeu:
 
-![gameover sprite](images/gameover-sprite.png)
+![lutin de gameover](images/gameover-sprite.png)
 
 ```blocks3
 quand le drapeau cliqué
@@ -44,12 +44,12 @@ quand je reçois [game over v]
 montrer
 ```
 
-Because you've used a `broadcast (game over) and wait`{:class="block3events"} block on your Stage, the Stage will wait for the `Game Over` sprite to be displayed before ending the game.
+Comme vous avez utilisé une diffusion `(partie terminée) et attendu`bloc {: class = "block3events"} sur votre scène, la scène attend que l’image-objet `Game Over` s’affiche avant de terminer la partie.
 
 \--- /task \---
 
 \--- task \---
 
-Test your game. How many points can you score? If the game is too easy or too hard, can you think of ways to improve it?
+Testez votre jeu. Combien de points pouvez-vous marquer? Si le jeu est trop facile ou trop difficile, pouvez-vous penser à des moyens de l’améliorer?
 
 \--- /task \---
