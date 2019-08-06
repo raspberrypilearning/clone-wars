@@ -8,7 +8,7 @@ This is the **Scratch 3** version of the project. There is also a [Scratch 2 ver
 
 In this project you will learn how to create a game in which you have to save the Earth from space monsters.
 
-### What you will make
+### Ce que vous ferez
 
 \--- no-print \---
 
@@ -29,17 +29,17 @@ Score as many points as you can by shooting flying space-hippos. If you get hit 
 
 \--- /print-only \---
 
-\--- collapse \---
+Effondrement
 
 * * *
 
 ## title: What you will need
 
-### Hardware
+### Matériel
 
 + A computer capable of running Scratch 3
 
-### Software
+### Logiciel
 
 + Scratch 3 (either [online](https://rpf.io/scratchon){:target="_blank"} or [offline](https://rpf.io/scratchoff){:target="_blank"})
 
@@ -49,7 +49,7 @@ Score as many points as you can by shooting flying space-hippos. If you get hit 
 
 \--- /collapse \---
 
-\--- collapse \---
+Effondrement
 
 * * *
 
@@ -61,7 +61,7 @@ Score as many points as you can by shooting flying space-hippos. If you get hit 
 
 \--- /collapse \---
 
-\--- collapse \---
+Effondrement
 
 * * *
 
