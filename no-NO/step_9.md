@@ -31,7 +31,7 @@ Remember to test your code.
 
 If you look at the bat's costumes, you can see that it has four different ones:
 
-![screenshot](images/invaders-bat-costume.png)
+![skjermbilde](images/invaders-bat-costume.png)
 
 \--- task \---
 
@@ -39,13 +39,13 @@ Use the `next costume`{:class="block3looks"} block to make the bat flap its wing
 
 \--- hints \---
 
-\--- hint \---
+DO NOT TRANSLATE
 
 After the bat has moved, it should show the `next costume`{:class="block3looks"} and then `wait`{:class="block3control"} for a short time.
 
 \--- /hint \---
 
-\--- hint \---
+DO NOT TRANSLATE
 
 You need to add these blocks to you code:
 
@@ -83,7 +83,7 @@ Now make the bat throw oranges!
 
 Add an `Orange` sprite from the Scratch library.
 
-![screenshot](images/invaders-orange.png)
+![skjermbilde](images/invaders-orange.png)
 
 \--- /task \---
 
