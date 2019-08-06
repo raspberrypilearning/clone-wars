@@ -56,7 +56,7 @@ Add some new code to the `Spaceship` sprite to create a new clone of the lightni
 
 \--- hint \---
 
-Here are the blocks you need:
+Aqui estão os blocos de que necessitas:
 
 ```blocks3
 if <> then
