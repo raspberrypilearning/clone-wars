@@ -33,7 +33,7 @@ Scoor zoveel mogelijk punten door op de vliegende ruimte-nijlpaarden te schieten
 
 * * *
 
-## title: What you will need
+## title: Wat heb je nodig
 
 ### Hardware
 
@@ -41,7 +41,7 @@ Scoor zoveel mogelijk punten door op de vliegende ruimte-nijlpaarden te schieten
 
 ### Software
 
-+ Scratch 3 (of [online](https://rpf.io/scratchon){:target="_blank"} of [offline](https://rpf.io/scratchoff){:Target="_blank"})
++ Scratch 3 (of [online](https://rpf.io/scratchon){:target="_blank"} of [offline](https://rpf.io/scratchoff){:target="_blank"})
 
 ### Downloads
 
@@ -55,7 +55,7 @@ Je kunt [de downloads hier vinden](http://rpf.io/p/en/clone-wars-go).
 
 ## title: Wat ga je leren
 
-+ Hoe laat je sprites bewegen met gebruik van het toetsenbord
++ Hoe laat je sprites bewegen met behulp van het toetsenbord
 + Hoe maak je een kopie van een sprite door te klonen
 + Hoe gebruik je 'zend' en 'ontvang signaal blokken' om berichten te verzenden
 
@@ -69,10 +69,10 @@ Je kunt [de downloads hier vinden](http://rpf.io/p/en/clone-wars-go).
 
 \--- no-print \---
 
-Als je dit project wilt afdrukken, gebruik dan de [ printvriendelijke versie ](https://projects.raspberrypi.org/en/projects/clone-wars/print) {:target="_ blank"}.
+Als je dit project wilt afdrukken, gebruik dan de [printvriendelijke versie](https://projects.raspberrypi.org/en/projects/clone-wars/print) {:target="_ blank"}.
 
 \--- /no-print \---
 
-[Als je de oplossing voor dit project nodig hebt, kunt je het hier vinden](http://rpf.io/p/en/clone-wars-get).
+You can find the [completed project here](http://rpf.io/p/en/clone-wars-get).
 
 \--- /collapse \---
