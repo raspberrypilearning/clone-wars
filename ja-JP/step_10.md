@@ -1,12 +1,12 @@
 ## Game Over!（ゲーム終了）
 
-Next, you're going to add a 'game over' message at the end of the game.
+次に、ゲーム終了時に「ゲームオーバー」メッセージを追加します。
 
 \--- task \---
 
-If you haven't already, create a new variable called `lives`{:class="block3variables"}.
+まだ行っていない場合は、 `lives`{：class = "block3variables"}という新しい変数を作成します。
 
-Your spaceship should start with three lives and lose a life whenever it touches a hippo or an orange. Your game should stop when the `lives`{:class="block3variables"} run out.
+あなたの宇宙船は3つの命から始まり、それがカバやオレンジに触れるたびに命を落とすはずです。 `寿命が`{ </code> ：class = "block3variables"}になると、ゲームは停止します。
 
 \--- /task \---
 
@@ -20,36 +20,34 @@ Your spaceship should start with three lives and lose a life whenever it touches
 
 \--- task \---
 
-On the Stage, broadcast a `game over`{:class="block3events"} message just before the game ends.
+ステージ上で、ゲームが終了する直前に</code>{ `}を超える<code>ゲームをブロードキャスト{：class = "block3events"}してください。</p>
 
-![gameover sprite](images/stage-sprite.png)
+<p><img src="images/stage-sprite.png" alt="ゲームオーバースプライト" /></p>
 
-```blocks3
-broadcast (game over v) and wait
-```
+<pre><code class="blocks3">ブロードキャスト（vでゲーム）して待つ
+`</pre> 
 
 \--- /task \---
 
 \--- task \---
 
-Add this code to your `Game Over` sprite so that it shows at the end of the game:
+ゲーム終了時に表示されるように、このコードを `Game Over` スプライトに追加します`</p>
 
-![gameover sprite](images/gameover-sprite.png)
+<p><img src="images/gameover-sprite.png" alt="ゲームオーバースプライト" /></p>
 
-```blocks3
-⚑ がクリックされたとき
+<pre><code class="blocks3">⚑ がクリックされたとき
 隠す
 
 [ゲームオーバー v] を受け取ったとき
 表示する
-```
+`</pre> 
 
-Because you've used a `broadcast (game over) and wait`{:class="block3events"} block on your Stage, the Stage will wait for the `Game Over` sprite to be displayed before ending the game.
+`ブロードキャスト（ゲームオーバー）を使用し、ステージで`{：class = "block3events"}ブロック待機しているため、ステージはゲーム終了前に `Game Over` スプライトが表示されるのを待ちます。
 
 \--- /task \---
 
 \--- task \---
 
-Test your game. How many points can you score? If the game is too easy or too hard, can you think of ways to improve it?
+ゲームをテストしてください。何ポイント獲得できますか？ゲームが簡単すぎる、または難しすぎる場合、あなたはそれを改善する方法を考えることができますか？
 
 \--- /task \---
