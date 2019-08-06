@@ -5,11 +5,11 @@ listed: true
 copyedit: true
 title: Clone wars
 description: Create a game in which you have to save the Earth from space monsters
-version: 4.1.0
+version: 3
 last_tested: 2018-10-11
 steps:
   - 
-    title: Introduction
+    title: Introdução
   - 
     title: Make a spaceship
   - 
@@ -31,7 +31,7 @@ steps:
   - 
     title: Game over
   - 
-    title: 'Challenge: improve your game'
+    title: 'Desafio: Melhorar o teu jogo'
     challenge: true
   - 
-    title: What next?
+    title: O que se segue?
