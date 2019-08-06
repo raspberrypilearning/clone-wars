@@ -1,77 +1,77 @@
-## Make a spaceship
+## Creează o navă spațială
 
-First make a spaceship that can defend the Earth!
+Mai întâi creează o navă spațială care să poată apăra Pământul!
 
 \--- task \---
 
-Open the 'Clone wars' Scratch starter project.
+Deschide proiectul Scratch de început „Războiul clonelor”.
 
-**Online:** open the starter project at [rpf.io/clone-wars-on](http://rpf.io/clone-wars-on){:target="_blank"}.
+**Online:** deschide proiectul de început la [rpf.io/clone-wars-on](http://rpf.io/clone-wars-on){:target="_blank"}.
 
-If you have a Scratch account you can make a copy by clicking **Remix**.
+Dacă ai un cont Scratch, poți să creezi o copie dând click pe **Remix**.
 
-**Offline:** download the starter project from [rpf.io/p/en/clone-wars-go](http://rpf.io/p/en/clone-wars-go), and then open it using the offline editor.
+**Offline:** descarcă proiectul de început de la [rpf.io/p/en/clone-wars-go](http://rpf.io/p/en/clone-wars-go){:target="_blank"}, iar apoi deschide-l folosind editorul offline.
 
-If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
+Dacă trebuie să descarci și să instalezi editorul Scratch offline, îl poți găsi la [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
 
 \--- /task \---
 
-![starter project](images/starter-project.png)
+![proiect de început](images/starter-project.png)
 
 \--- task \---
 
-Add this code to the spaceship sprite to make the spaceship move left if the <kbd>left</kbd> arrow is pressed:
+Adaugă acest cod la personajul navei spațiale pentru a face ca nava spațială să se deplaseze la stânga dacă tasta <kbd>stânga</kbd> este apăsată:
 
-![rocket sprite](images/rocket-sprite.png)
+![personaj rachetă](images/rocket-sprite.png)
 
 ```blocks3
-    when flag clicked
-    forever
-        if <key (left arrow v) pressed?> then
-            change x by (-4)
+    când se dă click pe stegulețul verde
+    la infinit
+        dacă <tasta (săgeată stânga v) apăsată?>  atunci 
+            modifică x cu (-4)
         end
     end
 ```
 
-The x-axis goes from the left side of the Stage to the right side. This means that the spaceship moves to the left when you subtract from the value of the spaceship sprite's `x` position. So this code block is the part that makes your spaceship move left:
+Axa x începe din partea stângă a scenei și continuă spre partea dreaptă. Asta înseamnă că nava spațială se deplasează la stânga atunci când vei scadea din valoarea `x` a personajului navei spațiale. Deci, acest cod este partea care face ca nava ta spațială să se deplaseze la stânga:
 
 ```blocks3
-change x by (-4)
+modifică x cu (-4)
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Add some more code inside the `forever`{:class="block3control"} block to make your spaceship move to the right if the <kbd>right</kbd> arrow key is pressed.
+Adaugă mai mult cod in blocul `forever`{:class="block3control"} pentru a face ca nava ta spațială să se deplaseze la dreapta dacă tasta <kbd>dreapta</kbd> este apăsată.
 
 \--- hints \---
 
 \--- hint \---
 
-Subtracting `4` from the spaceship's `x` position made it move left, so how could you make the spaceship move right by `4` instead?
+Scăzând `4` din poziția `x` a navei spațiale a făcut-o să se deplaseze la stânga, deci cum poți face ca nava spațială să se deplaseze spre dreapta folosind `4`?
 
 \--- /hint \---
 
 \--- hint \---
 
-You need the same code block, but with a different number:
+Ai nevoie de același cod, dar cu un număr diferit:
 
 ```blocks3
-change x by ( )
+modifică x cu ( )
 ```
 
 \--- /hint \---
 
 \--- hint \---
 
-Here is the code you need to add below the other code inside the `forever`{:class="block3control"} block:
+Iată codul pe care trebuie să îl adaugi sub celălalt cod în interiorul blocului `la infinit`{:class="block3control"}:
 
-![rocket sprite](images/rocket-sprite.png)
+![personaj rachetă](images/rocket-sprite.png)
 
 ```blocks3
-if <key (right arrow v) pressed?> then
-    change x by (4)
+dacă <tasta (săgeată dreapta v) apăsată> atunci 
+    modifică x cu (4)
 end
 ```
 
@@ -83,6 +83,6 @@ end
 
 \--- task \---
 
-Test your project by clicking the green flag. Can you press the arrow keys to make your spaceship move left and right?
+Testează-ți proiectul dând click pe steagul verde. Poți apăsa săgețile pentru a face nava spațială să se deplaseze la stânga și la dreapta?
 
 \--- /task \---
