@@ -14,7 +14,7 @@ Your spaceship should start with three lives and lose a life whenever it touches
 
 Draw a new sprite called `Game Over` using the **text** tool.
 
-![screenshot](images/invaders-game-over.png)
+![ảnh chụp màn hình](images/invaders-game-over.png)
 
 \--- /task \---
 
@@ -52,4 +52,4 @@ Because you've used a `broadcast (game over) and wait`{:class="block3events"} bl
 
 Test your game. How many points can you score? If the game is too easy or too hard, can you think of ways to improve it?
 
-\--- /task \---
+\--- /bài tập \---
