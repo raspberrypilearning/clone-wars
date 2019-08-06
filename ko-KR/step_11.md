@@ -15,5 +15,5 @@
 + 점수가 `100`이되면 더 많은 적을 표시하십시오. </code> .
 
 ```blocks3
-    wait until <(score :: variables) = [100]>
+    <(score :: variables) = [100]> 까지 기다리기
 ```
