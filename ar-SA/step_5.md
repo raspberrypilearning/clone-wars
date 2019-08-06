@@ -66,7 +66,7 @@ wait () secs
 
 و هذا ما يجب أن تبدو عليه التعليمات البرمجية الخاصة بك:
 
-![stage sprite](images/stage-sprite.png)
+![كائن مسرح العمل](images/stage-sprite.png)
 
 ```blocks3
 when flag clicked
