@@ -1,20 +1,20 @@
 ## Fin du jeu
 
-When a hippo touches your spaceship, the spaceship should explode!
+Quand un hippopotame touche votre vaisseau spatial, le vaisseau spatial devrait exploser!
 
 \--- task \---
 
-Select the `Spaceship` sprite and rename its costume 'normal'.
+Sélectionnez le sprite `Spaceship` et renommez son costume 'normal'.
 
 \--- /task \---
 
 \--- task \---
 
-Draw another costume of an exploding spaceship, and call the new costume 'hit'.
+Dessinez un autre costume de vaisseau spatial en explosion et appelez le nouveau costume «hit».
 
 ![capture d'écran](images/invaders-spaceship-costumes.png)
 
-If you don't want to draw the explosion, you can select the 'Sun' costume from the Scratch library, and then use the **Color a shape** tool to change the costume's colour and face.
+Si vous ne voulez pas dessiner l'explosion, vous pouvez sélectionner le costume 'Soleil' dans la bibliothèque Scratch, puis utiliser l'outil **Couleur** forme </strong> pour changer la couleur et le visage du costume.
 
 ![capture d'écran](images/invaders-sun.png)
 
@@ -22,21 +22,21 @@ If you don't want to draw the explosion, you can select the 'Sun' costume from t
 
 \--- task \---
 
-Add some code to your `Spaceship` sprite so that it displays the 'normal' costume when the game starts, and switches to the 'hit' costume when it touches a hippo:
+Ajoutez du code à votre sprite `Spaceship` pour qu'il affiche le costume "normal" au début du jeu et qu'il passe au costume "hit" lorsqu'il touche un hippopotame:
 
 ![lutin de roquette](images/rocket-sprite.png)
 
 ```blocks3
-when flag clicked
-switch costume to (normal v)
-wait until <touching (Hippo1 v)>?
-switch costume to (hit v)
+lorsque le drapeau a cliqué sur
+passez de costume à (normal v)
+attendez jusqu'à <touching (Hippo1 v)>?
+costume de commutation à (hit v)
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Test your code. Make the spaceship collide with a hippo. Does the spaceship change to the 'hit' costume?
+Testez votre code. Faites en sorte que le vaisseau spatial entre en collision avec un hippopotame. Est-ce que le vaisseau spatial change en costume de hit?
 
 \--- /task \---
