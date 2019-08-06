@@ -73,6 +73,6 @@
 
 \--- /no-print \---
 
-[이 프로젝트의 솔루션이 필요한 경우 여기에서 찾을 수 있습니다](http://rpf.io/p/en/clone-wars-get).
+You can find the [completed project here](http://rpf.io/p/en/clone-wars-get).
 
 \--- /collapse \---
