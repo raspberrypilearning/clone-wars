@@ -29,7 +29,7 @@ Ne zaboravite testirati svoj kôd.
 
 \--- /task \---
 
-If you look at the bat's costumes, you can see that it has four different ones:
+Ako pogledate kostime šišmiša, možete vidjeti da ima četiri različita:
 
 ![screenshot](images/invaders-bat-costume.png)
 
@@ -47,28 +47,27 @@ After the bat has moved, it should show the `next costume`{:class="block3looks"}
 
 \--- hint \---
 
-You need to add these blocks to you code:
+Ove blokove morate dodati u kod:
 
 ```blocks3
-wait (0.3) seconds
-
-next costume
+čekaj (0.3) sekundi
+slijedeći kostim
 ```
 
 \--- /pomoć \---
 
-\--- hint \--- You code should look like this:
+\--- hint \--- Vaš kôd treba izgledati ovako:
 
 ```blocks3
-when flag clicked
-set size to (50) %
-forever
-move (10) steps
-if on edge, bounce
+kada je kliknuta zelena zastava
+postavi veličinu na (50) %
+ponavljaj
+idi (10) koraka
+ako si na rubu, okreni se
 
-+ next costume
-+ wait (0.3) seconds
-end
++ slijedeći kostim
++ čekaj (0.3) sekundi
+kraj
 ```
 
 \--- /pomoć \---
@@ -77,11 +76,11 @@ end
 
 \--- /task \---
 
-Now make the bat throw oranges!
+Napravite da šišmiš baca naranče!
 
 \--- task \---
 
-Add an `Orange` sprite from the Scratch library.
+Dodajte lik `Naranča` iz Scratch knjižnice.
 
 ![screenshot](images/invaders-orange.png)
 
@@ -94,11 +93,11 @@ Add code to your bat so that `when the flag is clicked`{:class="block3events"}, 
 ![bat sprite](images/bat-sprite.png)
 
 ```blocks3
-when flag clicked
-forever
-    wait (pick random (5) to (10)) secs
-    create clone of (Orange v)
-end
+kada je kliknuta zelena zastava
+ponavljaj
+    čekaj (slučajan broj od (5) do (10)) sekundi
+    kloniraj (Naranča v)
+kraj
 ```
 
 \--- /task \---
