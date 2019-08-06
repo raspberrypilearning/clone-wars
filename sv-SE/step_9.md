@@ -4,13 +4,13 @@ To make your game a bit harder, you are going to create a bat that throws orange
 
 ![a bat throwing an orange at the spaceship](images/bat-oranges.png)
 
-\--- task \---
+\--- uppgift \---
 
 Add a `Bat` sprite and set its rotation style to **left–right**.
 
 \--- /task \---
 
-\--- task \---
+\--- uppgift \---
 
 Make the `Bat` sprite `move`{:class="block3motion"} from left to right at the top of the Stage `forever`{:class="block3control"}.
 
@@ -31,9 +31,9 @@ Remember to test your code.
 
 If you look at the bat's costumes, you can see that it has four different ones:
 
-![screenshot](images/invaders-bat-costume.png)
+![skärmdump](images/invaders-bat-costume.png)
 
-\--- task \---
+\--- uppgift \---
 
 Use the `next costume`{:class="block3looks"} block to make the bat flap its wings as it moves.
 
@@ -79,15 +79,15 @@ end
 
 Now make the bat throw oranges!
 
-\--- task \---
+\--- uppgift \---
 
 Add an `Orange` sprite from the Scratch library.
 
-![screenshot](images/invaders-orange.png)
+![skärmdump](images/invaders-orange.png)
 
 \--- /task \---
 
-\--- task \---
+\--- uppgift \---
 
 Add code to your bat so that `when the flag is clicked`{:class="block3events"}, the `Bat` sprite `forever`{:class="block3control"} `waits`{:class="block3control"} for a `random`{:class="block3operators"} length of time between `5 to 10`{:class="block3operators"} seconds and then `creates a clone`{:class="block3control"} of the `Orange` sprite.
 
@@ -103,7 +103,7 @@ end
 
 \--- /task \---
 
-\--- task \---
+\--- uppgift \---
 
 Add code to the `Orange` to make each of its clone drop, starting from the `Bat` sprite and falling towards the bottom of the Stage.
 
@@ -124,7 +124,7 @@ Add code to the `Orange` to make each of its clone drop, starting from the `Bat`
 
 \--- /task \---
 
-\--- task \---
+\--- uppgift \---
 
 Add some more code to the `Orange` sprite so that when an `Orange` clone hits the `Spaceship` sprite, the clone also disappears to give the player a chance to reset:
 
