@@ -1,18 +1,18 @@
-## Game over
+## Wedstrijd voorbij
 
-Next, you're going to add a 'game over' message at the end of the game.
+Vervolgens ga je een 'game over' bericht toevoegen aan het einde van het spel.
 
 \--- task \---
 
-If you haven't already, create a new variable called `lives`{:class="block3variables"}.
+Maak, als je dat nog niet gedaan hebt, een nieuwe variabele met de naam `levens`{:class="block3variables"}.
 
-Your spaceship should start with three lives and lose a life whenever it touches a hippo or an orange. Your game should stop when the `lives`{:class="block3variables"} run out.
+Je ruimteschip moet met drie levens beginnen en een leven verliezen wanneer het een nijlpaard of sinaasappel raakt. Je spel moet stoppen wanneer de `levens`{:class="block3variables"} op zijn.
 
 \--- /task \---
 
 \--- task \---
 
-Teken een nieuwe sprite genaamd ` Game Over ` met behulp van de ** tekst ** tool.
+Teken een nieuwe sprite genaamd `Wedstrijd voorbij` met behulp van de **tekst** tool.
 
 ![screenshot](images/invaders-game-over.png)
 
@@ -20,19 +20,19 @@ Teken een nieuwe sprite genaamd ` Game Over ` met behulp van de ** tekst ** tool
 
 \--- task \---
 
-On the Stage, broadcast a `game over`{:class="block3events"} message just before the game ends.
+Maak in het speelveld een `game over`{: class="block3events"} bericht vlak voordat het spel eindigt.
 
 ![gameover sprite](images/stage-sprite.png)
 
 ```blocks3
-broadcast (game over v) and wait
+zend signaal (game over v) en wacht
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Add this code to your `Game Over` sprite so that it shows at the end of the game:
+Voeg deze code toe aan je `Wedstrijd voorbij` sprite, zodat het bericht aan het einde van het spel verschijnt:
 
 ![gameover sprite](images/gameover-sprite.png)
 
@@ -44,12 +44,12 @@ wanneer ik signaal [game over v] ontvang
 verschijn
 ```
 
-Because you've used a `broadcast (game over) and wait`{:class="block3events"} block on your Stage, the Stage will wait for the `Game Over` sprite to be displayed before ending the game.
+Omdat je een `zend signaal (game over) en een wacht`{:class="block3events"} blok in je speelveld hebt gebruikt, zal het speelveld wachten op de `Game Over` sprite voordat het spel wordt beëindigd.
 
 \--- /task \---
 
 \--- task \---
 
-Test your game. How many points can you score? If the game is too easy or too hard, can you think of ways to improve it?
+Test je spel. Hoeveel punten kun je scoren? Als het te gemakkelijk of te moeilijk is, kun je dan manieren bedenken om je spel te verbeteren?
 
 \--- /task \---
