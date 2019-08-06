@@ -31,7 +31,7 @@ Remember to test your code.
 
 If you look at the bat's costumes, you can see that it has four different ones:
 
-![screenshot](images/invaders-bat-costume.png)
+![ruutukaappaus](images/invaders-bat-costume.png)
 
 \--- task \---
 
@@ -83,7 +83,7 @@ Now make the bat throw oranges!
 
 Add an `Orange` sprite from the Scratch library.
 
-![screenshot](images/invaders-orange.png)
+![ruutukaappaus](images/invaders-orange.png)
 
 \--- /task \---
 
