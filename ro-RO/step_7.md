@@ -1,62 +1,62 @@
-## Hippos that disappear
+## Hipopotami care dispar
 
-When the spaceship explodes, all the hippos should disappear so that players of the game can recover.
+Când nava spațială explodează, toți hipopotamii ar trebui să dispară, astfel încât jucătorii jocului să se poată recupera.
 
 \--- task \---
 
-Add code to the spaceship sprite to make it `broadcast`{:class="block3events"} the message "hit" when the `spaceship touches a hippo`{:class="block3sensing"}.
+Adaugă cod custumului navei spațiale astfel încât să `difuzeze`{:class="block3events"} mesajul „lovit” când `nava spațială atinge un hipopotam`{:class="block3sensing"}.
 
-![rocket sprite](images/rocket-sprite.png)
+![personaj rachetă](images/rocket-sprite.png)
 
 ```blocks3
-when flag clicked
-switch costume to (normal v)
-wait until <touching (Hippo1 v)>?
-switch costume to (hit v)
+când se dă click pe stegulețul verde
+schimbă costumul la (normal v)
+așteaptă până când <atinge (Hippo1 v) ?>
+schimbă costumul la (lovit v)
 
-+ broadcast (hit v)
++ difuzează (lovit v)
 ```
 
 \--- /task \---
 
 \--- task \---
 
-All of the `Hippo` sprite clones will receive the "hit" message, and you can instruct them to disappear when the spaceship is hit by adding this code to the `Hippo` sprite:
+Toate clonele personajului `Hippo` vor primi mesajul „lovit” și le poți instrui să dispară atunci când nava spațială este lovită adăugând acest cod personajului `Hippo`:
 
-![hippo sprite](images/hippo-sprite.png)
+![personaj hipopotam](images/hippo-sprite.png)
 
 ```blocks3
-when I receive [hit v]
-delete this clone
+când primesc [lovit v]
+șterge această clonă
 ```
 
 \--- /task \---
 
 \--- task \---
 
-To check whether the new code works, click the green flag and make the spaceship collide with a hippo.
+Pentru a verifica dacă noul cod funcționează, dă click pe steagul verde și fă ca nava spațială să se ciocnească cu un hipopotam.
 
-![screenshot](images/invaders-hippo-collide.png)
+![captură de ecran](images/invaders-hippo-collide.png)
 
 \--- /task \---
 
-After the spaceship explodes, new `Hippo` clones appear, but the spaceship is still exploded! The spaceship needs to reset itself after being hit.
+După ce nava spațială explodează, noi clone `Hippo` apar, dar nava spațială este încă explodată! Nava spațială trebuie să se reseteze după ce a fost lovită.
 
 \--- task \---
 
-Add a `wait`{:class="block3control"} block at the end of the `Spaceship` sprite's code to create a small pause before hippos begin appearing again. Then add a `forever`{:class="block3control"} block around all of your code to make the code run repeatedly.
+Adaugă un bloc `așteaptă`{:class="block3control"} la sfârșitul codului personajului `Navă Spațială` pentru a crea o mică pauză înainte ca hipopotamii să înceapă să apară din nou. Apoi adaugă un bloc `la infinit`{:class="block3control"} în jurul întregului cod pentru a face codul să fie rulat în mod repetat.
 
-![rocket sprite](images/rocket-sprite.png)
+![personaj rachetă](images/rocket-sprite.png)
 
 ```blocks3
-when flag clicked
-forever
-switch costume to (normal v)
-wait until <touching (Hippo1 v)>?
-switch costume to (hit v)
-broadcast (hit v)
+când se dă click pe stegulețul verde
+la infinit 
+schimbă costumul la (normal v)
+așteaptă până când <atinge (Hippo1 v)>?
+schimbă costumul la (lovit v)
+difuzează (lovit v)
 
-+ wait (1) seconds
++ așteaptă (1) secunde
 end
 ```
 
