@@ -1,12 +1,12 @@
-## Space-bat
+## Svemirski šišmiši
 
-To make your game a bit harder, you are going to create a bat that throws oranges at the spaceship.
+Da biste malo otežali svoju igru, napraviti ćete šišmiša koji baca naranče na svemirski brod.
 
 ![a bat throwing an orange at the spaceship](images/bat-oranges.png)
 
 \--- task \---
 
-Add a `Bat` sprite and set its rotation style to **left–right**.
+Dodajte lik `Šišmiš` i postavite njegov stil rotacije na **lijevo-desno**.
 
 \--- /task \---
 
