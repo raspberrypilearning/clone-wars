@@ -1,10 +1,10 @@
 ## Flughunde!
 
-Now you're going to add lots of flying hippos that try to destroy your spaceship.
+Jetzt werden Sie viele fliegende Flusspferde hinzufügen, die versuchen, Ihr Raumschiff zu zerstören.
 
 \--- task \---
 
-Create a new sprite with the 'Hippo1' image in the Scratch library. Use the **shrink** tool to make the `Hippo` sprite a similar size to the `Spaceship` sprite.
+Erstellen Sie ein neues Sprite mit dem Bild "Hippo1" in der Scratch-Bibliothek. Verwenden Sie das Werkzeug **Shrink** , um das `Hippo` Sprite auf eine ähnliche Größe wie das `Spaceship` Sprite zu bringen.
 
 ![screenshot](images/invaders-hippo.png)
 
@@ -12,7 +12,7 @@ Create a new sprite with the 'Hippo1' image in the Scratch library. Use the **sh
 
 \--- task \---
 
-Set the `Hippo` sprite's rotation style to **left-right**.
+Stellen Sie den Rotationsstil des Sprites `Hippo` auf **left-right**.
 
 [[[generic-scratch3-sprite-rotation-style]]]
 
@@ -20,9 +20,9 @@ Set the `Hippo` sprite's rotation style to **left-right**.
 
 \--- task \---
 
-Add some code to hide the `Hippo` sprite when the game starts.
+Füge Code hinzu, um das `Hippo` Sprite zu Beginn des Spiels auszublenden.
 
-![hippo sprite](images/hippo-sprite.png)
+![Hippo Sprite](images/hippo-sprite.png)
 
 ```blocks3
 Wenn grüne Flagge geklickt 
@@ -33,47 +33,47 @@ verstecken
 
 \--- task \---
 
-Add some code to the Stage to create a new `Hippo` clone every few seconds.
+Fügen Sie der Bühne Code hinzu, um alle paar Sekunden einen neuen `Hippo` Klon zu erstellen.
 
 \--- hints \---
 
 \--- hint \---
 
-When the `green flag is clicked`{:class="block3events"}, `repeatedly`{:class="block3control"} `wait`{:class="block3control"} `between 2 and 4 seconds`{:class="block3operators"} and then `create a clone of the Hippo sprite`{:class="block3control"}.
+Wenn die grüne Flagge `angeklickt wird`{: class = "block3control"}, `wiederholt`{: class = "block3control"} `warten`{: class = "block3control"} `zwischen 2 und 4 Sekunden`{: class = "block3operators"} und dann `erstellen Sie einen Klon des Hippo-Sprites`{: class = "block3control"}.
 
 \--- /hint \---
 
 \--- hint \---
 
-Here are the blocks you need:
+Hier sind die Blöcke, die Sie benötigen:
 
 ```blocks3
-forever
-end
+für immer
+ende
 
-create clone of (Hippo1 v)
+erstelle einen Klon von (Hippo1 v)
 
-(pick random (2) to (4))
+(wähle zufällig (2) bis (4))
 
-when flag clicked
+wenn die Flagge geklickt wird
 
-wait () secs
+warte () sek
 ```
 
 \--- /hint \---
 
 \--- hint \---
 
-This is what your code should look like:
+So sollte Ihr Code aussehen:
 
-![stage sprite](images/stage-sprite.png)
+![Stage Sprite](images/stage-sprite.png)
 
 ```blocks3
-when flag clicked
-forever
-    wait (pick random (2) to (4)) secs
-    create clone of (Hippo1 v)
-end
+wenn flag geklickt
+immer
+    wait (pick random (2) bis (4)) secs
+    erstellen Klon (Hippo1 v)
+Ende
 ```
 
 \--- /hint \---
@@ -82,15 +82,15 @@ end
 
 \--- /task \---
 
-Each new hippo clone should appear at a random `x` position, and every clone should have a random speed.
+Jeder neue Hippo-Klon sollte an einer zufälligen `x` Position erscheinen und jeder Klon sollte eine zufällige Geschwindigkeit haben.
 
 \--- task \---
 
-Create a new variable called `speed`{:class="block3variables"} that is for the `Hippo` sprite only.
+Erstellen Sie eine neue Variable mit dem Namen `speed`{: class = "block3variables"}, die nur für das `Hippo` Sprite gilt.
 
 [[[generic-scratch3-add-variable]]]
 
-When you've done this correctly, the variable has the name of the sprite next to it, like this:
+Wenn Sie dies richtig gemacht haben, hat die Variable den Namen des Sprites daneben, wie folgt:
 
 ![Screenshot](images/invaders-var-test.png)
 
@@ -98,12 +98,12 @@ When you've done this correctly, the variable has the name of the sprite next to
 
 \--- task \---
 
-When each `Hippo` clone starts, pick a random speed and starting place for it. Then show the clone on the screen.
+Wenn jeder `Hippo` Klon startet, wähle eine zufällige Geschwindigkeit und den Startplatz dafür. Zeigen Sie dann den Klon auf dem Bildschirm an.
 
 ```blocks3
-when I start as a clone
-set [speed v] to (pick random (2) to (4))
-go to x: (pick random (-220) to (220)) y: (150)
+Wenn ich als Klon
+beginne, setze [Geschwindigkeit v] auf (Zufallsauswahl (2) bis (4))
+gehe zu x: (Zufallsauswahl (-220) bis (220)) y: (150)
 show
 ```
 
@@ -111,30 +111,30 @@ show
 
 \--- task \---
 
-Test your code. Does a new hippo appear every few seconds?
+Testen Sie Ihren Code. Erscheint alle paar Sekunden ein neues Nilpferd?
 
 \--- /task \---
 
-At the moment the hippos don't move.
+Im Moment bewegen sich die Nilpferde nicht.
 
 \--- task \---
 
-Each hippo should move around randomly until it gets hit by a lightning bolt. To make that happen, attach this code below the blocks that are already in the `Hippo` sprite's code script:
+Jedes Nilpferd sollte sich zufällig bewegen, bis es von einem Blitz getroffen wird. Fügen Sie dazu den folgenden Code unter die Blöcke ein, die bereits im Codeskript des `Hippo` Sprites enthalten sind:
 
 ```blocks3
-repeat until <touching (lightning v) ?>
-    move (speed :: variables) steps
-    turn right (pick random (-10) to (10)) degrees
-    if on edge, bounce
-end
-delete this clone
+Wiederholen, bis <touching (lightning v) ?>
+    Bewegung (Geschwindigkeit :: Variablen) Schritte
+    Nach rechts drehen (zufällige (-10) bis (10)) Grad
+    auswählen, wenn am Rand, Sprung
+
+Diesen Klon löschen
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Test your code again. You should see a new hippo clone appear every few seconds, and each clone should move at a different speed.
+Testen Sie Ihren Code erneut. Sie sollten alle paar Sekunden einen neuen Hippo-Klon sehen, und jeder Klon sollte sich mit einer anderen Geschwindigkeit bewegen.
 
 \--- no-print \---
 
@@ -146,6 +146,6 @@ Test your code again. You should see a new hippo clone appear every few seconds,
 
 \--- task \---
 
-Now test the spaceship's laser cannon. If a lightning bolt hits a hippo, does the hippo vanish?
+Testen Sie nun die Laserkanone des Raumschiffs. Wenn ein Blitz ein Flusspferd trifft, verschwindet das Flusspferd?
 
 \--- /task \---
