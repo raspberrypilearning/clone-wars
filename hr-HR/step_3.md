@@ -78,7 +78,7 @@ kada je zelena zastava kliknuta
 
 Evo kako bi vaš novi kôd trebao izgledati:
 
-![rocket sprite](images/rocket-sprite.png)
+![lik rakete](images/rocket-sprite.png)
 
 ```blocks3
 kada je kliknuta zelena zastava 
