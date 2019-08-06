@@ -43,7 +43,7 @@ Score as many points as you can by shooting flying space-hippos. If you get hit 
 
 + برنامج Scratch 3 (سواء أكان [عبر الإنترنت](https://rpf.io/scratchon){:target="_blank"} أو [دون اتصال بالإنترنت](https://rpf.io/scratchoff){:target="_blank"})
 
-### Downloads
+### للتحميل
 
 [Find the downloads here](http://rpf.io/p/en/clone-wars-go).
 
@@ -65,7 +65,7 @@ Score as many points as you can by shooting flying space-hippos. If you get hit 
 
 * * *
 
-## title: Additional notes for educators
+## عنوان: معلومات اضافية للمعلمين
 
 \--- no-print \---
 
@@ -73,6 +73,6 @@ Score as many points as you can by shooting flying space-hippos. If you get hit 
 
 \--- /no-print \---
 
-You can find the [completed project here](http://rpf.io/p/en/clone-wars-get).
+يمكنك ايجاد [المشروع كامل هنا](http://rpf.io/p/en/clone-wars-get).
 
 \--- /collapse \---
