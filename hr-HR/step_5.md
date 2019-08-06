@@ -1,10 +1,10 @@
-## Space-hippos
+## Svemirski nilski konji
 
-Now you're going to add lots of flying hippos that try to destroy your spaceship.
+Sada ćete dodati mnogo letećih nilskih konja koji pokušavaju uništiti vaš svemirski brod.
 
 \--- task \---
 
-Create a new sprite with the 'Hippo1' image in the Scratch library. Use the **shrink** tool to make the `Hippo` sprite a similar size to the `Spaceship` sprite.
+Napravite novi lik sa slikom 'Hippo1' u Scratch biblioteci. Koristite **shrink** alat kako bi izradili `Hippo` lik slične veličine kao lik `svemirski brod`.
 
 ![screenshot](images/invaders-hippo.png)
 
@@ -12,7 +12,7 @@ Create a new sprite with the 'Hippo1' image in the Scratch library. Use the **sh
 
 \--- task \---
 
-Set the `Hippo` sprite's rotation style to **left-right**.
+Postavite stil rotacije lika `Hippo` na ** lijevo-desno **.
 
 [[[generic-scratch3-sprite-rotation-style]]]
 
@@ -20,77 +20,77 @@ Set the `Hippo` sprite's rotation style to **left-right**.
 
 \--- task \---
 
-Add some code to hide the `Hippo` sprite when the game starts.
+Dodajte naredbe kako bi sakrili lik `Hippo` kada igra započne.
 
 ![hippo sprite](images/hippo-sprite.png)
 
 ```blocks3
-when green flag clicked
-hide
+kada je kliknuta zelena zastava
+sakrij
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Add some code to the Stage to create a new `Hippo` clone every few seconds.
+Dodajte naredbe na pozornicu da biste stvorili novog `Hippo` klona svakih nekoliko sekundi.
 
-\--- pomoć \---
+\--- hints \---
 
 \--- hint \---
 
 When the `green flag is clicked`{:class="block3events"}, `repeatedly`{:class="block3control"} `wait`{:class="block3control"} `between 2 and 4 seconds`{:class="block3operators"} and then `create a clone of the Hippo sprite`{:class="block3control"}.
 
-\--- /pomoć \---
+\--- /hint \---
 
 \--- hint \---
 
-Here are the blocks you need:
+Ovdje su blokovi koji vam trebaju:
 
 ```blocks3
-forever
-end
+ponavljaj
+kraj
 
-create clone of (Hippo1 v)
+kloniraj (Hippo1 v)
 
-(pick random (2) to (4))
+(slučajni broj od (2) do (4))
 
-when flag clicked
+kada je kliknuta zelena zastava
 
-wait () secs
+čekaj () sekundi
 ```
 
-\--- /pomoć \---
+\--- /hint \---
 
 \--- hint \---
 
-This is what your code should look like:
+Ovako bi trebao izgledati vaš kôd:
 
 ![stage sprite](images/stage-sprite.png)
 
 ```blocks3
-when flag clicked
-forever
-    wait (pick random (2) to (4)) secs
-    create clone of (Hippo1 v)
-end
+kada je kliknuta zelena zastava
+ponavljaj
+    čekaj (slučajan broj od (2) do (4)) sekundi
+    kloniraj (Hippo1 v)
+kraj
 ```
 
-\--- /pomoć \---
+\--- /hint \---
 
-\--- /pomoć \---
+\--- /hints \---
 
 \--- /task \---
 
-Each new hippo clone should appear at a random `x` position, and every clone should have a random speed.
+Svaki novi klon nilskog konja trebao bi se pojaviti nasumce </code>x</0> i svaki klon bi trebao imati slučajnu brzinu.
 
 \--- task \---
 
-Create a new variable called `speed`{:class="block3variables"} that is for the `Hippo` sprite only.
+Napravite novu varijablu koja se zove ` brzina ` {: class = "block3variables"} koja je samo za `Hippo` likove.
 
 [[[generic-scratch3-add-variable]]]
 
-When you've done this correctly, the variable has the name of the sprite next to it, like this:
+Kada ste to napravili ispravno, varijabla ima pored sebe naziv lika, npr.:
 
 ![screenshot](images/invaders-var-test.png)
 
@@ -98,28 +98,28 @@ When you've done this correctly, the variable has the name of the sprite next to
 
 \--- task \---
 
-When each `Hippo` clone starts, pick a random speed and starting place for it. Then show the clone on the screen.
+Kada je svaki `Hippo` klon počinje, odaberite mu slučajnu brzinu i ihsodište. Zatim pokažite klon na zaslonu.
 
 ```blocks3
-when I start as a clone
-set [speed v] to (pick random (2) to (4))
-go to x: (pick random (-220) to (220)) y: (150)
-show
+kada krećem kao klon
+postavi [brzina v] na (sličajan broj od (2) do (4))
+idi na x: (slučajan broj od (-220) do (220)) y: (150)
+prikaži
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Test your code. Does a new hippo appear every few seconds?
+Testirajte svoj kôd. Pojavljuje li se novi nilski konj svakih nekoliko sekundi?
 
 \--- /task \---
 
-At the moment the hippos don't move.
+Trenutno se nilski konji ne kreću.
 
 \--- task \---
 
-Each hippo should move around randomly until it gets hit by a lightning bolt. To make that happen, attach this code below the blocks that are already in the `Hippo` sprite's code script:
+Svaki nilski konj bi se trebao kretati nasumično dok ga ne pogodi munja. Kako bi to bilo moguće, priložite ovaj kôd ispod blokova koji su već u skripti naredbi lika `Hippo-u`:
 
 ```blocks3
 repeat until <touching (lightning v) ?>
