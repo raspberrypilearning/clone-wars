@@ -8,11 +8,11 @@ Open the 'Clone wars' Scratch starter project.
 
 **Online:** open the starter project at [rpf.io/clone-wars-on](http://rpf.io/clone-wars-on){:target="_blank"}.
 
-If you have a Scratch account you can make a copy by clicking **Remix**.
+אם יש לך חשבון Scratch, באפשרותך ליצור עותק על-ידי לחיצה על ** כניסה **.
 
 **Offline:** download the starter project from [rpf.io/p/en/clone-wars-go](http://rpf.io/p/en/clone-wars-go), and then open it using the offline editor.
 
-If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
+אם עליך להוריד ולהתקין את העורך הלא מקוון של Scratch, תוכל למצוא אותו בכתובת [ rpf.io/scratchoff ](https://rpf.io/scratchoff) {:target="_blank"}.
 
 \--- /task \---
 
@@ -53,7 +53,7 @@ Subtracting `4` from the spaceship's `x` position made it move left, so how coul
 
 \--- /hint \---
 
-\--- hint \---
+\--- hints \---
 
 You need the same code block, but with a different number:
 
@@ -77,7 +77,7 @@ end
 
 \--- /hint \---
 
-\--- /hints \---
+\--- / hints \---
 
 \--- /task \---
 
