@@ -73,6 +73,6 @@ Score as many points as you can by shooting flying space-hippos. If you get hit 
 
 \----প্রিন্ট করা লাগবেনা --
 
-[If you need the solution to this project, you can find it here](http://rpf.io/p/en/clone-wars-get).
+You can find the [completed project here](http://rpf.io/p/en/clone-wars-get).
 
 -- /collapse \---
