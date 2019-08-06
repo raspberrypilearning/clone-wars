@@ -1,28 +1,28 @@
 ## Baue ein Raumschiff
 
-First make a spaceship that can defend the Earth!
+Baue zuerst ein Raumschiff, das die Erde verteidigen kann!
 
 \--- task \---
 
-Open the 'Clone wars' Scratch starter project.
+Öffnen Sie das Scratch-Startprojekt "Clone Wars".
 
-**Online:** open the starter project at [rpf.io/clone-wars-on](http://rpf.io/clone-wars-on){:target="_blank"}.
+**Online:** Öffnen Sie das Startprojekt unter [rpf.io/clone-wars-on](http://rpf.io/clone-wars-on){: target = "_ blank"}.
 
-If you have a Scratch account you can make a copy by clicking **Remix**.
+Wenn du bereits einen Scratch-Account besitzt, kannst du dir durch Klick auf **Remix** eine Kopie anlegen.
 
-**Offline:** download the starter project from [rpf.io/p/en/clone-wars-go](http://rpf.io/p/en/clone-wars-go), and then open it using the offline editor.
+**Offline:** Laden Sie das Startprojekt von [rpf.io/p/en/clone-wars-go](http://rpf.io/p/en/clone-wars-go)herunter und öffnen Sie es mit dem Offline-Editor.
 
-If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
+Wenn du den Scratch-Offline-Editor herunterladen und installieren möchtest, findest du diesen unter [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
 
 \--- /task \---
 
-![starter project](images/starter-project.png)
+![Startprojekt](images/starter-project.png)
 
 \--- task \---
 
-Add this code to the spaceship sprite to make the spaceship move left if the <kbd>left</kbd> arrow is pressed:
+Fügen Sie diesen Code zum Raumschiffsprite hinzu, damit sich das Raumschiff nach links bewegt, wenn der Pfeil <kbd>links</kbd> gedrückt wird:
 
-![rocket sprite](images/rocket-sprite.png)
+![Raketen-Sprite](images/rocket-sprite.png)
 
 ```blocks3
     wenn grüne Fahne angeklickt
@@ -33,7 +33,7 @@ Add this code to the spaceship sprite to make the spaceship move left if the <kb
     end
 ```
 
-The x-axis goes from the left side of the Stage to the right side. This means that the spaceship moves to the left when you subtract from the value of the spaceship sprite's `x` position. So this code block is the part that makes your spaceship move left:
+Die x-Achse verläuft von der linken Seite der Bühne zur rechten Seite. Dies bedeutet, dass sich das Raumschiff nach links bewegt, wenn Sie vom Wert der `x` Position des Raumschiff-Sprites subtrahieren. Dieser Codeblock ist also der Teil, der Ihr Raumschiff nach links bewegt:
 
 ```blocks3
 ändere x um (-4)
@@ -43,19 +43,19 @@ The x-axis goes from the left side of the Stage to the right side. This means th
 
 \--- task \---
 
-Add some more code inside the `forever`{:class="block3control"} block to make your spaceship move to the right if the <kbd>right</kbd> arrow key is pressed.
+Fügen Sie weiteren Code in den Block `für immer`{: class = "block3control"} ein, damit sich Ihr Raumschiff nach rechts bewegt, wenn die Pfeiltaste <kbd>rechts und</kbd> gedrückt wird.
 
 \--- hints \---
 
 \--- hint \---
 
-Subtracting `4` from the spaceship's `x` position made it move left, so how could you make the spaceship move right by `4` instead?
+Wenn Sie `4` von der `x` Position des Raumschiffs subtrahieren, wurde es nach links verschoben. Wie können Sie das Raumschiff stattdessen um `4` nach rechts verschieben?
 
 \--- /hint \---
 
 \--- hint \---
 
-You need the same code block, but with a different number:
+Sie benötigen denselben Codeblock, jedoch mit einer anderen Nummer:
 
 ```blocks3
 ändere x um ( )
@@ -65,9 +65,9 @@ You need the same code block, but with a different number:
 
 \--- hint \---
 
-Here is the code you need to add below the other code inside the `forever`{:class="block3control"} block:
+Hier ist der Code, den Sie unterhalb des anderen Codes im Block `forever`{: class = "block3control"} hinzufügen müssen:
 
-![rocket sprite](images/rocket-sprite.png)
+![Raketen-Sprite](images/rocket-sprite.png)
 
 ```blocks3
 falls <key (right arrow v) pressed?> dann
@@ -77,12 +77,12 @@ end
 
 \--- /hint \---
 
-\--- /hints \---
+\---/hints\---
 
 \--- /task \---
 
 \--- task \---
 
-Test your project by clicking the green flag. Can you press the arrow keys to make your spaceship move left and right?
+Testen Sie Ihr Projekt, indem Sie auf die grüne Flagge klicken. Kannst du die Pfeiltasten drücken, um dein Raumschiff nach links und rechts zu bewegen?
 
 \--- /task \---
