@@ -1,6 +1,6 @@
 \--- no-print \---
 
-This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/clone-wars-scratch2).
+Это **Scratch 3** версия проекта. Существует также [Scratch 2 версия проекта](https://projects.raspberrypi.org/en/projects/clone-wars-scratch2).
 
 \--- /no-print \---
 
@@ -43,7 +43,7 @@ Score as many points as you can by shooting flying space-hippos. If you get hit 
 
 + Scratch 3 (либо [онлайн-редактор](https://rpf.io/scratchon){:target="_blank"}, либо [автономный редактор (без подключения к Интернету)](https://rpf.io/scratchoff){:target="_blank"})
 
-### Downloads
+### Загрузки
 
 [Find the downloads here](http://rpf.io/p/en/clone-wars-go).
 
@@ -65,7 +65,7 @@ Score as many points as you can by shooting flying space-hippos. If you get hit 
 
 * * *
 
-## title: Additional notes for educators
+## title: Дополнительные примечания для педагогов
 
 \--- no-print \---
 
@@ -73,6 +73,6 @@ Score as many points as you can by shooting flying space-hippos. If you get hit 
 
 \--- /no-print \---
 
-You can find the [completed project here](http://rpf.io/p/en/clone-wars-get).
+Вы можете найти [завершенные проекты здесь](http://rpf.io/p/en/clone-wars-get).
 
 \--- /collapse \---
