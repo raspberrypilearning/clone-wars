@@ -20,36 +20,36 @@
 
 \--- task \---
 
-스테이지에, 방송 `을 통해 게임을`게임이 종료 직전에 메시지 : {클래스 = "block3events"}.
+스테이지에서, 브로드캐스트를 활용하여 `게임 오버`{:class="block3events"} 메시지를 게임이 끝나기 이전에 출력하세요.
 
 ![게임 오버 스프라이트](images/stage-sprite.png)
 
 ```blocks3
-broadcast (game over v) and wait
+(game over v) 신호 보내고 기다리기
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Add this code to your `Game Over` sprite so that it shows at the end of the game:
+다음 코드를 `게임오버` 스프라이트에 추가하여 스프라이트가 게임이 끝났을 때 보여지도록 하세요:
 
-![gameover sprite](images/gameover-sprite.png)
+![게임오버 스프라이트](images/gameover-sprite.png)
 
 ```blocks3
-when flag clicked
-hide
+초록색 깃발을 클릭했을 때
+숨기기
 
-when I receive [game over v]
-show
+[game over v] 신호를 받았을 때
+보이기
 ```
 
-Because you've used a `broadcast (game over) and wait`{:class="block3events"} block on your Stage, the Stage will wait for the `Game Over` sprite to be displayed before ending the game.
+`(게임 오버) 신호 보내고 기다리기`{:class="block3events"} 블록을 스테이지에서 사용하였으므로, 스테이지에서는 게임 종료 전에 `Game Over`스프라이트가 표시되는 것을 기다립니다.
 
 \--- /task \---
 
 \--- task \---
 
-Test your game. How many points can you score? If the game is too easy or too hard, can you think of ways to improve it?
+게임을 테스트 해보십시오. 얼마나 많은 점수를 얻을 수 있습니까? 게임이 너무 쉽거나 어렵다면 게임을 향상시킬 방법을 생각해 볼 수 있습니까?
 
 \--- /task \---
