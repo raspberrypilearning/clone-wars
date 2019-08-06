@@ -2,15 +2,15 @@
 
 Now you're going to add lots of flying hippos that try to destroy your spaceship.
 
-\--- task \---
+\---tâche\---
 
 Create a new sprite with the 'Hippo1' image in the Scratch library. Use the **shrink** tool to make the `Hippo` sprite a similar size to the `Spaceship` sprite.
 
-![screenshot](images/invaders-hippo.png)
+![capture d'écran](images/invaders-hippo.png)
 
-\--- /task \---
+\---tâche\---
 
-\--- task \---
+\---tâche\---
 
 Set the `Hippo` sprite's rotation style to **left-right**.
 
@@ -29,9 +29,9 @@ when green flag clicked
 hide
 ```
 
-\--- /task \---
+\---tâche\---
 
-\--- task \---
+\---tâche\---
 
 Add some code to the Stage to create a new `Hippo` clone every few seconds.
 
@@ -80,7 +80,7 @@ end
 
 \--- /hints \---
 
-\--- /task \---
+\---tâche\---
 
 Each new hippo clone should appear at a random `x` position, and every clone should have a random speed.
 
@@ -92,11 +92,11 @@ Create a new variable called `speed`{:class="block3variables"} that is for the `
 
 When you've done this correctly, the variable has the name of the sprite next to it, like this:
 
-![screenshot](images/invaders-var-test.png)
+![capture d'écran](images/invaders-var-test.png)
 
-\--- /task \---
+\---tâche\---
 
-\--- task \---
+\---tâche\---
 
 When each `Hippo` clone starts, pick a random speed and starting place for it. Then show the clone on the screen.
 
@@ -109,15 +109,15 @@ show
 
 \--- /task \---
 
-\--- task \---
+\---tâche\---
 
 Test your code. Does a new hippo appear every few seconds?
 
-\--- /task \---
+\---tâche\---
 
 At the moment the hippos don't move.
 
-\--- task \---
+\---tâche\---
 
 Each hippo should move around randomly until it gets hit by a lightning bolt. To make that happen, attach this code below the blocks that are already in the `Hippo` sprite's code script:
 
@@ -130,19 +130,19 @@ end
 delete this clone
 ```
 
-\--- /task \---
+\---tâche\---
 
-\--- task \---
+\---tâche\---
 
 Test your code again. You should see a new hippo clone appear every few seconds, and each clone should move at a different speed.
 
 \--- no-print \---
 
-![screenshot](images/hippo-clones.gif)
+![capture d'écran](images/hippo-clones.gif)
 
 \--- /no-print \---
 
-\--- /task \---
+\---tâche\---
 
 \--- task \---
 
