@@ -35,7 +35,7 @@ hide
 
 Add some code to the Stage to create a new `Hippo` clone every few seconds.
 
-\--- hints \---
+\--- подсказки \---
 
 \--- hint \---
 
@@ -64,7 +64,7 @@ wait () secs
 
 \--- hint \---
 
-This is what your code should look like:
+Вот как должен выглядеть твой код:
 
 ![stage sprite](images/stage-sprite.png)
 
@@ -78,7 +78,7 @@ end
 
 \--- /hint \---
 
-\--- /hints \---
+\--- /подсказки \---
 
 \--- /task \---
 
