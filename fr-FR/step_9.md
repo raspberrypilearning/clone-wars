@@ -1,63 +1,63 @@
 ## Chauve-souris de l'espace
 
-To make your game a bit harder, you are going to create a bat that throws oranges at the spaceship.
+Pour rendre votre jeu un peu plus difficile, vous allez créer une batte qui jette des oranges sur le vaisseau spatial.
 
-![a bat throwing an orange at the spaceship](images/bat-oranges.png)
+![une chauve-souris jetant une orange sur le vaisseau spatial](images/bat-oranges.png)
 
 \--- task \---
 
-Add a `Bat` sprite and set its rotation style to **left–right**.
+Ajoutez une image-objet `Bat` et définissez son style de rotation sur **gauche-droite**.
 
 \--- /task \---
 
 \--- task \---
 
-Make the `Bat` sprite `move`{:class="block3motion"} from left to right at the top of the Stage `forever`{:class="block3control"}.
+Faites le `Bat` sprite `move`{: class = "block3motion"} de gauche à droite en haut du Stage `pour toujours`{: class = "block3control"}.
 
-![bat sprite](images/bat-sprite.png)
+![lutin de chauve-souris](images/bat-sprite.png)
 
 ```blocks3
-when flag clicked
-set size to (50) %
-forever
-    move (10) steps
-    if on edge, bounce
-end
+lorsque le drapeau est cliqué sur
+définissez la taille sur (50)%
+pour toujours
+    déplacer (10) étapes
+    si sur le bord, rebondissez
+fin
 ```
 
-Remember to test your code.
+N'oubliez pas de tester votre code.
 
 \--- /task \---
 
-If you look at the bat's costumes, you can see that it has four different ones:
+Si vous regardez les costumes de la chauve-souris, vous pouvez voir qu'il en a quatre différents:
 
 ![screenshot](images/invaders-bat-costume.png)
 
 \--- task \---
 
-Use the `next costume`{:class="block3looks"} block to make the bat flap its wings as it moves.
+Utilisez le `suivant costume`{: class = « block3looks »} bloc pour faire le rabat bat ses ailes en mouvement.
 
-\--- astuces \---
-
-\--- hint \---
-
-After the bat has moved, it should show the `next costume`{:class="block3looks"} and then `wait`{:class="block3control"} for a short time.
-
-\--- /indice \---
+\--- hints \---
 
 \--- hint \---
 
-You need to add these blocks to you code:
+Une fois que la batte a été déplacée, le costume suivant `devrait apparaître:`{: class = "block3looks"}, puis `attendez`{: class = "block3control"} pendant un court instant.
+
+\--- /hint \---
+
+\--- hint \---
+
+Vous devez ajouter ces blocs à votre code:
 
 ```blocks3
-wait (0.3) seconds
+attendre (0.3) secondes
 
-next costume
+costume suivant
 ```
 
-\--- /indice \---
+\--- /hint \---
 
-\--- hint \--- You code should look like this:
+\--- Indice \--- Votre code devrait ressembler à ceci:
 
 ```blocks3
 quand le drapeau cliqué sur
@@ -71,7 +71,7 @@ si sur le bord, rebondissez
 fin
 ```
 
-\--- /indice \---
+\--- /hint \---
 
 \--- /astuces \---
 
