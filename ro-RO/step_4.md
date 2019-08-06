@@ -1,3 +1,3 @@
-## Challenge: improve the lightning
+## Provocare: Îmbunătățeste fulgerul
 
-What happens if you hold down the <kbd>space</kbd> key? Can you use a `wait`{:class="block3control"} block to fix this?
+Ce se întâmplă dacă ții apăsată tasta <kbd>spațiu</kbd>? Poți utiliza un block `așteaptă`{:class="block3control"} pentru a remedia acest lucru?
