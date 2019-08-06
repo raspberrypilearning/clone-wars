@@ -41,7 +41,7 @@ Marquez autant de points que possible en tirant sur des hippopotames volants. Tu
 
 ### Logiciels
 
-+ Scratch 3 ( [en ligne](https://rpf.io/scratchon) ou [hors ligne](https://rpf.io/scratchoff)")
++ Scratch 3 ([en ligne](https://rpf.io/scratchon){:target="_blank"} ou [hors ligne](https://rpf.io/scratchoff){:target="_blank"})
 
 ### Téléchargements
 
@@ -65,7 +65,7 @@ Marquez autant de points que possible en tirant sur des hippopotames volants. Tu
 
 * * *
 
-## titre: Notes supplémentaires pour les éducateurs
+## title: Notes complémentaires pour les éducateurs
 
 \--- no-print \---
 
@@ -73,6 +73,6 @@ Si tu as besoin d'imprimer ce projet, merci d'utiliser la [Version imprimable](h
 
 \--- /no-print \---
 
-[Si tu a besoin de la solution à ce projet, tu peux le trouver ici](http://rpf.io/p/en/clone-wars-get).
+You can find the [completed project here](http://rpf.io/p/en/clone-wars-get).
 
 \--- /collapse \---
