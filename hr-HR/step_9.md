@@ -109,47 +109,47 @@ Dodaj naredbe liku `Naranča` kako bi svaki njegov klon ispustio, počevši od l
 ![orange sprite](images/orange-sprite.png)
 
 ```blocks3
-    when flag clicked
-    hide
+    kada je kliknuta zelena zastava
+    sakrij
 
-    when I start as a clone
-    go to (Bat v)
-    show
-    repeat until <touching (edge v)?
-        change y by (-4)
-    end
-    delete this clone
+    kada krećem kao klon
+    idi do (Šišmiš v)
+    prikaži
+    ponavljaj dok nije <dodiruje (rub v)>
+        promijeni y za (-4)
+    kraj
+    izbriši klona
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Add some more code to the `Orange` sprite so that when an `Orange` clone hits the `Spaceship` sprite, the clone also disappears to give the player a chance to reset:
+Dodajte još naredbi liku `Naranča` tako da kad njegov klon pogodi lik `Svemirski brod`, klon također nestane kako bi igrač ponovno započeo igru:
 
 ![orange sprite](images/orange-sprite.png)
 
 ```blocks3
-    when I receive [hit v]
-    delete this clone
+    kada primim [pogodak v]
+    izbriši klona
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Modify the code of your `Spaceship` sprite so that the sprite is "hit" when it touches a `Hippo` sprite or an `Orange` sprite:
+Izmijenite kôd lika `Svemirskog brod` tako da je "pogođen" kada dodirne lik ` Nilski konj` ili lik `Naranča`:
 
 ![lik rakete](images/rocket-sprite.png)
 
 ```blocks3
-    wait until < <touching (Hippo1 v)?> or <touching (Orange v)?>>
+    čekaj do <(dodiruje (Nilski konj1 v)) ili (dodiruje (Naranča v))>
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Test your game. What happens if the spaceship gets hit by a falling orange?
+Testirajte svoju igru. Što se događa ako svemirski brod pogodi padajuću naranču?
 
 \--- /task \---
