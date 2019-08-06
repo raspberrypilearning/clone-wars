@@ -54,7 +54,7 @@ Add some new code to the `Spaceship` sprite to create a new clone of the lightni
 
 \--- /hint \---
 
-\--- hint \---
+\--- hints \---
 
 Here are the blocks you need:
 
@@ -74,7 +74,7 @@ when flag clicked
 
 \--- /hint \---
 
-\--- hint \---
+\--- hints \---
 
 Here is what your new code should look like:
 
@@ -91,7 +91,7 @@ end
 
 \--- /hint \---
 
-\--- /hints \---
+\--- / hints \---
 
 \--- /task \---
 
