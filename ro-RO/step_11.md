@@ -1,19 +1,19 @@
-## Challenge: improve your game
+## Provocare: Îmbunătățește-ți jocul
 
-What improvements can you make to your game?
+Ce îmbunătățiri poți aduce jocului tău?
 
-Here are some ideas:
+Iată câteva idei:
 
-+ Add health packs that you can collect to gain extra lives.
++ Adaugă pachete de sănătate pe care le poți colecta pentru a câștiga vieți.
 
-![screenshot](images/invaders-aid.png)
+![captură de ecran](images/invaders-aid.png)
 
-+ Add floating rocks that your spaceship must avoid.
++ Adaugă roci plutitoare pe care nava ta spațială trebuie să le evite.
 
-![screenshot](images/invaders-rocks.png)
+![captură de ecran](images/invaders-rocks.png)
 
-+ Make more enemies appear when your score gets to `100`.
++ Fă ca mai mulți inamici să apară atunci când scorul ajunge la `100`.
 
 ```blocks3
-    wait until <(score :: variables) = [100]>
+    așteaptă până când <(scor :: variables) = [100]>
 ```
