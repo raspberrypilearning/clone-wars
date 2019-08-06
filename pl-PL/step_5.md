@@ -45,7 +45,7 @@ When the `green flag is clicked`{:class="block3events"}, `repeatedly`{:class="bl
 
 \--- hint \---
 
-Here are the blocks you need:
+Oto bloki, których potrzebujesz:
 
 ```blocks3
 forever
@@ -66,7 +66,7 @@ wait () secs
 
 This is what your code should look like:
 
-![stage sprite](images/stage-sprite.png)
+![duszek sceny](images/stage-sprite.png)
 
 ```blocks3
 when flag clicked
