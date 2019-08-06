@@ -1,18 +1,18 @@
-## Game over
+## Spiel ist aus
 
-Next, you're going to add a 'game over' message at the end of the game.
+Als Nächstes fügen Sie am Ende des Spiels eine "Game Over" -Nachricht hinzu.
 
 \--- task \---
 
-If you haven't already, create a new variable called `lives`{:class="block3variables"}.
+Wenn Sie dies noch nicht getan haben, erstellen Sie eine neue Variable mit dem Namen `lebt`{: class = "block3variables"}.
 
-Your spaceship should start with three lives and lose a life whenever it touches a hippo or an orange. Your game should stop when the `lives`{:class="block3variables"} run out.
+Ihr Raumschiff sollte mit drei Leben beginnen und ein Leben verlieren, wenn es ein Flusspferd oder eine Orange berührt. Dein Spiel sollte aufhören, wenn die `Leben`{: class = "block3variables"} ausgeht.
 
 \--- /task \---
 
 \--- task \---
 
-Draw a new sprite called `Game Over` using the **text** tool.
+Zeichnen Sie mit dem **Text-** Tool ein neues Sprite mit dem Namen `Game Over`.
 
 ![Screenshot](images/invaders-game-over.png)
 
@@ -20,36 +20,36 @@ Draw a new sprite called `Game Over` using the **text** tool.
 
 \--- task \---
 
-On the Stage, broadcast a `game over`{:class="block3events"} message just before the game ends.
+Senden Sie auf der Bühne eine `Spiel-über-`Nachricht ({: class = "block3events"}), bevor das Spiel endet.
 
-![gameover sprite](images/stage-sprite.png)
+![Gameover-Sprite](images/stage-sprite.png)
 
 ```blocks3
-broadcast (game over v) and wait
+broadcast (game over v) und warte
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Add this code to your `Game Over` sprite so that it shows at the end of the game:
+Füge diesen Code zu deinem `Game-Over-` Sprite hinzu, sodass er am Ende des Spiels angezeigt wird:
 
-![gameover sprite](images/gameover-sprite.png)
+![Gameover-Sprite](images/gameover-sprite.png)
 
 ```blocks3
-when flag clicked
-hide
+Wenn die Flagge auf
+geklickt hat, verstecke
 
-when I receive [game over v]
-show
+wenn ich [game over v]
+show erhalte
 ```
 
-Because you've used a `broadcast (game over) and wait`{:class="block3events"} block on your Stage, the Stage will wait for the `Game Over` sprite to be displayed before ending the game.
+Da Sie eine `Übertragung (Spielende) verwendet haben und`{: class = "block3events"} Block auf Ihrer Bühne warten, wartet die Bühne, bis das `Game-Over-` Sprite angezeigt wird, bevor Sie das Spiel beenden.
 
 \--- /task \---
 
 \--- task \---
 
-Test your game. How many points can you score? If the game is too easy or too hard, can you think of ways to improve it?
+Teste dein Spiel. Wie viele Punkte können Sie erzielen? Wenn das Spiel zu einfach oder zu schwer ist, können Sie Möglichkeiten finden, es zu verbessern?
 
 \--- /task \---
