@@ -8,11 +8,11 @@ Open the 'Clone wars' Scratch starter project.
 
 **Online:** open the starter project at [rpf.io/clone-wars-on](http://rpf.io/clone-wars-on){:target="_blank"}.
 
-If you have a Scratch account you can make a copy by clicking **Remix**.
+Eğer bir Scratch hesabınız varsa, **Remix**'e tıklayarak bir kopya oluşturabilirsiniz.
 
 **Offline:** download the starter project from [rpf.io/p/en/clone-wars-go](http://rpf.io/p/en/clone-wars-go), and then open it using the offline editor.
 
-If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
+Scratch çevrimdışı düzenleyicisini indirip yüklemeniz gerekirse, bunu [ rpf.io/scratchoff adresinde bulabilirsiniz. ](https://rpf.io/scratchoff) {: Hedef = "_ blank"}.
 
 \--- /task \---
 
@@ -47,13 +47,13 @@ Add some more code inside the `forever`{:class="block3control"} block to make yo
 
 \--- hints \---
 
-\--- hint \---
+\---hint\---
 
 Subtracting `4` from the spaceship's `x` position made it move left, so how could you make the spaceship move right by `4` instead?
 
 \--- /hint \---
 
-\--- hint \---
+\---hint\---
 
 You need the same code block, but with a different number:
 
@@ -63,7 +63,7 @@ change x by ( )
 
 \--- /hint \---
 
-\--- hint \---
+\---hint\---
 
 Here is the code you need to add below the other code inside the `forever`{:class="block3control"} block:
 
@@ -77,7 +77,7 @@ end
 
 \--- /hint \---
 
-\--- /hints \---
+\--- /hint \---
 
 \--- /task \---
 
