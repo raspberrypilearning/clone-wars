@@ -17,15 +17,15 @@ Make the `Bat` sprite `move`{:class="block3motion"} from left to right at the to
 ![bat sprite](images/bat-sprite.png)
 
 ```blocks3
-when flag clicked
-set size to (50) %
-forever
-    move (10) steps
-    if on edge, bounce
-end
+kada je kliknuta zelena zastava
+postavi veličinu na (50) %
+ponavljaj
+    idi (10) koraka
+    ako si na rubu, okreni se
+kraj
 ```
 
-Remember to test your code.
+Ne zaboravite testirati svoj kôd.
 
 \--- /task \---
 
