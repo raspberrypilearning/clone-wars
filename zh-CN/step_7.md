@@ -1,4 +1,4 @@
-## Hippos that disappear
+## 消失的河马
 
 When the spaceship explodes, all the hippos should disappear so that players of the game can recover.
 
@@ -36,7 +36,7 @@ delete this clone
 
 To check whether the new code works, click the green flag and make the spaceship collide with a hippo.
 
-![screenshot](images/invaders-hippo-collide.png)
+![截屏](images/invaders-hippo-collide.png)
 
 \--- /task \---
 
