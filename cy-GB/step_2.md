@@ -8,70 +8,70 @@ Agora'r prosiect cychwynnol 'Brwydr Clonau'.
 
 **Arlein:** agora brosiect Scratch newydd yma [rpf.io/clone-wars-on](http://rpf.io/clone-wars-on){:target="_blank"}.
 
-If you have a Scratch account you can make a copy by clicking **Remix**.
+Os oes ganddot ti gyfrif Scratch galli di wneud copi drwy glicio ar ** Remix **.
 
-**Offline:** download the starter project from [rpf.io/p/en/clone-wars-go](http://rpf.io/p/en/clone-wars-go), and then open it using the offline editor.
+** All-lein: ** lawrlwytha'r prosiect cychwynnol o [ rpf.io/p/en/clone-wars-go ](http://rpf.io/p/en/clone-wars-go) ac yna ei agor gan ddefnyddio'r golygydd all-lein.
 
-If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
-
-\--- /task \---
-
-![starter project](images/starter-project.png)
-
-\--- task \---
-
-Add this code to the spaceship sprite to make the spaceship move left if the <kbd>left</kbd> arrow is pressed:
-
-![rocket sprite](images/rocket-sprite.png)
-
-```blocks3
-    when flag clicked
-    forever
-        if <key (left arrow v) pressed?> then
-            change x by (-4)
-        end
-    end
-```
-
-The x-axis goes from the left side of the Stage to the right side. This means that the spaceship moves to the left when you subtract from the value of the spaceship sprite's `x` position. So this code block is the part that makes your spaceship move left:
-
-```blocks3
-change x by (-4)
-```
+Os oes angen i ti lawrlwytho a gosod golygydd Scratch all-lein, mae modd dod o hyd iddo yma [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
 
 \--- /task \---
 
+![prosiect cychwynnol](images/starter-project.png)
+
 \--- task \---
 
-Add some more code inside the `forever`{:class="block3control"} block to make your spaceship move to the right if the <kbd>right</kbd> arrow key is pressed.
+Ychwanega côd i symud dy long ofod i’r chwith pan rwyt ti’n gwasgu’r saeth <kbd>chwith</kbd> ar y bysellfwrdd:
+
+![corlun roced](images/rocket-sprite.png)
+
+```blocks3
+    pan fo'r flag werdd yn cael ei glicio
+am byth 
+  os <key (left arrow v) pressed?> yna 
+    newid x gan (-4)
+  end
+end
+```
+
+Mae'r echelin-x yn mynd o ochr chwith y Llwyfan i'r ochr dde. Mae hyn yn golygu bod y llong ofod yn symud i'r chwith pan fyddwn yn tynnu o werth y llong ofod yn y safle `x`. Felly mae'r bloc côd yma yn rhan o'r hyn sy'n gwneud i'r llong ofod symud i'r chwith:
+
+```blocks3
+newid x gan (-4)
+```
+
+\--- /task \---
+
+\--- task \---
+
+Ychwanega mwy o gôd o fewn y bloc `am byth`{:class="block3control"} i symud dy long ofod i’r dde pan wyt ti’n gwasgu’r saeth <kbd>dde</kbd>.
 
 \--- hints \---
 
 \--- hint \---
 
-Subtracting `4` from the spaceship's `x` position made it move left, so how could you make the spaceship move right by `4` instead?
+Fe wnaeth tynnu `4` o safle `x` y llong ofod wneud iddo symud i'r chwith, felly sut mae gwneud i'r llong ofod symud i'r dde wrth `4` yn lle?
 
 \--- /hint \---
 
 \--- hint \---
 
-You need the same code block, but with a different number:
+Rwyt ti angen yr un bloc côd, ond gyda rhif gwahanol:
 
 ```blocks3
-change x by ( )
+newid x gan ( )
 ```
 
 \--- /hint \---
 
 \--- hint \---
 
-Here is the code you need to add below the other code inside the `forever`{:class="block3control"} block:
+Dyma'r côd rwyt ti ei angen ychwanegu o dan y côd o fewn y bloc `am byth`{:class="block3control"}:
 
-![rocket sprite](images/rocket-sprite.png)
+![corlun roced](images/rocket-sprite.png)
 
 ```blocks3
-if <key (right arrow v) pressed?> then
-    change x by (4)
+os <bysell (right arrow v) wedi ei phwyso?> yna 
+  newid x gan (4)
 end
 ```
 
@@ -83,6 +83,6 @@ end
 
 \--- task \---
 
-Test your project by clicking the green flag. Can you press the arrow keys to make your spaceship move left and right?
+Profa dy brosiect drwy glicio ar y faner werdd. Alli di wasgu'r bysellau saeth i wneud dy llong ofod symud i'r chwith ac i'r dde?
 
 \--- /task \---
