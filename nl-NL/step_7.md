@@ -20,12 +20,12 @@ zend signaal (raak v)
 
 \--- task \---
 
-Alle `nijlpaard` klonen ontvangen het "raak" bericht, en kan je hen opdragen als het schip wordt getroffen om te verdwijnen door deze code toe te voegen aan `nijlpaard` sprite:
+Alle `nijlpaard` klonen ontvangen het "raak" bericht, en je kunt hen opdragen om te verdwijnen als het schip wordt getroffen door deze code toe te voegen aan `nijlpaard` sprite:
 
 ![nijlpaard sprite](images/hippo-sprite.png)
 
 ```blocks3
-wanneer ik signaal [geraakt v] ontvang, 
+wanneer ik signaal [raak v] ontvang, 
 verwijder deze kloon
 ```
 
@@ -39,11 +39,11 @@ Om te controleren of de nieuwe code werkt, klik op de groene vlag en laat het ru
 
 \--- /task \---
 
-Nadat het ruimteschip ontploft, verschijnen nieuwe `nijlpaard` klonen, maar het ruimteschip is nog steeds ontploft! Het schip moet zichzelf herstellen na geraakt te zijn.
+Nadat het ruimteschip ontploft is, verschijnen nieuwe `nijlpaard` klonen, maar het ruimteschip is nog steeds ontploft! Het schip moet zichzelf herstellen na geraakt te zijn.
 
 \--- task \---
 
-Voeg een `wacht`{:class="block3control"} blok toe aan het einde van ce `ruimteschip` sprite code om een kleine pauze te maken voordat de nijlpaarden weer beginnen te verschijnen. Voeg vervolgens een `herhaal`{:class="block3control"} blok rond al je code toe om de code herhaaldelijk uit te laten voeren.
+Voeg een `wacht`{:class="block3control"} blok toe aan het einde van de `ruimteschip` sprite code om een kleine pauze te maken voordat de nijlpaarden weer beginnen te verschijnen. Voeg vervolgens een `herhaal`{:class="block3control"} blok rond al je code toe om de code herhaaldelijk uit te laten voeren.
 
 ![ruimteschip sprite](images/rocket-sprite.png)
 
