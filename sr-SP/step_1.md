@@ -1,14 +1,14 @@
 \--- no-print \---
 
-This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/clone-wars-scratch2).
+Ово је **Scratch 3** верзија пројекта. Постоји, такође, и [Scratch 2 верзија пројекта](https://projects.raspberrypi.org/en/projects/clone-wars-scratch2).
 
 \--- /no-print \---
 
-## Introduction
+## Увод
 
 In this project you will learn how to create a game in which you have to save the Earth from space monsters.
 
-### What you will make
+### Шта ћеш направити
 
 \--- no-print \---
 
@@ -33,17 +33,17 @@ Score as many points as you can by shooting flying space-hippos. If you get hit 
 
 * * *
 
-## title: What you will need
+## title: Шта ће ти бити потребно
 
-### Hardware
+### Хардвер
 
-+ A computer capable of running Scratch 3
++ Рачунар који може да покрене Scratch 3
 
-### Software
+### Софтвер
 
-+ Scratch 3 (either [online](https://rpf.io/scratchon){:target="_blank"} or [offline](https://rpf.io/scratchoff){:target="_blank"})
++ Scratch 3 ([на мрежи](https://rpf.io/scratchon){:target="_blank"} или [ван мреже](https://rpf.io/scratchoff){:target="_blank"})
 
-### Downloads
+### Преузимање
 
 [Find the downloads here](http://rpf.io/p/en/clone-wars-go).
 
@@ -53,7 +53,7 @@ Score as many points as you can by shooting flying space-hippos. If you get hit 
 
 * * *
 
-## title: What you will learn
+## title: Шта ћеш научити
 
 + How to make sprites move using keyboard input
 + How to clone sprites to make copies of them
@@ -65,14 +65,14 @@ Score as many points as you can by shooting flying space-hippos. If you get hit 
 
 * * *
 
-## title: Additional notes for educators
+## title: Додатне напомене за наставнике
 
 \--- no-print \---
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/clone-wars/print){:target="_blank"}.
+Уколико желите да одштампате овај пројекат, молимо Вас користите [верзију за штампање](https://projects.raspberrypi.org/en/projects/clone-wars/print){:target="_blank"}.
 
 \--- /no-print \---
 
-You can find the [completed project here](http://rpf.io/p/en/clone-wars-get).
+Завршени пројекат можете пронаћи [овде](http://rpf.io/p/en/clone-wars-get).
 
 \--- /collapse \---
