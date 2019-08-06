@@ -33,7 +33,7 @@ Marque o máximo de pontos que você puder atirando "space-hippos" voadores. Se 
 
 * * *
 
-## title: O que você vai precisar
+## título: O que você precisará
 
 ### Hardware
 
@@ -55,9 +55,9 @@ Marque o máximo de pontos que você puder atirando "space-hippos" voadores. Se 
 
 ## title: O que você vai aprender
 
-+ How to make sprites move using keyboard input
-+ How to clone sprites to make copies of them
-+ How to use 'broadcast' and 'receive blocks' to send messages
++ Como fazer sprites mover usando o teclado
++ Como clonar sprites para fazer cópias deles
++ Como usar 'broadcast' e 'receber blocos' para enviar mensagens
 
 \--- /collapse \---
 
@@ -65,7 +65,7 @@ Marque o máximo de pontos que você puder atirando "space-hippos" voadores. Se 
 
 * * *
 
-## title: Additional notes for educators
+## título: Notas adicionais para educadores
 
 \--- no-print \---
 
@@ -73,6 +73,6 @@ Se você precisar imprimir este projeto, por favor, use a [versão para impress�
 
 \--- /no-print \---
 
-[Se você precisar da solução para esse projeto, você pode encontrá-la aqui](http://rpf.io/p/en/clone-wars-get).
+You can find the [completed project here](http://rpf.io/p/en/clone-wars-get).
 
 \--- /collapse \---
