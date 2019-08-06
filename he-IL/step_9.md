@@ -31,7 +31,7 @@ Remember to test your code.
 
 If you look at the bat's costumes, you can see that it has four different ones:
 
-![screenshot](images/invaders-bat-costume.png)
+![צילום מסך](images/invaders-bat-costume.png)
 
 \--- task \---
 
@@ -45,7 +45,7 @@ After the bat has moved, it should show the `next costume`{:class="block3looks"}
 
 \--- /hint \---
 
-\--- hint \---
+\--- hints \---
 
 You need to add these blocks to you code:
 
@@ -73,7 +73,7 @@ end
 
 \--- /hint \---
 
-\--- /hints \---
+\--- / hints \---
 
 \--- /task \---
 
@@ -83,7 +83,7 @@ Now make the bat throw oranges!
 
 Add an `Orange` sprite from the Scratch library.
 
-![screenshot](images/invaders-orange.png)
+![צילום מסך](images/invaders-orange.png)
 
 \--- /task \---
 
