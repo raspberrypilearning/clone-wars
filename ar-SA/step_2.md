@@ -6,13 +6,13 @@ First make a spaceship that can defend the Earth!
 
 Open the 'Clone wars' Scratch starter project.
 
-**Online:** open the starter project at [rpf.io/clone-wars-on](http://rpf.io/clone-wars-on){:target="_blank"}.
+**بالاتصال بالانترنت**: افتح المشروع المبدئي من هنا [rpf.io/clone-wars-on](http://rpf.io/clone-wars-on){:target="_blank"}.
 
-If you have a Scratch account you can make a copy by clicking **Remix**.
+اذا كنت تملك حساب على منصة السكراتش (Scratch) فيمكنك عمل نسخة بالضغط على **Remix**.
 
 **Offline:** download the starter project from [rpf.io/p/en/clone-wars-go](http://rpf.io/p/en/clone-wars-go), and then open it using the offline editor.
 
-If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
+اذا تحتاج تنزيل وتنصيب برنامج السكراتش Scratch على جهازك الشخصي، ستجده في [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
 
 \--- /task \---
 
@@ -51,7 +51,7 @@ Add some more code inside the `forever`{:class="block3control"} block to make yo
 
 Subtracting `4` from the spaceship's `x` position made it move left, so how could you make the spaceship move right by `4` instead?
 
-\--- /hint \---
+\--- hint/ \---
 
 \--- hint \---
 
@@ -61,7 +61,7 @@ You need the same code block, but with a different number:
 غيِّر الموضع س بمقدار ()
 ```
 
-\--- /hint \---
+\--- hint/ \---
 
 \--- hint \---
 
@@ -75,9 +75,9 @@ if <key (right arrow v) pressed?> then
 end
 ```
 
-\--- /hint \---
+\--- hint/ \---
 
-\--- /hints \---
+\--- hints/ \---
 
 \--- /task \---
 
