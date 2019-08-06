@@ -2,7 +2,7 @@
 
 What improvements can you make to your game?
 
-Here are some ideas:
+Вот несколько идей:
 
 + Add health packs that you can collect to gain extra lives.
 
