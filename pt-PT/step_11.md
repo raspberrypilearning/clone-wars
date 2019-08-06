@@ -1,16 +1,16 @@
-## Challenge: improve your game
+## Desafio: Melhorar o teu jogo
 
 What improvements can you make to your game?
 
-Here are some ideas:
+Aqui estão algumas idéias:
 
 + Add health packs that you can collect to gain extra lives.
 
-![screenshot](images/invaders-aid.png)
+![captura de ecrã](images/invaders-aid.png)
 
 + Add floating rocks that your spaceship must avoid.
 
-![screenshot](images/invaders-rocks.png)
+![captura de ecrã](images/invaders-rocks.png)
 
 + Make more enemies appear when your score gets to `100`.
 
