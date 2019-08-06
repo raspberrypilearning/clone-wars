@@ -1,6 +1,6 @@
 ## Foudre
 
-Now you are going to give the spaceship the ability to fire lightning bolts!
+Maintenant, vous allez donner au vaisseau spatial la capacité de tirer des éclairs!
 
 \--- task \---
 
@@ -12,11 +12,11 @@ Ajouter le lutin `Lightning `de la bibliothèque Scratch.
 
 \--- task \---
 
-When the game starts, the `Lightning` sprite should be hidden until the spaceship fires its laser cannons.
+Lorsque le jeu commence, le sprite `Lightning` doit être caché jusqu'à ce que le vaisseau spatial tire ses canons laser.
 
-Add this code to the `Lightning` sprite:
+Ajoutez ce code au sprite `Lightning`:
 
-![lightning sprite](images/lightning-sprite.png)
+![sprite éclair](images/lightning-sprite.png)
 
 ```blocks3
 Quand le drapeau vert est cliqué
@@ -26,71 +26,71 @@ cacher
 
 \--- /task \---
 
-At the moment, the lightning bolt is really big compared to the spaceship!
+Pour le moment, l'éclair est vraiment gros comparé au vaisseau spatial!
 
 \--- task \---
 
-Below the code that the `Lightning` sprite already has, add some blocks to make the sprite smaller and to turn it upside down.
+Sous le code que l’image-objet `Lightning` a déjà, ajoutez des blocs pour la réduire et la retourner.
 
-![lightning sprite](images/lightning-sprite.png)
+![sprite éclair](images/lightning-sprite.png)
 
 ```blocks3
-set size to (25) %
-point in direction (-90)
+définir la taille sur (25)%
+point dans la direction (-90)
 ```
 
-Now it looks like it fires pointy end–first out of the spaceship.
+On dirait maintenant que ça tire au bout pointu - premier sorti du vaisseau spatial.
 
 \--- /task \---
 
 \--- task \---
 
-Add some new code to the `Spaceship` sprite to create a new clone of the lightning bolt if the <kbd>space</kbd> key is pressed.
+Ajoutez un nouveau code au sprite `Spaceship` pour créer un nouveau clone de l'éclair si vous appuyez sur la touche <kbd>espace</kbd>.
 
-\--- astuces \---
-
-\--- hint \---
-
-`When the green flag is clicked`{:class="block3events"}, keep checking `forever`{:class="block3control"} `if`{:class="block3control"} the `space key is pressed`{:class="block3sensing"}, and in that case `create a clone of the Lightning`{:class="block3control"} sprite.
-
-\--- /indice \---
+\--- hints \---
 
 \--- hint \---
 
-Here are the blocks you need:
+`Lorsque le drapeau vert est cliqué`{: class = "block3events"}, continuez à vérifier `pour toujours`{: class = "block3control"} `si`{: class = "block3control"} la touche d'espacement `est enfoncée`{: class = "block3sensing"}, et dans ce cas , `créer un clone de la foudre`{: class = "block3control"} sprite.
+
+\--- /hint \---
+
+\--- hint \---
+
+Voici les blocs que tu as besoin:
 
 ```blocks3
-if <> then
-end
+si <> puis
 
-forever
-end
 
-create clone of (Lightning v)
+pour toujours
+
+
+créer un clone de (Lightning v)
 
 <key (space v) pressed?>
 
-when flag clicked
+lorsque le drapeau est cliqué
 ```
 
-\--- /indice \---
+\--- /hint \---
 
 \--- hint \---
 
-Here is what your new code should look like:
+Voici à quoi devrait ressembler votre nouveau code:
 
-![rocket sprite](images/rocket-sprite.png)
+![lutin de roquette](images/rocket-sprite.png)
 
 ```blocks3
-when flag clicked
-forever
-    if <key (space v) pressed?> then
-        create clone of (Lightning v)
-    end
-end
+lorsque l' indicateur cliqué
+pour toujours
+    si <key (space v) pressed?> puis
+        créer clone de (foudre v)
+    extrémité
+extrémité
 ```
 
-\--- /indice \---
+\--- /hint \---
 
 \--- /astuces \---
 
@@ -98,26 +98,26 @@ end
 
 \--- task \---
 
-Whenever the game creates a `Lightning` sprite clone, the clone should appear and then move upwards until it reaches the top of the Stage. Then the clone should disappear.
+Chaque fois que le jeu crée un clone de sprite `Lightning` , le clone doit apparaître puis se déplacer vers le haut jusqu'à ce qu'il atteigne le haut de la scène. Ensuite, le clone devrait disparaître.
 
-Add this code to the `Lightning` sprite so that clones of it move upwards until they touch the edge of the Stage, and then they get deleted.
+Ajoutez ce code au sprite `Lightning` pour que ses clones se déplacent vers le haut jusqu'à ce qu'ils touchent le bord de la scène, puis ils sont supprimés.
 
-![lightning sprite](images/lightning-sprite.png)
+![sprite éclair](images/lightning-sprite.png)
 
 ```blocks3
-    when I start as a clone
-    go to (Spaceship v)
-    show
-    repeat until <touching (edge v) ?>
-        change y by (10)
-    end
-    delete this clone
+    quand je commence en tant que clone
+    aller à (Spaceship v)
+    montrer
+    répéter jusqu'à ce que <touching (edge v) ?>
+        change y par (10)
+    fin
+    supprimer ce clone
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Press the <kbd>space</kbd> key to test whether the lightning bolt moves correctly.
+Appuyez sur la touche <kbd>espace</kbd> pour vérifier si l'éclair se déplace correctement.
 
 \--- /task \---
