@@ -10,7 +10,7 @@ Odaberite lik `Svemirski brod` i promijenite naziv njegovog kostima u 'normalan'
 
 \--- task \---
 
-Nacrtajte još jedan kostim svemirskog broda koji eksplodira i nazovite novi kostim 'pogodak'.
+Nacrtajte još jedan kostim svemirskog broda koji eksplodira i nazovite novi kostim 'pogođen'.
 
 ![screenshot](images/invaders-spaceship-costumes.png)
 
@@ -22,21 +22,21 @@ Ako ne želite nacrtati eksploziju, možete odabrati "Sunce" kostim iz Scratch k
 
 \--- task \---
 
-Add some code to your `Spaceship` sprite so that it displays the 'normal' costume when the game starts, and switches to the 'hit' costume when it touches a hippo:
+Dodajte naredbe liku `Svemirski brod` tako da prikaže 'normalan' kostim kada započne igra i promijeni se na kostim 'pogođen' kada dotakne nilskog konja:
 
 ![lik rakete](images/rocket-sprite.png)
 
 ```blocks3
-when flag clicked
-switch costume to (normal v)
-wait until <touching (Hippo1 v)>?
-switch costume to (hit v)
+kada je kliknuta zelena zastava
+promijeni kostim u (normalan)
+čekaj do <touching (Hippo1 v)>
+promijeni kostim u (pogođen)
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Test your code. Make the spaceship collide with a hippo. Does the spaceship change to the 'hit' costume?
+Testirajte svoj kôd. Neka se svemirski brod sudari s nilskim konjima. Mijenja li se svemirski brod u 'pogođen' kostim?
 
 \--- /task \---
