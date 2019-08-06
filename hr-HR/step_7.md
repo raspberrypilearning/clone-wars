@@ -9,25 +9,25 @@ Add code to the spaceship sprite to make it `broadcast`{:class="block3events"} t
 ![lik rakete](images/rocket-sprite.png)
 
 ```blocks3
-when flag clicked
-switch costume to (normal v)
-wait until <touching (Hippo1 v)>?
-switch costume to (hit v)
+kada je kliknuta zelena zastava
+promijeni kostim u (normalan)
+čekaj do <dodiruje (Hippo1 v)>
+promijeni kostim u (pogođen)
 
-+ broadcast (hit v)
++ pošalji (pogođen v)
 ```
 
 \--- /task \---
 
 \--- task \---
 
-All of the `Hippo` sprite clones will receive the "hit" message, and you can instruct them to disappear when the spaceship is hit by adding this code to the `Hippo` sprite:
+Svi klonovi lika `Nilski konj` primit će poruku "pogodak" i dodajući ove naredbe liku `Nilski konj` naređujete im da nestanu kada je svemirski brod pogođen:
 
 ![hippo sprite](images/hippo-sprite.png)
 
 ```blocks3
-when I receive [hit v]
-delete this clone
+kada primim [pogodak v]
+izbriši klona
 ```
 
 \--- /task \---
