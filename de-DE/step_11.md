@@ -1,19 +1,19 @@
 ## Herausforderung: Erstelle mehr Blöcke
 
-What improvements can you make to your game?
+Welche Verbesserungen kannst du an deinem Spiel vornehmen?
 
 Hier sind ein paar Vorschläge:
 
-+ Add health packs that you can collect to gain extra lives.
++ Fügen Sie Gesundheitspakete hinzu, die Sie sammeln können, um zusätzliche Leben zu gewinnen.
 
 ![screenshot](images/invaders-aid.png)
 
-+ Add floating rocks that your spaceship must avoid.
++ Füge schwimmende Steine hinzu, die dein Raumschiff meiden muss.
 
 ![screenshot](images/invaders-rocks.png)
 
-+ Make more enemies appear when your score gets to `100`.
++ Lasse mehr Feinde auftauchen, wenn deine Punktzahl `100`.
 
 ```blocks3
-    wait until <(score :: variables) = [100]>
+    warte bis <(score :: variables) = [100]>
 ```
