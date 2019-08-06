@@ -141,7 +141,7 @@ Add some more code to the `Orange` sprite so that when an `Orange` clone hits th
 
 Modify the code of your `Spaceship` sprite so that the sprite is "hit" when it touches a `Hippo` sprite or an `Orange` sprite:
 
-![rocket sprite](images/rocket-sprite.png)
+![lik rakete](images/rocket-sprite.png)
 
 ```blocks3
     wait until < <touching (Hippo1 v)?> or <touching (Orange v)?>>
