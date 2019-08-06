@@ -3,8 +3,8 @@ hero_image: images/clone-wars.png
 theme: violet
 listed: true
 copyedit: true
-title: Clone wars
-description: Create a game in which you have to save the Earth from space monsters
+title: クローンウォーズ
+description: あなたが宇宙モンスターから地球を救わなければならないゲームを作りなさい
 version: 4.1.0
 last_tested: 2018-10-11
 steps:
@@ -15,19 +15,19 @@ steps:
   - 
     title: いなずま
   - 
-    title: 'Challenge: improve the lightning'
+    title: '課題：雷を改善する'
     challenge: true
   - 
-    title: Space-hippos
+    title: 宇宙カバ
   - 
-    title: Spaceship explosion
+    title: 宇宙船爆発
   - 
-    title: Hippos that disappear
+    title: 消えるカバ
   - 
     title: 'チャレンジ：命（いのち）と点数'
     challenge: true
   - 
-    title: Space-bat
+    title: スペースバット
   - 
     title: Game Over!（ゲーム終了）
   - 
