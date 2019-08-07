@@ -4,15 +4,15 @@ Sada ćete dodati poruku 'kraj igre' kada igra završi.
 
 \--- task \---
 
-If you haven't already, create a new variable called `lives`{:class="block3variables"}.
+Ako već niste, stvorite novu varijablu koja se zove `životi` {: Class = "block3variables"}.
 
-Your spaceship should start with three lives and lose a life whenever it touches a hippo or an orange. Your game should stop when the `lives`{:class="block3variables"} run out.
+Vaš svemirski brod trebao bi započeti s tri života i izgubiti život kad god dodirne nilskog konja ili naranču. Vaša bi se igra trebala zaustaviti kad ponestane `životi` {: class = "block3variables"}.
 
 \--- /task \---
 
 \--- task \---
 
-Draw a new sprite called `Game Over` using the **text** tool.
+Nacrtajte novi lik pod nazivom `Kraj igre` koristeći ** tekst ** alat.
 
 ![screenshot](images/invaders-game-over.png)
 
@@ -20,36 +20,36 @@ Draw a new sprite called `Game Over` using the **text** tool.
 
 \--- task \---
 
-On the Stage, broadcast a `game over`{:class="block3events"} message just before the game ends.
+Na pozornici prikažite `Kraj igre` {: class = "block3events"} poruku neposredno prije nego igra završi.
 
 ![gameover sprite](images/stage-sprite.png)
 
 ```blocks3
-broadcast (game over v) and wait
+pošalji (kraj igre v) i čekaj
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Add this code to your `Game Over` sprite so that it shows at the end of the game:
+Dodajte ovaj kôd vašem `Kraj igre` liku kako bi se na kraju igre prikazao:
 
 ![gameover sprite](images/gameover-sprite.png)
 
 ```blocks3
-when flag clicked
-hide
+kada je kliknuta zelena zastava
+sakrij
 
-when I receive [game over v]
-show
+kada primim [kraj igre v]
+prikaži
 ```
 
-Because you've used a `broadcast (game over) and wait`{:class="block3events"} block on your Stage, the Stage will wait for the `Game Over` sprite to be displayed before ending the game.
+Budući da ste koristili `pošalji (igra je gotova) i čekaj` {: class = "block3events"} blok na vašoj pozornici, pozornica će čekati da se prikaže lik `Kraj igre` prije završetka igre.
 
 \--- /task \---
 
 \--- task \---
 
-Test your game. How many points can you score? If the game is too easy or too hard, can you think of ways to improve it?
+Testirajte svoju igru. Koliko bodova možete postići? Ako je igra previše lagana ili previše naporna, možete li smisliti načine kako je poboljšati?
 
 \--- /task \---
