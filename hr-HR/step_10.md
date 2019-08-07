@@ -1,6 +1,6 @@
-## Game over
+## Kraj igre
 
-Next, you're going to add a 'game over' message at the end of the game.
+Sada ćete dodati poruku 'kraj igre' kada igra završi.
 
 \--- task \---
 
