@@ -69,7 +69,7 @@ Je kunt [de downloads hier vinden](http://rpf.io/p/en/clone-wars-go).
 
 \--- no-print \---
 
-Als je dit project wilt afdrukken, gebruik dan de [printvriendelijke versie](https://projects.raspberrypi.org/en/projects/clone-wars/print) {:target="_ blank"}.
+Als je dit project wilt afdrukken, gebruik dan de [printervriendelijke versie](https://projects.raspberrypi.org/en/projects/clone-wars/print) {:target="_ blank"}.
 
 \--- /no-print \---
 
