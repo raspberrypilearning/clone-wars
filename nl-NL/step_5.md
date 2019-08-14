@@ -1,85 +1,152 @@
 ## Vliegende ruimte-nijlpaarden
 
-Laten we heel veel vliegende nijlpaarden toevoegen die proberen je ruimteschip te vernietigen.
+Nu ga je veel vliegende nijlpaarden (flying hippos) toevoegen die proberen jouw ruimteschip te vernietigen.
 
-+ Maak een nieuwe sprite met de `Hippo1` afbeelding uit de Scratch-bibliotheek. Gebruik het **Kleiner maken** hulpmiddel om de `Hippo` Sprite net zo klein te maken als de `Spaceship` sprite.
+--- task ---
+
+Maak een nieuwe sprite met de 'Hippo1' afbeelding in de Scratch bibliotheek. Gebruik de **grootte** instelling om de `Hippo1` sprite even groot als de `Ruimteschip` sprite te maken.
 
 ![screenshot](images/invaders-hippo.png)
 
-+ Stel de `Hippo` sprite in de draaistijl zodat deze alleen links-rechts draait.
+--- /task ---
 
-[[[generic-scratch-sprite-rotation-style]]]
+--- task ---
 
-+ Voeg code toe om als het spel begint de `Hippo` Sprite te verbergen.
+Stel de `nijlpaard` sprite's draaistijl in op **links-rechts**.
 
---- hints --- --- hint --- De code hiervoor is precies hetzelfde als de code die je hebt gebruikt om de `Lightning` Sprite aan het begin van het spel te verbergen. --- /hint --- --- hint --- Dit is de code die je nodig hebt:
+[[[generic-scratch3-sprite-rotation-style]]]
 
-```blocks
+--- /task ---
+
+--- task ---
+
+Voeg code toe om als het spel begint de `nijlpaard` Sprite te verbergen.
+
+![nijlpaard sprite](images/hippo-sprite.png)
+
+```blocks3
 wanneer groene vlag wordt aangeklikt 
  verdwijn
 ```
 
---- /hint --- --- /hints ---
+--- /task ---
 
-+ Ga naar de stars achtergrond door te klikken op de achtergrond links onder.
+--- task ---
 
-+ Voeg wat code toe aan de achtergrond om elke paar seconden een nieuw nijlpaard te maken.
+Voeg wat code toe aan de achtergrond om elke paar seconden een nieuwe `nijlpaard` aan te maken.
 
---- hints --- --- hint --- Wanneer op de groene vlag wordt geklikt: herhaal...
+--- hints ---
 
-+ Wacht tussen 2 en 4 seconden
-+ Maak een kloon van de hippo-sprite
 
---- /hint --- --- hint --- Hier is de code die je nodig hebt: ![Clone hippo hint](images/clone-hippo-hint.png)
+--- hint ---
 
---- /hint --- --- hint --- Hier is de code die je nodig hebt:
+Wanneer op de `groene vlag wordt geklikt`{:class="block3events"}, `herhaal`{:class="block3control"} `wacht`{:class="block3control"} `tussen 2 en 4 seconden`{:class="block3operators"} en vervolgens `maak een kloon van Hippo1`{:class="block3control"}.
 
-```blocks
+--- /hint ---
+
+--- hint ---
+
+Dit zijn de blokken die je nodig hebt:
+
+```blocks3
+herhaal
+end
+
+maak een kloon van (Hippo1 v)
+
+(willekeurig getal tussen (2) en (4))
+
+wanneer groene vlag wordt aangeklikt
+
+wacht () sec.
+```
+
+--- /hint ---
+
+--- hint ---
+
+Dit is hoe je code eruit zou moeten zien:
+
+![achtergrond sprite](images/stage-sprite.png)
+
+```blocks3
 wanneer groene vlag wordt aangeklikt
 herhaal 
   wacht (willekeurig getal tussen (2) en (4)) sec.
-  maak kloon van [Hippo1 v]
+  maak een kloon van (Hippo1 v)
 end
 ```
 
---- /hint --- --- /hints ---
+--- /hint ---
 
-+ Schakel terug naar de `Hippo` sprite.
+--- /hints ---
 
-Elke nieuw nijlpaard moet op een willekeurige x-positie verschijnen en moet een willekeurige snelheid hebben.
+--- /task ---
 
-+ Maak een nieuwe variabele met de naam `snelheid`{:class="blockdata"} deze is alleen voor de `Hippo` sprite.
+Elke nieuw nijlpaard moet op een willekeurige `x`-positie verschijnen en moet een willekeurige snelheid hebben.
 
-[[[generic-scratch-add-variable]]]
+--- task ---
 
-Je hebt dit goed gedaan als je de variabele naam van de sprite ernaast ziet staan, zoals hier:
+Maak een nieuwe variabele met de naam `snelheid`{:class="blockdata"} die alleen voor de `Hippo` sprite is.
+
+[[[generic-scratch3-add-variable]]]
+
+Als je dit goed hebt gedaan, staat voor de variabele de naam van de sprite, zoals hier:
 
 ![screenshot](images/invaders-var-test.png)
 
-+ Bij elke nijlpaardenkloon, kies je een willekeurige snelheid en startplaats voordat je deze op het scherm laat zien.
+--- /task ---
 
-```blocks
+--- task ---
+
+Wanneer elke `nijlpaard` kloon start, kies dan een willekeurige snelheid en start plaats voor de kloon. Laat de kloon dan zien op het scherm.
+
+```blocks3
 wanneer ik als kloon start
-maak [snelheid v] (willekeurig getal tussen (2) en (4))
-ga naar x: (willekeurig getal tussen (-220) en (220)) y: (150)
+maak [snelheid v] (willekeurig getal tussen (2) tot (4)) 
+ga naar x: (kies willekeurig (-220) tot (220)) y: (150) 
 verschijn
 ```
 
-+ Test je code door op de groene vlag te klikken. Verschijnt er om de paar seconden een nieuwe nijlpaard? Op dit moment bewegen je nijlpaarden niet.
+--- /task ---
 
-+ De nijlpaard moet willekeurig rondvliegen totdat hij wordt geraakt door een bliksemflits. Om dit mogelijk te maken, plak je deze code onder de blokken die je zojuist hebt toegevoegd:
+--- task ---
 
-```blocks
-herhaal tot <raak ik [lightning v] ?> 
-  neem (snelheid) stappen
+Test je code. Verschijnt er om de paar seconden een nieuwe nijlpaard?
+
+--- /task ---
+
+Op dit moment bewegen de nijlpaarden niet.
+
+--- task ---
+
+Elke hippo zou willekeurig moeten bewegen totdat het geraakt wordt door een bliksemschicht. Om dat te doen, voeg deze code toe onder de blokken die al in het `nijlpaard` sprite script staan:
+
+```blocks3
+herhaal tot <touching (lightning v) ?> 
+  neem (snelheid :: variables) stappen
   draai (willekeurig getal tussen (-10) en (10)) graden naar rechts
   keer om aan de rand
 end
 verwijder deze kloon
 ```
 
-+ Test je hippocode. Je zou elke paar seconden een nieuwe nijlpaardkloon moeten zien verschijnen, elk met zijn eigen snelheid.
-    
-    ![screenshot](images/hippo-clones.gif)
+--- /task ---
 
-+ Test je laserkanon. Als je een nijlpaard raakt, verdwijnt die dan?
+--- task ---
+
+Test je code opnieuw. Je zou moeten zien dat elke paar seconden een nieuwe nijlpaard kloon verschijnt, en elke kloon moet met een andere snelheid bewegen.
+
+--- no-print ---
+
+![screenshot](images/hippo-clones.gif)
+
+--- /no-print ---
+
+--- /task ---
+
+--- task ---
+
+Test nu het laser kanon van het ruimteschip. Als een bliksemschicht een nijlpaard raakt, verdwijnt dan het nijlpaard?
+
+--- /task ---

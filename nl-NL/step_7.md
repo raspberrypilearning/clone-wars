@@ -1,58 +1,61 @@
 ## Verdwijnende nijlpaarden
 
-Wanneer het ruimteschip wordt geraakt, moeten alle nijlpaarden verdwijnen om de speler een kans te geven om te herstellen.
+Wanneer het ruimteschip ontploft, moeten alle nijlpaarden verdwijnen zodat de speler het spel kan hervatten.
 
-+ Voeg een blok toe aan je code voor een `zend signaal` "geraakt" bericht wanneer het ruimteschip een nijlpaard raakt.
+--- task ---
 
-[[[generic-scratch-broadcast-message]]]
+Voeg code aan de ruimteschip sprite toe om het `zend signaal`{:class="block3events"} bericht "raak" te maken wanneer het `ruimteschip een nijlpaard raakt`{:class="block3sensing"}.
 
---- hints --- --- hint --- Maak een `-zend signaal 'geraakt'` blok door het blok uit de **gebeurtenissen** tab te slepen en klik vervolgens op het pijltje ernaast en selecteer **nieuw bericht...**. --- /hint --- --- hint --- Hier is hoe je blok eruit zou moeten zien:
+![ruimteschip sprite](images/rocket-sprite.png)
 
-```blocks
-zend signaal [geraakt v]
-```
-
---- /hint --- --- hint --- Hier is hoe je blok eruit zou moeten zien:
-
-```blocks
+```blocks3
 wanneer groene vlag wordt aangeklikt
-verander uiterlijk naar [normaal v] 
-wacht tot <touching [Hippo1 v]>? 
-verander uiterlijk naar [geraakt v]
+verander uiterlijk naar (normaal v)
+wacht tot <touching (Hippo1 v)>
+verander uiterlijk naar (raak v)
+zend signaal (raak v)
 ```
 
---- /hint --- --- /hints ---
+--- /task ---
 
-Alle `Hippo` sprite-klonen zullen dit bericht horen, zodat je ze nu kunt instrueren om te verdwijnen wanneer het ruimteschip wordt geraakt.
+--- task ---
 
-+ Voeg deze code toe aan de `Hippo` sprite:
+Alle `nijlpaard` klonen ontvangen het "raak" bericht, en je kunt hen opdragen om te verdwijnen als het schip wordt getroffen door deze code toe te voegen aan `nijlpaard` sprite:
 
-```blocks
-wanneer ik signaal [geraakt v] ontvang, 
+![nijlpaard sprite](images/hippo-sprite.png)
+
+```blocks3
+wanneer ik signaal [raak v] ontvang, 
 verwijder deze kloon
 ```
 
-+ Test deze code door een nieuw spel te starten en opzettelijk in botsing te komen met een nijlpaard.
+--- /task ---
+
+--- task ---
+
+Om te controleren of de nieuwe code werkt, klik op de groene vlag en laat het ruimteschip een nijlpaard raken.
 
 ![screenshot](images/invaders-hippo-collide.png)
 
-Nadat je bent geraakt, verschijnen de nijlpaarden weer, maar het ruimteschip is nog steeds geëxplodeerd! Laten we het mogelijk maken dat het ruimteschip zichzelf reset na geraakt te zijn.
+--- /task ---
 
-+ Voeg een `herhaal`{:class="blockcontrol"} blok toe rondom al je code om het proces te laten herhalen, en een `wacht`{:class="blockcontrol"} blok aan het einde toe om een ​​kleine pauze in te voegen voordat nijlpaarden weer verschijnen.
+Nadat het ruimteschip ontploft is, verschijnen nieuwe `nijlpaard` klonen, maar het ruimteschip is nog steeds ontploft! Het schip moet zichzelf herstellen na geraakt te zijn.
 
-```blocks
+--- task ---
+
+Voeg een `wacht`{:class="block3control"} blok toe aan het einde van de `ruimteschip` sprite code om een kleine pauze te maken voordat de nijlpaarden weer beginnen te verschijnen. Voeg vervolgens een `herhaal`{:class="block3control"} blok rond al je code toe om de code herhaaldelijk uit te laten voeren.
+
+![ruimteschip sprite](images/rocket-sprite.png)
+
+```blocks3
 wanneer groene vlag wordt aangeklikt
-verander uiterlijk naar [normaal v] 
-wacht tot <touching [Hippo1 v]>? 
-verander uiterlijk naar [geraakt v]
-zend signaal [geraakt]
-wacht (1) sec.
+herhaal 
+ verander uiterlijk naar (normaal v)
+ wacht tot <touching (Hippo1 v)>
+ verander uiterlijk naar (raak v)
+ zend signaal (raak v)
+ wacht (1) sec.
+end
 ```
 
---- challenge ---
-
-### Uitdaging: levens en score
-
-Op dit moment heeft de speler een oneindig aantal levens. Kun je `levens`{:class="blockdata"}, een `score`{:class="blockdata"}, of zelfs een `highscore`{:class="blockdata"} toevoegen aan je spel?
-
-[[[generic-scratch-high-score]]] --- /challenge ---
+--- /task ---

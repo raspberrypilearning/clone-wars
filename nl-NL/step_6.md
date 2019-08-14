@@ -2,23 +2,41 @@
 
 Wanneer een nijlpaard je ruimteschip raakt, moet het schip ontploffen!
 
-+ Selecteer de `Spaceship` sprite en hernoem het uiterlijk naar 'normaal'.
+--- task ---
 
-+ Teken een ander uiterlijk van een ruimteschip dat explodeert en noem het 'geraakt'.
+Selecteer de `ruimteschip` sprite en hernoem het uiterlijk naar 'normaal'.
+
+--- /task ---
+
+--- task ---
+
+Teken een ander uiterlijk van een exploderend ruimteschip en noem het nieuwe uiterlijk 'raak'.
 
 ![screenshot](images/invaders-spaceship-costumes.png)
 
-Of, als je de explosie niet wilt tekenen, kun je het 'Sun'-kostuum uit de Scratch-bibliotheek kiezen en de **kleur een vorm** hulpmiddel gebruiken om de kleur te veranderen en het gezicht te verwijderen.
+Of, als je de explosie niet wilt tekenen, kun je het 'Sun'-uiterlijk uit de Scratch-bibliotheek kiezen en het **gereedschap** gebruiken om de kleur en het gezicht te veranderen.
 
 ![screenshot](images/invaders-sun.png)
 
-+ Voeg een code toe aan uw `Spaceship` sprite zodat het begint met het weergeven van het normaal-uiterlijk, maar wanneer het een vliegende nijlpaard raakt, schakelt het over naar het 'raak'-kostuum:
+--- /task ---
 
-```blocks
+--- task ---
+
+Voeg wat code toe aan je `ruimteschip` sprite zodat het het 'normaal' uiterlijk toont wanneer het spel begint, en schakelt naar het 'raak' uiterlijk wanneer het een hippo raakt:
+
+![ruimteschip sprite](images/rocket-sprite.png)
+
+```blocks3
 wanneer groene vlag wordt aangeklikt
-verander uiterlijk naar [normaal v] 
-wacht tot <touching [Hippo1 v]>? 
-verander uiterlijk naar [geraakt v]
+verander uiterlijk naar (normaal v)
+wacht tot <touching (Hippo1 v)>
+verander uiterlijk naar (hit v)
 ```
 
-+ Test je code door het spel te spelen en in botsing te komen met een nijlpaard. Verandert het ruimteschip in het 'geraakt'-kostuum?
+--- /task ---
+
+--- task ---
+
+Test je code. Raak het ruimteschip met een nijlpaard. Is het ruimteschip veranderd in het 'raak'-uiterlijk?
+
+--- /task ---
