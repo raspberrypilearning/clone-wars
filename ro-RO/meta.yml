@@ -1,0 +1,25 @@
+---
+hero_image: images/clone-wars.png
+theme: violet
+listed: true
+copyedit: true
+title: Războiul clonelor
+description: Creează un joc în care trebuie să salvezi Pământul de monștrii din spațiu
+version: 4.1.0
+last_tested: 2018-10-11
+steps:
+  - title: Introducere
+  - title: Creează o navă spațială
+  - title: Fulgere
+  - title: 'Provocare: Îmbunătățeste fulgerul'
+    challenge: true
+  - title: Hipopotami-spațiali
+  - title: Explozia navei spațiale
+  - title: Hipopotami care dispar
+  - title: 'Provocare: vieți și scor'
+    challenge: true
+  - title: Liliac-spațial
+  - title: Finalul jocului
+  - title: 'Provocare: Îmbunătățește-ți jocul'
+    challenge: true
+  - title: Ce urmează?
