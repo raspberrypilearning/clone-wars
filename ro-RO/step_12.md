@@ -20,6 +20,7 @@ Vei folosi săgețile pentru a muta personajul tău în aceasta lume. ![showcase
 --- /print-only ---
 
 
+
 **Traducere realizată de comunitate**
 
 Proiectul a fost tradus de **Andra Popescu** și verificat de **Gelu Ungur**.
