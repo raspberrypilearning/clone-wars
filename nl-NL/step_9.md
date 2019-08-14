@@ -1,31 +1,156 @@
-## Game over
+## Ruimte-vleermuis
 
-Laten we aan het einde van het spel een 'game-over'-bericht toevoegen.
+Om het spel een beetje moeilijker te maken, maken we een vleermuis die sinaasappels naar het ruimteschip gooit.
 
-+ Maak, als je dat nog niet gedaan hebt, een nieuwe variabele met de naam `levens`{:class="blockdata"} aan.
+![een vleermuis die een sinaasappel naar het ruimteschip gooit](images/bat-oranges.png)
 
-Je ruimteschip moet beginnen met drie levens en een leven verliezen wanneer het een nijlpaard of een sinaasappel raakt. Je game zou ook moeten stoppen als je geen levens meer hebt. Als je hulp nodig hebt, kun je het [Vang de stippen](https://projects.raspberrypi.org/nl-NL/projects/catch-the-dots) project gebruiken om je te helpen.
+--- task ---
 
-+ Teken een nieuwe sprite genaamd `Game Over` met behulp van de **tekst** tool.
+Voeg een `Bat (vleermuis)` sprite toe en zet de draaistijl op **links-rechts**.
 
-![screenshot](images/invaders-game-over.png)
+--- /task ---
 
-+ Verspreid een `game over`{:class="blockevents"} bericht vlak voordat het spel eindigt.
+--- task ---
 
-```blocks
-zend signaal [game over v] en wacht
+Zorg ervoor dat de `vleermuis` sprite zich van links naar rechts aan de bovenkant van het speelveld `verplaatst`{:class="block3motion"} door middel van een `herhaal`{:class="block3control"} blok.
+
+![vleermuis sprite](images/bat-sprite.png)
+
+```blocks3
+wanneer groene vlag wordt aangeklikt
+maak grootte (50) %
+herhaal 
+  neem (10) stappen
+  keer om aan de rand
+end
 ```
 
-+ Voeg deze code toe aan je `Game over` sprite, zodat aan het einde van het spel het bericht verschijnt:
+Vergeet niet om je code te testen.
 
-```blocks
+--- /task ---
+
+Als je naar de uiterlijken van de vleermuis kijkt, zie je dat deze vier verschillende heeft:
+
+![screenshot](images/invaders-bat-costume.png)
+
+--- task ---
+
+Gebruik het `Volgend uiterlijk`{:class="block3looks"} blok om de vleermuis te laten vliegen als het beweegt.
+
+--- hints ---
+
+
+--- hint ---
+
+Nadat de vleermuis is verplaatst, moet het het `volgend uiterlijk`{:class="block3look"} weergeven en vervolgens `wachten`{:class="block3control"} voor een korte tijd.
+
+--- /hint ---
+
+--- hint ---
+
+Je moet deze blokken toevoegen aan jouw code:
+
+```blocks3
+wacht (0.3) sec.
+
+volgend uiterlijk
+```
+
+--- /hint ---
+
+--- hint --- Je code zou er zo uitzien:
+
+```blocks3
 wanneer groene vlag wordt aangeklikt
+maak grootte (50) %
+herhaal 
+ neem (10) stappen
+ keer om aan de rand
+ volgend uiterlijk
+ wacht (0.3) sec.
+end
+```
+
+--- /hint ---
+
+--- /hints ---
+
+--- /task ---
+
+Nu laten we de vleermuis sinaasappels gooien!
+
+--- task ---
+
+Voeg een nieuwe `Orange (sinaasappel)` sprite toe uit de Scratch-bibliotheek.
+
+![screenshot](images/invaders-orange.png)
+
+--- /task ---
+
+--- task ---
+
+Voeg code toe aan je vleermuis zodat `wanneer op de groene vlag wordt geklikt`:class="block3events"}, de `vleermuis` sprite `herhaal`{:class="block3control"} `wacht`{:class="block3control"} voor een `willekeurige`{:class="block3operators"} tijdsduur tussen `5 tot 10` {:class="block3operators"} seconden en vervolgens `een kloon maakt`{:class="block3control"} van de `sinaasappel` sprite.
+
+![vleermuis sprite](images/bat-sprite.png)
+
+```blocks3
+wanneer groene vlag wordt aangeklikt
+herhaal 
+  wacht (willekeurig getal tussen (5) en (10)) sec.
+  maak een kloon van (Orange v)
+end
+```
+
+--- /task ---
+
+--- task ---
+
+Voeg code toe aan de `sinaasappel` sprite om elke sinaasappel-kloon vanaf de `vleermuis` naar de onderkant van het speelveld te laten vallen.
+
+![sinaasappel sprite](images/orange-sprite.png)
+
+```blocks3
+    wanneer groene vlag wordt aangeklikt
 verdwijn
 
-wanneer ik signaal [game over v] ontvang
+wanneer ik als kloon start
+ga naar (Bat v)
 verschijn
+herhaal tot <raak ik (rand v)?
+  verander y met (-4)
+end
+verwijder deze kloon
 ```
 
-Omdat je een `zend signaal [game over] en wacht`{:class="blockevents"} hebt gebruikt, zal het wachten op de `game-over` sprite voordat het spel wordt beëindigd.
+--- /task ---
 
-+ Test je spel. Hoeveel punten kun je scoren? Als het te gemakkelijk of te moeilijk is, kun je dan manieren bedenken om je spel te verbeteren?
+--- task ---
+
+Voeg wat meer code toe aan de `sinaasappel` sprite zodat wanneer een `sinaasappel` kloon de `ruimteschip` sprite raakt, de kloon ook verdwijnt om de speler een kans te geven om te resetten:
+
+![sinaasappel sprite](images/orange-sprite.png)
+
+```blocks3
+    wanneer ik signaal [raak v] ontvang
+verwijder deze kloon
+```
+
+--- /task ---
+
+--- task ---
+
+Wijzig de code van je `ruimteschip` sprite zodat de sprite "geraakt" is wanneer het een `nijlpaard` of een `sinaasappel` sprite raakt:
+
+![ruimteschip sprite](images/rocket-sprite.png)
+
+```blocks3
+    wacht tot < <touching (Hippo1 v)?> of <touching (Orange v)?>>
+```
+
+--- /task ---
+
+--- task ---
+
+Test je spel. Wat gebeurt er als het ruimteschip geraakt wordt door een vallende sinaasappel?
+
+--- /task ---

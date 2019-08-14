@@ -1,54 +1,123 @@
-## Maak een ruimteschip
+## Bliksemschichten
 
-Laten we een ruimteschip maken dat de aarde zal verdedigen!
+Nu ga je het ruimteschip de mogelijkheid geven om bliksemschichten af te vuren!
 
-+ Start een nieuw Scratch-project en verwijder de cat-sprite.
+--- task ---
 
-[[[generic-scratch-new-project]]]
+Voeg de `Lightning` sprite toe uit de Scratch-bibliotheek.
 
-+ Voeg de `stars` achtergrond en de `spaceship` sprite aan je project toe.
-    
-    ![screenshot](images/invaders-sprites.png)
+[[[generic-scratch3-sprite-from-library]]]
 
-[[[generic-scratch-backdrop-from-library]]]
+--- /task ---
 
-[[[generic-scratch-sprite-from-library]]]
+--- task ---
 
-+ Gebruik het **kleiner maken** hulpmiddel om je `spaceship` Sprite een beetje kleiner te maken en plaats deze onder aan het scherm.
+Wanneer het spel begint, moeten de `Lightning` sprites verborgen worden totdat het ruimteschip zijn laser kanon afschiet.
 
-+ Als de **linker** de pijltjestoets wordt ingedrukt, moet het ruimteschip naar links bewegen. Voeg deze code toe om je ruimteschip naar links te verplaatsen wanneer de **linker** pijltjestoets wordt ingedrukt:
+Voeg deze code toe aan de `Lightning` sprite:
 
-```blocks
-    wanneer groene vlag wordt aangeklikt
-  herhaal
-    als <toets [pijltje links v] ingedrukt?> dan
-      verander x met (-4)
-    einde
-  einde
+![lightning sprite](images/lightning-sprite.png)
+
+```blocks3
+wanneer groene vlag wordt aangeklikt 
+ verdwijn
 ```
 
-De x-as gaat van links naar rechts in het speelveld, dus als je de x-positie van het ruimteschip verandert door een getal ervan af te trekken, zal het ruimteschip naar links bewegen. Deze code is het deel dat je ruimteschip naar links verplaatst:
+--- /task ---
 
-```blocks
-verander x met (-4)
+Op dit moment is de bliksemschicht echt groot in vergelijking met het ruimteschip!
+
+--- task ---
+
+Onder de code die `Lightning` sprite al heeft, voeg je enkele blokken toe om de sprite kleiner te maken en om deze om te draaien.
+
+![lightning sprite](images/lightning-sprite.png)
+
+```blocks3
+maak grootte (25) %
+richt naar (-90) graden
 ```
 
-+ Voeg code toe in het `herhaal`{:class="blockcontrol"} blok om je ruimteschip naar rechts te verplaatsen wanneer de **rechter** pijltjestoets wordt ingedrukt.
+Nu lijkt het als of de punt het eerst uit het ruimteschip wordt geschoten.
 
---- hints --- --- hint --- Als je `4` van de positie van het ruimteschip aftrekt ging het naar links, hoe kun je in plaats daarvan het ruimteschip naar rechts laten bewegen met `4`? --- /hint --- --- hint --- Je moet hetzelfde blok gebruiken, maar met een andere waarde:
+--- /task ---
 
-```blocks
-verander x met ( )
+--- task ---
+
+Voeg nieuwe code toe om de `ruimteschip` sprite een nieuwe bliksemschicht te laten maken als op de <kbd>spatie</kbd> toets wordt gedrukt.
+
+--- hints ---
+
+
+--- hint ---
+
+`Wanneer op de groene vlag wordt geklikt`{:class="block3events"}, controleer `voor altijd`{:class="block3control"} `als`{:class="block3control"} de `spatie toets wordt ingedrukt`{:class="block3sensing"}, en in dat geval `maak een kloon van de Lightning`{:class="block3control"} sprite.
+
+--- /hint ---
+
+--- hint ---
+
+Dit zijn de blokken die je nodig hebt:
+
+```blocks3
+als <> dan
+end
+
+herhaal
+end
+
+maak een kloon van (Lightning v)
+
+&lt;key (space v) pressed?&gt;
+
+wanneer groene vlag wordt aangeklikt
 ```
 
---- /hint --- --- hint --- Dit is de code die je nodig hebt om onder de andere code in het `herhaal`{:class="blockcontrol"} blok in te voegen:
+--- /hint ---
 
-```blocks
-als <toets [pijltje rechts v] ingedrukt?> dan
-   verander x met (4)
-einde
+--- hint ---
+
+Dit is hoe je code eruit zou moeten zien:
+
+![ruimteschip sprite](images/rocket-sprite.png)
+
+```blocks3
+wanneer groene vlag wordt aangeklikt
+herhaal 
+  als <key (space v) pressed?> dan 
+    maak een kloon van (Lightning v)
+  end
+end
 ```
 
---- /hint --- --- /hints ---
+--- /hint ---
 
-+ Test je project door op de groene vlag te klikken. Kun je je ruimteschip links en rechts laten bewegen met de pijltjestoetsen?
+--- /hints ---
+
+--- /task ---
+
+--- task ---
+
+Wanneer het spel een `Lightning` sprite kloont, moet de kloon verschijnen en vervolgens naar boven gaan totdat het de bovenkant van het speelveld bereikt. Dan moet de kloon verdwijnen.
+
+Voeg deze code toe aan de `Lightning` sprite zodat klonen ervan naar boven bewegen totdat ze de rand van het speelveld raken, en vervolgens verwijderd worden.
+
+![lightning sprite](images/lightning-sprite.png)
+
+```blocks3
+    wanneer ik als kloon start
+ga naar (Ruimteschip v)
+verschijn
+herhaal tot <touching (edge v) ?> 
+  verander y met (10)
+end
+verwijder deze kloon
+```
+
+--- /task ---
+
+--- task ---
+
+Druk op de <kbd>spatietoets</kbd> om te testen of je bliksemschicht nu correct wordt afgevuurd.
+
+--- /task ---
