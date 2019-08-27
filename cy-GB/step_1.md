@@ -1,34 +1,75 @@
+--- no-print ---
+
+Dyma fersiwn **Scratch 3** y prosiect. Ceir hefyd [fersiwn Scratch 2 o'r prosiect](https://projects.raspberrypi.org/cy-GB/projects/clone-wars-scratch2).
+
+--- /no-print ---
+
 ## Cyflwyniad
 
-Yn y prosiect yma fe fyddi di'n dysgu sut i greu gên i achub y Ddaear rhag anghenfilod y gofod.
+Yn y prosiect hwn byddi di'n dysgu sut i greu gêm lle mae'n rhaid achub y Ddaear rhag bwystfilod gofod.
+
+### Yr hyn byddi di'n ei greu
+
+--- no-print ---
+
+Clicia'r faner werdd yn esiampl y gêm isod i gychwyn, yna gwasga ar y bysellau saeth <kbd>chwith</kbd> a <kbd>dde</kbd> i symud y llong ofod, a'r bysell <kbd>bwlch</kbd> i saethu.
 
 <div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/46018140/?autostart=false" frameborder="0"></iframe>
-  <img src="images/invaders-final.png">
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/276887163/?autostart=false" frameborder="0" scrolling="no"></iframe>
+  <img src="images/showcase.png">
 </div>
+
+--- /no-print ---
+
+Sgoria cymaint o bwyntiau ag sy'n bosib wrth saethu hippos-gofod sy'n hedfan. Os wyt ti'n cael dy daro gan hippo neu gan oren sy'n cael ei ollwng gan ystlum, rwyt ti'n colli bywyd.
+
+--- print-only ---
+
+![desc](images/showcase.png)
+
+--- /print-only ---
 
 --- collapse ---
 ---
-title: Nodiadau i Wirfoddolwyr
+title: Beth fydd ei angen arno ti
 ---
 
-## Adnoddau
-Ar gyfer y prosiect yma, dylid defnyddio Scratch 2.  Mae modd defnyddio Scratch 2 arlein yma [jumpto.cc/scratch-on](http://jumpto.cc/scratch-on) neu mae modd ei lawrlwytho yma [jumpto.cc/scratch-off](http://jumpto.cc/scratch-off) a'i ddefnyddio heb gysylltiad gwe.
+### Caledwedd
 
-Mae modd gweld y prosiect wedi ei gwblhau yma<a href="http://scratch.mit.edu/projects/46018140/#editor">online</a>, neu mae modd ei lawrlwytho wrth glicio ar ddolen 'Adnoddau'r Prosiect' ar gyfer y prosiect yma, sydd yn cynnwys:
++ Cyfrifiadur sy'n gallu rhedeg Scratch 3
 
-+ CloneWars.sb2
+### Meddalwedd
 
-## Nodau Dysgu
-+ Mae'r prosiect yma yn atgyfnerthu'r sgiliau rhaglenni sydd wedi eu dysgu yn barod, ac yn dangos sut mae cipluniau yn gallu creu clonau o gipluniau _arall_, a sut gall nifer o glonau gael eu defnyddio fel taflegryn.
++ Scratch 3 (unai [arlein](https://rpf.io/scratchon){:target="_blank"} neu [all-lein](https://rpf.io/scratchoff){:target="_blank"})
 
-Mae'r prosiect yma yn trin elfennau sydd yn rhan o'r adran ganlynol o [Faes Llafur Gwneud Digidol Raspberry Pi](http://rpf.io/curriculum):
+### Lawrlwythiadau
 
-+ [Cyfuno adeiladwaith rhaglenni i ddatrys problem.](https://www.raspberrypi.org/curriculum/programming/builder)
+[Ffeiliau i'w lawrlwytho yma](http://rpf.io/p/cy-GB/clone-wars-go).
 
-## Heriau
-+ "Trwsio'r mellt" - defnyddio bloc `aros`{:class="blockcontrol"} i leihau nifer y mellt; 
-+ "Bywydau a sgôr" - creu newidyn `bywydau`{:class="blockdata"}, `sgôr`{:class="blockdata"} a `sgôr uchel`{:class="blockdata"};
-+ "Gwella dy gêm" - ychwanegu gelynion ychwanegol, pecynnau iechyd, ayyb. 
+--- /collapse ---
+
+--- collapse ---
+---
+title: Yr hyn byddi di'n ei ddysgu
+---
+
++ Sut i wneud i gorluniau symud gan ddefnyddio'r bysellfwrdd
++ Sut i glonio corluniau i wneud copïau ohonynt
++ Sut i ddefnyddio 'darlledu' a 'derbyn blociau' i anfon negeseuon
+
+--- /collapse ---
+
+--- collapse ---
+---
+title: Gwybodaeth ychwanegol i addysgwyr
+---
+
+--- no-print ---
+
+Os oes angen i chi argraffu y prosiect, defnyddiwch [fersiwn i'w argraffu](https://projects.raspberrypi.org/cy-GB/projects/clone-wars/print){:target="_blank"}.
+
+--- /no-print ---
+
+Gallwch ddod o hyd i'r prosiect gorffenedig [yma](http://rpf.io/p/cy-GB/clone-wars-get).
 
 --- /collapse ---
