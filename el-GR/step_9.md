@@ -17,11 +17,11 @@
 ![χαρακτήρας νυχτερίδας](images/bat-sprite.png)
 
 ```blocks3
-when flag clicked
-set size to (50) %
-forever
-    move (10) steps
-    if on edge, bounce
+Όταν στην πράσινη σημαία γίνει κλικ
+όρισε μέγεθος σε (50) %
+για πάντα 
+  κινήσου (10) βήματα
+  εάν σε όριο, αναπήδησε
 end
 ```
 
@@ -50,9 +50,9 @@ end
 Θα πρέπει να προσθέσεις αυτά τα μπλοκ στον κώδικά σου:
 
 ```blocks3
-wait (0.3) seconds
+περίμενε (0.3) δευτερόλεπτα
 
-next costume
+επόμενη ενδυμασία
 ```
 
 \--- /hint \---
@@ -60,14 +60,13 @@ next costume
 \--- hint \--- Ο κώδικάς σου θα πρέπει να μοιάζει κάπως έτσι:
 
 ```blocks3
-when flag clicked
-set size to (50) %
-forever
-move (10) steps
-if on edge, bounce
-
-+ next costume
-+ wait (0.3) seconds
+Όταν στην πράσινη σημαία γίνει κλικ
+όρισε μέγεθος σε (50) %
+για πάντα 
+  κινήσου (10) βήματα
+  εάν σε όριο, αναπήδησε
+  + επόμενη ενδυμασία
+  + περίμενε (0.3) δευτερόλεπτα
 end
 ```
 
@@ -94,10 +93,10 @@ end
 ![χαρακτήρας νυχτερίδας](images/bat-sprite.png)
 
 ```blocks3
-when flag clicked
-forever
-    wait (pick random (5) to (10)) secs
-    create clone of (Orange v)
+Όταν στην πράσινη σημαία γίνει κλικ
+για πάντα 
+  περίμενε (επίλεξε τυχαίο (5) εώς (10)) δευτερόλεπτα
+  δημιούργησε κλώνο του (Orange v)
 end
 ```
 
@@ -110,16 +109,16 @@ end
 ![χαρακτήρας πορτοκαλιού](images/orange-sprite.png)
 
 ```blocks3
-    when flag clicked
-    hide
+    Όταν στην πράσινη σημαία γίνει κλικ
+εξαφανίσου
 
-    when I start as a clone
-    go to (Bat v)
-    show
-    repeat until <touching (edge v)?
-        change y by (-4)
-    end
-    delete this clone
+όταν ξεκινήσω ως κλώνος
+πήγαινε σε (Bat v)
+εμφανίσου
+επανάλαβε ώσπου <αγγίζει (edge v) ;> 
+  άλλαξε y κατά (-4)
+end
+διάγραψε αυτόν τον κλώνο
 ```
 
 \--- /task \---
@@ -131,8 +130,8 @@ end
 ![χαρακτήρας πορτοκαλιού](images/orange-sprite.png)
 
 ```blocks3
-    when I receive [hit v]
-    delete this clone
+    όταν λάβω [hit v]
+διάγραψε αυτόν τον κλώνο
 ```
 
 \--- /task \---
@@ -144,7 +143,7 @@ end
 ![χαρακτήρας πύραυλου](images/rocket-sprite.png)
 
 ```blocks3
-    wait until < <touching (Hippo1 v)?> or <touching (Orange v)?>>
+    περίμενε ώσπου < <touching (Hippo1 v)?> ή <touching (Orange v)?>>
 ```
 
 \--- /task \---
