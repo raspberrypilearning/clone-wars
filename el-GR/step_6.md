@@ -27,10 +27,10 @@
 ![χαρακτήρας πύραυλου](images/rocket-sprite.png)
 
 ```blocks3
-when flag clicked
-switch costume to (normal v)
-wait until <touching (Hippo1 v)>?
-switch costume to (hit v)
+Όταν στην πράσινη σημαία γίνει κλικ
+άλλαξε ενδυμασία σε (normal v)
+περίμενε ώσπου <touching (Hippo1 v)>
+άλλαξε ενδυμασία σε (hit v)
 ```
 
 \--- /task \---
