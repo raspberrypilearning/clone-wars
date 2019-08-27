@@ -1,48 +1,123 @@
 ## Mellt
 
-Fe awn ati i alluogi'r llong ofod saethu mellt!
+Fe awn ati i alluogi’r llong ofod i saethu mellt!
 
-+ Ychwanega'r ciplun 'Mellt' o'r llyfrgell Scratch.  Pan mae'r gêm yn cychwyn, fe ddylai'r mellt fod yn guddiedig tan bod y llong ofod yn tanio ei laser. Bydd angen i'r ciplun fod yn fach a ben ei waered. Ychwanega'r côd canlynol i'r ciplun Mellt.
+--- task ---
 
-	```blocks
-		pan fo ⚑ wedi ei glicio
-			cuddio
-			gosod maint i (25)%
-		pwyntio i gyfeiriad (-90 v)
-	```
+Ychwanega’r corlun `Mellt` o’r llyfrgell Scratch.
+
+[[[generic-scratch3-sprite-from-library]]]
+
+--- /task ---
+
+--- task ---
+
+Pan mae’r gêm yn cychwyn, fe ddylai’r `mellt` fod yn guddiedig tan fod y llong ofod yn tanio ei laser.
+
+Ychwanega’r côd canlynol i’r corlun `Mellt`:
+
+![corlun mellt](images/lightning-sprite.png)
+
+```blocks3
+pan fo'r flag werdd yn cael ei glicio
+cuddio
+```
+
+--- /task ---
+
+Ar hyn o bryd, mae'r mellt yn fawr iawn o gymharu â'r llong ofod!
+
+--- task ---
+
+O dan y côd sydd gan y `mellt` yn barod, ychwanega blociau i wneud y corlun yn llai a'i droi ben ei waered.
+
+![corlun mellt](images/lightning-sprite.png)
+
+```blocks3
+gosod maint i (25) %
+pwyntio i gyfeiriad (-90)
+```
+
+Nawr mae'n edrych fel ei fod yn tanio o'r ochr miniog gyntaf.
+
+--- /task ---
+
+--- task ---
+
+Ychwanega’r côd canlynol i’r `Llong ofod` i greu mellten newydd pryd bynnag mae’r <kbd>bylchwr</kbd> yn cael ei wasgu.
+
+--- hints ---
 
 
-+ Ychwanega'r côd canlynol **i'r Llong ofod** i greu mellten newydd pryd bynnag mae'r bylchwr yn cael ei wasgu.
+--- hint ---
 
+`Pan fo'r faner werdd wedi ei glicio`{:class="block3events"}, cadw gwirio `am byth`{:class="block3control"}`os`{:class="block3control"} yw y `bysellfwrdd wedi ei wasgu`{:class="block3sensing"}, ac yn yr achos hynny `creu clôn o'r Mellt`{:class="block3control"}.
 
-	```blocks
-		pan fo ⚑ wedi ei glicio
-			am byth
-   		os <bysell [bylchwr v] wedi ei wasgu?> wedyn
-      		creu clôn o [Lightning v]
-   			end
-		end
-	```
+--- /hint ---
 
-+ Pryd bynnag mae 'na glôn newydd yn cael ei greu, fe ddylai gychwyn yn yr un lle â'r llong ofod, ac yna symud fyny'r llwyfan tan ei fod yn cyffwrdd yr ochr. Ychwanega'r côd yma i giplun y **Mellt**:
+--- hint ---
 
-	```blocks
-		pan dechreuaf fel clôn
-			mynd i [Spaceship v]
-			dangos
-		ailwna hyd at <cyffwrdd [ymyl v]?>
-   			newid y gan (10)
-		end
-			dileu y clôn hwn
-	```
+Dyma'r blociau côd rwyt ti eu hangen:
 
-Nodyn: Rydyn ni'n symud y clôn newydd i'r llong ofod tra mae dal wedi cuddio, cyn ei ddangos. Mae'n edrych yn neisach!
+```blocks3
+os <> yna
+end
 
-+ Profa dy fellt trwy wasgu'r bylchwr.
+am byth
+end
 
+creu clôn o (Lightning v)
 
---- challenge ---
-### Her: Trwsio'r fellten
-Beth sy'n digwydd os wyt ti'n cadw gwasgu ar y bylchwr? Wyt ti'n gallu defnyddio bloc `aros`{:class="blockcontrol"} i ddatrys hyn?
+<bysell (space v) wedi ei phwyso?>
 
---- /challenge ---
+pan fo'r flag werdd yn cael ei glicio
+```
+
+--- /hint ---
+
+--- hint ---
+
+Dyma sut dylai dy gôd edrych:
+
+![corlun roced](images/rocket-sprite.png)
+
+```blocks3
+pan fo'r flag werdd yn cael ei glicio
+am byth 
+  os <bysell (space v) wedi ei phwyso?> yna 
+    creu clôn o (Lightning v)
+  end
+end
+```
+
+--- /hint ---
+
+--- /hints ---
+
+--- /task ---
+
+--- task ---
+
+Pryd bynnag mae'r gêm yn creu clôn `Mellt`, fe ddylai'r clôn ymddangos ac yna symud fyny tan ei fod yn cyrraedd topy Llwyfan. Yna fe ddylai'r clôn ddiflannu.
+
+Ychwanega'r côd yma i'r corlun `Mellt` fel ei fod yn symud fyny tan ei fod yn cyrraedd top y Llwyfan, ac yna yn cael ei ddileu.
+
+![corlun mellt](images/lightning-sprite.png)
+
+```blocks3
+    pan rwy'n dechrau fel clôn
+mynd i (Spaceship v)
+dangos
+ailadrodd hyd at <cyffwrdd (edge v) ?> 
+  newid y gan (10)
+end
+dileu y clôn hwn
+```
+
+--- /task ---
+
+--- task ---
+
+Gwasga'r allwedd <kbd>bylchwr</kbd> i brofi os yw'r mellt yn symud yn gywir.
+
+--- /task ---

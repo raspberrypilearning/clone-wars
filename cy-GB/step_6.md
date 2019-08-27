@@ -1,29 +1,42 @@
-## Gêm drosodd
+## Ffrwydrad llong ofod
 
-Fe awn ati i ychwanegu neges 'Gêm drosodd' i ddiwedd y gêm.
+Pan fydd hippo yn cyffwrdd â'r llong ofod, fe ddylai'r llong ofod ffrwydro!
 
-+ Os nad wyt ti wedi gwneud yn barod, bydd angen creu newidyn neydd o'r enw `bywydau`{:class="blockdata"}. Fe ddylai dy long ofod ddechrau gyda 3 bywyd a colli bywyd pryd bynnag mae'r gelyn yn ei gyffwrdd.  Fe ddylai dy gêm hefyd ddod i ben pan nad oes bywydau ar ôl. Os wyt ti angen cymorth, fe fydd y prosiect 'Dal dotiau' yn dy helpu di.
+--- task ---
 
-+ Llunia ciplun newydd o'r enw 'Gêm Drosodd', gan ddefnyddio'r teclyn testun.
+Dewisa corlun y `llong ofod` ac ail-enwi ei wisg yn 'normal'.
 
-	![screenshot](images/invaders-game-over.png)
+--- /task ---
 
-+ Ar dy lwyfan, darlleda neges `gêm drosodd`{:class="blockevents"} cyn i'r gêm orffen.
+--- task ---
 
-	```blocks
-		darlledu [gêm drosodd v] ac aros
-	```
+Tynna lun gwisg arall o long ofod yn ffrwydro, a galwa'r wisg newydd yn 'taro'.
 
-+ Ychwanega'r côd yma i dy giplun 'Gêm Drosodd' fel bod y neges yn ymddangos ar ddiwedd y gêm:
+![sgrinlun](images/invaders-spaceship-costumes.png)
 
-	```blocks
-		pan fo ⚑ wedi ei glicio
-			cuddio
+Mae modd creu y wisg ‘ffrwydro’ trwy ddefnyddio’r ddelwedd ‘Haul’ o lyfrgell Scratch, a defnyddio **Lliwio siâp** i newid ei liw.
 
-		pan dderbyniaf [gêm drosodd v]
-			dangos
-	```
+![sgrinlun](images/invaders-sun.png)
 
-	Gan dy fod di wedi defnyddio bloc `darlledu [gêm drosodd] ac aros`{:class="blockevents} ar dy lwyfan, bydd yn aros i'r ciplun 'Gêm drosodd' ymddangos cyn gorffen y gêm.
+--- /task ---
 
-+ Profa dy gêm. Faint o bwyntiau alli di sgorio? Wyt ti'n gallu meddwl am ffyrdd o wella dy gêm os yw'n rhy hawdd neu anodd?
+--- task ---
+
+Ychwanega’r côd yma i dy `long ofod` fel ei fod yn arddangos gwisg 'normal' pan mae'r gêm yn cychwyn, a fel ei fod yn newid gwisg pryd bynnag mae’n cyffwrdd hippo:
+
+![corlun roced](images/rocket-sprite.png)
+
+```blocks3
+pan fo'r flag werdd yn cael ei glicio
+newid gwisg i (normal v)
+aros hyd at <cyffwrdd (Hippo1 v) ?>
+newid gwisg i (ffrwydro v)
+```
+
+--- /task ---
+
+--- task ---
+
+Profa’r côd yma trwy ddechrau gêm newydd a tharo hipo. Ydy dy long ofod yn newid i'r wisg 'taro'?
+
+--- /task ---
