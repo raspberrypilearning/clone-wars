@@ -1,6 +1,6 @@
 ## Και τώρα;
 
-Δοκίμασε το έργο [Φτιάξε το δικό σου κόσμο](https://projects.raspberrypi.org/el-GR/projects/create-your-own-world?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) , για να δημιουργήσεις το δικό σου παιχνίδι περιπέτειας!
+Δοκίμασε το έργο [Φτιάξε το δικό σου κόσμο](https://projects.raspberrypi.org/el-GR/projects/create-your-own-world?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects), για να δημιουργήσεις το δικό σου παιχνίδι περιπέτειας!
 
 --- no-print ---
 
@@ -15,9 +15,7 @@
 
 --- print-only ---
 
-Θα χρησιμοποιήσεις τα βελάκια στο πληκτρολόγιο για να μετακινήσεις το χαρακτήρα σου στον κόσμο.
-
-![showcase.png](images/create-showcase.png)
+Θα χρησιμοποιήσεις τα βελάκια στο πληκτρολόγιο για να μετακινήσεις το χαρακτήρα σου στον κόσμο. ![showcase.png](images/create-showcase.png)
 
 --- /print-only ---
 
