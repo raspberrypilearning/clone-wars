@@ -25,7 +25,7 @@
 ![χαρακτήρας τέλους παιχνιδιού](images/stage-sprite.png)
 
 ```blocks3
-broadcast (game over v) and wait
+μετάδωσε (game over v) και περίμενε
 ```
 
 \--- /task \---
@@ -37,11 +37,11 @@ broadcast (game over v) and wait
 ![χαρακτήρας τέλους παιχνιδιού](images/gameover-sprite.png)
 
 ```blocks3
-when flag clicked
-hide
+Όταν στην πράσινη σημαία γίνει κλικ
+εξαφανίσου
 
-when I receive [game over v]
-show
+όταν λάβω [game over v]
+εμφανίσου
 ```
 
 Επειδή έχεις χρησιμοποιήσει ένα μπλοκ `broadcast (game over) and wait`{:class="block3events"} στο σκηνικό σου, θα περιμένει να εμφανιστεί ο χαρακτήρας `Τέλος Παιχνιδιού` πριν τελειώσει το παιχνίδι.
