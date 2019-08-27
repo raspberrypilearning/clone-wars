@@ -16,27 +16,27 @@
 
 --- /task ---
 
-![starter project](images/starter-project.png)
+![αρχικό έργο](images/starter-project.png)
 
 --- task ---
 
 Πρόσθεσε αυτόν τον κώδικα στο χαρακτήρα του διαστημόπλοιου για να μετακινήσεις το διαστημόπλοιο αριστερά εάν πατηθεί το <kbd>αριστερό</kbd> βέλος:
 
-![rocket sprite](images/rocket-sprite.png)
+![χαρακτήρας πύραυλου](images/rocket-sprite.png)
 
 ```blocks3
-    when flag clicked
-    forever
-        if <key (left arrow v) pressed?> then
-            change x by (-4)
-        end
-    end
+    Όταν στην πράσινη σημαία γίνει κλικ
+για πάντα 
+  εάν <key (left arrow v) pressed?> τότε 
+    άλλαξε x κατά (-4)
+  end
+end
 ```
 
 Ο άξονας x πηγαίνει από την αριστερή πλευρά του σκηνικού προς τη δεξιά πλευρά. Αυτό σημαίνει ότι το διαστημόπλοιο κινείται προς τα αριστερά όταν μειώνεις την τιμή του `x`. Αυτός ο κώδικας θα κάνει το διαστημόπλοιο σου να μετακινηθεί αριστερά:
 
 ```blocks3
-change x by (-4)
+άλλαξε x κατά (-4)
 ```
 
 --- /task ---
@@ -59,7 +59,7 @@ change x by (-4)
 Χρειάζεσαι το ίδιο μπλοκ κώδικα, αλλά με διαφορετικό αριθμό:
 
 ```blocks3
-change x by ( )
+άλλαξε x κατά ()
 ```
 
 --- /hint ---
@@ -68,11 +68,11 @@ change x by ( )
 
 Εδώ είναι ο κώδικας που θα χρειαστεί να προσθέσεις κάτω από τον άλλο κώδικα μέσα στο μπλοκ `forever`{:class="block3control"}:
 
-![rocket sprite](images/rocket-sprite.png)
+![χαρακτήρας πύραυλου](images/rocket-sprite.png)
 
 ```blocks3
-if <key (right arrow v) pressed?> then
-    change x by (4)
+εάν <key (right arrow v) pressed?> τότε 
+  άλλαξε x κατά (4)
 end
 ```
 

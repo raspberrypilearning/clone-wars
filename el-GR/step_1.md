@@ -66,10 +66,10 @@ title: Πρόσθετες σημειώσεις για εκπαιδευτικού
 
 --- no-print ---
 
-Αν χρειαστεί να εκτυπώσεις αυτό το έργο, χρησιμοποίησε την [εκτυπώσιμη έκδοση](https://projects.raspberrypi.org/el-GR/projects/clone-wars/print)"{:target="_blank"}.
+Αν χρειαστεί να εκτυπώσεις αυτό το έργο, χρησιμοποίησε την [εκτυπώσιμη έκδοση](https://projects.raspberrypi.org/el-GR/projects/clone-wars/print){:target="_blank"}.
 
 --- /no-print ---
 
-[Εάν χρειάζεσαι τη λύση αυτού του έργου, μπορείς να τη βρείς εδώ](http://rpf.io/p/el-GR/clone-wars-get).
+Μπορείς να βρεις [το ολοκληρωμένο έργο εδώ](http://rpf.io/p/el-GR/clone-wars-get).
 
 --- /collapse ---

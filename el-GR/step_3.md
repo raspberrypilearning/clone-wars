@@ -19,8 +19,8 @@
 ![χαρακτήρας αστραπής](images/lightning-sprite.png)
 
 ```blocks3
-when green flag clicked
-hide
+Όταν στην πράσινη σημαία γίνει κλικ
+εξαφανίσου
 ```
 
 --- /task ---
@@ -34,8 +34,8 @@ hide
 ![χαρακτήρας αστραπής](images/lightning-sprite.png)
 
 ```blocks3
-set size to (25) %
-point in direction (-90)
+όρισε μέγεθος σε (25) %
+δείξε προς κατεύθυνση (-90)
 ```
 
 Τώρα μοιάζει σαν να πυροβολεί από τη μύτη του διαστημόπλοιου.
@@ -51,7 +51,7 @@ point in direction (-90)
 
 --- hint ---
 
-`When the green flag is clicked`{:class="block3events"}, keep checking `forever`{:class="block3control"} `if`{:class="block3control"} the `space key is pressed`{:class="block3sensing"}, and in that case `create a clone of the Lightning`{:class="block3control"} sprite.
+`Εάν πατηθεί η πράσινη σημαία`{:class="block3events"}, συνέχισε να ελέγχεις `για πάντα`{:class="block3control"} `εάν`{:class="block3control"} το `κενό πλήκτρο πατηθεί`{:class="block3sensing"}, και σε αυτή την περίπτωση `δημιούργησε έναν κλώνο του χαρακτήρα της Αστραπής`{:class="block3control"}.
 
 --- /hint ---
 
@@ -60,17 +60,17 @@ point in direction (-90)
 Εδώ είναι τα μπλοκ που χρειάζεσαι:
 
 ```blocks3
-if <> then
+εάν <> τότε
 end
 
-forever
+για πάντα
 end
 
-create clone of (Lightning v)
+δημιούργησε κλώνο του (Lightning v)
 
-<key (space v) pressed?>
+&lt;key (space v) pressed?&gt;
 
-when flag clicked
+Όταν στην πράσινη σημαία γίνει κλικ
 ```
 
 --- /hint ---
@@ -82,11 +82,11 @@ when flag clicked
 ![χαρακτήρας πύραυλου](images/rocket-sprite.png)
 
 ```blocks3
-when flag clicked
-forever
-    if <key (space v) pressed?> then
-        create clone of (Lightning v)
-    end
+Όταν στην πράσινη σημαία γίνει κλικ
+για πάντα 
+  εάν <key (space v) pressed?> τότε 
+    δημιούργησε κλώνο του (Lightning v)
+  end
 end
 ```
 
@@ -105,13 +105,13 @@ end
 ![χαρακτήρας αστραπής](images/lightning-sprite.png)
 
 ```blocks3
-    when I start as a clone
-    go to (Spaceship v)
-    show
-    repeat until <touching (edge v) ?>
-        change y by (10)
-    end
-    delete this clone
+    όταν ξεκινήσω ως κλώνος
+πήγαινε σε (Spaceship v)
+εμφανίσου
+επανάλαβε ώσπου <touching (edge v) ?> 
+  άλλαξε y κατά (10)
+end
+διάγραψε αυτόν τον κλώνο
 ```
 
 --- /task ---
