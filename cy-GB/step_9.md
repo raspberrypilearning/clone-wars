@@ -1,6 +1,6 @@
 ## Ystlumod gofod
 
-To make your game a bit harder, you are going to create a bat that throws oranges at the spaceship.
+Er mwyn gwneud eich gêm yn anoddach, byddwch yn creu ystlum a fydd yn taflu orenau at y llong ofod.
 
 ![ystlum yn taflu oren at y llong ofod](images/bat-oranges.png)
 
