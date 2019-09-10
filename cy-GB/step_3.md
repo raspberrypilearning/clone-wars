@@ -68,7 +68,7 @@ end
 
 creu clôn o (Lightning v)
 
-<bysell (space v) wedi ei phwyso?>
+<bysell (bwlch v) wedi ei phwyso?>
 
 pan fo'r flag werdd yn cael ei glicio
 ```
@@ -108,7 +108,7 @@ Ychwanega'r côd yma i'r corlun `Mellt` fel ei fod yn symud fyny tan ei fod yn c
     pan rwy'n dechrau fel clôn
 mynd i (Spaceship v)
 dangos
-ailadrodd hyd at <cyffwrdd (edge v) ?> 
+ailadrodd hyd at <cyffwrdd (ymyl v) ?> 
   newid y gan (10)
 end
 dileu y clôn hwn

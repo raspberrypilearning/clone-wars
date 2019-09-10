@@ -64,11 +64,10 @@ gwisg nesaf
 pan fo'r flag werdd yn cael ei glicio
 gosod maint i (50) %
 am byth 
-  symud (10) cam
-  os ar ymyl, bowndio
-
-  + gwisg nesaf
-  + aros (0.3) eiliad
+symud (10) cam
+os ar ymyl, bowndio
++ gwisg nesaf
++ aros (0.3) eiliad
 end
 ```
 
@@ -117,7 +116,7 @@ cuddio
 pan rwy'n dechrau fel clôn
 mynd i (Bat v)
 dangos
-ailadrodd hyd at <cyffwrdd (edge v) ?> 
+ailadrodd hyd at <cyffwrdd (ymyl v) ?> 
   newid y gan (-4)
 end
 dileu y clôn hwn

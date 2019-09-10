@@ -13,7 +13,6 @@ pan fo'r flag werdd yn cael ei glicio
 newid gwisg i (normal v)
 aros hyd at <cyffwrdd (Hippo1 v) ?>
 newid gwisg i (ffrwydro v)
-
 + darlledu (ffrwydro v)
 ```
 

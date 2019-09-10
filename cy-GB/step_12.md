@@ -1,6 +1,6 @@
 ## Beth nesaf?
 
-Rho gynnig ar ein prosiect [Creu dy Fydysawd](https://projects.raspberrypi.org/cy-GB/projects/create-your-own-world?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects), lle byddwch di'n creu dy gêm antur dy hunan!
+Rho gynnig ar ein prosiect [Creu dy fyd dy hunan](https://projects.raspberrypi.org/cy-GB/projects/create-your-own-world?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects), lle byddwch di'n creu dy gêm antur dy hunan!
 
 --- no-print ---
 

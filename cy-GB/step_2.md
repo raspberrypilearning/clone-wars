@@ -26,11 +26,11 @@ Ychwanega côd i symud dy long ofod i’r chwith pan rwyt ti’n gwasgu’r saet
 
 ```blocks3
     pan fo'r flag werdd yn cael ei glicio
-am byth 
-  os <key (left arrow v) pressed?> yna 
-    newid x gan (-4)
-  end
-end
+    am byth 
+        os <bysell (saeth chwith v) wedi ei phwyso?> yna
+            newid x gan (-4)
+        end
+    end
 ```
 
 Mae'r echelin-x yn mynd o ochr chwith y Llwyfan i'r ochr dde. Mae hyn yn golygu bod y llong ofod yn symud i'r chwith pan fyddwn yn tynnu o werth y llong ofod yn y safle `x`. Felly mae'r bloc côd yma yn rhan o'r hyn sy'n gwneud i'r llong ofod symud i'r chwith:
@@ -71,7 +71,7 @@ Dyma'r côd rwyt ti ei angen ychwanegu o dan y côd o fewn y bloc `am byth`{:cla
 ![corlun roced](images/rocket-sprite.png)
 
 ```blocks3
-os <bysell (right arrow v) wedi ei phwyso?> yna 
+os <bysell (saeth de v) wedi ei phwyso?> yna 
   newid x gan (4)
 end
 ```
