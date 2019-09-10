@@ -84,7 +84,7 @@ Dyma sut dylai dy gôd edrych:
 ```blocks3
 pan fo'r flag werdd yn cael ei glicio
 am byth 
-  os <bysell (space v) wedi ei phwyso?> yna 
+  os <bysell (ymyl v) wedi ei phwyso?> yna 
     creu clôn o (Lightning v)
   end
 end
