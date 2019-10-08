@@ -7,7 +7,7 @@ Probeer ons [Maak je eigen wereld](https://projects.raspberrypi.org/nl-NL/projec
 Klik op de groene vlag om te starten. Gebruik de pijltjestoetsen om je karakter in de wereld te verplaatsen.
 
 <div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/258757783/?autostart=false" frameborder="0" scrolling="no"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/334767899/?autostart=false" frameborder="0" scrolling="no"></iframe>
   <img src="images/create-showcase.png">
 </div>
 

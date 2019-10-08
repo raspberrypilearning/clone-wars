@@ -15,7 +15,7 @@ Aceasta este versiunea **Scratch 3** a proiectului. Există, de asemenea, o [ver
 Dă click pe steagul verde din exemplul de mai jos pentru a începe, apoi apasă tastele săgeată <kbd>stânga</kbd> și <kbd>dreapta</kbd> pentru a mișca nava spațială și tasta <kbd>spațiu</kbd> pentru a trage.
 
 <div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/276887163/?autostart=false" frameborder="0" scrolling="no"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/334767018/?autostart=false" frameborder="0" scrolling="no"></iframe>
   <img src="images/showcase.png">
 </div>
 
