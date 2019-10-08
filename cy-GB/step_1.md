@@ -15,7 +15,7 @@ Yn y prosiect hwn byddi di'n dysgu sut i greu gêm lle mae'n rhaid achub y Ddaea
 Clicia'r faner werdd yn esiampl y gêm isod i gychwyn, yna gwasga ar y bysellau saeth <kbd>chwith</kbd> a <kbd>dde</kbd> i symud y llong ofod, a'r bysell <kbd>bwlch</kbd> i saethu.
 
 <div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/276887163/?autostart=false" frameborder="0" scrolling="no"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/334764104/?autostart=false" frameborder="0" scrolling="no"></iframe>
   <img src="images/showcase.png">
 </div>
 

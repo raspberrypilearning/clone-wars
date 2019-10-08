@@ -7,7 +7,7 @@ Rho gynnig ar ein prosiect [Creu dy fyd dy hunan](https://projects.raspberrypi.o
 Clicia'r faner werdd i ddechrau. Defnyddia'r bysellau saeth i symud dy gymeriad o gwmpas y byd.
 
 <div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/258757783/?autostart=false" frameborder="0" scrolling="no"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/322010714/?autostart=false" frameborder="0" scrolling="no"></iframe>
   <img src="images/create-showcase.png">
 </div>
 
