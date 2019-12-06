@@ -11,9 +11,10 @@ Voeg code aan de ruimteschip sprite toe om het `zend signaal`{:class="block3even
 ```blocks3
 wanneer groene vlag wordt aangeklikt
 verander uiterlijk naar (normaal v)
-wacht tot <touching (Hippo1 v)>
+wacht tot <raak ik (Hippo1 v)?>
 verander uiterlijk naar (raak v)
-zend signaal (raak v)
+
++ zend signaal (raak v)
 ```
 
 \--- /task \---
@@ -51,11 +52,11 @@ Voeg een `wacht`{:class="block3control"} blok toe aan het einde van de `ruimtesc
 wanneer groene vlag wordt aangeklikt
 herhaal 
  verander uiterlijk naar (normaal v)
- wacht tot <touching (Hippo1 v)>
- verander uiterlijk naar (raak v)
- zend signaal (raak v)
- wacht (1) sec.
-end
+ wacht tot <raak ik (Hippo1 v)?>
+ verander uiterlijk naar (hit v)
+ zend signaal (hit v)
+ + wacht (1) sec.
+einde
 ```
 
 \--- /task \---
