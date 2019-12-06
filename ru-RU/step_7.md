@@ -1,63 +1,63 @@
-## Hippos that disappear
+## Исчезновение бегемотов
 
-When the spaceship explodes, all the hippos should disappear so that players of the game can recover.
+Когда космический корабль взрывается, все бегемоты должны исчезнуть, чтобы игрокам можно было восстановиться.
 
 \--- task \---
 
-Add code to the spaceship sprite to make it `broadcast`{:class="block3events"} the message "hit" when the `spaceship touches a hippo`{:class="block3sensing"}.
+Добавь код в спрайт космического корабля, чтобы он `передавал` {: class = "block3events"} сообщение "удар", когда ` космический корабль касается бегемота ` {: Класс = "block3sensing"},.
 
-![rocket sprite](images/rocket-sprite.png)
+![спрайт ракета](images/rocket-sprite.png)
 
 ```blocks3
-when flag clicked
-switch costume to (normal v)
-wait until <touching (Hippo1 v)>?
-switch costume to (hit v)
+когда флаг нажат
+изменить костюм на (обычный)
+ждать до <touching (Hippo1 v)>?
+изменить костюм на (удар)
 
-+ broadcast (hit v)
++ передать (удар)
 ```
 
 \--- /task \---
 
 \--- task \---
 
-All of the `Hippo` sprite clones will receive the "hit" message, and you can instruct them to disappear when the spaceship is hit by adding this code to the `Hippo` sprite:
+Все клоны спрайта ` Бегемот ` получат сообщение «удар», и вы сможете дать им указание исчезнуть при ударе о космический корабль, добавив этот код в спрайт ` Бегемота `:
 
-![hippo sprite](images/hippo-sprite.png)
+![спрайт бегемот](images/hippo-sprite.png)
 
 ```blocks3
-when I receive [hit v]
-delete this clone
+когда я получу [удар]
+удалить этот клон
 ```
 
 \--- /task \---
 
 \--- task \---
 
-To check whether the new code works, click the green flag and make the spaceship collide with a hippo.
+Чтобы проверить, работает ли новый код, нажми на зелёный флаг и сделай так, чтобы космический корабль столкнулся с бегемотом.
 
-![screenshot](images/invaders-hippo-collide.png)
+![снимок экрана](images/invaders-hippo-collide.png)
 
 \--- /task \---
 
-After the spaceship explodes, new `Hippo` clones appear, but the spaceship is still exploded! The spaceship needs to reset itself after being hit.
+После взрыва космического корабля, появляются новые клоны ` Бегемот `, но космический корабль все еще взорван! Космический корабль должен восстановиться после удара.
 
 \--- task \---
 
-Add a `wait`{:class="block3control"} block at the end of the `Spaceship` sprite's code to create a small pause before hippos begin appearing again. Then add a `forever`{:class="block3control"} block around all of your code to make the code run repeatedly.
+Добавь блок ` ждать` {:class="block3control"} в конце кода спрайта `космического корабля`, чтобы создать небольшую паузу, прежде чем бегемоты снова начнут появляться. Затем добавь блок ` повторять всегда ` {:class="block3control"} вокруг всего вашего кода, чтобы он мог выполняться постоянно.
 
-![rocket sprite](images/rocket-sprite.png)
+![спрайт ракета](images/rocket-sprite.png)
 
 ```blocks3
-when flag clicked
-forever
-switch costume to (normal v)
-wait until <touching (Hippo1 v)>?
-switch costume to (hit v)
-broadcast (hit v)
+когда флаг нажат
+повторять всегда
+изменить костюм на (обычный)
+ждать до <touching (Hippo1 v)>?
+изменить костюм на (удар)
+передать (удар)
 
-+ wait (1) seconds
-end
++ ждать (1) секунд
+конец
 ```
 
 \--- /task \---
