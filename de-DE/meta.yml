@@ -1,10 +1,10 @@
 ---
 hero_image: images/clone-wars.png
-theme: violet
+theme: violett
 listed: true
 copyedit: true
 title: Klonkriege
-description: Erstelle ein Spiel in dem du den Planet Erde vor den Weltraummonstern retten musst
+description: Erstelle ein Spiel in dem du den Planet Erde vor Weltraummonstern retten musst
 version: 4.1.0
 last_tested: 2018-10-11
 steps:
@@ -13,25 +13,25 @@ steps:
   - 
     title: Baue ein Raumschiff
   - 
-    title: Fliegende Weltraum-Nilpfherde
+    title: Blitze
   - 
-    title: 'Fliegende Weltraum-Nilpfherde'
+    title: 'Herausforderung: Verbessere den Blitz'
     challenge: true
   - 
-    title: Flughunde!
+    title: Weltraum-Flusspferde
+  - 
+    title: Raumschiff Explosion
+  - 
+    title: Flusspferde, die verschwinden
+  - 
+    title: 'Herausforderung: Leben und Punkte'
+    challenge: true
+  - 
+    title: Weltraum-Fledermaus
   - 
     title: Game over
   - 
-    title: 'Aufgabe: Verbessere dein  Spiel'
-  - 
-    title: 'Herausforderung: lebt und punktet'
+    title: 'Herausforderung: Verbessere dein Spiel'
     challenge: true
   - 
-    title: Raumschläger
-  - 
-    title: Spiel ist aus
-  - 
-    title: 'Herausforderung: Erstelle mehr Blöcke'
-    challenge: true
-  - 
-    title: 'Zusatzaufgabe: mehr Stifte'
+    title: Wie geht es weiter?
