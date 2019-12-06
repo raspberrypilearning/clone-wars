@@ -1,29 +1,28 @@
-## Hippos that disappear
+## Hipopotamy, które znikają
 
-When the spaceship explodes, all the hippos should disappear so that players of the game can recover.
+Kiedy statek kosmiczny wybuchnie, wszystkie hipopotamy powinny zniknąć, aby dać graczowi szansę na wyleczenie.
 
 \--- task \---
 
-Add code to the spaceship sprite to make it `broadcast`{:class="block3events"} the message "hit" when the `spaceship touches a hippo`{:class="block3sensing"}.
+Dodaj kod do duszka statku kosmicznego, aby `nadać`{:class="block3events"} komunikat „trafienie”, gdy `Statek kosmiczny dotknie Hipcia`{:class="block3sensing"}.
 
-![rocket sprite](images/rocket-sprite.png)
+![duszek rakiety](images/rocket-sprite.png)
 
 ```blocks3
-when flag clicked
-switch costume to (normal v)
-wait until <touching (Hippo1 v)>?
-switch costume to (hit v)
-
-+ broadcast (hit v)
+kiedy kliknięto zieloną flagę
+zmień kostium na (normalny v)
+czekaj aż <touching (Hippo1 v)>?
+zmień kostium na (trafiony v)
+nadaj komunikat (trafienie v)
 ```
 
 \--- /task \---
 
 \--- task \---
 
-All of the `Hippo` sprite clones will receive the "hit" message, and you can instruct them to disappear when the spaceship is hit by adding this code to the `Hippo` sprite:
+Wszystkie klony duszka `Hipcio` otrzymają komunikat "trafienie" i możesz polecić im zniknąć, kiedy statek kosmiczny jest trafiony, poprzez dodanie tego kodu do duszka `Hipcia`:
 
-![hippo sprite](images/hippo-sprite.png)
+![duszek hipopotama](images/hippo-sprite.png)
 
 ```blocks3
 kiedy otrzymam [trafienie v]
@@ -34,29 +33,29 @@ usuń tego klona
 
 \--- task \---
 
-To check whether the new code works, click the green flag and make the spaceship collide with a hippo.
+Aby sprawdzić, czy nowy kod działa, kliknij zieloną flagę i spraw, aby statek kosmiczny zderzył się z hipopotamem.
 
 ![zrzut ekranu](images/invaders-hippo-collide.png)
 
 \--- /task \---
 
-After the spaceship explodes, new `Hippo` clones appear, but the spaceship is still exploded! The spaceship needs to reset itself after being hit.
+Po eksplozji statku kosmicznego pojawiają się nowe klony duszka `Hipcia`, ale statek kosmiczny wciąż eksploduje! Po trafieniu statek kosmiczny musi się zresetować.
 
 \--- task \---
 
-Add a `wait`{:class="block3control"} block at the end of the `Spaceship` sprite's code to create a small pause before hippos begin appearing again. Then add a `forever`{:class="block3control"} block around all of your code to make the code run repeatedly.
+Dodaj blok `czekaj`{:class="block3control"} na końcu kodu duszka `Statek kosmiczny` aby utworzyć małą pauzę, zanim hipopotamy zaczną się ponownie pojawiać. Następnie dodaj blok `zawsze`{:class="block3control"} wokół całego kodu, aby kod był uruchamiany wielokrotnie.
 
-![rocket sprite](images/rocket-sprite.png)
+![duszek rakiety](images/rocket-sprite.png)
 
 ```blocks3
-when flag clicked
-forever
-switch costume to (normal v)
-wait until <touching (Hippo1 v)>?
-switch costume to (hit v)
-broadcast (hit v)
-
-+ wait (1) seconds
+kiedy kliknięto zieloną flagę
+zawsze 
+ zmień kostium na (normalny v)
+ czekaj aż <touching (Hippo1 v)>?
+ zmień kostium na (trafiony v)
+ nadaj (trafienie v)
+ 
++ czekaj (1) s
 end
 ```
 
