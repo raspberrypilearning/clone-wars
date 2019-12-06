@@ -1,39 +1,39 @@
 ## Stwórz statek kosmiczny
 
-First make a spaceship that can defend the Earth!
+Najpierw utwórz statek kosmiczny, który może bronić Ziemi!
 
 \--- task \---
 
-Open the 'Clone wars' Scratch starter project.
+Otwórz projekt startowy Scratch "Wojny klonów".
 
-**Online:** otwórz nowy projekt Scratcha na stronie [rpf.io/clone-wars-on](http://rpf.io/clone-wars-on){:target="_blank"}.
+**Online:** otwórz nowy projekt startowy na stronie [rpf.io/clone-wars-on](http://rpf.io/clone-wars-on){:target="_blank"}.
 
 Jeśli masz konto Scratch, możesz wykonać kopię klikając **Remiks**.
 
-**Offline:** download the starter project from [rpf.io/p/en/clone-wars-go](http://rpf.io/p/en/clone-wars-go), and then open it using the offline editor.
+**Offline:** pobierz projekt początkowy z [rpf.io/p/en/clone-wars-go](http://rpf.io/p/en/clone-wars-go) i otwórz w programie Scratch Desktop.
 
-Jeśli musisz pobrać i zainstalować edytor Scratcha, znajdziesz go na stronie [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
+Jeśli chcesz pobrać i zainstalować edytor Scratch, znajdziesz go na stronie [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
 
 \--- /task \---
 
-![projekt początkowy](images/starter-project.png)
+![startowy projekt](images/starter-project.png)
 
 \--- task \---
 
-Add this code to the spaceship sprite to make the spaceship move left if the <kbd>left</kbd> arrow is pressed:
+Dodaj ten kod do duszka statku kosmicznego, aby skłonić statek kosmiczny poruszał się w lewo, jeśli strzałka <kbd>w lewo</kbd> jest wciśnięta:
 
-![rocket sprite](images/rocket-sprite.png)
+![duszek rakiety](images/rocket-sprite.png)
 
 ```blocks3
     kiedy kliknięto zieloną flagę
-     zawsze 
-       jeżeli <key (left arrow v) pressed?> to 
-         zmień x o (-4)
-     end
-    end
+zawsze 
+  jeżeli <key (left arrow v) pressed?> to 
+    zmień x o (-4)
+  end
+end
 ```
 
-The x-axis goes from the left side of the Stage to the right side. This means that the spaceship moves to the left when you subtract from the value of the spaceship sprite's `x` position. So this code block is the part that makes your spaceship move left:
+Oś x przechodzi od lewej strony Sceny do prawej. Oznacza to, że statek kosmiczny porusza się w lewo po odjęciu od wartości `x` pozycji duszka statku kosmicznego. Ten blok kodu to część, która sprawia, że twój statek kosmiczny porusza się w lewo:
 
 ```blocks3
 zmień x o (-4)
@@ -43,31 +43,31 @@ zmień x o (-4)
 
 \--- task \---
 
-Add some more code inside the `forever`{:class="block3control"} block to make your spaceship move to the right if the <kbd>right</kbd> arrow key is pressed.
+Dodaj więcej kodu wewnątrz bloku `zawsze`:class="block3control"}, aby twój statek kosmiczny przesuwał się w prawo, gdy strzałka <kbd>w prawo</kbd> jest wciśnięta.
 
 \--- hints \---
 
 \--- hint \---
 
-Subtracting `4` from the spaceship's `x` position made it move left, so how could you make the spaceship move right by `4` instead?
+Odjęcie`4` od pozycji `x` sprawiło, że statek kosmiczny porusza się w lewo, więc jak zamiast tego sprawić, żeby przesunął się w prawo o `4`?
 
 \--- /hint \---
 
 \--- hint \---
 
-You need the same code block, but with a different number:
+Potrzebujesz tego samego bloku kodu, ale z innym numerem:
 
 ```blocks3
-zmień x o ()
+zmień x o ( )
 ```
 
 \--- /hint \---
 
 \--- hint \---
 
-Here is the code you need to add below the other code inside the `forever`{:class="block3control"} block:
+Oto kod, który musisz dodać pod innym kodem wewnątrz bloku `zawsze`{:class="block3control"}:
 
-![rocket sprite](images/rocket-sprite.png)
+![duszek rakiety](images/rocket-sprite.png)
 
 ```blocks3
 jeżeli <key (right arrow v) pressed?> to 
@@ -83,6 +83,6 @@ end
 
 \--- task \---
 
-Test your project by clicking the green flag. Can you press the arrow keys to make your spaceship move left and right?
+Przetestuj swój projekt, klikając zieloną flagę. Czy możesz nacisnąć klawisze strzałek, aby twój statek kosmiczny poruszał się w lewo i w prawo?
 
 \--- /task \---
