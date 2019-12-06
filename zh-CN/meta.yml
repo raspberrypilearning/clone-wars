@@ -11,11 +11,11 @@ steps:
   - 
     title: 介绍
   - 
-    title: 你将需要什么
+    title: 制作一个宇宙飞船
   - 
-    title: 制作一艘宇宙飞船
+    title: 闪电束
   - 
-    title: '闪电球'
+    title: '挑战：改善闪电'
     challenge: true
   - 
     title: 会飞的太空河马
@@ -24,14 +24,14 @@ steps:
   - 
     title: 消失的河马
   - 
-    title: '果蝠'
+    title: '挑战：生命和得分'
     challenge: true
+  - 
+    title: 太空蝙蝠
   - 
     title: 游戏结束
   - 
-    title: 挑战：完善你的游戏
-  - 
-    title: '高分'
+    title: '挑战：完善你的游戏'
     challenge: true
   - 
-    title: 接下来呢？
+    title: 接下来还有什么？
