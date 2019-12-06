@@ -1,20 +1,20 @@
-## Game over
+## Raumschiff Explosion
 
-Wenn ein Nilpferd Ihr Raumschiff berührt, sollte das Raumschiff explodieren!
+Wenn ein Flusspferd ("Hippo") dein Raumschiff berührt, sollte das Raumschiff explodieren!
 
 \--- task \---
 
-Wählen Sie das Sprite `Spaceship` und benennen Sie das Kostüm in "normal" um.
+Wähle die `Raumschiff` Figur aus und benenne ihr Kostüm in 'normal' um.
 
 \--- /task \---
 
 \--- task \---
 
-Zeichnen Sie ein weiteres Kostüm eines explodierenden Raumschiffs und nennen Sie das neue Kostüm "Hit".
+Zeichne ein weiteres Kostüm eines explodierenden Raumschiffs und nenne das neue Kostüm "getroffen".
 
 ![Screenshot](images/invaders-spaceship-costumes.png)
 
-Wenn Sie die Explosion nicht zeichnen möchten, können Sie das Kostüm 'Sonne' aus der Scratch-Bibliothek auswählen und dann mit dem Werkzeug **Farbe eine Form** die Farbe und das Gesicht des Kostüms ändern.
+Wenn Du die Explosion nicht zeichnen möchtest, kannst Du das Kostüm 'Sun' (englisch für Sonne) aus der Scratch-Bibliothek auswählen.
 
 ![Screenshot](images/invaders-sun.png)
 
@@ -22,21 +22,21 @@ Wenn Sie die Explosion nicht zeichnen möchten, können Sie das Kostüm 'Sonne' 
 
 \--- task \---
 
-Fügen Sie Ihrem `Spaceship` Sprite Code hinzu, sodass es zu Beginn des Spiels das „normale“ Kostüm anzeigt und zum „Hit“ -Kostüm wechselt, wenn es ein Nilpferd berührt:
+Füge deiner `Raumschiff` Figur Code hinzu, sodass sie zu Beginn des Spiels das „normal“-Kostüm anzeigt und zum „getroffen -Kostüm wechselt, wenn es ein Flusspferd berührt:
 
-![Raketen-Sprite](images/rocket-sprite.png)
+![raumschiff-Figur](images/rocket-sprite.png)
 
 ```blocks3
-wenn Flagge geklickt
-Kostüm wechseln zu (normal v)
-warten bis <touching (Hippo1 v)>?
-Kostüm wechseln zu (Hit V)
+Wenn die grüne Flagge angeklickt
+wechsle zu Kostüm (normal v)
+warte bis <wird (Hippo1 v) berührt?>
+wechsle zu Kostüm (getroffen v)
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Testen Sie Ihren Code. Lass das Raumschiff mit einem Nilpferd kollidieren. Ändert sich das Raumschiff zum "Hit" -Kostüm?
+Teste deinen Code. Lass das Raumschiff mit einem Flusspferd kollidieren. Wechselt das Raumschiff zum "getroffen"-Kostüm?
 
 \--- /task \---
