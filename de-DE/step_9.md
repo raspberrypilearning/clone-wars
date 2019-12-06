@@ -1,87 +1,87 @@
-## Raumschläger
+## Weltraum-Fledermaus
 
-Um Ihr Spiel etwas schwieriger zu machen, werden Sie eine Fledermaus erschaffen, die Orangen auf das Raumschiff wirft.
+Um Dein Spiel etwas schwieriger zu machen, wirst Du eine Fledermaus erschaffen, die Orangen auf das Raumschiff wirft.
 
 ![eine Fledermaus wirft eine Orange auf das Raumschiff](images/bat-oranges.png)
 
 \--- task \---
 
-Füge ein `Bat` Sprite hinzu und setze seinen Rotationsstil auf **left – right**.
+Füge eine `Bat` (englisch für Fledermaus) Figur hinzu und setze ihren Rotationsstil auf **Links/Rechts**.
 
 \--- /task \---
 
 \--- task \---
 
-Bewegen Sie das Sprite `Bat` ``{: class = "block3motion"} von links nach rechts am oberen Rand der Stufe `für immer`{: class = "block3control"}.
+Lass die `"Bat"`-Figur `fortlaufend`{:class="block3control"} am oberen Rand der Bühne von Links nach Rechts `gehen`{:class="block3motion"}.
 
-![Fledermaus Sprite](images/bat-sprite.png)
+![Fledermaus Figur](images/bat-sprite.png)
 
 ```blocks3
-wenn Flag geklickt
-Satzgröße bis (50)%
-immer
-    move (10) Die Schritte
-    , wenn hochkant, aufprallen
-Ende
+Wenn die grüne Flagge angeklickt
+setze Größe auf (50)
+wiederhole fortlaufend 
+  gehe (10) er Schritt
+  pralle vom Rand ab
+end
 ```
 
-Denken Sie daran, Ihren Code zu testen.
+Denke daran, Deinen Code zu testen.
 
 \--- /task \---
 
-Wenn Sie sich die Kostüme der Fledermaus ansehen, sehen Sie, dass es vier verschiedene gibt:
+Wenn Du dir die Kostüme der Fledermaus (also der "Bat"-Figur) ansiehst, siehst Du, dass es vier verschiedene gibt:
 
 ![screenshot](images/invaders-bat-costume.png)
 
 \--- task \---
 
-Verwenden Sie die `nächste Kostüm`{: class = „block3looks“} Block der Fledermaus Klappe seine Flügel zu machen , wie es sich bewegt.
+Verwende den `nächstes Kostüm`{:class=„block3looks“}-Block um die Fledermaus ihre Flügel schlagen zu lassen, wenn sie sich bewegt.
 
 \--- hints \---
 
 \--- hint \---
 
-Nachdem sich die Fledermaus bewegt hat, sollte sie die `nächstes Kostüm`{: class = "block3looks"} und dann `Wartezeit`{: class = "block3control"} für eine kurze Zeit anzeigen.
+Nachdem sich die Fledermaus bewegt hat, sollte sie zum `nächsten Kostüm wechseln`{:class="block3looks"} und dann für eine kurze Zeit `warten`{:class="block3control"}.
 
 \--- /hint \---
 
 \--- hint \---
 
-Sie müssen diese Blöcke zu Ihrem Code hinzufügen:
+Du musst diese Blöcke zu deinem Code hinzufügen:
 
 ```blocks3
 warte (0.3) Sekunden
 
-nächstes Kostüm
+wechsle zum nächsten Kostüm
 ```
 
 \--- /hint \---
 
-\--- Hinweis \--- Ihr Code sollte folgendermaßen aussehen:
+\--- hint \--- Dein Code sollte so aussehen:
 
 ```blocks3
-wenn die Flagge geklickt hat
-Größe auf (50)%
-für immer
-bewegen (10) Schritte
-wenn am Rand, springen
-
-+ nächstes Kostüm
-+ warten (0,3) Sekunden
-Ende
+Wenn die grüne Flagge angeklickt
+setze Größe auf (50)
+wiederhole fortlaufend 
+gehe (10) er Schritt
+pralle vom Rand ab
+  
++ wechsle zum nächsten Kostüm
++ warte (0.3) Sekunden
+end
 ```
 
 \--- /hint \---
 
-\---/hints\---
+\--- /hints \---
 
 \--- /task \---
 
-Nun lassen Sie die Fledermaus Orangen werfen!
+Jetzt lass die Fledermaus Orangen werfen!
 
 \--- task \---
 
-Fügen Sie ein `Orange` Sprite aus der Scratch-Bibliothek hinzu.
+Füge einr `Orange` Figur aus der Scratch-Bibliothek hinzu.
 
 ![Screenshot](images/invaders-orange.png)
 
@@ -89,36 +89,36 @@ Fügen Sie ein `Orange` Sprite aus der Scratch-Bibliothek hinzu.
 
 \--- task \---
 
-Fügen Sie Code zu Ihrem Schläger hinzu, sodass `wenn die Flagge angeklickt wird,`{: class = "block3events"}, das `Bat` Sprite `für immer`{: class = "block3control"} ``{: class = "block3control"} wartet. für `zufällige`{: class = "block3operators"} Zeiträume zwischen `5 und 10`{: class = "block3operators"} Sekunden und dann `erstellt <code> einen Klon`{: class = "block3control"} der `Orange` Sprite.
+Füge Code zu deiner Fledermaus hinzu, sodass `wenn die Flagge angeklickt wird`{:class="block3events"}, die `Bat`-Figur `fortlaufend`{:class="block3control"} für eine `zufällige`{:class="block3operators"} Zeit, zwischen `5 und 10`{:class="block3operators"} Sekunden, `wartet`{:class="block3control"} und dann von der `Orange`-Figur `einen Klon erstellt`{:class="block3control"}.
 
-![Fledermaus Sprite](images/bat-sprite.png)
+![Fledermaus Figur](images/bat-sprite.png)
 
 ```blocks3
-wenn flag geklickt
-immer
-    wait (pick random (5) bis (10)) secs
-    erstellen Klon (orange v)
-Ende
+Wenn die grüne Flagge angeklickt
+wiederhole fortlaufend 
+  warte (Zufallszahl von (5) bis (10)) Sekunden
+  erzeuge Klon von (Orange v)
+end
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Fügen Sie Code zu `Orange` , damit jeder seiner Klone vom `Bat` Sprite auf den unteren Teil der Bühne fällt.
+Füge den Code zur `Orange` hinzu, damit jeder ihrer Klone von der `Bat`-Figur nach unten Richtung Boden der Bühne fällt.
 
-![Orange Sprite](images/orange-sprite.png)
+![Orange Figur](images/orange-sprite.png)
 
 ```blocks3
-    wenn Flag geklickt
-    auszublenden
+    Wenn die grüne Flagge angeklickt
+    verstecke dich
 
-    , wenn ich als Klon starten
-    unterwegs (Bat v)
-    Show
-    wiederholen , bis <berührend (Rand v)?
+    Wenn ich als Klon entstehe
+    gehe zu (Bat v)
+    zeige dich
+    wiederhole bis <wird (Rand v) berührt?> 
         ändere y um (-4)
-
+    end
     lösche diesen Klon
 ```
 
@@ -126,25 +126,25 @@ Fügen Sie Code zu `Orange` , damit jeder seiner Klone vom `Bat` Sprite auf den 
 
 \--- task \---
 
-Fügen Sie dem `Orange` Sprite etwas mehr Code hinzu, sodass der Klon auch verschwindet, wenn ein `Orange` Klon das `Spaceship` Sprite trifft, um dem Spieler die Möglichkeit zu geben, zurückzusetzen:
+Füge zu der `Orange`-Figur etwas mehr zum Code hinzu, sodass ein `Orange`-Klon auch verschwindet, wenn er die `Raumschiff`-Figur trifft, um dem Spieler die Möglichkeit zum zurückzusetzen zu geben:
 
-![Orange Sprite](images/orange-sprite.png)
+![Orange Figur](images/orange-sprite.png)
 
 ```blocks3
-    Wenn ich [hit v]
-    erhalte, lösche diesen Klon
+    Wenn ich [getroffen v] empfange
+    lösche diesen Klon
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Ändern Sie den Code Ihres `Spaceship` Sprites so, dass das Sprite "getroffen" wird, wenn es ein `Hippo` Sprite oder ein `Orange` Sprite berührt:
+Ändere den Code deiner `Raumschiff`-Figur so, dass die Figur "getroffen" wird, wenn sie eine `Hippo` Figur oder eine `Orange` Figur berührt:
 
-![Raketen-Sprite](images/rocket-sprite.png)
+![raumschiff-Figur](images/rocket-sprite.png)
 
 ```blocks3
-    warte bis < <touching (Hippo1 v)?> oder <touching (Orange v)?>>
+    warte bis <<wird (Hippo1 v) berührt?> oder <wird (Orange v) berührt?>>
 ```
 
 \--- /task \---
