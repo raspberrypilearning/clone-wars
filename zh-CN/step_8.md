@@ -1,7 +1,7 @@
-## 果蝠
+## 挑战：生命和得分
 
-At the moment, you can play the game forever, but it doesn't count how many hippos you shoot or how many times your spaceship explodes.
+目前，您可以永远玩游戏，但这并不计算您射击了多少只河马或飞船爆炸了多少次。
 
-Can you add `lives`{:class="block3variables"}, a `score`{:class="block3variables"}, or even a `highscore`{:class="block3variables"} to your game?
+您可以将`生命` {:class =“ block3variables”}，`得分` {:class =“ block3variables”}，甚至是`高分` {:class =“ block3variables”}加入您的游戏吗？
 
 [[[generic-scratch3-high-score]]]
