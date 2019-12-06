@@ -1,10 +1,10 @@
-## Lightning bolts
+## Relâmpagos
 
-Now you are going to give the spaceship the ability to fire lightning bolts!
+Agora vais dar à nave espacial a capacidade de disparar raios!
 
 \--- task \---
 
-Add the `Lightning` sprite from the Scratch library.
+Adiciona o ator ` Relâmpago ` da biblioteca do Scratch.
 
 [[[generic-scratch3-sprite-from-library]]]
 
@@ -12,45 +12,45 @@ Add the `Lightning` sprite from the Scratch library.
 
 \--- task \---
 
-When the game starts, the `Lightning` sprite should be hidden until the spaceship fires its laser cannons.
+Quando o jogo começa, o ator ` Relâmpago ` deve ficar oculto até a nave espacial disparar os seus canhões laser.
 
-Add this code to the `Lightning` sprite:
+Adiciona este código ao ator ` Relâmpago `:
 
-![lightning sprite](images/lightning-sprite.png)
+![ator Relâmpago](images/lightning-sprite.png)
 
 ```blocks3
-when green flag clicked
-hide
+quando alguém clicar na bandeira verde
+esconde-te
 ```
 
 \--- /task \---
 
-At the moment, the lightning bolt is really big compared to the spaceship!
+Neste momento, o raio é realmente muito grande quando comparado com a nave espacial!
 
 \--- task \---
 
-Below the code that the `Lightning` sprite already has, add some blocks to make the sprite smaller and to turn it upside down.
+Por baixo do código que o ator ` Relâmpago ` já possui, acrescenta alguns blocos para o diminuir e virar de cabeça para baixo.
 
-![lightning sprite](images/lightning-sprite.png)
+![ator Relâmpago](images/lightning-sprite.png)
 
 ```blocks3
-set size to (25) %
-point in direction (-90)
+altera o teu tamanho para (25) %
+altera a tua direção para (-90) °
 ```
 
-Now it looks like it fires pointy end–first out of the spaceship.
+Agora parece que está a ser disparado com a ponta virada para a nave espacial.
 
 \--- /task \---
 
 \--- task \---
 
-Add some new code to the `Spaceship` sprite to create a new clone of the lightning bolt if the <kbd>space</kbd> key is pressed.
+Acrescenta um novo bloco de código ao ator ` nave espacial ` para criar um novo clone do relâmpago quando a tecla <kbd> espaço </kbd> é pressionada.
 
 \--- hints \---
 
 \--- hint \---
 
-`When the green flag is clicked`{:class="block3events"}, keep checking `forever`{:class="block3control"} `if`{:class="block3control"} the `space key is pressed`{:class="block3sensing"}, and in that case `create a clone of the Lightning`{:class="block3control"} sprite.
+` Quando a bandeira verde é clicada ` {: class = "block3events"}, verifica continuamente ` para sempre ` {: class = "block3control"} ` se ` {: class = "block3control"} a tecla de espaço ` está a ser pressionada ` {: class = "block3sensing"} e, nesse caso, ` cria um clone do ator Relâmpago ` {: class = "block3control"}.
 
 \--- /hint \---
 
@@ -59,33 +59,33 @@ Add some new code to the `Spaceship` sprite to create a new clone of the lightni
 Aqui estão os blocos de que necessitas:
 
 ```blocks3
-if <> then
+se <>, então
 end
 
-forever
+repete para sempre
 end
 
-create clone of (Lightning v)
+cria um clone de (Lightning v)
 
-<key (space v) pressed?>
+<a tecla (space v) está a ser pressionada>
 
-when flag clicked
+Quando alguém clicar na bandeira verde
 ```
 
 \--- /hint \---
 
 \--- hint \---
 
-Here is what your new code should look like:
+Este é o aspeto que o teu código deve ter:
 
-![rocket sprite](images/rocket-sprite.png)
+![ator Foguetão](images/rocket-sprite.png)
 
 ```blocks3
-when flag clicked
-forever
-    if <key (space v) pressed?> then
-        create clone of (Lightning v)
-    end
+quando alguém clicar na bandeira verde
+repete para sempre 
+  se <a tecla (space v) está a ser pressionada>, então 
+    cria um clone de (Lightning v)
+  end
 end
 ```
 
@@ -97,26 +97,26 @@ end
 
 \--- task \---
 
-Whenever the game creates a `Lightning` sprite clone, the clone should appear and then move upwards until it reaches the top of the Stage. Then the clone should disappear.
+Sempre que o jogo cria um clone do ator` Relâmpago `, o clone deverá aparecer e depois mover-se para cima até atingir o topo do palco e depois desaparecer.
 
-Add this code to the `Lightning` sprite so that clones of it move upwards until they touch the edge of the Stage, and then they get deleted.
+Acrescenta este código ao ator ` Relâmpago ` para que os clones se movam para cima até tocar na borda do palco e depois serem eliminados.
 
-![lightning sprite](images/lightning-sprite.png)
+![ator Relâmpago](images/lightning-sprite.png)
 
 ```blocks3
-    when I start as a clone
-    go to (Spaceship v)
-    show
-    repeat until <touching (edge v) ?>
-        change y by (10)
-    end
-    delete this clone
+    quando fores criado como um clone
+vai para (Spaceship v)
+mostra-te
+até que <estás a tocar em (edge v)>, repete 
+  adiciona (10) ao teu y
+end
+remove-te como clone
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Press the <kbd>space</kbd> key to test whether the lightning bolt moves correctly.
+Pressiona a tecla <kbd> espaço </kbd> para testar se o relâmpago se move corretamente.
 
 \--- /task \---
