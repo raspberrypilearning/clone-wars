@@ -1,74 +1,74 @@
-## Space-bat
+## Космическая летучая мышь
 
-To make your game a bit harder, you are going to create a bat that throws oranges at the spaceship.
+Чтобы сделать твою игру немного сложнее, тебе необходимо создать летучую мышь, которая бросает апельсины на космический корабль.
 
-![a bat throwing an orange at the spaceship](images/bat-oranges.png)
+![летучая мышь бросает апельсин на космический корабль](images/bat-oranges.png)
 
 \--- task \---
 
-Add a `Bat` sprite and set its rotation style to **left–right**.
+Добавь спрайт ` Летучая мышь ` и установи для него стиль вращения ** влево-вправо **.
 
 \--- /task \---
 
 \--- task \---
 
-Make the `Bat` sprite `move`{:class="block3motion"} from left to right at the top of the Stage `forever`{:class="block3control"}.
+Сделай так, чтобы спрайт ` Летучая мышь ` ` перемещался ` {:class="block3motion"} слева направо в верхней части Сцены ` всегда ` {:class="block3control"}.
 
-![bat sprite](images/bat-sprite.png)
+![спрайт летучей мыши](images/bat-sprite.png)
 
 ```blocks3
-when flag clicked
-set size to (50) %
-forever
-    move (10) steps
-    if on edge, bounce
-end
+когда флаг нажат
+установить размер (50) %
+повторять всегда
+    идти (10) шагов
+    если касается края, оттолкнуться
+конец
 ```
 
-Remember to test your code.
+Не забудь проверить свой код.
 
 \--- /task \---
 
-If you look at the bat's costumes, you can see that it has four different ones:
+Если ты посмотришь на костюмы летучей мыши, то увидишь, что она имеет четыре разных костюма:
 
-![screenshot](images/invaders-bat-costume.png)
+![снимок экрана](images/invaders-bat-costume.png)
 
 \--- task \---
 
-Use the `next costume`{:class="block3looks"} block to make the bat flap its wings as it moves.
+Используй блок `следующий костюм` {:class="block3looks"}, чтобы летучая мышь взмахивала крыльями при движении.
 
-\--- подсказки \---
+\--- hints \---
 
 \--- hint \---
 
-After the bat has moved, it should show the `next costume`{:class="block3looks"} and then `wait`{:class="block3control"} for a short time.
+После того, как летучая мышь начала двигаться, должен показываться `следующий костюм` {:class="block3looks"} и затем `ждать` {:class="block3control"} на короткое время.
 
 \--- /hint \---
 
 \--- hint \---
 
-You need to add these blocks to you code:
+Тебе нужно будет добавить эти блоки в свой код:
 
 ```blocks3
-wait (0.3) seconds
+ждать (0,3) секунд
 
-next costume
+следующий костюм
 ```
 
 \--- /hint \---
 
-\--- hint \--- You code should look like this:
+\--- hint \--- Твой код должен выглядеть вот так:
 
 ```blocks3
-when flag clicked
-set size to (50) %
-forever
-move (10) steps
-if on edge, bounce
+когда флаг нажат
+установить размер (50)%
+повторять всегда
+идти (10) шагов
+если касается края, оттолкнуться
 
-+ next costume
-+ wait (0.3) seconds
-end
++ следующий костюм
++ ждать (0,3) секунд
+конец
 ```
 
 \--- /hint \---
@@ -77,80 +77,80 @@ end
 
 \--- /task \---
 
-Now make the bat throw oranges!
+Теперь сделай так, чтобы летучая мышь бросала апельсины!
 
 \--- task \---
 
-Add an `Orange` sprite from the Scratch library.
+Добавь спрайт ` Апельсин ` из библиотеки Скретч.
 
-![screenshot](images/invaders-orange.png)
+![снимок экрана](images/invaders-orange.png)
 
 \--- /task \---
 
 \--- task \---
 
-Add code to your bat so that `when the flag is clicked`{:class="block3events"}, the `Bat` sprite `forever`{:class="block3control"} `waits`{:class="block3control"} for a `random`{:class="block3operators"} length of time between `5 to 10`{:class="block3operators"} seconds and then `creates a clone`{:class="block3control"} of the `Orange` sprite.
+Добавь код к своей летучей мыши, чтобы ` когда флаг нажат ` {:class="block3events"}, спрайт ` летучая мышь ` ` повторять всегда ` {:class="block3control"} ` ждать ` {:class=block3control"} для промежутка времени ` выдать случайное ` {:class="block3operators"} ` от 5 до 10 ` {:class="block3operators"} секунд, а затем ` создать клон ` {:class="block3control"} спрайта ` Апельсин `.
 
-![bat sprite](images/bat-sprite.png)
+![спрайт летучей мыши](images/bat-sprite.png)
 
 ```blocks3
-when flag clicked
-forever
-    wait (pick random (5) to (10)) secs
-    create clone of (Orange v)
-end
+когда флаг нажат
+повторять всегда
+    ждать (выдать случайное от (5) до (10)) секунд
+    создать клон (Апельсин)
+конец
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Add code to the `Orange` to make each of its clone drop, starting from the `Bat` sprite and falling towards the bottom of the Stage.
+Добавь код в ` Апельсин `, чтобы каждый из его клонов падал, начиная со спрайта ` летучей мыши ` и до уровня нижней части Сцены.
 
-![orange sprite](images/orange-sprite.png)
+![спрайт апельсина](images/orange-sprite.png)
 
 ```blocks3
-    when flag clicked
-    hide
+    когда флаг нажат
+    спрятаться
 
-    when I start as a clone
-    go to (Bat v)
-    show
-    repeat until <touching (edge v)?
-        change y by (-4)
-    end
-    delete this clone
+    когда я начинаю как клон
+    перейти на (Летучая мышь)
+    показаться
+    повторять пока не (касается (край)?
+        изменить y на (-4)
+    конец
+    удалить клон
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Add some more code to the `Orange` sprite so that when an `Orange` clone hits the `Spaceship` sprite, the clone also disappears to give the player a chance to reset:
+Добавь еще немного кода в спрайт ` Апельсин ` для того, чтобы когда клон ` Апельсина ` ударяет спрайт ` Космический корабль `, клон также исчезнет, чтобы дать игроку возможность начать игру снова:
 
-![orange sprite](images/orange-sprite.png)
+![спрайт апельсина](images/orange-sprite.png)
 
 ```blocks3
-    when I receive [hit v]
-    delete this clone
+    когда я получу [удар]
+удалить клон
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Modify the code of your `Spaceship` sprite so that the sprite is "hit" when it touches a `Hippo` sprite or an `Orange` sprite:
+Измени код спрайта своего ` Космического корабля `, так что спрайт "ударился", когда он касается спрайта ` Бегемот ` или спрайта ` Апельсин `:
 
-![rocket sprite](images/rocket-sprite.png)
+![спрайт ракета](images/rocket-sprite.png)
 
 ```blocks3
-    wait until < <touching (Hippo1 v)?> or <touching (Orange v)?>>
+    ждать до <touching (Hippo1 v)?> или <touching (Orange v)?>
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Test your game. What happens if the spaceship gets hit by a falling orange?
+Проверь свою игру. Что произойдет, если космический корабль столкнётся с падающим апельсином?
 
 \--- /task \---
