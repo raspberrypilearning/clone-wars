@@ -1,6 +1,6 @@
-## Co następne?
+## Co dalej?
 
-Have a go at our [Create your own world](https://projects.raspberrypi.org/en/projects/create-your-own-world?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) project, where you’ll create your own adventure game!
+Wypróbuj nasz projekt [Stwórz swój własny świat](https://projects.raspberrypi.org/en/projects/create-your-own-world?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects), w którym możesz stworzyć swoją własną grę przygodową!
 
 \--- no-print \---
 
@@ -15,6 +15,6 @@ Kliknij na zieloną flagę, aby rozpocząć. Użyj klawiszy strzałek, aby porus
 
 \--- print-only \---
 
-You'll use the arrow keys to move your character around in the world. ![showcase.png](images/create-showcase.png)
+Użyj klawiszy strzałek, aby poruszać swoją postać w świecie gry. ![showcase.png](images/create-showcase.png)
 
 \--- /print-only \---
