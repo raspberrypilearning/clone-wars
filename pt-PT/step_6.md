@@ -1,20 +1,20 @@
-## Spaceship explosion
+## Explosão da nave espacial
 
-When a hippo touches your spaceship, the spaceship should explode!
+Quando um hipopótamo toca na tua nave espacial, ela deve explodir!
 
 \--- task \---
 
-Select the `Spaceship` sprite and rename its costume 'normal'.
+Seleciona o ator ` nave espacial ` e renomeia o traje como 'normal'.
 
 \--- /task \---
 
 \--- task \---
 
-Draw another costume of an exploding spaceship, and call the new costume 'hit'.
+Desenha outro traje de uma nave espacial a explodir e altera o nome deste este novo traje para 'atingido'.
 
 ![captura de ecrã](images/invaders-spaceship-costumes.png)
 
-If you don't want to draw the explosion, you can select the 'Sun' costume from the Scratch library, and then use the **Color a shape** tool to change the costume's colour and face.
+Se você não quiseres desenhar a explosão, poderás selecionar o traje 'Sol' na biblioteca do Scratch e usar a ferramenta ** Pintar uma forma ** para mudar a cor e aspeto do traje.
 
 ![captura de ecrã](images/invaders-sun.png)
 
@@ -22,21 +22,21 @@ If you don't want to draw the explosion, you can select the 'Sun' costume from t
 
 \--- task \---
 
-Add some code to your `Spaceship` sprite so that it displays the 'normal' costume when the game starts, and switches to the 'hit' costume when it touches a hippo:
+Acrescenta algum código ao teu ator ` nave espacial ` para presentar o traje 'normal' quando o jogo começa e mudar para o traje 'atingido' quando toca num hipopótamo:
 
-![rocket sprite](images/rocket-sprite.png)
+![ator Foguetão](images/rocket-sprite.png)
 
 ```blocks3
-when flag clicked
-switch costume to (normal v)
-wait until <touching (Hippo1 v)>?
-switch costume to (hit v)
+quando alguém clicar na bandeira verde
+muda o teu traje para (normal v)
+espera até que <estás a tocar em (Hippo1 v)>
+muda o teu traje para (hit v)
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Test your code. Make the spaceship collide with a hippo. Does the spaceship change to the 'hit' costume?
+Testa o teu código. Faz a nave espacial colidir com um hipopótamo. Ela muda para o traje 'atingido'?
 
 \--- /task \---
