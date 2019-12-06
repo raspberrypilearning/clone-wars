@@ -1,20 +1,20 @@
-## Spaceship explosion
+## Eksplozja statku kosmicznego
 
-When a hippo touches your spaceship, the spaceship should explode!
+Kiedy hipopotam dotknie twojego statku kosmicznego, statek powinien eksplodować!
 
 \--- task \---
 
-Select the `Spaceship` sprite and rename its costume 'normal'.
+Wybierz duszka `Statek kosmiczny` i zmień nazwę kostiumu na 'normalny'.
 
 \--- /task \---
 
 \--- task \---
 
-Draw another costume of an exploding spaceship, and call the new costume 'hit'.
+Narysuj kolejny kostium eksplodującego statku kosmicznego i nazwij go"trafiony".
 
 ![zrzut ekranu](images/invaders-spaceship-costumes.png)
 
-If you don't want to draw the explosion, you can select the 'Sun' costume from the Scratch library, and then use the **Color a shape** tool to change the costume's colour and face.
+Jeśli nie chcesz narysować eksplozji, możesz wybrać kostium 'Sun' z biblioteki Scratch i użyć narzędzia **Wypełnij kolorem** do zmiany koloru i usunięcia twarzy.
 
 ![zrzut ekranu](images/invaders-sun.png)
 
@@ -22,21 +22,21 @@ If you don't want to draw the explosion, you can select the 'Sun' costume from t
 
 \--- task \---
 
-Add some code to your `Spaceship` sprite so that it displays the 'normal' costume when the game starts, and switches to the 'hit' costume when it touches a hippo:
+Dodaj kod do swojego duszka `statku kosmicznego`, który wyświetla „normalny” kostium, gdy gra się rozpoczyna, i przełącza się na kostium „trafienie”, gdy dotknie hipopotama:
 
-![rocket sprite](images/rocket-sprite.png)
+![duszek rakiety](images/rocket-sprite.png)
 
 ```blocks3
-when flag clicked
-switch costume to (normal v)
-wait until <touching (Hippo1 v)>?
-switch costume to (hit v)
+kiedy kliknięto zieloną flagę
+zmień kostium na (normalny v)
+czekaj aż <touching (Hippo1 v)>?
+zmień kostium na (trafiony v)
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Test your code. Make the spaceship collide with a hippo. Does the spaceship change to the 'hit' costume?
+Przetestuj swój kod. Spraw, by statek kosmiczny zderzył się z hipopotamem. Czy statek kosmiczny zmienia kostium na "trafiony"?
 
 \--- /task \---
