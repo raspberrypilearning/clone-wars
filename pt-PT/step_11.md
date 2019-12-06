@@ -1,19 +1,19 @@
 ## Desafio: Melhorar o teu jogo
 
-What improvements can you make to your game?
+Que melhorias consegues fazer no teu jogo?
 
-Aqui estão algumas idéias:
+Aqui estão algumas ideias:
 
-+ Add health packs that you can collect to gain extra lives.
++ Adiciona pacotes de saúde que você possas recolher para ganhar vidas extras.
 
 ![captura de ecrã](images/invaders-aid.png)
 
-+ Add floating rocks that your spaceship must avoid.
++ Acrescenta pedras flutuantes que a tua nave espacial deve evitar.
 
 ![captura de ecrã](images/invaders-rocks.png)
 
-+ Make more enemies appear when your score gets to `100`.
++ Faz aparecer mais inimigos quando a tua pontuação chegar a ` 100 `.
 
 ```blocks3
-    wait until <(score :: variables) = [100]>
+    espera até que <(score :: variables) = [100]>
 ```
