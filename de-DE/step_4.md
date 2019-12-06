@@ -1,3 +1,3 @@
-## Fliegende Weltraum-Nilpfherde
+## Herausforderung: Verbessere den Blitz
 
-Was passiert, wenn Sie die <kbd>-Leertaste</kbd> gedrückt halten? Können Sie einen `wait`{: class = "block3control"} -Block verwenden, um dies zu beheben?
+Was passiert, wenn Du die <kbd>Leertaste</kbd> gedrückt hälst? Kannst Du einen `warte`{:class="block3control"}-Block verwenden, um das zu beheben?
