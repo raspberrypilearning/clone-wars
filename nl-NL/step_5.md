@@ -73,7 +73,7 @@ wanneer groene vlag wordt aangeklikt
 herhaal 
   wacht (willekeurig getal tussen (2) en (4)) sec.
   maak een kloon van (Hippo1 v)
-end
+einde
 ```
 
 \--- /hint \---
@@ -122,11 +122,11 @@ Op dit moment bewegen de nijlpaarden niet.
 Elke hippo zou willekeurig moeten bewegen totdat het geraakt wordt door een bliksemschicht. Om dat te doen, voeg deze code toe onder de blokken die al in het `nijlpaard` sprite script staan:
 
 ```blocks3
-herhaal tot <touching (lightning v) ?> 
+herhaal tot &ltraak ik (lightning v) ?> 
   neem (snelheid :: variables) stappen
   draai (willekeurig getal tussen (-10) en (10)) graden naar rechts
   keer om aan de rand
-end
+einde
 verwijder deze kloon
 ```
 
