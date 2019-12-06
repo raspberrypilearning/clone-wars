@@ -1,6 +1,6 @@
-## Zusatzaufgabe: mehr Stifte
+## Was kommt als nächstes?
 
-Probieren Sie unser [Create your own world](https://projects.raspberrypi.org/en/projects/create-your-own-world?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) Projekt aus, in dem Sie Ihr eigenes Abenteuerspiel erstellen!
+Schau dir unser [Erstelle deine eigene Welt](https://projects.raspberrypi.org/en/projects/create-your-own-world?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects)-Projekt an, wo du dein eigenes Abenteuerspiel erstellen kannst!
 
 \--- no-print \---
 
@@ -15,6 +15,6 @@ Klicke zum Starten auf die grüne Flagge. Benutze die Pfeiltasten, um deinen Cha
 
 \--- print-only \---
 
-Verwenden Sie die Pfeiltasten, um Ihren Charakter in der Welt zu bewegen. ![showcase.png](images/create-showcase.png)
+Du benutzt die Pfeiltasten, um deinen Charakter durch die Welt zu bewegen. ![showcase.png](images/create-showcase.png)
 
 \--- /print-only \---
