@@ -1,20 +1,20 @@
 ## 爆炸的宇宙飞船
 
-When a hippo touches your spaceship, the spaceship should explode!
+当河马碰到您的飞船时，飞船应爆炸！
 
 \--- task \---
 
-Select the `Spaceship` sprite and rename its costume 'normal'.
+选择`宇宙飞船`角色，并将其造型命名为“正常”。
 
 \--- /task \---
 
 \--- task \---
 
-Draw another costume of an exploding spaceship, and call the new costume 'hit'.
+画出另一只爆炸飞船的造型，并将新造型称为“命中”。
 
 ![截屏](images/invaders-spaceship-costumes.png)
 
-If you don't want to draw the explosion, you can select the 'Sun' costume from the Scratch library, and then use the **Color a shape** tool to change the costume's colour and face.
+如果您不想绘制爆炸，您可以从Scratch库中选择“太阳”造型， 然后使用 **为形状着色** 工具来更改造型的颜色和面。
 
 ![截屏](images/invaders-sun.png)
 
@@ -22,9 +22,9 @@ If you don't want to draw the explosion, you can select the 'Sun' costume from t
 
 \--- task \---
 
-Add some code to your `Spaceship` sprite so that it displays the 'normal' costume when the game starts, and switches to the 'hit' costume when it touches a hippo:
+在您的`宇宙飞船` 角色中添加一些代码，以便在游戏开始时显示“正常”造型，并在触碰到河马时切换为“命中”造型：
 
-![rocket sprite](images/rocket-sprite.png)
+![火箭角色](images/rocket-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -37,6 +37,6 @@ switch costume to (hit v)
 
 \--- task \---
 
-Test your code. Make the spaceship collide with a hippo. Does the spaceship change to the 'hit' costume?
+测试您的代码。使飞船与河马相撞。宇宙飞船会切换成“命中”的造型吗？
 
 \--- /task \---
