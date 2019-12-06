@@ -1,18 +1,18 @@
-## 挑战：完善你的游戏
+## 游戏结束
 
-Next, you're going to add a 'game over' message at the end of the game.
+接下来，你将在游戏末尾添加一条“游戏结束”的消息。
 
 \--- task \---
 
-If you haven't already, create a new variable called `lives`{:class="block3variables"}.
+如果您尚未创建，请创建一个新变量，名为 `生命`{:class="block3variables"}。
 
-Your spaceship should start with three lives and lose a life whenever it touches a hippo or an orange. Your game should stop when the `lives`{:class="block3variables"} run out.
+你的宇宙飞船应该从三条生命开始，并且每当碰到一只河马或一只橙色时就失去一条生命。 当`生命`{:class="block3变量"} 耗尽时，你的游戏应该停止。
 
 \--- /task \---
 
 \--- task \---
 
-Draw a new sprite called `Game Over` using the **text** tool.
+绘制一个名为` 游戏结束`的新角色，使用**文本**工具。
 
 ![截屏](images/invaders-game-over.png)
 
@@ -20,9 +20,9 @@ Draw a new sprite called `Game Over` using the **text** tool.
 
 \--- task \---
 
-On the Stage, broadcast a `game over`{:class="block3events"} message just before the game ends.
+在舞台上，游戏正好结束之前播放一条`游戏结束` {:class =“ block3events”}的消息。
 
-![gameover sprite](images/stage-sprite.png)
+![游戏结束角色](images/stage-sprite.png)
 
 ```blocks3
 broadcast (game over v) and wait
@@ -32,9 +32,9 @@ broadcast (game over v) and wait
 
 \--- task \---
 
-Add this code to your `Game Over` sprite so that it shows at the end of the game:
+将此代码添加到您的` 游戏结束 `角色，使其在游戏结束时显示：
 
-![gameover sprite](images/gameover-sprite.png)
+![游戏结束角色](images/gameover-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -44,12 +44,12 @@ when I receive [game over v]
 show
 ```
 
-Because you've used a `broadcast (game over) and wait`{:class="block3events"} block on your Stage, the Stage will wait for the `Game Over` sprite to be displayed before ending the game.
+因为您已经在舞台上使用了一个`广播(游戏结束)并等待`{:class="block3events"} 代码块， 舞台将等`游戏结束`角色显示后才结束游戏。。
 
 \--- /task \---
 
 \--- task \---
 
-Test your game. How many points can you score? If the game is too easy or too hard, can you think of ways to improve it?
+测试您的游戏。您可以得多少分？如果游戏太简单或太难，您能想到改善它的方法吗？
 
 \--- /task \---
