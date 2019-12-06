@@ -6,7 +6,7 @@ Esta é a versão **Scratch 3** do projeto. Há também uma versão [Scratch 2 d
 
 ## Introdução
 
-In this project you will learn how to create a game in which you have to save the Earth from space monsters.
+Neste projeto, irás aprender a criar um jogo no qual deves salvar a Terra dos monstros espaciais.
 
 ### O que vais fazer
 
@@ -21,7 +21,7 @@ Clica na bandeira verde do exemplo do jogo abaixo para começar, e depois pressi
 
 \--- /no-print \---
 
-Score as many points as you can by shooting flying space-hippos. If you get hit by a hippo or by an orange dropped by the bats, you lose a life.
+Pontua o máximo que for possível disparando contra os hipopótamos voadores. Se fores atingido por um hipopótamo ou por uma laranja atirada pelos morcegos, perdes uma vida.
 
 \--- print-only \---
 
@@ -45,7 +45,7 @@ Score as many points as you can by shooting flying space-hippos. If you get hit 
 
 ### Downloads
 
-[Find the downloads here](http://rpf.io/p/en/clone-wars-go).
+[Encontra os ficheiros para download aqui](http://rpf.io/p/en/clone-wars-go).
 
 \--- /collapse \---
 
@@ -55,9 +55,9 @@ Score as many points as you can by shooting flying space-hippos. If you get hit 
 
 ## title: O que vais aprender
 
-+ How to make sprites move using keyboard input
-+ How to clone sprites to make copies of them
-+ How to use 'broadcast' and 'receive blocks' to send messages
++ Como mover os atores utilizando o teclado
++ Como clonar os atores para fazer cópias deles mesmos
++ Como usar blocos de 'difusão' e 'receção' para enviar mensagens
 
 \--- /collapse \---
 
@@ -73,6 +73,6 @@ Se você precisar imprimir este projeto, por favor, use a [versão para impress�
 
 \--- /no-print \---
 
-You can find the [completed project here](http://rpf.io/p/en/clone-wars-get).
+Podes encontrar o [projeto concluído aqui](http://rpf.io/p/en/clone-wars-get){: target="_ blank.
 
 \--- /collapse \---
