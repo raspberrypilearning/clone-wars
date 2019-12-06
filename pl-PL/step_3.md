@@ -1,6 +1,6 @@
 ## Błyskawice
 
-Now you are going to give the spaceship the ability to fire lightning bolts!
+Teraz, dodasz statkowi możliwość strzelania błyskawicami!
 
 \--- task \---
 
@@ -12,11 +12,11 @@ Dodaj duszka `Lightning` z biblioteki Scratch i nazwijmy go "Błyskawica".
 
 \--- task \---
 
-When the game starts, the `Lightning` sprite should be hidden until the spaceship fires its laser cannons.
+Gdy gra się rozpocznie, duszek `Błyskawica` powinien być ukryty, dopóki statek kosmiczny nie wystrzeli z dział laserowych.
 
-Add this code to the `Lightning` sprite:
+Dodaj ten kod do duszka `Błyskawicy`:
 
-![lightning sprite](images/lightning-sprite.png)
+![duszek błyskawicy](images/lightning-sprite.png)
 
 ```blocks3
 kiedy kliknięto zieloną flagę
@@ -25,32 +25,32 @@ ukryj
 
 \--- /task \---
 
-At the moment, the lightning bolt is really big compared to the spaceship!
+W tej chwili błyskawica jest naprawdę duża w porównaniu do statku kosmicznego!
 
 \--- task \---
 
-Below the code that the `Lightning` sprite already has, add some blocks to make the sprite smaller and to turn it upside down.
+Poniżej kodu jaki ma już duszek `Błyskawica` dodaj kilka bloków, aby zmniejszyć duszka i obrócić go do góry nogami.
 
-![lightning sprite](images/lightning-sprite.png)
+![duszek błyskawicy](images/lightning-sprite.png)
 
 ```blocks3
-set size to (25) %
-point in direction (-90)
+ustaw rozmiar na (25) %
+ustaw kierunek na (-90)
 ```
 
-Now it looks like it fires pointy end–first out of the spaceship.
+Teraz wygląda na to, że je wystrzeliwuje ze statku kosmicznego spiczastym końcem do przodu.
 
 \--- /task \---
 
 \--- task \---
 
-Add some new code to the `Spaceship` sprite to create a new clone of the lightning bolt if the <kbd>space</kbd> key is pressed.
+Dodaj trochę nowego kodu do duszka `Statku kosmicznego` aby stworzyć nowego klona błyskawicy, jeżeli wciśnięty jest przycisk <kbd>spacja</kbd>.
 
-\--- wskazówka \---
+\--- hints \---
 
 \--- hint \---
 
-`When the green flag is clicked`{:class="block3events"}, keep checking `forever`{:class="block3control"} `if`{:class="block3control"} the `space key is pressed`{:class="block3sensing"}, and in that case `create a clone of the Lightning`{:class="block3control"} sprite.
+`Kiedy kliknięto zieloną flagę`,{:class="block3events"}, sprawdzaj `zawsze`{:class="block3control"} ` jeżeli`{:class="block3control"} `klawisz spacji jest wciśnięty`{:class="block3sensing"}, w takim przypadku ` stwórz klona Błyskawicy`{:class="block3control"}.
 
 \--- /hint \---
 
@@ -59,33 +59,33 @@ Add some new code to the `Spaceship` sprite to create a new clone of the lightni
 Oto bloki, których potrzebujesz:
 
 ```blocks3
-if <> then
+jeżeli <> to
 end
 
-forever
+zawsze
 end
 
-create clone of (Lightning v)
+utwórz klona z (Błyskawica v)
 
 <key (space v) pressed?>
 
-when flag clicked
+kiedy kliknięto zieloną flagę
 ```
 
 \--- /hint \---
 
 \--- hint \---
 
-Here is what your new code should look like:
+Tak powinien wyglądać Twój kod:
 
-![rocket sprite](images/rocket-sprite.png)
+![duszek rakiety](images/rocket-sprite.png)
 
 ```blocks3
-when flag clicked
-forever
-    if <key (space v) pressed?> then
-        create clone of (Lightning v)
-    end
+kiedy kliknięto zieloną flagę
+zawsze 
+  jeżeli <key (space v) pressed?> to 
+    utwórz klona z (Błyskawica v)
+  end
 end
 ```
 
@@ -97,26 +97,26 @@ end
 
 \--- task \---
 
-Whenever the game creates a `Lightning` sprite clone, the clone should appear and then move upwards until it reaches the top of the Stage. Then the clone should disappear.
+Za każdym razem, gdy gra tworzy klona duszka `Błyskawica`, klon powinien pojawić się i przesuwać w górę, aż osiągnie górną granicę sceny. Następnie klon powinien zniknąć.
 
-Add this code to the `Lightning` sprite so that clones of it move upwards until they touch the edge of the Stage, and then they get deleted.
+Dodaj ten kod do duszka `Błyskawica` tak, aby jego klony poruszały się w górę, aż dotkną krawędzi sceny, a następnie zostaną usunięte.
 
-![lightning sprite](images/lightning-sprite.png)
+![duszek błyskawicy](images/lightning-sprite.png)
 
 ```blocks3
-    when I start as a clone
-    go to (Spaceship v)
-    show
-    repeat until <touching (edge v) ?>
-        change y by (10)
-    end
-    delete this clone
+    gdy zaczynam jako klon
+idź do (Statek kosmiczny v)
+pokaż
+powtarzaj aż <touching (edge v) ?> 
+  zmień y o (10)
+end
+usuń tego klona
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Press the <kbd>space</kbd> key to test whether the lightning bolt moves correctly.
+Naciśnij klawisz <kbd>spacji</kbd> aby sprawdzić czy twoje błyskawice poprawnie się poruszają.
 
 \--- /task \---
