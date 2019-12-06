@@ -12,7 +12,7 @@ Hier zijn wat ideeën:
 
 ![screenshot](images/invaders-rocks.png)
 
-+ Laat wanneer je score ` 100 wordt ` meer vijanden verschijnen.
++ Laat wanneer je score `100` wordt meer vijanden verschijnen.
 
 ```blocks3
     wacht tot <(score :: variables) = [100]>
