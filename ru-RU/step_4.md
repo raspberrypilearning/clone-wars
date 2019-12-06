@@ -1,3 +1,3 @@
-## Challenge: improve the lightning
+## Задание: улучши спрайта Молния
 
-What happens if you hold down the <kbd>space</kbd> key? Can you use a `wait`{:class="block3control"} block to fix this?
+Что произойдет, если ты будешь удерживать нажатой клавишу <kbd>пробел</kbd>? Попробуй использовать блок `ждать` {: class = "block3control"}, чтобы это исправить?
