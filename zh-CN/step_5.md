@@ -1,10 +1,10 @@
 ## 会飞的太空河马
 
-Now you're going to add lots of flying hippos that try to destroy your spaceship.
+现在，您将添加许多试图破坏飞船的飞行河马。
 
 \--- task \---
 
-Create a new sprite with the 'Hippo1' image in the Scratch library. Use the **shrink** tool to make the `Hippo` sprite a similar size to the `Spaceship` sprite.
+在 Scratch 库中用'Hippo1' 图像创建一个新的角色。 使用**收缩**工具使`河马`角色和`飞船`差不多大小。
 
 ![截屏](images/invaders-hippo.png)
 
@@ -12,7 +12,7 @@ Create a new sprite with the 'Hippo1' image in the Scratch library. Use the **sh
 
 \--- task \---
 
-Set the `Hippo` sprite's rotation style to **left-right**.
+设置`河马`角色的旋转样式为** 左-右 ** 。
 
 [[[generic-scratch3-sprite-rotation-style]]]
 
@@ -20,9 +20,9 @@ Set the `Hippo` sprite's rotation style to **left-right**.
 
 \--- task \---
 
-Add some code to hide the `Hippo` sprite when the game starts.
+添加一些代码以在游戏开始时隐藏`河马`角色。
 
-![hippo sprite](images/hippo-sprite.png)
+![河马角色](images/hippo-sprite.png)
 
 ```blocks3
 when green flag clicked
@@ -33,19 +33,19 @@ hide
 
 \--- task \---
 
-Add some code to the Stage to create a new `Hippo` clone every few seconds.
+添加一些代码到舞台，每隔几秒钟创建一个`河马`克隆。
+
+\--- hints \---
 
 \--- hint \---
 
-\--- hint \---
-
-When the `green flag is clicked`{:class="block3events"}, `repeatedly`{:class="block3control"} `wait`{:class="block3control"} `between 2 and 4 seconds`{:class="block3operators"} and then `create a clone of the Hippo sprite`{:class="block3control"}.
+当 `绿色旗帜被点击时`{:class="block3events"}, `重复地`{:class="block3control"} `等待`{:class="block3control"} `2~4秒`{:class="block3operators"} 然后 `创建一个河马角色克隆`{:class="block3control"}.
 
 \--- /hint \---
 
 \--- hint \---
 
-Here are the blocks you need:
+以下是你需要的代码块：
 
 ```blocks3
 forever
@@ -64,9 +64,9 @@ wait () secs
 
 \--- hint \---
 
-This is what your code should look like:
+你的代码看起来应该是这样的：
 
-![stage sprite](images/stage-sprite.png)
+![舞台角色](images/stage-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -78,19 +78,19 @@ end
 
 \--- /hint \---
 
-\--- /hint \---
+\--- /hints \---
 
 \--- /task \---
 
-Each new hippo clone should appear at a random `x` position, and every clone should have a random speed.
+每个新的河马克隆都应该出现在随机的`x`位置上，每个克隆都应该有随机的速度。
 
 \--- task \---
 
-Create a new variable called `speed`{:class="block3variables"} that is for the `Hippo` sprite only.
+创建一个新变量，名为`速度`{:class="block3variables"}，只应用于 `河马` 角色
 
 [[[generic-scratch3-add-variable]]]
 
-When you've done this correctly, the variable has the name of the sprite next to it, like this:
+正确完成此操作后，变量旁边会带有角色的名称，如下所示：
 
 ![截屏](images/invaders-var-test.png)
 
@@ -98,7 +98,7 @@ When you've done this correctly, the variable has the name of the sprite next to
 
 \--- task \---
 
-When each `Hippo` clone starts, pick a random speed and starting place for it. Then show the clone on the screen.
+每个`河马`克隆启动时，选择随机的速度和起点。然后在屏幕上显示克隆。
 
 ```blocks3
 when I start as a clone
@@ -111,15 +111,15 @@ show
 
 \--- task \---
 
-Test your code. Does a new hippo appear every few seconds?
+测试您的代码。是否每隔几秒钟出现一个新的河马？
 
 \--- /task \---
 
-At the moment the hippos don't move.
+目前，河马没有移动。
 
 \--- task \---
 
-Each hippo should move around randomly until it gets hit by a lightning bolt. To make that happen, attach this code below the blocks that are already in the `Hippo` sprite's code script:
+每个河马都应该随机移动，直到被闪电击中。 要做到这一点，请在`河马`角色已有的的代码脚本中的代码块下面附上此代码：
 
 ```blocks3
 repeat until <touching (lightning v) ?>
@@ -134,9 +134,9 @@ delete this clone
 
 \--- task \---
 
-Test your code again. You should see a new hippo clone appear every few seconds, and each clone should move at a different speed.
+再次测试您的代码。您应该看到每隔几秒钟就会出现一个新的河马克隆，并且每个克隆应以不同的速度移动。
 
---无打印--
+\--- no-print \---
 
 ![截屏](images/hippo-clones.gif)
 
@@ -146,6 +146,6 @@ Test your code again. You should see a new hippo clone appear every few seconds,
 
 \--- task \---
 
-Now test the spaceship's laser cannon. If a lightning bolt hits a hippo, does the hippo vanish?
+现在测试飞船的激光大炮。如果闪电击中河马，河马会消失吗？
 
 \--- /task \---
