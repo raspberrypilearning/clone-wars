@@ -1,12 +1,12 @@
 ## Koniec gry
 
-Next, you're going to add a 'game over' message at the end of the game.
+Dodajmy wiadomość "koniec gry" na końcu gry.
 
 \--- task \---
 
-If you haven't already, create a new variable called `lives`{:class="block3variables"}.
+Jeśli jeszcze tego nie zrobiłaś, utwórz nową zmienną o nazwie `życia`{:class="block3variables"}.
 
-Your spaceship should start with three lives and lose a life whenever it touches a hippo or an orange. Your game should stop when the `lives`{:class="block3variables"} run out.
+Twój statek kosmiczny powinien zaczynać od trzech żyć i tracić życie za każdym razem, gdy dotknie hipopotama lub pomarańczy. Twoja gra powinna się zatrzymać, gdy `życia`{:class="block3variables"} się skończą.
 
 \--- /task \---
 
@@ -20,36 +20,36 @@ Narysuj nowego duszka o nazwie `Koniec gry` używając narzędzia **tekst**.
 
 \--- task \---
 
-On the Stage, broadcast a `game over`{:class="block3events"} message just before the game ends.
+Na scenie nadaj komunikat `koniec gry`{:class="block3events"}, tuż przed zakończeniem gry.
 
-![gameover sprite](images/stage-sprite.png)
+![duszek koniec gry](images/stage-sprite.png)
 
 ```blocks3
-broadcast (game over v) and wait
+nadaj komunikat (koniec gry v) i czekaj
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Add this code to your `Game Over` sprite so that it shows at the end of the game:
+Dodaj ten kod do twojego duszka `Koniec Gry`, aby komunikat pojawił się na końcu gry:
 
-![gameover sprite](images/gameover-sprite.png)
+![duszek koniec gry](images/gameover-sprite.png)
 
 ```blocks3
-kiedy flaga kliknięta
+kiedy kliknięto zieloną flagę
 ukryj
 
-kiedy przyjmuję [koniec gry v]
+kiedy otrzymam [koniec gry v]
 pokaż
 ```
 
-Because you've used a `broadcast (game over) and wait`{:class="block3events"} block on your Stage, the Stage will wait for the `Game Over` sprite to be displayed before ending the game.
+Ponieważ użyłaś na twojej Scenie bloku `nadaj komunikat (koniec gry) i czekaj `{:class="block3events"}, będzie ona czekać na wyświetlenie duszka `Koniec Gry` przed końcem gry.
 
 \--- /task \---
 
 \--- task \---
 
-Test your game. How many points can you score? If the game is too easy or too hard, can you think of ways to improve it?
+Przetestuj swoją grę. Ile punktów możesz zdobyć? Jeśli jest zbyt łatwa lub zbyt trudna, czy możesz wymyślić sposoby na ulepszenie swojej gry?
 
 \--- /task \---
