@@ -1,10 +1,10 @@
-## Lightning bolts
+## Удар молнии
 
-Now you are going to give the spaceship the ability to fire lightning bolts!
+Сейчас ты сделаешь так, чтобы космический корабль мог стрелять молниями!
 
 \--- task \---
 
-Add the `Lightning` sprite from the Scratch library.
+Добавь спрайт ` Молния ` из библиотеки Скретч.
 
 [[[generic-scratch3-sprite-from-library]]]
 
@@ -12,111 +12,111 @@ Add the `Lightning` sprite from the Scratch library.
 
 \--- task \---
 
-When the game starts, the `Lightning` sprite should be hidden until the spaceship fires its laser cannons.
+Когда игра начинается, спрайт ` Молния ` должен быть спрятан до тех пор, пока космический корабль не выстрелит из своих лазерных пушек.
 
-Add this code to the `Lightning` sprite:
+Добавь этот код в спрайт `Молния`:
 
-![lightning sprite](images/lightning-sprite.png)
+![спрайт Молния](images/lightning-sprite.png)
 
 ```blocks3
-when green flag clicked
-hide
+когда зеленый флаг нажат
+спрятать
 ```
 
 \--- /task \---
 
-At the moment, the lightning bolt is really big compared to the spaceship!
+В данный момент молния значительно больше, чем космический корабль!
 
 \--- task \---
 
-Below the code that the `Lightning` sprite already has, add some blocks to make the sprite smaller and to turn it upside down.
+К коду ниже, который уже есть у спрайта ` Молния `, добавь несколько блоков, чтобы уменьшить размер спрайта и перевернуть его.
 
-![lightning sprite](images/lightning-sprite.png)
+![спрайт Молния](images/lightning-sprite.png)
 
 ```blocks3
-set size to (25) %
-point in direction (-90)
+установить размер (25)%
+повернуться в направлении (-90)
 ```
 
-Now it looks like it fires pointy end–first out of the spaceship.
+Теперь, похоже, он стреляет заостренным концом, который первым выходит из космического корабля.
 
 \--- /task \---
 
 \--- task \---
 
-Add some new code to the `Spaceship` sprite to create a new clone of the lightning bolt if the <kbd>space</kbd> key is pressed.
+Добавь новый код в спрайт ` космический корабль` для создания нового клона молнии, если клавиша <kbd> пробел</kbd> нажата.
 
-\--- подсказки \---
+\--- hints \---
 
 \--- hint \---
 
-`When the green flag is clicked`{:class="block3events"}, keep checking `forever`{:class="block3control"} `if`{:class="block3control"} the `space key is pressed`{:class="block3sensing"}, and in that case `create a clone of the Lightning`{:class="block3control"} sprite.
+`Когда зеленый флаг нажат` {: class = "block3events"}, продолжай проверять `повторить всегда` {: class = "block3control"} `,если` {: class = "block3control"} клавиша `пробел` нажата{: class = "block3sensing"}, и в этом случае `создай клон спрайта Молния` {: class = "block3control"}.
 
 \--- /hint \---
 
 \--- hint \---
 
-Here are the blocks you need:
+Вот блоки кода, которые тебе нужны:
 
 ```blocks3
-if <> then
-end
+если <> то
+конец
 
-forever
-end
+повторить всегда
+конец
 
-create clone of (Lightning v)
+создать клон (Молния)
 
 <key (space v) pressed?>
 
-when flag clicked
+когда флаг нажат
 ```
 
 \--- /hint \---
 
 \--- hint \---
 
-Here is what your new code should look like:
+Вот как должен выглядеть твой код:
 
-![rocket sprite](images/rocket-sprite.png)
+![спрайт Ракета](images/rocket-sprite.png)
 
 ```blocks3
-when flag clicked
-forever
-    if <key (space v) pressed?> then
-        create clone of (Lightning v)
-    end
-end
+когда флаг нажал
+навсегда
+    если <key (space v) pressed?>, то
+        создать клон (Lightning v)
+    конец
+конец
 ```
 
 \--- /hint \---
 
-\--- /подсказки \---
+\--- /hints \---
 
 \--- /task \---
 
 \--- task \---
 
-Whenever the game creates a `Lightning` sprite clone, the clone should appear and then move upwards until it reaches the top of the Stage. Then the clone should disappear.
+Всякий раз, когда игра создает клон спрайта`Mолния`, клон должен появиться и затем двигаться вверх, пока не достигнет верхнего края Сцены. Тогда клон должен исчезнуть.
 
-Add this code to the `Lightning` sprite so that clones of it move upwards until they touch the edge of the Stage, and then they get deleted.
+Добавь этот код к спрайту `Молния`, для того, чтобы его клоны перемещались вверх, пока не коснутся верхнего края Сцены, а затем будут удалены.
 
-![lightning sprite](images/lightning-sprite.png)
+![спрайт Молния](images/lightning-sprite.png)
 
 ```blocks3
-    when I start as a clone
-    go to (Spaceship v)
-    show
-    repeat until <touching (edge v) ?>
-        change y by (10)
-    end
-    delete this clone
+    когда я начинаю как клон
+    перейти на (Космический корабль)
+    показаться
+    повторять пока <touching (edge v) ?>
+        изменить y на (10)
+    конец
+    удалить клон
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Press the <kbd>space</kbd> key to test whether the lightning bolt moves correctly.
+Нажми клавишу <kbd>пробел</kbd> для проверки правильности движения молнии.
 
 \--- /task \---
