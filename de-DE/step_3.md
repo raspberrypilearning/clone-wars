@@ -1,48 +1,123 @@
 ## Blitze
 
-Lass uns dem Raumschiff die Fähigkeit verleihen, Blitze abzufeuern!
+Jetzt gibst Du dem Raumschiff die Möglichkeit, Blitze abzufeuern!
 
-+ Füge das 'Lightning' (Blitze) Sprite von der Scratch Bibliothek hinzu.  Wenn das Spiel beginnt, sollten die Blitze erstmal versteckt bleiben bis das Raumschiff seine Laser-Kanonen feuert. Das Sprite muss viel kleiner und kopfüber sein. Füge den folgenden Code zum 'Lightning' (Blitze) Sprite hinzu.
+--- task ---
 
-	```blocks
-		Wenn die grüne Flagge angeklickt
-		verstecke dich
-		setze Größe auf (25)%
-		setze Richtung auf (-90 v)	
-	```
+Füge die `"Lightning"` (englisch für Blitz) Figur aus der Scratch-Bibliothek hinzu.
+
+[[[generic-scratch3-sprite-from-library]]]
+
+--- /task ---
+
+--- task ---
+
+Wenn das Spiel beginnt, sollte die `Lightning` Figur versteckt sein, bis das Raumschiff seine Laserkanonen abgefeuert hat.
+
+Füge diesen Code zur `"Lightning"` Figur hinzu:
+
+![Blitz-Figur](images/lightning-sprite.png)
+
+```blocks3
+Wenn die grüne Flagge angeklickt
+verstecke dich
+```
+
+--- /task ---
+
+Im Moment ist der Blitz wirklich groß im Vergleich zum Raumschiff!
+
+--- task ---
+
+Füge unter dem schon vorhandenen Code, der `Lightning`-Figur, einige Blöcke hinzu um die Figur kleiner zu machen und auf den Kopf zu stellen.
+
+![Blitz-Figur](images/lightning-sprite.png)
+
+```blocks3
+setze Größe auf (25)
+setze Richtung auf (-90) Grad
+```
+
+Jetzt sieht es so aus, als würde er mit dem spitzen Ende voran aus dem Raumschiff abgefeuert.
+
+--- /task ---
+
+--- task ---
+
+Füge der `Raumschiff`-Figur Code hinzu, um jedesmal einen neuen Klon des Blitzes zu erstellen, wenn die <kbd>Leertaste</kbd> gedrückt wird.
+
+--- hints ---
 
 
-+ Füge den folgenden Code **to the Spaceship** (zum Raumschiff hinzu), um einen neuen Blitz zu erzeugen, wannimmer die Leertaste gedrückt wird.
+--- hint ---
 
+`Wenn die grüne Flagge angeklickt wird`{:class="block3events"}, überprüfe `fortlaufend`{:class="block3control"} und `falls`{:class="block3control"} die `Leertaste gedrückt wird`{:class="block3sensing"} dann `erzeuge einen Klon der Lightning`{:class="block3control"} Figur.
 
-	```blocks
-		Wenn die grüne Flagge angeklickt
-		wiederhole fortlaufend
-   			falls <Taste [Leertaste v] gedrückt?> dann
-      			erzeuge Klon von [Lightning v]
-   		Ende
-	Ende
-	```
+--- /hint ---
 
-+ Wannimmer ein neuer Klon erstellt wird, sollte er am gleichen Ort wie das Raumschiff beginnen und dann das Stadium hoch gehen bis er die Kante berührt. Füge den folgenden Code **to the Lightning sprite** (zum Blitze-Sprite hinzu):
+--- hint ---
 
-	```blocks
-		Wenn ich als Klon entstehe
-		gehe zu [Spaceship v]
-		zeige dich
-		wiederhole bis <wird [Rand v] berührt?>
-   			ändere y um (10)
-		Ende
-		lösche diesen Klon
-	```
+Hier sind die Blöcke die du brauchst:
 
-Hinweis: Wir bewegen den neuen Klon zum Raumschiff hin, während es immer noch versteckt ist, ehe wir es dann zeigen. Das sieht schöner aus.
+```blocks3
+falls <> , dann
+end
 
-+ Teste deine Blitze, indem du die Leertaste drückst.
+wiederhole fortlaufend
+end
 
---- challenge ---
+erzeuge Klon von (Lightning v)
 
-## Aufgabe: Die Blitze ausbessern 
-Was passiert, wenn du die Leertaste gedrückt hältst? Kannst du einen `wait`{:class="blockcontrol"} Block einschieben, um dies zu beheben?
+<Taste (Leertaste v) gedrückt?>
 
---- /challenge ---
+Wenn die grüne Flagge angeklickt
+```
+
+--- /hint ---
+
+--- hint ---
+
+So sollte dein neuer Code aussehen:
+
+![raumschiff-Figur](images/rocket-sprite.png)
+
+```blocks3
+Wenn die grüne Flagge angeklickt
+wiederhole fortlaufend 
+  falls <Taste (Leertaste v) gedrückt?> , dann 
+    erzeuge Klon von (Lightning v)
+  end
+end
+```
+
+--- /hint ---
+
+--- /hints ---
+
+--- /task ---
+
+--- task ---
+
+Immer wenn das Spiel einen Klon der `Lightning` Figur erstellt, sollte der Klon erscheinen und sich dann nach oben bewegen, bis er den oberen Bereich der Bühne erreicht. Dann sollte der Klon verschwinden.
+
+Füge diesen Code der `Lightning` Figur hinzu, sodass Klone davon nach oben verschoben werden, bis sie den Rand der Bühne berühren und anschließend gelöscht werden.
+
+![Blitz-Figur](images/lightning-sprite.png)
+
+```blocks3
+    Wenn ich als Klon entstehe
+    gehe zu (Raumschiff v)
+    zeige dich
+    wiederhole bis <wird (Rand v) berührt?> 
+        ändere y um (10)
+    end
+    lösche diesen Klon
+```
+
+--- /task ---
+
+--- task ---
+
+Drücke die <kbd>Leertaste</kbd>, um zu testen, ob sich der Blitz richtig bewegt.
+
+--- /task ---

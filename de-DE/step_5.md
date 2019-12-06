@@ -1,54 +1,152 @@
-## Flughunde!
+## Weltraum-Flusspferde
 
-Lass uns einen Flughund kreieren, der Orangen auf dein Raumschiff wirft.
+Jetzt wirst Du viele fliegende Flusspferde hinzufügen, die versuchen dein Raumschiff zu zerstören.
 
-+ Lass uns als erstes ein neues Fledermaus-Sprite herstellen, das sich  `forever`{:class="blockcontrol"} (für immer) über dem oberen Teil des Stadiums `move`{:class="blockmotion"} (bewegt).  Denke daran, deinen Code zu testen!
+--- task ---
 
-	![screenshot](images/invaders-bat.png)
+Erstelle eine neue Figur mit dem "Hippo1" (englisch für Flusspferd) Bild aus der Scratch-Bibliothek. **Verkleinere** sie um die `Hippo` Figur auf eine ähnliche Größe wie das `Raumschiff` zu bringen.
 
-+ Wenn du dir die Kostüme der Fledermaus ansiehst, wirst du sehen, dass sie bereits 2 hat:
+![screenshot](images/invaders-hippo.png)
 
-	![screenshot](images/invaders-bat-costume.png)
+--- /task ---
 
-	Benutze den `next costume`{:class="blocklooks"} (nächstes Kostüm) Block, damit die Fledermaus mit den Flügeln schlägt, während sie sich bewegt.
+--- task ---
 
-+ Erstelle in der Scratch Bibliothek ein neues 'Orange' Sprite.
+Stelle den Rotationsstil der `Hippo` Figur auf **Links/Rechts** um.
 
-	![screenshot](images/invaders-orange.png)
+[[[generic-scratch3-sprite-rotation-style]]]
+
+--- /task ---
+
+--- task ---
+
+Füge Code hinzu, um die `Hippo` Figur zu Beginn des Spiels zu verstecken.
+
+![Hippo Figur](images/hippo-sprite.png)
+
+```blocks3
+Wenn die grüne Flagge angeklickt
+verstecke dich
+```
+
+--- /task ---
+
+--- task ---
+
+Füge der Bühne Code hinzu, um alle paar Sekunden einen neuen `Hippo` Klon zu erstellen.
+
+--- hints ---
 
 
-+ Füge den Code für deine Fledermaus hinzu, damit sie alle paar Sekunden einen neuen, orange-farbenen Klon herstellt.
+--- hint ---
 
-	```blocks
-		Wenn die grüne Flagge angeklickt
-		wiederhole fortlaufend
-  			warte (Zufallszahl von (5) bis (10)) Sek.
-   			erzeuge Klon von [Orange v]
-		Ende
-	```
+Wenn die `grüne Flagge angeklickt wird`{:class="block3events"}, `warte`{:class="block3control"} `wiederholt`{:class="block3control"} `zwischen 2 und 4 Sekunden`{:class="block3operators"} und dann `erstelle einen Klon der Hippo-Figur`{:class="block3control"}.
 
-+ Klicke auf dein orange-farbenes Sprite und füge diesen Code hinzu, damit jeder orange-farbene Klon das Stadium von der Fledermaus zum Raumschiff hin hinunterfällt:
+--- /hint ---
 
-	```blocks
-		Wenn die grüne Flagge angeklickt
-		verstecke dich
+--- hint ---
 
-		Wenn ich als Klon entstehe
-		gehe zu [Bat1 v]
-		zeige dich
-		wiederhole bis <wird [Rand v] berührt?>
-  			ändere y um (-4)
-		Ende
-		lösche diesen Klon
+Hier sind die Blöcke die du brauchst:
 
-		Wenn ich [hit v] empfange
-		lösche diesen Klon
-	```
+```blocks3
+wiederhole fortlaufend
+end
 
-+ In deinem Raumschiff-Sprite musst du deinen Code modifizieren, damit du getroffen wirst, wenn du ein Nilpferd oder eine Orange berührst:
+erzeuge Klon von (Hippo1 v)
 
-	```blocks
-		warte bis <<wird [Hippo1 v] berührt?> oder <wird [Orange v] berührt?>>
-	``` 
+(Zufallszahl von (2) bis (4))
 
-+ Teste dein  Spiel. Was passiert, wenn du von einer herabfallenden Orange getroffen wirst?
+Wenn die grüne Flagge angeklickt
+
+warte () Sekunden
+```
+
+--- /hint ---
+
+--- hint ---
+
+So sollte dein Code aussehen:
+
+![Bühnen Figur](images/stage-sprite.png)
+
+```blocks3
+Wenn die grüne Flagge angeklickt
+wiederhole fortlaufend 
+  warte (Zufallszahl von (2) bis (4)) Sekunden
+  erzeuge Klon von (Hippo1 v)
+end
+```
+
+--- /hint ---
+
+--- /hints ---
+
+--- /task ---
+
+Jeder neue Hippo-Klon sollte an einer zufälligen `x` Position erscheinen und jeder Klon sollte eine zufällige Geschwindigkeit haben.
+
+--- task ---
+
+Erstelle eine neue Variable mit dem Namen `Geschwindigkeit`{:class="block3variables"}, die nur für die `Hippo` Figur gilt.
+
+[[[generic-scratch3-add-variable]]]
+
+Wenn Du das richtig gemacht hast, steht der Name der Figur neben der Variable, so wie hier:
+
+![screenshot](images/invaders-var-test.png)
+
+--- /task ---
+
+--- task ---
+
+Für jeden `Hippo` Klon der startet, wähle eine zufällige Geschwindigkeit und eine zufällige Startposition. Zeige dann den Klon auf dem Bildschirm an.
+
+```blocks3
+Wenn ich als Klon entstehe
+setze [Geschwindigkeit v] auf (Zufallszahl von (2) bis (4))
+gehe zu x: (Zufallszahl von (-220) bis (220)) y: (150)
+zeige dich
+```
+
+--- /task ---
+
+--- task ---
+
+Teste deinen Code. Erscheint alle paar Sekunden ein neues Nilpferd?
+
+--- /task ---
+
+Im Moment bewegen sich die Nilpferde nicht.
+
+--- task ---
+
+Jedes Nilpferd sollte sich zufällig bewegen, bis es von einem Blitz getroffen wird. Füge dazu den folgenden Code unter die Blöcke ein, die bereits im Skript der `Hippo` Figur enthalten sind:
+
+```blocks3
+wiederhole bis <wird (Lightning v) berührt?>
+  gehe (Geschwindigkeit :: variables) er Schritt
+  drehe dich nach rechts um (Zufallszahl von (-10) bis (10)) Grad
+  pralle vom Rand ab
+end
+lösche diesen Klon
+```
+
+--- /task ---
+
+--- task ---
+
+Teste deinen Code erneut. Du solltest alle paar Sekunden einen neuen Hippo-Klon sehen, und jeder Klon sollte sich mit einer anderen Geschwindigkeit bewegen.
+
+--- no-print ---
+
+![screenshot](images/hippo-clones.gif)
+
+--- /no-print ---
+
+--- /task ---
+
+--- task ---
+
+Teste jetzt die Laserkanone des Raumschiffs. Wenn ein Blitz ein Flusspferd trifft, verschwindet das Flusspferd?
+
+--- /task ---
