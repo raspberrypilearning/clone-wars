@@ -1,18 +1,18 @@
-## 高分
+## 挑战：完善你的游戏
 
-What improvements can you make to your game?
+您可以对自己的游戏进行哪些改进？
 
-Here are some ideas:
+下面是一些建议：
 
-+ Add health packs that you can collect to gain extra lives.
++ 添加您可以收集来获得额外生命的医疗包。
 
-![screenshot](images/invaders-aid.png)
+![截屏](images/invaders-aid.png)
 
-+ Add floating rocks that your spaceship must avoid.
++ 添加您的飞船必须避免的浮石。
 
 ![截屏](images/invaders-rocks.png)
 
-+ Make more enemies appear when your score gets to `100`.
++ 当你得分达到`100`时，让更多的敌人出现。
 
 ```blocks3
     wait until <(score :: variables) = [100]>
