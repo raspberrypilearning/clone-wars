@@ -1,19 +1,19 @@
-## Herausforderung: Erstelle mehr Blöcke
+## Herausforderung: Verbessere dein Spiel
 
 Welche Verbesserungen kannst du an deinem Spiel vornehmen?
 
 Hier sind ein paar Vorschläge:
 
-+ Fügen Sie Gesundheitspakete hinzu, die Sie sammeln können, um zusätzliche Leben zu gewinnen.
++ Füge Gesundheitspakete hinzu, die du sammeln kannst, um mehr Leben zu erhalten.
 
 ![screenshot](images/invaders-aid.png)
 
-+ Füge schwimmende Steine hinzu, die dein Raumschiff meiden muss.
++ Füge schwebende Steine hinzu, die dein Raumschiff meiden muss.
 
 ![screenshot](images/invaders-rocks.png)
 
-+ Lasse mehr Feinde auftauchen, wenn deine Punktzahl `100`.
++ Lasse mehr Feinde auftauchen, wenn deine Punktzahl `100` erreicht.
 
 ```blocks3
-    warte bis <(score :: variables) = [100]>
+    warte bis <(Punkte :: variables) = [100]>
 ```
