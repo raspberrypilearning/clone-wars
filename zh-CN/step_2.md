@@ -1,28 +1,28 @@
-## 你将需要什么
+## 制作一个宇宙飞船
 
-First make a spaceship that can defend the Earth!
+首先造一个可以保护地球的宇宙飞船！
 
 \--- task \---
 
-Open the 'Clone wars' Scratch starter project.
+打开“克隆战争”的Scratch初始项目。
 
-**Online:** open the starter project at [rpf.io/clone-wars-on](http://rpf.io/clone-wars-on){:target="_blank"}.
+**在线：** 在 [rpf.io/clone-wars-on](http://rpf.io/clone-wars-on){:target =“_ blank”}打开初始项目。
 
-If you have a Scratch account you can make a copy by clicking **Remix**.
+如果您有Scratch帐户，可以单击**改编**制作副本。
 
-**Offline:** download the starter project from [rpf.io/p/en/clone-wars-go](http://rpf.io/p/en/clone-wars-go), and then open it using the offline editor.
+**离线：** 从 [rpf.io/p/en/clone-wars-go](http://rpf.io/p/en/clone-wars-go) 下载初始项目，然后使用Scratch离线编辑器打开它。
 
 如果您需要下载并安装Scratch离线编辑器，可以在[ rpf.io/scratchoff ](https://rpf.io/scratchoff)中获取 {：target="_blank"}。
 
 \--- /task \---
 
-![starter project](images/starter-project.png)
+![初始项目](images/starter-project.png)
 
 \--- task \---
 
-Add this code to the spaceship sprite to make the spaceship move left if the <kbd>left</kbd> arrow is pressed:
+添加此代码到飞船角色中，让飞船在按下<kbd>左</kbd> 箭头键时向左移动：
 
-![rocket sprite](images/rocket-sprite.png)
+![火箭角色](images/rocket-sprite.png)
 
 ```blocks3
     when flag clicked
@@ -33,41 +33,41 @@ Add this code to the spaceship sprite to make the spaceship move left if the <kb
     end
 ```
 
-The x-axis goes from the left side of the Stage to the right side. This means that the spaceship moves to the left when you subtract from the value of the spaceship sprite's `x` position. So this code block is the part that makes your spaceship move left:
+x轴从舞台的左侧到右侧。 这意味着当您减少飞船角色的`x`位置值时，它将往左移动。 因此，此代码块是使您的飞船向左移动的部分：
 
 ```blocks3
-change x by (-4)
+将x改变（-4）
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Add some more code inside the `forever`{:class="block3control"} block to make your spaceship move to the right if the <kbd>right</kbd> arrow key is pressed.
+在`重复执行`{:clas="block3control"} 块里添加一些代码，使你的飞船在按下 <kbd>右</kbd> 箭头键时往右移动。
+
+\--- hints \---
 
 \--- hint \---
 
-\--- hint \---
-
-Subtracting `4` from the spaceship's `x` position made it move left, so how could you make the spaceship move right by `4` instead?
+从飞船的位置值`x`中减去`4`使其向左移动，所以相反的，你如何使飞船向右移动`4`？
 
 \--- /hint \---
 
 \--- hint \---
 
-You need the same code block, but with a different number:
+您需要相同的代码块，但数字不同：
 
 ```blocks3
-change x by ( )
+将x改变（）
 ```
 
 \--- /hint \---
 
 \--- hint \---
 
-Here is the code you need to add below the other code inside the `forever`{:class="block3control"} block:
+这是你需要在`重复执行`{:class="block3control"} 块内的其它代码下添加的代码：
 
-![rocket sprite](images/rocket-sprite.png)
+![火箭角色](images/rocket-sprite.png)
 
 ```blocks3
 if <key (right arrow v) pressed?> then
@@ -77,12 +77,12 @@ end
 
 \--- /hint \---
 
-\--- /hint \---
+\--- /hints \---
 
 \--- /task \---
 
 \--- task \---
 
-Test your project by clicking the green flag. Can you press the arrow keys to make your spaceship move left and right?
+单击绿色旗帜测试您的项目。您可以按箭头键使您的飞船左右移动
 
 \--- /task \---
