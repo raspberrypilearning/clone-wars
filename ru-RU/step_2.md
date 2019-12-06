@@ -1,88 +1,88 @@
-## Make a spaceship
+## Сделать космический корабль
 
-First make a spaceship that can defend the Earth!
+Сначала сделай космический корабль, который сможет защитить Землю!
 
 \--- task \---
 
-Open the 'Clone wars' Scratch starter project.
+Открой стартовый проект "Войны клонов".
 
 **Онлайн:** открой стартовый проект по адресу [rpf.io/clone-wars-on](http://rpf.io/clone-wars-on){:target="_blank"}.
 
-Если у тебя есть учетная запись Scratch, то ты можешь сделать копию, нажав **Ремикс**.
+Если у тебя есть учетная запись в Скретч, то ты можешь сделать копию, нажав **Ремикс**.
 
-**Offline:** download the starter project from [rpf.io/p/en/clone-wars-go](http://rpf.io/p/en/clone-wars-go), and then open it using the offline editor.
+**Оффлайн:**скачай стартовый проект с [rpf.io/p/ru/chatbot-go](http://rpf.io/p/en/clone-wars-go){:target="_blank"} и затем открой его с помощью оффлайн редактора.
 
-Если тебе нужно скачать и установить оффлайн редактор Scratch, ты можешь найти его по адресу [rpf.io/scratchoff](https://rpf.io/scratchoff)\--- /task"}.
-
-\--- /task \---
-
-![starter project](images/starter-project.png)
-
-\--- task \---
-
-Add this code to the spaceship sprite to make the spaceship move left if the <kbd>left</kbd> arrow is pressed:
-
-![rocket sprite](images/rocket-sprite.png)
-
-```blocks3
-    when flag clicked
-    forever
-        if <key (left arrow v) pressed?> then
-            change x by (-4)
-        end
-    end
-```
-
-The x-axis goes from the left side of the Stage to the right side. This means that the spaceship moves to the left when you subtract from the value of the spaceship sprite's `x` position. So this code block is the part that makes your spaceship move left:
-
-```blocks3
-change x by (-4)
-```
+Если тебе нужно скачать и установить оффлайн редактор Скретч, ты можешь найти его по адресу [rpf.io/scratchoff](https://rpf.io/scratchoff)\--- /task"}.
 
 \--- /task \---
 
+![стартовый проект](images/starter-project.png)
+
 \--- task \---
 
-Add some more code inside the `forever`{:class="block3control"} block to make your spaceship move to the right if the <kbd>right</kbd> arrow key is pressed.
+Добавь этот код к спрайту космического корабля, чтобы заставить его двигаться влево, если нажата <kbd>левая</kbd> стрелка на клавиатуре:
+
+![спрайт ракета](images/rocket-sprite.png)
+
+```blocks3
+    когда флаг нажат
+    повторять всегда
+        если <key (left arrow v) pressed?>, то
+            изменить x на (-4)
+        конец
+    конец
+```
+
+Ось X идет от левой стороны Сцены к правой стороне. Это означает, что космический корабль двигается влево, когда ты вычитаешь из значения местоположения спрайта космического корабля ` x `. Итак, этот блок - та самая часть кода, которая позволит твоему космическому кораблю двигаться влево:
+
+```blocks3
+изменить х на (-4)
+```
+
+\--- /task \---
+
+\--- task \---
+
+Добавь еще несколько блоков кода внутрь блока ` повторять всегда ` {: class = "block3control"}, чтобы твой космический корабль мог двигаться вправо, если нажата на клавиатуре клавиша с <kbd> правой </kbd> стрелкой.
 
 \--- hints \---
 
 \--- hint \---
 
-Subtracting `4` from the spaceship's `x` position made it move left, so how could you make the spaceship move right by `4` instead?
+Вычитание ` 4 ` из местоположения космического корабля ` х ` сдвинуло его влево, а как ты сможешь передвинуть космический корабль вправо на ` 4 ` шага?
 
 \--- /hint \---
 
 \--- hint \---
 
-You need the same code block, but with a different number:
+Тебе нужен тот же блок кода, но с другим числом:
 
 ```blocks3
-change x by ( )
+изменить х на ( )
 ```
 
 \--- /hint \---
 
 \--- hint \---
 
-Here is the code you need to add below the other code inside the `forever`{:class="block3control"} block:
+Вот код, который ты должен добавить под уже имеющиеся блоки внутрь блока ` повторять всегда ` {: class = "block3control"}:
 
-![rocket sprite](images/rocket-sprite.png)
+![спрайт ракета](images/rocket-sprite.png)
 
 ```blocks3
-if <key (right arrow v) pressed?> then
-    change x by (4)
-end
+если <key (right arrow v) pressed?>, то
+    изменить x на (4)
+конец
 ```
 
 \--- /hint \---
 
-\--- /подсказки \---
+\--- /hints \---
 
 \--- /task \---
 
 \--- task \---
 
-Test your project by clicking the green flag. Can you press the arrow keys to make your spaceship move left and right?
+Протестируй свой проект, нажав на зеленый флаг. Ты можешь понажимать на клавиши со стрелками, чтобы твой корабль двигался влево и вправо?
 
 \--- /task \---
