@@ -1,19 +1,19 @@
-## Challenge: improve your game
+## Задание: улучши свою игру
 
-What improvements can you make to your game?
+Какие улучшения ты можешь внести в свою игру?
 
 Вот несколько идей:
 
-+ Add health packs that you can collect to gain extra lives.
++ Добавь аптечки, которые ты можешь собирать, чтобы получить дополнительные жизни.
 
-![screenshot](images/invaders-aid.png)
+![снимок экрана](images/invaders-aid.png)
 
-+ Add floating rocks that your spaceship must avoid.
++ Добавь плавающие камни, которых должен избегать твой космический корабль.
 
-![screenshot](images/invaders-rocks.png)
+![снимок экрана](images/invaders-rocks.png)
 
-+ Make more enemies appear when your score gets to `100`.
++ Сделай появление большего количества врагов, когда твой счёт достигнет `100`.
 
 ```blocks3
-    wait until <(score :: variables) = [100]>
+    ждать до <(счет :: переменные) = [100]>
 ```
