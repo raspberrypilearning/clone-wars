@@ -1,73 +1,72 @@
-## Space-bat
+## Morcego espacial
 
-To make your game a bit harder, you are going to create a bat that throws oranges at the spaceship.
+Para tornar o teu jogo um pouco mais difícil, irás criar um morcego que atira laranjas à nave espacial.
 
-![a bat throwing an orange at the spaceship](images/bat-oranges.png)
+![um morcego a atirar uma laranja à nave espacial](images/bat-oranges.png)
 
 \--- task \---
 
-Add a `Bat` sprite and set its rotation style to **left–right**.
+Acrescenta um ator ` morcego ` e define o seu estilo de rotação para ** esquerda-direita **.
 
 \--- /task \---
 
 \--- task \---
 
-Make the `Bat` sprite `move`{:class="block3motion"} from left to right at the top of the Stage `forever`{:class="block3control"}.
+Faz o ator ` morcego ` ` mover-se ` {: class = "block3motion"} da esquerda para a direita no topo do palco ` para sempre ` {: class = "block3control"}.
 
-![bat sprite](images/bat-sprite.png)
+![ator morcego](images/bat-sprite.png)
 
 ```blocks3
-when flag clicked
-set size to (50) %
-forever
-    move (10) steps
-    if on edge, bounce
+quando alguém clicar na bandeira verde
+altera o teu tamanho para (50) %
+repete para sempre 
+  anda (10) passos
+  se estiveres a bater na borda, ressalta
 end
 ```
 
-Remember to test your code.
+Lembra-te de testar o teu código.
 
 \--- /task \---
 
-If you look at the bat's costumes, you can see that it has four different ones:
+Se olhares para os trajes do morcego, poderás ver que há quatro diferentes:
 
 ![captura de ecrã](images/invaders-bat-costume.png)
 
 \--- task \---
 
-Use the `next costume`{:class="block3looks"} block to make the bat flap its wings as it moves.
+Usa o bloco ` próximo traje ` {: class = "block3looks"} para fazer com que o morcego bata as asas enquanto se move.
 
 \--- hints \---
 
 \--- hint \---
 
-After the bat has moved, it should show the `next costume`{:class="block3looks"} and then `wait`{:class="block3control"} for a short time.
+Depois de o morcego se mover, ele deve mostrar o ` próximo traje ` {: class = "block3looks"} e depois ` aguardar ` {: class = "block3control"} por um curto período de tempo.
 
 \--- /hint \---
 
 \--- hint \---
 
-You need to add these blocks to you code:
+Vais necessitar acrescentar estes blocos ao teu código:
 
 ```blocks3
-wait (0.3) seconds
+espera (0.3) s
 
-next costume
+passa para o teu próximo traje
 ```
 
 \--- /hint \---
 
-\--- hint \--- You code should look like this:
+\--- hint \--- O teu código deverá ter este aspeto:
 
 ```blocks3
-when flag clicked
-set size to (50) %
-forever
-move (10) steps
-if on edge, bounce
-
-+ next costume
-+ wait (0.3) seconds
+quando alguém clicar na bandeira verde
+altera o teu tamanho para (50) %
+repete para sempre 
+ anda (10) passos
+ se estiveres a bater na borda, ressalta
+ + passa para o teu próximo traje
+ + espera (0.3) s
 end
 ```
 
@@ -77,11 +76,11 @@ end
 
 \--- /task \---
 
-Now make the bat throw oranges!
+Agora faz com que o morcego atire laranjas!
 
 \--- task \---
 
-Add an `Orange` sprite from the Scratch library.
+Acrescenta o ator ` Laranja ` da biblioteca do Scratch.
 
 ![captura de ecrã](images/invaders-orange.png)
 
@@ -89,15 +88,15 @@ Add an `Orange` sprite from the Scratch library.
 
 \--- task \---
 
-Add code to your bat so that `when the flag is clicked`{:class="block3events"}, the `Bat` sprite `forever`{:class="block3control"} `waits`{:class="block3control"} for a `random`{:class="block3operators"} length of time between `5 to 10`{:class="block3operators"} seconds and then `creates a clone`{:class="block3control"} of the `Orange` sprite.
+Adiciona código ao seu morcego para que ` quando a bandeira verde for clicada ` {: class = "block3events"}, o ator ` morcego ` aguarda ` para sempre ` {: class = "block3control"} ` ` {: class = "block3control"} durante um período de tempo ` aleatório ` {: class = "block3operators"} entre ` 5 e 10 ` {: class = "block3operators"} segundos antes de ` criar um clone ` {: class = "block3control"} do ator ` Laranja `.
 
-![bat sprite](images/bat-sprite.png)
+![ator morcego](images/bat-sprite.png)
 
 ```blocks3
-when flag clicked
-forever
-    wait (pick random (5) to (10)) secs
-    create clone of (Orange v)
+quando alguém clicar na bandeira verde
+repete para sempre 
+  espera (um valor ao acaso entre (5) e (10)) s
+  cria um clone de (Orange v)
 end
 ```
 
@@ -105,52 +104,52 @@ end
 
 \--- task \---
 
-Add code to the `Orange` to make each of its clone drop, starting from the `Bat` sprite and falling towards the bottom of the Stage.
+Acrescenta código à ` Laraja ` para fazer com que cada um dos seus clones caia, começando no ator ` Morcego ` e caindo depois em direção ao fundo do palco.
 
-![orange sprite](images/orange-sprite.png)
+![ator laranja](images/orange-sprite.png)
 
 ```blocks3
-    when flag clicked
-    hide
+    quando alguém clicar na bandeira verde
+esconde-te
 
-    when I start as a clone
-    go to (Bat v)
-    show
-    repeat until <touching (edge v)?
-        change y by (-4)
-    end
-    delete this clone
+Quando fores criado como um clone
+vai para (Bat v)
+mostra-te
+até que  <estás a tocar em (edge v)>, repete 
+  adiciona (-4) ao teu y
+end
+remove-te como clone
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Add some more code to the `Orange` sprite so that when an `Orange` clone hits the `Spaceship` sprite, the clone also disappears to give the player a chance to reset:
+Acrescenta um pouco mais de código ao ator ` Laranja ` para que quando um clone ` Laranja ` atinge o ator ` nave espacial` ele também desapareça para dar ao jogador a oportunidade de se redefinir:
 
-![orange sprite](images/orange-sprite.png)
+![ator laranja](images/orange-sprite.png)
 
 ```blocks3
-    when I receive [hit v]
-    delete this clone
+    quando receberes a mensagem [hit v]
+remove este clone
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Modify the code of your `Spaceship` sprite so that the sprite is "hit" when it touches a `Hippo` sprite or an `Orange` sprite:
+Modifica o código do teu ator ` nave espacial ` para que ele seja "atingido" quando toca num ator ` Hipopótamo ` ou num ator ` Laranja `:
 
-![rocket sprite](images/rocket-sprite.png)
+![ator foguetão](images/rocket-sprite.png)
 
 ```blocks3
-    wait until < <touching (Hippo1 v)?> or <touching (Orange v)?>>
+    espera até que <<estás a tocar em (Hippo1 v)> ou <estás a tocar em (Orange v)>>
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Test your game. What happens if the spaceship gets hit by a falling orange?
+Testa o teu jogo. O que é que acontece se a nave espacial for atingida por uma laranja em queda?
 
 \--- /task \---
