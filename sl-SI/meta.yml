@@ -1,0 +1,37 @@
+---
+hero_image: images/clone-wars.png
+theme: vijolična
+listed: true
+copyedit: true
+title: Vojna klonov
+description: Ustvari igro, v kateri moraš rešiti Zemljo pred vesoljskimi pošastmi
+version: 4.1.0
+last_tested: 2018-10-11
+steps:
+  - 
+    title: Uvod
+  - 
+    title: Ustvari raketo
+  - 
+    title: Strele
+  - 
+    title: 'Izziv: izboljšaj strelo'
+    challenge: true
+  - 
+    title: Vesoljski povodni konji
+  - 
+    title: Eksplozija rakete
+  - 
+    title: Povodni konji, ki izginejo
+  - 
+    title: 'Izziv: življenja in točke'
+    challenge: true
+  - 
+    title: Vesoljski netopir
+  - 
+    title: Konec igre
+  - 
+    title: 'Izziv: izboljšaj igro'
+    challenge: true
+  - 
+    title: Kaj sledi?
