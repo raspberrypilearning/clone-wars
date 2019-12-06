@@ -21,7 +21,7 @@ Clique na bandeira verde no jogo de exemplo abaixo para começar, e depois press
 
 \--- /no-print \---
 
-Marque o máximo de pontos que você puder atirando "space-hippos" voadores. Se você for atingido por um "hippo" ou por uma laranja jogada pelos morcegos, você perderá uma vida.
+Marque o máximo de pontos que você puder atirando nos hipopótamos espaciais voadores. Se você for atingido por um hipopótamo ou por uma laranja jogada pelos morcegos, você perderá uma vida.
 
 \--- print-only \---
 
@@ -55,9 +55,9 @@ Marque o máximo de pontos que você puder atirando "space-hippos" voadores. Se 
 
 ## title: O que você vai aprender
 
-+ Como fazer sprites mover usando o teclado
++ Como fazer sprites se moverem usando o teclado
 + Como clonar sprites para fazer cópias deles
-+ Como usar 'broadcast' e 'receber blocos' para enviar mensagens
++ Como usar 'transmita' e 'receber blocos' para enviar mensagens
 
 \--- /collapse \---
 
@@ -73,6 +73,6 @@ Se você precisar imprimir este projeto, por favor, use a [versão para impress�
 
 \--- /no-print \---
 
-You can find the [completed project here](http://rpf.io/p/en/clone-wars-get).
+Você pode encontrar o [projeto completo aqui](http://rpf.io/p/en/clone-wars-get).
 
 \--- /collapse \---
