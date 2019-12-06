@@ -1,6 +1,6 @@
 ## Raios elétricos
 
-Now you are going to give the spaceship the ability to fire lightning bolts!
+Agora vamos dar à espaçonave a capacidade de disparar raios!
 
 \--- task \---
 
@@ -12,9 +12,9 @@ Adicione o ator `Lightning` da biblioteca Scratch.
 
 \--- task \---
 
-When the game starts, the `Lightning` sprite should be hidden until the spaceship fires its laser cannons.
+Quando o jogo começa, o sprite `Lightning` deve estar oculto até a espaçonave atirar com seus canhões laser.
 
-Add this code to the `Lightning` sprite:
+Adicione este código ao sprite `Lightning`:
 
 ![lightning sprite](images/lightning-sprite.png)
 
@@ -25,11 +25,11 @@ hide
 
 \--- /task \---
 
-At the moment, the lightning bolt is really big compared to the spaceship!
+Até o momento, o raio elétrico está grande se comparado com a espaçonave!
 
 \--- task \---
 
-Below the code that the `Lightning` sprite already has, add some blocks to make the sprite smaller and to turn it upside down.
+Abaixo está o código atual do sprite `Lightning`, adicione alguns blocos para deixar o sprite menor e para vira-lo ao contrário.
 
 ![lightning sprite](images/lightning-sprite.png)
 
@@ -38,15 +38,15 @@ set size to (25) %
 point in direction (-90)
 ```
 
-Now it looks like it fires pointy end–first out of the spaceship.
+Agora parece que ele dispara para fora da espaçonave.
 
 \--- /task \---
 
 \--- task \---
 
-Add some new code to the `Spaceship` sprite to create a new clone of the lightning bolt if the <kbd>space</kbd> key is pressed.
+Adicione um código novo para o sprite da `Espaçonave` para criar um novo clone do raio elétrico se a tecla <kbd>espaço</kbd> for pressionada.
 
-\--- dica \---
+\--- hints \---
 
 \--- hint \---
 
