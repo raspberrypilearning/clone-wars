@@ -5,33 +5,33 @@ listed: true
 copyedit: true
 title: La guerre des clones
 description: Crée un jeu dans lequel tu dois sauver la Terre des monstres de l'espace
-version: 4
+version: 4.1.0
 last_tested: 2018-10-11
 steps:
   - 
     title: Introduction
   - 
-    title: Créer un vaisseau spatial
+    title: Crée un vaisseau spatial
   - 
     title: éclairs
   - 
-    title: 'Hippopotames spatiaux'
+    title: 'Défi : améliore l''éclair'
     challenge: true
   - 
-    title: Une chauve-souris !
+    title: Les Hippos de l'espace
   - 
-    title: Fin du jeu
+    title: Explosion du vaisseau spatial
   - 
     title: 'Défi : Améliorez votre jeu'
   - 
-    title: 'Défi: vie et score'
+    title: 'Défi: vies et score'
     challenge: true
   - 
     title: Chauve-souris de l'espace
   - 
-    title: Game Over
+    title: Fin de la partie
   - 
-    title: 'Défi : Améliorez votre jeu'
+    title: 'Défi : Améliore ton jeu'
     challenge: true
   - 
-    title: 'Défi : plus de crayons'
+    title: Que faire ensuite ?
