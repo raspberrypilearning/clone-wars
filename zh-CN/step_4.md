@@ -1,3 +1,3 @@
-## 闪电球
+## 挑战：改善闪电
 
-What happens if you hold down the <kbd>space</kbd> key? Can you use a `wait`{:class="block3control"} block to fix this?
+如果你按住<kbd>空格</kbd>键会发生什么？你能使用一个`等待`{:class="block3control"} 代码块来解决这个问题吗？
