@@ -29,7 +29,7 @@ Voeg wat code toe aan je `ruimteschip` sprite zodat het het 'normaal' uiterlijk 
 ```blocks3
 wanneer groene vlag wordt aangeklikt
 verander uiterlijk naar (normaal v)
-wacht tot <touching (Hippo1 v)>
+wacht tot <raak ik (Hippo1 v)?>
 verander uiterlijk naar (hit v)
 ```
 
