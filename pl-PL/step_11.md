@@ -1,6 +1,6 @@
 ## Wyzwanie: udoskonal swoją grę
 
-Jakie udoskonalenia możesz wprowadzić w swojej grze?
+Jakie ulepszenia możesz wprowadzić w swojej grze?
 
 Oto kilka pomysłów:
 
@@ -12,8 +12,8 @@ Oto kilka pomysłów:
 
 ![zrzut ekranu](images/invaders-rocks.png)
 
-+ Zwiększ liczbę wrogów pokazujących się, gdy twój wynik osiągnie poziom `100`.
++ Zwiększ liczbę wrogów pokazujących się, gdy twój wynik osiągnie `100`.
 
 ```blocks3
-    wait until <(score :: variables) = [100]>
+    poczekaj, aż <(wynik :: variable) = [100]>
 ```
