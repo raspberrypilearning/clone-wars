@@ -12,7 +12,7 @@ In diesem Projekt lernst du, wie man ein Spiel erstellt, in dem man die Erde vor
 
 \--- no-print \---
 
-Klicken Sie auf die grüne Flagge im folgenden Beispielspiel, um zu beginnen, und drücken Sie dann die Pfeiltasten <kbd>links</kbd> und <kbd>rechts</kbd> , um das Raumschiff zu bewegen, und die Taste <kbd>Leertaste</kbd> , um zu schießen.
+Klicke zum Starten auf die grüne Flagge im Beispiel unten und drücke <kbd>Pfeil links</kbd> und <kbd>Pfeil rechts</kbd> um das Raumschiff zu steuern. Drücke die <kbd>Leertaste</kbd> um zu schießen.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/276887163/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -21,11 +21,11 @@ Klicken Sie auf die grüne Flagge im folgenden Beispielspiel, um zu beginnen, un
 
 \--- /no-print \---
 
-Erziele so viele Punkte wie möglich, indem du fliegende Weltraum-Nilpferde abschießst. Wenn Sie von einem Nilpferd oder einer Orange getroffen werden, die von den Fledermäusen fallen gelassen wird, verlieren Sie ein Leben.
+Erziele so viele Punkte wie möglich, indem du fliegende Weltraum-Nilpferde abschießst. Wenn Du von einem Nilpferd oder einer Orange getroffen wirst, die von den Fledermäusen fallen gelassen werden, verlierst Du ein Leben.
 
 \--- print-only \---
 
-![absteigend](images/showcase.png)
+![Beschreibung](images/showcase.png)
 
 \--- /print-only \---
 
@@ -45,7 +45,7 @@ Erziele so viele Punkte wie möglich, indem du fliegende Weltraum-Nilpferde absc
 
 ### Downloads
 
-[finden Sie die Downloads](http://rpf.io/p/en/clone-wars-go).
+[Hier findest du die Dateien zum herunterladen](http://rpf.io/p/en/clone-wars-go).
 
 \--- /collapse \---
 
@@ -55,9 +55,9 @@ Erziele so viele Punkte wie möglich, indem du fliegende Weltraum-Nilpferde absc
 
 ## title: Was du lernen wirst
 
-+ So bewegen Sie Sprites mithilfe der Tastatureingabe
-+ So klonen Sie Sprites, um Kopien davon zu erstellen
-+ Verwendung von "Broadcast" und "Empfangsblöcken" zum Senden von Nachrichten
++ Wie du Figuren mithilfe von Tastatureingaben bewegen kannst
++ Wie du Figuren klonen kannst um Kopien von ihnen zu erstellen
++ Wie du "sende-" und "empfangs-Blöcke" nutzt um Nachrichten zu versenden
 
 \--- /collapse \---
 
@@ -73,6 +73,6 @@ Wenn du dieses Projekt ausdrucken möchtest, verwende die [druckerfreundliche Ve
 
 \--- /no-print \---
 
-You can find the [completed project here](http://rpf.io/p/en/clone-wars-get).
+Du findest das [abgeschlossene Projekt hier](http://rpf.io/p/en/clone-wars-get).
 
 \--- /collapse \---
