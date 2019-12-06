@@ -1,7 +1,7 @@
-## Challenge: lives and score
+## Desafio: vidas e pontuações
 
-At the moment, you can play the game forever, but it doesn't count how many hippos you shoot or how many times your spaceship explodes.
+Neste momento, podes jogar o jogo para sempre, mas ele não conta quantos hipopótamos atinges ou quantas vezes a tua nave espacial explode.
 
-Can you add `lives`{:class="block3variables"}, a `score`{:class="block3variables"}, or even a `highscore`{:class="block3variables"} to your game?
+Consegues acrescentar ` vidas ` {: class = "block3variables"}, uma ` pontuação ` {: class = "block3variables"} ou até mesmo um ` recorde ` {: class = "block3variables"} ao teu jogo?
 
 [[[generic-scratch3-high-score]]]
