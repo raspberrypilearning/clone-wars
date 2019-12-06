@@ -22,7 +22,7 @@ maak grootte (50) %
 herhaal 
   neem (10) stappen
   keer om aan de rand
-end
+einde
 ```
 
 Vergeet niet om je code te testen.
@@ -65,9 +65,10 @@ maak grootte (50) %
 herhaal 
  neem (10) stappen
  keer om aan de rand
- volgend uiterlijk
- wacht (0.3) sec.
-end
+
+ + volgend uiterlijk
+ + wacht (0.3) sec.
+einde
 ```
 
 \--- /hint \---
@@ -88,7 +89,7 @@ Voeg een nieuwe `Orange (sinaasappel)` sprite toe uit de Scratch-bibliotheek.
 
 \--- task \---
 
-Voeg code toe aan je vleermuis zodat `wanneer op de groene vlag wordt geklikt`:class="block3events"}, de `vleermuis` sprite `herhaal`{:class="block3control"} `wacht`{:class="block3control"} voor een `willekeurige`{:class="block3operators"} tijdsduur tussen `5 tot 10` {:class="block3operators"} seconden en vervolgens `een kloon maakt`{:class="block3control"} van de `sinaasappel` sprite.
+Voeg code toe aan je vleermuis zodat `wanneer op de groene vlag wordt geklikt`{:class="block3events"}, de `vleermuis` sprite `herhaal`{:class="block3control"} `wacht`{:class="block3control"} voor een `willekeurige`{:class="block3operators"} tijdsduur tussen `5 tot 10`{:class="block3operators"} seconden en vervolgens `een kloon maakt`{:class="block3control"} van de `sinaasappel` sprite.
 
 ![vleermuis sprite](images/bat-sprite.png)
 
@@ -97,7 +98,7 @@ wanneer groene vlag wordt aangeklikt
 herhaal 
   wacht (willekeurig getal tussen (5) en (10)) sec.
   maak een kloon van (Orange v)
-end
+einde
 ```
 
 \--- /task \---
@@ -115,9 +116,9 @@ verdwijn
 wanneer ik als kloon start
 ga naar (Bat v)
 verschijn
-herhaal tot <raak ik (rand v)?
+herhaal tot <raak ik (rand v)>?
   verander y met (-4)
-end
+einde
 verwijder deze kloon
 ```
 
@@ -130,7 +131,7 @@ Voeg wat meer code toe aan de`sinaasappel` sprite zodat wanneer een `sinaasappel
 ![sinaasappel sprite](images/orange-sprite.png)
 
 ```blocks3
-    wanneer ik signaal [raak v] ontvang
+    wanneer ik signaal [hit v] ontvang
 verwijder deze kloon
 ```
 
@@ -143,7 +144,7 @@ Wijzig de code van je `ruimteschip` sprite zodat de sprite "geraakt" is wanneer 
 ![ruimteschip sprite](images/rocket-sprite.png)
 
 ```blocks3
-    wacht tot < <touching (Hippo1 v)?> of <touching (Orange v)?>>
+    wacht tot < <raak ik (Hippo1 v)?> of <raak ik (Orange v)>>
 ```
 
 \--- /task \---
