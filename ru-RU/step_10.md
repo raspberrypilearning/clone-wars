@@ -1,55 +1,55 @@
-## Game over
+## Игра окончена
 
-Next, you're going to add a 'game over' message at the end of the game.
+Далее тебе необходимо добавить сообщение 'игра окончена' в конце игры.
 
 \--- task \---
 
-If you haven't already, create a new variable called `lives`{:class="block3variables"}.
+Если ты ещё этого не сделал, то создай новую переменную с именем `жизни` {: Класс = "block3variables"}.
 
-Your spaceship should start with three lives and lose a life whenever it touches a hippo or an orange. Your game should stop when the `lives`{:class="block3variables"} run out.
+Твой космический корабль должен стартовать с тремя жизнями и терять жизнь всякий раз, когда он касается бегемота или апельсина. Твоя игра должна остановиться, когда `жизни` {: class = "block3variables"} закончатся.
 
 \--- /task \---
 
 \--- task \---
 
-Draw a new sprite called `Game Over` using the **text** tool.
+Нарисуй новый спрайт под названием ` Игра окончена ` используя инструмент ** текст **.
 
-![screenshot](images/invaders-game-over.png)
+![снимок экрана](images/invaders-game-over.png)
 
 \--- /task \---
 
 \--- task \---
 
-On the Stage, broadcast a `game over`{:class="block3events"} message just before the game ends.
+На Сцене передай сообщение ` игра окончена ` {: class = "block3events"} непосредственно перед окончанием игры.
 
-![gameover sprite](images/stage-sprite.png)
+![спрайт игра окончена](images/stage-sprite.png)
 
 ```blocks3
-broadcast (game over v) and wait
+передать (игра окончена) и ждать до конца
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Add this code to your `Game Over` sprite so that it shows at the end of the game:
+Добавь этот код в свой спрайт ` игра окончена `, чтобы он показался в конце игры:
 
-![gameover sprite](images/gameover-sprite.png)
+![спрайт игра окончена](images/gameover-sprite.png)
 
 ```blocks3
-when flag clicked
-hide
+когда флаг нажат
+спрятаться
 
-when I receive [game over v]
-show
+когда я получу [игра окончена]
+показаться
 ```
 
-Because you've used a `broadcast (game over) and wait`{:class="block3events"} block on your Stage, the Stage will wait for the `Game Over` sprite to be displayed before ending the game.
+Поскольку ты использовал блок ` передать (игра окончена) и ждать до конца `{:class="block3events"} на своей Сцене, Сцена будет ждать спрайт `Игра окончена`, чтобы отобразить его перед окончанием игры.
 
 \--- /task \---
 
 \--- task \---
 
-Test your game. How many points can you score? If the game is too easy or too hard, can you think of ways to improve it?
+Проверь свою игру. Сколько очков ты можешь набрать? Если игра слишком простая или слишком сложная, можешь ли ты придумать, как ее улучшить?
 
 \--- /task \---
