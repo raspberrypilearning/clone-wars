@@ -1,40 +1,40 @@
-## Aufgabe: Verbessere dein Spiel
+## Flusspferde, die verschwinden
 
 Wenn das Raumschiff explodiert, sollten alle Flusspferde verschwinden, damit sich die Spieler des Spiels erholen können.
 
 \--- task \---
 
-Fügen Sie dem Raumschiffsprite Code hinzu, damit `Nachricht`{: class = "block3events"} "hit" sendet, wenn das Raumschiff `ein Flusspferd berührt`{: class = "block3sensing"}.
+Füge der Raumschiff-Figur Code hinzu, damit sie eine `Nachricht "hit" an alle sendet`{:class="block3events"}, wenn das Raumschiff `ein Hippo berührt`{:class="block3sensing"}.
 
-![Raketen-Sprite](images/rocket-sprite.png)
+![raumschiff-Figur](images/rocket-sprite.png)
 
 ```blocks3
-wenn Flagge geklickt
-Kostüm wechseln zu (normal v)
-warten bis <touching (Hippo1 v)>?
-Kostüm wechseln zu (hit v)
+Wenn die grüne Flagge angeklickt
+wechsle zu Kostüm (normal v)
+warte bis <wird (Hippo1 v) berührt?>
+wechsle zu Kostüm (getroffen v)
 
-+ Sendung (hit v)
++ sende (getroffen v) an alle
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Alle `Hippo` Sprite-Klone erhalten die Nachricht "hit", und Sie können sie anweisen, zu verschwinden, wenn das Raumschiff getroffen wird, indem Sie dem `Hippo` Sprite diesen Code hinzufügen:
+Alle `Hippo` Figur-Klone empfangen die Nachricht "getroffen", und Du kannst sie anweisen zu verschwinden, wenn das Raumschiff getroffen wird, indem Du der `Hippo` Figur diesen Code hinzufügst:
 
-![Hippo Sprite](images/hippo-sprite.png)
+![Hippo Figur](images/hippo-sprite.png)
 
 ```blocks3
-Wenn ich [hit v]
-erhalte, lösche diesen Klon
+Wenn ich [getroffen v] empfange
+lösche diesen Klon
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Um zu überprüfen, ob der neue Code funktioniert, klicken Sie auf die grüne Flagge und lassen Sie das Raumschiff mit einem Flusspferd kollidieren.
+Um zu überprüfen, ob der neue Code funktioniert, klicke auf die grüne Flagge und lass das Raumschiff mit einem Flusspferd kollidieren.
 
 ![screenshot](images/invaders-hippo-collide.png)
 
@@ -44,20 +44,20 @@ Nachdem das Raumschiff explodiert ist, erscheinen neue `Hippo` Klone, aber das R
 
 \--- task \---
 
-Fügen Sie am Ende des `Spaceship` Sprite-Codes einen `wait`{: class = "block3control"} -Block hinzu, um eine kleine Pause zu erstellen, bevor wieder Flusspferde angezeigt werden. Fügen Sie dann einen Block `für immer`{: class = "block3control"} um Ihren gesamten Code hinzu, damit der Code wiederholt ausgeführt wird.
+Füge am Ende des Codes der `Raumschiff` Figur einen `warte`{:class="block3control"}-Block hinzu, um eine kleine Pause zu haben, bevor wieder Flusspferde angezeigt werden. Füge dann einen `fortlaufend`{:class="block3control"}-Block um den gesamten Code hinzu, damit der Code wiederholt ausgeführt wird.
 
-![Raketen-Sprite](images/rocket-sprite.png)
+![raumschiff-Figur](images/rocket-sprite.png)
 
 ```blocks3
-als die Flagge für immer auf
-geklickt hat
-Kostüm wechseln zu (normal v)
-Warten bis <touching (Hippo1 v)>?
-Kostüm wechseln zu (v)
-Senden (v)
+Wenn die grüne Flagge angeklickt
+wiederhole fortlaufend 
+  wechsle zu Kostüm (normal v)
+  warte bis <wird (Hippo1 v) berührt?>
+  wechsle zu Kostüm (getroffen v)
+  sende (getroffen v) an alle
 
-+ Warten (1) Sekunden
-Ende
++ warte (1) Sekunden
+end
 ```
 
 \--- /task \---
