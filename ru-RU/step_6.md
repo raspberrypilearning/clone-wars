@@ -1,42 +1,42 @@
-## Spaceship explosion
+## Взрыв космического корабля
 
-When a hippo touches your spaceship, the spaceship should explode!
+Когда бегемот касается твоего корабля, он должен взорваться!
 
 \--- task \---
 
-Select the `Spaceship` sprite and rename its costume 'normal'.
+Выбери спрайт ` Космический корабль ` и переименуй его костюм в "обычный".
 
 \--- /task \---
 
 \--- task \---
 
-Draw another costume of an exploding spaceship, and call the new costume 'hit'.
+Нарисуй костюм взрывающегося космического корабля и назови новый костюм «удар».
 
-![screenshot](images/invaders-spaceship-costumes.png)
+![снимок экрана](images/invaders-spaceship-costumes.png)
 
-If you don't want to draw the explosion, you can select the 'Sun' costume from the Scratch library, and then use the **Color a shape** tool to change the costume's colour and face.
+Если ты не хочешь рисовать взрыв, ты можешь выбрать костюм 'Солнце' из библиотеки Скретч, а затем использовать инструменты ** Изменение формы и цвета ** для изменения цвета костюма и его формы.
 
-![screenshot](images/invaders-sun.png)
+![снимок экрана](images/invaders-sun.png)
 
 \--- /task \---
 
 \--- task \---
 
-Add some code to your `Spaceship` sprite so that it displays the 'normal' costume when the game starts, and switches to the 'hit' costume when it touches a hippo:
+Добавь код к спрайту ` Космический корабль `, чтобы он показывал «обычный» костюм при запуске игры и переключался на костюм «удар» при касании его бегемотом:
 
-![rocket sprite](images/rocket-sprite.png)
+![спрайт ракета](images/rocket-sprite.png)
 
 ```blocks3
-when flag clicked
-switch costume to (normal v)
-wait until <touching (Hippo1 v)>?
-switch costume to (hit v)
+когда флаг нажат
+изменить костюм на (обычный)
+ждать до <touching (Hippo1 v)>?
+изменить костюм на (удар)
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Test your code. Make the spaceship collide with a hippo. Does the spaceship change to the 'hit' costume?
+Проверь свой код. Сделай так, чтобы космический корабль столкнуться с бегемотом. Меняется ли космический корабль на костюм «удар»?
 
 \--- /task \---
