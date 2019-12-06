@@ -1,18 +1,18 @@
 ## Construindo uma espaçonave
 
-Primeiro faça uma nave espacial que possa defender a Terra!
+Primeiro faça uma espaçonave que possa defender a Terra!
 
 \--- task \---
 
-Abra o projeto 'Guerra do Clone' projeto inicial.
+Abra o projeto inicial Scratch 'Guerras Clônicas'.
 
 ** Online: ** abra o projeto inicial em [ rpf.io/clone-wars-on ](http://rpf.io/clone-wars-on) {: target = "_ blank"}.
 
 Se você tiver uma conta do Scratch, pode fazer uma cópia clicando em ** Remix **.
 
-**Offline:** download the starter project from [rpf.io/p/en/clone-wars-go](http://rpf.io/p/en/clone-wars-go), and then open it using the offline editor.
+**Offline:** baixe o projeto inicial de[rpf.io/p/en/clone-wars-go](http://rpf.io/p/en/clone-wars-go), e então abra-o usando o editor offline.
 
-If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
+Se você precisa baixar e instalar o editor offline do Scratch, você pode encontra-lo em [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
 
 \--- /task \---
 
@@ -20,9 +20,9 @@ If you need to download and install the Scratch offline editor, you can find it 
 
 \--- task \---
 
-Add this code to the spaceship sprite to make the spaceship move left if the <kbd>left</kbd> arrow is pressed:
+Adicione este código ao sprite da espaçonave para fazer a espaçonave se mover para a esquerda se a seta <kbd>esquerda</kbd> for pressionada:
 
-![rocket sprite](images/rocket-sprite.png)
+![sprite foguete](images/rocket-sprite.png)
 
 ```blocks3
     when flag clicked
@@ -33,7 +33,7 @@ Add this code to the spaceship sprite to make the spaceship move left if the <kb
     end
 ```
 
-The x-axis goes from the left side of the Stage to the right side. This means that the spaceship moves to the left when you subtract from the value of the spaceship sprite's `x` position. So this code block is the part that makes your spaceship move left:
+O eixo x vai do lado esquerdo da tela para o lado direito. Isso significa que a espaçonave se move para a esquerda quando você subtrai do valor do sprite dela `x` posições. Este bloco de código é a parte que faz sua espaçonave se mover para a esquerda:
 
 ```blocks3
 change x by (-4)
@@ -43,19 +43,19 @@ change x by (-4)
 
 \--- task \---
 
-Add some more code inside the `forever`{:class="block3control"} block to make your spaceship move to the right if the <kbd>right</kbd> arrow key is pressed.
+Adicione mais código dentro do bloco `sempre`{:class="block3control"} para fazer sua espaçonave se mover para a direita se a seta <kbd>direita</kbd> for pressionada.
 
-\--- dica \---
+\--- hints \---
 
 \--- hint \---
 
-Subtracting `4` from the spaceship's `x` position made it move left, so how could you make the spaceship move right by `4` instead?
+Subtraindo `4` da posição `x` da espaçonave fez ela se mover para a esquerda, então como você faria para a espaçonave se mover `4` posições para a direita?
 
 \--- /hint \---
 
 \--- hint \---
 
-You need the same code block, but with a different number:
+Você precisa do mesmo bloco de código, porém com um número diferente:
 
 ```blocks3
 change x by ( )
@@ -65,9 +65,9 @@ change x by ( )
 
 \--- hint \---
 
-Here is the code you need to add below the other code inside the `forever`{:class="block3control"} block:
+Aqui está o código que você precisa adicionar abaixo do outro dentro do bloco `sempre`{:class="block3control"}:
 
-![rocket sprite](images/rocket-sprite.png)
+![sprite foguete](images/rocket-sprite.png)
 
 ```blocks3
 if <key (right arrow v) pressed?> then
@@ -83,6 +83,6 @@ end
 
 \--- task \---
 
-Test your project by clicking the green flag. Can you press the arrow keys to make your spaceship move left and right?
+Teste seu projeto clicando na bandeira verde. Você consegue pressionar as setas para fazer sua espaçonave se mover para a esquerda e direita?
 
 \--- /task \---
