@@ -1,10 +1,10 @@
-## 制作一艘宇宙飞船
+## 闪电束
 
-Now you are going to give the spaceship the ability to fire lightning bolts!
+现在，您将使飞船能够发射闪电束！
 
 \--- task \---
 
-Add the `Lightning` sprite from the Scratch library.
+从Scratch库添加 `闪电` 角色。
 
 [[[generic-scratch3-sprite-from-library]]]
 
@@ -12,11 +12,11 @@ Add the `Lightning` sprite from the Scratch library.
 
 \--- task \---
 
-When the game starts, the `Lightning` sprite should be hidden until the spaceship fires its laser cannons.
+游戏开始时，在飞船发射激光大炮之前，`闪电`角色应当是隐藏起来的。
 
-Add this code to the `Lightning` sprite:
+将此代码添加到`闪电`角色：
 
-![lightning sprite](images/lightning-sprite.png)
+![闪电角色](images/lightning-sprite.png)
 
 ```blocks3
 when green flag clicked
@@ -25,38 +25,38 @@ hide
 
 \--- /task \---
 
-At the moment, the lightning bolt is really big compared to the spaceship!
+此时，闪电比宇宙飞船还要大！
 
 \--- task \---
 
-Below the code that the `Lightning` sprite already has, add some blocks to make the sprite smaller and to turn it upside down.
+在`闪电`精灵已有的代码下，添加一些代码块使角色变小并向将其上下颠倒。
 
-![lightning sprite](images/lightning-sprite.png)
+![闪电角色](images/lightning-sprite.png)
 
 ```blocks3
 set size to (25) %
 point in direction (-90)
 ```
 
-Now it looks like it fires pointy end–first out of the spaceship.
+现在它看起来像是尖尖的尾巴-首先从飞船中射出。
 
 \--- /task \---
 
 \--- task \---
 
-Add some new code to the `Spaceship` sprite to create a new clone of the lightning bolt if the <kbd>space</kbd> key is pressed.
+给`飞船` sprite 添加一些新代码，以便在按下 <kbd>空格</kbd> 键时创建一个新的闪电克隆。
 
 \--- hint \---
 
 \--- hint \---
 
-`When the green flag is clicked`{:class="block3events"}, keep checking `forever`{:class="block3control"} `if`{:class="block3control"} the `space key is pressed`{:class="block3sensing"}, and in that case `create a clone of the Lightning`{:class="block3control"} sprite.
+`当绿色旗帜被点击时`{:class="block3events"}, 持续检查 `重复执行`{:class="block3control"} `如果`{:class="block3control"}`按下空格键`{:class="block3sensing"}, 那么 `创建一个克隆闪电`{:class="block3control"}角色.
 
 \--- /hint \---
 
 \--- hint \---
 
-Here are the blocks you need:
+以下是你需要的代码块：
 
 ```blocks3
 if <> then
@@ -76,9 +76,9 @@ when flag clicked
 
 \--- hint \---
 
-Here is what your new code should look like:
+你的代码看起来应该是这样的：
 
-![rocket sprite](images/rocket-sprite.png)
+![火箭角色](images/rocket-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -91,17 +91,17 @@ end
 
 \--- /hint \---
 
-\--- /hint \---
+\--- /hints \---
 
 \--- /task \---
 
 \--- task \---
 
-Whenever the game creates a `Lightning` sprite clone, the clone should appear and then move upwards until it reaches the top of the Stage. Then the clone should disappear.
+每当游戏创建一个 `闪电` 角色克隆时，克隆就会出现，然后向上移动，直到到达舞台顶端。 然后克隆就会消失。
 
-Add this code to the `Lightning` sprite so that clones of it move upwards until they touch the edge of the Stage, and then they get deleted.
+将此代码添加到`闪电`角色，从而使其克隆向上移动，直到他们碰到舞台的边缘。 然后他们将被删除。
 
-![lightning sprite](images/lightning-sprite.png)
+![闪电角色](images/lightning-sprite.png)
 
 ```blocks3
     when I start as a clone
@@ -117,6 +117,6 @@ Add this code to the `Lightning` sprite so that clones of it move upwards until 
 
 \--- task \---
 
-Press the <kbd>space</kbd> key to test whether the lightning bolt moves correctly.
+按<kbd>空格</kbd>键测试闪电是否正确移动。
 
 \--- /task \---
