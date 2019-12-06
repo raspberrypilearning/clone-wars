@@ -1,18 +1,18 @@
 \--- no-print \---
 
-이것은 **스크래치 3** 버전의 프로젝트입니다. 도있다 [프로젝트의 스크래치 2 버전](https://projects.raspberrypi.org/en/projects/clone-wars-scratch2).
+이것은 **스크래치 3** 버전의 프로젝트입니다. [스크래치 2 버전의 프로젝트도 있습니다](https://projects.raspberrypi.org/en/projects/clone-wars-scratch2).
 
 \--- /no-print \---
 
 ## 소개
 
-이 프로젝트에서는 우주 몬스터로부터 지구를 구해야하는 게임을 만드는 법을 배웁니다.
+이 프로젝트에서는 외계생명체의 지구 침공을 막는 게임을 만드는 법을 배웁니다.
 
 ### 만들 작품
 
 \--- no-print \---
 
-아래에 시작하는 예를 들어 게임에서 녹색 깃발을 클릭 한 다음 키를 누릅니다 <kbd>왼쪽</kbd> 및 <kbd>우측</kbd> 우주선을 이동하려면 화살표 키를, 그리고 <kbd>공간</kbd> 키를 촬영.
+예를 들어 게임 화면 아래쪽에 등장하는 녹색 깃발을 클릭 한 다음 키를 누르는 것으로 게임을 시작합니다 <kbd>왼쪽</kbd> 및 <kbd>오른쪽</kbd> 이동 키는 화살표 키입니다. 그리고 <kbd>스페이스</kbd> 키는 공격 키입니다.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/276887163/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -21,7 +21,7 @@
 
 \--- /no-print \---
 
-비행 공간 - 하마를 쏴서 가능한 한 많은 점수를 얻으십시오. 하마에게 타격을 입히거나 박쥐가 떨어 뜨린 오렌지에 타격을 받으면 인생을 잃게됩니다.
+우주 공간을 헤엄치고 있는 하마를 쏴서 가능한 한 많은 점수를 얻으십시오. 하마에게 공격을 당하거나 박쥐가 떨어뜨린 오렌지에 맞으면 생명력이 줄어듭니다.
 
 \--- print-only \---
 
@@ -41,11 +41,11 @@
 
 ### 소프트웨어
 
-+ 스크래치 3 ( [온라인](https://rpf.io/scratchon){:target="_ blank"} 또는 [offline](https://rpf.io/scratchoff){:target="_ blank"})
++ 스크래치 3 ( [온라인](https://rpf.io/scratchon){:target="_ blank"} 또는 [오프라인](https://rpf.io/scratchoff){:target="_ blank"})
 
 ### 다운로드
 
-[여기에서 다운로드 찾기](http://rpf.io/p/en/clone-wars-go).
+[여기에서 다운로드할 파일을 찾으십시오](http://rpf.io/p/en/clone-wars-go).
 
 -- /collapse \---
 
@@ -53,11 +53,11 @@
 
 * * *
 
-## title: 배우게 될 것
+## title: 학습하게 될 것
 
-+ 키보드 입력을 사용하여 스프라이트 이동 방법
-+ 스프라이트를 복제하여 복제본을 만드는 방법
-+ '브로드 캐스트'및 '블록 수신'을 사용하여 메시지를 보내는 방법
++ 키보드를 활용하여 스프라이트를 이동시키는 방법
++ 스프라이트를 복제하는 방법
++ '브로드캐스트' 및 '블록 수신' 기능을 사용하여 메시지를 보내는 방법
 
 \--- /collapse \---
 
@@ -65,14 +65,14 @@
 
 * * *
 
-## title : 교사를위한 추가 노트
+## title: 교사를 위한 별도 지침
 
 \--- no-print \---
 
-이 프로젝트를 인쇄한다면 [프린트용 버전](https://projects.raspberrypi.org/en/projects/clone-wars/print){:target="_blank"}을 사용해 주십시오.
+이 프로젝트를 인쇄하시려면 [프린트용 버전](https://projects.raspberrypi.org/en/projects/clone-wars/print){:target="_blank"}을 사용해 주십시오.
 
 \--- /no-print \---
 
-여기서 [완료된 프로젝트를 확인할 수 있습니다](http://rpf.io/p/en/clone-wars-get).
+여기서 [완료된 프로젝트의 내용을 확인할 수 있습니다](http://rpf.io/p/en/clone-wars-get).
 
 \--- /collapse \---
