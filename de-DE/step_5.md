@@ -1,10 +1,10 @@
-## Flughunde!
+## Weltraum-Flusspferde
 
-Jetzt werden Sie viele fliegende Flusspferde hinzufügen, die versuchen, Ihr Raumschiff zu zerstören.
+Jetzt wirst Du viele fliegende Flusspferde hinzufügen, die versuchen dein Raumschiff zu zerstören.
 
 \--- task \---
 
-Erstellen Sie ein neues Sprite mit dem Bild "Hippo1" in der Scratch-Bibliothek. Verwenden Sie das Werkzeug **Shrink** , um das `Hippo` Sprite auf eine ähnliche Größe wie das `Spaceship` Sprite zu bringen.
+Erstelle eine neue Figur mit dem "Hippo1" (englisch für Flusspferd) Bild aus der Scratch-Bibliothek. **Verkleinere** sie um die `Hippo` Figur auf eine ähnliche Größe wie das `Raumschiff` zu bringen.
 
 ![screenshot](images/invaders-hippo.png)
 
@@ -12,7 +12,7 @@ Erstellen Sie ein neues Sprite mit dem Bild "Hippo1" in der Scratch-Bibliothek. 
 
 \--- task \---
 
-Stellen Sie den Rotationsstil des Sprites `Hippo` auf **left-right**.
+Stelle den Rotationsstil der `Hippo` Figur auf **Links/Rechts** um.
 
 [[[generic-scratch3-sprite-rotation-style]]]
 
@@ -20,65 +20,65 @@ Stellen Sie den Rotationsstil des Sprites `Hippo` auf **left-right**.
 
 \--- task \---
 
-Füge Code hinzu, um das `Hippo` Sprite zu Beginn des Spiels auszublenden.
+Füge Code hinzu, um die `Hippo` Figur zu Beginn des Spiels zu verstecken.
 
-![Hippo Sprite](images/hippo-sprite.png)
+![Hippo Figur](images/hippo-sprite.png)
 
 ```blocks3
-Wenn grüne Flagge geklickt 
-verstecken
+Wenn die grüne Flagge angeklickt
+verstecke dich
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Fügen Sie der Bühne Code hinzu, um alle paar Sekunden einen neuen `Hippo` Klon zu erstellen.
+Füge der Bühne Code hinzu, um alle paar Sekunden einen neuen `Hippo` Klon zu erstellen.
 
 \--- hints \---
 
 \--- hint \---
 
-Wenn die grüne Flagge `angeklickt wird`{: class = "block3control"}, `wiederholt`{: class = "block3control"} `warten`{: class = "block3control"} `zwischen 2 und 4 Sekunden`{: class = "block3operators"} und dann `erstellen Sie einen Klon des Hippo-Sprites`{: class = "block3control"}.
+Wenn die `grüne Flagge angeklickt wird`{:class="block3events"}, `warte`{:class="block3control"} `wiederholt`{:class="block3control"} `zwischen 2 und 4 Sekunden`{:class="block3operators"} und dann `erstelle einen Klon der Hippo-Figur`{:class="block3control"}.
 
 \--- /hint \---
 
 \--- hint \---
 
-Hier sind die Blöcke, die Sie benötigen:
+Hier sind die Blöcke die du brauchst:
 
 ```blocks3
-für immer
-ende
+wiederhole fortlaufend
+end
 
-erstelle einen Klon von (Hippo1 v)
+erzeuge Klon von (Hippo1 v)
 
-(wähle zufällig (2) bis (4))
+(Zufallszahl von (2) bis (4))
 
-wenn die Flagge geklickt wird
+Wenn die grüne Flagge angeklickt
 
-warte () sek
+warte () Sekunden
 ```
 
 \--- /hint \---
 
 \--- hint \---
 
-So sollte Ihr Code aussehen:
+So sollte dein Code aussehen:
 
-![Stage Sprite](images/stage-sprite.png)
+![Bühnen Figur](images/stage-sprite.png)
 
 ```blocks3
-wenn flag geklickt
-immer
-    wait (pick random (2) bis (4)) secs
-    erstellen Klon (Hippo1 v)
-Ende
+Wenn die grüne Flagge angeklickt
+wiederhole fortlaufend 
+  warte (Zufallszahl von (2) bis (4)) Sekunden
+  erzeuge Klon von (Hippo1 v)
+end
 ```
 
 \--- /hint \---
 
-\---/hints\---
+\--- /hints \---
 
 \--- /task \---
 
@@ -86,32 +86,32 @@ Jeder neue Hippo-Klon sollte an einer zufälligen `x` Position erscheinen und je
 
 \--- task \---
 
-Erstellen Sie eine neue Variable mit dem Namen `speed`{: class = "block3variables"}, die nur für das `Hippo` Sprite gilt.
+Erstelle eine neue Variable mit dem Namen `Geschwindigkeit`{:class="block3variables"}, die nur für die `Hippo` Figur gilt.
 
 [[[generic-scratch3-add-variable]]]
 
-Wenn Sie dies richtig gemacht haben, hat die Variable den Namen des Sprites daneben, wie folgt:
+Wenn Du das richtig gemacht hast, steht der Name der Figur neben der Variable, so wie hier:
 
-![Screenshot](images/invaders-var-test.png)
+![screenshot](images/invaders-var-test.png)
 
 \--- /task \---
 
 \--- task \---
 
-Wenn jeder `Hippo` Klon startet, wähle eine zufällige Geschwindigkeit und den Startplatz dafür. Zeigen Sie dann den Klon auf dem Bildschirm an.
+Für jeden `Hippo` Klon der startet, wähle eine zufällige Geschwindigkeit und eine zufällige Startposition. Zeige dann den Klon auf dem Bildschirm an.
 
 ```blocks3
-Wenn ich als Klon
-beginne, setze [Geschwindigkeit v] auf (Zufallsauswahl (2) bis (4))
-gehe zu x: (Zufallsauswahl (-220) bis (220)) y: (150)
-show
+Wenn ich als Klon entstehe
+setze [Geschwindigkeit v] auf (Zufallszahl von (2) bis (4))
+gehe zu x: (Zufallszahl von (-220) bis (220)) y: (150)
+zeige dich
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Testen Sie Ihren Code. Erscheint alle paar Sekunden ein neues Nilpferd?
+Teste deinen Code. Erscheint alle paar Sekunden ein neues Nilpferd?
 
 \--- /task \---
 
@@ -119,26 +119,26 @@ Im Moment bewegen sich die Nilpferde nicht.
 
 \--- task \---
 
-Jedes Nilpferd sollte sich zufällig bewegen, bis es von einem Blitz getroffen wird. Fügen Sie dazu den folgenden Code unter die Blöcke ein, die bereits im Codeskript des `Hippo` Sprites enthalten sind:
+Jedes Nilpferd sollte sich zufällig bewegen, bis es von einem Blitz getroffen wird. Füge dazu den folgenden Code unter die Blöcke ein, die bereits im Skript der `Hippo` Figur enthalten sind:
 
 ```blocks3
-Wiederholen, bis <touching (lightning v) ?>
-    Bewegung (Geschwindigkeit :: Variablen) Schritte
-    Nach rechts drehen (zufällige (-10) bis (10)) Grad
-    auswählen, wenn am Rand, Sprung
-
-Diesen Klon löschen
+wiederhole bis <wird (Lightning v) berührt?>
+  gehe (Geschwindigkeit :: variables) er Schritt
+  drehe dich nach rechts um (Zufallszahl von (-10) bis (10)) Grad
+  pralle vom Rand ab
+end
+lösche diesen Klon
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Testen Sie Ihren Code erneut. Sie sollten alle paar Sekunden einen neuen Hippo-Klon sehen, und jeder Klon sollte sich mit einer anderen Geschwindigkeit bewegen.
+Teste deinen Code erneut. Du solltest alle paar Sekunden einen neuen Hippo-Klon sehen, und jeder Klon sollte sich mit einer anderen Geschwindigkeit bewegen.
 
 \--- no-print \---
 
-![Screenshot](images/hippo-clones.gif)
+![screenshot](images/hippo-clones.gif)
 
 \--- /no-print \---
 
@@ -146,6 +146,6 @@ Testen Sie Ihren Code erneut. Sie sollten alle paar Sekunden einen neuen Hippo-K
 
 \--- task \---
 
-Testen Sie nun die Laserkanone des Raumschiffs. Wenn ein Blitz ein Flusspferd trifft, verschwindet das Flusspferd?
+Teste jetzt die Laserkanone des Raumschiffs. Wenn ein Blitz ein Flusspferd trifft, verschwindet das Flusspferd?
 
 \--- /task \---
