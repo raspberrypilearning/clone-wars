@@ -67,7 +67,7 @@ end
 
 maak een kloon van (Lightning v)
 
-&lt;key (space v) pressed?&gt;
+<wanneer (spatiebalk) is ingedrukt?>
 
 wanneer groene vlag wordt aangeklikt
 ```
@@ -83,10 +83,10 @@ Dit is hoe je code eruit zou moeten zien:
 ```blocks3
 wanneer groene vlag wordt aangeklikt
 herhaal 
-  als <key (space v) pressed?> dan 
+  als < wanneer (spatiebalk v) ingedrukt?> dan 
     maak een kloon van (Lightning v)
-  end
-end
+  einde
+einde
 ```
 
 \--- /hint \---
@@ -107,9 +107,9 @@ Voeg deze code toe aan de `Lightning` sprite zodat klonen ervan naar boven beweg
     wanneer ik als kloon start
 ga naar (Ruimteschip v)
 verschijn
-herhaal tot <touching (edge v) ?> 
+herhaal tot <raak ik (rand v)> 
   verander y met (10)
-end
+einde
 verwijder deze kloon
 ```
 
