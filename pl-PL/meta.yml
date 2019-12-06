@@ -3,8 +3,8 @@ hero_image: images/clone-wars.png
 theme: violet
 listed: true
 copyedit: true
-title: Atak klonów
-description: Naucz się, jak stworzyć grę, w której musisz uratować Ziemię przed potworami z kosmosu.
+title: Wojny klonów
+description: Naucz się, jak stworzyć grę, w której musisz uratować Ziemię przed potworami z kosmosu
 version: 4.1.0
 last_tested: 2018-10-11
 steps:
@@ -15,23 +15,23 @@ steps:
   - 
     title: Błyskawice
   - 
-    title: 'Challenge: improve the lightning'
+    title: 'Wyzwanie: ulepsz błyskawicę'
     challenge: true
   - 
-    title: Space-hippos
+    title: Kosmiczne hipopotamy
   - 
-    title: Spaceship explosion
+    title: Eksplozja statku kosmicznego
   - 
-    title: Hippos that disappear
+    title: Hipopotamy, które znikają
   - 
-    title: 'Wyzwanie: życia i punkty'
+    title: 'Wyzwanie: Życia i wynik'
     challenge: true
   - 
-    title: Space-bat
+    title: Kosmiczny nietoperz
   - 
     title: Koniec gry
   - 
-    title: 'Wyzwanie: udoskonal swoją grę'
+    title: 'Wyzwanie: ulepsz swoją grę'
     challenge: true
   - 
-    title: Co następne?
+    title: Co dalej?
