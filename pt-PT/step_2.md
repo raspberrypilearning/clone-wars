@@ -1,77 +1,77 @@
-## Make a spaceship
+## Constrói uma nave espacial
 
-First make a spaceship that can defend the Earth!
+Começa por construir uma nave espacial que possa defender a Terra!
 
 \--- task \---
 
-Open the 'Clone wars' Scratch starter project.
+Abre o projeto inicial 'Guerra dos Clones' em Scratch.
 
 **Online:** abre o projeto inicial Scratch em [rpf.io/clone-wars-on](http://rpf.io/clone-wars-on){:target="_blank"}.
 
 Se tiveres uma 'conta Scratch' podes fazer uma cópia ao clicares **Remix**.
 
-**Offline:** download the starter project from [rpf.io/p/en/clone-wars-go](http://rpf.io/p/en/clone-wars-go), and then open it using the offline editor.
+**Offline:** descarrega o projeto inicial de [rpf.io/p/en/clone-wars-go](http://rpf.io/p/en/clone-wars-go), e depois abre-o no editor offline do Scratch.
 
 Se precisares de descarregar e instalar o editor offline do Scratch, podes encontrá-lo em [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
 
 \--- /task \---
 
-![starter project](images/starter-project.png)
+![projeto inicial](images/starter-project.png)
 
 \--- task \---
 
-Add this code to the spaceship sprite to make the spaceship move left if the <kbd>left</kbd> arrow is pressed:
+Acrescenta este código ao ator da nave espacial para fazer com que a nave se mova para a esquerda quando a seta <kbd> esquerda </kbd> é pressionada:
 
-![rocket sprite](images/rocket-sprite.png)
+![ator Foguetão](images/rocket-sprite.png)
 
 ```blocks3
-    when flag clicked
-    forever
-        if <key (left arrow v) pressed?> then
-            change x by (-4)
-        end
-    end
+    quando alguém clicar na bandeira verde
+repete para sempre 
+  se <a tecla (left arrow v) está a ser pressionada>, então 
+    adiciona (-4) ao teu x
+  end
+end
 ```
 
-The x-axis goes from the left side of the Stage to the right side. This means that the spaceship moves to the left when you subtract from the value of the spaceship sprite's `x` position. So this code block is the part that makes your spaceship move left:
+O eixo dos x vai do lado esquerdo do palco para o lado direito. Isto significa que a nave espacial se move para a esquerda quando se subtrai ao valor do ` x ` da posição do ator nave espacial. Portanto, este bloco de código é a parte que faz com que a tua nave espacial se mova para a esquerda:
 
 ```blocks3
-change x by (-4)
+adiciona (-4) ao teu x
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Add some more code inside the `forever`{:class="block3control"} block to make your spaceship move to the right if the <kbd>right</kbd> arrow key is pressed.
+Acrescenta um pouco mais de código dentro do `repete para sempre ` {: class = "block3control"} para fazer com que a tua nave espacial se mova para a direita, se a tecla de seta <kbd> direita </kbd> for pressionada.
 
 \--- hints \---
 
 \--- hint \---
 
-Subtracting `4` from the spaceship's `x` position made it move left, so how could you make the spaceship move right by `4` instead?
+Como subtrair ` 4 ` ao ` x ` da posição da nave espacial faz com que ela se mova para a esquerda, consegues em vez disso fazer com que a nave espacial se mova por ` 4 ` para a direita?
 
 \--- /hint \---
 
 \--- hint \---
 
-You need the same code block, but with a different number:
+Vais necessitar do mesmo bloco de código, mas com um número diferente:
 
 ```blocks3
-change x by ( )
+adiciona () ao teu x
 ```
 
 \--- /hint \---
 
 \--- hint \---
 
-Here is the code you need to add below the other code inside the `forever`{:class="block3control"} block:
+Aqui está o código que vai ter que adicionar por baixo do código dentro do Bloco ` repete para sempre ` {: class = "block3control"}:
 
-![rocket sprite](images/rocket-sprite.png)
+![ator foguetão](images/rocket-sprite.png)
 
 ```blocks3
-if <key (right arrow v) pressed?> then
-    change x by (4)
+se <a tecla (right arrow v) está a ser pressionada>, então 
+  adiciona (4) ao teu x
 end
 ```
 
@@ -83,6 +83,6 @@ end
 
 \--- task \---
 
-Test your project by clicking the green flag. Can you press the arrow keys to make your spaceship move left and right?
+Teste o teu projeto clicando na bandeira verde. Consegues pressionar as teclas de seta para fazer a tua nave espacial mover-se para a esquerda e para a direita?
 
 \--- /task \---
