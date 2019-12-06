@@ -1,73 +1,73 @@
-## Space-bat
+## Kosmiczny nietoperz
 
-To make your game a bit harder, you are going to create a bat that throws oranges at the spaceship.
+Aby twoja gra była nieco trudniejsza, stworzysz nietoperza, który zrzuca pomarańcze na statek kosmiczny.
 
-![a bat throwing an orange at the spaceship](images/bat-oranges.png)
+![nietoperz zrzucający pomarańczę na statek kosmiczny](images/bat-oranges.png)
 
 \--- task \---
 
-Add a `Bat` sprite and set its rotation style to **left–right**.
+Dodaj duszka `Bat`, zmień jego nazwę na Nietoperz i ustaw styl obrotu na **lewo-prawo**.
 
 \--- /task \---
 
 \--- task \---
 
-Make the `Bat` sprite `move`{:class="block3motion"} from left to right at the top of the Stage `forever`{:class="block3control"}.
+Zrób aby duszek `Nietoperz` wykonywał ruch `przesuń się`{:class="block3motion"} z lewej strony na prawą, na górze Sceny `zawsze`{:class="block3control"}.
 
-![bat sprite](images/bat-sprite.png)
+![duszek nietoperza](images/bat-sprite.png)
 
 ```blocks3
-when flag clicked
-set size to (50) %
-forever
-    move (10) steps
-    if on edge, bounce
+kiedy kliknięto zieloną flagę
+ustaw rozmiar na (50) %
+zawsze 
+  przesuń o (10) kroków
+  jeżeli na brzegu, odbij się
 end
 ```
 
-Remember to test your code.
+Pamiętaj, aby przetestować swój kod.
 
 \--- /task \---
 
-If you look at the bat's costumes, you can see that it has four different ones:
+Jeśli spojrzysz na kostiumy nietoperza, to zobaczysz, że ma cztery różne:
 
 ![zrzut ekranu](images/invaders-bat-costume.png)
 
 \--- task \---
 
-Use the `next costume`{:class="block3looks"} block to make the bat flap its wings as it moves.
+Użyj bloku `następny kostium`{:class="block3looks"} aby sprawić, żeby nietoperz machał skrzydłami w czasie ruchu.
 
-\--- wskazówka \---
+\--- hints \---
 
 \--- hint \---
 
-After the bat has moved, it should show the `next costume`{:class="block3looks"} and then `wait`{:class="block3control"} for a short time.
+Po przesunięciu, nietoperz powinien wyświetlić `następny kostium`{:class="block3looks"}, a następnie `czekać`{:class="block3control"} przez krótki czas.
 
 \--- /hint \---
 
 \--- hint \---
 
-You need to add these blocks to you code:
+Musisz dodać te bloki do swojego kodu:
 
 ```blocks3
-wait (0.3) seconds
+czekaj (0.3) sekund
 
-next costume
+następny kostium
 ```
 
 \--- /hint \---
 
-\--- hint \--- You code should look like this:
+\--- hint \--- Twój kod powinien wyglądać tak:
 
 ```blocks3
-when flag clicked
-set size to (50) %
-forever
-move (10) steps
-if on edge, bounce
+kiedy kliknięto zieloną flagę
+ustaw rozmiar na (50) %
+zawsze 
+ przesuń o (10) kroków
+ jeżeli na brzegu, odbij się
 
-+ next costume
-+ wait (0.3) seconds
+ + następny kostium
+ + czekaj (0.3) sekund
 end
 ```
 
@@ -77,11 +77,11 @@ end
 
 \--- /task \---
 
-Now make the bat throw oranges!
+Teraz spraw, aby nietoperz zrzucał pomarańcze!
 
 \--- task \---
 
-Add an `Orange` sprite from the Scratch library.
+Dodaj nowego duszka `Orange` z biblioteki Scratch. Tym razem zmieńmy nazwę tego duszka na Pomarańcza.
 
 ![zrzut ekranu](images/invaders-orange.png)
 
@@ -89,15 +89,15 @@ Add an `Orange` sprite from the Scratch library.
 
 \--- task \---
 
-Add code to your bat so that `when the flag is clicked`{:class="block3events"}, the `Bat` sprite `forever`{:class="block3control"} `waits`{:class="block3control"} for a `random`{:class="block3operators"} length of time between `5 to 10`{:class="block3operators"} seconds and then `creates a clone`{:class="block3control"} of the `Orange` sprite.
+Dodaj kod do swojego nietoperza, taki że `kiedy flaga jest kliknięta`{:class="block3events"}, duszek `Nietoperza` `zawsze`{:class="block3control"} `czeka`{:class="block3control"} przez `losowy`{:class="block3operators"} okres czasu, z przedziału między `5 a 10`{:class="block3operators"} sekund, a następnie ` tworzy klona`{:class="block3control"} duszka `Pomarańczy`.
 
-![bat sprite](images/bat-sprite.png)
+![duszek nietoperza](images/bat-sprite.png)
 
 ```blocks3
-when flag clicked
-forever
-    wait (pick random (5) to (10)) secs
-    create clone of (Orange v)
+kiedy kliknięto zieloną flagę
+zawsze 
+  czekaj (losuj liczbę od (5) do (10)) sekund
+  utwórz klona z (Pomarańcza v)
 end
 ```
 
@@ -105,33 +105,20 @@ end
 
 \--- task \---
 
-Add code to the `Orange` to make each of its clone drop, starting from the `Bat` sprite and falling towards the bottom of the Stage.
+Dodaj kod do `Pomarańczy` aby każdy z jego klonów spadał, zaczynając od duszka `Nietoperza` i spada w dół do dolnej części sceny.
 
-![orange sprite](images/orange-sprite.png)
-
-```blocks3
-    when flag clicked
-    hide
-
-    when I start as a clone
-    go to (Bat v)
-    show
-    repeat until <touching (edge v)?
-        change y by (-4)
-    end
-    delete this clone
-```
-
-\--- /task \---
-
-\--- task \---
-
-Add some more code to the `Orange` sprite so that when an `Orange` clone hits the `Spaceship` sprite, the clone also disappears to give the player a chance to reset:
-
-![orange sprite](images/orange-sprite.png)
+![duszek pomarańczy](images/orange-sprite.png)
 
 ```blocks3
-    kiedy otrzymam [trafiony v]
+    kiedy kliknięto zieloną flagę
+  ukryj
+
+  kiedy zaczynam jako klon
+  idź do (Nietoperz v)
+  pokaż
+  powtarzaj aż <dotyka (krawędź v)?
+    zmień y o (-4)
+  end
   usuń tego klona
 ```
 
@@ -139,9 +126,22 @@ Add some more code to the `Orange` sprite so that when an `Orange` clone hits th
 
 \--- task \---
 
-Modify the code of your `Spaceship` sprite so that the sprite is "hit" when it touches a `Hippo` sprite or an `Orange` sprite:
+Dodaj jeszcze kod do duszka `Pomarańczy` aby kiedy klon `Pomarańczy` trafi duszka `statku kosmicznego`, klon również znikał, aby dać szanse graczowi na zresetowanie:
 
-![rocket sprite](images/rocket-sprite.png)
+![duszek pomarańczy](images/orange-sprite.png)
+
+```blocks3
+    kiedy otrzymam [trafienie v]
+usuń tego klona
+```
+
+\--- /task \---
+
+\--- task \---
+
+Zmodyfikuj kod swojego duszka `statku kosmicznego`, aby zmieniał kostium na "trafiony", gdy dotknie duszka `Hipcia` lub duszka `Pomarańczy`:
+
+![duszek rakiety](images/rocket-sprite.png)
 
 ```blocks3
     czekaj aż <<touching (Hippo1 v)?> lub <touching (Orange v)?>>
@@ -151,6 +151,6 @@ Modify the code of your `Spaceship` sprite so that the sprite is "hit" when it t
 
 \--- task \---
 
-Test your game. What happens if the spaceship gets hit by a falling orange?
+Przetestuj swoją grę. Co się stanie, jeśli statek kosmiczny zostanie uderzony spadającą pomarańczą?
 
 \--- /task \---
