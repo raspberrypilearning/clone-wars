@@ -1,3 +1,3 @@
-## Challenge: improve the lightning
+## Desafio: melhorar o relâmpago
 
-What happens if you hold down the <kbd>space</kbd> key? Can you use a `wait`{:class="block3control"} block to fix this?
+O que é que acontece se mantiveres pressionada a tecla <kbd> espaço </kbd>? Consegues utilizar um bloco ` espera ` {: class = "block3control"} para o corrigir?
