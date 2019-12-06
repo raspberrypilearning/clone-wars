@@ -1,18 +1,18 @@
-## Space-hippos
+## Космические бегемоты
 
-Now you're going to add lots of flying hippos that try to destroy your spaceship.
+Теперь тебе нужно добавить много летающих бегемотов, которые будут пытаться уничтожить твой космический корабль.
 
 \--- task \---
 
-Create a new sprite with the 'Hippo1' image in the Scratch library. Use the **shrink** tool to make the `Hippo` sprite a similar size to the `Spaceship` sprite.
+Создай новый спрайт с изображением Бегемота из библиотеки Скретч. Используй инструмент** уменьшение**, чтобы сделать размер спрайта `Бегемот` таким же, как и спрайт `Космический корабль`.
 
-![screenshot](images/invaders-hippo.png)
+![снимок экрана](images/invaders-hippo.png)
 
 \--- /task \---
 
 \--- task \---
 
-Set the `Hippo` sprite's rotation style to **left-right**.
+Установи для спрайта `Бегемот` стиль вращения ** влево-вправо **.
 
 [[[generic-scratch3-sprite-rotation-style]]]
 
@@ -20,125 +20,125 @@ Set the `Hippo` sprite's rotation style to **left-right**.
 
 \--- task \---
 
-Add some code to hide the `Hippo` sprite when the game starts.
+Добавь код, которые спрячет спрайт `Бегемота`, когда игра начинается.
 
-![hippo sprite](images/hippo-sprite.png)
+![спрайт бегемот](images/hippo-sprite.png)
 
 ```blocks3
-when green flag clicked
-hide
+когда зеленый флаг нажат
+спрятать
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Add some code to the Stage to create a new `Hippo` clone every few seconds.
+Добавь код, который будет создавать новый клон `Бегемота` каждые несколько секунд.
 
-\--- подсказки \---
+\--- hints \---
 
 \--- hint \---
 
-When the `green flag is clicked`{:class="block3events"}, `repeatedly`{:class="block3control"} `wait`{:class="block3control"} `between 2 and 4 seconds`{:class="block3operators"} and then `create a clone of the Hippo sprite`{:class="block3control"}.
+Когда `зелёный флаг нажат` {: class = "block3events"}, ` повторять всегда ` {: class = "block3control"} ` ждать ` {: class = "block3control"} ` от 2 до 4 секунд ` {: class = "block3operators"}, а затем ` создать клон спрайта Бегемот ` {: Класс = "block3control"}.
 
 \--- /hint \---
 
 \--- hint \---
 
-Here are the blocks you need:
+Вот блоки, которые тебе понадобятся:
 
 ```blocks3
-forever
-end
+повторять всегда
+конец
 
-create clone of (Hippo1 v)
+создать клон (Бегемот)
 
-(pick random (2) to (4))
+(выбрать случайное от (2) до (4))
 
-when flag clicked
+когда флаг нажат
 
-wait () secs
+ждать () секунд
 ```
 
 \--- /hint \---
 
 \--- hint \---
 
-Вот как должен выглядеть твой код:
+Твой код должен выглядеть вот как:
 
-![stage sprite](images/stage-sprite.png)
+![спрайт сцены](images/stage-sprite.png)
 
 ```blocks3
-when flag clicked
-forever
-    wait (pick random (2) to (4)) secs
-    create clone of (Hippo1 v)
-end
+когда флаг нажал
+повторять всегда
+    ждать (выдать случайное от (2) до (4)) секунд
+    создай клон (Бегемот)
+конец
 ```
 
 \--- /hint \---
 
-\--- /подсказки \---
+\--- /hints \---
 
 \--- /task \---
 
-Each new hippo clone should appear at a random `x` position, and every clone should have a random speed.
+Каждый новый клон бегемота должен появляться в случайном положении ` x ` и каждый клон должен иметь произвольную скорость.
 
 \--- task \---
 
-Create a new variable called `speed`{:class="block3variables"} that is for the `Hippo` sprite only.
+Создай новую переменную с именем ` скорость ` {: class = "block3variables"} только для спрайта ` Бегемот `.
 
 [[[generic-scratch3-add-variable]]]
 
-When you've done this correctly, the variable has the name of the sprite next to it, like this:
+Если ты сделал это правильно, то переменная будет иметь имя спрайта, например:
 
-![screenshot](images/invaders-var-test.png)
+![снимок экрана](images/invaders-var-test.png)
 
 \--- /task \---
 
 \--- task \---
 
-When each `Hippo` clone starts, pick a random speed and starting place for it. Then show the clone on the screen.
+Когда создаётся клон ` Бегемота `, выбирается случайная скорость и стартовое место для него. Затем клон появляется на экране.
 
 ```blocks3
-when I start as a clone
-set [speed v] to (pick random (2) to (4))
-go to x: (pick random (-220) to (220)) y: (150)
-show
+когда я начинаю как клон
+задать [скорость] значение (выдать случайное от (2) до (4))
+перейти в x: (выдать случайное от (-220) до (220)) y: (150)
+показаться
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Test your code. Does a new hippo appear every few seconds?
+Проверь свой код. Новый бегемот появляется каждые несколько секунд?
 
 \--- /task \---
 
-At the moment the hippos don't move.
+В данный момент бегемоты не двигаются.
 
 \--- task \---
 
-Each hippo should move around randomly until it gets hit by a lightning bolt. To make that happen, attach this code below the blocks that are already in the `Hippo` sprite's code script:
+Каждый бегемот должен передвигаться случайным образом до удара молнии. Чтобы это произошло, прикрепите этот код под блоками, которые уже находятся в скрипте спрайта ` Бегемот `:
 
 ```blocks3
-repeat until <touching (lightning v) ?>
-    move (speed :: variables) steps
-    turn right (pick random (-10) to (10)) degrees
-    if on edge, bounce
-end
-delete this clone
+повторять пока не <touching (lightning v) ?>
+    идти (скорость :: переменные) шагов
+    повернуть направо (выдать случайное от (-10) до (10)) градусов
+    если касается края, оттолкнуться
+конец
+удалить клон
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Test your code again. You should see a new hippo clone appear every few seconds, and each clone should move at a different speed.
+Протестируй свой код еще раз. Ты должен видеть, что новый клон бегемота появляется каждые несколько секунд и каждый клон должен двигаться с разной скоростью.
 
 \--- no-print \---
 
-![screenshot](images/hippo-clones.gif)
+![снимок экрана](images/hippo-clones.gif)
 
 \--- /no-print \---
 
@@ -146,6 +146,6 @@ Test your code again. You should see a new hippo clone appear every few seconds,
 
 \--- task \---
 
-Now test the spaceship's laser cannon. If a lightning bolt hits a hippo, does the hippo vanish?
+Теперь проверь лазерную пушку космического корабля. Если молния попадёт в бегемота, то исчезнет ли бегемот?
 
 \--- /task \---
