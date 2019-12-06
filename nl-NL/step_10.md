@@ -37,7 +37,7 @@ Voeg deze code toe aan je `Wedstrijd voorbij` sprite, zodat het bericht aan het 
 ![gameover sprite](images/gameover-sprite.png)
 
 ```blocks3
-wanneer op de vlag wordt geklikt
+wanneer op de groene vlag wordt geklikt
 verdwijn
 
 wanneer ik signaal [game over v] ontvang
