@@ -27,7 +27,7 @@ Voeg deze code toe aan de spaceship sprite om het ruimteschip te verplaatsen als
 ```blocks3
     wanneer groene vlag wordt aangeklikt
   herhaal
-    als <key (left arrow v) pressed?> dan
+    als <toets (pijltje links v) is ingedrukt?> dan
       verander x met (-4)
     einde
   einde
@@ -70,7 +70,7 @@ Hier is de code die je onder de andere code binnen het `herhaal`{:class="block3c
 ![ruimteschip sprite](images/rocket-sprite.png)
 
 ```blocks3
-als <key (right arrow v) pressed?> dan
+als <toets (pijltje rechts v) is ingedrukt?> dan
    verander x met (4)
 einde
 ```
