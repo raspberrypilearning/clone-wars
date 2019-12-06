@@ -1,29 +1,42 @@
-## Game Over
+## Raumschiff Explosion
 
-Lass uns eine 'game over' (Spiel-Ende) Meldung zum Ende des Spiel hinzufügen.
+Wenn ein Flusspferd ("Hippo") dein Raumschiff berührt, sollte das Raumschiff explodieren!
 
-+ Falls du es noch nicht getan hast, musst du jetzt eine neue Variable namens `lives`{:class="blockdata"} (Leben) erstellen. Dein Raumschiff sollte mit 3 Leben starten und immer ein Leben verlieren, sobald es mit einem Feind zusammenstlößt. Dein Spiel sollte ebenfalls beendet werden, sobald du alle deine Leben verloren hast. Wenn du hierbei Hilfestellung benötigst, kannst nochmal in das 'Catch the Dots' (Fang die Punkte) Projekt schauen.
+--- task ---
 
-+ Zeichne ein neues Sprite namens 'Game Over' mit Hilfe des Text Tools.
+Wähle die `Raumschiff` Figur aus und benenne ihr Kostüm in 'normal' um.
 
-	![screenshot](images/invaders-game-over.png)
+--- /task ---
 
-+ Sende eine `game over`{:class="blockevents"} Meldung in deinem Stadium kurz bevor das Spiel aus ist.
+--- task ---
 
-	```blocks
-		sende [game over v] an alle und warte
-	```
+Zeichne ein weiteres Kostüm eines explodierenden Raumschiffs und nenne das neue Kostüm "getroffen".
 
-+ Füge diesen Code zu deinem 'Game Over' Sprite hinzu, damit die Meldung bei Spiel-Ende angezeigt wird:
+![Screenshot](images/invaders-spaceship-costumes.png)
 
-	```blocks
-		Wenn die grüne Flagge angeklickt
-		verstecke dich
+Wenn Du die Explosion nicht zeichnen möchtest, kannst Du das Kostüm 'Sun' (englisch für Sonne) aus der Scratch-Bibliothek auswählen.
 
-		Wenn ich [game over v] empfange
-		zeige dich
-	```
+![Screenshot](images/invaders-sun.png)
 
-	Weil du einen Block mit `broadcast [ Game over] and wait`{:class="blockevents"} (Game Over und Warten Meldung) in deinem Stadium benutzt hast, wird es darauf warten, dass das 'Game Over' Sprite angezeigt wird, ehe das Spiel beendet wird.
+--- /task ---
 
-+ Teste dein  Spiel. Wie viele Punkte kannst zu erzielen? Kannst du an Wege denken, dein Spiel zu verbessern, falls es zu einfach oder zu schwer sein sollte?
+--- task ---
+
+Füge deiner `Raumschiff` Figur Code hinzu, sodass sie zu Beginn des Spiels das „normal“-Kostüm anzeigt und zum „getroffen -Kostüm wechselt, wenn es ein Flusspferd berührt:
+
+![raumschiff-Figur](images/rocket-sprite.png)
+
+```blocks3
+Wenn die grüne Flagge angeklickt
+wechsle zu Kostüm (normal v)
+warte bis <wird (Hippo1 v) berührt?>
+wechsle zu Kostüm (getroffen v)
+```
+
+--- /task ---
+
+--- task ---
+
+Teste deinen Code. Lass das Raumschiff mit einem Flusspferd kollidieren. Wechselt das Raumschiff zum "getroffen"-Kostüm?
+
+--- /task ---

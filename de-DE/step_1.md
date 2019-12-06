@@ -1,38 +1,72 @@
-## Einführung
+--- no-print ---
 
-In diesem Projekt lernst du, wie man ein Spiel erstellt, in dem du den Planet Erde vor Weltraummonstern retten musst.
+Dies ist die **Scratch 3** Version des Projekts. Es gibt auch eine [Scratch-2-Version des Projekts](https://projects.raspberrypi.org/de-DE/projects/clone-wars-scratch2).
+
+--- /no-print ---
+
+## Einleitung
+
+In diesem Projekt lernst du, wie man ein Spiel erstellt, in dem man die Erde vor Weltraummonstern retten muss.
+
+### Was du machen wirst
+
+--- no-print ---
+
+Klicke zum Starten auf die grüne Flagge im Beispiel unten und drücke <kbd>Pfeil links</kbd> und <kbd>Pfeil rechts</kbd> um das Raumschiff zu steuern. Drücke die <kbd>Leertaste</kbd> um zu schießen.
 
 <div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/46018140/?autostart=false" frameborder="0"></iframe>
-  <img src="images/invaders-final.png">
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/351459024/?autostart=false" frameborder="0" scrolling="no"></iframe>
+  <img src="images/showcase.png">
 </div>
+
+--- /no-print ---
+
+Erziele so viele Punkte wie möglich, indem du fliegende Weltraum-Nilpferde abschießst. Wenn Du von einem Nilpferd oder einer Orange getroffen wirst, die von den Fledermäusen fallen gelassen werden, verlierst Du ein Leben.
+
+--- print-only ---
+
+![Beschreibung](images/showcase.png)
+
+--- /print-only ---
 
 --- collapse ---
 ---
-title: Notizen für den Club-Leiter
+title: Was du brauchen wirst
 ---
+### Hardware
 
-## Einführung:
-In diesem Projekt lernen die Kinder, wie man ein Spiel herstellt, in dem der Spieler ein Raumschiff kontrolliert, das Blitze auf Feinde abschießen kann.
++ Ein Computer, auf dem Scratch 3 ausgeführt werden kann
 
-## Ressourcen
-Für dieses Projekt sollte Scratch 2 benutzt werden. Scratch 2 kann entweder online benutzt werden unter [jumpto.cc/scratch-on](http://jumpto.cc/scratch-on) oder es kann von [jumpto.cc/scratch-off](http://jumpto.cc/scratch-off) heruntergeladen und offline benutzt werden.
+### Software
 
-Sie finden eine fertig gestellte Version dieses Projekts online unter <a href="http://scratch.mit.edu/projects/46018140/#editor">  </a> oder es kann heruntergeladen werden, indem Sie auf den 'Project Materials' (Projektmaterialien) Link für dieses Projekt klicken, welcher u.a. Folgendes enthält:
++ Scratch 3 (entweder [online](https://rpf.io/scratchon){:target="_blank"} oder [offline](https://rpf.io/scratchoff){:target="_blank"})
 
-+ CloneWars.sb2
+### Downloads
 
-## Lernziele
-+ Dieses Projekt konsolidiert das Lernen von zuvor erlernten Programmierfertigkeiten und es demonstriert, wie Sprites Klone von _anderen_ Sprites erstellen können und wie multiple Klone als Projektile benutzt werden können.
-
-Dieses Projekt deckt Elemente aus den folgenden Bereichen des [Raspberry Pi Lehrplans zur digitalen Produktion](http://rpf.io/curriculum):
-
-+ [Kombiniere die Programmierkonstrukte, um ein Problem zu lösen.](https://www.raspberrypi.org/curriculum/programming/builder)
-
-## Aufgaben
-+ „Die Blitze ausbessern“: Einen `wait`{:class="blockcontrol"} (Warten) Block benutzen, um die Häufigkeit der Blitze zu senken;
-+ „Leben und Punktzahl “: `lives`{:class="blockdata"} (Leben), `score`{:class="blockdata"} (Punktzahl) und `highscore`{:class="blockdata"} (hohe Punktzahl) Variablen erstellen;
-+ „Verbessere dein Spiel“: Hinzufügen weiterer Feinde, Booster-Packs, u.s.w.
+[Hier findest du die Dateien zum herunterladen](http://rpf.io/p/de-DE/clone-wars-go).
 
 --- /collapse ---
 
+--- collapse ---
+---
+title: Was du lernen wirst
+---
++ Wie du Figuren mithilfe von Tastatureingaben bewegen kannst
++ Wie du Figuren klonen kannst um Kopien von ihnen zu erstellen
++ Wie du "sende-" und "empfangs-Blöcke" nutzt um Nachrichten zu versenden
+
+--- /collapse ---
+
+--- collapse ---
+---
+title: Zusätzliche Hinweise für Pädagogen
+---
+--- no-print ---
+
+Wenn du dieses Projekt ausdrucken möchtest, verwende die [druckerfreundliche Version](https://projects.raspberrypi.org/de-DE/projects/clone-wars/print){:target="_blank"}.
+
+--- /no-print ---
+
+Du findest das [abgeschlossene Projekt hier](http://rpf.io/p/de-DE/clone-wars-get).
+
+--- /collapse ---
