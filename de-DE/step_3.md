@@ -1,10 +1,10 @@
 ## Blitze
 
-Jetzt geben Sie dem Raumschiff die Möglichkeit, Blitzschläge abzufeuern!
+Jetzt gibst Du dem Raumschiff die Möglichkeit, Blitze abzufeuern!
 
 \--- task \---
 
-Fügen Sie den ` Blitz hinzu ` Sprite aus der Scratch-Bibliothek.
+Füge die `"Lightning"` (englisch für Blitz) Figur aus der Scratch-Bibliothek hinzu.
 
 [[[generic-scratch3-sprite-from-library]]]
 
@@ -12,15 +12,15 @@ Fügen Sie den ` Blitz hinzu ` Sprite aus der Scratch-Bibliothek.
 
 \--- task \---
 
-Wenn das Spiel beginnt, sollte das `Lightning` Sprite ausgeblendet sein, bis das Raumschiff seine Laserkanonen abgefeuert hat.
+Wenn das Spiel beginnt, sollte die `Lightning` Figur versteckt sein, bis das Raumschiff seine Laserkanonen abgefeuert hat.
 
-Fügen Sie diesen Code zum `Lightning` Sprite hinzu:
+Füge diesen Code zur `"Lightning"` Figur hinzu:
 
-![Blitz-Sprite](images/lightning-sprite.png)
+![Blitz-Figur](images/lightning-sprite.png)
 
 ```blocks3
-Wenn grüne Flagge geklickt 
-verstecken
+Wenn die grüne Flagge angeklickt
+verstecke dich
 ```
 
 \--- /task \---
@@ -29,87 +29,87 @@ Im Moment ist der Blitz wirklich groß im Vergleich zum Raumschiff!
 
 \--- task \---
 
-Fügen Sie unterhalb des Codes, über den das `Lightning` Sprite bereits verfügt, einige Blöcke hinzu, um das Sprite zu verkleinern und umzudrehen.
+Füge unter dem schon vorhandenen Code, der `Lightning`-Figur, einige Blöcke hinzu um die Figur kleiner zu machen und auf den Kopf zu stellen.
 
-![Blitz-Sprite](images/lightning-sprite.png)
+![Blitz-Figur](images/lightning-sprite.png)
 
 ```blocks3
-Größe einstellen auf (25)%
-Punkt in Richtung (-90)
+setze Größe auf (25)
+setze Richtung auf (-90) Grad
 ```
 
-Jetzt sieht es so aus, als würde es ein spitzes Ende abfeuern - zuerst aus dem Raumschiff.
+Jetzt sieht es so aus, als würde er mit dem spitzen Ende voran aus dem Raumschiff abgefeuert.
 
 \--- /task \---
 
 \--- task \---
 
-Fügen Sie dem Sprite `Spaceship` einen neuen Code hinzu, um einen neuen Klon des Blitzes zu erstellen, wenn die Taste <kbd>Space</kbd> gedrückt wird.
+Füge der `Raumschiff`-Figur Code hinzu, um jedesmal einen neuen Klon des Blitzes zu erstellen, wenn die <kbd>Leertaste</kbd> gedrückt wird.
 
 \--- hints \---
 
 \--- hint \---
 
-`Wenn die grüne Flagge angeklickt wird`{: class = "block3control"}, überprüfen Sie `für immer`{: class = "block3control"} `wenn`{: class = "block3control"} die `-Leertaste gedrückt wird`{: class = "block3sensing"} und in diesem Fall `einen Klon des Lightning`Sprites {: class = "block3control"} erstellen.
+`Wenn die grüne Flagge angeklickt wird`{:class="block3events"}, überprüfe `fortlaufend`{:class="block3control"} und `falls`{:class="block3control"} die `Leertaste gedrückt wird`{:class="block3sensing"} dann `erzeuge einen Klon der Lightning`{:class="block3control"} Figur.
 
 \--- /hint \---
 
 \--- hint \---
 
-Hier sind die Blöcke, die Sie benötigen:
+Hier sind die Blöcke die du brauchst:
 
 ```blocks3
-wenn <> dann
-ende
+falls <> , dann
+end
 
-für immer
-ende
+wiederhole fortlaufend
+end
 
-erstelle einen Klon von (Lightning v)
+erzeuge Klon von (Lightning v)
 
-<key (space v) pressed?>
+<Taste (Leertaste v) gedrückt?>
 
-wenn die Flagge angeklickt wird
+Wenn die grüne Flagge angeklickt
 ```
 
 \--- /hint \---
 
 \--- hint \---
 
-So sollte Ihr neuer Code aussehen:
+So sollte dein neuer Code aussehen:
 
-![Raketen-Sprite](images/rocket-sprite.png)
+![raumschiff-Figur](images/rocket-sprite.png)
 
 ```blocks3
-Wenn das Flag für immer auf
-geklickt hat, wird
-    wenn <key (space v) pressed?> dann
-        ein Klon von (Lightning v)
-    Ende
-Ende erstellt
+Wenn die grüne Flagge angeklickt
+wiederhole fortlaufend 
+  falls <Taste (Leertaste v) gedrückt?> , dann 
+    erzeuge Klon von (Lightning v)
+  end
+end
 ```
 
 \--- /hint \---
 
-\---/hints\---
+\--- /hints \---
 
 \--- /task \---
 
 \--- task \---
 
-Immer wenn das Spiel einen `Lightning` Sprite-Klon erstellt, sollte der Klon erscheinen und sich dann nach oben bewegen, bis er den oberen Bereich der Bühne erreicht. Dann sollte der Klon verschwinden.
+Immer wenn das Spiel einen Klon der `Lightning` Figur erstellt, sollte der Klon erscheinen und sich dann nach oben bewegen, bis er den oberen Bereich der Bühne erreicht. Dann sollte der Klon verschwinden.
 
-Fügen Sie diesen Code dem `Lightning` Sprite hinzu, sodass Klone davon nach oben verschoben werden, bis sie den Rand der Bühne berühren. Anschließend werden sie gelöscht.
+Füge diesen Code der `Lightning` Figur hinzu, sodass Klone davon nach oben verschoben werden, bis sie den Rand der Bühne berühren und anschließend gelöscht werden.
 
-![Blitz-Sprite](images/lightning-sprite.png)
+![Blitz-Figur](images/lightning-sprite.png)
 
 ```blocks3
-    Wenn ich als Klon beginne
+    Wenn ich als Klon entstehe
     gehe zu (Raumschiff v)
-    zeige
-    wiederhole bis <touching (edge v) ?>
+    zeige dich
+    wiederhole bis <wird (Rand v) berührt?> 
         ändere y um (10)
-
+    end
     lösche diesen Klon
 ```
 
@@ -117,6 +117,6 @@ Fügen Sie diesen Code dem `Lightning` Sprite hinzu, sodass Klone davon nach obe
 
 \--- task \---
 
-Drücken Sie die <kbd>-Leertaste</kbd> , um zu testen, ob sich der Blitz richtig bewegt.
+Drücke die <kbd>Leertaste</kbd>, um zu testen, ob sich der Blitz richtig bewegt.
 
 \--- /task \---
