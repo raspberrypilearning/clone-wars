@@ -1,6 +1,6 @@
 ## Créer un vaisseau spatial
 
-Commencez par créer un vaisseau spatial capable de défendre la Terre!
+Commence par créer un vaisseau spatial capable de défendre la Terre!
 
 \--- task \---
 
