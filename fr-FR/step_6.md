@@ -1,6 +1,6 @@
 ## Explosion du vaisseau spatial
 
-Quand un hippopotame touche ton vaisseau spatial, le vaisseau spatial devrait exploser!
+Quand un hippopotame touche ton vaisseau spatial, le vaisseau spatial devrait exploser !
 
 \--- task \---
 
