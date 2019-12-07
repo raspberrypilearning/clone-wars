@@ -6,7 +6,7 @@ Ceci est la version **Scratch 3** du projet. Il y a aussi une version [Scratch 2
 
 ## Introduction
 
-Dans ce projet, vous apprendrez à créer un jeu dans lequel vous devrez sauver la Terre des aliens.
+Dans ce projet, tu apprendras à créer un jeu dans lequel tu devras sauver la Terre des aliens.
 
 ### Ce que tu feras
 
