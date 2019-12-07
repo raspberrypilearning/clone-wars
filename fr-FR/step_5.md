@@ -22,7 +22,7 @@ Définis le style de rotation du sprite `Hippo` sur **gauche-droite**.
 
 Ajoute du code pour cacher le sprite `Hippo` quand le jeu commence.
 
-![hippo sprite](images/hippo-sprite.png)
+![sprite hippopotame](images/hippo-sprite.png)
 
 ```blocks3
 Quand le drapeau vert est cliqué
@@ -102,9 +102,9 @@ Une fois que tu auras fait cela correctement, la variable porte le nom du sprite
 Au démarrage de chaque clone de `Hippo`, choisis une vitesse aléatoire et le lieu de départ pour le clone. Puis affiche le clone a l’écran.
 
 ```blocks3
-quand je commence comme un ensemble de
-clone [vitesse v] (choisir au hasard 2 à 4)
-aller à x: (sélection aléatoirement entre -(220) et (220)) y: (150)
+quand je commence comme un clone
+mettre [vitesse v] à (nombre aléatoire entre (2) et (4))
+aller à x: (nombre aléatoire entre (-220) et (220)) y: (150)
 montrer
 ```
 
@@ -112,21 +112,21 @@ montrer
 
 \--- task \---
 
-Teste ton code. Un nouveau hippo apparaît-il toutes les quelques secondes ?
+Teste ton code. Un nouveau hippopotame apparaît-il toutes les quelques secondes ?
 
 \--- /task \---
 
-Pour le moment, les hippos ne bougent pas.
+Pour le moment, les hippopotames ne bougent pas.
 
 \--- task \---
 
 Chaque hippopotame doit se déplacer de manière aléatoire jusqu’à ce qu’il soit frappé par un éclair. Pour ce faire, attache ce code sous les blocs déjà présents dans le script de code du sprite `Hippo`:
 
 ```blocks3
-répéter jusqu'à <touching (lightning v) ?>
-    mouvement (vitesse :: variables) étapes
-    tourner à droite (choisir au hasard (-10) à (10)) degrés
-    si sur le bord, rebond
+répéter jusqu'à ce que <touching (lightning v) ?>
+    avancer de (vitesse :: variables) pas
+    tourner à droite de (nombre aléatoire entre (-10) et (10)) degrés
+    rebondir si le bord est atteint
 fin
 supprimer ce clone
 ```
@@ -135,7 +135,7 @@ supprimer ce clone
 
 \--- task \---
 
-Teste ton code à nouveau. Tu devrais voir apparaître un nouveau clone hippo toutes les quelques secondes et chaque clone devrait se déplacer à une vitesse différente.
+Teste ton code à nouveau. Tu devrais voir apparaître un nouveau clone hippopotame toutes les quelques secondes et chaque clone devrait se déplacer à une vitesse différente.
 
 \--- no-print \---
 
@@ -147,6 +147,6 @@ Teste ton code à nouveau. Tu devrais voir apparaître un nouveau clone hippo to
 
 \--- task \---
 
-Maintenant, teste le canon laser du vaisseau spatial. Si un éclair frappe un hippopotame, l'hippopotame disparaît-il?
+Maintenant, teste le canon laser du vaisseau spatial. Si un éclair frappe un hippopotame, l'hippopotame disparaît-il ?
 
 \--- /task \---
