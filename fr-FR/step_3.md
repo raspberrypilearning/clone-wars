@@ -1,10 +1,10 @@
-## Foudre
+## Éclairs
 
 Maintenant, tu vas donner au vaisseau spatial la capacité de tirer des éclairs!
 
 \--- task \---
 
-Ajouter le sprite `Lightning `de la bibliothèque Scratch.
+Ajouter le sprite `Lightning`de la bibliothèque Scratch.
 
 [[[generic-scratch3-sprite-from-library]]]
 
@@ -26,7 +26,7 @@ cacher
 
 \--- /task \---
 
-Pour le moment, l'éclair est vraiment gros comparé au vaisseau spatial!
+Pour le moment, l'éclair est vraiment gros comparé au vaisseau spatial !
 
 \--- task \---
 
@@ -35,8 +35,8 @@ Sous le code que le sprite `Lightning` a déjà, ajoute des blocs pour le rédui
 ![sprite éclair](images/lightning-sprite.png)
 
 ```blocks3
-définir la taille sur (25)%
-point dans la direction (-90)
+mettre la taille à (25)% de la taille initiale
+s'orienter à (-90)
 ```
 
 Maintenant, on dirait qu'il tire la fin pointue - d'abord hors du vaisseau spatial.
