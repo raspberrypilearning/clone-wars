@@ -4,7 +4,7 @@ theme: violet
 listed: true
 copyedit: true
 title: La guerre des clones
-description: Crée un jeu dans lequel tu dois sauver la Terre des monstres de l'espace
+description: Crée un jeu dans lequel tu dois sauver la Terre des aliens
 version: 4.1.0
 last_tested: 2018-10-11
 steps:
@@ -13,7 +13,7 @@ steps:
   - 
     title: Crée un vaisseau spatial
   - 
-    title: éclairs
+    title: Éclairs
   - 
     title: 'Défi : améliore l''éclair'
     challenge: true
