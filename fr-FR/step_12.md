@@ -1,6 +1,6 @@
 ## Que faire ensuite?
 
-Essayez notre projet [Créez votre propre monde](https://projects.raspberrypi.org/en/projects/create-your-own-world?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) dans lequel vous créerez votre propre jeu d'aventure!
+Essaie notre projet [Créez votre propre monde](https://projects.raspberrypi.org/en/projects/create-your-own-world?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) dans lequel tu créeras ton propre jeu d'aventure!
 
 \--- no-print \---
 
@@ -15,6 +15,6 @@ Clique sur le drapeau vert pour démarrer. Utilise les touches fléchées pour d
 
 \--- print-only \---
 
-Vous utiliserez les touches fléchées pour déplacer votre personnage dans le monde. ![showcase.png](images/create-showcase.png)
+Tu utiliseras les touches fléchées pour déplacer ton personnage dans le monde. ![showcase.png](images/create-showcase.png)
 
 \--- /print-only \---
