@@ -1,18 +1,18 @@
-## Défi : Améliorez votre jeu
+## Défi : Améliore ton jeu
 
-Quelles améliorations pouvez-vous apporter à votre jeu?
+Quelles améliorations peux-tu apporter à ton jeu?
 
 Voici quelques idées:
 
-+ Ajouter des packs de santé que vous pouvez collecter pour obtenir des vies supplémentaires.
++ Ajouter des packs de santé que tu peux collecter pour obtenir des vies supplémentaires.
 
 ![capture d’écran](images/invaders-aid.png)
 
-+ Ajoutez des roches flottantes que votre vaisseau spatial doit éviter.
++ Ajoute des roches flottantes que ton vaisseau spatial doit éviter.
 
 ![capture d'écran](images/invaders-rocks.png)
 
-+ Faites apparaître plus d'ennemis lorsque votre score atteint ` 100 ` .
++ Fais apparaître plus d'ennemis lorsque ton score atteint ` 100 ` .
 
 ```blocks3
     attendre jusqu'à <(score :: variables) = [100]>
