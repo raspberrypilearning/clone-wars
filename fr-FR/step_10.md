@@ -1,6 +1,6 @@
-## Game Over
+## Fin de la partie
 
-Ensuite, tu va rajouter un message 'game over' à la fin du jeu.
+Ensuite, tu va rajouter un message 'fin de la partie' à la fin du jeu.
 
 \--- task \---
 
@@ -20,7 +20,7 @@ Dessine un nouveau sprite appelé ` Game Over ` en utilisant le texte ** ** outi
 
 \--- task \---
 
-Sur la scène, diffuser un message ` game over ` {: class = "blockevents"} juste avant la fin de la partie.
+Sur la scène, diffuser un message ` fin de la partie ` {: class = "blockevents"} juste avant la fin de la partie.
 
 ![lutin de gameover](images/stage-sprite.png)
 
