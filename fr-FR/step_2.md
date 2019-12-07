@@ -20,7 +20,7 @@ Si tu dois télécharger et installer l'éditeur hors ligne Scratch, tu peux le 
 
 \--- task \---
 
-Ajoute ce code au sprite vaisseau spatial pour le déplacer vers la gauche si tu appuies sur la flèche <kbd>gauche</kbd>:
+Ajoute ce code au sprite du vaisseau spatial pour le déplacer vers la gauche si tu appuies sur la flèche <kbd>gauche</kbd>:
 
 ![sprite de roquette](images/rocket-sprite.png)
 
