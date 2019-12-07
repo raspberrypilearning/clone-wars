@@ -28,7 +28,7 @@ Ajoute ce code au sprite vaisseau spatial pour le déplacer vers la gauche si tu
     quand le drapeau est cliqué
     répéter indéfiniment
         si <key (left arrow v) pressed?> alors
-            mettre x à (-4)
+            ajouter (-4) à x
         fin
     fin
 ```
@@ -36,20 +36,20 @@ Ajoute ce code au sprite vaisseau spatial pour le déplacer vers la gauche si tu
 L'axe des x va du côté gauche de la scène au côté droit. Cela signifie que le vaisseau spatial se déplace vers la gauche lorsque tu soustrais de la valeur de la position `x` du sprite du vaisseau spatial. Donc, ce bloc de code est la partie qui fait bouger ton vaisseau spatial vers la gauche:
 
 ```blocks3
-changer x par (-4)
+ajouter (-4) à x
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Ajoute du code supplémentaire dans le bloc `forever`{: class = "block3control"} pour que ton vaisseau spatial se déplace vers la droite si tu appuues sur la touche <kbd>droite</kbd> flèche.
+Ajoute du code supplémentaire dans le bloc `répéter indéfiniment`{:class="block3control"} pour que ton vaisseau spatial se déplace vers la droite si tu appuies sur la touche fléchée <kbd>droite</kbd>.
 
 \--- hints \---
 
 \--- hint \---
 
-En soustrayant `4` de la position `x` du vaisseau spatial, il se déplaçait à gauche, alors comment pourrais-tu faire bouger le vaisseau spatial de `4` place?
+En soustrayant `4` de la position `x` du vaisseau spatial, il se déplaçait à gauche, alors comment pourrais-tu faire bouger le vaisseau spatial de `4` à la place ?
 
 \--- /hint \---
 
@@ -58,31 +58,31 @@ En soustrayant `4` de la position `x` du vaisseau spatial, il se déplaçait à 
 Tu as besoin du même bloc de code, mais avec un numéro différent:
 
 ```blocks3
-changer x par (4)
+ajouter ( ) à x
 ```
 
 \--- /hint \---
 
 \--- hint \---
 
-Voici le code que tu dois ajouter sous l’autre code du bloc `forever`{: class = "block3control"}:
+Voici le code que tu dois ajouter sous l’autre code du bloc `répéter indéfiniment`{:class="block3control"}:
 
 ![sprite de roquette](images/rocket-sprite.png)
 
 ```blocks3
 si <key (right arrow v) pressed?> alors
-    change x de (4)
+    ajouter (4) à x
 fin
 ```
 
 \--- /hint \---
 
-\--- /astuces \---
+\--- /hints \---
 
 \--- /task \---
 
 \--- task \---
 
-Teste ton projet en cliquant sur le drapeau vert. Peux-tu appuyer sur les touches fléchées pour faire bouger ton vaisseau spatial à gauche et à droite?
+Teste ton projet en cliquant sur le drapeau vert. Peux-tu appuyer sur les touches fléchées pour faire bouger ton vaisseau spatial à gauche et à droite ?
 
 \--- /task \---
