@@ -1,10 +1,10 @@
 ## Foudre
 
-Maintenant, vous allez donner au vaisseau spatial la capacité de tirer des éclairs!
+Maintenant, tu vas donner au vaisseau spatial la capacité de tirer des éclairs!
 
 \--- task \---
 
-Ajouter le lutin `Lightning `de la bibliothèque Scratch.
+Ajouter le sprite `Lightning `de la bibliothèque Scratch.
 
 [[[generic-scratch3-sprite-from-library]]]
 
@@ -14,7 +14,7 @@ Ajouter le lutin `Lightning `de la bibliothèque Scratch.
 
 Lorsque le jeu commence, le sprite `Lightning` doit être caché jusqu'à ce que le vaisseau spatial tire ses canons laser.
 
-Ajoutez ce code au sprite `Lightning`:
+Ajoute ce code au sprite `Lightning`:
 
 ![sprite éclair](images/lightning-sprite.png)
 
@@ -30,7 +30,7 @@ Pour le moment, l'éclair est vraiment gros comparé au vaisseau spatial!
 
 \--- task \---
 
-Sous le code que l’image-objet `Lightning` a déjà, ajoutez des blocs pour la réduire et la retourner.
+Sous le code que le sprite `Lightning` a déjà, ajoute des blocs pour le réduire et le retourner.
 
 ![sprite éclair](images/lightning-sprite.png)
 
@@ -39,13 +39,13 @@ définir la taille sur (25)%
 point dans la direction (-90)
 ```
 
-On dirait maintenant que ça tire au bout pointu - premier sorti du vaisseau spatial.
+Maintenant, on dirait qu'il tire la fin pointue - d'abord hors du vaisseau spatial.
 
 \--- /task \---
 
 \--- task \---
 
-Ajoutez un nouveau code au sprite `Spaceship` pour créer un nouveau clone de l'éclair si vous appuyez sur la touche <kbd>espace</kbd>.
+Ajoute un nouveau code au sprite `Spaceship` pour créer un nouveau clone de l'éclair si tu appuies sur la touche <kbd>espace</kbd>.
 
 \--- hints \---
 
@@ -77,9 +77,9 @@ lorsque le drapeau est cliqué
 
 \--- hint \---
 
-Voici à quoi devrait ressembler votre nouveau code:
+Voici à quoi devrait ressembler ton nouveau code:
 
-![lutin de roquette](images/rocket-sprite.png)
+![sprite de roquette](images/rocket-sprite.png)
 
 ```blocks3
 lorsque l' indicateur cliqué
@@ -118,6 +118,6 @@ Ajoutez ce code au sprite `Lightning` pour que ses clones se déplacent vers le 
 
 \--- task \---
 
-Appuyez sur la touche <kbd>espace</kbd> pour vérifier si l'éclair se déplace correctement.
+Appuie sur la touche <kbd>espace</kbd> pour vérifier si l'éclair se déplace correctement.
 
 \--- /task \---
