@@ -1,6 +1,6 @@
 ## Une chauve-souris !
 
-Vous allez maintenant ajouter de nombreux hippopotames volants qui tentent de détruire votre vaisseau spatial.
+Tu vas maintenant ajouter de nombreux hippopotames volants qui tentent de détruire ton vaisseau spatial.
 
 \--- task \---
 
