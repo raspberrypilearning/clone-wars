@@ -22,7 +22,7 @@ Dessine un nouveau sprite appelé ` Game Over ` en utilisant le texte ** ** outi
 
 Sur la scène, diffuser un message ` fin de la partie ` {: class = "blockevents"} juste avant la fin de la partie.
 
-![lutin de gameover](images/stage-sprite.png)
+![sprite de gameover](images/stage-sprite.png)
 
 ```blocks3
 diffuser (game over v) et attendre
@@ -32,9 +32,9 @@ diffuser (game over v) et attendre
 
 \--- task \---
 
-Ajoutez ce code à votre `Game Over` sprite pour qu’il apparaisse à la fin du jeu:
+Ajoutez ce code à votre sprite `Game Over` pour qu’il apparaisse à la fin du jeu:
 
-![lutin de gameover](images/gameover-sprite.png)
+![sprite de gameover](images/gameover-sprite.png)
 
 ```blocks3
 quand le drapeau cliqué
@@ -44,12 +44,12 @@ quand je reçois [game over v]
 montrer
 ```
 
-Comme vous avez utilisé une diffusion `(partie terminée) et attendu`bloc {: class = "block3events"} sur votre scène, la scène attend que l’image-objet `Game Over` s’affiche avant de terminer la partie.
+Parce que tu as utilisé un bloc `diffuser [fin de la partie!] et attendre` { : class = « blockevents »} sur votre scène, le sprite `Game Over` attendra après avoir été affiché, avant de terminer le jeu.
 
 \--- /task \---
 
 \--- task \---
 
-Testez votre jeu. Combien de points pouvez-vous marquer? Si le jeu est trop facile ou trop difficile, pouvez-vous penser à des moyens de l’améliorer?
+Teste ton jeu. Combien de points peux-tu marquer? Si le jeu est trop facile ou trop difficile, peux-tu penser à des moyens de l’améliorer?
 
 \--- /task \---
