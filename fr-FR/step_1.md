@@ -12,7 +12,7 @@ Dans ce projet, tu apprendras à créer un jeu dans lequel tu devras sauver la T
 
 \--- no-print \---
 
-Cliquez sur le drapeau vert dans le jeu de l'exemple ci-dessous pour démarrer, puis appuyez sur les touches fléchées <kbd>gauche</kbd> et <kbd>droite</kbd> pour déplacer le vaisseau spatial et <kbd>la touche espace</kbd> pour tirer.
+Clique sur le drapeau vert dans le jeu de l'exemple ci-dessous pour démarrer, puis appuie sur les touches fléchées <kbd>gauche</kbd> et <kbd>droite</kbd> pour déplacer le vaisseau spatial et <kbd>la touche espace</kbd> pour tirer.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/276887163/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -21,7 +21,7 @@ Cliquez sur le drapeau vert dans le jeu de l'exemple ci-dessous pour démarrer, 
 
 \--- /no-print \---
 
-Marquez autant de points que possible en tirant sur des hippopotames volants. Tu perds une vie si tu es frappé par un hippopotame ou par les oranges lâchées par les chauves souris.
+Marque autant de points que possible en tirant sur des hippopotames volants. Tu perds une vie si tu es frappé par un hippopotame ou par les oranges lâchées par les chauves souris.
 
 \--- print-only \---
 
@@ -45,7 +45,7 @@ Marquez autant de points que possible en tirant sur des hippopotames volants. Tu
 
 ### Téléchargements
 
-[Trouvez les téléchargements ici](http://rpf.io/p/en/clone-wars-go).
+[Trouve les téléchargements ici](http://rpf.io/p/en/clone-wars-go).
 
 \--- /collapse \---
 
@@ -69,7 +69,7 @@ Marquez autant de points que possible en tirant sur des hippopotames volants. Tu
 
 \--- no-print \---
 
-Si tu as besoin d'imprimer ce projet, merci d'utiliser la [Version imprimable](https://projects.raspberrypi.org/en/projects/clone-wars/print) {: target = "_ blank"}.
+Si vous avez besoin d'imprimer ce projet, merci d'utiliser la [version imprimable](https://projects.raspberrypi.org/en/projects/clone-wars/print) {:target="_blank"}.
 
 \--- /no-print \---
 
