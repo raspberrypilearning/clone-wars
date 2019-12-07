@@ -1,6 +1,6 @@
 ## Créer un vaisseau spatial
 
-Commence par créer un vaisseau spatial capable de défendre la Terre!
+Commence par créer un vaisseau spatial capable de défendre la Terre !
 
 \--- task \---
 
@@ -20,15 +20,17 @@ Si tu dois télécharger et installer l'éditeur hors ligne Scratch, tu peux le 
 
 \--- task \---
 
-Ajoute ce code à l’image-objet du vaisseau spatial pour le déplacer vers la gauche si tu appuies sur la flèche <kbd>gauche</kbd>:
+Ajoute ce code au sprite vaisseau spatial pour le déplacer vers la gauche si tu appuies sur la flèche <kbd>gauche</kbd>:
 
 ![sprite de roquette](images/rocket-sprite.png)
 
 ```blocks3
     quand le drapeau est cliqué
     répéter indéfiniment
-    si <key (left arrow v) pressed?> alors changer par x (-4)
-    stop tout
+        si <key (left arrow v) pressed?> alors
+            mettre x à (-4)
+        fin
+    fin
 ```
 
 L'axe des x va du côté gauche de la scène au côté droit. Cela signifie que le vaisseau spatial se déplace vers la gauche lorsque tu soustrais de la valeur de la position `x` du sprite du vaisseau spatial. Donc, ce bloc de code est la partie qui fait bouger ton vaisseau spatial vers la gauche:
