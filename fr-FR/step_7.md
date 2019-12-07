@@ -6,7 +6,7 @@ Lorsque le vaisseau spatial explose, tous les hippopotames devraient disparaîtr
 
 Ajoute du code au sprite du vaisseau spatial pour le rendre `diffusé`{: class = "block3events"} le message "touché" lorsque le vaisseau spatial `touche un hippo`{: class = "block3sensing"}.
 
-![lutin de roquette](images/rocket-sprite.png)
+![sprite de roquette](images/rocket-sprite.png)
 
 ```blocks3
 lorsque le drapeau a cliqué sur
@@ -34,9 +34,9 @@ effacer ce clone
 
 \--- task \---
 
-Pour vérifier si le nouveau code fonctionne, cliquez sur le drapeau vert et faites entrer le vaisseau spatial en collision avec un hippopotame.
+Pour vérifier si le nouveau code fonctionne, clique sur le drapeau vert et fais entrer le vaisseau spatial en collision avec un hippopotame.
 
-![screenshot](images/invaders-hippo-collide.png)
+![capture d'écran](images/invaders-hippo-collide.png)
 
 \--- /task \---
 
@@ -44,9 +44,9 @@ Après l'explosion du vaisseau spatial, de nouveaux clones `Hippo` apparaissent,
 
 \--- task \---
 
-Ajoutez un bloc `wait`{: class = "block3control"} à la fin du code du sprite `Spaceship` pour créer une petite pause avant la réapparition des hippopotames. Ajoutez ensuite un bloc `pour toujours`{: class = "block3control"} autour de tout votre code pour le faire exécuter à plusieurs reprises.
+Ajoute un bloc `wait`{: class = "block3control"} à la fin du code du sprite `Spaceship` pour créer une petite pause avant la réapparition des hippopotames. Ajoute ensuite un bloc `pour toujours`{: class = "block3control"} autour de tout votre code pour le faire exécuter à plusieurs reprises.
 
-![lutin de roquette](images/rocket-sprite.png)
+![sprite de roquette](images/rocket-sprite.png)
 
 ```blocks3
 quand le drapeau a cliqué sur
