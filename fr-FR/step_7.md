@@ -1,20 +1,20 @@
-## Défi : Améliore ton jeu
+## Hippopotames qui disparaissent
 
-Lorsque le vaisseau spatial explose, tous les hippopotames devraient disparaître afin que les joueurs puissent se remettre
+Lorsque le vaisseau spatial explose, tous les hippopotames devraient disparaître afin que les joueurs du jeu puissent récupérer.
 
 \--- task \---
 
-Ajoute du code au sprite du vaisseau spatial pour le rendre `diffusé`{: class = "block3events"} le message "touché" lorsque le vaisseau spatial `touche un hippo`{: class = "block3sensing"}.
+Ajoute du code au sprite du vaisseau spatial pour le faire `envoyer à tous`{:class="block3events"} le message "touché" lorsque le vaisseau spatial `touche un hippo`{:class="block3sensing"}.
 
 ![sprite de roquette](images/rocket-sprite.png)
 
 ```blocks3
-lorsque le drapeau a cliqué sur
-passez de costume à (normal v)
-attendez jusqu'à <touching (Hippo1 v)>?
-costume de commutation pour (hit v)
+quand le drapeau est cliqué
+basculer sur le costume (normal v)
+attendre jusqu'à ce que <touching (Hippo1 v)>?
+basculer sur le costume (hit v)
 
-+ diffusion (hit v)
++ envoyer à tous (touché v)
 ```
 
 \--- /task \---
