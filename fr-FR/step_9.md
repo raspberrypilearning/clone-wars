@@ -1,18 +1,18 @@
 ## Chauve-souris de l'espace
 
-Pour rendre votre jeu un peu plus difficile, vous allez créer une batte qui jette des oranges sur le vaisseau spatial.
+Pour rendre votre jeu un peu plus difficile, tu vas créer une chauve-souris qui jette des oranges sur le vaisseau spatial.
 
 ![une chauve-souris jetant une orange sur le vaisseau spatial](images/bat-oranges.png)
 
 \--- task \---
 
-Ajoutez une image-objet `Bat` et définissez son style de rotation sur **gauche-droite**.
+Ajoute une image-objet `Bat` et définis son style de rotation sur **gauche-droite**.
 
 \--- /task \---
 
 \--- task \---
 
-Faites le `Bat` sprite `move`{: class = "block3motion"} de gauche à droite en haut du Stage `pour toujours`{: class = "block3control"}.
+Fais `move`{: class = "block3motion"} le sprite`Bat` de gauche à droite en haut de la scène `pour toujours`{: class = "block3control"}.
 
 ![lutin de chauve-souris](images/bat-sprite.png)
 
@@ -25,11 +25,11 @@ pour toujours
 fin
 ```
 
-N'oubliez pas de tester votre code.
+N'oublie pas de tester ton code.
 
 \--- /task \---
 
-Si vous regardez les costumes de la chauve-souris, vous pouvez voir qu'il en a quatre différents:
+Si tu regardes les costumes de la chauve-souris, tu peux voir qu'il en a quatre différents:
 
 ![screenshot](images/invaders-bat-costume.png)
 
@@ -41,13 +41,13 @@ Utilisez le `suivant costume`{: class = « block3looks »} bloc pour faire le ra
 
 \--- hint \---
 
-Une fois que la batte a été déplacée, le costume suivant `devrait apparaître:`{: class = "block3looks"}, puis `attendez`{: class = "block3control"} pendant un court instant.
+Une fois que la chauve-souris a été déplacée, le costume suivant `devrait apparaître:`{: class = "block3looks"}, puis `attendez`{: class = "block3control"} pendant un court instant.
 
 \--- /hint \---
 
 \--- hint \---
 
-Vous devez ajouter ces blocs à votre code:
+Tu dois ajouter ces blocs à ton code:
 
 ```blocks3
 attendre (0.3) secondes
@@ -77,11 +77,11 @@ fin
 
 \--- /task \---
 
-Maintenant, fait en sorte que la chauve-souris jette des oranges !
+Maintenant, fais en sorte que la chauve-souris jette des oranges !
 
 \--- task \---
 
-Ajouter un lutin `Orange`de la bibliothèque Scratch.
+Ajouter un sprite `Orange`de la bibliothèque Scratch.
 
 ![capture d'écran](images/invaders-orange.png)
 
