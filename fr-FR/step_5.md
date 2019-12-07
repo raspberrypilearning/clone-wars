@@ -4,7 +4,7 @@ Tu vas maintenant ajouter de nombreux hippopotames volants qui tentent de détru
 
 \--- task \---
 
-Créez une nouvelle image-objet avec l'image 'Hippo1' dans la bibliothèque Scratch. Utilisez l’outil **shrink** pour donner à l’image-objet `Hippo` une taille similaire à celle de l’image-objet `Spaceship`.
+Crée une nouvelle image-objet avec l'image 'Hippo1' dans la bibliothèque Scratch. Utilise l’outil **shrink** pour donner à l’image-objet `Hippo` une taille similaire à celle de l’image-objet `Spaceship`.
 
 ![capture d'écran](images/invaders-hippo.png)
 
@@ -12,7 +12,7 @@ Créez une nouvelle image-objet avec l'image 'Hippo1' dans la bibliothèque Scra
 
 \--- task \---
 
-Définissez le style de rotation de l’image-objet `Hippo` sur **gauche-droite**.
+Définis le style de rotation de l’image-objet `Hippo` sur **gauche-droite**.
 
 [[[generic-scratch3-sprite-rotation-style]]]
 
@@ -20,7 +20,7 @@ Définissez le style de rotation de l’image-objet `Hippo` sur **gauche-droite*
 
 \--- task \---
 
-Ajoutez du code pour cacher le lutin `Hippo` quand le jeu commence.
+Ajoute du code pour cacher le sprite `Hippo` quand le jeu commence.
 
 ![hippo sprite](images/hippo-sprite.png)
 
@@ -34,7 +34,7 @@ cacher
 
 \--- task \---
 
-Ajoutez du code sur la scène pour créer un nouveau clone `Hippo` toutes les quelques secondes.
+Ajoute du code sur la scène pour créer un nouveau clone `Hippo` toutes les quelques secondes.
 
 \--- hints \---
 
@@ -67,7 +67,7 @@ attendre () secs
 
 Voici à quoi ton code devrait ressembler:
 
-![lutin de scène](images/stage-sprite.png)
+![sprite Scène](images/stage-sprite.png)
 
 ```blocks3
 quand le drapeau vert est cliqué
@@ -83,15 +83,15 @@ terminer
 
 \--- /task \---
 
-Chaque nouvel clone d´hippopotame doit apparaître à une position `x` aléatoire et chaque clone doit avoir une vitesse aléatoire.
+Chaque nouveau clone d´hippopotame doit apparaître à une position `x` aléatoire et chaque clone doit avoir une vitesse aléatoire.
 
 \--- task \---
 
-Créer une nouvelle variable appelée ` vitesse `{:class="block3variables"} pour le lutin ` hippo` uniquement.
+Créer une nouvelle variable appelée ` vitesse `{:class="block3variables"} pour le sprite ` hippo` uniquement.
 
 [[[generic-scratch3-add-variable]]]
 
-Une fois que tu auras fait cela correctement, la variable porte le nom du lutin à côté de lui, comme ceci :
+Une fois que tu auras fait cela correctement, la variable porte le nom du sprite à côté de lui, comme ceci :
 
 ![capture d'écran](images/invaders-var-test.png)
 
@@ -112,7 +112,7 @@ montrer
 
 \--- task \---
 
-Testez ton code. Un nouveau hippo apparaît-il toutes les quelques secondes ?
+Teste ton code. Un nouveau hippo apparaît-il toutes les quelques secondes ?
 
 \--- /task \---
 
@@ -120,7 +120,7 @@ Pour le moment, les hippos ne bougent pas.
 
 \--- task \---
 
-Chaque hippopotame doit se déplacer de manière aléatoire jusqu’à ce qu’il soit frappé par un éclair. Pour ce faire, attachez ce code sous les blocs déjà présents dans le script de code du sprite `Hippo`:
+Chaque hippopotame doit se déplacer de manière aléatoire jusqu’à ce qu’il soit frappé par un éclair. Pour ce faire, attache ce code sous les blocs déjà présents dans le script de code du sprite `Hippo`:
 
 ```blocks3
 répéter jusqu'à <touching (lightning v) ?>
@@ -135,7 +135,7 @@ supprimer ce clone
 
 \--- task \---
 
-Testez votre code à nouveau. Vous devriez voir apparaître un nouveau clone hippo toutes les quelques secondes et chaque clone devrait se déplacer à une vitesse différente.
+Teste ton code à nouveau. Tu devrais voir apparaître un nouveau clone hippo toutes les quelques secondes et chaque clone devrait se déplacer à une vitesse différente.
 
 \--- no-print \---
 
@@ -147,6 +147,6 @@ Testez votre code à nouveau. Vous devriez voir apparaître un nouveau clone hip
 
 \--- task \---
 
-Maintenant, testez le canon laser du vaisseau spatial. Si un éclair frappe un hippopotame, l'hippopotame disparaît-il?
+Maintenant, teste le canon laser du vaisseau spatial. Si un éclair frappe un hippopotame, l'hippopotame disparaît-il?
 
 \--- /task \---
