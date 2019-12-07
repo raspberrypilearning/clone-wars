@@ -33,13 +33,13 @@ Marque autant de points que possible en tirant sur des hippopotames volants. Tu 
 
 * * *
 
-## title: Ce qu'il faut avoir
+## title: Ce qu'il te faut
 
 ### Matériel informatique
 
 + Un ordinateur capable d'exécuter Scratch 3
 
-### Logiciels
+### Logiciel
 
 + Scratch 3 ([en ligne](https://rpf.io/scratchon){:target="_blank"} ou [hors ligne](https://rpf.io/scratchoff){:target="_blank"})
 
@@ -55,8 +55,8 @@ Marque autant de points que possible en tirant sur des hippopotames volants. Tu 
 
 ## title: Ce que tu vas apprendre
 
-+ Comment faire bouger les lutins en utilisant les touches du clavier
-+ Comment cloner des lutins pour en faire des copies
++ Comment faire bouger les sprites en utilisant les touches du clavier
++ Comment cloner des sprites pour en faire des copies
 + Comment utiliser « diffuser » et « recevoir des blocs » pour envoyer des messages
 
 \--- /collapse \---
@@ -73,6 +73,6 @@ Si vous avez besoin d'imprimer ce projet, merci d'utiliser la [version imprimabl
 
 \--- /no-print \---
 
-Vous pouvez trouver le [ projet terminé ici ](http://rpf.io/p/en/clone-wars-get) .
+Vous pouvez trouver le [projet terminé ici](http://rpf.io/p/en/clone-wars-get).
 
 \--- /collapse \---
