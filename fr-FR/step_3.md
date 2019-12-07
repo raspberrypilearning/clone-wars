@@ -51,7 +51,7 @@ Ajoute un nouveau code au sprite `Spaceship` pour créer un nouveau clone de l'�
 
 \--- hint \---
 
-`Lorsque le drapeau vert est cliqué`{: class = "block3events"}, continuez à vérifier `pour toujours`{: class = "block3control"} `si`{: class = "block3control"} la touche d'espacement `est enfoncée`{: class = "block3sensing"}, et dans ce cas , `créer un clone de la foudre`{: class = "block3control"} sprite.
+`Lorsque le drapeau vert est cliqué`{:class="block3events"}, continue à vérifier `répéter indéfiniment`{:class="block3control"} `si`{:class="block3control"} ` la touche d'espacement est enfoncée`{:class="block3sensing"}, et dans ce cas , `créer un clone du sprite de l'éclair `{:class="block3control"}.
 
 \--- /hint \---
 
@@ -60,17 +60,17 @@ Ajoute un nouveau code au sprite `Spaceship` pour créer un nouveau clone de l'�
 Voici les blocs que tu as besoin:
 
 ```blocks3
-si <> puis
+si <> alors
+fin
 
-
-pour toujours
-
+répéter indéfiniment
+fin
 
 créer un clone de (Lightning v)
 
 <key (space v) pressed?>
 
-lorsque le drapeau est cliqué
+quand le drapeau est cliqué
 ```
 
 \--- /hint \---
@@ -82,34 +82,34 @@ Voici à quoi devrait ressembler ton nouveau code:
 ![sprite de roquette](images/rocket-sprite.png)
 
 ```blocks3
-lorsque l' indicateur cliqué
-pour toujours
-    si <key (space v) pressed?> puis
-        créer clone de (foudre v)
-    extrémité
-extrémité
+quand le drapeau est cliqué
+    répéter indéfiniment
+    si <key (space v) pressed?> alors
+      créer un clone de (Lightning v)
+    fin 
+fin
 ```
 
 \--- /hint \---
 
-\--- /astuces \---
+\--- /hints \---
 
 \--- /task \---
 
 \--- task \---
 
-Chaque fois que le jeu crée un clone de sprite `Lightning` , le clone doit apparaître puis se déplacer vers le haut jusqu'à ce qu'il atteigne le haut de la scène. Ensuite, le clone devrait disparaître.
+À chaque fois que le jeu crée un clone de sprite `Lightning`, le clone devrait apparaître et se déplacer vers le haut jusqu'à ce qu'il atteigne le sommet de la scène. Le clone devrait alors disparaître.
 
-Ajoutez ce code au sprite `Lightning` pour que ses clones se déplacent vers le haut jusqu'à ce qu'ils touchent le bord de la scène, puis ils sont supprimés.
+Ajoute ce code au sprite `Lightning` pour que ses clones se déplacent vers le haut jusqu'à ce qu'ils touchent le bord de la scène, puis ils sont supprimés.
 
 ![sprite éclair](images/lightning-sprite.png)
 
 ```blocks3
-    quand je commence en tant que clone
+    quand je commence comme un clone
     aller à (Spaceship v)
     montrer
     répéter jusqu'à ce que <touching (edge v) ?>
-        change y par (10)
+        ajouter (10) à y
     fin
     supprimer ce clone
 ```
