@@ -14,7 +14,7 @@ Dessine un autre costume de vaisseau spatial en explosion et appelle le nouveau 
 
 ![capture d'écran](images/invaders-spaceship-costumes.png)
 
-Si vous ne voulez pas dessiner l'explosion, vous pouvez sélectionner le costume 'Soleil' dans la bibliothèque Scratch, puis utiliser l'outil **Couleur** forme </strong> pour changer la couleur et le visage du costume.
+Si tu ne veux pas dessiner l'explosion, tu peux sélectionner le costume 'Sun' à partir de la bibliothèque Scratch, puis utiliser **l'outil Couleur** pour changer la couleur et l'apparence du costume.
 
 ![capture d'écran](images/invaders-sun.png)
 
@@ -27,10 +27,10 @@ Ajoute du code à ton sprite `Spaceship` pour qu'il affiche le costume "normal" 
 ![sprite de roquette](images/rocket-sprite.png)
 
 ```blocks3
-lorsque le drapeau a cliqué sur
-passez de costume à (normal v)
-attendez jusqu'à <touching (Hippo1 v)>?
-costume de commutation à (hit v)
+quand le drapeau est cliqué
+basculer sur le costume (normal v)
+attendre jusqu'à ce que <touching (Hippo1 v)>?
+basculer sur le costume (hit v)
 ```
 
 \--- /task \---
