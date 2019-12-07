@@ -4,7 +4,7 @@ Tu vas maintenant ajouter de nombreux hippopotames volants qui tentent de détru
 
 \--- task \---
 
-Crée une nouvelle image-objet avec l'image 'Hippo1' dans la bibliothèque Scratch. Utilise l’outil **shrink** pour donner à l’image-objet `Hippo` une taille similaire à celle de l’image-objet `Spaceship`.
+Crée un nouveau sprite avec l'image 'Hippo1' dans la bibliothèque Scratch. Utilise l’outil **rétrécissement** pour donner au sprite `Hippo` une taille similaire à celle du sprite `Spaceship`.
 
 ![capture d'écran](images/invaders-hippo.png)
 
@@ -12,7 +12,7 @@ Crée une nouvelle image-objet avec l'image 'Hippo1' dans la bibliothèque Scrat
 
 \--- task \---
 
-Définis le style de rotation de l’image-objet `Hippo` sur **gauche-droite**.
+Définis le style de rotation du sprite `Hippo` sur **gauche-droite**.
 
 [[[generic-scratch3-sprite-rotation-style]]]
 
@@ -40,25 +40,25 @@ Ajoute du code sur la scène pour créer un nouveau clone `Hippo` toutes les que
 
 \--- hint \---
 
-Lorsque le drapeau vert `est cliqué`{: class = "block3events"}, `plusieurs reprises`{: class = "block3control"} `wait`{: class = "block3control"} `entre 2 et 4 secondes`{: class = "block3operators"} puis `créez un clone de l'image-objet Hippo`{: class = "block3control"}.
+`Lorsque le drapeau vert est cliqué`{:class="block3events"}, continue à vérifier `répéter indéfiniment`{:class="block3control"} `si`{:class="block3control"} ` la touche d'espacement est enfoncée`{:class="block3sensing"}, et dans ce cas , `créer un clone du sprite de l'éclair `{:class="block3control"}.
 
-\--- /indice \---
+\--- /hint \---
 
 \--- hint \---
 
 Voici les blocs que tu as besoin:
 
 ```blocks3
-pour toujours
+répéter indéfiniment
 fin
 
-créer le clone de (Hippo1 v)
+créer un clone de (Hippo1 v)
 
-(choisir aléatoire (2) à (4))
+(nombre aléatoire entre (2) et (4))
 
-lorsque le drapeau cliqué
+quand le drapeau est cliqué
 
-attendre () secs
+attendre () secondes
 ```
 
 \--- /hint \---
@@ -70,16 +70,16 @@ Voici à quoi ton code devrait ressembler:
 ![sprite Scène](images/stage-sprite.png)
 
 ```blocks3
-quand le drapeau vert est cliqué
+quand le drapeau est cliqué
 répéter indéfiniment
-   attendre (choisir aléatoirement entre (2) et (4)) secondes
+   attendre (nombre aléatoire entre (2) et (4)) secondes
    créer un clone de (Hippo1 v)
-terminer
+fin
 ```
 
 \--- /hint \---
 
-\--- /astuces \---
+\--- /hints \---
 
 \--- /task \---
 
@@ -87,7 +87,7 @@ Chaque nouveau clone d´hippopotame doit apparaître à une position `x` aléato
 
 \--- task \---
 
-Créer une nouvelle variable appelée ` vitesse `{:class="block3variables"} pour le sprite ` hippo` uniquement.
+Créer une nouvelle variable appelée `vitesse`{:class="block3variables"} pour le sprite `hippo` uniquement.
 
 [[[generic-scratch3-add-variable]]]
 
