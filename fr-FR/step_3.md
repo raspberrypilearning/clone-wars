@@ -1,6 +1,6 @@
 ## Éclairs
 
-Maintenant, tu vas donner au vaisseau spatial la capacité de tirer des éclairs!
+Maintenant, tu vas donner au vaisseau spatial la capacité de tirer des éclairs !
 
 \--- task \---
 
@@ -57,7 +57,7 @@ Ajoute un nouveau code au sprite `Spaceship` pour créer un nouveau clone de l'�
 
 \--- hint \---
 
-Voici les blocs que tu as besoin:
+Voici les blocs que tu as besoin :
 
 ```blocks3
 si <> alors
@@ -77,7 +77,7 @@ quand le drapeau est cliqué
 
 \--- hint \---
 
-Voici à quoi devrait ressembler ton nouveau code:
+Voici à quoi devrait ressembler ton nouveau code :
 
 ![sprite de roquette](images/rocket-sprite.png)
 
