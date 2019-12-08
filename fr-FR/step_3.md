@@ -4,7 +4,7 @@ Maintenant, tu vas donner au vaisseau spatial la capacité de tirer des éclairs
 
 \--- task \---
 
-Ajouter le sprite `Lightning`de la bibliothèque Scratch.
+Ajouter le sprite `Lightning` à partir de la bibliothèque Scratch.
 
 [[[generic-scratch3-sprite-from-library]]]
 
@@ -51,7 +51,7 @@ Ajoute un nouveau code au sprite `Spaceship` pour créer un nouveau clone de l'�
 
 \--- hint \---
 
-`Lorsque le drapeau vert est cliqué`{:class="block3events"}, continue à vérifier `répéter indéfiniment`{:class="block3control"} `si`{:class="block3control"} ` la touche d'espacement est enfoncée`{:class="block3sensing"}, et dans ce cas , `créer un clone du sprite de l'éclair `{:class="block3control"}.
+`Lorsque le drapeau vert est cliqué`{:class="block3events"}, continue à vérifier `répéter indéfiniment`{:class="block3control"} `si`{:class="block3control"} `la touche d'espacement est enfoncée`{:class="block3sensing"}, et dans ce cas , `créer un clone du sprite de l'éclair`{:class="block3control"}.
 
 \--- /hint \---
 
