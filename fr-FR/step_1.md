@@ -12,7 +12,7 @@ Dans ce projet, tu apprendras à créer un jeu dans lequel tu devras sauver la T
 
 \--- no-print \---
 
-Clique sur le drapeau vert dans le jeu de l'exemple ci-dessous pour démarrer, puis appuie sur les touches fléchées <kbd>gauche</kbd> et <kbd>droite</kbd> pour déplacer le vaisseau spatial et <kbd>la touche espace</kbd> pour tirer.
+Clique sur le drapeau vert dans le jeu de l'exemple ci-dessous pour démarrer, puis appuie sur les touches fléchées <kbd>gauche</kbd> et <kbd>droite</kbd> pour déplacer le vaisseau spatial et la touche <kbd>espace</kbd> pour tirer.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/276887163/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -57,7 +57,7 @@ Marque autant de points que possible en tirant sur des hippopotames volants. Tu 
 
 + Comment faire bouger les sprites en utilisant les touches du clavier
 + Comment cloner des sprites pour en faire des copies
-+ Comment utiliser « diffuser » et « recevoir des blocs » pour envoyer des messages
++ Comment utiliser "envoyer à tous" et "recevoir des blocs" pour envoyer des messages
 
 \--- /collapse \---
 
@@ -65,7 +65,7 @@ Marque autant de points que possible en tirant sur des hippopotames volants. Tu 
 
 * * *
 
-## title: Notes complémentaires pour les éducateurs
+## title: Notes supplémentaires pour les éducateurs
 
 \--- no-print \---
 
