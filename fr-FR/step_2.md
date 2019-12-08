@@ -4,7 +4,7 @@ Commence par créer un vaisseau spatial capable de défendre la Terre !
 
 \--- task \---
 
-Ouvre le projet de démarrage Scratch 'Clone wars'.
+Ouvre le projet de démarrage Scratch "Clone wars".
 
 **En ligne:** ouvre le projet de démarrage à [rpf.io/clone-wars-on](http://rpf.io/clone-wars-on){:target="_ blank"}.
 
@@ -55,7 +55,7 @@ En soustrayant `4` de la position `x` du vaisseau spatial, il se déplaçait à 
 
 \--- hint \---
 
-Tu as besoin du même bloc de code, mais avec un numéro différent:
+Tu as besoin du même bloc de code, mais avec un numéro différent :
 
 ```blocks3
 ajouter ( ) à x
