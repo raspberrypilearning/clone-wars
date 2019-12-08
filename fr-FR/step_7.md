@@ -4,7 +4,7 @@ Lorsque le vaisseau spatial explose, tous les hippopotames devraient disparaîtr
 
 \--- task \---
 
-Ajoute du code au sprite du vaisseau spatial pour le faire `envoyer à tous`{:class="block3events"} le message "hit" lorsque le vaisseau spatial `touche un hippo`{:class="block3sensing"}.
+Ajoute du code au sprite du vaisseau spatial pour `diffuser`{:class="block3events"} le message "hit" lorsque le vaisseau spatial `touche un hippo`{:class="block3sensing"}.
 
 ![sprite de roquette](images/rocket-sprite.png)
 
