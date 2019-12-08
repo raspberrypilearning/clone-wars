@@ -1,6 +1,6 @@
 ## Défi : Améliore ton jeu
 
-Quelles améliorations peux-tu apporter à ton jeu?
+Quelles améliorations peux-tu apporter à ton jeu ?
 
 Voici quelques idées :
 
