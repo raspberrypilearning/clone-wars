@@ -105,7 +105,7 @@ fin
 
 \--- task \---
 
-Ajoute du code au sprite `orange` pour faire tomber chacun de ses clones, à partir du sprite de `chauve-souris` et descendre vers le bas de la scène.
+Ajoute du code au sprite `orange` pour faire tomber chacun de ses clones, à partir du sprite de `Bat` et descendre vers le bas de la scène.
 
 ![sprite d´orange](images/orange-sprite.png)
 
@@ -114,7 +114,7 @@ Ajoute du code au sprite `orange` pour faire tomber chacun de ses clones, à par
     cacher
 
     quand je commence comme un clone
-    aller à (Chauve-souris v)
+    aller à (Bat v)
     montrer
     répéter jusqu'à ce que <toucher (bord v)?
         ajouter (-4) à y
@@ -131,8 +131,8 @@ Ajoute plus de code au sprite `orange` afin que lorsque un clone `orange` touche
 ![sprite d´orange](images/orange-sprite.png)
 
 ```blocks3
-    quand je reçois [touché v]
-    effacer ce clone
+    quand je reçois [hit v]
+    supprimer ce clone
 ```
 
 \--- /task \---
@@ -144,7 +144,7 @@ Modifie le code de ton sprite `vaisseau spatial` afin que le sprite soit « to
 ![sprite de roquette](images/rocket-sprite.png)
 
 ```blocks3
-    patienter jusqu'à < <touching (Hippo1 v)?> or <touching (Orange v)?>>
+    attendre jusqu'à ce que < <touching (Hippo1 v)?> ou <touching (Orange v)?>>
 ```
 
 \--- /task \---
