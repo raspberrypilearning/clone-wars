@@ -1,6 +1,6 @@
 ## Chauve-souris de l'espace
 
-Pour rendre votre jeu un peu plus difficile, tu vas créer une chauve-souris qui jette des oranges sur le vaisseau spatial.
+Pour rendre ton jeu un peu plus difficile, tu vas créer une chauve-souris qui jette des oranges sur le vaisseau spatial.
 
 ![une chauve-souris jetant une orange sur le vaisseau spatial](images/bat-oranges.png)
 
