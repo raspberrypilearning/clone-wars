@@ -2,7 +2,7 @@
 
 Quelles améliorations peux-tu apporter à ton jeu?
 
-Voici quelques idées:
+Voici quelques idées :
 
 + Ajouter des packs de santé que tu peux collecter pour obtenir des vies supplémentaires.
 
@@ -12,8 +12,8 @@ Voici quelques idées:
 
 ![capture d'écran](images/invaders-rocks.png)
 
-+ Fais apparaître plus d'ennemis lorsque ton score atteint ` 100 ` .
++ Fais apparaître plus d'ennemis lorsque ton score atteint `100` .
 
 ```blocks3
-    attendre jusqu'à <(score :: variables) = [100]>
+    attendre jusqu'à ce que <(score :: variables) = [100]>
 ```
