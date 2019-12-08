@@ -35,7 +35,7 @@ Si tu regardes les costumes de la chauve-souris, tu peux voir qu'il en a quatre 
 
 \--- task \---
 
-Utilise le bloc `costume suivant`{:class="block3looks"} pour faire battre les ailes de la chauve-souris lorsqu'il bouge.
+Utilise le bloc `costume suivant`{:class="block3looks"} pour faire battre les ailes de la chauve-souris lorsqu'elle bouge.
 
 \--- hints \---
 
