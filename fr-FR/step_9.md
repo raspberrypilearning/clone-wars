@@ -6,22 +6,22 @@ Pour rendre ton jeu un peu plus difficile, tu vas créer une chauve-souris qui j
 
 \--- task \---
 
-Ajoute une image-objet `Bat` et définis son style de rotation sur **gauche-droite**.
+Ajoute un sprite `Bat` et définis son style de rotation sur **gauche-droite**.
 
 \--- /task \---
 
 \--- task \---
 
-Fais `move`{: class = "block3motion"} le sprite`Bat` de gauche à droite en haut de la scène `pour toujours`{: class = "block3control"}.
+Fais `bouger`{:class="block3motion"} le sprite`Bat` de gauche à droite en haut de la scène `indéfiniment`{:class="block3control"}.
 
 ![sprite de chauve-souris](images/bat-sprite.png)
 
 ```blocks3
-lorsque le drapeau est cliqué sur
-définissez la taille sur (50)%
-pour toujours
-    déplacer (10) étapes
-    si sur le bord, rebondissez
+quand le drapeau est cliqué
+mettre la taille à (50) % de la taille initiale
+répéter indéfiniment
+    avancer de (10) pas
+    rebondir si le bord est atteint
 fin
 ```
 
@@ -35,13 +35,13 @@ Si tu regardes les costumes de la chauve-souris, tu peux voir qu'il en a quatre 
 
 \--- task \---
 
-Utilisez le `suivant costume`{: class = « block3looks »} bloc pour faire le rabat bat ses ailes en mouvement.
+Utilise le bloc `costume suivant`{:class="block3looks"} pour faire battre les ailes de la chauve-souris lorsqu'il bouge.
 
 \--- hints \---
 
 \--- hint \---
 
-Une fois que la chauve-souris a été déplacée, le costume suivant `devrait apparaître:`{: class = "block3looks"}, puis `attendez`{: class = "block3control"} pendant un court instant.
+Une fois que la chauve-souris a été déplacée, le `costume suivant` devrait apparaître {:class="block3looks"}, et ensuite `attendre`{:class="block3control"} pendant un court instant.
 
 \--- /hint \---
 
@@ -57,23 +57,23 @@ costume suivant
 
 \--- /hint \---
 
-\--- Indice \--- Votre code devrait ressembler à ceci:
+\--- hint \--- Ton code devrait ressembler à ceci:
 
 ```blocks3
-quand le drapeau cliqué sur
-taille définie à (50) %
-pour toujours
-déplacer (10) pas
-si sur le bord, rebondissez
+quand le drapeau est cliqué
+mettre la taille à (50) % de la taille initiale
+répéter indéfiniment
+avancer de (10) pas
+rebondir si le bord est atteint
 
-+ prochain costume
++ costume suivant
 + attendre (0.3) secondes
 fin
 ```
 
 \--- /hint \---
 
-\--- /astuces \---
+\--- /hints \---
 
 \--- /task \---
 
