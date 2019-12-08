@@ -29,7 +29,7 @@ N'oublie pas de tester ton code.
 
 \--- /task \---
 
-Si tu regardes les costumes de la chauve-souris, tu peux voir qu'il en a quatre différents:
+Si tu regardes les costumes de la chauve-souris, tu peux voir qu'il en a quatre différents :
 
 ![capture d'écran](images/invaders-bat-costume.png)
 
@@ -57,7 +57,7 @@ costume suivant
 
 \--- /hint \---
 
-\--- hint \--- Ton code devrait ressembler à ceci:
+\--- hint \--- Ton code devrait ressembler à ceci :
 
 ```blocks3
 quand le drapeau est cliqué
@@ -81,7 +81,7 @@ Maintenant, fais en sorte que la chauve-souris jette des oranges !
 
 \--- task \---
 
-Ajouter un sprite `Orange`de la bibliothèque Scratch.
+Ajouter un sprite `Orange` à partir de la bibliothèque Scratch.
 
 ![capture d'écran](images/invaders-orange.png)
 
@@ -89,35 +89,35 @@ Ajouter un sprite `Orange`de la bibliothèque Scratch.
 
 \--- task \---
 
-Ajoute du code à ta chauve-souris pour que ` quand le drapeau est cliqué ` {: class = "block3events"}, le `sprite de la ` chauve-souris ` attend ` {: class = "block3control"} ` pour toujours ` {: class = "block3control"} pour une ` durée aléatoire ` {: class = "block3operators"} entre ` 5 et 10 ` {: class = "block3operators"} secondes puis ` crée un clone ` {: class = "block3control"} du sprite de ` l´orange `.
+Ajoute du code à ta chauve-souris pour que `quand le drapeau est cliqué` {:class="block3events"}, le sprite de la `chauve-souris` `attend` {:class="block3control"} `indéfiniment` {:class="block3control"} pour une `durée aléatoire` {:class="block3operators"} entre `5 et 10` {:class="block3operators"} secondes puis `crée un clone` {:class="block3control"} du sprite de l'`orange`.
 
 ![sprite de chauve-souris](images/bat-sprite.png)
 
 ```blocks3
-quand le drapeau vert est cliqué
+quand le drapeau est cliqué
 répéter indéfiniment
-   attendre (choisir aléatoirement entre (5) et (10)) secondes
+   attendre (nombre aléatoire entre (5) et (10)) secondes
    créer un clone de (Orange v)
-terminer
+fin
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Ajoute du code a au sprite `d’orange` pour faire tomber chacun de ses clones, à partir du sprite de `chauve-souris` et descendre vers le bas de la scène.
+Ajoute du code au sprite `orange` pour faire tomber chacun de ses clones, à partir du sprite de `chauve-souris` et descendre vers le bas de la scène.
 
 ![sprite d´orange](images/orange-sprite.png)
 
 ```blocks3
-    quand le drapeau cliqué
+    quand le drapeau est cliqué
     cacher
 
-    quand je commence comme clone
+    quand je commence comme un clone
     aller à (Chauve-souris v)
     montrer
-    répéter jusqu'à <toucher (bord v)?
-        changer y par (-4)
+    répéter jusqu'à ce que <toucher (bord v)?
+        ajouter (-4) à y
     fin
     supprimer ce clone
 ```
@@ -126,7 +126,7 @@ Ajoute du code a au sprite `d’orange` pour faire tomber chacun de ses clones, 
 
 \--- task \---
 
-Ajoute plus de code au sprite `d´orange` afin que lorsque un clone `d´orange` touche le sprite `vaisseau spatial`, le clone disparaît également pour donner au joueur une chance de réinitialiser :
+Ajoute plus de code au sprite `orange` afin que lorsque un clone `orange` touche le sprite `Spaceship`, le clone disparaît également pour donner au joueur une chance de réinitialiser :
 
 ![sprite d´orange](images/orange-sprite.png)
 
