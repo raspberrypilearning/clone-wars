@@ -32,7 +32,7 @@ envoyer à tous (game over v) et attendre
 
 \--- task \---
 
-Ajoutez ce code à votre sprite `Game Over` pour qu’il apparaisse à la fin du jeu :
+Ajoutez ce code à ton sprite `Game Over` pour qu’il apparaisse à la fin du jeu :
 
 ![sprite de gameover](images/gameover-sprite.png)
 
