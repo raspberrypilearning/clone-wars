@@ -14,7 +14,7 @@ Dessine un autre costume de vaisseau spatial en explosion et appelle le nouveau 
 
 ![capture d'écran](images/invaders-spaceship-costumes.png)
 
-Si tu ne veux pas dessiner l'explosion, tu peux sélectionner le costume 'Sun' à partir de la bibliothèque Scratch, puis utiliser **l'outil Couleur** pour changer la couleur et l'apparence du costume.
+Si tu ne veux pas dessiner l'explosion, tu peux sélectionner le costume «Sun» à partir de la bibliothèque Scratch, puis utiliser **l'outil Couleur** pour changer la couleur et l'apparence du costume.
 
 ![capture d'écran](images/invaders-sun.png)
 
