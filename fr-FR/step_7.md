@@ -21,7 +21,7 @@ basculer sur le costume (hit v)
 
 \--- task \---
 
-Tous les `clones du sprite` Hippo recevront le message "hit", et tu peux leur demander de disparaître quand le vaisseau spatial est touché en ajoutant ce code au sprite `Hippo`:
+Tous les `clones du sprite` Hippo recevront le message "hit", et tu peux leur demander de disparaître quand le vaisseau spatial est touché en ajoutant ce code au sprite `Hippo` :
 
 ![sprite hippopotame](images/hippo-sprite.png)
 
