@@ -44,12 +44,12 @@ quand je reçois [game over v]
 montrer
 ```
 
-Parce que tu as utilisé un bloc `diffuser [fin de la partie!] et attendre` { : class = « blockevents »} sur votre scène, le sprite `Game Over` attendra après avoir été affiché, avant de terminer le jeu.
+Parce que tu as utilisé un bloc `envoyer à tous (game over) et attendre` {:class="blockevents"} sur ta scène, le sprite `Game Over` attendra après avoir été affiché, avant de terminer le jeu.
 
 \--- /task \---
 
 \--- task \---
 
-Teste ton jeu. Combien de points peux-tu marquer? Si le jeu est trop facile ou trop difficile, peux-tu penser à des moyens de l’améliorer?
+Teste ton jeu. Combien de points peux-tu marquer? Si le jeu est trop facile ou trop difficile, peux-tu penser à des moyens de l’améliorer ?
 
 \--- /task \---
