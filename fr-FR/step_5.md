@@ -46,7 +46,7 @@ Ajoute du code sur la scène pour créer un nouveau clone `Hippo` toutes les que
 
 \--- hint \---
 
-Voici les blocs que tu as besoin:
+Voici les blocs que tu as besoin :
 
 ```blocks3
 répéter indéfiniment
@@ -65,7 +65,7 @@ attendre () secondes
 
 \--- hint \---
 
-Voici à quoi ton code devrait ressembler:
+Voici à quoi ton code devrait ressembler :
 
 ![sprite Scène](images/stage-sprite.png)
 
@@ -120,7 +120,7 @@ Pour le moment, les hippopotames ne bougent pas.
 
 \--- task \---
 
-Chaque hippopotame doit se déplacer de manière aléatoire jusqu’à ce qu’il soit frappé par un éclair. Pour ce faire, attache ce code sous les blocs déjà présents dans le script de code du sprite `Hippo`:
+Chaque hippopotame doit se déplacer de manière aléatoire jusqu’à ce qu’il soit frappé par un éclair. Pour ce faire, attache ce code sous les blocs déjà présents dans le script de code du sprite `Hippo` :
 
 ```blocks3
 répéter jusqu'à ce que <touching (lightning v) ?>
