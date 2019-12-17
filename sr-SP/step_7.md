@@ -1,4 +1,4 @@
-## Hippos that disappear
+## Нилски коњи који нестају
 
 When the spaceship explodes, all the hippos should disappear so that players of the game can recover.
 
@@ -6,7 +6,7 @@ When the spaceship explodes, all the hippos should disappear so that players of 
 
 Add code to the spaceship sprite to make it `broadcast`{:class="block3events"} the message "hit" when the `spaceship touches a hippo`{:class="block3sensing"}.
 
-![rocket sprite](images/rocket-sprite.png)
+![лик ракете](images/rocket-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -23,7 +23,7 @@ switch costume to (hit v)
 
 All of the `Hippo` sprite clones will receive the "hit" message, and you can instruct them to disappear when the spaceship is hit by adding this code to the `Hippo` sprite:
 
-![hippo sprite](images/hippo-sprite.png)
+![лик нилског коња](images/hippo-sprite.png)
 
 ```blocks3
 when I receive [hit v]
