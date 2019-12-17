@@ -1,16 +1,16 @@
-## Challenge: improve your game
+## Изазов: Побољшај своју игру
 
 What improvements can you make to your game?
 
-Here are some ideas:
+Ево неколико идеја:
 
 + Add health packs that you can collect to gain extra lives.
 
-![слика екрана](images/invaders-aid.png)
+![снимак екрана](images/invaders-aid.png)
 
 + Add floating rocks that your spaceship must avoid.
 
-![слика екрана](images/invaders-rocks.png)
+![снимак екрана](images/invaders-rocks.png)
 
 + Make more enemies appear when your score gets to `100`.
 
