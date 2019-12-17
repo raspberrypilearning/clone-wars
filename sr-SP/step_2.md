@@ -1,4 +1,4 @@
-## Make a spaceship
+## Направи свемирски брод
 
 First make a spaceship that can defend the Earth!
 
@@ -6,23 +6,23 @@ First make a spaceship that can defend the Earth!
 
 Open the 'Clone wars' Scratch starter project.
 
-**Online:** open the starter project at [rpf.io/clone-wars-on](http://rpf.io/clone-wars-on){:target="_blank"}.
+**На мрежи:** Отвори почетни пројекат на [rpf.io/clone-wars-on](http://rpf.io/clone-wars-on){:target="_blank"}.
 
 Ако имаш Скреч налог, можеш да направиш копију тако што ћеш кликнути на **Преради**.
 
-**Offline:** download the starter project from [rpf.io/p/en/clone-wars-go](http://rpf.io/p/en/clone-wars-go), and then open it using the offline editor.
+**Ван мреже:** преузми почетни пројекат са [rpf.io/p/en/clone-wars-go](http://rpf.io/p/en/clone-wars-go){:target="_blank"}, а затим га отвори помоћу уређивача ван мреже.
 
 Ако је потребно да преузмеш и инсталираш Скреч уређивач ван мреже, можеш га пронаћи на [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
 
 \--- /task \---
 
-![starter project](images/starter-project.png)
+![почетни пројекат](images/starter-project.png)
 
 \--- task \---
 
 Add this code to the spaceship sprite to make the spaceship move left if the <kbd>left</kbd> arrow is pressed:
 
-![rocket sprite](images/rocket-sprite.png)
+![лик ракете](images/rocket-sprite.png)
 
 ```blocks3
     when flag clicked
@@ -67,7 +67,7 @@ change x by ( )
 
 Here is the code you need to add below the other code inside the `forever`{:class="block3control"} block:
 
-![rocket sprite](images/rocket-sprite.png)
+![лик ракете](images/rocket-sprite.png)
 
 ```blocks3
 if <key (right arrow v) pressed?> then
