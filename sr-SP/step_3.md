@@ -1,4 +1,4 @@
-## Lightning bolts
+## Муње
 
 Now you are going to give the spaceship the ability to fire lightning bolts!
 
@@ -16,7 +16,7 @@ When the game starts, the `Lightning` sprite should be hidden until the spaceshi
 
 Add this code to the `Lightning` sprite:
 
-![lightning sprite](images/lightning-sprite.png)
+![лик муње](images/lightning-sprite.png)
 
 ```blocks3
 when green flag clicked
@@ -31,7 +31,7 @@ At the moment, the lightning bolt is really big compared to the spaceship!
 
 Below the code that the `Lightning` sprite already has, add some blocks to make the sprite smaller and to turn it upside down.
 
-![lightning sprite](images/lightning-sprite.png)
+![лик муње](images/lightning-sprite.png)
 
 ```blocks3
 set size to (25) %
@@ -78,7 +78,7 @@ when flag clicked
 
 Here is what your new code should look like:
 
-![rocket sprite](images/rocket-sprite.png)
+![лик ракете](images/rocket-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -101,7 +101,7 @@ Whenever the game creates a `Lightning` sprite clone, the clone should appear an
 
 Add this code to the `Lightning` sprite so that clones of it move upwards until they touch the edge of the Stage, and then they get deleted.
 
-![lightning sprite](images/lightning-sprite.png)
+![лик муње](images/lightning-sprite.png)
 
 ```blocks3
     when I start as a clone
