@@ -3,7 +3,7 @@ hero_image: images/clone-wars.png
 theme: violet
 listed: true
 copyedit: true
-title: Clone wars
+title: Ратови клонова
 description: Create a game in which you have to save the Earth from space monsters
 version: 4.1.0
 last_tested: 2018-10-11
@@ -11,27 +11,27 @@ steps:
   - 
     title: Увод
   - 
-    title: Make a spaceship
+    title: Направи свемирски брод
   - 
-    title: Lightning bolts
+    title: Муње
   - 
     title: 'Challenge: improve the lightning'
     challenge: true
   - 
     title: Space-hippos
   - 
-    title: Spaceship explosion
+    title: Експлозија свемирског брода
   - 
     title: Hippos that disappear
   - 
-    title: 'Challenge: lives and score'
+    title: 'Изазов: Животи и резултат'
     challenge: true
   - 
     title: Space-bat
   - 
-    title: Game over
+    title: Крај игре
   - 
-    title: 'Challenge: improve your game'
+    title: 'Изазов: Побољшај своју игру'
     challenge: true
   - 
-    title: Шта је следеће?
+    title: Шта даље?
