@@ -36,7 +36,7 @@ delete this clone
 
 To check whether the new code works, click the green flag and make the spaceship collide with a hippo.
 
-![слика екрана](images/invaders-hippo-collide.png)
+![снимак екрана](images/invaders-hippo-collide.png)
 
 \--- /task \---
 
@@ -46,7 +46,7 @@ After the spaceship explodes, new `Hippo` clones appear, but the spaceship is st
 
 Add a `wait`{:class="block3control"} block at the end of the `Spaceship` sprite's code to create a small pause before hippos begin appearing again. Then add a `forever`{:class="block3control"} block around all of your code to make the code run repeatedly.
 
-![rocket sprite](images/rocket-sprite.png)
+![лик ракете](images/rocket-sprite.png)
 
 ```blocks3
 when flag clicked
