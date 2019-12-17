@@ -71,8 +71,8 @@
 
 このプロジェクトを印刷する必要がある場合は、 [印刷用バージョン](https://projects.raspberrypi.org/en/projects/clone-wars/print){:target="_ blank"}を使用してください。
 
-\--- /no-print \---
+印刷物はありません。
 
-You can find the [completed project here](http://rpf.io/p/en/clone-wars-get).
+完成したプロジェクトはこちらで見つけることができます。
 
 \--- /collapse \---
