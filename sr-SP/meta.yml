@@ -4,7 +4,7 @@ theme: violet
 listed: true
 copyedit: true
 title: Ратови клонова
-description: Create a game in which you have to save the Earth from space monsters
+description: Направи игру у којој треба да спасиш Земљу од свемирских чудовишта
 version: 4.1.0
 last_tested: 2018-10-11
 steps:
@@ -15,19 +15,19 @@ steps:
   - 
     title: Муње
   - 
-    title: 'Challenge: improve the lightning'
+    title: 'Изазов: Побољшај муње'
     challenge: true
   - 
-    title: Space-hippos
+    title: Свемирски нилски коњи
   - 
     title: Експлозија свемирског брода
   - 
-    title: Hippos that disappear
+    title: Нилски коњи који нестају
   - 
     title: 'Изазов: Животи и резултат'
     challenge: true
   - 
-    title: Space-bat
+    title: Свемирски шишмиш
   - 
     title: Крај игре
   - 
