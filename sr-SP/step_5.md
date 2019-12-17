@@ -1,4 +1,4 @@
-## Space-hippos
+## Свемирски нилски коњи
 
 Now you're going to add lots of flying hippos that try to destroy your spaceship.
 
@@ -6,7 +6,7 @@ Now you're going to add lots of flying hippos that try to destroy your spaceship
 
 Create a new sprite with the 'Hippo1' image in the Scratch library. Use the **shrink** tool to make the `Hippo` sprite a similar size to the `Spaceship` sprite.
 
-![слика екрана](images/invaders-hippo.png)
+![снимак екрана](images/invaders-hippo.png)
 
 \--- /task \---
 
@@ -22,7 +22,7 @@ Set the `Hippo` sprite's rotation style to **left-right**.
 
 Add some code to hide the `Hippo` sprite when the game starts.
 
-![hippo sprite](images/hippo-sprite.png)
+![лик нилског коња](images/hippo-sprite.png)
 
 ```blocks3
 when green flag clicked
@@ -64,9 +64,9 @@ wait () secs
 
 \--- hint \---
 
-This is what your code should look like:
+Овако би требао да изгледа твој код:
 
-![stage sprite](images/stage-sprite.png)
+![лик позорнице](images/stage-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -92,7 +92,7 @@ Create a new variable called `speed`{:class="block3variables"} that is for the `
 
 When you've done this correctly, the variable has the name of the sprite next to it, like this:
 
-![слика екрана](images/invaders-var-test.png)
+![снимак екрана](images/invaders-var-test.png)
 
 \--- /task \---
 
@@ -138,7 +138,7 @@ Test your code again. You should see a new hippo clone appear every few seconds,
 
 \--- no-print \---
 
-![слика екрана](images/hippo-clones.gif)
+![снимак екрана](images/hippo-clones.gif)
 
 \--- /no-print \---
 
