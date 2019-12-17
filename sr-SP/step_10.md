@@ -1,4 +1,4 @@
-## Game over
+## Крај игре
 
 Next, you're going to add a 'game over' message at the end of the game.
 
@@ -14,7 +14,7 @@ Your spaceship should start with three lives and lose a life whenever it touches
 
 Draw a new sprite called `Game Over` using the **text** tool.
 
-![слика екрана](images/invaders-game-over.png)
+![снимак екрана](images/invaders-game-over.png)
 
 \--- /task \---
 
@@ -22,7 +22,7 @@ Draw a new sprite called `Game Over` using the **text** tool.
 
 On the Stage, broadcast a `game over`{:class="block3events"} message just before the game ends.
 
-![gameover sprite](images/stage-sprite.png)
+![лик крај игре](images/stage-sprite.png)
 
 ```blocks3
 broadcast (game over v) and wait
@@ -34,7 +34,7 @@ broadcast (game over v) and wait
 
 Add this code to your `Game Over` sprite so that it shows at the end of the game:
 
-![gameover sprite](images/gameover-sprite.png)
+![лик крај игре](images/gameover-sprite.png)
 
 ```blocks3
 when flag clicked
