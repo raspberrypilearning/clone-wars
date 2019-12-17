@@ -25,7 +25,7 @@ Score as many points as you can by shooting flying space-hippos. If you get hit 
 
 \--- print-only \---
 
-![desc](images/showcase.png)
+![опис](images/showcase.png)
 
 \--- /print-only \---
 
@@ -65,7 +65,7 @@ Score as many points as you can by shooting flying space-hippos. If you get hit 
 
 * * *
 
-## title: Додатне напомене за наставнике
+## title: Додатне информације за наставнике
 
 \--- no-print \---
 
