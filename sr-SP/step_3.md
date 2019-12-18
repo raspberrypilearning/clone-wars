@@ -4,7 +4,7 @@ Now you are going to give the spaceship the ability to fire lightning bolts!
 
 \--- task \---
 
-Add the `Lightning` sprite from the Scratch library.
+Додај лик `Муње` из библиотеке Скреча.
 
 [[[generic-scratch3-sprite-from-library]]]
 
@@ -14,13 +14,13 @@ Add the `Lightning` sprite from the Scratch library.
 
 When the game starts, the `Lightning` sprite should be hidden until the spaceship fires its laser cannons.
 
-Add this code to the `Lightning` sprite:
+Додај овај код лику `Муње`:
 
 ![лик муње](images/lightning-sprite.png)
 
 ```blocks3
-when green flag clicked
-hide
+када је кликнуто на ⚑
+сакриј
 ```
 
 \--- /task \---
@@ -34,8 +34,8 @@ Below the code that the `Lightning` sprite already has, add some blocks to make 
 ![лик муње](images/lightning-sprite.png)
 
 ```blocks3
-set size to (25) %
-point in direction (-90)
+нека величина буде (25) %
+усмери се ка (-90)
 ```
 
 Now it looks like it fires pointy end–first out of the spaceship.
@@ -56,36 +56,36 @@ Add some new code to the `Spaceship` sprite to create a new clone of the lightni
 
 \--- hint \---
 
-Here are the blocks you need:
+Ево блокова кода који су ти потребни:
 
 ```blocks3
-if <> then
+ако је <> онда
 end
 
-forever
+понављај заувек
 end
 
-create clone of (Lightning v)
+направи дупликат од (Муња v)
 
 <key (space v) pressed?>
 
-when flag clicked
+када је кликнуто на ⚑
 ```
 
 \--- /hint \---
 
 \--- hint \---
 
-Here is what your new code should look like:
+Овако би требало да изгледа твој нови код:
 
 ![лик ракете](images/rocket-sprite.png)
 
 ```blocks3
-when flag clicked
-forever
-    if <key (space v) pressed?> then
-        create clone of (Lightning v)
-    end
+када је кликнуто на ⚑
+понављај заувек 
+  ако је <key (space v) pressed?> онда 
+    направи дупликат од (Муња v)
+  end
 end
 ```
 
@@ -104,13 +104,13 @@ Add this code to the `Lightning` sprite so that clones of it move upwards until 
 ![лик муње](images/lightning-sprite.png)
 
 ```blocks3
-    when I start as a clone
-    go to (Spaceship v)
-    show
-    repeat until <touching (edge v) ?>
-        change y by (10)
-    end
-    delete this clone
+    када се појавим као умножак
+иди до (Свемирски брод v)
+прикажи
+понављај до <touching (edge v) ?> 
+  промени y за (10)
+end
+обриши овај умножак
 ```
 
 \--- /task \---
