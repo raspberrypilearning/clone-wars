@@ -4,7 +4,7 @@ First make a spaceship that can defend the Earth!
 
 \--- task \---
 
-Open the 'Clone wars' Scratch starter project.
+Отвори Скреч почетни пројекат 'Ратови клонова'.
 
 **На мрежи:** Отвори почетни пројекат на [rpf.io/clone-wars-on](http://rpf.io/clone-wars-on){:target="_blank"}.
 
@@ -25,18 +25,18 @@ Add this code to the spaceship sprite to make the spaceship move left if the <kb
 ![лик ракете](images/rocket-sprite.png)
 
 ```blocks3
-    when flag clicked
-    forever
-        if <key (left arrow v) pressed?> then
-            change x by (-4)
-        end
-    end
+    када је кликнуто на ⚑
+понављај заувек 
+  ако је <key (left arrow v) pressed?> онда 
+    промени x за (-4)
+  end
+end
 ```
 
 The x-axis goes from the left side of the Stage to the right side. This means that the spaceship moves to the left when you subtract from the value of the spaceship sprite's `x` position. So this code block is the part that makes your spaceship move left:
 
 ```blocks3
-change x by (-4)
+промени x за (-4)
 ```
 
 \--- /task \---
@@ -58,7 +58,7 @@ Subtracting `4` from the spaceship's `x` position made it move left, so how coul
 You need the same code block, but with a different number:
 
 ```blocks3
-change x by ( )
+промени x за ()
 ```
 
 \--- /hint \---
@@ -70,8 +70,8 @@ Here is the code you need to add below the other code inside the `forever`{:clas
 ![лик ракете](images/rocket-sprite.png)
 
 ```blocks3
-if <key (right arrow v) pressed?> then
-    change x by (4)
+ако је <key (right arrow v) pressed?> онда 
+  промени x за (4)
 end
 ```
 
