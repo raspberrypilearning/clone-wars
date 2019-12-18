@@ -49,14 +49,14 @@ Add a `wait`{:class="block3control"} block at the end of the `Spaceship` sprite'
 ![лик ракете](images/rocket-sprite.png)
 
 ```blocks3
-when flag clicked
-forever
-switch costume to (normal v)
-wait until <touching (Hippo1 v)>?
-switch costume to (hit v)
-broadcast (hit v)
+када је кликнуто на ⚑
+понављај заувек 
+  замени костим са (нормалан v)
+  чекај док не <touching (Hippo1 v)>?
+  замени костим са (ударац v)
+  разгласи (ударац v)
 
-+ wait (1) seconds
++ чекај (1) секунду
 end
 ```
 
