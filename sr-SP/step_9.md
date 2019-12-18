@@ -17,11 +17,11 @@ Make the `Bat` sprite `move`{:class="block3motion"} from left to right at the to
 ![лик шишмиша](images/bat-sprite.png)
 
 ```blocks3
-when flag clicked
-set size to (50) %
-forever
-    move (10) steps
-    if on edge, bounce
+када је кликнуто на ⚑
+нека величина буде (50) %
+понављај заувек 
+  иди (10) корака
+  ако си на рубу, окрени се
 end
 ```
 
@@ -50,24 +50,24 @@ After the bat has moved, it should show the `next costume`{:class="block3looks"}
 You need to add these blocks to you code:
 
 ```blocks3
-wait (0.3) seconds
+чекај (0.3) секунду
 
-next costume
+следећи костим
 ```
 
 \--- /hint \---
 
-\--- hint \--- You code should look like this:
+\--- hint \--- Твој код би требао да изгледа овако:
 
 ```blocks3
-when flag clicked
-set size to (50) %
-forever
-move (10) steps
-if on edge, bounce
+када је кликнуто на ⚑
+нека величина буде (50) %
+понављај заувек 
+  иди (10) корака
+  ако си на рубу, окрени се
 
-+ next costume
-+ wait (0.3) seconds
++ следећи костим
++ чекај (0.3) секунду
 end
 ```
 
@@ -94,10 +94,10 @@ Add code to your bat so that `when the flag is clicked`{:class="block3events"}, 
 ![лик шишмиша](images/bat-sprite.png)
 
 ```blocks3
-when flag clicked
-forever
-    wait (pick random (5) to (10)) secs
-    create clone of (Orange v)
+када је кликнуто на ⚑
+понављај заувек 
+  чекај (случајан број од (5) до (10)) секунду
+  направи дупликат од (Наранџа v)
 end
 ```
 
@@ -110,16 +110,16 @@ Add code to the `Orange` to make each of its clone drop, starting from the `Bat`
 ![лик наранџе](images/orange-sprite.png)
 
 ```blocks3
-    when flag clicked
-    hide
+    када је кликнуто на ⚑
+сакриј
 
-    when I start as a clone
-    go to (Bat v)
-    show
-    repeat until <touching (edge v)?
-        change y by (-4)
-    end
-    delete this clone
+када се појавим као умножак
+иди до (Шишмиш v)
+прикажи
+понављај до <додирује ли (edge v)? 
+  промени y за (-4)
+end
+обриши овај умножак
 ```
 
 \--- /task \---
@@ -131,8 +131,8 @@ Add some more code to the `Orange` sprite so that when an `Orange` clone hits th
 ![лик наранџе](images/orange-sprite.png)
 
 ```blocks3
-    when I receive [hit v]
-    delete this clone
+    када примим [ударац v]
+обриши овај умножак
 ```
 
 \--- /task \---
@@ -144,7 +144,7 @@ Modify the code of your `Spaceship` sprite so that the sprite is "hit" when it t
 ![лик ракете](images/rocket-sprite.png)
 
 ```blocks3
-    wait until < <touching (Hippo1 v)?> or <touching (Orange v)?>>
+    чекај док не <<touching (Hippo1 v)?> или <touching (Orange v)?>>
 ```
 
 \--- /task \---
