@@ -25,7 +25,7 @@ On the Stage, broadcast a `game over`{:class="block3events"} message just before
 ![лик крај игре](images/stage-sprite.png)
 
 ```blocks3
-broadcast (game over v) and wait
+разгласи (Крај игре v) и чекај
 ```
 
 \--- /task \---
@@ -37,11 +37,11 @@ Add this code to your `Game Over` sprite so that it shows at the end of the game
 ![лик крај игре](images/gameover-sprite.png)
 
 ```blocks3
-when flag clicked
-hide
+када је кликнуто на ⚑
+сакриј
 
-when I receive [game over v]
-show
+када примим [Крај игре v]
+прикажи
 ```
 
 Because you've used a `broadcast (game over) and wait`{:class="block3events"} block on your Stage, the Stage will wait for the `Game Over` sprite to be displayed before ending the game.
