@@ -15,5 +15,5 @@ What improvements can you make to your game?
 + Make more enemies appear when your score gets to `100`.
 
 ```blocks3
-    wait until <(score :: variables) = [100]>
+    чекај док не <(резултат :: variables) = [100]>
 ```
