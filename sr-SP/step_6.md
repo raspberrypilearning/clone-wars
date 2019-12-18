@@ -27,10 +27,10 @@ Add some code to your `Spaceship` sprite so that it displays the 'normal' costum
 ![лик ракете](images/rocket-sprite.png)
 
 ```blocks3
-when flag clicked
-switch costume to (normal v)
-wait until <touching (Hippo1 v)>?
-switch costume to (hit v)
+када је кликнуто на ⚑
+замени костим са (нормалан v)
+чекај док не <touching (Hippo1 v)>?
+замени костим са (ударац v)
 ```
 
 \--- /task \---
