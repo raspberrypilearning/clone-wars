@@ -25,8 +25,8 @@ Add some code to hide the `Hippo` sprite when the game starts.
 ![лик нилског коња](images/hippo-sprite.png)
 
 ```blocks3
-when green flag clicked
-hide
+када је кликнуто на ⚑
+сакриј
 ```
 
 \--- /task \---
@@ -45,19 +45,19 @@ When the `green flag is clicked`{:class="block3events"}, `repeatedly`{:class="bl
 
 \--- hint \---
 
-Here are the blocks you need:
+Ево блокова кода који су ти потребни:
 
 ```blocks3
-forever
+понављај заувек
 end
 
-create clone of (Hippo1 v)
+направи дупликат од (Нилски коњ1 v)
 
-(pick random (2) to (4))
+(случајан број од (2) до (4))
 
-when flag clicked
+када је кликнуто на ⚑
 
-wait () secs
+чекај () секунду
 ```
 
 \--- /hint \---
@@ -69,10 +69,10 @@ wait () secs
 ![лик позорнице](images/stage-sprite.png)
 
 ```blocks3
-when flag clicked
-forever
-    wait (pick random (2) to (4)) secs
-    create clone of (Hippo1 v)
+када је кликнуто на ⚑
+понављај заувек 
+  чекај (случајан број од (2) до (4)) секунду
+  направи дупликат од (Нилски коњ1 v)
 end
 ```
 
@@ -101,10 +101,10 @@ When you've done this correctly, the variable has the name of the sprite next to
 When each `Hippo` clone starts, pick a random speed and starting place for it. Then show the clone on the screen.
 
 ```blocks3
-when I start as a clone
-set [speed v] to (pick random (2) to (4))
-go to x: (pick random (-220) to (220)) y: (150)
-show
+када се појавим као умножак
+нека [брзина v] буде (случајан број од (2) до (4))
+иди до x: (случајан број од (-220) до (220)) y: (150)
+прикажи
 ```
 
 \--- /task \---
@@ -122,12 +122,12 @@ At the moment the hippos don't move.
 Each hippo should move around randomly until it gets hit by a lightning bolt. To make that happen, attach this code below the blocks that are already in the `Hippo` sprite's code script:
 
 ```blocks3
-repeat until <touching (lightning v) ?>
-    move (speed :: variables) steps
-    turn right (pick random (-10) to (10)) degrees
-    if on edge, bounce
+понављај до <touching (lightning v) ?> 
+  иди (брзина :: variables) корака
+  окрет ↻ за (случајан број од (-10) до (10)) степени
+  ако си на рубу, окрени се
 end
-delete this clone
+обриши овај умножак
 ```
 
 \--- /task \---
