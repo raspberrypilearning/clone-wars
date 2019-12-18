@@ -9,12 +9,12 @@ Add code to the spaceship sprite to make it `broadcast`{:class="block3events"} t
 ![лик ракете](images/rocket-sprite.png)
 
 ```blocks3
-when flag clicked
-switch costume to (normal v)
-wait until <touching (Hippo1 v)>?
-switch costume to (hit v)
+када је кликнуто на ⚑
+замени костим са (нормалан v)
+чекај док не <touching (Hippo1 v)>?
+замени костим са (ударац v)
 
-+ broadcast (hit v)
++ разгласи (hit v)
 ```
 
 \--- /task \---
@@ -26,8 +26,8 @@ All of the `Hippo` sprite clones will receive the "hit" message, and you can ins
 ![лик нилског коња](images/hippo-sprite.png)
 
 ```blocks3
-when I receive [hit v]
-delete this clone
+када примим [ударац v]
+обриши овај умножак
 ```
 
 \--- /task \---
