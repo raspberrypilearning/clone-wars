@@ -8,7 +8,7 @@
 
 ![снимак екрана](images/invaders-aid.png)
 
-+ Add floating rocks that your spaceship must avoid.
++ Додај плутајуће стене које твој свемирски брод мора да избегава.
 
 ![снимак екрана](images/invaders-rocks.png)
 
