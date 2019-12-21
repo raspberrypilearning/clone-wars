@@ -1,6 +1,6 @@
 ## Експлозија свемирског брода
 
-When a hippo touches your spaceship, the spaceship should explode!
+Када нилски коњ додирне твој свемирски брод, свемирски брод би требао да експлодира!
 
 \--- task \---
 
