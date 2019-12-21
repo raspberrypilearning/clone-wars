@@ -25,7 +25,7 @@ Make the `Bat` sprite `move`{:class="block3motion"} from left to right at the to
 end
 ```
 
-Remember to test your code.
+Не заборави да испробаш свој код.
 
 \--- /task \---
 
