@@ -4,7 +4,7 @@
 
 \--- task \---
 
-Select the `Spaceship` sprite and rename its costume 'normal'.
+Одабери лик `Свемирски брод` и промени назив његовог костима у 'нормалан'.
 
 \--- /task \---
 
