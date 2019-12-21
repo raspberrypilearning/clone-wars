@@ -1,6 +1,6 @@
 ## Направи свемирски брод
 
-First make a spaceship that can defend the Earth!
+Прво направи свемирски брод који може да одбрани Земљу!
 
 \--- task \---
 
