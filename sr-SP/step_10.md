@@ -4,9 +4,9 @@ Next, you're going to add a 'game over' message at the end of the game.
 
 \--- task \---
 
-If you haven't already, create a new variable called `lives`{:class="block3variables"}.
+Ако већ ниси, креирај нову променљиву која ће се звати `животи`{:class="block3variables"}.
 
-Your spaceship should start with three lives and lose a life whenever it touches a hippo or an orange. Your game should stop when the `lives`{:class="block3variables"} run out.
+Твој свемирски брод би требао да почне са три живота и изгуби живот сваки пут када дотакне нилског коња или наранџу. Твоја игра би требала да се заустави када понестане `животи`{:class="block3variables"}.
 
 \--- /task \---
 
