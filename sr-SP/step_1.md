@@ -6,7 +6,7 @@
 
 ## Увод
 
-In this project you will learn how to create a game in which you have to save the Earth from space monsters.
+У овом пројекту научићеш како да направиш игру у којој треба да спасиш Земљу од свемирских чудовишта.
 
 ### Шта ћеш направити
 
