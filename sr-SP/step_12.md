@@ -15,6 +15,6 @@
 
 \--- print-only \---
 
-You'll use the arrow keys to move your character around in the world. ![showcase.png](images/create-showcase.png)
+Користи тастере са стрелицама за кретање твог лика по свету. ![showcase.png](images/create-showcase.png)
 
 \--- /print-only \---
