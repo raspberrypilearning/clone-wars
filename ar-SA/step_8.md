@@ -1,7 +1,7 @@
 ## التحدي: المحاولات و النتيجة
 
-At the moment, you can play the game forever, but it doesn't count how many hippos you shoot or how many times your spaceship explodes.
+في الوقت الحالي، يمكنك لعب اللعبة إلى الأبد، لكنها لا تحسب عدد أفراس النهر التي تطلق عليها أو عدد المرات التي تنفجر فيها سفينة الفضاء.
 
-Can you add `lives`{:class="block3variables"}, a `score`{:class="block3variables"}, or even a `highscore`{:class="block3variables"} to your game?
+هل يمكنك إضافة `محاولات`{:class="blockdata"} أو `نتيجة`{:class="blockdata"} أو حتى `أعلى نتيجة`{:class="blockdata"} إلى لعبتك؟
 
 [[[generic-scratch3-high-score]]]
