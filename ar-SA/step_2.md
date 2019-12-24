@@ -16,13 +16,13 @@
 
 \--- /task \---
 
-![starter project](images/starter-project.png)
+![مشروع البداية](images/starter-project.png)
 
 \--- task \---
 
-أضف هذا الرمز إلى كائن سفينة الفضاء لجعلها تتحرك يسارًا إذا كان السهم المضغوط هو <kbd>يسار</kbd>:
+أضف هذا الرمز إلى كائن سفينة الفضاء لجعلها تتحرك يسارًا إذا كان السهم المضغوط هو <kbd>اليسار</kbd>:
 
-![rocket sprite](images/rocket-sprite.png)
+![كائن الصاروخ](images/rocket-sprite.png)
 
 ```blocks3
     عند نقر ⚑
@@ -33,7 +33,7 @@
 end
 ```
 
-ينتقل المحور السيني من الجانب الأيسر من المنصة إلى الجانب الأيمن. هذا يعني أن سفينة الفضاء تنتقل إلى اليسار عندما تطرح من قيمة المحور `س` لسفينة الفضاء. So this code block is the part that makes your spaceship move left:
+ينتقل المحور السيني من الجانب الأيسر من المنصة إلى الجانب الأيمن. هذا يعني أن سفينة الفضاء تنتقل إلى اليسار عندما تطرح من قيمة المحور `س` لسفينة الفضاء. هذه التعليمات البرمجية هي الجزء الذي يجعل سفينة الفضاء خاصتك تتحرك إلى اليسار:
 
 ```blocks3
 غيِّر الموضع س بمقدار (-4)
@@ -43,19 +43,19 @@ end
 
 \--- task \---
 
-Add some more code inside the `forever`{:class="block3control"} block to make your spaceship move to the right if the <kbd>right</kbd> arrow key is pressed.
+أضف بعض التعليمات البرمجية الأخرى داخل لبنة `كرِّر باستمرار`{:class="blockcontrol"} لتجعل سفينة الفضاء تتحرك إلى اليمين عند الضغط على مفتاح سهم <kbd>اليمين</kbd>.
 
 \--- hints \---
 
 \--- hint \---
 
-Subtracting `4` from the spaceship's `x` position made it move left, so how could you make the spaceship move right by `4` instead?
+طرح `4` من موضع سفينة الفضاء بالمحور `س` يجعلها تتحرك لليسار، فكيف يمكن أن تجعل سفينة الفضاء تتحرك إلى اليمين بمقدار `4` بدلاً عن اليسار؟
 
 \--- hint/ \---
 
 \--- hint \---
 
-You need the same code block, but with a different number:
+أنت بحاجة إلى نفس المقاطع البرمجية، لكن برقم مختلف:
 
 ```blocks3
 غيِّر الموضع س بمقدار ()
@@ -65,13 +65,13 @@ You need the same code block, but with a different number:
 
 \--- hint \---
 
-Here is the code you need to add below the other code inside the `forever`{:class="block3control"} block:
+هذه هي التعليمة البرمجية التي ستحتاج إلى إضافتها أسفل التعليمات البرمجية الأخرى داخل لبنة `كرِّر باستمرار`{:class="blockcontrol"}:
 
-![rocket sprite](images/rocket-sprite.png)
+![كائن الصاروخ](images/rocket-sprite.png)
 
 ```blocks3
-if <key (right arrow v) pressed?> then
-    change x by (4)
+إذا <key (right arrow v) pressed?> عندها
+  غيِّر الموضع س بمقدار (4)
 end
 ```
 
@@ -83,6 +83,6 @@ end
 
 \--- task \---
 
-Test your project by clicking the green flag. Can you press the arrow keys to make your spaceship move left and right?
+اختبر المشروع الخاص بك عن طريق النقر على العلم الأخضر. هل يمكنك الضغط على مفاتيح الأسهم لجعل سفينة الفضاء الخاصة بك تتحرك باتجاه اليسار واليمين؟
 
 \--- /task \---
