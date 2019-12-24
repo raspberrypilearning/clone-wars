@@ -1,16 +1,16 @@
 ## إنشاء سفينة فضاء
 
-First make a spaceship that can defend the Earth!
+أولاً قم بعمل مركبة فضائية يمكنها الدفاع عن الأرض!
 
 \--- task \---
 
-Open the 'Clone wars' Scratch starter project.
+افتح المشروع المبدئي "حرب العوالم".
 
 **بالاتصال بالانترنت**: افتح المشروع المبدئي من هنا [rpf.io/clone-wars-on](http://rpf.io/clone-wars-on){:target="_blank"}.
 
 اذا كنت تملك حساب على منصة السكراتش (Scratch) فيمكنك عمل نسخة بالضغط على **Remix**.
 
-**Offline:** download the starter project from [rpf.io/p/en/clone-wars-go](http://rpf.io/p/en/clone-wars-go), and then open it using the offline editor.
+**بدون اتصال انترنت** حمّل المشروع المبدئي من [rpf.io/p/en/clone-wars-go](http://rpf.io/p/en/clone-wars-go)، ثم افتحه باستخدام محرر سكراتش بدون اتصال انترنيت.
 
 اذا تحتاج تنزيل وتنصيب برنامج السكراتش Scratch على جهازك الشخصي، ستجده في [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
 
@@ -20,7 +20,7 @@ Open the 'Clone wars' Scratch starter project.
 
 \--- task \---
 
-Add this code to the spaceship sprite to make the spaceship move left if the <kbd>left</kbd> arrow is pressed:
+أضف هذا الرمز إلى كائن سفينة الفضاء لجعلها تتحرك يسارًا إذا كان السهم المضغوط هو <kbd>يسار</kbd>:
 
 ![rocket sprite](images/rocket-sprite.png)
 
@@ -33,7 +33,7 @@ Add this code to the spaceship sprite to make the spaceship move left if the <kb
 end
 ```
 
-The x-axis goes from the left side of the Stage to the right side. This means that the spaceship moves to the left when you subtract from the value of the spaceship sprite's `x` position. So this code block is the part that makes your spaceship move left:
+ينتقل المحور السيني من الجانب الأيسر من المنصة إلى الجانب الأيمن. هذا يعني أن سفينة الفضاء تنتقل إلى اليسار عندما تطرح من قيمة المحور `س` لسفينة الفضاء. So this code block is the part that makes your spaceship move left:
 
 ```blocks3
 غيِّر الموضع س بمقدار (-4)
