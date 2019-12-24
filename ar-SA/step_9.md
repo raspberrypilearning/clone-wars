@@ -2,7 +2,7 @@
 
 لزيادة مستوى صعوبة اللعبة، لننشئ خفاش يرمي برتقالًا على سفينة الفضاء.
 
-![a bat throwing an orange at the spaceship](images/bat-oranges.png)
+![خفاش يرمي برتقالة على سفينة الفضاء](images/bat-oranges.png)
 
 \--- task \---
 
@@ -14,7 +14,7 @@
 
 اجعل الكائن `Bat` `يتحرك`{:class="blockmotion"} من جانب إلى آخر أعلى المنصة ضمن حلقة `كرِّر باستمرار`{:class="blockcontrol"}.
 
-![bat sprite](images/bat-sprite.png)
+![كائن الخفاش](images/bat-sprite.png)
 
 ```blocks3
 عند نقر ⚑
@@ -91,7 +91,7 @@ end
 
 أضف رمزًا إلى خفاشك بحيث ` عند النقر على العلم ` {: class = "block3events"}، فإن كائن `الخفاش` ` إلى الأبد ` {: class = "block3control"} ` ينتظر ` {: class = "block3control"} فترة زمنية عشوائية ` ` {: class = "block3operators"}، بين ` ٥ إلى ١٠ ` {: class = "block3operators"} ثانية، ثم ` ينشيء نسخة ` {: class = "block3control"} من كائن ` البرتقالة `.
 
-![bat sprite](images/bat-sprite.png)
+![كائن الخفاش](images/bat-sprite.png)
 
 ```blocks3
 عند نقر ⚑
@@ -107,7 +107,7 @@ end
 
 أضف التعليمات البرمجية إلى كائن ` البرتقالة ` لجعل كل من نسخة تسقط ، بدءا من كائن ` الخفاش ` نحو أسفل المنصة.
 
-![orange sprite](images/orange-sprite.png)
+![كائن البرتقالة](images/orange-sprite.png)
 
 ```blocks3
     عند نقر ⚑
@@ -128,7 +128,7 @@ end
 
 أضف بعض التعليمات البرمجية الأخرى إلى كائن البرتقالة `Orange` بحيث عندما تصطدم `برتقالة` بكائن سفينة الفضاء `Spaceship`، يختفي النسخة هي الآخرى لتعطي اللاعب فرصة لاستعادة قوته:
 
-![orange sprite](images/orange-sprite.png)
+![كائن البرتقالة](images/orange-sprite.png)
 
 ```blocks3
     عندما تستقبل [hit v]
@@ -141,7 +141,7 @@ end
 
 ستحتاج أيضًا إلى تعديل التعليمة البرمجية في الكائن `Spaceship` بحيث يصطدم عندما يلامس كائن `Hippo` أو كائن `Orange`:
 
-![rocket sprite](images/rocket-sprite.png)
+![كائن الصاروخ](images/rocket-sprite.png)
 
 ```blocks3
     انتظر حتى <<touching (Hippo1 v)?> أو<touching (Orange v)?>>
@@ -151,6 +151,6 @@ end
 
 \--- task \---
 
-Test your game. What happens if the spaceship gets hit by a falling orange?
+اختبر لعبتك. ماذا سيحدث إذا اصطدمت السفينة ببرتقالة ساقطة؟
 
 \--- /task \---
