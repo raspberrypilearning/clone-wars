@@ -1,10 +1,10 @@
 ## إخفاء أفراس الفضاء
 
-When the spaceship explodes, all the hippos should disappear so that players of the game can recover.
+عندما تنفجر سفينة الفضاء، يجب أن تختفي كل الأفراس لإعطاء اللاعب فرصة لاستعادة قوته.
 
 \--- task \---
 
-Add code to the spaceship sprite to make it `broadcast`{:class="block3events"} the message "hit" when the `spaceship touches a hippo`{:class="block3sensing"}.
+أضف تعليمات برمجية إلى كائن سفينة الفضاء لجعلها ` تبث ` {:class="block3events"} الرسالة "اصطدام" عندما تلمس سفينة الفضاء ` فرس النهر `{:class="block3sensing"}.
 
 ![rocket sprite](images/rocket-sprite.png)
 
