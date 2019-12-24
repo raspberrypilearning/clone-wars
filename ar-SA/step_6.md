@@ -1,20 +1,20 @@
 ## انفجار سفينة الفضاء
 
-When a hippo touches your spaceship, the spaceship should explode!
+عندما يلمس فرس النهر سفينة الفضاء، يجب أن تنفجر السفينة!
 
 \--- task \---
 
-Select the `Spaceship` sprite and rename its costume 'normal'.
+حدِّد كائن `Spaceship` وأعد تسمية مظهره إلى 'عادي'.
 
 \---/task--
 
 \--- task \---
 
-Draw another costume of an exploding spaceship, and call the new costume 'hit'.
+ارسم زيًا آخر لسفينة فضائية تنفجر، واستدعِ الزي الجديد "ضرب".
 
 ![لقطة الشاشة](images/invaders-spaceship-costumes.png)
 
-If you don't want to draw the explosion, you can select the 'Sun' costume from the Scratch library, and then use the **Color a shape** tool to change the costume's colour and face.
+أو إذا كنت لا تريد أن ترسم مظهر الانفجار، يمكنك أن تختار زي 'Sun' من مكتبة سكراتش، وتستخدم أداة **تلوين الشكل** لتغيير لونه.
 
 ![لقطة الشاشة](images/invaders-sun.png)
 
