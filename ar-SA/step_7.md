@@ -6,24 +6,24 @@
 
 أضف تعليمات برمجية إلى كائن سفينة الفضاء لجعلها ` تبث ` {:class="block3events"} الرسالة "اصطدام" عندما تلمس سفينة الفضاء ` فرس النهر `{:class="block3sensing"}.
 
-![rocket sprite](images/rocket-sprite.png)
+![كائن الصاروخ](images/rocket-sprite.png)
 
 ```blocks3
-when flag clicked
-switch costume to (normal v)
-wait until <touching (Hippo1 v)>?
-switch costume to (hit v)
+عند نقر ⚑
+غيِّر المظهر إلى (normal v)
+انتظر حتى <touching (Hippo1 v)>
+غيِّر المظهر إلى (hit v)
 
-+ broadcast (hit v)
++ بث (hit v)
 ```
 
 \---/task--
 
 \--- task \---
 
-All of the `Hippo` sprite clones will receive the "hit" message, and you can instruct them to disappear when the spaceship is hit by adding this code to the `Hippo` sprite:
+كل نسخ كائنات ` فرس النهر ` ستتلقى رسالة "اصطدام" ، ويمكنك إرشادهم بالاختفاء عند إصابة سفينة الفضاء بإضافة هذه الكود إلى كائن ` فرس النهر `:
 
-![hippo sprite](images/hippo-sprite.png)
+![كائن فرس النهر](images/hippo-sprite.png)
 
 ```blocks3
 عندما تستقبل [hit v]
@@ -34,29 +34,28 @@ All of the `Hippo` sprite clones will receive the "hit" message, and you can ins
 
 \--- task \---
 
-To check whether the new code works, click the green flag and make the spaceship collide with a hippo.
+لمعرفة ما إذا كان الكود الجديد يعمل أم لا، انقر فوق العلم الأخضر واجعل سفينة الفضاء تصطدم بفرس النهر.
 
 ![لقطة الشاشة](images/invaders-hippo-collide.png)
 
 \--- /task \---
 
-After the spaceship explodes, new `Hippo` clones appear, but the spaceship is still exploded! The spaceship needs to reset itself after being hit.
+بعد انفجار سفينة الفضاء، فإن نسخة جديدة من كائن `فرس النهر` تظهر، لكن سفينة الفضاء ما زالت تنفجر! سفينة الفضاء تحتاج إلى إعادة ضبط نفسها بعد أن تضرب.
 
 \--- task \---
 
-Add a `wait`{:class="block3control"} block at the end of the `Spaceship` sprite's code to create a small pause before hippos begin appearing again. Then add a `forever`{:class="block3control"} block around all of your code to make the code run repeatedly.
+أضف كتلة ` انتظر ` {: class = "block3control"} في نهاية التعليمات البرمجية لكائن` Spaceship ` لإنشاء وقفة صغيرة قبل أن تبدأ فرس النهر بالظهور مرة أخرى. ثم أضف لبنة ` كرر باستمرار ` {: class = "block3control"} حول جميع التعليمات البرمجية الخاصة بك لتشغيل الكود بشكل متكرر.
 
-![rocket sprite](images/rocket-sprite.png)
+![كائن الصاروخ](images/rocket-sprite.png)
 
 ```blocks3
-when flag clicked
-forever
-switch costume to (normal v)
-wait until <touching (Hippo1 v)>?
-switch costume to (hit v)
-broadcast (hit v)
-
-+ wait (1) seconds
+عند نقر ⚑
+كرِّر باستمرار 
+ غيِّر المظهر إلى (normal v)
+ انتظر حتى <touching (Hippo1 v)>
+ غيِّر المظهر إلى (hit v)
+ بث (hit v)
+ + انتظر (1) ثانية
 end
 ```
 
