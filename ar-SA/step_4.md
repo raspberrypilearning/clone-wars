@@ -1,3 +1,3 @@
 ## صواعق برقية
 
-What happens if you hold down the <kbd>space</kbd> key? Can you use a `wait`{:class="block3control"} block to fix this?
+ماذا يحدث إذا ضغطت مطولًا على مفتاح <kbd>المسافة</kbd>؟ هل يمكنك أن تستخدم لبنة `انتظر`{:class="blockcontrol"} لتنظيم ذلك؟
