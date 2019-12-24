@@ -1,53 +1,53 @@
 ## انتهت اللعبة
 
-To make your game a bit harder, you are going to create a bat that throws oranges at the spaceship.
+لزيادة مستوى صعوبة اللعبة، لننشئ خفاش يرمي برتقالًا على سفينة الفضاء.
 
 ![a bat throwing an orange at the spaceship](images/bat-oranges.png)
 
 \--- task \---
 
-Add a `Bat` sprite and set its rotation style to **left–right**.
+أضف كائن `Bat` وعيِّن أسلوب دورانه إلى **يسار-يمين** فقط.
 
 \---/task--
 
 \--- task \---
 
-Make the `Bat` sprite `move`{:class="block3motion"} from left to right at the top of the Stage `forever`{:class="block3control"}.
+اجعل الكائن `Bat` `يتحرك`{:class="blockmotion"} من جانب إلى آخر أعلى المنصة ضمن حلقة `كرِّر باستمرار`{:class="blockcontrol"}.
 
 ![bat sprite](images/bat-sprite.png)
 
 ```blocks3
-when flag clicked
-set size to (50) %
-forever
-    move (10) steps
-    if on edge, bounce
+عند نقر ⚑
+اجعل الحجم مساويًا (50) ٪
+كرِّر باستمرار 
+  تحرك (10) خطوة
+  ارتد إذا كنت عند الحافة
 end
 ```
 
-Remember to test your code.
+تذكر أن تختبر تعليماتك البرمجية.
 
 \---/task\---
 
-If you look at the bat's costumes, you can see that it has four different ones:
+إذا نظرتَ إلى مظاهر الخفاش، فستجد انه لديه أربع مظاهر مختلفة:
 
 ![لقطة الشاشة](images/invaders-bat-costume.png)
 
 \--- task \---
 
-Use the `next costume`{:class="block3looks"} block to make the bat flap its wings as it moves.
+استخدم لبنة `المظهر التالي`{:class="blocklooks"} لتجعل الخفاش يضرب بجناحيه أثناء تحركه.
 
 \--- hints \---
 
 \--- hint \---
 
-After the bat has moved, it should show the `next costume`{:class="block3looks"} and then `wait`{:class="block3control"} for a short time.
+بعد أن يتحرك الخفاش، يجب أن يظهر `المظهر التالي`{:class="blocklooks"} ثم `ينتظر`{:class="blockcontrol"} لفترة قصيرة.
 
 \--- hint/ \---
 
 \--- hint \---
 
-You need to add these blocks to you code:
+تحتاج إلى إضافة هذه الكتل للكود الخاصة بك:
 
 ```blocks3
 wait (0.3) seconds
