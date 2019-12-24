@@ -1,6 +1,6 @@
 ## صواعق برقية
 
-Now you are going to give the spaceship the ability to fire lightning bolts!
+الآن سوف نعطي سفينة الفضاء القدرة على إطلاق صواعق برقية!
 
 \--- task \---
 
@@ -12,9 +12,9 @@ Now you are going to give the spaceship the ability to fire lightning bolts!
 
 \--- task \---
 
-When the game starts, the `Lightning` sprite should be hidden until the spaceship fires its laser cannons.
+عندما تبدأ اللعبة ، يجب إخفاء كائن ` البرق ` الى أن تطلق سفينة الفضاء مدافع الليزر.
 
-Add this code to the `Lightning` sprite:
+أضف هذه التعليمات البرمجية إلى الكائن ` Lightning `:
 
 ![lightning sprite](images/lightning-sprite.png)
 
@@ -25,26 +25,26 @@ Add this code to the `Lightning` sprite:
 
 \---/task\---
 
-At the moment, the lightning bolt is really big compared to the spaceship!
+في الوقت الحالي، صاعقة البرق كبيرة جدًا مقارنة بسفينة الفضاء!
 
 \--- task \---
 
-Below the code that the `Lightning` sprite already has, add some blocks to make the sprite smaller and to turn it upside down.
+أدناه التعليمات البرمجية موجودة بالفعل في كائن ` Lightning `، أضف بعض الكتل لجعل الكائن أصغر وتحويله رأسا على عقب.
 
 ![lightning sprite](images/lightning-sprite.png)
 
 ```blocks3
-set size to (25) %
-point in direction (-90)
+اجعل الحجم مساوياً (25) %
+اتجه نحو الاتجاه (-90 v)
 ```
 
-Now it looks like it fires pointy end–first out of the spaceship.
+الآن يبدو أنها تطلق نهاية مدببة - أولاً من سفينة الفضاء.
 
 \--- /task \---
 
 \--- task \---
 
-Add some new code to the `Spaceship` sprite to create a new clone of the lightning bolt if the <kbd>space</kbd> key is pressed.
+أضف بعض التعليمات البرمجية الجديدة لتجعل كائن `Spaceship` يُطلق صاعقة برقية جديدة في أي وقت يتم فيه الضغط على مفتاح <kbd>المسافة</kbd>.
 
 \--- hints \---
 
