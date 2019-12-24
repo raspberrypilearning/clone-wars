@@ -12,7 +12,7 @@
 
 \--- no-print \---
 
-Click the green flag in the example game below to start, and then press the <kbd>left</kbd> and <kbd>right</kbd> arrow keys to move the spaceship, and the <kbd>space</kbd> key to shoot.
+انقر على العلم الأخضر الموجود في مثال اللعبة أدناه للبدء، ثم اضغط على مفتاحَي الاسهم <kbd>اليسار</kbd> و <kbd>اليمين</kbd> لتحريك سفينة الفضاء، واضغط على مفتاح <kbd>المسافة</kbd> لإطلاق النيران.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/276887163/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -21,11 +21,11 @@ Click the green flag in the example game below to start, and then press the <kbd
 
 \--- /no-print \---
 
-Score as many points as you can by shooting flying space-hippos. If you get hit by a hippo or by an orange dropped by the bats, you lose a life.
+أحرز أكبر عدد ممكن من النقاط بقتل أفراس النهر الفضائية الطائرة. وستخسر محاولة إذا اصطدمت سفينتك بفرس النهر أو سقط عليها البرتقال الذي تلقيه خفافيش الفاكهة.
 
 \--- print-only \---
 
-![desc](images/showcase.png)
+![تنازلي](images/showcase.png)
 
 \--- /print-only \---
 
@@ -45,7 +45,7 @@ Score as many points as you can by shooting flying space-hippos. If you get hit 
 
 ### للتحميل
 
-[Find the downloads here](http://rpf.io/p/en/clone-wars-go).
+[ابحث عن الملفات لتحميلها هنا](http://rpf.io/p/en/clone-wars-go).
 
 \--- /collapse \---
 
@@ -55,9 +55,9 @@ Score as many points as you can by shooting flying space-hippos. If you get hit 
 
 ## title: ما الذي ستتعلمه
 
-+ How to make sprites move using keyboard input
-+ How to clone sprites to make copies of them
-+ How to use 'broadcast' and 'receive blocks' to send messages
++ كيفية جعل الكائنات تتحرك باستخدام مدخلات لوحة المفاتيح
++ كيفية استنساخ الكائنات لعمل نسخ منها
++ كيفية استخدام "البث" و "تلقي الكتل" لإرسال الرسائل
 
 \--- /collapse \---
 
