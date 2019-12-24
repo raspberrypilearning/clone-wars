@@ -12,7 +12,7 @@
 
 \--- task \---
 
-Set the `Hippo` sprite's rotation style to **left-right**.
+عيِّن أسلوب الدوران للكائن `Hippo` إلى **يمين- يسار **فقط.
 
 [[[generic-scratch3-sprite-rotation-style]]]
 
@@ -22,7 +22,7 @@ Set the `Hippo` sprite's rotation style to **left-right**.
 
 أضف بعض التعليمات البرمجية لإخفاء الكائن `Hippo` عندما تبدأ اللعبة.
 
-![hippo sprite](images/hippo-sprite.png)
+![كائن فرس النهر](images/hippo-sprite.png)
 
 ```blocks3
 عند نقر ⚑
@@ -39,7 +39,7 @@ Set the `Hippo` sprite's rotation style to **left-right**.
 
 \--- hint \---
 
-When the `green flag is clicked`{:class="block3events"}, `repeatedly`{:class="block3control"} `wait`{:class="block3control"} `between 2 and 4 seconds`{:class="block3operators"} and then `create a clone of the Hippo sprite`{:class="block3control"}.
+عند `النقر فوق العلم الأخضر`{:class="block3events"}, `بإستمرار` {:class="block3control"} ` إنتظر` {:class="block3control"} ` بين ٢ و ٤ ثواني` {:class="block3operators"} وبعدها `أنشيء نسخة من كائن فرس النهر` {:class="block3control"}.
 
 \--- hint/ \---
 
@@ -48,16 +48,16 @@ When the `green flag is clicked`{:class="block3events"}, `repeatedly`{:class="bl
 إليك الكتل التي تحتاجها:
 
 ```blocks3
-forever
+كرِّر باستمرار
 end
 
-create clone of (Hippo1 v)
+أنشئ نسخة من (Hippo1 v)
 
-(pick random (2) to (4))
+(عدد عشوائي بين (2) و (4))
 
-when flag clicked
+عند نقر ⚑
 
-wait () secs
+انتظر () ثانية
 ```
 
 \--- hint/ \---
@@ -69,10 +69,10 @@ wait () secs
 ![كائن مسرح العمل](images/stage-sprite.png)
 
 ```blocks3
-when flag clicked
-forever
-    wait (pick random (2) to (4)) secs
-    create clone of (Hippo1 v)
+عند نقر ⚑
+كرِّر باستمرار 
+  انتظر (عدد عشوائي بين (2) و (4)) ثانية
+  أنشئ نسخة من (Hippo1 v)
 end
 ```
 
@@ -82,15 +82,15 @@ end
 
 \--- /task \---
 
-Each new hippo clone should appear at a random `x` position, and every clone should have a random speed.
+يجب أن يظهر كل فرس جديد عند موقع `س` عشوائي، ويجب أن يكون لكل فرس سرعة عشوائية.
 
 \--- task \---
 
-Create a new variable called `speed`{:class="block3variables"} that is for the `Hippo` sprite only.
+أنشئ متغيرًا جديدًا يُسمى `السرعة`{:class="blockdata"} بحيث يكون هذا المتغير للكائن `Hippo` فقط.
 
 [[[generic-scratch3-add-variable]]]
 
-When you've done this correctly, the variable has the name of the sprite next to it, like this:
+ستعلم أنك قمتَ بذلك على الوجه الصحيح عندما ترى اسم الكائن بجوار المتغير، كما هو موضح أدناه:
 
 ![لقطة الشاشة](images/invaders-var-test.png)
 
@@ -98,7 +98,7 @@ When you've done this correctly, the variable has the name of the sprite next to
 
 \--- task \---
 
-When each `Hippo` clone starts, pick a random speed and starting place for it. Then show the clone on the screen.
+عندما تبدأ كل نسخة من كائن `الفرس`، اختر سرعة وموقع بدء عشوائيَين. ثم أظهرها على الشاشة.
 
 ```blocks3
 عندما تبدأ نسخة مني
@@ -111,30 +111,30 @@ When each `Hippo` clone starts, pick a random speed and starting place for it. T
 
 \--- task \---
 
-Test your code. Does a new hippo appear every few seconds?
+اختبر التعليمات البرمجية الخاصة بك. هل يظهر فرس النهر الجديد كل بضع ثوان؟
 
 \--- /task \---
 
-At the moment the hippos don't move.
+في هذه اللحظة لا يتحرك أفراس النهر.
 
 \--- task \---
 
-Each hippo should move around randomly until it gets hit by a lightning bolt. To make that happen, attach this code below the blocks that are already in the `Hippo` sprite's code script:
+يجب أن يتحرك كل فرس النهر بشكل عشوائي حتى تصطدم به صاعقة البرق. لتحقيق ذلك، قم بإرفاق هذه التعليمات البرمجية أسفل الكتل الموجودة بالفعل في النص البرمجي للكائن ` Hippo `:
 
 ```blocks3
-repeat until <touching (lightning v) ?>
-    move (speed :: variables) steps
-    turn right (pick random (-10) to (10)) degrees
-    if on edge, bounce
+كرِّر حتى <touching (lightning v) ?> 
+  تحرك (speed :: variables) خطوة
+  استدر ↻ (عدد عشوائي بين (-10) و (10)) درجة
+  ارتد إذا كنت عند الحافة
 end
-delete this clone
+احذف هذه النسخة
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Test your code again. You should see a new hippo clone appear every few seconds, and each clone should move at a different speed.
+اختبر تعليماتك البرمجية مرة أخرى. يجب أن ترى نسخة فرس النهر جديدة تظهر كل بضع ثوان، ويجب أن تتحرك كل نسخة بسرعة مختلفة.
 
 \--- no-print \---
 
@@ -146,6 +146,6 @@ Test your code again. You should see a new hippo clone appear every few seconds,
 
 \--- task \---
 
-Now test the spaceship's laser cannon. If a lightning bolt hits a hippo, does the hippo vanish?
+الآن اختبر مدفع الليزر في سفينة الفضاء. إذا صدم صاعقة فرس النهر، فهل يتلاشى فرس النهر؟
 
 \--- /task \---
