@@ -16,7 +16,7 @@
 
 أضف هذه التعليمات البرمجية إلى الكائن ` Lightning `:
 
-![lightning sprite](images/lightning-sprite.png)
+![كائن البرق](images/lightning-sprite.png)
 
 ```blocks3
 عند نقر ⚑
@@ -31,7 +31,7 @@
 
 أدناه التعليمات البرمجية موجودة بالفعل في كائن ` Lightning `، أضف بعض الكتل لجعل الكائن أصغر وتحويله رأسا على عقب.
 
-![lightning sprite](images/lightning-sprite.png)
+![كائن البرق](images/lightning-sprite.png)
 
 ```blocks3
 اجعل الحجم مساوياً (25) %
@@ -50,7 +50,7 @@
 
 \--- hint \---
 
-`When the green flag is clicked`{:class="block3events"}, keep checking `forever`{:class="block3control"} `if`{:class="block3control"} the `space key is pressed`{:class="block3sensing"}, and in that case `create a clone of the Lightning`{:class="block3control"} sprite.
+` عند النقر فوق العلم الأخضر `{:class="block3events"}، استمر في التحقق ` إلى الأبد ` {: class = "block3control"} ` if ` {: class = "block3control"} عند الضغط على مفتاح المسافة ` ` {: class = "block3sensing"} ، في هذه الحالة ` أنشئ نسخة من البرق `{:class="block3control"}.
 
 \--- hint/ \---
 
@@ -59,33 +59,33 @@
 إليك الكتل التي تحتاجها:
 
 ```blocks3
-if <> then
+إذا <>
 end
 
-forever
+كرِّر باستمرار
 end
 
-create clone of (Lightning v)
+أنشئ نسخة من (Lightning v)
 
 <key (space v) pressed?>
 
-when flag clicked
+عند نقر ⚑
 ```
 
 \--- hint/ \---
 
 \--- hint \---
 
-Here is what your new code should look like:
+إليك الشكل الذي يجب أن تبدو عليه التعليمات البرمجية الجديدة:
 
-![rocket sprite](images/rocket-sprite.png)
+![كائن الصاروخ](images/rocket-sprite.png)
 
 ```blocks3
-when flag clicked
-forever
-    if <key (space v) pressed?> then
-        create clone of (Lightning v)
-    end
+عند نقر ⚑
+كرِّر باستمرار 
+  إذا <key (space v) pressed?> 
+    أنشئ نسخة من (Lightning v)
+  end
 end
 ```
 
@@ -97,26 +97,26 @@ end
 
 \--- task \---
 
-Whenever the game creates a `Lightning` sprite clone, the clone should appear and then move upwards until it reaches the top of the Stage. Then the clone should disappear.
+كلما تقوم اللعبة بإنشاء نسخة من الكائن ` Lightning `، يجب أن تظهر النسخة ثم تتحرك للأعلى حتى تصل إلى قمة المنصة. ثم يجب أن تختفي النسخة.
 
-Add this code to the `Lightning` sprite so that clones of it move upwards until they touch the edge of the Stage, and then they get deleted.
+أضف هذه التعليمات البرمجية إلى الكائن ` Lightning ` بحيث تتحرك الكائنات المستنسخة لأعلى حتى تلامس حافة المنصة، ثم يتم حذفها.
 
-![lightning sprite](images/lightning-sprite.png)
+![كائن البرق](images/lightning-sprite.png)
 
 ```blocks3
-    when I start as a clone
-    go to (Spaceship v)
-    show
-    repeat until <touching (edge v) ?>
-        change y by (10)
-    end
-    delete this clone
+    عندما تبدأ نسخة مني
+اذهب إلى (Spaceship v)
+اظهر
+كرِّر حتى <touching (edge v) ?> 
+  غيِّر الموضع ص بمقدار (10)
+end
+احذف هذه النسخة
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Press the <kbd>space</kbd> key to test whether the lightning bolt moves correctly.
+اضغط على مفتاح <kbd>المسافة</kbd> لتختبر ما إذا كانت الصواعق البرقية تُطلق الآن من مكانها الصحيح أم لا.
 
 \--- /task \---
