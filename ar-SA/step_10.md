@@ -6,7 +6,7 @@
 
 إذا لم تكن قد أنشأتَ متغيرًا جديدًا يُسمى `المحاولات`{:class="blockdata"}، فأنشئه.
 
-Your spaceship should start with three lives and lose a life whenever it touches a hippo or an orange. Your game should stop when the `lives`{:class="block3variables"} run out.
+يجب أن تبدأ سفينة الفضاء الخاصة بك بثلاثة أرواح (محاولات) وتفقد محاولة كلما لمسها فرس النهر أو البرتقالة. ويجب أن تتوقف لعبتك عندما تنفذ ` المحاولات` {: class = "block3variables"}.
 
 \---/task--
 
@@ -20,21 +20,21 @@ Your spaceship should start with three lives and lose a life whenever it touches
 
 \--- task \---
 
-On the Stage, broadcast a `game over`{:class="block3events"} message just before the game ends.
+على المنصة، بُث رسالة `انتهت اللعبة`{:class="blockevents"} قبل أن تنتهي اللعبة مباشرة.
 
-![gameover sprite](images/stage-sprite.png)
+![كائن انتهت اللعبة](images/stage-sprite.png)
 
 ```blocks3
-broadcast (game over v) and wait
+بث (game over v) وانتظر
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Add this code to your `Game Over` sprite so that it shows at the end of the game:
+أضف هذه التعليمة البرمجية إلى كائن `انتهت اللعبة`، بحيث تظهر الرسالة في نهاية اللعبة:
 
-![gameover sprite](images/gameover-sprite.png)
+![كائن انتهت اللعبة](images/gameover-sprite.png)
 
 ```blocks3
 عند نقر ⚑
@@ -44,12 +44,12 @@ Add this code to your `Game Over` sprite so that it shows at the end of the game
 اظهر
 ```
 
-Because you've used a `broadcast (game over) and wait`{:class="block3events"} block on your Stage, the Stage will wait for the `Game Over` sprite to be displayed before ending the game.
+لأنك استخدمتَ لبنة `بُث (انتهت اللعبة) وانتظر`{:class="blockevents"} على المنصة، فستنتظر حتى ظهور كائن `انتهت اللعبة` قبل إنهاء اللعبة.
 
 \--- /task \---
 
 \--- task \---
 
-Test your game. How many points can you score? If the game is too easy or too hard, can you think of ways to improve it?
+اختبر لعبتك. كم عدد النقاط التي يمكنك إحرازها؟ إذا كانت اللعبة سهلة جدًا أو صعبة جدًا، فهل يمكنك التفكير في طرق لتحسين لعبتك؟
 
 \--- /task \---
