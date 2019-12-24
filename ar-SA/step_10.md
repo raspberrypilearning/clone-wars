@@ -1,10 +1,10 @@
 ## انتهت اللعبة
 
-Next, you're going to add a 'game over' message at the end of the game.
+بعد ذلك، ستقوم بإضافة رسالة "انتهت اللعبة" في نهاية اللعبة.
 
 \--- task \---
 
-If you haven't already, create a new variable called `lives`{:class="block3variables"}.
+إذا لم تكن قد أنشأتَ متغيرًا جديدًا يُسمى `المحاولات`{:class="blockdata"}، فأنشئه.
 
 Your spaceship should start with three lives and lose a life whenever it touches a hippo or an orange. Your game should stop when the `lives`{:class="block3variables"} run out.
 
