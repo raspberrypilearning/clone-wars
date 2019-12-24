@@ -10,7 +10,7 @@
 
 \--- task \---
 
-ارسم زيًا آخر لسفينة فضائية تنفجر، واستدعِ الزي الجديد "ضرب".
+ارسم زيًا آخر لسفينة فضائية تنفجر، واستدعِ الزي الجديد "اصطدام".
 
 ![لقطة الشاشة](images/invaders-spaceship-costumes.png)
 
@@ -22,21 +22,21 @@
 
 \--- task \---
 
-Add some code to your `Spaceship` sprite so that it displays the 'normal' costume when the game starts, and switches to the 'hit' costume when it touches a hippo:
+أضف بعض الكود إلى كائن` Spaceship ` بحيث تعرض الزي "عادي" عند بدء اللعبة، وتتحول إلى زي "اصطدام" عندما تلامس فرس النهر:
 
-![rocket sprite](images/rocket-sprite.png)
+![كائن الصاروخ](images/rocket-sprite.png)
 
 ```blocks3
-when flag clicked
-switch costume to (normal v)
-wait until <touching (Hippo1 v)>?
-switch costume to (hit v)
+عند نقر ⚑
+غيِّر المظهر إلى (normal v)
+انتظر حتى <touching (Hippo1 v)>
+غيِّر المظهر إلى (hit v)
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Test your code. Make the spaceship collide with a hippo. Does the spaceship change to the 'hit' costume?
+اختبر التعليمة البرمجية. اجعل سفينة الفضاء تصطدم بفرس النهر. هل تتغير سفينة الفضاء إلى مظهر 'اصطدام'؟
 
 \--- /task \---
