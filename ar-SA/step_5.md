@@ -1,10 +1,10 @@
 ## أفراس فضاء طائرة
 
-Now you're going to add lots of flying hippos that try to destroy your spaceship.
+الآن ستقوم بإضافة الكثير من أفراس النهر الطائرة التي تحاول تدمير سفينتك الفضائية.
 
 \--- task \---
 
-Create a new sprite with the 'Hippo1' image in the Scratch library. Use the **shrink** tool to make the `Hippo` sprite a similar size to the `Spaceship` sprite.
+قم بإنشاء كائن جديد باستخدام صورة "Hippo1" من مكتبة السكراتش. استخدم الاداة **تقليص** لجعل كائن ` فرس النهر ` بحجم مماثل لـ ` سفينة الفضاء `.
 
 ![لقطة الشاشة](images/invaders-hippo.png)
 
@@ -33,7 +33,7 @@ Set the `Hippo` sprite's rotation style to **left-right**.
 
 \--- task \---
 
-Add some code to the Stage to create a new `Hippo` clone every few seconds.
+أضف بعض التعليمات البرمجية إلى المنصة لإنشاء `فرس نهر` جديد كل بضع ثوان.
 
 \--- hints \---
 
