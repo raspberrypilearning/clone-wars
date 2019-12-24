@@ -50,24 +50,24 @@ end
 تحتاج إلى إضافة هذه الكتل للكود الخاصة بك:
 
 ```blocks3
-wait (0.3) seconds
+انتظر (0.3) ثانية
 
-next costume
+المظهر التالي
 ```
 
 \--- hint/ \---
 
-\--- hint \--- You code should look like this:
+\--- hint \--- يجب أن تبدو التعليمة البرمجية خاصتك بالشكل التالي:
 
 ```blocks3
-when flag clicked
-set size to (50) %
-forever
-move (10) steps
-if on edge, bounce
+عند نقر ⚑
+اجعل الحجم مساويًا (50) ٪
+كرِّر باستمرار 
+ تحرك (10) خطوة
+ ارتد إذا كنت عند الحافة
 
-+ next costume
-+ wait (0.3) seconds
+ + المظهر التالي
+ + انتظر (0.3) ثانية
 end
 ```
 
@@ -77,11 +77,11 @@ end
 
 \--- /task \---
 
-Now make the bat throw oranges!
+والآن، لنجعل الخفاش يرمي البرتقال!
 
 \--- task \---
 
-Add an `Orange` sprite from the Scratch library.
+أضف كائن `Orange` جديدًا من مكتبة سكراتش.
 
 ![لقطة الشاشة](images/invaders-orange.png)
 
@@ -89,15 +89,15 @@ Add an `Orange` sprite from the Scratch library.
 
 \--- task \---
 
-Add code to your bat so that `when the flag is clicked`{:class="block3events"}, the `Bat` sprite `forever`{:class="block3control"} `waits`{:class="block3control"} for a `random`{:class="block3operators"} length of time between `5 to 10`{:class="block3operators"} seconds and then `creates a clone`{:class="block3control"} of the `Orange` sprite.
+أضف رمزًا إلى خفاشك بحيث ` عند النقر على العلم ` {: class = "block3events"}، فإن كائن `الخفاش` ` إلى الأبد ` {: class = "block3control"} ` ينتظر ` {: class = "block3control"} فترة زمنية عشوائية ` ` {: class = "block3operators"}، بين ` ٥ إلى ١٠ ` {: class = "block3operators"} ثانية، ثم ` ينشيء نسخة ` {: class = "block3control"} من كائن ` البرتقالة `.
 
 ![bat sprite](images/bat-sprite.png)
 
 ```blocks3
-when flag clicked
-forever
-    wait (pick random (5) to (10)) secs
-    create clone of (Orange v)
+عند نقر ⚑
+كرِّر باستمرار 
+  انتظر (عدد عشوائي بين (5) و (10)) ثانية
+  أنشئ نسخة من (Orange v)
 end
 ```
 
@@ -105,28 +105,28 @@ end
 
 \--- task \---
 
-Add code to the `Orange` to make each of its clone drop, starting from the `Bat` sprite and falling towards the bottom of the Stage.
+أضف التعليمات البرمجية إلى كائن ` البرتقالة ` لجعل كل من نسخة تسقط ، بدءا من كائن ` الخفاش ` نحو أسفل المنصة.
 
 ![orange sprite](images/orange-sprite.png)
 
 ```blocks3
-    when flag clicked
-    hide
+    عند نقر ⚑
+اختفِ
 
-    when I start as a clone
-    go to (Bat v)
-    show
-    repeat until <touching (edge v)?
-        change y by (-4)
-    end
-    delete this clone
+عندما تبدأ نسخة مني
+اذهب إلى (Bat v)
+اظهر
+كرِّر حتى< ملامس لـ (edge v)
+  غيِّر الموضع ص بمقدار (-4)
+end
+احذف هذه النسخة
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Add some more code to the `Orange` sprite so that when an `Orange` clone hits the `Spaceship` sprite, the clone also disappears to give the player a chance to reset:
+أضف بعض التعليمات البرمجية الأخرى إلى كائن البرتقالة `Orange` بحيث عندما تصطدم `برتقالة` بكائن سفينة الفضاء `Spaceship`، يختفي النسخة هي الآخرى لتعطي اللاعب فرصة لاستعادة قوته:
 
 ![orange sprite](images/orange-sprite.png)
 
@@ -139,12 +139,12 @@ Add some more code to the `Orange` sprite so that when an `Orange` clone hits th
 
 \--- task \---
 
-Modify the code of your `Spaceship` sprite so that the sprite is "hit" when it touches a `Hippo` sprite or an `Orange` sprite:
+ستحتاج أيضًا إلى تعديل التعليمة البرمجية في الكائن `Spaceship` بحيث يصطدم عندما يلامس كائن `Hippo` أو كائن `Orange`:
 
 ![rocket sprite](images/rocket-sprite.png)
 
 ```blocks3
-    wait until < <touching (Hippo1 v)?> or <touching (Orange v)?>>
+    انتظر حتى <<touching (Hippo1 v)?> أو<touching (Orange v)?>>
 ```
 
 \--- /task \---
