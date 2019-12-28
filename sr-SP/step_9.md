@@ -89,7 +89,7 @@ Add an `Orange` sprite from the Scratch library.
 
 \--- task \---
 
-Add code to your bat so that `when the flag is clicked`{:class="block3events"}, the `Bat` sprite `forever`{:class="block3control"} `waits`{:class="block3control"} for a `random`{:class="block3operators"} length of time between `5 to 10`{:class="block3operators"} seconds and then `creates a clone`{:class="block3control"} of the `Orange` sprite.
+Додај код свом шишмишу, тако да `када је кликнуто на заставицу`{:class="block3events"}, лик `Шишмиш` `понавља заувек`{:class="block3control"} `чекај`{:class="block3control"} на `случајну`{:class="block3operators"} количину времена између `5 и 10`{:class="block3operators"} секунди, а затим `направи дупликат`{:class="block3control"} од лика `Наранџа`.
 
 ![лик шишмиша](images/bat-sprite.png)
 
