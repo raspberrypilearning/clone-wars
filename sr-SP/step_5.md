@@ -12,7 +12,7 @@ Create a new sprite with the 'Hippo1' image in the Scratch library. Use the **sh
 
 \--- task \---
 
-Set the `Hippo` sprite's rotation style to **left-right**.
+Постави ротацију `Нилског коња` на **лево-десно**.
 
 [[[generic-scratch3-sprite-rotation-style]]]
 
