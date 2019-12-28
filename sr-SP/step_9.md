@@ -6,7 +6,7 @@ To make your game a bit harder, you are going to create a bat that throws orange
 
 \--- task \---
 
-Add a `Bat` sprite and set its rotation style to **left–right**.
+Додај лик `Шишмиш` и постави негову ротацију на **лево–десно**.
 
 \--- /task \---
 
@@ -77,7 +77,7 @@ end
 
 \--- /task \---
 
-Now make the bat throw oranges!
+Сада направи да шишмиш баца наранџе!
 
 \--- task \---
 
