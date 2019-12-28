@@ -2,6 +2,6 @@
 
 At the moment, you can play the game forever, but it doesn't count how many hippos you shoot or how many times your spaceship explodes.
 
-Can you add `lives`{:class="block3variables"}, a `score`{:class="block3variables"}, or even a `highscore`{:class="block3variables"} to your game?
+Можеш ли својој игри да додаш `животи`{:class="block3variables"}, `резултат`{:class="block3variables"} или чак `најбољи резултат`{:class="block3variables"}?
 
 [[[generic-scratch3-high-score]]]
