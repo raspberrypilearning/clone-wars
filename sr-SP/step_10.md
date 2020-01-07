@@ -12,7 +12,7 @@ Next, you're going to add a 'game over' message at the end of the game.
 
 \--- task \---
 
-Draw a new sprite called `Game Over` using the **text** tool.
+Нацртај нови лик `Крај игре`, користећи алат за **текст**. 
 
 ![снимак екрана](images/invaders-game-over.png)
 
@@ -20,7 +20,7 @@ Draw a new sprite called `Game Over` using the **text** tool.
 
 \--- task \---
 
-On the Stage, broadcast a `game over`{:class="block3events"} message just before the game ends.
+На Позорници, разгласи поруку `крај игре`{:class="block3events"}, непосредно пре него што се игра заврши.
 
 ![лик крај игре](images/stage-sprite.png)
 
