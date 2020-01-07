@@ -50,6 +50,6 @@ Because you've used a `broadcast (game over) and wait`{:class="block3events"} bl
 
 \--- task \---
 
-Test your game. How many points can you score? If the game is too easy or too hard, can you think of ways to improve it?
+Испробај своју игру. Колико поена можеш постићи? Ако је игра сувише лака или превише тешка, можеш ли пронаћи начин да је побољшаш?
 
 \--- /task \---
