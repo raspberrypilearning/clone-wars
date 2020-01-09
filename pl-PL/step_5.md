@@ -103,7 +103,7 @@ Kiedy każdy klon `Hipcia` zaczyna, losuje prędkość i położenie zanim pojaw
 
 ```blocks3
 gdy zaczynam jako klon
-ustaw [speed v] na (losuj liczbę od (2) do (4))
+ustaw [prędkość v] na (losuj liczbę od (2) do (4))
 Idź do x: (losuj liczbę od (-220) do (220)) y: (150)
 pokaż
 ```
@@ -123,7 +123,7 @@ W tej chwili hipopotamy się nie ruszają.
 Każdy hipopotam powinien poruszać się losowo, dopóki nie zostanie trafiony błyskawicą. Aby tak się stało, dołącz poniższy kod pod blokami, które są już w kodzie skryptu duszka `Hipcia`:
 
 ```blocks3
-powtarzaj aż <touching (lightning v) ?> 
+powtarzaj aż <dotyka (Błyskawica v) ?> 
   przesuń o (speed :: variables) kroków
   obróć w prawo o (losuj liczbę od (-10) do (10)) stopni
   jeżeli na brzegu, odbij się

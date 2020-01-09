@@ -68,7 +68,7 @@ end
 
 utwórz klona z (Błyskawica v)
 
-<key (space v) pressed?>
+<klawisz (spacja v) naciśnięty ?>
 
 kiedy kliknięto zieloną flagę
 ```
@@ -84,7 +84,7 @@ Tak powinien wyglądać Twój kod:
 ```blocks3
 kiedy kliknięto zieloną flagę
 zawsze 
-  jeżeli <key (spacja v) pressed?> to 
+  <klawisz (spacja v) naciśnięty ?> 
     utwórz klona z (Błyskawica v)
   end
 end
@@ -108,7 +108,7 @@ Dodaj ten kod do duszka `Błyskawica` tak, aby jego klony poruszały się w gór
     gdy zaczynam jako klon
 idź do (Statek kosmiczny v)
 pokaż
-powtarzaj aż <touching (edge v) ?> 
+powtarzaj aż <dotyka (krawędź v) ?> 
   zmień y o (10)
 end
 usuń tego klona
