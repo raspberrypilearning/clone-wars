@@ -29,7 +29,7 @@ Dodaj kod do swojego duszka `statku kosmicznego`, który wyświetla „normalny�
 ```blocks3
 kiedy kliknięto zieloną flagę
 zmień kostium na (normalny v)
-czekaj aż <touching (Hippo1 v)>?
+czekaj aż <dotyka (Hipcio v) ?>
 zmień kostium na (trafiony v)
 ```
 

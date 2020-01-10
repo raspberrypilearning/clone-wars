@@ -64,11 +64,10 @@ następny kostium
 kiedy kliknięto zieloną flagę
 ustaw rozmiar na (50) %
 zawsze 
- przesuń o (10) kroków
- jeżeli na brzegu, odbij się
-
- + następny kostium
- + czekaj (0.3) sekund
+przesuń o (10) kroków
+jeżeli na brzegu, odbij się
++ następny kostium
++ czekaj (0.3) sekund
 end
 ```
 
@@ -114,7 +113,7 @@ Dodaj kod do `Pomarańczy` aby każdy z jego klonów spadał, zaczynając od dus
     kiedy kliknięto zieloną flagę
   ukryj
 
-  kiedy zaczynam jako klon
+  gdy zaczynam jako klon
   idź do (Nietoperz v)
   pokaż
   powtarzaj aż <dotyka (krawędź v)?
@@ -145,7 +144,7 @@ Zmodyfikuj kod swojego duszka `statku kosmicznego`, aby zmieniał kostium na "tr
 ![duszek rakiety](images/rocket-sprite.png)
 
 ```blocks3
-    czekaj aż <<touching (Hippo1 v)?> lub <touching (Orange v)?>>
+    czekaj aż <<dotyka (Hipcia v) ?> lub <dotyka (Pomarańczy v) ?>>
 ```
 
 --- /task ---

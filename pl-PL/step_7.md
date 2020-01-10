@@ -11,9 +11,9 @@ Dodaj kod do duszka statku kosmicznego, aby `nadać`{:class="block3events"} komu
 ```blocks3
 kiedy kliknięto zieloną flagę
 zmień kostium na (normalny v)
-czekaj aż <touching (Hippo1 v)>?
+czekaj aż <dotyka (Hipcio v) ?>
 zmień kostium na (trafiony v)
-nadaj komunikat (trafienie v)
++ nadaj komunikat (trafienie v)
 ```
 
 --- /task ---
@@ -51,11 +51,10 @@ Dodaj blok `czekaj`{:class="block3control"} na końcu kodu duszka `Statek kosmic
 kiedy kliknięto zieloną flagę
 zawsze 
  zmień kostium na (normalny v)
- czekaj aż <touching (Hippo1 v)>?
+ czekaj aż <dotyka (Hipcio v) ?>
  zmień kostium na (trafiony v)
- nadaj (trafienie v)
- 
-+ czekaj (1) s
+ nadaj komunikat (trafienie v)
++ czekaj (1) sekund
 end
 ```
 
