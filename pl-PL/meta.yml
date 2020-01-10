@@ -1,19 +1,25 @@
+---
 hero_image: images/clone-wars.png
 theme: violet
-duration: 2
 listed: true
-ingredient: false
 copyedit: true
-curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
-title: Atak klonów
-description: Naucz się, jak stworzyć grę, w której musisz uratować Ziemię przed potworami z kosmosu.
-original_url: https://codeclubprojects.org/en-GB/scratch/clone-wars
-interests: games
-technologies: scratch
-site_areas: projects
-hardware: ''
-software: scratch
-version: 4
-last_tested: 2017-01-01
-steps: 
-- title: Atak klonów
+title: Wojny klonów
+description: Naucz się, jak stworzyć grę, w której musisz uratować Ziemię przed potworami z kosmosu
+version: 4.1.0
+last_tested: 2018-10-11
+steps:
+  - title: Wprowadzenie
+  - title: Stwórz statek kosmiczny
+  - title: Błyskawice
+  - title: 'Wyzwanie: ulepsz błyskawicę'
+    challenge: true
+  - title: Kosmiczne hipopotamy
+  - title: Eksplozja statku kosmicznego
+  - title: Hipopotamy, które znikają
+  - title: 'Wyzwanie: życia i wynik'
+    challenge: true
+  - title: Kosmiczny nietoperz
+  - title: Koniec gry
+  - title: 'Wyzwanie: udoskonal swoją grę'
+    challenge: true
+  - title: Co dalej?
