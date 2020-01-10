@@ -45,7 +45,7 @@
 
 ### 下载
 
-[在此处查找下载](http://rpf.io/p/en/clone-wars-go) 。
+[在此处下载](http://rpf.io/p/en/clone-wars-go) 。
 
 \--- /collapse \---
 
