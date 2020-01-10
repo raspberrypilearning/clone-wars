@@ -84,7 +84,7 @@ Tak powinien wyglądać Twój kod:
 ```blocks3
 kiedy kliknięto zieloną flagę
 zawsze 
-  <klawisz (spacja v) naciśnięty ?> 
+  jeżeli <klawisz (spacja v) naciśnięty ?> to 
     utwórz klona z (Błyskawica v)
   end
 end

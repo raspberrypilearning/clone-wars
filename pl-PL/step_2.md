@@ -27,7 +27,7 @@ Dodaj ten kod do duszka statku kosmicznego, aby skłonić statek kosmiczny porus
 ```blocks3
     kiedy kliknięto zieloną flagę
 zawsze 
-  jeżeli <key (strzałka w lewo v) pressed?> to 
+  jeżeli <klawisz (strzałka w lewo v) naciśnięty ?> to 
     zmień x o (-4)
   end
 end
@@ -71,7 +71,7 @@ Oto kod, który musisz dodać pod innym kodem wewnątrz bloku `zawsze`{:class="b
 ![duszek rakiety](images/rocket-sprite.png)
 
 ```blocks3
-jeżeli <key (strzałka w prawo v) pressed?> to 
+jeżeli <klawisz (strzałka w prawo v) naciśnięty ?> to 
   zmień x o (4)
 end
 ```
