@@ -45,7 +45,7 @@ Score as many points as you can by shooting flying space-hippos. If you get hit 
 
 ### Преузимање
 
-[Find the downloads here](http://rpf.io/p/en/clone-wars-go).
+[Овде пронађи датотеке за преузимање](http://rpf.io/p/en/clone-wars-go).
 
 \--- /collapse \---
 
@@ -57,7 +57,7 @@ Score as many points as you can by shooting flying space-hippos. If you get hit 
 
 + Како да помераш ликове користећи тастатуру
 + How to clone sprites to make copies of them
-+ How to use 'broadcast' and 'receive blocks' to send messages
++ Како користити блокове 'разгласи' и 'прими' за слање поруке
 
 \--- /collapse \---
 
