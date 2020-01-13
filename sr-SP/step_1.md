@@ -55,7 +55,7 @@ Score as many points as you can by shooting flying space-hippos. If you get hit 
 
 ## title: Шта ћеш научити
 
-+ How to make sprites move using keyboard input
++ Како да помераш ликове користећи тастатуру
 + How to clone sprites to make copies of them
 + How to use 'broadcast' and 'receive blocks' to send messages
 
