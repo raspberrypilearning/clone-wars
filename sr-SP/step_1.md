@@ -21,7 +21,7 @@ Click the green flag in the example game below to start, and then press the <kbd
 
 \--- /no-print \---
 
-Score as many points as you can by shooting flying space-hippos. If you get hit by a hippo or by an orange dropped by the bats, you lose a life.
+Постигни што више поена гађајући летеће свемирске нилске коње. Ако те удари нилски коњ или погоди наранџа коју су бацили шишмиши, губиш један живот.
 
 \--- print-only \---
 
