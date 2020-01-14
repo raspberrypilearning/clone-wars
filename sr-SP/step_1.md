@@ -12,7 +12,7 @@
 
 \--- no-print \---
 
-Click the green flag in the example game below to start, and then press the <kbd>left</kbd> and <kbd>right</kbd> arrow keys to move the spaceship, and the <kbd>space</kbd> key to shoot.
+Кликни на зелену заставицу у примеру испод да покренеш игру, а затим притисни тастере са стрелицама <kbd>лево</kbd> и <kbd>десно</kbd> да помериш свемирски брод и тастер <kbd>размак</kbd> да пуцаш.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/276887163/?autostart=false" frameborder="0" scrolling="no"></iframe>
