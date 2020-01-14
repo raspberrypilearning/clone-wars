@@ -1,6 +1,6 @@
 ## Муње
 
-Now you are going to give the spaceship the ability to fire lightning bolts!
+Сада ћеш свемирском броду дати могућност да испаљује муње!
 
 \--- task \---
 
