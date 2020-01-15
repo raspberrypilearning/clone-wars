@@ -1,6 +1,6 @@
 ## Свемирски нилски коњи
 
-Now you're going to add lots of flying hippos that try to destroy your spaceship.
+Сада ћеш додати пуно летећих нилских коња, који ће покушати да униште твој свемирски брод.
 
 \--- task \---
 
