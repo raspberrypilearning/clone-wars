@@ -12,7 +12,7 @@
 
 \--- task \---
 
-When the game starts, the `Lightning` sprite should be hidden until the spaceship fires its laser cannons.
+Када се игра покрене, лик `Муње` би требао да остане сакривен, док свемирски брод не испали своје ласерске топове.
 
 Додај овај код лику `Муње`:
 
@@ -25,7 +25,7 @@ When the game starts, the `Lightning` sprite should be hidden until the spaceshi
 
 \--- /task \---
 
-At the moment, the lightning bolt is really big compared to the spaceship!
+Тренутно је муња огромна у односу на свемирски брод!
 
 \--- task \---
 
