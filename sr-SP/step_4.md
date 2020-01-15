@@ -1,3 +1,3 @@
 ## Изазов: Побољшај муње
 
-What happens if you hold down the <kbd>space</kbd> key? Can you use a `wait`{:class="block3control"} block to fix this?
+Шта се догађа ако држиш притиснут тастер <kbd>размак</kbd>? Можеш ли да употребиш блок `чекај`{:class="block3control"} да то поправиш?
