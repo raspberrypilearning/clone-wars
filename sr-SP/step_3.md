@@ -29,7 +29,7 @@
 
 \--- task \---
 
-Below the code that the `Lightning` sprite already has, add some blocks to make the sprite smaller and to turn it upside down.
+Испод кода који лик `Муња` већ има, додај следеће блокове како би се лик смањио и окренуо наопако.
 
 ![лик муње](images/lightning-sprite.png)
 
