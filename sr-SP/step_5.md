@@ -39,7 +39,7 @@ Add some code to the Stage to create a new `Hippo` clone every few seconds.
 
 \--- hint \---
 
-When the `green flag is clicked`{:class="block3events"}, `repeatedly`{:class="block3control"} `wait`{:class="block3control"} `between 2 and 4 seconds`{:class="block3operators"} and then `create a clone of the Hippo sprite`{:class="block3control"}.
+Када је `кликнуто на зелену заставицу`{:class="block3events"}, `понављај заувек`{:class="block3control"} `чекај`{:class="block3control"} `између 2 и 4 секунде`{:class="block3operators"}, а затим `направи дупликат Нилског коња`{:class="block3control"}.
 
 \--- /hint \---
 
