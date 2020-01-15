@@ -50,7 +50,7 @@ Add some new code to the `Spaceship` sprite to create a new clone of the lightni
 
 \--- hint \---
 
-`When the green flag is clicked`{:class="block3events"}, keep checking `forever`{:class="block3control"} `if`{:class="block3control"} the `space key is pressed`{:class="block3sensing"}, and in that case `create a clone of the Lightning`{:class="block3control"} sprite.
+`Када је кликнуто на зелену заставицу`{:class="block3events"}, понављај `заувек`{:class="block3control"} `ако је`{:class="block3control"} `дугме размак притиснуто`{:class="block3sensing"}, у том случају `направи дупликат од Муња`{:class="block3control"}.
 
 \--- /hint \---
 
