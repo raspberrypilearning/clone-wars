@@ -81,7 +81,7 @@ end
 
 \--- task \---
 
-Add an `Orange` sprite from the Scratch library.
+Додај лик `Наранџе` из библиотеке Скреча.
 
 ![снимак екрана](images/invaders-orange.png)
 
