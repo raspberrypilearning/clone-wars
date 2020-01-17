@@ -34,7 +34,7 @@ All of the `Hippo` sprite clones will receive the "hit" message, and you can ins
 
 \--- task \---
 
-To check whether the new code works, click the green flag and make the spaceship collide with a hippo.
+Да провериш исправност новог кода, кликни на зелену заставицу и судари свемирски брод са нилским коњем.
 
 ![снимак екрана](images/invaders-hippo-collide.png)
 
