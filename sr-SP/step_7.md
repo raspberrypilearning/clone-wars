@@ -1,6 +1,6 @@
 ## Нилски коњи који нестају
 
-When the spaceship explodes, all the hippos should disappear so that players of the game can recover.
+Када свемирски брод експлодира, сви нилски коњи би требали да нестану, тако да се играчи могу опоравити.
 
 \--- task \---
 
