@@ -86,7 +86,7 @@ Each new hippo clone should appear at a random `x` position, and every clone sho
 
 \--- task \---
 
-Create a new variable called `speed`{:class="block3variables"} that is for the `Hippo` sprite only.
+Направи нову променљиву названу `брзина`{:class="block3variables"}, која је само за ликове `Нилског коња`.
 
 [[[generic-scratch3-add-variable]]]
 
