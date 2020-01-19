@@ -98,7 +98,7 @@ When you've done this correctly, the variable has the name of the sprite next to
 
 \--- task \---
 
-When each `Hippo` clone starts, pick a random speed and starting place for it. Then show the clone on the screen.
+Када сваки клон `Нилског коња` крене, одабери му случајну брзину и почетно место. Затим покажи клона на екран.
 
 ```blocks3
 када се појавим као умножак
