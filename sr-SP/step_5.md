@@ -82,7 +82,7 @@ end
 
 \--- /task \---
 
-Each new hippo clone should appear at a random `x` position, and every clone should have a random speed.
+Сваки нови нилски коњ требао би се појавити на случајном `х` положају и требао би да има случајну брзину.
 
 \--- task \---
 
