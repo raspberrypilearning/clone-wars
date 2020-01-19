@@ -111,11 +111,11 @@ When you've done this correctly, the variable has the name of the sprite next to
 
 \--- task \---
 
-Test your code. Does a new hippo appear every few seconds?
+Испробај свој код. Појављује ли се нови нилски коњ сваких неколико секунди?
 
 \--- /task \---
 
-At the moment the hippos don't move.
+Тренутно се нилски коњи не померају.
 
 \--- task \---
 
