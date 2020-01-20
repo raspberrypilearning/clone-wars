@@ -29,11 +29,9 @@ Doseži čim več točk s streljanjem letečih vesoljskih povodnih konjev. Če t
 
 \--- /print-only \---
 
-\--- collapse \---
+## \--- collapse \---
 
-* * *
-
-## title: Kaj boš potreboval?
+## title: What you will need
 
 ### Strojna oprema
 
@@ -45,15 +43,13 @@ Doseži čim več točk s streljanjem letečih vesoljskih povodnih konjev. Če t
 
 ### Prenosi
 
-[Tu se nahajajo datoteke za prenos](http://rpf.io/p/en/clone-wars-go).
+[Find the downloads here](http://rpf.io/p/en/clone-wars-go).
 
 \--- /collapse \---
 
-\--- collapse \---
+## \--- collapse \---
 
-* * *
-
-## title: Kaj se boš naučil?
+## title: What you will learn
 
 + Premikati figure s pomočjo tipkovnice
 + Podvajati figure, da ustvarjaš njihove kopije
@@ -61,18 +57,16 @@ Doseži čim več točk s streljanjem letečih vesoljskih povodnih konjev. Če t
 
 \--- /collapse \---
 
-\--- collapse \---
+## \--- collapse \---
 
-* * *
-
-## title: Dodatne informacije za izobraževalce
+## title: Additional notes for educators
 
 \--- no-print \---
 
-Če želite natisniti ta projekt, uporabite [tiskalniku prijazno različico](https://projects.raspberrypi.org/en/projects/clone-wars/print){:target="_blank"}.
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/clone-wars/print){:target="_blank"}.
 
 \--- /no-print \---
 
-Dokončan projekt lahko najdete [tukaj](http://rpf.io/p/en/clone-wars-get).
+You can find the [completed project here](http://rpf.io/p/en/clone-wars-get).
 
 \--- /collapse \---
