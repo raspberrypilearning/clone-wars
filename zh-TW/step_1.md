@@ -29,11 +29,9 @@
 
 \--- /僅打印\---
 
-- - 坍方 - -
+## \--- collapse \---
 
-* * *
-
-## 標題：你需要什麼
+## title: What you will need
 
 ### 硬件
 
@@ -45,15 +43,13 @@
 
 ### 下載
 
-[在此處查找下載](http://rpf.io/p/en/clone-wars-go)。
+[Find the downloads here](http://rpf.io/p/en/clone-wars-go).
 
-- - /坍方 - -
+\--- /collapse \---
 
-- - 坍方 - -
+## \--- collapse \---
 
-* * *
-
-## 標題：你將學到什麼
+## title: What you will learn
 
 + 如何使用鍵盤輸入使精靈移動
 + 如何克隆精靈來製作它們的副本
@@ -61,18 +57,16 @@
 
 - - /坍方 - -
 
-- - 坍方 - -
+## \--- collapse \---
 
-* * *
+## title: Additional notes for educators
 
-## 標題：教育工作者的附加說明
+\--- no-print \---
 
-\---沒有印刷\---
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/clone-wars/print){:target="_blank"}.
 
-如果您需要打印此項目，請使用 [打印機友好版本](https://projects.raspberrypi.org/en/projects/clone-wars/print){：target =“_ blank”}。
+\--- /no-print \---
 
-\--- /無印刷\---
+You can find the [completed project here](http://rpf.io/p/en/clone-wars-get).
 
-你可以在這裡找到[已完成的專案](http://rpf.io/p/en/clone-wars-get)
-
-- - /坍方 - -
+\--- /collapse \---
