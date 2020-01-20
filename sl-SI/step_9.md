@@ -57,7 +57,9 @@ naslednji videz
 
 \--- /hint \---
 
-\--- hint \--- Tvoja koda bi morala izgledati tako:
+\--- hint \---
+
+You code should look like this:
 
 ```blocks3
 ko kliknemo na zastavo
@@ -77,21 +79,21 @@ konec
 
 \--- /task \---
 
-Zdaj pa poskrbi, da bodo netopirji metali pomaranče!
+Now make the bat throw oranges!
 
 \--- task \---
 
-Odaj figuro `Orange` iz Scratch knjižnice in jo preimenuj v 'pomaranča'.
+Add an `Orange` sprite from the Scratch library.
 
-![posnetek zaslona](images/invaders-orange.png)
+![screenshot](images/invaders-orange.png)
 
 \--- /task \---
 
 \--- task \---
 
-Netopirju dodaj kodo, da bo `ko kliknemo na zastavo`{:class="block3events"}, figura `netopir` `ponavljala`{:class="block3control"} `počakaj`{:class="block3control"} `naključno`{:class="block3operators"} časa `med 5 in 10`{:class="block3operators"} sekundami in `ustvarila dvojnika`{:class="block3control"} figure `pomaranča`.
+Add code to your bat so that `when the flag is clicked`{:class="block3events"}, the `Bat` sprite `forever`{:class="block3control"} `waits`{:class="block3control"} for a `random`{:class="block3operators"} length of time between `5 to 10`{:class="block3operators"} seconds and then `creates a clone`{:class="block3control"} of the `Orange` sprite.
 
-![figura netopirja](images/bat-sprite.png)
+![bat sprite](images/bat-sprite.png)
 
 ```blocks3
 ko kliknemo na zastavo
@@ -105,9 +107,9 @@ konec
 
 \--- task \---
 
-`Pomaranči` dodaj kodo, da bo vsak njen dvojnik padal, začenši od figure `netopirja`, proti dnu odra.
+Add code to the `Orange` to make each of its clone drop, starting from the `Bat` sprite and falling towards the bottom of the Stage.
 
-![figura pomaranče](images/orange-sprite.png)
+![orange sprite](images/orange-sprite.png)
 
 ```blocks3
     ko kliknemo na zastavo
@@ -126,9 +128,9 @@ zbriši tega dvojnika
 
 \--- task \---
 
-Dodaj še nekaj kode v figuro `pomaranča`, da ko dvojnik `pomaranče` zadene figuro ` rakete`, izgine tudi dvojnik, da omogočimo namestitev nove rakete za igralca:
+Add some more code to the `Orange` sprite so that when an `Orange` clone hits the `Spaceship` sprite, the clone also disappears to give the player a chance to reset:
 
-![figura pomaranče](images/orange-sprite.png)
+![orange sprite](images/orange-sprite.png)
 
 ```blocks3
     ko prejmem [zadetek v]
@@ -139,9 +141,9 @@ Dodaj še nekaj kode v figuro `pomaranča`, da ko dvojnik `pomaranče` zadene fi
 
 \--- task \---
 
-Spremeni kodo figure `raketa`, da bo figura "zadeta", kadat se dotakne figure `povodni` konje ali figure `pomaranča`:
+Modify the code of your `Spaceship` sprite so that the sprite is "hit" when it touches a `Hippo` sprite or an `Orange` sprite:
 
-![figura rakete](images/rocket-sprite.png)
+![rocket sprite](images/rocket-sprite.png)
 
 ```blocks3
     počakaj dokler ni <<se dotika (povodni v)>? ali <se dotika (pomaranča v)>?>
@@ -151,6 +153,6 @@ Spremeni kodo figure `raketa`, da bo figura "zadeta", kadat se dotakne figure `p
 
 \--- task \---
 
-Preizkusite svojo igro. Kaj se zgodi, če raketo zadene padajoča pomaranča?
+Test your game. What happens if the spaceship gets hit by a falling orange?
 
 \--- /task \---
