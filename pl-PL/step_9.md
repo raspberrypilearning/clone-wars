@@ -57,7 +57,9 @@ następny kostium
 
 \--- /hint \---
 
-\--- hint \--- Twój kod powinien wyglądać tak:
+\--- hint \---
+
+You code should look like this:
 
 ```blocks3
 kiedy kliknięto zieloną flagę
@@ -77,21 +79,21 @@ end
 
 \--- /task \---
 
-Teraz spraw, aby nietoperz zrzucał pomarańcze!
+Now make the bat throw oranges!
 
 \--- task \---
 
-Dodaj nowego duszka `Orange` z biblioteki Scratch. Tym razem zmieńmy nazwę tego duszka na Pomarańcza.
+Add an `Orange` sprite from the Scratch library.
 
-![zrzut ekranu](images/invaders-orange.png)
+![screenshot](images/invaders-orange.png)
 
 \--- /task \---
 
 \--- task \---
 
-Dodaj kod do swojego nietoperza, taki że `kiedy flaga jest kliknięta`{:class="block3events"}, duszek `Nietoperza` `zawsze`{:class="block3control"} `czeka`{:class="block3control"} przez `losowy`{:class="block3operators"} okres czasu, z przedziału między `5 a 10`{:class="block3operators"} sekund, a następnie ` tworzy klona`{:class="block3control"} duszka `Pomarańczy`.
+Add code to your bat so that `when the flag is clicked`{:class="block3events"}, the `Bat` sprite `forever`{:class="block3control"} `waits`{:class="block3control"} for a `random`{:class="block3operators"} length of time between `5 to 10`{:class="block3operators"} seconds and then `creates a clone`{:class="block3control"} of the `Orange` sprite.
 
-![duszek nietoperza](images/bat-sprite.png)
+![bat sprite](images/bat-sprite.png)
 
 ```blocks3
 kiedy kliknięto zieloną flagę
@@ -105,9 +107,9 @@ end
 
 \--- task \---
 
-Dodaj kod do `Pomarańczy` aby każdy z jego klonów spadał, zaczynając od duszka `Nietoperza` i spada w dół do dolnej części sceny.
+Add code to the `Orange` to make each of its clone drop, starting from the `Bat` sprite and falling towards the bottom of the Stage.
 
-![duszek pomarańczy](images/orange-sprite.png)
+![orange sprite](images/orange-sprite.png)
 
 ```blocks3
     kiedy kliknięto zieloną flagę
@@ -126,9 +128,9 @@ Dodaj kod do `Pomarańczy` aby każdy z jego klonów spadał, zaczynając od dus
 
 \--- task \---
 
-Dodaj jeszcze kod do duszka `Pomarańczy` aby kiedy klon `Pomarańczy` trafi duszka `statku kosmicznego`, klon również znikał, aby dać szanse graczowi na zresetowanie:
+Add some more code to the `Orange` sprite so that when an `Orange` clone hits the `Spaceship` sprite, the clone also disappears to give the player a chance to reset:
 
-![duszek pomarańczy](images/orange-sprite.png)
+![orange sprite](images/orange-sprite.png)
 
 ```blocks3
     kiedy otrzymam [trafienie v]
@@ -139,9 +141,9 @@ usuń tego klona
 
 \--- task \---
 
-Zmodyfikuj kod swojego duszka `statku kosmicznego`, aby zmieniał kostium na "trafiony", gdy dotknie duszka `Hipcia` lub duszka `Pomarańczy`:
+Modify the code of your `Spaceship` sprite so that the sprite is "hit" when it touches a `Hippo` sprite or an `Orange` sprite:
 
-![duszek rakiety](images/rocket-sprite.png)
+![rocket sprite](images/rocket-sprite.png)
 
 ```blocks3
     czekaj aż <<touching (Hippo1 v)?> lub <touching (Orange v)?>>
@@ -151,6 +153,6 @@ Zmodyfikuj kod swojego duszka `statku kosmicznego`, aby zmieniał kostium na "tr
 
 \--- task \---
 
-Przetestuj swoją grę. Co się stanie, jeśli statek kosmiczny zostanie uderzony spadającą pomarańczą?
+Test your game. What happens if the spaceship gets hit by a falling orange?
 
 \--- /task \---
