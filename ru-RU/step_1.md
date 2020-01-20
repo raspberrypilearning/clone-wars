@@ -29,11 +29,9 @@
 
 \--- /print-only \---
 
-\--- collapse \---
+## \--- collapse \---
 
-* * *
-
-## title: Что тебе понадобится
+## title: What you will need
 
 ### Оборудование
 
@@ -45,15 +43,13 @@
 
 ### Загрузки
 
-[Найди скачанные файлы здесь](http://rpf.io/p/en/clone-wars-go).
+[Find the downloads here](http://rpf.io/p/en/clone-wars-go).
 
 \--- /collapse \---
 
-\--- collapse \---
+## \--- collapse \---
 
-* * *
-
-## title: Чему ты научишься
+## title: What you will learn
 
 + Как сделать перемещение спрайтов с помощью клавиатуры
 + Как клонировать спрайты, чтобы сделать их копии
@@ -61,18 +57,16 @@
 
 \--- /collapse \---
 
-\--- collapse \---
+## \--- collapse \---
 
-* * *
-
-## title: Дополнительные заметки для педагогов
+## title: Additional notes for educators
 
 \--- no-print \---
 
-Если ты хочешь распечатать этот проект, то воспользуйся [версией для печати](https://projects.raspberrypi.org/en/projects/clone-wars/print){:target="_blank"}.
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/clone-wars/print){:target="_blank"}.
 
 \--- /no-print \---
 
-Здесь ты можешь найти [завершенные проекты](http://rpf.io/p/en/clone-wars-get).
+You can find the [completed project here](http://rpf.io/p/en/clone-wars-get).
 
 \--- /collapse \---
