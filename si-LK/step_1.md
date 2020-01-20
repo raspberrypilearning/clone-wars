@@ -29,11 +29,9 @@ Score as many points as you can by shooting flying space-hippos. If you get hit 
 
 \--- /print-only \---
 
-\--- collapse \---
+## \--- collapse \---
 
-* * *
-
-## title: ඔබට අවශ්‍ය දේ
+## title: What you will need
 
 ### දෘඩාංග(Hardware)
 
@@ -49,11 +47,9 @@ Score as many points as you can by shooting flying space-hippos. If you get hit 
 
 \--- /collapse \---
 
-\--- collapse \---
+## \--- collapse \---
 
-* * *
-
-## title: ඔබ ඉගෙන ගන්නා දේ
+## title: What you will learn
 
 + How to make sprites move using keyboard input
 + How to clone sprites to make copies of them
@@ -61,18 +57,16 @@ Score as many points as you can by shooting flying space-hippos. If you get hit 
 
 \--- /collapse \---
 
-\--- collapse \---
+## \--- collapse \---
 
-* * *
-
-## title: අධ්‍යාපකයන්(educators) සඳහා අමතර තොරතුරු
+## title: Additional notes for educators
 
 \--- no-print \---
 
-ඔබට මෙම ව්‍යාපෘතිය මුද්‍රණය කිරීමට අවශ්‍ය නම්, කරුණාකර [මුද්‍රණ-හිතකාමී අනුවාදය(printer-friendly version)](https://projects.raspberrypi.org/en/projects/clone-wars/print){:target="_blank"} භාවිතා කරන්න.
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/clone-wars/print){:target="_blank"}.
 
 \--- /no-print \---
 
-[සම්පුර්ණ කරන ලද ව්‍යාපෘතිය(completed project here)](http://rpf.io/p/en/clone-wars-get){:target="_blank"} ඔබට මෙහිදී බලගත හැකිය.
+You can find the [completed project here](http://rpf.io/p/en/clone-wars-get).
 
 \--- /collapse \---
