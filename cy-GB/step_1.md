@@ -29,11 +29,9 @@ Sgoria cymaint o bwyntiau ag sy'n bosib wrth saethu hippos-gofod sy'n hedfan. Os
 
 \--- /print-only \---
 
-\---collapse\---
+## \--- collapse \---
 
-* * *
-
-## title: Beth fydd ei angen arno ti
+## title: What you will need
 
 ### Caledwedd
 
@@ -45,15 +43,13 @@ Sgoria cymaint o bwyntiau ag sy'n bosib wrth saethu hippos-gofod sy'n hedfan. Os
 
 ### Lawrlwythiadau
 
-[Ffeiliau i'w lawrlwytho yma](http://rpf.io/p/en/clone-wars-go).
+[Find the downloads here](http://rpf.io/p/en/clone-wars-go).
 
 \--- /collapse \---
 
-\---collapse\---
+## \--- collapse \---
 
-* * *
-
-## title: Yr hyn byddi di'n ei ddysgu
+## title: What you will learn
 
 + Sut i wneud i gorluniau symud gan ddefnyddio'r bysellfwrdd
 + Sut i glonio corluniau i wneud copïau ohonynt
@@ -61,18 +57,16 @@ Sgoria cymaint o bwyntiau ag sy'n bosib wrth saethu hippos-gofod sy'n hedfan. Os
 
 \--- /collapse \---
 
-\---collapse\---
+## \--- collapse \---
 
-* * *
-
-## title: Gwybodaeth ychwanegol i addysgwyr
+## title: Additional notes for educators
 
 \--- no-print \---
 
-Os oes angen i chi argraffu y prosiect, defnyddiwch [fersiwn i'w argraffu](https://projects.raspberrypi.org/en/projects/clone-wars/print){:target="_blank"}.
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/clone-wars/print){:target="_blank"}.
 
 \--- /no-print \---
 
-Gallwch ddod o hyd i'r prosiect gorffenedig [ yma ](http://rpf.io/p/en/clone-wars-get).
+You can find the [completed project here](http://rpf.io/p/en/clone-wars-get).
 
 \--- /collapse \---
