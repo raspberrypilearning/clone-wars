@@ -57,7 +57,9 @@ next costume
 
 \--- /hint \---
 
-\--- hint \--- You code should look like this:
+\--- hint \---
+
+You code should look like this:
 
 ```blocks3
 when flag clicked
@@ -75,7 +77,7 @@ end
 
 \--- /hints \---
 
-\---tâche\---
+\--- /task \---
 
 Now make the bat throw oranges!
 
@@ -83,11 +85,11 @@ Now make the bat throw oranges!
 
 Add an `Orange` sprite from the Scratch library.
 
-![capture d'écran](images/invaders-orange.png)
+![screenshot](images/invaders-orange.png)
 
-\---tâche\---
+\--- /task \---
 
-\---tâche\---
+\--- task \---
 
 Add code to your bat so that `when the flag is clicked`{:class="block3events"}, the `Bat` sprite `forever`{:class="block3control"} `waits`{:class="block3control"} for a `random`{:class="block3operators"} length of time between `5 to 10`{:class="block3operators"} seconds and then `creates a clone`{:class="block3control"} of the `Orange` sprite.
 
@@ -103,7 +105,7 @@ end
 
 \--- /task \---
 
-\---tâche\---
+\--- task \---
 
 Add code to the `Orange` to make each of its clone drop, starting from the `Bat` sprite and falling towards the bottom of the Stage.
 
@@ -122,9 +124,9 @@ Add code to the `Orange` to make each of its clone drop, starting from the `Bat`
     delete this clone
 ```
 
-\---tâche\---
+\--- /task \---
 
-\---tâche\---
+\--- task \---
 
 Add some more code to the `Orange` sprite so that when an `Orange` clone hits the `Spaceship` sprite, the clone also disappears to give the player a chance to reset:
 
@@ -137,7 +139,7 @@ Add some more code to the `Orange` sprite so that when an `Orange` clone hits th
 
 \--- /task \---
 
-\---tâche\---
+\--- task \---
 
 Modify the code of your `Spaceship` sprite so that the sprite is "hit" when it touches a `Hippo` sprite or an `Orange` sprite:
 
@@ -153,4 +155,4 @@ Modify the code of your `Spaceship` sprite so that the sprite is "hit" when it t
 
 Test your game. What happens if the spaceship gets hit by a falling orange?
 
-\---tâche\---
+\--- /task \---
