@@ -29,11 +29,9 @@ Score as many points as you can by shooting flying space-hippos. If you get hit 
 
 \--- /print-only \---
 
-\--- sụp đổ \---
+## \--- collapse \---
 
-* * *
-
-## tiêu đề: Những gì bạn sẽ cần
+## title: What you will need
 
 ### Phần cứng
 
@@ -49,11 +47,9 @@ Score as many points as you can by shooting flying space-hippos. If you get hit 
 
 \--- /collapse \---
 
-\--- sụp đổ \---
+## \--- collapse \---
 
-* * *
-
-## tiêu đề: bạn sẽ học được gì
+## title: What you will learn
 
 + How to make sprites move using keyboard input
 + How to clone sprites to make copies of them
@@ -61,17 +57,15 @@ Score as many points as you can by shooting flying space-hippos. If you get hit 
 
 \--- /collapse \---
 
-\--- sụp đổ \---
+## \--- collapse \---
 
-* * *
+## title: Additional notes for educators
 
-## tiêu đề: Ghi chú bổ sung cho các nhà giáo dục
+\--- no-print \---
 
-\--- không in \---
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/clone-wars/print){:target="_blank"}.
 
-Nếu bạn cần in dự án này, vui lòng sử dụng [bản in](https://projects.raspberrypi.org/en/projects/clone-wars/print){:target="_ blank"}.
-
-\--- / không in \---
+\--- /no-print \---
 
 You can find the [completed project here](http://rpf.io/p/en/clone-wars-get).
 
