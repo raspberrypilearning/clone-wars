@@ -57,7 +57,9 @@ next costume
 
 \--- /hint \---
 
-\--- hint \--- You code should look like this:
+\--- hint \---
+
+You code should look like this:
 
 ```blocks3
 when flag clicked
