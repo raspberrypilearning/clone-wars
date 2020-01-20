@@ -57,7 +57,9 @@ end
 
 \--- hint/ \---
 
-\--- hint \--- يجب أن تبدو التعليمة البرمجية خاصتك بالشكل التالي:
+\--- hint \---
+
+You code should look like this:
 
 ```blocks3
 عند نقر ⚑
@@ -71,27 +73,27 @@ end
 end
 ```
 
-\--- hint/ \---
+\--- /hint \---
 
-\--- hints/ \---
-
-\--- /task \---
-
-والآن، لنجعل الخفاش يرمي البرتقال!
-
-\--- task \---
-
-أضف كائن `Orange` جديدًا من مكتبة سكراتش.
-
-![لقطة الشاشة](images/invaders-orange.png)
+\--- /hints \---
 
 \--- /task \---
 
+Now make the bat throw oranges!
+
 \--- task \---
 
-أضف رمزًا إلى خفاشك بحيث ` عند النقر على العلم ` {: class = "block3events"}، فإن كائن `الخفاش` ` إلى الأبد ` {: class = "block3control"} ` ينتظر ` {: class = "block3control"} فترة زمنية عشوائية ` ` {: class = "block3operators"}، بين ` ٥ إلى ١٠ ` {: class = "block3operators"} ثانية، ثم ` ينشيء نسخة ` {: class = "block3control"} من كائن ` البرتقالة `.
+Add an `Orange` sprite from the Scratch library.
 
-![كائن الخفاش](images/bat-sprite.png)
+![screenshot](images/invaders-orange.png)
+
+\--- /task \---
+
+\--- task \---
+
+Add code to your bat so that `when the flag is clicked`{:class="block3events"}, the `Bat` sprite `forever`{:class="block3control"} `waits`{:class="block3control"} for a `random`{:class="block3operators"} length of time between `5 to 10`{:class="block3operators"} seconds and then `creates a clone`{:class="block3control"} of the `Orange` sprite.
+
+![bat sprite](images/bat-sprite.png)
 
 ```blocks3
 عند نقر ⚑
@@ -105,9 +107,9 @@ end
 
 \--- task \---
 
-أضف التعليمات البرمجية إلى كائن ` البرتقالة ` لجعل كل من نسخة تسقط ، بدءا من كائن ` الخفاش ` نحو أسفل المنصة.
+Add code to the `Orange` to make each of its clone drop, starting from the `Bat` sprite and falling towards the bottom of the Stage.
 
-![كائن البرتقالة](images/orange-sprite.png)
+![orange sprite](images/orange-sprite.png)
 
 ```blocks3
     عند نقر ⚑
@@ -126,9 +128,9 @@ end
 
 \--- task \---
 
-أضف بعض التعليمات البرمجية الأخرى إلى كائن البرتقالة `Orange` بحيث عندما تصطدم `برتقالة` بكائن سفينة الفضاء `Spaceship`، يختفي النسخة هي الآخرى لتعطي اللاعب فرصة لاستعادة قوته:
+Add some more code to the `Orange` sprite so that when an `Orange` clone hits the `Spaceship` sprite, the clone also disappears to give the player a chance to reset:
 
-![كائن البرتقالة](images/orange-sprite.png)
+![orange sprite](images/orange-sprite.png)
 
 ```blocks3
     عندما تستقبل [hit v]
@@ -139,9 +141,9 @@ end
 
 \--- task \---
 
-ستحتاج أيضًا إلى تعديل التعليمة البرمجية في الكائن `Spaceship` بحيث يصطدم عندما يلامس كائن `Hippo` أو كائن `Orange`:
+Modify the code of your `Spaceship` sprite so that the sprite is "hit" when it touches a `Hippo` sprite or an `Orange` sprite:
 
-![كائن الصاروخ](images/rocket-sprite.png)
+![rocket sprite](images/rocket-sprite.png)
 
 ```blocks3
     انتظر حتى <<touching (Hippo1 v)?> أو<touching (Orange v)?>>
@@ -151,6 +153,6 @@ end
 
 \--- task \---
 
-اختبر لعبتك. ماذا سيحدث إذا اصطدمت السفينة ببرتقالة ساقطة؟
+Test your game. What happens if the spaceship gets hit by a falling orange?
 
 \--- /task \---
