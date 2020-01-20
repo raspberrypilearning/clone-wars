@@ -29,11 +29,9 @@ Fă cât mai multe puncte trăgând în hipopotamii zburători din spațiu. Dac�
 
 \--- /print-only \---
 
-\--- collapse \---
+## \--- collapse \---
 
-* * *
-
-## title: De ce vei avea nevoie
+## title: What you will need
 
 ### Hardware
 
@@ -45,15 +43,13 @@ Fă cât mai multe puncte trăgând în hipopotamii zburători din spațiu. Dac�
 
 ### Fișiere descărcabile
 
-[Găsești fișierele descărcabile aici](http://rpf.io/p/en/clone-wars-go).
+[Find the downloads here](http://rpf.io/p/en/clone-wars-go).
 
 \--- /collapse \---
 
-\--- collapse \---
+## \--- collapse \---
 
-* * *
-
-## title: Ce vei învăța
+## title: What you will learn
 
 + Cum să miști un personaj folosind tastatura
 + Cum să clonezi personaje făcând copii ale lor
@@ -61,18 +57,16 @@ Fă cât mai multe puncte trăgând în hipopotamii zburători din spațiu. Dac�
 
 \--- /collapse \---
 
-\--- collapse \---
+## \--- collapse \---
 
-* * *
-
-## title: Informații suplimentare pentru educatori
+## title: Additional notes for educators
 
 \--- no-print \---
 
-Dacă trebuie să printezi acest proiect, folosește [versiunea printabilă](https://projects.raspberrypi.org/en/projects/clone-wars/print){:target="_blank"}.
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/clone-wars/print){:target="_blank"}.
 
 \--- /no-print \---
 
-Poți găsi [ proiectul finalizat aici](http://rpf.io/p/en/clone-wars-get).
+You can find the [completed project here](http://rpf.io/p/en/clone-wars-get).
 
 \--- /collapse \---
