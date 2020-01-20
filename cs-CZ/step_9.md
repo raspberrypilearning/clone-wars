@@ -57,7 +57,9 @@ next costume
 
 \--- /tip \---
 
-\--- hint \--- You code should look like this:
+\--- hint \---
+
+You code should look like this:
 
 ```blocks3
 when flag clicked
@@ -71,9 +73,9 @@ if on edge, bounce
 end
 ```
 
-\--- /tip \---
+\--- /hint \---
 
-\--- /tipy \---
+\--- /hints \---
 
 \--- /task \---
 
