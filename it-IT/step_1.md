@@ -29,11 +29,9 @@ Fai quanti più punti possibile sparando agli ippopotami spaziali volanti. Perde
 
 \--- /print-only \---
 
-\--- collapse \---
+## \--- collapse \---
 
-* * *
-
-## title: Di cosa avrai bisogno
+## title: What you will need
 
 ### Hardware
 
@@ -45,15 +43,13 @@ Fai quanti più punti possibile sparando agli ippopotami spaziali volanti. Perde
 
 ### Download
 
-[Trova i download qui ](http://rpf.io/p/en/clone-wars-go).
+[Find the downloads here](http://rpf.io/p/en/clone-wars-go).
 
 \--- /collapse \---
 
-\--- collapse \---
+## \--- collapse \---
 
-* * *
-
-## title: Cosa imparerai
+## title: What you will learn
 
 + Come far muovere gli sprite usando l'input da tastiera
 + Come clonare gli sprite per farne delle copie
@@ -61,18 +57,16 @@ Fai quanti più punti possibile sparando agli ippopotami spaziali volanti. Perde
 
 \--- /collapse \---
 
-\--- collapse \---
+## \--- collapse \---
 
-* * *
-
-## title: Note addizionali per gli educatori
+## title: Additional notes for educators
 
 \--- no-print \---
 
-Se intendete stampare questo progetto, cliccate su [Versione stampabile](https://projects.raspberrypi.org/en/projects/clone-wars/print){:target = "_ blank"}.
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/clone-wars/print){:target="_blank"}.
 
 \--- /no-print \---
 
-Puoi trovare il [progetto completo qui](http://rpf.io/p/en/clone-wars-get){: target="_blank.
+You can find the [completed project here](http://rpf.io/p/en/clone-wars-get).
 
 \--- /collapse \---
