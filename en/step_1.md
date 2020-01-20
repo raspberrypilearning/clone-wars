@@ -30,7 +30,6 @@ Score as many points as you can by shooting flying space-hippos. If you get hit 
 --- /print-only ---
 
 --- collapse ---
-
 ---
 title: What you will need
 ---
@@ -50,7 +49,6 @@ title: What you will need
 --- /collapse ---
 
 --- collapse ---
-
 ---
 title: What you will learn
 ---
@@ -62,7 +60,6 @@ title: What you will learn
 --- /collapse ---
 
 --- collapse ---
-
 ---
 title: Additional notes for educators
 ---

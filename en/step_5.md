@@ -28,6 +28,7 @@ Add some code to hide the `Hippo` sprite when the game starts.
 when green flag clicked
 hide
 ```
+
 --- /task ---
 
 --- task ---
