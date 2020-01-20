@@ -29,11 +29,9 @@
 
 \--- /print-only \---
 
-\--- collapse \---
+## \--- collapse \---
 
-* * *
-
-## title: ما ستحتاج إليه
+## title: What you will need
 
 ### الأجهزة
 
@@ -45,15 +43,13 @@
 
 ### للتحميل
 
-[ابحث عن الملفات لتحميلها هنا](http://rpf.io/p/en/clone-wars-go).
+[Find the downloads here](http://rpf.io/p/en/clone-wars-go).
 
 \--- /collapse \---
 
-\--- collapse \---
+## \--- collapse \---
 
-* * *
-
-## title: ما الذي ستتعلمه
+## title: What you will learn
 
 + كيفية جعل الكائنات تتحرك باستخدام مدخلات لوحة المفاتيح
 + كيفية استنساخ الكائنات لعمل نسخ منها
@@ -61,18 +57,16 @@
 
 \--- /collapse \---
 
-\--- collapse \---
+## \--- collapse \---
 
-* * *
-
-## عنوان: معلومات اضافية للمعلمين
+## title: Additional notes for educators
 
 \--- no-print \---
 
-إذا كنت بحاجة إلى طباعة هذا المشروع ، فالرجاء استخدام الإصدار [الملائم للطابعة](https://projects.raspberrypi.org/en/projects/clone-wars/print){:target="_blank"}.
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/clone-wars/print){:target="_blank"}.
 
 \--- /no-print \---
 
-يمكنك ايجاد [المشروع كامل هنا](http://rpf.io/p/en/clone-wars-get).
+You can find the [completed project here](http://rpf.io/p/en/clone-wars-get).
 
 \--- /collapse \---
