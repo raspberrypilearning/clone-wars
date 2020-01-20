@@ -29,9 +29,7 @@ Score as many points as you can by shooting flying space-hippos. If you get hit 
 
 \--- /print-only \---
 
-\--- collapse \---
-
-* * *
+## \--- collapse \---
 
 ## title: What you will need
 
@@ -49,9 +47,7 @@ Score as many points as you can by shooting flying space-hippos. If you get hit 
 
 \--- /collapse \---
 
-\--- collapse \---
-
-* * *
+## \--- collapse \---
 
 ## title: What you will learn
 
@@ -61,9 +57,7 @@ Score as many points as you can by shooting flying space-hippos. If you get hit 
 
 \--- /collapse \---
 
-\--- collapse \---
-
-* * *
+## \--- collapse \---
 
 ## title: Additional notes for educators
 
