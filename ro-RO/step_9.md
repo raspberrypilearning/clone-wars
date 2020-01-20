@@ -57,7 +57,9 @@ costumul următor
 
 \--- /hint \---
 
-\--- hint \--- Codul tău ar trebui să arate așa:
+\--- hint \---
+
+You code should look like this:
 
 ```blocks3
 când se dă click pe stegulețul verde
@@ -77,21 +79,21 @@ end
 
 \--- /task \---
 
-Acum fă ca liliacul să arunce portocale!
+Now make the bat throw oranges!
 
 \--- task \---
 
-Adaugă un personaj `Portocală` din biblioteca Scratch.
+Add an `Orange` sprite from the Scratch library.
 
-![captură de ecran](images/invaders-orange.png)
+![screenshot](images/invaders-orange.png)
 
 \--- /task \---
 
 \--- task \---
 
-Adaugă cod liliacului tău, astfel încât `când se dă click pe stegulețul verde`{:class="block3events"}, personajul `Liliac` `la infinit`{:class="block3control"} `așteaptă`{:class="block3control"} pentru o perioadă `aleatorie`{:class="block3operators"} de timp între `5 și 10`{:class="block3operators"} secunde și apoi `creează o clonă`{:class="block3control"} a personajului `Portocală`.
+Add code to your bat so that `when the flag is clicked`{:class="block3events"}, the `Bat` sprite `forever`{:class="block3control"} `waits`{:class="block3control"} for a `random`{:class="block3operators"} length of time between `5 to 10`{:class="block3operators"} seconds and then `creates a clone`{:class="block3control"} of the `Orange` sprite.
 
-![personaj liliac](images/bat-sprite.png)
+![bat sprite](images/bat-sprite.png)
 
 ```blocks3
 când se dă click pe stegulețul verde
@@ -105,9 +107,9 @@ end
 
 \--- task \---
 
-Adaugă cod personajului `Portocală` pentru a face ca fiecare dintre clonele sale să cadă, pornind de la personajul `Liliac` și căzând spre partea de jos a Scenei.
+Add code to the `Orange` to make each of its clone drop, starting from the `Bat` sprite and falling towards the bottom of the Stage.
 
-![personaj portocală](images/orange-sprite.png)
+![orange sprite](images/orange-sprite.png)
 
 ```blocks3
     când se dă click pe stegulețul verde
@@ -126,9 +128,9 @@ end
 
 \--- task \---
 
-Adaugă cod personajului `Portocală` astfel încât atunci când o clonă `Portocală` lovește personajul `Navă Spațială`, clona dispare pentru a da jucătorului șansa de a reseta:
+Add some more code to the `Orange` sprite so that when an `Orange` clone hits the `Spaceship` sprite, the clone also disappears to give the player a chance to reset:
 
-![personaj portocală](images/orange-sprite.png)
+![orange sprite](images/orange-sprite.png)
 
 ```blocks3
     când primesc [lovit v]
@@ -139,9 +141,9 @@ Adaugă cod personajului `Portocală` astfel încât atunci când o clonă `Port
 
 \--- task \---
 
-Modifică codul personajului tau `Navă Spațială`, astfel încât personajul devine „lovit” atunci când atinge un personaj `Hippo` sau un personaj `Portocală`:
+Modify the code of your `Spaceship` sprite so that the sprite is "hit" when it touches a `Hippo` sprite or an `Orange` sprite:
 
-![personaj rachetă](images/rocket-sprite.png)
+![rocket sprite](images/rocket-sprite.png)
 
 ```blocks3
     așteaptă până când <<atinge (Hippo1 v)?> sau <atinge (Portocală v)?>>
@@ -151,6 +153,6 @@ Modifică codul personajului tau `Navă Spațială`, astfel încât personajul d
 
 \--- task \---
 
-Testează-ți jocul. Ce se întâmplă dacă nava spațială este lovită de o portocală în cădere?
+Test your game. What happens if the spaceship gets hit by a falling orange?
 
 \--- /task \---
