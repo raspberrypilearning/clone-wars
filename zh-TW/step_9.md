@@ -57,7 +57,9 @@
 
 \--- /提示\---
 
-\---提示\--- 您的代碼應如下所示：
+\--- hint \---
+
+You code should look like this:
 
 ```blocks3
 當標誌點擊
@@ -71,27 +73,27 @@
 結束
 ```
 
-\--- /提示\---
+\--- /hint \---
 
-\--- /提示\---
+\--- /hints \---
 
-\--- /任務\---
+\--- /task \---
 
-現在讓蝙蝠扔掉橘子！
+Now make the bat throw oranges!
 
-\---任務\---
+\--- task \---
 
-從Scratch庫中添加 `Orange` 精靈。
+Add an `Orange` sprite from the Scratch library.
 
-![截圖](images/invaders-orange.png)
+![screenshot](images/invaders-orange.png)
 
-\--- /任務\---
+\--- /task \---
 
-\---任務\---
+\--- task \---
 
-將代碼添加到你的蝙蝠，使得 `當標誌被點擊`{：類=“block3events”}，該 `蝙蝠` 子畫面 `永遠`{：類=“block3control”} `等待`{：類=“block3control”}對於 `隨機的`{：class =“block3operators”}時間長度在 `5到10`{：class =“block3operators”}秒然後 `創建一個克隆`{：class =“block3control”}的 `Orange` 精靈。
+Add code to your bat so that `when the flag is clicked`{:class="block3events"}, the `Bat` sprite `forever`{:class="block3control"} `waits`{:class="block3control"} for a `random`{:class="block3operators"} length of time between `5 to 10`{:class="block3operators"} seconds and then `creates a clone`{:class="block3control"} of the `Orange` sprite.
 
-![蝙蝠精靈](images/bat-sprite.png)
+![bat sprite](images/bat-sprite.png)
 
 ```blocks3
 當標誌點擊
@@ -101,13 +103,13 @@
 結束
 ```
 
-\--- /任務\---
+\--- /task \---
 
-\---任務\---
+\--- task \---
 
-將代碼添加到 `Orange` 以使其每個克隆下降，從 `Bat` 精靈開始並向舞台底部下降。
+Add code to the `Orange` to make each of its clone drop, starting from the `Bat` sprite and falling towards the bottom of the Stage.
 
-![橙色精靈](images/orange-sprite.png)
+![orange sprite](images/orange-sprite.png)
 
 ```blocks3
     當標記點擊時
@@ -122,35 +124,35 @@
     刪除此克隆
 ```
 
-\--- /任務\---
+\--- /task \---
 
-\---任務\---
+\--- task \---
 
-為 `Orange` 精靈添加更多代碼，這樣當 `Orange` 克隆擊中 `Spaceship` 精靈時，克隆也會消失，讓玩家有機會重置：
+Add some more code to the `Orange` sprite so that when an `Orange` clone hits the `Spaceship` sprite, the clone also disappears to give the player a chance to reset:
 
-![橙色精靈](images/orange-sprite.png)
+![orange sprite](images/orange-sprite.png)
 
 ```blocks3
     當我收到[點擊v]
     刪除此克隆
 ```
 
-\--- /任務\---
+\--- /task \---
 
-\---任務\---
+\--- task \---
 
-修改 `Spaceship` 精靈的代碼，以便精靈在接觸到 `Hippo` 精靈或 `橙色` 精靈時被“擊中”：
+Modify the code of your `Spaceship` sprite so that the sprite is "hit" when it touches a `Hippo` sprite or an `Orange` sprite:
 
-![火箭精靈](images/rocket-sprite.png)
+![rocket sprite](images/rocket-sprite.png)
 
 ```blocks3
     等到 < <touching (Hippo1 v)?> 或 <touching (Orange v)?>>
 ```
 
-\--- /任務\---
+\--- /task \---
 
-\---任務\---
+\--- task \---
 
-測試你的遊戲。如果宇宙飛船被落下的橙色擊中會發生什麼？
+Test your game. What happens if the spaceship gets hit by a falling orange?
 
-\--- /任務\---
+\--- /task \---
