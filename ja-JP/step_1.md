@@ -29,11 +29,9 @@
 
 \--- /print-only \---
 
-\--- collapse \---
+## \--- collapse \---
 
-* * *
-
-## title: 必要なもの
+## title: What you will need
 
 ### ハードウェア
 
@@ -45,15 +43,13 @@
 
 ### ダウンロード
 
-[ダウンロードはこちら](http://rpf.io/p/en/clone-wars-go)
+[Find the downloads here](http://rpf.io/p/en/clone-wars-go).
 
 \--- /collapse \---
 
-\--- collapse \---
+## \--- collapse \---
 
-* * *
-
-## title: 学習すること
+## title: What you will learn
 
 + キーボード入力を使ってスプライトを動かす方法
 + スプライトを複製してコピーする方法
@@ -61,18 +57,16 @@
 
 \--- /collapse \---
 
-\--- collapse \---
+## \--- collapse \---
 
-* * *
-
-## title：教育者向けの追加メモ
+## title: Additional notes for educators
 
 \--- no-print \---
 
-このプロジェクトを印刷する必要がある場合は、 [印刷用バージョン](https://projects.raspberrypi.org/en/projects/clone-wars/print){:target="_ blank"}を使用してください。
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/clone-wars/print){:target="_blank"}.
 
-印刷物はありません。
+\--- /no-print \---
 
-完成したプロジェクトはこちらで見つけることができます。
+You can find the [completed project here](http://rpf.io/p/en/clone-wars-get).
 
-爆発
+\--- /collapse \---
