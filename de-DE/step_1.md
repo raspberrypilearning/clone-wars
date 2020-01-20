@@ -29,11 +29,9 @@ Erziele so viele Punkte wie möglich, indem du fliegende Weltraum-Nilpferde absc
 
 \--- /print-only \---
 
-\--- collapse \---
+## \--- collapse \---
 
-* * *
-
-## title: Was du brauchen wirst
+## title: What you will need
 
 ### Hardware
 
@@ -45,15 +43,13 @@ Erziele so viele Punkte wie möglich, indem du fliegende Weltraum-Nilpferde absc
 
 ### Downloads
 
-[Hier findest du die Dateien zum herunterladen](http://rpf.io/p/en/clone-wars-go).
+[Find the downloads here](http://rpf.io/p/en/clone-wars-go).
 
 \--- /collapse \---
 
-\--- collapse \---
+## \--- collapse \---
 
-* * *
-
-## title: Was du lernen wirst
+## title: What you will learn
 
 + Wie du Figuren mithilfe von Tastatureingaben bewegen kannst
 + Wie du Figuren klonen kannst um Kopien von ihnen zu erstellen
@@ -61,18 +57,16 @@ Erziele so viele Punkte wie möglich, indem du fliegende Weltraum-Nilpferde absc
 
 \--- /collapse \---
 
-\--- collapse \---
+## \--- collapse \---
 
-* * *
-
-## title: Zusätzliche Hinweise für Pädagogen
+## title: Additional notes for educators
 
 \--- no-print \---
 
-Wenn du dieses Projekt ausdrucken möchtest, verwende die [druckerfreundliche Version](https://projects.raspberrypi.org/en/projects/clone-wars/print){:target="_blank"}.
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/clone-wars/print){:target="_blank"}.
 
 \--- /no-print \---
 
-Du findest das [abgeschlossene Projekt hier](http://rpf.io/p/en/clone-wars-get).
+You can find the [completed project here](http://rpf.io/p/en/clone-wars-get).
 
 \--- /collapse \---
