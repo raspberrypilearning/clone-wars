@@ -56,7 +56,9 @@ slijedeći kostim
 
 \--- /pomoć \---
 
-\--- hint \--- Vaš kôd treba izgledati ovako:
+\--- hint \---
+
+You code should look like this:
 
 ```blocks3
 kada je kliknuta zelena zastava
@@ -70,17 +72,17 @@ ako si na rubu, okreni se
 kraj
 ```
 
-\--- /pomoć \---
+\--- /hint \---
 
-\--- /pomoć \---
+\--- /hints \---
 
 \--- /task \---
 
-Napravite da šišmiš baca naranče!
+Now make the bat throw oranges!
 
 \--- task \---
 
-Dodajte lik `Naranča` iz Scratch knjižnice.
+Add an `Orange` sprite from the Scratch library.
 
 ![screenshot](images/invaders-orange.png)
 
@@ -104,7 +106,7 @@ kraj
 
 \--- task \---
 
-Dodaj naredbe liku `Naranča` kako bi svaki njegov klon ispustio, počevši od lika `Šišmiš` i padajući prema dnu pozornice.
+Add code to the `Orange` to make each of its clone drop, starting from the `Bat` sprite and falling towards the bottom of the Stage.
 
 ![orange sprite](images/orange-sprite.png)
 
@@ -125,7 +127,7 @@ Dodaj naredbe liku `Naranča` kako bi svaki njegov klon ispustio, počevši od l
 
 \--- task \---
 
-Dodajte još naredbi liku `Naranča` tako da kad njegov klon pogodi lik `Svemirski brod`, klon također nestane kako bi igrač ponovno započeo igru:
+Add some more code to the `Orange` sprite so that when an `Orange` clone hits the `Spaceship` sprite, the clone also disappears to give the player a chance to reset:
 
 ![orange sprite](images/orange-sprite.png)
 
@@ -138,9 +140,9 @@ Dodajte još naredbi liku `Naranča` tako da kad njegov klon pogodi lik `Svemirs
 
 \--- task \---
 
-Izmijenite kôd lika `Svemirskog brod` tako da je "pogođen" kada dodirne lik ` Nilski konj` ili lik `Naranča`:
+Modify the code of your `Spaceship` sprite so that the sprite is "hit" when it touches a `Hippo` sprite or an `Orange` sprite:
 
-![lik rakete](images/rocket-sprite.png)
+![rocket sprite](images/rocket-sprite.png)
 
 ```blocks3
     čekaj do <(dodiruje (Nilski konj1 v)) ili (dodiruje (Naranča v))>
@@ -150,6 +152,6 @@ Izmijenite kôd lika `Svemirskog brod` tako da je "pogođen" kada dodirne lik ` 
 
 \--- task \---
 
-Testirajte svoju igru. Što se događa ako svemirski brod pogodi padajuću naranču?
+Test your game. What happens if the spaceship gets hit by a falling orange?
 
 \--- /task \---
