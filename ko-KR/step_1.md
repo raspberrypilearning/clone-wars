@@ -29,11 +29,9 @@
 
 \--- /print-only \---
 
-\--- collapse \---
+## \--- collapse \---
 
-* * *
-
-## title: 준비물
+## title: What you will need
 
 ### 하드웨어
 
@@ -45,34 +43,30 @@
 
 ### 다운로드
 
-[여기에서 다운로드할 파일을 찾으십시오](http://rpf.io/p/en/clone-wars-go).
+[Find the downloads here](http://rpf.io/p/en/clone-wars-go).
 
--- /collapse \---
+\--- /collapse \---
 
-\--- collapse \---
+## \--- collapse \---
 
-* * *
-
-## title: 학습하게 될 것
+## title: What you will learn
 
 + 키보드를 활용하여 스프라이트를 이동시키는 방법
 + 스프라이트를 복제하는 방법
 + '브로드캐스트' 및 '블록 수신' 기능을 사용하여 메시지를 보내는 방법
 
-\--- /collapse \---
+-- /collapse \---
 
-\--- collapse \---
+## \--- collapse \---
 
-* * *
-
-## title: 교사를 위한 별도 지침
+## title: Additional notes for educators
 
 \--- no-print \---
 
-이 프로젝트를 인쇄하시려면 [프린트용 버전](https://projects.raspberrypi.org/en/projects/clone-wars/print){:target="_blank"}을 사용해 주십시오.
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/clone-wars/print){:target="_blank"}.
 
 \--- /no-print \---
 
-여기서 [완료된 프로젝트의 내용을 확인할 수 있습니다](http://rpf.io/p/en/clone-wars-get).
+You can find the [completed project here](http://rpf.io/p/en/clone-wars-get).
 
 \--- /collapse \---
