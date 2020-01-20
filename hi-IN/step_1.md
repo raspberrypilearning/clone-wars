@@ -29,11 +29,9 @@ Score as many points as you can by shooting flying space-hippos. If you get hit 
 
 \--- /print-only \---
 
-\--- collapse \---
+## \--- collapse \---
 
-* * *
-
-## title: आपको किन चीजों की आवश्यकता होगी
+## title: What you will need
 
 ### हार्डवेयर
 
@@ -49,11 +47,9 @@ Score as many points as you can by shooting flying space-hippos. If you get hit 
 
 \--- /collapse \---
 
-\--- collapse \---
+## \--- collapse \---
 
-* * *
-
-## title: आप क्या सीखेंगे
+## title: What you will learn
 
 + How to make sprites move using keyboard input
 + How to clone sprites to make copies of them
@@ -61,15 +57,13 @@ Score as many points as you can by shooting flying space-hippos. If you get hit 
 
 \--- /collapse \---
 
-\--- collapse \---
+## \--- collapse \---
 
-* * *
-
-## title: शिक्षकों के लिए अतिरिक्त टिप्पणियाँ
+## title: Additional notes for educators
 
 \--- no-print \---
 
-अगर आपको इस प्रोजेक्ट को प्रिंट करने की आवश्यकता है, तो कृप्या [प्रिंटर-अनुकूल संस्करण](https://projects.raspberrypi.org/en/projects/clone-wars/print){: target = "_ blank"} का उपयोग करें।
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/clone-wars/print){:target="_blank"}.
 
 \--- /no-print \---
 
