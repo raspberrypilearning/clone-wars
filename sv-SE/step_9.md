@@ -57,7 +57,9 @@ next costume
 
 \--- /hint \---
 
-\--- hint \--- You code should look like this:
+\--- hint \---
+
+You code should look like this:
 
 ```blocks3
 when flag clicked
@@ -79,15 +81,15 @@ end
 
 Now make the bat throw oranges!
 
-\--- uppgift \---
+\--- task \---
 
 Add an `Orange` sprite from the Scratch library.
 
-![skärmdump](images/invaders-orange.png)
+![screenshot](images/invaders-orange.png)
 
 \--- /task \---
 
-\--- uppgift \---
+\--- task \---
 
 Add code to your bat so that `when the flag is clicked`{:class="block3events"}, the `Bat` sprite `forever`{:class="block3control"} `waits`{:class="block3control"} for a `random`{:class="block3operators"} length of time between `5 to 10`{:class="block3operators"} seconds and then `creates a clone`{:class="block3control"} of the `Orange` sprite.
 
@@ -103,7 +105,7 @@ end
 
 \--- /task \---
 
-\--- uppgift \---
+\--- task \---
 
 Add code to the `Orange` to make each of its clone drop, starting from the `Bat` sprite and falling towards the bottom of the Stage.
 
@@ -124,7 +126,7 @@ Add code to the `Orange` to make each of its clone drop, starting from the `Bat`
 
 \--- /task \---
 
-\--- uppgift \---
+\--- task \---
 
 Add some more code to the `Orange` sprite so that when an `Orange` clone hits the `Spaceship` sprite, the clone also disappears to give the player a chance to reset:
 
