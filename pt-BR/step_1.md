@@ -29,11 +29,9 @@ Marque o máximo de pontos que você puder atirando nos hipopótamos espaciais v
 
 \--- /print-only \---
 
-\--- collapse \---
+## \--- collapse \---
 
-* * *
-
-## título: O que você precisará
+## title: What you will need
 
 ### Hardware
 
@@ -45,15 +43,13 @@ Marque o máximo de pontos que você puder atirando nos hipopótamos espaciais v
 
 ### Downloads
 
-[Encontre os arquivos para baixar aqui](http://rpf.io/p/en/clone-wars-go).
+[Find the downloads here](http://rpf.io/p/en/clone-wars-go).
 
 \--- /collapse \---
 
-\--- collapse \---
+## \--- collapse \---
 
-* * *
-
-## title: O que você vai aprender
+## title: What you will learn
 
 + Como fazer sprites se moverem usando o teclado
 + Como clonar sprites para fazer cópias deles
@@ -61,18 +57,16 @@ Marque o máximo de pontos que você puder atirando nos hipopótamos espaciais v
 
 \--- /collapse \---
 
-\--- collapse \---
+## \--- collapse \---
 
-* * *
-
-## título: Notas adicionais para educadores
+## title: Additional notes for educators
 
 \--- no-print \---
 
-Se você precisar imprimir este projeto, por favor, use a [versão para impressão](https://projects.raspberrypi.org/en/projects/clone-wars/print){:target="_blank"}.
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/clone-wars/print){:target="_blank"}.
 
 \--- /no-print \---
 
-Você pode encontrar o [projeto completo aqui](http://rpf.io/p/en/clone-wars-get).
+You can find the [completed project here](http://rpf.io/p/en/clone-wars-get).
 
 \--- /collapse \---
