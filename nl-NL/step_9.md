@@ -57,7 +57,9 @@ volgend uiterlijk
 
 \--- /hint \---
 
-\--- hint \--- Je code zou er zo uitzien:
+\--- hint \---
+
+You code should look like this:
 
 ```blocks3
 wanneer groene vlag wordt aangeklikt
@@ -77,11 +79,11 @@ einde
 
 \--- /task \---
 
-Nu laten we de vleermuis sinaasappels gooien!
+Now make the bat throw oranges!
 
 \--- task \---
 
-Voeg een nieuwe `Orange (sinaasappel)` sprite toe uit de Scratch-bibliotheek.
+Add an `Orange` sprite from the Scratch library.
 
 ![screenshot](images/invaders-orange.png)
 
@@ -89,9 +91,9 @@ Voeg een nieuwe `Orange (sinaasappel)` sprite toe uit de Scratch-bibliotheek.
 
 \--- task \---
 
-Voeg code toe aan je vleermuis zodat `wanneer op de groene vlag wordt geklikt`{:class="block3events"}, de `vleermuis` sprite `herhaal`{:class="block3control"} `wacht`{:class="block3control"} voor een `willekeurige`{:class="block3operators"} tijdsduur tussen `5 tot 10`{:class="block3operators"} seconden en vervolgens `een kloon maakt`{:class="block3control"} van de `sinaasappel` sprite.
+Add code to your bat so that `when the flag is clicked`{:class="block3events"}, the `Bat` sprite `forever`{:class="block3control"} `waits`{:class="block3control"} for a `random`{:class="block3operators"} length of time between `5 to 10`{:class="block3operators"} seconds and then `creates a clone`{:class="block3control"} of the `Orange` sprite.
 
-![vleermuis sprite](images/bat-sprite.png)
+![bat sprite](images/bat-sprite.png)
 
 ```blocks3
 wanneer groene vlag wordt aangeklikt
@@ -105,9 +107,9 @@ einde
 
 \--- task \---
 
-Voeg code toe aan de `sinaasappel` sprite om elke sinaasappel-kloon vanaf de `vleermuis` naar de onderkant van het speelveld te laten vallen.
+Add code to the `Orange` to make each of its clone drop, starting from the `Bat` sprite and falling towards the bottom of the Stage.
 
-![sinaasappel sprite](images/orange-sprite.png)
+![orange sprite](images/orange-sprite.png)
 
 ```blocks3
     wanneer groene vlag wordt aangeklikt
@@ -126,9 +128,9 @@ verwijder deze kloon
 
 \--- task \---
 
-Voeg wat meer code toe aan de`sinaasappel` sprite zodat wanneer een `sinaasappel` kloon de `ruimteschip` sprite raakt, de kloon ook verdwijnt om de speler een kans te geven om te resetten:
+Add some more code to the `Orange` sprite so that when an `Orange` clone hits the `Spaceship` sprite, the clone also disappears to give the player a chance to reset:
 
-![sinaasappel sprite](images/orange-sprite.png)
+![orange sprite](images/orange-sprite.png)
 
 ```blocks3
     wanneer ik signaal [hit v] ontvang
@@ -139,9 +141,9 @@ verwijder deze kloon
 
 \--- task \---
 
-Wijzig de code van je `ruimteschip` sprite zodat de sprite "geraakt" is wanneer het een `nijlpaard` of een `sinaasappel` sprite raakt:
+Modify the code of your `Spaceship` sprite so that the sprite is "hit" when it touches a `Hippo` sprite or an `Orange` sprite:
 
-![ruimteschip sprite](images/rocket-sprite.png)
+![rocket sprite](images/rocket-sprite.png)
 
 ```blocks3
     wacht tot < <raak ik (Hippo1 v)?> of <raak ik (Orange v)>>
@@ -151,6 +153,6 @@ Wijzig de code van je `ruimteschip` sprite zodat de sprite "geraakt" is wanneer 
 
 \--- task \---
 
-Test je spel. Wat gebeurt er als het ruimteschip geraakt wordt door een vallende sinaasappel?
+Test your game. What happens if the spaceship gets hit by a falling orange?
 
 \--- /task \---
