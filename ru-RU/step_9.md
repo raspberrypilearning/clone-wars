@@ -57,7 +57,9 @@
 
 \--- /hint \---
 
-\--- hint \--- Твой код должен выглядеть вот так:
+\--- hint \---
+
+You code should look like this:
 
 ```blocks3
 когда флаг нажат
@@ -77,21 +79,21 @@
 
 \--- /task \---
 
-Теперь сделай так, чтобы летучая мышь бросала апельсины!
+Now make the bat throw oranges!
 
 \--- task \---
 
-Добавь спрайт ` Апельсин ` из библиотеки Скретч.
+Add an `Orange` sprite from the Scratch library.
 
-![снимок экрана](images/invaders-orange.png)
+![screenshot](images/invaders-orange.png)
 
 \--- /task \---
 
 \--- task \---
 
-Добавь код к своей летучей мыши, чтобы ` когда флаг нажат ` {:class="block3events"}, спрайт ` летучая мышь ` ` повторять всегда ` {:class="block3control"} ` ждать ` {:class=block3control"} для промежутка времени ` выдать случайное ` {:class="block3operators"} ` от 5 до 10 ` {:class="block3operators"} секунд, а затем ` создать клон ` {:class="block3control"} спрайта ` Апельсин `.
+Add code to your bat so that `when the flag is clicked`{:class="block3events"}, the `Bat` sprite `forever`{:class="block3control"} `waits`{:class="block3control"} for a `random`{:class="block3operators"} length of time between `5 to 10`{:class="block3operators"} seconds and then `creates a clone`{:class="block3control"} of the `Orange` sprite.
 
-![спрайт летучей мыши](images/bat-sprite.png)
+![bat sprite](images/bat-sprite.png)
 
 ```blocks3
 когда флаг нажат
@@ -105,9 +107,9 @@
 
 \--- task \---
 
-Добавь код в ` Апельсин `, чтобы каждый из его клонов падал, начиная со спрайта ` летучей мыши ` и до уровня нижней части Сцены.
+Add code to the `Orange` to make each of its clone drop, starting from the `Bat` sprite and falling towards the bottom of the Stage.
 
-![спрайт апельсина](images/orange-sprite.png)
+![orange sprite](images/orange-sprite.png)
 
 ```blocks3
     когда флаг нажат
@@ -126,9 +128,9 @@
 
 \--- task \---
 
-Добавь еще немного кода в спрайт ` Апельсин ` для того, чтобы когда клон ` Апельсина ` ударяет спрайт ` Космический корабль `, клон также исчезнет, чтобы дать игроку возможность начать игру снова:
+Add some more code to the `Orange` sprite so that when an `Orange` clone hits the `Spaceship` sprite, the clone also disappears to give the player a chance to reset:
 
-![спрайт апельсина](images/orange-sprite.png)
+![orange sprite](images/orange-sprite.png)
 
 ```blocks3
     когда я получу [удар]
@@ -139,9 +141,9 @@
 
 \--- task \---
 
-Измени код спрайта своего ` Космического корабля `, так что спрайт "ударился", когда он касается спрайта ` Бегемот ` или спрайта ` Апельсин `:
+Modify the code of your `Spaceship` sprite so that the sprite is "hit" when it touches a `Hippo` sprite or an `Orange` sprite:
 
-![спрайт ракета](images/rocket-sprite.png)
+![rocket sprite](images/rocket-sprite.png)
 
 ```blocks3
     ждать до <touching (Hippo1 v)?> или <touching (Orange v)?>
@@ -151,6 +153,6 @@
 
 \--- task \---
 
-Проверь свою игру. Что произойдет, если космический корабль столкнётся с падающим апельсином?
+Test your game. What happens if the spaceship gets hit by a falling orange?
 
 \--- /task \---
