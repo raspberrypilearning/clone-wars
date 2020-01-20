@@ -56,7 +56,9 @@
 
 \--- /ヒント \---
 
-\---ヒント\--- コードは次のようになります。
+\--- hint \---
+
+You code should look like this:
 
 ```blocks3
 緑の旗が押されたとき
@@ -69,27 +71,27 @@
 （0.3）秒待つ
 ```
 
-\--- /ヒント \---
+\--- /hint \---
 
-\--- /ヒント \---
+\--- /hints \---
 
-\--- /課題 \---
+\--- /task \---
 
-コウモリがオレンジを投げるようにします！
+Now make the bat throw oranges!
 
-\--- 課題 \---
+\--- task \---
 
-スクラッチライブラリから オレンジのスプライトを追加します。
+Add an `Orange` sprite from the Scratch library.
 
-![スクリーンショット](images/invaders-orange.png)
+![screenshot](images/invaders-orange.png)
 
-\--- /課題 \---
+\--- /task \---
 
-\--- 課題 \---
+\--- task \---
 
-緑の旗が押されたとき ずっと 5から10までの乱数秒待つ オレンジのクローンを作る
+Add code to your bat so that `when the flag is clicked`{:class="block3events"}, the `Bat` sprite `forever`{:class="block3control"} `waits`{:class="block3control"} for a `random`{:class="block3operators"} length of time between `5 to 10`{:class="block3operators"} seconds and then `creates a clone`{:class="block3control"} of the `Orange` sprite.
 
-![コウモリのスプライト](images/bat-sprite.png)
+![bat sprite](images/bat-sprite.png)
 
 ```blocks3
 緑の旗が押されたとき
@@ -98,13 +100,13 @@
 オレンジのクローンを作る
 ```
 
-\--- /課題 \---
+\--- /task \---
 
-\--- 課題 \---
+\--- task \---
 
-コウモリはオレンジを落とすようにします。 ライブラリからオレンジのスプライトを追加します。
+Add code to the `Orange` to make each of its clone drop, starting from the `Bat` sprite and falling towards the bottom of the Stage.
 
-![オレンジのスプライト](images/orange-sprite.png)
+![orange sprite](images/orange-sprite.png)
 
 ```blocks3
     緑の旗が押されたとき
@@ -118,35 +120,35 @@
 　このクローンを削除する
 ```
 
-\--- /課題 \---
+\--- /task \---
 
-\--- 課題 \---
+\--- task \---
 
-オレンジのスプライトにさらにコードを追加して、オレンジのクローンが宇宙船に当たったときにもクローンを消して、プレーヤーにリセットの機会を与えます。
+Add some more code to the `Orange` sprite so that when an `Orange` clone hits the `Spaceship` sprite, the clone also disappears to give the player a chance to reset:
 
-![オレンジのスプライト](images/orange-sprite.png)
+![orange sprite](images/orange-sprite.png)
 
 ```blocks3
     「衝突した」のメッセージを受け取ったとき
 このクローンを削除する
 ```
 
-\--- /課題 \---
+\--- /task \---
 
-\--- 課題 \---
+\--- task \---
 
-宇宙船のスプライトのコードを修正して、 カバのスプライトまたはオレンジのスプライトに触れたときに、そのスプライトが爆発するようにします。
+Modify the code of your `Spaceship` sprite so that the sprite is "hit" when it touches a `Hippo` sprite or an `Orange` sprite:
 
-![ロケットスプライト](images/rocket-sprite.png)
+![rocket sprite](images/rocket-sprite.png)
 
 ```blocks3
     カバに触れた または オレンジに触れた まで待つ
 ```
 
-\--- /課題 \---
+\--- /task \---
 
-\--- 課題 \---
+\--- task \---
 
-ゲームをテストしてください。宇宙船がオレンジの落下に当たったら、どうなりますか？
+Test your game. What happens if the spaceship gets hit by a falling orange?
 
-\--- /課題 \---
+\--- /task \---
