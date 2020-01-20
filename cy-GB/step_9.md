@@ -57,7 +57,9 @@ gwisg nesaf
 
 \--- /hint \---
 
-\--- hint \--- Fe ddylai dy gôd edrych fel hyn:
+\--- hint \---
+
+You code should look like this:
 
 ```blocks3
 pan fo'r flag werdd yn cael ei glicio
@@ -77,21 +79,21 @@ end
 
 \--- /task \---
 
-Nawr gwna i'r ystlum daflu orennau!
+Now make the bat throw oranges!
 
 \--- task \---
 
-Ychwanega corlun `Oren` o'r llyfrgell Scratch.
+Add an `Orange` sprite from the Scratch library.
 
-![sgrinlun](images/invaders-orange.png)
+![screenshot](images/invaders-orange.png)
 
 \--- /task \---
 
 \--- task \---
 
-Ychwanega gôd fel `pan fo'r faner wedi ei glicio`{:class="block3events"}, bydd y corlun `Ystlum` `am byth`{:class="block3control"} `yn aros`{:class="block3control"} am hyd amser `ar hap`{:class="block3operators"} rhwng `5 a 10`{:class="block3operators"} eiliad ac yna `creu clôn`{:class="block3control"} o'r corlun `Oren`.
+Add code to your bat so that `when the flag is clicked`{:class="block3events"}, the `Bat` sprite `forever`{:class="block3control"} `waits`{:class="block3control"} for a `random`{:class="block3operators"} length of time between `5 to 10`{:class="block3operators"} seconds and then `creates a clone`{:class="block3control"} of the `Orange` sprite.
 
-![corlun ystlum](images/bat-sprite.png)
+![bat sprite](images/bat-sprite.png)
 
 ```blocks3
 pan fo'r flag werdd yn cael ei glicio
@@ -105,9 +107,9 @@ end
 
 \--- task \---
 
-Ychwanega gôd i'r `Oren` i wneud i bob clôn ollwng, yn cychwyn gyda'r `Ystlum` a chwympo tuag at waelod y Llwyfan.
+Add code to the `Orange` to make each of its clone drop, starting from the `Bat` sprite and falling towards the bottom of the Stage.
 
-![corlun oren](images/orange-sprite.png)
+![orange sprite](images/orange-sprite.png)
 
 ```blocks3
     pan fo'r flag werdd yn cael ei glicio
@@ -126,9 +128,9 @@ dileu y clôn hwn
 
 \--- task \---
 
-Ychwanega mwy o gôd i'r corlun `Oren` fel pan fo'r clôn `Oren` yn taro'r `Llong ofod`, mae'r clôn yn diflannu i roi cyfle i'r chwareuwr orffwys:
+Add some more code to the `Orange` sprite so that when an `Orange` clone hits the `Spaceship` sprite, the clone also disappears to give the player a chance to reset:
 
-![corlun oren](images/orange-sprite.png)
+![orange sprite](images/orange-sprite.png)
 
 ```blocks3
     pan rwy'n derbyn [ffrwydro v]
@@ -139,9 +141,9 @@ dileu y clôn hwn
 
 \--- task \---
 
-Addasa gôd y `Llong ofod` fel pan fo'r corlun yn cael ei "daro" mae'n cyffwrdd corlun `Hippo` neu `Oren`:
+Modify the code of your `Spaceship` sprite so that the sprite is "hit" when it touches a `Hippo` sprite or an `Orange` sprite:
 
-![corlun roced](images/rocket-sprite.png)
+![rocket sprite](images/rocket-sprite.png)
 
 ```blocks3
     aros hyd at <<cyffwrdd (Hippo1 v) ?> neu <cyffwrdd (Orange v) ?>>
@@ -151,6 +153,6 @@ Addasa gôd y `Llong ofod` fel pan fo'r corlun yn cael ei "daro" mae'n cyffwrdd 
 
 \--- task \---
 
-Profa dy gêm. Beth sy'n digwydd pan mae'r llong ofod yn cael ei daro gan oren?
+Test your game. What happens if the spaceship gets hit by a falling orange?
 
 \--- /task \---
