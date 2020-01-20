@@ -29,11 +29,9 @@ Score as many points as you can by shooting flying space-hippos. If you get hit 
 
 \--- /print-only \---
 
-\--- collapse \---
+## \--- collapse \---
 
-* * *
-
-## title: Hva du trenger
+## title: What you will need
 
 ### Maskinvare
 
@@ -49,11 +47,9 @@ Score as many points as you can by shooting flying space-hippos. If you get hit 
 
 \--- /collapse \---
 
-\--- collapse \---
+## \--- collapse \---
 
-* * *
-
-## title: Hva du vil lære
+## title: What you will learn
 
 + How to make sprites move using keyboard input
 + How to clone sprites to make copies of them
@@ -61,18 +57,16 @@ Score as many points as you can by shooting flying space-hippos. If you get hit 
 
 \--- /collapse \---
 
-\--- collapse \---
-
-* * *
+## \--- collapse \---
 
 ## title: Additional notes for educators
 
 \--- no-print \---
 
-Hvis du trenger å skrive ut dette prosjektet, bruk [utskriftsvennlig versjon](https://projects.raspberrypi.org/en/projects/clone-wars/print){:target="_blank"}.
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/clone-wars/print){:target="_blank"}.
 
 \--- /no-print \---
 
-Du kan finne det [ferdige prosjektet her](http://rpf.io/p/en/clone-wars-get).
+You can find the [completed project here](http://rpf.io/p/en/clone-wars-get).
 
 \--- /collapse \---
