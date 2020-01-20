@@ -56,7 +56,9 @@
 
 \--- /hint \---
 
-\--- 힌트 \--- 코드는 다음과 같이 보일 것입니다:
+\--- hint \---
+
+You code should look like this:
 
 ```blocks3
 초록색 깃발을 클릭했을 때
@@ -76,21 +78,21 @@
 
 \--- /task \---
 
-이제 박쥐에게 오렌지를 던지세요!
+Now make the bat throw oranges!
 
 \--- task \---
 
-스크래치 라이브러리에서 `오렌지` 스프라이트를 추가하세요.
+Add an `Orange` sprite from the Scratch library.
 
-![스크린샷](images/invaders-orange.png)
+![screenshot](images/invaders-orange.png)
 
 \--- /task \---
 
 \--- task \---
 
-박쥐 스프라이트에 다음 코드를 추가하세요. `초록색 깃발을 클릭했을 때`{:class="block3events"}, `박쥐` 스프라이트는 `무한반복`{:class="block3control"}한 후 `5 에서 10`{:class="block3operators"} 초 정도 `랜덤`{:class="block3operators"} 한 시간 동안 `대기`{:class="block3control"} 이후 `오렌지 스프라이트` 에 대한 `클론을 생성한다`{:class="block3control"}.
+Add code to your bat so that `when the flag is clicked`{:class="block3events"}, the `Bat` sprite `forever`{:class="block3control"} `waits`{:class="block3control"} for a `random`{:class="block3operators"} length of time between `5 to 10`{:class="block3operators"} seconds and then `creates a clone`{:class="block3control"} of the `Orange` sprite.
 
-![박쥐 스프라이트](images/bat-sprite.png)
+![bat sprite](images/bat-sprite.png)
 
 ```blocks3
 초록색 깃발이 클릭되었을 때
@@ -104,9 +106,9 @@
 
 \--- task \---
 
-`박쥐 `스프라이트부터 시작하게 무대 아래쪽에 향하여 낙하하듯 각각의 복제를 드롭하게 `오렌지`에 코드를 추가합니다.
+Add code to the `Orange` to make each of its clone drop, starting from the `Bat` sprite and falling towards the bottom of the Stage.
 
-![오렌지 스프라이트](images/orange-sprite.png)
+![orange sprite](images/orange-sprite.png)
 
 ```blocks3
     초록색 깃발이 클릭되었을 때
@@ -123,9 +125,9 @@
 
 \--- task \---
 
-`오렌지` 스프라이트에 더 코드를 추가하여 `오렌지` 클론이 `우주선` 스프라이트에 맞았을 때에는 클론을 해제하고 플레이어에게 리셋을 할 수 있도록 기회를 줍니다. 
+Add some more code to the `Orange` sprite so that when an `Orange` clone hits the `Spaceship` sprite, the clone also disappears to give the player a chance to reset:
 
-![오렌지 스프라이트](images/orange-sprite.png)
+![orange sprite](images/orange-sprite.png)
 
 ```blocks3
     [hit v] 신호를 받았을 때
@@ -136,9 +138,9 @@
 
 \--- task \---
 
-`우주선` 스프라이트의 코드를 수정하고 `하마` 스프라이트 또는 `오렌지` 스프라이트를 건드렸을 때 그 스프라이트가 "맞도록" 하겠습니다. 
+Modify the code of your `Spaceship` sprite so that the sprite is "hit" when it touches a `Hippo` sprite or an `Orange` sprite:
 
-![로켓 스프라이트](images/rocket-sprite.png)
+![rocket sprite](images/rocket-sprite.png)
 
 ```blocks3
     < <touching (Hippo1 v)?> 또는 <touching (Orange v)?> > 까지 기다리기
@@ -148,6 +150,6 @@
 
 \--- task \---
 
-게임을 테스트 해보십시오. 우주선이 주황색으로 타격을 받으면 어떻게 될까요?
+Test your game. What happens if the spaceship gets hit by a falling orange?
 
 \--- /task \---
