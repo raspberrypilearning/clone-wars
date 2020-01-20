@@ -57,7 +57,9 @@ wechsle zum nächsten Kostüm
 
 \--- /hint \---
 
-\--- hint \--- Dein Code sollte so aussehen:
+\--- hint \---
+
+You code should look like this:
 
 ```blocks3
 Wenn die grüne Flagge angeklickt
@@ -77,21 +79,21 @@ end
 
 \--- /task \---
 
-Jetzt lass die Fledermaus Orangen werfen!
+Now make the bat throw oranges!
 
 \--- task \---
 
-Füge einr `Orange` Figur aus der Scratch-Bibliothek hinzu.
+Add an `Orange` sprite from the Scratch library.
 
-![Screenshot](images/invaders-orange.png)
+![screenshot](images/invaders-orange.png)
 
 \--- /task \---
 
 \--- task \---
 
-Füge Code zu deiner Fledermaus hinzu, sodass `wenn die Flagge angeklickt wird`{:class="block3events"}, die `Bat`-Figur `fortlaufend`{:class="block3control"} für eine `zufällige`{:class="block3operators"} Zeit, zwischen `5 und 10`{:class="block3operators"} Sekunden, `wartet`{:class="block3control"} und dann von der `Orange`-Figur `einen Klon erstellt`{:class="block3control"}.
+Add code to your bat so that `when the flag is clicked`{:class="block3events"}, the `Bat` sprite `forever`{:class="block3control"} `waits`{:class="block3control"} for a `random`{:class="block3operators"} length of time between `5 to 10`{:class="block3operators"} seconds and then `creates a clone`{:class="block3control"} of the `Orange` sprite.
 
-![Fledermaus Figur](images/bat-sprite.png)
+![bat sprite](images/bat-sprite.png)
 
 ```blocks3
 Wenn die grüne Flagge angeklickt
@@ -105,9 +107,9 @@ end
 
 \--- task \---
 
-Füge den Code zur `Orange` hinzu, damit jeder ihrer Klone von der `Bat`-Figur nach unten Richtung Boden der Bühne fällt.
+Add code to the `Orange` to make each of its clone drop, starting from the `Bat` sprite and falling towards the bottom of the Stage.
 
-![Orange Figur](images/orange-sprite.png)
+![orange sprite](images/orange-sprite.png)
 
 ```blocks3
     Wenn die grüne Flagge angeklickt
@@ -126,9 +128,9 @@ Füge den Code zur `Orange` hinzu, damit jeder ihrer Klone von der `Bat`-Figur n
 
 \--- task \---
 
-Füge zu der `Orange`-Figur etwas mehr zum Code hinzu, sodass ein `Orange`-Klon auch verschwindet, wenn er die `Raumschiff`-Figur trifft, um dem Spieler die Möglichkeit zum zurückzusetzen zu geben:
+Add some more code to the `Orange` sprite so that when an `Orange` clone hits the `Spaceship` sprite, the clone also disappears to give the player a chance to reset:
 
-![Orange Figur](images/orange-sprite.png)
+![orange sprite](images/orange-sprite.png)
 
 ```blocks3
     Wenn ich [getroffen v] empfange
@@ -139,9 +141,9 @@ Füge zu der `Orange`-Figur etwas mehr zum Code hinzu, sodass ein `Orange`-Klon 
 
 \--- task \---
 
-Ändere den Code deiner `Raumschiff`-Figur so, dass die Figur "getroffen" wird, wenn sie eine `Hippo` Figur oder eine `Orange` Figur berührt:
+Modify the code of your `Spaceship` sprite so that the sprite is "hit" when it touches a `Hippo` sprite or an `Orange` sprite:
 
-![raumschiff-Figur](images/rocket-sprite.png)
+![rocket sprite](images/rocket-sprite.png)
 
 ```blocks3
     warte bis <<wird (Hippo1 v) berührt?> oder <wird (Orange v) berührt?>>
@@ -151,6 +153,6 @@ Füge zu der `Orange`-Figur etwas mehr zum Code hinzu, sodass ein `Orange`-Klon 
 
 \--- task \---
 
-Teste dein Spiel. Was passiert, wenn das Raumschiff von einer fallenden Orange getroffen wird?
+Test your game. What happens if the spaceship gets hit by a falling orange?
 
 \--- /task \---
