@@ -54,9 +54,11 @@ wait (0.3) seconds
 
 next costume
 ```
+
 --- /hint ---
 
 --- hint ---
+
 You code should look like this:
 
 ```blocks3
@@ -69,6 +71,7 @@ if on edge, bounce
 + wait (0.3) seconds
 end
 ```
+
 --- /hint ---
 
 --- /hints ---

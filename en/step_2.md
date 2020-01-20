@@ -74,6 +74,7 @@ if <key (right arrow v) pressed?> then
 	change x by (4)
 end
 ```
+
 --- /hint ---
 
 --- /hints ---
