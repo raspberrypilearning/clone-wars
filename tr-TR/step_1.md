@@ -29,11 +29,9 @@ Score as many points as you can by shooting flying space-hippos. If you get hit 
 
 \--- /print-only \---
 
-\---collapse\---
+## \--- collapse \---
 
-* * *
-
-## İhtiyacınız olacak şeyler
+## title: What you will need
 
 ### Donanım
 
@@ -47,31 +45,27 @@ Score as many points as you can by shooting flying space-hippos. If you get hit 
 
 [Find the downloads here](http://rpf.io/p/en/clone-wars-go).
 
-.
+\--- /collapse \---
 
-\---collapse\---
+## \--- collapse \---
 
-* * *
-
-## title: Ne öğreneceksiniz
+## title: What you will learn
 
 + How to make sprites move using keyboard input
 + How to clone sprites to make copies of them
 + How to use 'broadcast' and 'receive blocks' to send messages
 
-\--- /collapse \---
+.
 
-\---collapse\---
-
-* * *
+## \--- collapse \---
 
 ## title: Additional notes for educators
 
-.
+\--- no-print \---
 
-Bu projeyi yazdırmanız gerekiyorsa, lütfen [yazıcı-dostu sürüm](https://projects.raspberrypi.org/en/projects/clone-wars/print) 'ü kullanın {: target = "_ blank"}.
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/clone-wars/print){:target="_blank"}.
 
-.
+\--- /no-print \---
 
 You can find the [completed project here](http://rpf.io/p/en/clone-wars-get).
 
