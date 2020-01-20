@@ -29,11 +29,9 @@ Zdobądź jak najwięcej punktów, strzelając do latających kosmo-hipopotamów
 
 \--- /print-only \---
 
-\--- collapse \---
+## \--- collapse \---
 
-* * *
-
-## title: Czego będziesz potrzebować
+## title: What you will need
 
 ### Sprzęt
 
@@ -45,15 +43,13 @@ Zdobądź jak najwięcej punktów, strzelając do latających kosmo-hipopotamów
 
 ### Pliki do pobrania
 
-[Tutaj znajdziesz pliki do pobrania](http://rpf.io/p/en/clone-wars-go).
+[Find the downloads here](http://rpf.io/p/en/clone-wars-go).
 
 \--- /collapse \---
 
-\--- collapse \---
+## \--- collapse \---
 
-* * *
-
-## title: Czego się nauczysz
+## title: What you will learn
 
 + Jak sprawić, aby duszki poruszały się za pomocą klawiatury
 + Jak klonować duszki, aby zrobić ich kopie
@@ -61,18 +57,16 @@ Zdobądź jak najwięcej punktów, strzelając do latających kosmo-hipopotamów
 
 \--- /collapse \---
 
-\--- collapse \---
+## \--- collapse \---
 
-* * *
-
-## title: Dodatkowe informacje dla nauczycieli
+## title: Additional notes for educators
 
 \--- no-print \---
 
-Jeśli chcesz wydrukować ten projekt, użyj [wersji do druku](https://projects.raspberrypi.org/en/projects/clone-wars/print){:target="_blank"}.
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/clone-wars/print){:target="_blank"}.
 
 \--- /no-print \---
 
-Możesz znaleźć [ukończony projekt tutaj](http://rpf.io/p/en/clone-wars-get).
+You can find the [completed project here](http://rpf.io/p/en/clone-wars-get).
 
 \--- /collapse \---
