@@ -57,7 +57,9 @@ end
 
 \--- /hint \---
 
-\--- hint \--- Ο κώδικάς σου θα πρέπει να μοιάζει κάπως έτσι:
+\--- hint \---
+
+You code should look like this:
 
 ```blocks3
 Όταν στην πράσινη σημαία γίνει κλικ
@@ -76,21 +78,21 @@ end
 
 \--- /task \---
 
-Τώρα ας κάνουμε τη νυχτερίδα να πετάξει πορτοκάλια!
+Now make the bat throw oranges!
 
-\--- task --
+\--- task \---
 
-Πρόσθεσε έναν νέο χαρακτήρα `πορτοκάλι` από τη βιβλιοθήκη Scratch.
+Add an `Orange` sprite from the Scratch library.
 
 ![screenshot](images/invaders-orange.png)
 
 \--- /task \---
 
-\--- task --
+\--- task \---
 
-Πρόσθεσε κώδικα στη νυχτερίδα σου έτσι ώστε `όταν πατήσεις τη σημαία`{:class="block3events"}, ο χαρακτήρας `νυχτερίδα` `για πάντα`{:class="block3control"} `να περιμένει `{:class="block3control"} `για τυχαία διάρκεια χρόνου`{:class="block3operators"} μεταξύ `5 και 10`{:class="block3operators"} δευτερόλεπτων και στη συνέχεια `να δημιουργεί έναν κλώνο`{:class="block3control"} του χαρακτήρα `πορτοκάλι`.
+Add code to your bat so that `when the flag is clicked`{:class="block3events"}, the `Bat` sprite `forever`{:class="block3control"} `waits`{:class="block3control"} for a `random`{:class="block3operators"} length of time between `5 to 10`{:class="block3operators"} seconds and then `creates a clone`{:class="block3control"} of the `Orange` sprite.
 
-![χαρακτήρας νυχτερίδας](images/bat-sprite.png)
+![bat sprite](images/bat-sprite.png)
 
 ```blocks3
 Όταν στην πράσινη σημαία γίνει κλικ
@@ -102,11 +104,11 @@ end
 
 \--- /task \---
 
-\--- task --
+\--- task \---
 
-Πρόσθεσε κώδικα στο `πορτοκάλι` για να κάνεις κάθε κλώνο να πέφτει, ξεκινώντας από το χαρακτήρα `νυχτερίδα` και συνεχιζοντας προς το κάτω μέρος του σκηνικού.
+Add code to the `Orange` to make each of its clone drop, starting from the `Bat` sprite and falling towards the bottom of the Stage.
 
-![χαρακτήρας πορτοκαλιού](images/orange-sprite.png)
+![orange sprite](images/orange-sprite.png)
 
 ```blocks3
     Όταν στην πράσινη σημαία γίνει κλικ
@@ -123,11 +125,11 @@ end
 
 \--- /task \---
 
-\--- task --
+\--- task \---
 
-Πρόσθεσε λίγο ακόμη κώδικα στο χαρακτήρα `πορτοκάλι`, έτσι ώστε όταν ένα `πορτοκάλι` χτυπήσει τον χαρακτήρα `διαστημόπλοιο`, να εξαφανίζεται για να δώσει στον παίκτη την ευκαιρία να ανακάμψει:
+Add some more code to the `Orange` sprite so that when an `Orange` clone hits the `Spaceship` sprite, the clone also disappears to give the player a chance to reset:
 
-![χαρακτήρας πορτοκαλιού](images/orange-sprite.png)
+![orange sprite](images/orange-sprite.png)
 
 ```blocks3
     όταν λάβω [hit v]
@@ -136,11 +138,11 @@ end
 
 \--- /task \---
 
-\--- task --
+\--- task \---
 
-Θα πρέπει επίσης να τροποποιήσεις τον κώδικα στο χαρακτήρα `διαστημόπλοιο` έτσι ώστε να βάλλεται όταν αγγίζει ένα χαρακτήρα `ιπποπόταμο` ή έναν χαρακτήρα `πορτοκάλι`:
+Modify the code of your `Spaceship` sprite so that the sprite is "hit" when it touches a `Hippo` sprite or an `Orange` sprite:
 
-![χαρακτήρας πύραυλου](images/rocket-sprite.png)
+![rocket sprite](images/rocket-sprite.png)
 
 ```blocks3
     περίμενε ώσπου < <touching (Hippo1 v)?> ή <touching (Orange v)?>>
@@ -148,8 +150,8 @@ end
 
 \--- /task \---
 
-\--- task --
+\--- task \---
 
-Δοκίμασε το παιχνίδι σου. Τι συμβαίνει εάν το διαστημόπλοιό σου χτυπηθεί από ένα πορτοκάλι που πέφτει;
+Test your game. What happens if the spaceship gets hit by a falling orange?
 
 \--- /task \---
