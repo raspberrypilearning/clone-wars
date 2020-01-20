@@ -57,7 +57,9 @@ next costume
 
 \--- /hint \---
 
-\--- hint \--- You code should look like this:
+\--- hint \---
+
+You code should look like this:
 
 ```blocks3
 when flag clicked
@@ -73,7 +75,7 @@ end
 
 \--- /hint \---
 
-\--- /hint \---
+\--- /hints \---
 
 \--- /task \---
 
@@ -83,7 +85,7 @@ Now make the bat throw oranges!
 
 Add an `Orange` sprite from the Scratch library.
 
-![ekran görüntüsü](images/invaders-orange.png)
+![screenshot](images/invaders-orange.png)
 
 \--- /task \---
 
