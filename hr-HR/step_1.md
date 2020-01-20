@@ -29,11 +29,9 @@ Postignite što više bodova pucajući leteće svemirske nilske konje. Ako Vas p
 
 \--- /print-only \---
 
-\--- collapse \---
+## \--- collapse \---
 
-* * *
-
-## title: Trebati će Vam
+## title: What you will need
 
 ### Hardver
 
@@ -45,15 +43,13 @@ Postignite što više bodova pucajući leteće svemirske nilske konje. Ako Vas p
 
 ### Preuzimanja
 
-Pronađi preuzimanja ovdje.
+[Find the downloads here](http://rpf.io/p/en/clone-wars-go).
 
 \--- /collapse \---
 
-\--- collapse \---
+## \--- collapse \---
 
-* * *
-
-## title: Što ćete naučiti
+## title: What you will learn
 
 + Kako napraviti da se spriteovi kreću koristeći tipkovnicu
 + Kako klonirati likove kako bi napravili njihove kopije
@@ -61,18 +57,16 @@ Pronađi preuzimanja ovdje.
 
 \--- /collapse \---
 
-\--- collapse \---
+## \--- collapse \---
 
-* * *
-
-## title: Dodatne informacije za voditelje kluba
+## title: Additional notes for educators
 
 \--- no-print \---
 
-Ako trebate ispisati ovaj projekt, koristite [printer-friendly version](https://projects.raspberrypi.org/en/projects/clone-wars/print){:Target="_ blank"}.
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/clone-wars/print){:target="_blank"}.
 
 \--- /no-print \---
 
-[Ovdje](http://rpf.io/p/en/clone-wars-get) možete pronaći dovršen projekt.
+You can find the [completed project here](http://rpf.io/p/en/clone-wars-get).
 
 \--- /collapse \---
