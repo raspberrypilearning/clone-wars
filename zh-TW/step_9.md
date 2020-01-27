@@ -1,76 +1,76 @@
-## 空間蝙蝠
+## 還有宇宙蝙蝠
 
-為了讓你的遊戲更加困難，你將創造一種在飛船上投擲橙子的蝙蝠。
+為了讓遊戲更有難度，你將創建一個向飛船扔橘子的蝙蝠。
 
-![一隻蝙蝠在飛船上扔橙子](images/bat-oranges.png)
+![一隻蝙蝠朝飛船扔橘子](images/bat-oranges.png)
 
-\---任務\---
+\--- task \---
 
-添加 `Bat` 精靈並將其旋轉樣式設置為 **左右**。
+在範例庫中找到 `Bat` 作為角色，重新命名成「蝙蝠」，然後把迴轉樣式設定成 **左-右**。
 
-\--- /任務\---
+\--- /task \---
 
-\---任務\---
+\--- task \---
 
-讓 `Bat` 精靈 `從舞台 <code>的頂部從左到右移動`{：class =“block3motion”}</code>{：class =“block3control”}。
+讓`蝙蝠`在舞台最上方`移動`{:class="block3motion"}，讓它只能`不斷的`{:class="block3control"}左右平移。
 
-![蝙蝠精靈](images/bat-sprite.png)
+![蝙蝠角色](images/bat-sprite.png)
 
 ```blocks3
-當標記點擊時
-設置大小為（50）％
-永遠
-    移動（10）步驟
-    如果在邊緣，反彈
-結束
+當 @greenflag 被點擊
+尺寸設為 (50) %
+重複無限次
+    移動 (10) 點
+    碰到邊緣就反彈
+end
 ```
 
-記得測試你的代碼。
+別忘了要測試你的程式。
 
-\--- /任務\---
+\--- /task \---
 
-如果你看看蝙蝠的服裝，你可以看到它有四種不同的服裝：
+切換到蝙蝠角色的造型頁籤，你會發現牠有四種不同的造型：
 
 ![截圖](images/invaders-bat-costume.png)
 
-\---任務\---
+\--- task \---
 
-使用 `下一個服裝`{：class =“block3looks”}塊來使蝙蝠在移動時拍打它的翅膀。
+使用`造型換成下一個`{:class="block3looks"}積木，讓蝙蝠在移動時拍打翅膀。
 
-\---提示\---
-
-\---提示\---
-
-蝙蝠移動後，它應該顯示 `下一個服裝`{：class =“block3looks”}然後 `等待`{：class =“block3control”}一小段時間。
-
-\--- /提示\---
-
-\---提示\---
-
-您需要將這些塊添加到代碼中：
-
-```blocks3
-等待（0.3）秒
-
-下一個服裝
-```
-
-\--- /提示\---
+\--- hints \---
 
 \--- hint \---
 
-You code should look like this:
+蝙蝠每一次移動後，就把`造型換成下一個`{:class="block3looks"}然後`等待`{:class="block3control"}一小段時間。
+
+\--- /hint \---
+
+\--- hint \---
+
+你會用到這些積木：
 
 ```blocks3
-當標誌點擊
-設置大小為（50）％
-永遠
-移動（10）步驟
-如果在邊緣，反彈
+等待 (0.3) 秒
 
-+下一個服裝
-+等待（0.3）秒
-結束
+造型換成下一個
+```
+
+\--- /hint \---
+
+\--- hint \---
+
+Your code should look like this:
+
+```blocks3
+當 @greenflag 被點擊
+尺寸設為 (50) %
+重複無限次
+移動 (10) 點
+碰到邊緣就反彈
+
++ 造型換成下一個
++ 等待 (0.3) 秒
+end
 ```
 
 \--- /hint \---
@@ -79,80 +79,80 @@ You code should look like this:
 
 \--- /task \---
 
-Now make the bat throw oranges!
+現在讓蝙蝠扔橘子！
 
 \--- task \---
 
-Add an `Orange` sprite from the Scratch library.
+從範例庫中選取 `Orange` 當作角色，然後我們把它的名稱改成「橘子」。
 
-![screenshot](images/invaders-orange.png)
+![截圖](images/invaders-orange.png)
 
 \--- /task \---
 
 \--- task \---
 
-Add code to your bat so that `when the flag is clicked`{:class="block3events"}, the `Bat` sprite `forever`{:class="block3control"} `waits`{:class="block3control"} for a `random`{:class="block3operators"} length of time between `5 to 10`{:class="block3operators"} seconds and then `creates a clone`{:class="block3control"} of the `Orange` sprite.
+為蝙蝠添加程式，在`點擊綠旗`{:class="block3events"}後，`蝙蝠`會`重複不斷的`{:class="block3control"}`等待`{:class="block3control"}一段`隨機`{:class="block3operators"}的時間，比方說 `5 到 10`{:class="block3operators"} 秒，然後開始創建`橘子`的`分身`{:class="block3control"}。
 
-![bat sprite](images/bat-sprite.png)
+![蝙蝠角色](images/bat-sprite.png)
 
 ```blocks3
-當標誌點擊
-永遠
-    等待（隨機選擇（5）到（10））秒
-    創建克隆（橙色v）
-結束
+當 @greenflag 被點擊
+重複無限次
+    等待 (隨機取數 (5) 到 (10)) 秒
+    建立 (橘子 v) 的分身
+end
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Add code to the `Orange` to make each of its clone drop, starting from the `Bat` sprite and falling towards the bottom of the Stage.
+為`橘子`寫個程式，在每次分身被建立時，就從`蝙蝠`的位置往下丟，直到橘子移動到舞台底部分身才刪除。
 
-![orange sprite](images/orange-sprite.png)
+![橘子角色](images/orange-sprite.png)
 
 ```blocks3
-    當標記點擊時
+    當 @greenflag 被點擊
     隱藏
 
-    當我作為克隆
-    開始時去（Bat v）
+    當分身產生
+    定位到 (蝙蝠 v) 位置
     顯示
-    重複直到 <觸摸（邊緣v）？
-        更改y by（-4）
+    重複直到 <碰到 (邊緣 v)？>
+        y 改變 (-4)
     end
-    刪除此克隆
+    分身刪除
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Add some more code to the `Orange` sprite so that when an `Orange` clone hits the `Spaceship` sprite, the clone also disappears to give the player a chance to reset:
+在`橘子`角色上多加個程式，讓`橘子`的分身在擊中`飛船`時，分身也會消失，讓玩家有機會重置：
 
-![orange sprite](images/orange-sprite.png)
+![橘子角色](images/orange-sprite.png)
 
 ```blocks3
-    當我收到[點擊v]
-    刪除此克隆
+    當收到訊息 (被擊中 v)
+    分身刪除
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Modify the code of your `Spaceship` sprite so that the sprite is "hit" when it touches a `Hippo` sprite or an `Orange` sprite:
+修改`飛船`的程式，讓它在撞到`河馬`和`橘子`時都會「爆炸」：
 
-![rocket sprite](images/rocket-sprite.png)
+![飛船角色](images/rocket-sprite.png)
 
 ```blocks3
-    等到 < <touching (Hippo1 v)?> 或 <touching (Orange v)?>>
+    等待直到 <<碰到 (河馬 v)？> 或 <碰到 (蝙蝠 v)？>>
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Test your game. What happens if the spaceship gets hit by a falling orange?
+測試你的遊戲，如果飛船被掉下來的橘子打到會怎樣？
 
 \--- /task \---
