@@ -19,8 +19,8 @@
 ![闪电角色](images/lightning-sprite.png)
 
 ```blocks3
-when green flag clicked
-hide
+当 ⚑ 被点击
+隐藏
 ```
 
 \--- /task \---
@@ -34,8 +34,8 @@ hide
 ![闪电角色](images/lightning-sprite.png)
 
 ```blocks3
-set size to (25) %
-point in direction (-90)
+将大小设为 (25)
+面向 (-90) 方向
 ```
 
 现在它看起来像是尖尖的尾巴-首先从飞船中射出。
@@ -59,17 +59,17 @@ point in direction (-90)
 以下是您需要的代码块：
 
 ```blocks3
-if <> then
+如果 <> 那么
 end
 
-forever
+重复执行
 end
 
-create clone of (Lightning v)
+克隆 (Lightning v)
 
 <key (space v) pressed?>
 
-when flag clicked
+当 ⚑ 被点击
 ```
 
 \--- /hint \---
@@ -81,11 +81,11 @@ when flag clicked
 ![火箭角色](images/rocket-sprite.png)
 
 ```blocks3
-when flag clicked
-forever
-    if <key (space v) pressed?> then
-        create clone of (Lightning v)
-    end
+当 ⚑ 被点击
+重复执行 
+  如果 <key (space v) pressed?> 那么 
+    克隆 (Lightning v)
+  end
 end
 ```
 
@@ -104,13 +104,13 @@ end
 ![闪电角色](images/lightning-sprite.png)
 
 ```blocks3
-    when I start as a clone
-    go to (Spaceship v)
-    show
-    repeat until <touching (edge v) ?>
-        change y by (10)
-    end
-    delete this clone
+    当作为克隆体启动时
+移到 (Spaceship v)
+显示
+重复执行直到 <touching (edge v) ?> 
+  将y坐标增加 (10)
+end
+删除此克隆体
 ```
 
 \--- /task \---
