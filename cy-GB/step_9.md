@@ -59,7 +59,7 @@ gwisg nesaf
 
 \--- hint \---
 
-You code should look like this:
+Your code should look like this:
 
 ```blocks3
 pan fo'r flag werdd yn cael ei glicio
