@@ -1,6 +1,6 @@
 ## Свемирски шишмиш
 
-To make your game a bit harder, you are going to create a bat that throws oranges at the spaceship.
+Да направиш своју игру мало тежом, направићеш шишмиша који баца наранџе на свемирски брод.
 
 ![шишмиш који баца наранџу на свемирски брод](images/bat-oranges.png)
 
