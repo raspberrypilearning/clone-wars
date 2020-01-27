@@ -31,7 +31,7 @@
 
 ## \--- collapse \---
 
-## title: What you will need
+## title: 你需要准备什么
 
 ### 硬件
 
@@ -43,13 +43,13 @@
 
 ### 下载
 
-[Find the downloads here](http://rpf.io/p/en/clone-wars-go).
+[在此处下载](http://rpf.io/p/en/clone-wars-go) 。
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: What you will learn
+## title: 你将学到什么
 
 + 如何使用键盘输入移动角色
 + 如何克隆角色以制作副本
@@ -59,14 +59,14 @@
 
 ## \--- collapse \---
 
-## title: Additional notes for educators
+## title: 教师附加说明
 
 \--- no-print \---
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/clone-wars/print){:target="_blank"}.
+如果您需要打印本项目文件，请使用[适合打印版本](https://projects.raspberrypi.org/en/projects/clone-wars/print){:target="_blank"}。
 
 \--- /no-print \---
 
-You can find the [completed project here](http://rpf.io/p/en/clone-wars-get).
+你可以在这里找到[完整的项目](http://rpf.io/p/en/clone-wars-get).
 
 \--- /collapse \---
