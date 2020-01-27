@@ -55,7 +55,7 @@ Subtracting `4` from the spaceship's `x` position made it move left, so how coul
 
 \--- hint \---
 
-You need the same code block, but with a different number:
+Потребан ти је исти блок кода, али са другим бројем:
 
 ```blocks3
 промени x за ()
