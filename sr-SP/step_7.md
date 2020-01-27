@@ -40,7 +40,7 @@ All of the `Hippo` sprite clones will receive the "hit" message, and you can ins
 
 \--- /task \---
 
-After the spaceship explodes, new `Hippo` clones appear, but the spaceship is still exploded! The spaceship needs to reset itself after being hit.
+Након што свемирски брод експлодира, нови клонови `Нилског коња` се појављују, али је свемирски брод још увек уништен! Свемирски брод мора да се ресетује након што је погођен.
 
 \--- task \---
 
