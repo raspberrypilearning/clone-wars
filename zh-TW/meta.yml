@@ -1,37 +1,37 @@
 ---
-hero_image: 圖像/克隆wars.png
-theme: 紫色
+hero_image: images/clone-wars.png
+theme: violet
 listed: true
 copyedit: true
-title: 克隆戰爭
-description: 創建一個遊戲，您必須從太空怪物中保存地球
+title: 分身大戰
+description: 創建一個遊戲，玩家必須駕駛飛船打敗會自行分裂、自我繁殖的太空怪物，拯救地球。
 version: 4.1.0
-last_tested: 2018年10月11日
+last_tested: 2018-10-11
 steps:
   - 
     title: 介紹
   - 
-    title: 製造宇宙飛船
+    title: 建造太空船
   - 
-    title: 閃電
+    title: 發射雷電
   - 
-    title: '挑戰：改善閃電'
+    title: '挑戰：改造發射器'
     challenge: true
   - 
-    title: 空間河馬
+    title: 太空河馬來啦
   - 
-    title: 宇宙飛船爆炸
+    title: 飛船爆炸
   - 
-    title: 河馬消失了
+    title: 太空河馬走囉
   - 
-    title: '挑戰：生活和得分'
+    title: '挑戰：生命與得分'
     challenge: true
   - 
-    title: 空間蝙蝠
+    title: 還有宇宙蝙蝠
   - 
     title: 遊戲結束
   - 
-    title: '挑戰：改善你的遊戲'
+    title: '挑戰：遊戲改良'
     challenge: true
   - 
-    title: 接下來是什麼？
+    title: 然後呢？
