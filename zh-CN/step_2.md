@@ -70,8 +70,8 @@ x轴从舞台的左侧到右侧。 这意味着当您减少飞船角色的`x`位
 ![火箭角色](images/rocket-sprite.png)
 
 ```blocks3
-if <key (right arrow v) pressed?> then
-    change x by (4)
+如果 <key (right arrow v) pressed?> 那么 
+  将x坐标增加 (4)
 end
 ```
 
