@@ -153,6 +153,6 @@ Modify the code of your `Spaceship` sprite so that the sprite is "hit" when it t
 
 \--- task \---
 
-Test your game. What happens if the spaceship gets hit by a falling orange?
+Испробај своју игру. Шта се догађа ако падајућа наранџа погоди свемирски брод?
 
 \--- /task \---
