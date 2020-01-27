@@ -1,6 +1,6 @@
 ## Изазов: Животи и резултат
 
-At the moment, you can play the game forever, but it doesn't count how many hippos you shoot or how many times your spaceship explodes.
+Тренутно можеш играти игру заувек, али игра не броји колико си нилских коња погодио/ла или колико је пута свемирски брод експлодирао.
 
 Можеш ли својој игри да додаш `животи`{:class="block3variables"}, `резултат`{:class="block3variables"} или чак `најбољи резултат`{:class="block3variables"}?
 
