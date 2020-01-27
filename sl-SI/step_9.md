@@ -59,7 +59,7 @@ naslednji videz
 
 \--- hint \---
 
-You code should look like this:
+Your code should look like this:
 
 ```blocks3
 ko kliknemo na zastavo
