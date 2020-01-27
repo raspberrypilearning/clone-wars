@@ -59,7 +59,7 @@ costume suivant
 
 \--- hint \---
 
-You code should look like this:
+Your code should look like this:
 
 ```blocks3
 quand le drapeau est cliqué
@@ -79,21 +79,21 @@ fin
 
 \--- /task \---
 
-Now make the bat throw oranges!
+Maintenant, fais en sorte que la chauve-souris jette des oranges !
 
 \--- task \---
 
-Add an `Orange` sprite from the Scratch library.
+Ajouter un sprite `Orange` à partir de la bibliothèque Scratch.
 
-![screenshot](images/invaders-orange.png)
+![capture d'écran](images/invaders-orange.png)
 
 \--- /task \---
 
 \--- task \---
 
-Add code to your bat so that `when the flag is clicked`{:class="block3events"}, the `Bat` sprite `forever`{:class="block3control"} `waits`{:class="block3control"} for a `random`{:class="block3operators"} length of time between `5 to 10`{:class="block3operators"} seconds and then `creates a clone`{:class="block3control"} of the `Orange` sprite.
+Ajoute du code à ta chauve-souris pour que `quand le drapeau est cliqué` {:class="block3events"}, le sprite de la `chauve-souris` `attend` {:class="block3control"} `indéfiniment` {:class="block3control"} pour une `durée aléatoire` {:class="block3operators"} entre `5 et 10` {:class="block3operators"} secondes puis `crée un clone` {:class="block3control"} du sprite de l'`orange`.
 
-![bat sprite](images/bat-sprite.png)
+![sprite de chauve-souris](images/bat-sprite.png)
 
 ```blocks3
 quand le drapeau est cliqué
@@ -107,9 +107,9 @@ fin
 
 \--- task \---
 
-Add code to the `Orange` to make each of its clone drop, starting from the `Bat` sprite and falling towards the bottom of the Stage.
+Ajoute du code au sprite `orange` pour faire tomber chacun de ses clones, à partir du sprite de `Bat` et descendre vers le bas de la scène.
 
-![orange sprite](images/orange-sprite.png)
+![sprite d´orange](images/orange-sprite.png)
 
 ```blocks3
     quand le drapeau est cliqué
@@ -128,9 +128,9 @@ Add code to the `Orange` to make each of its clone drop, starting from the `Bat`
 
 \--- task \---
 
-Add some more code to the `Orange` sprite so that when an `Orange` clone hits the `Spaceship` sprite, the clone also disappears to give the player a chance to reset:
+Ajoute plus de code au sprite `orange` afin que lorsque un clone `orange` touche le sprite `Spaceship`, le clone disparaît également pour donner au joueur une chance de réinitialiser :
 
-![orange sprite](images/orange-sprite.png)
+![sprite d´orange](images/orange-sprite.png)
 
 ```blocks3
     quand je reçois [hit v]
@@ -141,9 +141,9 @@ Add some more code to the `Orange` sprite so that when an `Orange` clone hits th
 
 \--- task \---
 
-Modify the code of your `Spaceship` sprite so that the sprite is "hit" when it touches a `Hippo` sprite or an `Orange` sprite:
+Modifie le code de ton sprite `vaisseau spatial` afin que le sprite soit « touché » lorsqu’il touche un sprite `hippo` ou un sprite `orange` :
 
-![rocket sprite](images/rocket-sprite.png)
+![sprite de roquette](images/rocket-sprite.png)
 
 ```blocks3
     attendre jusqu'à ce que < <touching (Hippo1 v)?> ou <touching (Orange v)?>>
@@ -153,6 +153,6 @@ Modify the code of your `Spaceship` sprite so that the sprite is "hit" when it t
 
 \--- task \---
 
-Test your game. What happens if the spaceship gets hit by a falling orange?
+Teste ton jeu. Que se passe-t-il si le vaisseau spatial se fait frapper par une orange qui tombe ?
 
 \--- /task \---
