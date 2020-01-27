@@ -59,7 +59,7 @@ next costume
 
 \--- hint \---
 
-You code should look like this:
+Your code should look like this:
 
 ```blocks3
 when flag clicked
@@ -79,21 +79,21 @@ end
 
 \--- /task \---
 
-Now make the bat throw oranges!
+现在让蝙蝠扔橙子！
 
 \--- task \---
 
-Add an `Orange` sprite from the Scratch library.
+从 Scratch 库添加一个 `Orange`角色。
 
-![screenshot](images/invaders-orange.png)
+![截屏](images/invaders-orange.png)
 
 \--- /task \---
 
 \--- task \---
 
-Add code to your bat so that `when the flag is clicked`{:class="block3events"}, the `Bat` sprite `forever`{:class="block3control"} `waits`{:class="block3control"} for a `random`{:class="block3operators"} length of time between `5 to 10`{:class="block3operators"} seconds and then `creates a clone`{:class="block3control"} of the `Orange` sprite.
+将代码添加到你的蝙蝠角色，以便`当绿色旗帜被点击时`{:class="block3events"}, `蝙蝠` 角色`重复执行`{:class="block3control"} `等待`{:class="block3control"}一个`随机的`{:class="block3operators"}时间为`5-10`{:class="block3operators"}秒，然后`创建一个克隆`{:class="block3control"}`橙子`角色。
 
-![bat sprite](images/bat-sprite.png)
+![蝙蝠角色](images/bat-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -107,9 +107,9 @@ end
 
 \--- task \---
 
-Add code to the `Orange` to make each of its clone drop, starting from the `Bat` sprite and falling towards the bottom of the Stage.
+将代码添加到`橙子`，以使其每个克隆都从`蝙蝠`角色上开始向舞台底部掉落。
 
-![orange sprite](images/orange-sprite.png)
+![橙子角色](images/orange-sprite.png)
 
 ```blocks3
     when flag clicked
@@ -128,9 +128,9 @@ Add code to the `Orange` to make each of its clone drop, starting from the `Bat`
 
 \--- task \---
 
-Add some more code to the `Orange` sprite so that when an `Orange` clone hits the `Spaceship` sprite, the clone also disappears to give the player a chance to reset:
+将更多代码添加到`橙子`上，以便当一个`橙子`的克隆击中`太空飞船`时， 克隆也消失，让玩家有机会重置：
 
-![orange sprite](images/orange-sprite.png)
+![橙子角色](images/orange-sprite.png)
 
 ```blocks3
     when I receive [hit v]
@@ -141,9 +141,9 @@ Add some more code to the `Orange` sprite so that when an `Orange` clone hits th
 
 \--- task \---
 
-Modify the code of your `Spaceship` sprite so that the sprite is "hit" when it touches a `Hippo` sprite or an `Orange` sprite:
+修改你的`飞船`角色的代码，使它在碰到`河马`或`橙子`角色时被“击中”：
 
-![rocket sprite](images/rocket-sprite.png)
+![火箭角色](images/rocket-sprite.png)
 
 ```blocks3
     wait until < <touching (Hippo1 v)?> or <touching (Orange v)?>>
@@ -153,6 +153,6 @@ Modify the code of your `Spaceship` sprite so that the sprite is "hit" when it t
 
 \--- task \---
 
-Test your game. What happens if the spaceship gets hit by a falling orange?
+测试你的游戏。如果飞船被正在坠落的橙子撞到，会发生什么情况？
 
 \--- /task \---
