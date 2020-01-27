@@ -59,7 +59,7 @@ next costume
 
 --- hint ---
 
-You code should look like this:
+Your code should look like this:
 
 ```blocks3
 when flag clicked
