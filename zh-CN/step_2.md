@@ -25,12 +25,12 @@
 ![火箭角色](images/rocket-sprite.png)
 
 ```blocks3
-    when flag clicked
-    forever
-        if <key (left arrow v) pressed?> then
-            change x by (-4)
-        end
-    end
+    当 ⚑ 被点击
+重复执行 
+  如果 <key (left arrow v) pressed?> 那么 
+    将x坐标增加 (-4)
+  end
+end
 ```
 
 x轴从舞台的左侧到右侧。 这意味着当您减少飞船角色的`x`位置值时，它将往左移动。 因此，此代码块的这个部分将会使您的飞船向左移动：
