@@ -59,7 +59,7 @@ end
 
 \--- hint \---
 
-You code should look like this:
+Your code should look like this:
 
 ```blocks3
 Όταν στην πράσινη σημαία γίνει κλικ
