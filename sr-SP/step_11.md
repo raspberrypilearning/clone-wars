@@ -4,7 +4,7 @@
 
 Ево неколико идеја:
 
-+ Add health packs that you can collect to gain extra lives.
++ Додај кутије за прву помоћ које можеш сакупити да добијеш додатне животе.
 
 ![снимак екрана](images/invaders-aid.png)
 
@@ -12,7 +12,7 @@
 
 ![снимак екрана](images/invaders-rocks.png)
 
-+ Make more enemies appear when your score gets to `100`.
++ Направи да се појави још непријатеља када твој резултат дође до `100`.
 
 ```blocks3
     чекај док не <(резултат :: variables) = [100]>
