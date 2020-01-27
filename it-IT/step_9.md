@@ -79,21 +79,21 @@ end
 
 \--- /task \---
 
-Now make the bat throw oranges!
+Ora fai sì che il pipistrello lanci arance!
 
 \--- task \---
 
-Add an `Orange` sprite from the Scratch library.
+Aggiungere lo sprite `Arancia` dalla libreria di Scratch.
 
-![screenshot](images/invaders-orange.png)
+![schermata](images/invaders-orange.png)
 
 \--- /task \---
 
 \--- task \---
 
-Add code to your bat so that `when the flag is clicked`{:class="block3events"}, the `Bat` sprite `forever`{:class="block3control"} `waits`{:class="block3control"} for a `random`{:class="block3operators"} length of time between `5 to 10`{:class="block3operators"} seconds and then `creates a clone`{:class="block3control"} of the `Orange` sprite.
+Aggiungi del codice al tuo pipistrello in modo che `quando si fa clic sulla bandierina`{:class = "block3events"}, lo sprite del `Pipistrello` `attenda`{: class = "block3control"} ` per sempre `{: class = "block3control"} per un `casuale` {: class = "block3operators"} intervallo di tempo `da 5 a 10` {: class = "block3operators"} secondi e poi ` crea un clone ` {: class = "block3control"} dello sprite dell'`Arancia`.
 
-![bat sprite](images/bat-sprite.png)
+![sprite pipistrello](images/bat-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -107,9 +107,9 @@ end
 
 \--- task \---
 
-Add code to the `Orange` to make each of its clone drop, starting from the `Bat` sprite and falling towards the bottom of the Stage.
+Aggiungi codice all'`Arancia` per far cadere ogni clone, partendo dallo sprite del `Pipistrello` e fallo cadere verso il fondo dello Stage.
 
-![orange sprite](images/orange-sprite.png)
+![sprite arancia](images/orange-sprite.png)
 
 ```blocks3
     when flag clicked
@@ -128,9 +128,9 @@ Add code to the `Orange` to make each of its clone drop, starting from the `Bat`
 
 \--- task \---
 
-Add some more code to the `Orange` sprite so that when an `Orange` clone hits the `Spaceship` sprite, the clone also disappears to give the player a chance to reset:
+Aggiungi altro codice allo sprite dell'`arancia` in modo che quando un suo clone colpisca lo sprite della `navicella`, anche il clone scompaia così da dare al giocatore la possibilità di ricominciare:
 
-![orange sprite](images/orange-sprite.png)
+![sprite arancia](images/orange-sprite.png)
 
 ```blocks3
     when I receive [hit v]
@@ -141,9 +141,9 @@ Add some more code to the `Orange` sprite so that when an `Orange` clone hits th
 
 \--- task \---
 
-Modify the code of your `Spaceship` sprite so that the sprite is "hit" when it touches a `Hippo` sprite or an `Orange` sprite:
+Modifica il codice dello sprite della `navicella` in modo che sia "colpito" quando tocca lo sprite di un `Ippopotamo` o uno sprite dell'`Arancia`:
 
-![rocket sprite](images/rocket-sprite.png)
+![sprite razzo](images/rocket-sprite.png)
 
 ```blocks3
     wait until < <touching (Hippo1 v)?> or <touching (Orange v)?>>
