@@ -14,7 +14,7 @@ Draw another costume of an exploding spaceship, and call the new costume 'hit'.
 
 ![снимак екрана](images/invaders-spaceship-costumes.png)
 
-If you don't want to draw the explosion, you can select the 'Sun' costume from the Scratch library, and then use the **Color a shape** tool to change the costume's colour and face.
+Ако не желиш да нацрташ експлозију, можеш одабрати костим 'Сунце' из библиотеке Скреча, а затим употребити алат **Обоји облик** за промену боје и лица костима.
 
 ![снимак екрана](images/invaders-sun.png)
 
