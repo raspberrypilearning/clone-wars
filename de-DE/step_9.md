@@ -59,7 +59,7 @@ wechsle zum nächsten Kostüm
 
 \--- hint \---
 
-You code should look like this:
+Your code should look like this:
 
 ```blocks3
 Wenn die grüne Flagge angeklickt
