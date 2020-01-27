@@ -59,7 +59,7 @@ passa para o teu próximo traje
 
 \--- hint \---
 
-You code should look like this:
+Your code should look like this:
 
 ```blocks3
 quando alguém clicar na bandeira verde
