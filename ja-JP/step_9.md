@@ -58,7 +58,7 @@
 
 \--- hint \---
 
-You code should look like this:
+Your code should look like this:
 
 ```blocks3
 緑の旗が押されたとき
