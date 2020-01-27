@@ -59,7 +59,7 @@ next costume
 
 \--- hint \---
 
-Your code should look like this:
+你的代码应该像这样：
 
 ```blocks3
 when flag clicked
@@ -133,8 +133,8 @@ end
 ![橙子角色](images/orange-sprite.png)
 
 ```blocks3
-    when I receive [hit v]
-    delete this clone
+    当接收到 [hit v]
+删除此克隆体
 ```
 
 \--- /task \---
@@ -146,7 +146,7 @@ end
 ![火箭角色](images/rocket-sprite.png)
 
 ```blocks3
-    wait until < <touching (Hippo1 v)?> or <touching (Orange v)?>>
+    until < <touching (Hippo1 v)?> or <touching (Orange v)?>>
 ```
 
 \--- /task \---
