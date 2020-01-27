@@ -58,7 +58,7 @@
 
 \--- hint \---
 
-You code should look like this:
+Your code should look like this:
 
 ```blocks3
 초록색 깃발을 클릭했을 때
