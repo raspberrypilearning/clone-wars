@@ -1,72 +1,72 @@
-\---沒有印刷\---
+\--- no-print \---
 
-這是該項目的 **Scratch 3** 版本。項目</a>還有 Scratch 2版本。</p> 
+這個專案是 **Scratch 3** 版本。另外還有 [Scratch 2](https://projects.raspberrypi.org/en/projects/clone-wars-scratch2) 版本。
 
-\--- /無印刷\---
+\--- /no-print \---
 
 ## 介紹
 
-在這個項目中，您將學習如何創建一個遊戲，您必須從太空怪物中拯救地球。
+在這個專案中，你會學到如何創建一個遊戲，玩家必須駕駛飛船打敗會自行分裂、自我繁殖的太空怪物，拯救地球。
 
-### 你要做什麼
+### 你會做出的玩意兒
 
-\---沒有印刷\---
+\--- no-print \---
 
-單擊下面示例遊戲中的綠色標誌開始，然後按 <kbd>左</kbd> 和 <kbd>右</kbd> 箭頭鍵移動飛船，並按 <kbd>空格鍵</kbd> 進行拍攝。
+點擊綠旗開始，用鍵盤上的<kbd>向左鍵</kbd>、<kbd>向右鍵</kbd>移動太空船，用<kbd>空白鍵</kbd>射擊。
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/276887163/?autostart=false" frameborder="0" scrolling="no"></iframe>
   <img src="images/showcase.png">
 </div>
 
-\--- /無印刷\---
+\--- /no-print \---
 
-通過射擊飛行空間 - 河馬得分盡可能多的分數。如果你受到河馬或蝙蝠掉落的橙色的打擊，你就會失去生命。
+架駛飛船射擊太空河馬可以得分，得分愈高愈好，如果被河馬撞到或被蝙蝠丟出的橘球打到，飛船就會爆炸。
 
-\---只打印\---
+\--- print-only \---
 
-![降序](images/showcase.png)
+![desc](images/showcase.png)
 
-\--- /僅打印\---
+\--- /print-only \---
 
 ## \--- collapse \---
 
-## title: What you will need
+## title: 你會用到
 
-### 硬件
+### 硬體
 
-+ 能夠運行Scratch 3的計算機
++ 可運行 Scratch 3 的電腦
 
-### 軟件
+### 軟體
 
-+ 從頭開始3（ [在線](https://rpf.io/scratchon){：target =“_ blank”}或 [離線](https://rpf.io/scratchoff){：target =“_ blank”}）
++ Scratch 3（[線上版](https://rpf.io/scratchon){:target="_blank"} 或 [離線版](https://rpf.io/scratchoff){:target="_blank"}）
 
 ### 下載
 
-[Find the downloads here](http://rpf.io/p/en/clone-wars-go).
+材料包可[由此下載](http://rpf.io/p/en/clone-wars-go)。
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: What you will learn
+## title: 你會學到
 
-+ 如何使用鍵盤輸入使精靈移動
-+ 如何克隆精靈來製作它們的副本
-+ 如何使用“廣播”和“接收塊”發送消息
++ 用鍵盤輸入使角色移動
++ 用 Scratch 程式的建立分身積木複製怪物
++ 用 Scratch 程式廣播和接收訊息
 
-- - /坍方 - -
+\--- /collapse \---
 
 ## \--- collapse \---
 
-## title: Additional notes for educators
+## title: 給教師的其它資訊
 
 \--- no-print \---
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/clone-wars/print){:target="_blank"}.
+如果你需要列印這個專案，可以先切換成[列印友好模式](https://projects.raspberrypi.org/en/projects/clone-wars/print){:target="_blank"}。
 
 \--- /no-print \---
 
-You can find the [completed project here](http://rpf.io/p/en/clone-wars-get).
+你可以在這裡找到[已完成的專案](http://rpf.io/p/en/clone-wars-get)
 
 \--- /collapse \---
