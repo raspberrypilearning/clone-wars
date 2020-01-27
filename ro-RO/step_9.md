@@ -59,7 +59,7 @@ costumul următor
 
 \--- hint \---
 
-You code should look like this:
+Your code should look like this:
 
 ```blocks3
 când se dă click pe stegulețul verde
