@@ -1,10 +1,10 @@
-## 接下來是什麼？
+## 然後呢？
 
-Have a go at our [Create your own world](https://projects.raspberrypi.org/en/projects/create-your-own-world?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) project, where you’ll create your own adventure game!
+玩玩我們的[你的世界](https://projects.raspberrypi.org/en/projects/create-your-own-world?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects)專案，你也要創造一個屬於自己的冒險遊戲！
 
 \--- no-print \---
 
-Click the green flag to start. Use the arrow keys to move your character around in the world.
+點擊綠旗開始， 用方向鍵移動角色，在你的世界散散步。
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/258757783/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -15,6 +15,6 @@ Click the green flag to start. Use the arrow keys to move your character around 
 
 \--- print-only \---
 
-You'll use the arrow keys to move your character around in the world. ![showcase.png](images/create-showcase.png)
+逛逛你的世界，到處走走看看。 ![showcase.png](images/create-showcase.png)
 
 \--- /print-only \---
