@@ -1,7 +1,7 @@
-## 挑戰：生活和得分
+## 挑戰：生命與得分
 
-目前，你可以永遠玩遊戲，但不計算你拍攝的河馬數量或你的太空船爆炸次數。
+到目前為止，你可以不斷的遊戲，但並沒有計算你射擊到多少河馬，還有你被河馬撞到了多少次。
 
-你可以為你的遊戲添加 `生命`{：class =“block3variables”}， `得分`{：class =“block3variables”}，或者甚至是 `高分`{：class =“block3variables”}嗎？
+你能為遊戲加入`生命`{:class="block3variables"}、`得分`{:class="block3variables"}、還有`最高分`{:class="block3variables"}紀錄的機制嗎？
 
 [[[generic-scratch3-high-score]]]
