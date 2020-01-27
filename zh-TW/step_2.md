@@ -1,78 +1,78 @@
-## 製造宇宙飛船
+## 建造太空船
 
-首先製造一艘可以保衛地球的宇宙飛船！
-
-\---任務\---
-
-打開'Clone wars'Scratch啟動項目。
-
-**在線：** 在 [rpf.io/clone-wars-on](http://rpf.io/clone-wars-on){：target =“_ blank”}打開啟動項目。
-
-If you have a Scratch account you can make a copy by clicking **Remix**.
-
-**Offline:** download the starter project from [rpf.io/p/en/clone-wars-go](http://rpf.io/p/en/clone-wars-go), and then open it using the offline editor.
-
-If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
-
-\--- /task \---
-
-![starter project](images/starter-project.png)
+先來製造一艘可以保衛地球的宇宙飛船！
 
 \--- task \---
 
-Add this code to the spaceship sprite to make the spaceship move left if the <kbd>left</kbd> arrow is pressed:
+開啟 Clone wars 這個範例專案。
 
-![rocket sprite](images/rocket-sprite.png)
+**線上版：**你可以連結 [rpf.io/clone-wars-on](http://rpf.io/clone-wars-on){:target="_blank"} 以新建專案。
+
+如果你有 Scratch 帳戶，你就可以直接**改編**專案。
+
+**離線版：** 你可以點擊 [rpf.io/p/en/clone-wars-go](http://rpf.io/p/en/clone-wars-go){:target="_blank"} 以下載專案。
+
+如果你需要 Scratch 離線版編輯器，可以連結到 [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}。
+
+\--- /task \---
+
+![初始專案](images/starter-project.png)
+
+\--- task \---
+
+為飛船編寫程式，讓它可以在按下<kbd>向左</kbd>鍵時，跟著往左移動：
+
+![飛船角色](images/rocket-sprite.png)
 
 ```blocks3
-    當標誌點擊
-    永遠
-        如果 <key (left arrow v) pressed?> 然後
-            改變x由（-4）
-        結束
-    結束
+    當 @greenflag 被點擊
+    重複無限次
+        如果 < (向左 v)鍵被按下？> 那麼
+            x 改變 (-4)
+        end
+    end
 ```
 
-The x-axis goes from the left side of the Stage to the right side. This means that the spaceship moves to the left when you subtract from the value of the spaceship sprite's `x` position. So this code block is the part that makes your spaceship move left:
+x 軸指的是舞台的水平方向（左到右側）的位置。 如果你把飛船角色的 x 座標減小，它就會往左移動。 下方的這個積木就是讓飛船往左平移的關鍵：
 
 ```blocks3
-將x改變為（-4）
+x 改變 (-4)
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Add some more code inside the `forever`{:class="block3control"} block to make your spaceship move to the right if the <kbd>right</kbd> arrow key is pressed.
+再添加一些程式到`重複無限次`{:class="block3control"}裡頭，讓飛船能在輸入<kbd>向右</kbd>鍵時往右平移。
 
 \--- hints \---
 
 \--- hint \---
 
-Subtracting `4` from the spaceship's `x` position made it move left, so how could you make the spaceship move right by `4` instead?
+把飛船在 `x` 的位置減去 `4` 可以讓它往左移動，那要怎樣讓飛船往右移動 `4` 點呢？
 
 \--- /hint \---
 
 \--- hint \---
 
-You need the same code block, but with a different number:
+你需要的積木是一樣的，但是給定的數字不同：
 
 ```blocks3
-通過（）改變x
+x 改變 ()
 ```
 
 \--- /hint \---
 
 \--- hint \---
 
-Here is the code you need to add below the other code inside the `forever`{:class="block3control"} block:
+這是你要在`重複無限次`{:class="block3control"}迴圈裡要添加的程式：
 
-![rocket sprite](images/rocket-sprite.png)
+![飛船角色](images/rocket-sprite.png)
 
 ```blocks3
-如果為 <key (right arrow v) pressed?> 然後
-    將x改變為（4）
-結束
+如果 < (向右 v)鍵被按下？> 那麼
+    x 改變 (4)
+end
 ```
 
 \--- /hint \---
@@ -83,6 +83,6 @@ Here is the code you need to add below the other code inside the `forever`{:clas
 
 \--- task \---
 
-Test your project by clicking the green flag. Can you press the arrow keys to make your spaceship move left and right?
+點擊綠旗開始測試你的專案，看看你能不能用方向鍵讓飛船往左或往右水平移動。
 
 \--- /task \---
