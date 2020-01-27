@@ -25,8 +25,8 @@
 ![河马角色](images/hippo-sprite.png)
 
 ```blocks3
-when green flag clicked
-hide
+当 ⚑ 被点击
+隐藏
 ```
 
 \--- /task \---
@@ -48,16 +48,16 @@ hide
 以下是你需要的代码块：
 
 ```blocks3
-forever
+重复执行
 end
 
-create clone of (Hippo1 v)
+克隆 (Hippo1 v)
 
-(pick random (2) to (4))
+(在 (2) 和 (4) 之间取随机数)
 
-when flag clicked
+当 ⚑ 被点击
 
-wait () secs
+等待 () 秒
 ```
 
 \--- /hint \---
@@ -69,10 +69,10 @@ wait () secs
 ![舞台角色](images/stage-sprite.png)
 
 ```blocks3
-when flag clicked
-forever
-    wait (pick random (2) to (4)) secs
-    create clone of (Hippo1 v)
+当 ⚑ 被点击
+重复执行 
+  等待 (在 (2) 和 (4) 之间取随机数) 秒
+  克隆 (Hippo1 v)
 end
 ```
 
@@ -101,10 +101,10 @@ end
 每个`河马`克隆启动时，选择随机的速度和起点。然后在屏幕上显示克隆。
 
 ```blocks3
-when I start as a clone
-set [speed v] to (pick random (2) to (4))
-go to x: (pick random (-220) to (220)) y: (150)
-show
+当作为克隆体启动时
+将 [speed v] 设为 (在 (2) 和 (4) 之间取随机数)
+移到 x: (在 (-220) 和 (220) 之间取随机数) y: (150)
+显示
 ```
 
 \--- /task \---
@@ -122,12 +122,12 @@ show
 每个河马都应该随机移动，直到被闪电击中。 要做到这一点，请在`河马`角色已有的的代码脚本中的代码块下面附上此代码：
 
 ```blocks3
-repeat until <touching (lightning v) ?>
-    move (speed :: variables) steps
-    turn right (pick random (-10) to (10)) degrees
-    if on edge, bounce
+重复执行直到 <touching (lightning v) ?> 
+  移动 (speed :: variables) 步
+  右转 ↻ (在 (-10) 和 (10) 之间取随机数) 度
+  碰到边缘就反弹
 end
-delete this clone
+删除此克隆体
 ```
 
 \--- /task \---
