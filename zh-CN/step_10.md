@@ -25,7 +25,7 @@
 ![游戏结束角色](images/stage-sprite.png)
 
 ```blocks3
-broadcast (game over v) and wait
+广播 (game over v) 并等待
 ```
 
 \--- /task \---
@@ -37,11 +37,11 @@ broadcast (game over v) and wait
 ![游戏结束角色](images/gameover-sprite.png)
 
 ```blocks3
-when flag clicked
-hide
+当 ⚑ 被点击
+隐藏
 
-when I receive [game over v]
-show
+当接收到 [game over v]
+显示
 ```
 
 因为您已经在舞台上使用了一个`广播(游戏结束)并等待`{:class="block3events"} 代码块， 舞台将等`游戏结束`角色显示后才结束游戏。。广播
