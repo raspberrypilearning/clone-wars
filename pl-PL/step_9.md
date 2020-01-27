@@ -59,7 +59,7 @@ następny kostium
 
 \--- hint \---
 
-You code should look like this:
+Your code should look like this:
 
 ```blocks3
 kiedy kliknięto zieloną flagę
