@@ -29,13 +29,13 @@ end
 
 \--- /task \---
 
-If you look at the bat's costumes, you can see that it has four different ones:
+Ако погледаш костиме шишмиша, можеш видети да има четири различита:
 
 ![снимак екрана](images/invaders-bat-costume.png)
 
 \--- task \---
 
-Use the `next costume`{:class="block3looks"} block to make the bat flap its wings as it moves.
+Употреби блок `следећи костим`{:class="block3looks"} да направиш да шишмиш маше крилима док се креће.
 
 \--- hints \---
 
@@ -47,7 +47,7 @@ After the bat has moved, it should show the `next costume`{:class="block3looks"}
 
 \--- hint \---
 
-You need to add these blocks to you code:
+Мораш да додаш ове блокове у свој код:
 
 ```blocks3
 чекај (0.3) секунду
@@ -59,7 +59,7 @@ You need to add these blocks to you code:
 
 \--- hint \---
 
-Your code should look like this:
+Твој код би требао да изгледа овако:
 
 ```blocks3
 када је кликнуто на ⚑
