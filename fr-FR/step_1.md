@@ -31,7 +31,7 @@ Marque autant de points que possible en tirant sur des hippopotames volants. Tu 
 
 ## \--- collapse \---
 
-## title: What you will need
+## title: Ce que tu auras besoin
 
 ### Matériel informatique
 
@@ -43,13 +43,13 @@ Marque autant de points que possible en tirant sur des hippopotames volants. Tu 
 
 ### Téléchargements
 
-[Find the downloads here](http://rpf.io/p/en/clone-wars-go).
+[Trouve les téléchargements ici](http://rpf.io/p/en/clone-wars-go).
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: What you will learn
+## title: Ce que tu vas apprendre
 
 + Comment faire bouger les sprites en utilisant les touches du clavier
 + Comment cloner des sprites pour en faire des copies
@@ -59,14 +59,14 @@ Marque autant de points que possible en tirant sur des hippopotames volants. Tu 
 
 ## \--- collapse \---
 
-## title: Additional notes for educators
+## title: Informations supplémentaires pour les éducateurs
 
 \--- no-print \---
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/clone-wars/print){:target="_blank"}.
+Si vous avez besoin d'imprimer ce projet, merci d'utiliser la [version imprimable](https://projects.raspberrypi.org/en/projects/clone-wars/print) {:target="_blank"}.
 
 \--- /no-print \---
 
-You can find the [completed project here](http://rpf.io/p/en/clone-wars-get).
+Vous pouvez trouver le [projet terminé ici](http://rpf.io/p/en/clone-wars-get).
 
 \--- /collapse \---
