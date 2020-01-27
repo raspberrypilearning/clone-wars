@@ -9,12 +9,10 @@
 ![火箭角色](images/rocket-sprite.png)
 
 ```blocks3
-when flag clicked
-switch costume to (normal v)
-wait until <touching (Hippo1 v)>?
-switch costume to (hit v)
-
-+ broadcast (hit v)
+当 ⚑ 被点击
+换成 (normal v) 造型
+等待 <touching (Hippo1 v)>
+换成 (hit v) 造型
 ```
 
 \--- /task \---
@@ -26,8 +24,8 @@ switch costume to (hit v)
 ![河马角色](images/hippo-sprite.png)
 
 ```blocks3
-when I receive [hit v]
-delete this clone
+当接收到 [hit v]
+删除此克隆体
 ```
 
 \--- /task \---
@@ -49,14 +47,13 @@ delete this clone
 ![火箭角色](images/rocket-sprite.png)
 
 ```blocks3
-when flag clicked
-forever
-switch costume to (normal v)
-wait until <touching (Hippo1 v)>?
-switch costume to (hit v)
-broadcast (hit v)
-
-+ wait (1) seconds
+当 ⚑ 被点击
+重复执行 
+ 换成 (normal v) 造型
+ 等待 <touching (Hippo1 v)>
+ 换成 (hit v) 造型
+ 广播 (hit v)
+ + 等待 (1) 秒
 end
 ```
 
