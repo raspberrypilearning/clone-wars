@@ -15,5 +15,5 @@
 + 当你得分达到`100`时，让更多的敌人出现。
 
 ```blocks3
-    wait until <(score :: variables) = [100]>
+    等待 <(score :: variables) = [100]>
 ```
