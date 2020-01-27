@@ -27,10 +27,10 @@
 ![火箭角色](images/rocket-sprite.png)
 
 ```blocks3
-when flag clicked
-switch costume to (normal v)
-wait until <touching (Hippo1 v)>?
-switch costume to (hit v)
+当 ⚑ 被点击
+换成 (normal v) 造型
+等待 <touching (Hippo1 v)>
+换成 (hit v) 造型
 ```
 
 \--- /task \---
