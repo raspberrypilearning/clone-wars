@@ -12,7 +12,7 @@ To make your game a bit harder, you are going to create a bat that throws orange
 
 \--- task \---
 
-Make the `Bat` sprite `move`{:class="block3motion"} from left to right at the top of the Stage `forever`{:class="block3control"}.
+Направи да лик `Шишмиша` `заувек`{:class="block3control"} `иде`{:class="block3motion"} лево-десно у горњем делу Позорнице.
 
 ![лик шишмиша](images/bat-sprite.png)
 
