@@ -59,7 +59,7 @@ passa para o teu próximo traje
 
 \--- hint \---
 
-Your code should look like this:
+O teu código deverá ter este aspeto:
 
 ```blocks3
 quando alguém clicar na bandeira verde
@@ -78,21 +78,21 @@ end
 
 \--- /task \---
 
-Now make the bat throw oranges!
+Agora faz com que o morcego atire laranjas!
 
 \--- task \---
 
-Add an `Orange` sprite from the Scratch library.
+Acrescenta o ator ` Laranja ` da biblioteca do Scratch.
 
-![screenshot](images/invaders-orange.png)
+![captura de ecrã](images/invaders-orange.png)
 
 \--- /task \---
 
 \--- task \---
 
-Add code to your bat so that `when the flag is clicked`{:class="block3events"}, the `Bat` sprite `forever`{:class="block3control"} `waits`{:class="block3control"} for a `random`{:class="block3operators"} length of time between `5 to 10`{:class="block3operators"} seconds and then `creates a clone`{:class="block3control"} of the `Orange` sprite.
+Adiciona código ao seu morcego para que ` quando a bandeira verde for clicada ` {: class = "block3events"}, o ator ` morcego ` aguarda ` para sempre ` {: class = "block3control"} ` ` {: class = "block3control"} durante um período de tempo ` aleatório ` {: class = "block3operators"} entre ` 5 e 10 ` {: class = "block3operators"} segundos antes de ` criar um clone ` {: class = "block3control"} do ator ` Laranja `.
 
-![bat sprite](images/bat-sprite.png)
+![ator morcego](images/bat-sprite.png)
 
 ```blocks3
 quando alguém clicar na bandeira verde
@@ -106,9 +106,9 @@ end
 
 \--- task \---
 
-Add code to the `Orange` to make each of its clone drop, starting from the `Bat` sprite and falling towards the bottom of the Stage.
+Acrescenta código à ` Laraja ` para fazer com que cada um dos seus clones caia, começando no ator ` Morcego ` e caindo depois em direção ao fundo do palco.
 
-![orange sprite](images/orange-sprite.png)
+![ator laranja](images/orange-sprite.png)
 
 ```blocks3
     quando alguém clicar na bandeira verde
@@ -127,9 +127,9 @@ remove-te como clone
 
 \--- task \---
 
-Add some more code to the `Orange` sprite so that when an `Orange` clone hits the `Spaceship` sprite, the clone also disappears to give the player a chance to reset:
+Acrescenta um pouco mais de código ao ator ` Laranja ` para que quando um clone ` Laranja ` atinge o ator ` nave espacial` ele também desapareça para dar ao jogador a oportunidade de se redefinir:
 
-![orange sprite](images/orange-sprite.png)
+![ator laranja](images/orange-sprite.png)
 
 ```blocks3
     quando receberes a mensagem [hit v]
@@ -140,9 +140,9 @@ remove este clone
 
 \--- task \---
 
-Modify the code of your `Spaceship` sprite so that the sprite is "hit" when it touches a `Hippo` sprite or an `Orange` sprite:
+Modifica o código do teu ator ` nave espacial ` para que ele seja "atingido" quando toca num ator ` Hipopótamo ` ou num ator ` Laranja `:
 
-![rocket sprite](images/rocket-sprite.png)
+![ator Foguetão](images/rocket-sprite.png)
 
 ```blocks3
     espera até que <<estás a tocar em (Hippo1 v)> ou <estás a tocar em (Orange v)>>
@@ -152,6 +152,6 @@ Modify the code of your `Spaceship` sprite so that the sprite is "hit" when it t
 
 \--- task \---
 
-Test your game. What happens if the spaceship gets hit by a falling orange?
+Testa o teu jogo. O que é que acontece se a nave espacial for atingida por uma laranja em queda?
 
 \--- /task \---
