@@ -1,14 +1,14 @@
 \--- no-print \---
 
-Dette er en **Scratch 3-versjon** av prosjektet. Det finnes også en [Scratch 2-versjon av prosjektet](https://projects.raspberrypi.org/en/projects/clone-wars-scratch2).
+This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/clone-wars-scratch2).
 
 \--- /no-print \---
 
-## Introduksjon
+## Introduction
 
 In this project you will learn how to create a game in which you have to save the Earth from space monsters.
 
-### Hva du vil lage
+### What you will make
 
 \--- no-print \---
 
@@ -33,13 +33,13 @@ Score as many points as you can by shooting flying space-hippos. If you get hit 
 
 ## title: What you will need
 
-### Maskinvare
+### Hardware
 
-+ En datamaskin som kan kjøre Scratch 3
++ A computer capable of running Scratch 3
 
-### Programvare
+### Software
 
-+ Scratch 3 (enten [online](https://rpf.io/scratchon){:target="_blank"} eller [offline](https://rpf.io/scratchoff){:target="_blank"})
++ Scratch 3 (either [online](https://rpf.io/scratchon){:target="_blank"} or [offline](https://rpf.io/scratchoff){:target="_blank"})
 
 ### Downloads
 
