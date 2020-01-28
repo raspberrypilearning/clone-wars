@@ -1,18 +1,18 @@
 \--- no-print \---
 
-これはプロジェクトの **Scratch 3** バージョンです。プロジェクト</a>Scratch 2バージョンもあります。</p> 
+This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/clone-wars-scratch2).
 
 \--- /no-print \---
 
-## はじめに
+## Introduction
 
-このプロジェクトでは、宇宙のかいぶつから地球を救うゲームを作ります。
+In this project you will learn how to create a game in which you have to save the Earth from space monsters.
 
-### 作るもの
+### What you will make
 
 \--- no-print \---
 
-下のゲーム例の緑色の旗をクリックして開始し、次に <kbd>左</kbd> と <kbd>右</kbd> 矢印キーを押して宇宙船を移動し、 <kbd>スペース</kbd> キーを押して射撃します。
+Click the green flag in the example game below to start, and then press the <kbd>left</kbd> and <kbd>right</kbd> arrow keys to move the spaceship, and the <kbd>space</kbd> key to shoot.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/276887163/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -21,7 +21,7 @@
 
 \--- /no-print \---
 
-飛んでスペースカバを撮影することによってあなたができる限り多くのポイントを獲得。あなたがカバやコウモリによって落とされたオレンジによって打たれるならば、あなたは命を失います。
+Score as many points as you can by shooting flying space-hippos. If you get hit by a hippo or by an orange dropped by the bats, you lose a life.
 
 \--- print-only \---
 
@@ -33,15 +33,15 @@
 
 ## title: What you will need
 
-### ハードウェア
+### Hardware
 
-+ Scratch 3を実行できるコンピュータ
++ A computer capable of running Scratch 3
 
-### ソフトウェア
+### Software
 
-+ Scratch 3 ([オンライン](https://rpf.io/scratchon){:target="_blank"}または[オフライン](https://rpf.io/scratchoff){:target="_blank"})
++ Scratch 3 (either [online](https://rpf.io/scratchon){:target="_blank"} or [offline](https://rpf.io/scratchoff){:target="_blank"})
 
-### ダウンロード
+### Downloads
 
 [Find the downloads here](http://rpf.io/p/en/clone-wars-go).
 
@@ -51,9 +51,9 @@
 
 ## title: What you will learn
 
-+ キーボード入力を使ってスプライトを動かす方法
-+ スプライトを複製してコピーする方法
-+ メッセージを送信するための 'broadcast'と 'receive blocks'の使い方
++ How to make sprites move using keyboard input
++ How to clone sprites to make copies of them
++ How to use 'broadcast' and 'receive blocks' to send messages
 
 \--- /collapse \---
 
