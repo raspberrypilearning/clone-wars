@@ -1,4 +1,4 @@
-## Reto: Mejorar el juego
+## Hippos that disappear
 
 When the spaceship explodes, all the hippos should disappear so that players of the game can recover.
 
@@ -26,8 +26,8 @@ All of the `Hippo` sprite clones will receive the "hit" message, and you can ins
 ![hippo sprite](images/hippo-sprite.png)
 
 ```blocks3
-al recibir [hit v]
-elimina este clon
+when I receive [hit v]
+delete this clone
 ```
 
 \--- /task \---
