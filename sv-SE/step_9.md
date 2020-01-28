@@ -4,13 +4,13 @@ To make your game a bit harder, you are going to create a bat that throws orange
 
 ![a bat throwing an orange at the spaceship](images/bat-oranges.png)
 
-\--- uppgift \---
+\--- task \---
 
 Add a `Bat` sprite and set its rotation style to **left–right**.
 
 \--- /task \---
 
-\--- uppgift \---
+\--- task \---
 
 Make the `Bat` sprite `move`{:class="block3motion"} from left to right at the top of the Stage `forever`{:class="block3control"}.
 
@@ -31,9 +31,9 @@ Remember to test your code.
 
 If you look at the bat's costumes, you can see that it has four different ones:
 
-![skärmdump](images/invaders-bat-costume.png)
+![screenshot](images/invaders-bat-costume.png)
 
-\--- uppgift \---
+\--- task \---
 
 Use the `next costume`{:class="block3looks"} block to make the bat flap its wings as it moves.
 
