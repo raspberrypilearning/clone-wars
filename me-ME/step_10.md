@@ -1,4 +1,4 @@
-## Kraj igre
+## Game over
 
 Next, you're going to add a 'game over' message at the end of the game.
 
@@ -12,7 +12,7 @@ Your spaceship should start with three lives and lose a life whenever it touches
 
 \--- task \---
 
-Nacrtaj novi lik `Kraj igre`, koristeći alat za **tekst** (text).
+Draw a new sprite called `Game Over` using the **text** tool.
 
 ![screenshot](images/invaders-game-over.png)
 
@@ -40,7 +40,7 @@ Add this code to your `Game Over` sprite so that it shows at the end of the game
 when flag clicked
 hide
 
-when I receive [kraj igre v]
+when I receive [game over v]
 show
 ```
 
