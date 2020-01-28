@@ -1,14 +1,14 @@
 \--- no-print \---
 
-यह प्रोजेक्ट का **स्क्रैच 3** संस्करण है। प्रोजेक्ट का [स्क्रैच 2](https://projects.raspberrypi.org/en/projects/clone-wars-scratch2) संस्करण भी है।
+This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/clone-wars-scratch2).
 
 \--- /no-print \---
 
-## परिचय
+## Introduction
 
 In this project you will learn how to create a game in which you have to save the Earth from space monsters.
 
-### आप क्या बनाएँगे
+### What you will make
 
 \--- no-print \---
 
@@ -33,15 +33,15 @@ Score as many points as you can by shooting flying space-hippos. If you get hit 
 
 ## title: What you will need
 
-### हार्डवेयर
+### Hardware
 
-+ Scratch 3 चलाने में सक्षम कंप्यूटर
++ A computer capable of running Scratch 3
 
-### सॉफ्टवेयर
+### Software
 
 + Scratch 3 (either [online](https://rpf.io/scratchon){:target="_blank"} or [offline](https://rpf.io/scratchoff){:target="_blank"})
 
-### डाउनलोड
+### Downloads
 
 [Find the downloads here](http://rpf.io/p/en/clone-wars-go).
 
