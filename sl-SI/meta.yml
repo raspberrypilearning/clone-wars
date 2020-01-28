@@ -1,37 +1,37 @@
 ---
 hero_image: images/clone-wars.png
-theme: vijolična
+theme: violet
 listed: true
 copyedit: true
-title: Vojna klonov
-description: Ustvari igro, v kateri moraš rešiti Zemljo pred vesoljskimi pošastmi
+title: Clone wars
+description: Create a game in which you have to save the Earth from space monsters
 version: 4.1.0
 last_tested: 2018-10-11
 steps:
   - 
-    title: Uvod
+    title: Introduction
   - 
-    title: Ustvari raketo
+    title: Make a spaceship
   - 
-    title: Strele
+    title: Lightning bolts
   - 
-    title: 'Izziv: izboljšaj strelo'
+    title: 'Challenge: improve the lightning'
     challenge: true
   - 
-    title: Vesoljski povodni konji
+    title: Space-hippos
   - 
-    title: Eksplozija rakete
+    title: Spaceship explosion
   - 
-    title: Povodni konji, ki izginejo
+    title: Hippos that disappear
   - 
-    title: 'Izziv: življenja in točke'
+    title: 'Challenge: lives and score'
     challenge: true
   - 
-    title: Vesoljski netopir
+    title: Space-bat
   - 
-    title: Konec igre
+    title: Game over
   - 
-    title: 'Izziv: izboljšaj igro'
+    title: 'Challenge: improve your game'
     challenge: true
   - 
-    title: Kaj sledi?
+    title: What next?
