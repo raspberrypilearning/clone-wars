@@ -1,4 +1,4 @@
-## स्पेसशिप बनाना
+## Lightning bolts
 
 Now you are going to give the spaceship the ability to fire lightning bolts!
 
