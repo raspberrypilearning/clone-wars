@@ -1,3 +1,3 @@
-## Izziv: Izboljšaj strelo
+## Challenge: improve the lightning
 
-Kaj se zgodi, če držiš tipko <kbd>presledek</kbd>? Ali lahko to popraviš s pomočjo bloka `počakaj`{:class="block3control"}?
+What happens if you hold down the <kbd>space</kbd> key? Can you use a `wait`{:class="block3control"} block to fix this?
