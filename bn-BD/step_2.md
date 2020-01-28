@@ -2,7 +2,7 @@
 
 First make a spaceship that can defend the Earth!
 
-\--- কাজ \---
+\--- task \---
 
 Open the 'Clone wars' Scratch starter project.
 
@@ -14,11 +14,11 @@ If you have a Scratch account you can make a copy by clicking **Remix**.
 
 If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
 
-\--- /কাজ \---
+\--- /task \---
 
 ![starter project](images/starter-project.png)
 
-\--- কাজ \---
+\--- task \---
 
 Add this code to the spaceship sprite to make the spaceship move left if the <kbd>left</kbd> arrow is pressed:
 
@@ -39,7 +39,7 @@ The x-axis goes from the left side of the Stage to the right side. This means th
 change x by (-4)
 ```
 
-\--- /কাজ \---
+\--- /task \---
 
 \--- task \---
 
@@ -79,10 +79,10 @@ end
 
 \--- /hints \---
 
-\--- /কাজ \---
+\--- /task \---
 
 \--- task \---
 
 Test your project by clicking the green flag. Can you press the arrow keys to make your spaceship move left and right?
 
-\--- /কাজ \---
+\--- /task \---
