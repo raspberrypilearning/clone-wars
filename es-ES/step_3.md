@@ -1,10 +1,10 @@
-## Relámpagos
+## Lightning bolts
 
 Now you are going to give the spaceship the ability to fire lightning bolts!
 
 \--- task \---
 
-Añade el sprite `relámpago` de la biblioteca Scratch.
+Add the `Lightning` sprite from the Scratch library.
 
 [[[generic-scratch3-sprite-from-library]]]
 
@@ -19,8 +19,8 @@ Add this code to the `Lightning` sprite:
 ![lightning sprite](images/lightning-sprite.png)
 
 ```blocks3
-al presionar la bandera verde
-oculta
+when green flag clicked
+hide
 ```
 
 \--- /task \---
@@ -46,7 +46,7 @@ Now it looks like it fires pointy end–first out of the spaceship.
 
 Add some new code to the `Spaceship` sprite to create a new clone of the lightning bolt if the <kbd>space</kbd> key is pressed.
 
-\--- consejos \---
+\--- hints \---
 
 \--- hint \---
 
@@ -56,7 +56,7 @@ Add some new code to the `Spaceship` sprite to create a new clone of the lightni
 
 \--- hint \---
 
-Aquí están los bloques que necesitas:
+Here are the blocks you need:
 
 ```blocks3
 if <> then
