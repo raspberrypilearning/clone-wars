@@ -1,63 +1,63 @@
-## Povodni konji, ki izginejo
+## Hippos that disappear
 
-Ko raketa eksplodira, naj vsi povodni konji izginejo, da si lahko igralci igre opomorejo.
+When the spaceship explodes, all the hippos should disappear so that players of the game can recover.
 
 \--- task \---
 
-Dodaj figuri rakete kodo, da bo `objavila`{:class="block3events"} sporočilo "zadetek", ko se `raketa dotakne povodnega`{:class="block3sensing"} konja.
+Add code to the spaceship sprite to make it `broadcast`{:class="block3events"} the message "hit" when the `spaceship touches a hippo`{:class="block3sensing"}.
 
-![figura rakete](images/rocket-sprite.png)
+![rocket sprite](images/rocket-sprite.png)
 
 ```blocks3
-ko kliknemo na zastavo
-zamenjaj videz na (normalno v)
-počakaj dokler ni <se dotika (povodni v)>?
-zamenjaj videz na (zadetek v)
+when flag clicked
+switch costume to (normal v)
+wait until <touching (Hippo1 v)>?
+switch costume to (hit v)
 
-+ objavi (zadetek v)
++ broadcast (hit v)
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Vsi dvojniki figure `povodni` konj bodo prejeli sporočilo "zadetek", tako da jim boš lahko ukazal, naj se skrijejo, kadar je raketa zadeta, tako da dodaš sledečo kodo figuri `povodnega` konja:
+All of the `Hippo` sprite clones will receive the "hit" message, and you can instruct them to disappear when the spaceship is hit by adding this code to the `Hippo` sprite:
 
-![figura povodnega konja](images/hippo-sprite.png)
+![hippo sprite](images/hippo-sprite.png)
 
 ```blocks3
-ko prejmem [zadetek v]
-zbriši tega dvojnika
+when I receive [hit v]
+delete this clone
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Preveri ali tvoja nova koda deluje. Klikni na zeleno zastavico in se z raketo zaleti v povodnega konja.
+To check whether the new code works, click the green flag and make the spaceship collide with a hippo.
 
-![posnetek zaslona](images/invaders-hippo-collide.png)
+![screenshot](images/invaders-hippo-collide.png)
 
 \--- /task \---
 
-Po tem ko raketa eksplodira, se pojavijo novi dvojniki `povodnega` konja, vendar je raketa še vedno raztreščena! Raketo je potrebno po tem, ko je zadeta, še ponastaviti.
+After the spaceship explodes, new `Hippo` clones appear, but the spaceship is still exploded! The spaceship needs to reset itself after being hit.
 
 \--- task \---
 
-Dodaj blok `počakaj`{:class="block3control"} na konec kode figure `raketa`, da ustvariš kratko pavzo med ponovnim pojavljanjem povodnih konjev. Nato podaj še blok `ponavljaj`{:class="block3control"}, ki naj zaobjame vso kodo, zato da se bo koda ponavljala.
+Add a `wait`{:class="block3control"} block at the end of the `Spaceship` sprite's code to create a small pause before hippos begin appearing again. Then add a `forever`{:class="block3control"} block around all of your code to make the code run repeatedly.
 
-![figura rakete](images/rocket-sprite.png)
+![rocket sprite](images/rocket-sprite.png)
 
 ```blocks3
-ko kliknemo na zastavo
-ponavljaj
-zamenjaj videz na (normalno v)
-počakaj dokler ni <se dotika (povodni v)>?
-zamenjaj videz na (zadetek v)
-objavi (zadetek v)
+when flag clicked
+forever
+switch costume to (normal v)
+wait until <touching (Hippo1 v)>?
+switch costume to (hit v)
+broadcast (hit v)
 
-+ počakaj (1) sekund
-konec
++ wait (1) seconds
+end
 ```
 
 \--- /task \---
