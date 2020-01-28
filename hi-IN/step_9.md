@@ -1,4 +1,4 @@
-## गेम ओवर
+## Space-bat
 
 To make your game a bit harder, you are going to create a bat that throws oranges at the spaceship.
 
@@ -31,7 +31,7 @@ Remember to test your code.
 
 If you look at the bat's costumes, you can see that it has four different ones:
 
-![स्क्रीनशॉट](images/invaders-bat-costume.png)
+![screenshot](images/invaders-bat-costume.png)
 
 \--- task \---
 
