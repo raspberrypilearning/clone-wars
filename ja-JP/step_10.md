@@ -1,55 +1,55 @@
-## Game Over!（ゲーム終了）
+## Game over
 
-次に、ゲーム終了時に「ゲームオーバー」のメッセージを追加します。
+Next, you're going to add a 'game over' message at the end of the game.
 
-課題
+\--- task \---
 
-まだ行っていない場合は、 「生命」という新しい変数を作成します。
+If you haven't already, create a new variable called `lives`{:class="block3variables"}.
 
-あなたの宇宙船は3つの「生命」から始まり、カバやオレンジに触れるたびに命を落とします。 ３つの命を使い切ってしまうと、ゲームは停止します。
+Your spaceship should start with three lives and lose a life whenever it touches a hippo or an orange. Your game should stop when the `lives`{:class="block3variables"} run out.
 
-課題
+\--- /task \---
 
-課題
+\--- task \---
 
-テキストツールを使って「ゲームオーバー（Game Over!）」という新しいスプライトを作りましょう。
+Draw a new sprite called `Game Over` using the **text** tool.
 
-![スクリーンショット](images/invaders-game-over.png)
+![screenshot](images/invaders-game-over.png)
 
-課題
+\--- /task \---
 
-課題
+\--- task \---
 
-ステージ上で、ゲームが終了する直前に「ゲームオーバー」のメッセージを送信します。
+On the Stage, broadcast a `game over`{:class="block3events"} message just before the game ends.
 
-![「ゲームオーバー」のスプライト](images/stage-sprite.png)
-
-```blocks3
-「ゲームオーバー」のメッセージを送信して待ちます。
-```
-
-課題
-
-課題
-
-ゲーム終了時に表示されるように、このコードを「ゲームオーバー」のスプライトに追加します。
-
-![「ゲームオーバー」のスプライト](images/gameover-sprite.png)
+![gameover sprite](images/stage-sprite.png)
 
 ```blocks3
-緑の旗がクリックされたとき
-隠す
-
-「ゲームオーバー 」のメッセージを受け取ったとき
-表示する
+broadcast (game over v) and wait
 ```
 
-「ゲームオーバーを送って待つ」ブロックを使ったので、ステージはゲームオーバースプライトが表示されるのを待ってからゲームを終了します。
+\--- /task \---
 
-課題
+\--- task \---
 
-課題
+Add this code to your `Game Over` sprite so that it shows at the end of the game:
 
-ゲームをテストしてください。何ポイント獲得できますか？ゲームが簡単すぎる、または難しすぎる場合、あなたはそれを改善する方法を考えることができますか？
+![gameover sprite](images/gameover-sprite.png)
 
-課題
+```blocks3
+when flag clicked
+hide
+
+when I receive [game over v]
+show
+```
+
+Because you've used a `broadcast (game over) and wait`{:class="block3events"} block on your Stage, the Stage will wait for the `Game Over` sprite to be displayed before ending the game.
+
+\--- /task \---
+
+\--- task \---
+
+Test your game. How many points can you score? If the game is too easy or too hard, can you think of ways to improve it?
+
+\--- /task \---
