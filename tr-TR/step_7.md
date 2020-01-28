@@ -17,7 +17,7 @@ switch costume to (hit v)
 + broadcast (hit v)
 ```
 
-\--- /görev \---
+\--- /task \---
 
 \--- task \---
 
@@ -36,7 +36,7 @@ delete this clone
 
 To check whether the new code works, click the green flag and make the spaceship collide with a hippo.
 
-![ekran görüntüsü](images/invaders-hippo-collide.png)
+![screenshot](images/invaders-hippo-collide.png)
 
 \--- /task \---
 
