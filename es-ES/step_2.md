@@ -1,4 +1,4 @@
-## Haz una nave espacial
+## Make a spaceship
 
 First make a spaceship that can defend the Earth!
 
@@ -12,7 +12,7 @@ If you have a Scratch account you can make a copy by clicking **Remix**.
 
 **Offline:** download the starter project from [rpf.io/p/en/clone-wars-go](http://rpf.io/p/en/clone-wars-go), and then open it using the offline editor.
 
-Si necesitas descargar e instalar el editor offline de Scratch, puedes encontrarlo en [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
+If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
 
 \--- /task \---
 
@@ -36,7 +36,7 @@ Add this code to the spaceship sprite to make the spaceship move left if the <kb
 The x-axis goes from the left side of the Stage to the right side. This means that the spaceship moves to the left when you subtract from the value of the spaceship sprite's `x` position. So this code block is the part that makes your spaceship move left:
 
 ```blocks3
-cambia x por (-4)
+change x by (-4)
 ```
 
 \--- /task \---
@@ -58,7 +58,7 @@ Subtracting `4` from the spaceship's `x` position made it move left, so how coul
 You need the same code block, but with a different number:
 
 ```blocks3
-cambia x por ( )
+change x by ( )
 ```
 
 \--- /hint \---
@@ -70,9 +70,9 @@ Here is the code you need to add below the other code inside the `forever`{:clas
 ![rocket sprite](images/rocket-sprite.png)
 
 ```blocks3
-si <key (right arrow v) pressed?> luego
-    cambia x por (4)
-final
+if <key (right arrow v) pressed?> then
+    change x by (4)
+end
 ```
 
 \--- /hint \---
