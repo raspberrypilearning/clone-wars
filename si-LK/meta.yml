@@ -1,6 +1,6 @@
 ---
-hero_image: images / clone-wars.png
-theme: වයලට්
+hero_image: images/clone-wars.png
+theme: violet
 listed: true
 copyedit: true
 title: Clone wars
@@ -9,7 +9,7 @@ version: 4.1.0
 last_tested: 2018-10-11
 steps:
   - 
-    title: හැදින්වීම
+    title: Introduction
   - 
     title: Make a spaceship
   - 
@@ -34,4 +34,4 @@ steps:
     title: 'Challenge: improve your game'
     challenge: true
   - 
-    title: ඊලඟට කුමක්ද?
+    title: What next?
