@@ -1,10 +1,10 @@
-## Munje
+## Lightning bolts
 
-Sada ćete dati svemirskom brodu mogućnost pucanja munja!
+Now you are going to give the spaceship the ability to fire lightning bolts!
 
 \--- task \---
 
-Dodajte lik ` Munja ` iz Scratch biblioteke.
+Add the `Lightning` sprite from the Scratch library.
 
 [[[generic-scratch3-sprite-from-library]]]
 
@@ -12,111 +12,111 @@ Dodajte lik ` Munja ` iz Scratch biblioteke.
 
 \--- task \---
 
-Kada se igra pokrene, munja bi trebala biti skrivena sve dok svemirski brod ne ispali laserske topove.
+When the game starts, the `Lightning` sprite should be hidden until the spaceship fires its laser cannons.
 
-Dodaj ovaj kôd liku `Munja`:
-
-![lightning sprite](images/lightning-sprite.png)
-
-```blocks3
-Kada je kliknuta zelena zastava
-sakrij
-```
-
-\--- /task \---
-
-Trenutno je munja puno veća u odnosu na svemirski brod!
-
-\--- task \---
-
-Ispod kôda koji je lik ` Munja ` već ima, dodajte nekoliko blokova kako bi lik bio manji i okrenite ga naopako.
+Add this code to the `Lightning` sprite:
 
 ![lightning sprite](images/lightning-sprite.png)
 
 ```blocks3
-postavi veličinu na (25) %
-okreni se u smjeru (-90)
+when green flag clicked
+hide
 ```
 
-Sada se ispaljuje šiljati kraj prvi iz svemirskog broda.
+\--- /task \---
+
+At the moment, the lightning bolt is really big compared to the spaceship!
+
+\--- task \---
+
+Below the code that the `Lightning` sprite already has, add some blocks to make the sprite smaller and to turn it upside down.
+
+![lightning sprite](images/lightning-sprite.png)
+
+```blocks3
+set size to (25) %
+point in direction (-90)
+```
+
+Now it looks like it fires pointy end–first out of the spaceship.
 
 \--- /task \---
 
 \--- task \---
 
-Dodajte novi kôd liku ` Svemirski brod ` da bi ste stvorili novi klon munje ako je tipka <kbd> razmaknica</kbd> pritisnuta.
+Add some new code to the `Spaceship` sprite to create a new clone of the lightning bolt if the <kbd>space</kbd> key is pressed.
 
-\--- pomoć \---
+\--- hints \---
 
 \--- hint \---
 
 `When the green flag is clicked`{:class="block3events"}, keep checking `forever`{:class="block3control"} `if`{:class="block3control"} the `space key is pressed`{:class="block3sensing"}, and in that case `create a clone of the Lightning`{:class="block3control"} sprite.
 
-\--- /pomoć \---
+\--- /hint \---
 
 \--- hint \---
 
-Ovdje su blokovi koji vam trebaju:
+Here are the blocks you need:
 
 ```blocks3
-ako <> onda
-kraj
+if <> then
+end
 
-pnovaljaj
-kraj
+forever
+end
 
-kloniraj (Munja v)
+create clone of (Lightning v)
 
-kada je tipka (razmaknica) pritisnuta
+<key (space v) pressed?>
 
-kada je zelena zastava kliknuta
+when flag clicked
 ```
 
-\--- /pomoć \---
+\--- /hint \---
 
 \--- hint \---
 
-Evo kako bi vaš novi kôd trebao izgledati:
+Here is what your new code should look like:
 
-![lik rakete](images/rocket-sprite.png)
+![rocket sprite](images/rocket-sprite.png)
 
 ```blocks3
-kada je kliknuta zelena zastava 
-ponavljaj
-    ako <tipka razmaknica pritisnuta?> onda
-        kloniraj (Munja v)
-    kraj
-kraj
+when flag clicked
+forever
+    if <key (space v) pressed?> then
+        create clone of (Lightning v)
+    end
+end
 ```
 
-\--- /pomoć \---
+\--- /hint \---
 
-\--- /pomoć \---
+\--- /hints \---
 
 \--- /task \---
 
 \--- task \---
 
-Kad god igra stvori klon lika ` Munja `, klon bi se trebao pojaviti, a zatim pomaknuti prema gore sve dok ne dosegne vrh pozornice. Tada bi klon trebao nestati.
+Whenever the game creates a `Lightning` sprite clone, the clone should appear and then move upwards until it reaches the top of the Stage. Then the clone should disappear.
 
-Dodajte ovaj kôd u lik ` Munja `, tako da se njegovi klonovi kreću prema gore sve dok ne dodirnu rub pozornice, a zatim se izbrišu.
+Add this code to the `Lightning` sprite so that clones of it move upwards until they touch the edge of the Stage, and then they get deleted.
 
 ![lightning sprite](images/lightning-sprite.png)
 
 ```blocks3
-    kada krećem kao klon
-    idi do (Svemirski brod v)
-    prikaži
-    ponavljaj dok nije <dodiruje (rub)?>
-        promijeni y za (10)
-    kraj
-    izbriši klona
+    when I start as a clone
+    go to (Spaceship v)
+    show
+    repeat until <touching (edge v) ?>
+        change y by (10)
+    end
+    delete this clone
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Pokreni projekt i testiraj munje držeći pritisnutu razmaknicu.
+Press the <kbd>space</kbd> key to test whether the lightning bolt moves correctly.
 
 \--- /task \---
