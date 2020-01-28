@@ -92,7 +92,7 @@ Create a new variable called `speed`{:class="block3variables"} that is for the `
 
 When you've done this correctly, the variable has the name of the sprite next to it, like this:
 
-![skærmbillede](images/invaders-var-test.png)
+![screenshot](images/invaders-var-test.png)
 
 \--- /task \---
 
@@ -138,7 +138,7 @@ Test your code again. You should see a new hippo clone appear every few seconds,
 
 \--- no-print \---
 
-![skærmbillede](images/hippo-clones.gif)
+![screenshot](images/hippo-clones.gif)
 
 \--- /no-print \---
 
