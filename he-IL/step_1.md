@@ -1,14 +1,14 @@
 \--- no-print \---
 
-זוהי גרסה ** Scratch 3 **של הפרויקט. יש גם גרסה [ Scratch 2 של הפרויקט ](https://projects.raspberrypi.org/en/projects/clone-wars-scratch2).
+This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/clone-wars-scratch2).
 
-\--- / no-print \---
+\--- /no-print \---
 
-## מבוא
+## Introduction
 
 In this project you will learn how to create a game in which you have to save the Earth from space monsters.
 
-### התוצר
+### What you will make
 
 \--- no-print \---
 
@@ -23,25 +23,25 @@ Click the green flag in the example game below to start, and then press the <kbd
 
 Score as many points as you can by shooting flying space-hippos. If you get hit by a hippo or by an orange dropped by the bats, you lose a life.
 
-\--- / print-only \---
+\--- print-only \---
 
 ![desc](images/showcase.png)
 
-\--- / print-only \---
+\--- /print-only \---
 
 ## \--- collapse \---
 
 ## title: What you will need
 
-### חומרה
+### Hardware
 
-+ מחשב המסוגל להריץ סקראטץ 3
++ A computer capable of running Scratch 3
 
-### תוכנה
+### Software
 
-+ Scratch 3 (או [מקוון](https://rpf.io/scratchon){: target = "_ blank"} או [לא מקוון](https://rpf.io/scratchoff): {target = "_ blank"})
++ Scratch 3 (either [online](https://rpf.io/scratchon){:target="_blank"} or [offline](https://rpf.io/scratchoff){:target="_blank"})
 
-### הורדות
+### Downloads
 
 [Find the downloads here](http://rpf.io/p/en/clone-wars-go).
 
