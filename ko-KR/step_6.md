@@ -1,42 +1,42 @@
-## 우주선 폭발
+## Spaceship explosion
 
-하마가 우주선에 닿으면 우주선이 폭발해야합니다!
+When a hippo touches your spaceship, the spaceship should explode!
 
 \--- task \---
 
-`우주선` 스프라이트를 선택하고 복장의 이름을 '정상'으로 변경하십시오.
+Select the `Spaceship` sprite and rename its costume 'normal'.
 
 \--- /task \---
 
 \--- task \---
 
-폭발하는 우주선의 또 다른 의상을 그리고 새로운 의상을 '히트'라고 부르십시오.
+Draw another costume of an exploding spaceship, and call the new costume 'hit'.
 
-![스크린샷](images/invaders-spaceship-costumes.png)
+![screenshot](images/invaders-spaceship-costumes.png)
 
-폭발을 원하지 않는다면 Scratch 라이브러리에서 'Sun'복장을 선택한 다음 **Color a shape** 도구를 사용하여 복장의 색과 얼굴을 바꿀 수 있습니다.
+If you don't want to draw the explosion, you can select the 'Sun' costume from the Scratch library, and then use the **Color a shape** tool to change the costume's colour and face.
 
-![스크린샷](images/invaders-sun.png)
+![screenshot](images/invaders-sun.png)
 
 \--- /task \---
 
 \--- task \---
 
-`우주선` 스프라이트에 코드를 추가하여 게임이 시작될 때 '정상'코스튬을 표시하고 하마를 터치하면 '히트'코스튬으로 전환하십시오.
+Add some code to your `Spaceship` sprite so that it displays the 'normal' costume when the game starts, and switches to the 'hit' costume when it touches a hippo:
 
-![로켓 스프라이트](images/rocket-sprite.png)
+![rocket sprite](images/rocket-sprite.png)
 
 ```blocks3
-녹색 깃발이 클릭된 경우
-모양을 (normal v) 로 바꾸기
-<touching (Hippo1 v)> 까지 기다리기
-모양을 (hit v) 로 바꾸기
+when flag clicked
+switch costume to (normal v)
+wait until <touching (Hippo1 v)>?
+switch costume to (hit v)
 ```
 
 \--- /task \---
 
 \--- task \---
 
-코드를 테스트해 보세요. 우주선이 하마와 충돌하도록 하십시오. 우주선이 '맞은' 코스튬으로 바뀌었습니까?
+Test your code. Make the spaceship collide with a hippo. Does the spaceship change to the 'hit' costume?
 
 \--- /task \---
