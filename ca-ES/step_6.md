@@ -12,11 +12,11 @@ Select the `Spaceship` sprite and rename its costume 'normal'.
 
 Draw another costume of an exploding spaceship, and call the new costume 'hit'.
 
-![captura de pantalla](images/invaders-spaceship-costumes.png)
+![screenshot](images/invaders-spaceship-costumes.png)
 
 If you don't want to draw the explosion, you can select the 'Sun' costume from the Scratch library, and then use the **Color a shape** tool to change the costume's colour and face.
 
-![captura de pantalla](images/invaders-sun.png)
+![screenshot](images/invaders-sun.png)
 
 \--- /task \---
 
