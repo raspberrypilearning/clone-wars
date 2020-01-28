@@ -1,4 +1,4 @@
-## Izazov: životi i rezultat
+## Challenge: lives and score
 
 At the moment, you can play the game forever, but it doesn't count how many hippos you shoot or how many times your spaceship explodes.
 
