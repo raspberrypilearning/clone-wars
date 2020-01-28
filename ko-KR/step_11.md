@@ -1,19 +1,19 @@
-## 과제 : 게임 개선
+## Challenge: improve your game
 
-게임에 어떤 개선점을 줄 수 있습니까?
+What improvements can you make to your game?
 
-다음은 몇 가지 아이디어입니다.
+Here are some ideas:
 
-+ 여분의 생명을 얻기 위해 수집 할 수있는 건강 팩을 추가하십시오.
++ Add health packs that you can collect to gain extra lives.
 
-![스크린샷](images/invaders-aid.png)
+![screenshot](images/invaders-aid.png)
 
-+ 우주선이 피해야하는 떠 다니는 암석을 추가하십시오.
++ Add floating rocks that your spaceship must avoid.
 
-![스크린샷](images/invaders-rocks.png)
+![screenshot](images/invaders-rocks.png)
 
-+ 점수가 `100`이되면 더 많은 적을 표시하십시오. </code> .
++ Make more enemies appear when your score gets to `100`.
 
 ```blocks3
-    <(score :: variables) = [100]> 까지 기다리기
+    wait until <(score :: variables) = [100]>
 ```
