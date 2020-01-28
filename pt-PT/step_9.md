@@ -145,7 +145,7 @@ Modifica o código do teu ator ` nave espacial ` para que ele seja "atingido" qu
 ![ator Foguetão](images/rocket-sprite.png)
 
 ```blocks3
-    espera até que <<estás a tocar em (Hippo1 v)> ou <estás a tocar em (Orange v)>>
+    wait until < <touching (Hippo1 v)?> or <touching (Orange v)?>>
 ```
 
 \--- /task \---
