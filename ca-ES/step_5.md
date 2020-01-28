@@ -6,7 +6,7 @@ Now you're going to add lots of flying hippos that try to destroy your spaceship
 
 Create a new sprite with the 'Hippo1' image in the Scratch library. Use the **shrink** tool to make the `Hippo` sprite a similar size to the `Spaceship` sprite.
 
-![captura de pantalla](images/invaders-hippo.png)
+![screenshot](images/invaders-hippo.png)
 
 \--- /task \---
 
@@ -35,7 +35,7 @@ hide
 
 Add some code to the Stage to create a new `Hippo` clone every few seconds.
 
-\--- hint \---
+\--- hints \---
 
 \--- hint \---
 
@@ -64,7 +64,7 @@ wait () secs
 
 \--- hint \---
 
-Així és com s'hauria de veure el teu codi:
+This is what your code should look like:
 
 ![stage sprite](images/stage-sprite.png)
 
@@ -78,7 +78,7 @@ end
 
 \--- /hint \---
 
-\--- /hint \---
+\--- /hints \---
 
 \--- /task \---
 
@@ -92,7 +92,7 @@ Create a new variable called `speed`{:class="block3variables"} that is for the `
 
 When you've done this correctly, the variable has the name of the sprite next to it, like this:
 
-![captura de pantalla](images/invaders-var-test.png)
+![screenshot](images/invaders-var-test.png)
 
 \--- /task \---
 
@@ -138,9 +138,9 @@ Test your code again. You should see a new hippo clone appear every few seconds,
 
 \--- no-print \---
 
-![captura de pantalla](images/hippo-clones.gif)
+![screenshot](images/hippo-clones.gif)
 
-\--- / no-print \---
+\--- /no-print \---
 
 \--- /task \---
 
