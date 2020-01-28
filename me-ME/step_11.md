@@ -1,18 +1,18 @@
-## Izazov: poboljšaj svoju igru
+## Challenge: improve your game
 
-Koja poboljšanja možeš da napraviš u svojoj igri?
+What improvements can you make to your game?
 
-Evo nekoliko ideja:
+Here are some ideas:
 
-+ Dodaj kutije za hitnu pomoć koje možeš sakupiti da dobiješ dodatne živote.
++ Add health packs that you can collect to gain extra lives.
 
 ![screenshot](images/invaders-aid.png)
 
-+ Dodaj plutajuće stijene koje tvoj svemirski brod mora da izbjegne.
++ Add floating rocks that your spaceship must avoid.
 
 ![screenshot](images/invaders-rocks.png)
 
-+ Napravi da se pojavi još neprijatelja kada tvoj rezultat dođe do `100`.
++ Make more enemies appear when your score gets to `100`.
 
 ```blocks3
     wait until <(score :: variables) = [100]>
