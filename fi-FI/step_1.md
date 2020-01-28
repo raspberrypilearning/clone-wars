@@ -1,14 +1,14 @@
 \--- no-print \---
 
-Tämä on projektin **Scratch 3** versio. Projektista on myös olemassa [Scratch 2 versio](https://projects.raspberrypi.org/en/projects/clone-wars-scratch2).
+This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/clone-wars-scratch2).
 
 \--- /no-print \---
 
-## Esittely
+## Introduction
 
 In this project you will learn how to create a game in which you have to save the Earth from space monsters.
 
-### Mitä tulet tekemään
+### What you will make
 
 \--- no-print \---
 
@@ -33,15 +33,15 @@ Score as many points as you can by shooting flying space-hippos. If you get hit 
 
 ## title: What you will need
 
-### Laitteisto
+### Hardware
 
-+ Tietokone, joka pystyy käyttämään Scratch 3 -ohjelmaa
++ A computer capable of running Scratch 3
 
-### Ohjelmisto
+### Software
 
-+ Scratch 3 (joko [verkossa](https://rpf.io/scratchon){:target="_blank"} tai [offline-tilassa](https://rpf.io/scratchoff){:target="_blank"})
++ Scratch 3 (either [online](https://rpf.io/scratchon){:target="_blank"} or [offline](https://rpf.io/scratchoff){:target="_blank"})
 
-### Lataukset
+### Downloads
 
 [Find the downloads here](http://rpf.io/p/en/clone-wars-go).
 
