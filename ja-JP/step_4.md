@@ -1,3 +1,3 @@
-## 課題：いなずまを改善する
+## Challenge: improve the lightning
 
-スペースキーを押すとどうなりますか？これを修正するために 「待つ」のブロックを使うことができますか？
+What happens if you hold down the <kbd>space</kbd> key? Can you use a `wait`{:class="block3control"} block to fix this?
