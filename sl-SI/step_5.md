@@ -1,18 +1,18 @@
-## Vesoljski povodni konji
+## Space-hippos
 
-Sedaj boš dodal veliko letečih povodnih konjev, ki bodo skušali uničiti tvojo raketo.
+Now you're going to add lots of flying hippos that try to destroy your spaceship.
 
 \--- task \---
 
-Izberi figuro Hippo1' iz Scratch knjižnice in jo preimenuj v 'povodni'. Uporabi orodje za **manjšanje**, da bo figura `povodni` podobne velikosti, kot je figura `raketa`.
+Create a new sprite with the 'Hippo1' image in the Scratch library. Use the **shrink** tool to make the `Hippo` sprite a similar size to the `Spaceship` sprite.
 
-![posnetek zaslona](images/invaders-hippo.png)
+![screenshot](images/invaders-hippo.png)
 
 \--- /task \---
 
 \--- task \---
 
-Za figuro `povodni` konj nastavi stil vrtenja na **levo-desno**.
+Set the `Hippo` sprite's rotation style to **left-right**.
 
 [[[generic-scratch3-sprite-rotation-style]]]
 
@@ -20,60 +20,60 @@ Za figuro `povodni` konj nastavi stil vrtenja na **levo-desno**.
 
 \--- task \---
 
-Dodaj kodo, ki bo skrila figuro `povodnega` konja, ko se igra začne.
+Add some code to hide the `Hippo` sprite when the game starts.
 
-![figura povodnega konja](images/hippo-sprite.png)
+![hippo sprite](images/hippo-sprite.png)
 
 ```blocks3
-ko kliknemo na zastavo
-skrij
+when green flag clicked
+hide
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Odru dodaj kodo, ki bo an vsakih nekaj sekund ustvarila dvojnika `povodnega` konja.
+Add some code to the Stage to create a new `Hippo` clone every few seconds.
 
 \--- hints \---
 
 \--- hint \---
 
-`Ko kliknemo na zastavo`{:class="block3events"}, `ponavljaj`{:class="block3control"} `čakanje`{:class="block3control"} `med 2 in 4 sekundami`{:class="block3operators"}, nato pa `ustvari dvojnika figure povodni`{:class="block3control"}.
+When the `green flag is clicked`{:class="block3events"}, `repeatedly`{:class="block3control"} `wait`{:class="block3control"} `between 2 and 4 seconds`{:class="block3operators"} and then `create a clone of the Hippo sprite`{:class="block3control"}.
 
 \--- /hint \---
 
 \--- hint \---
 
-To so bloki, ki jih potrebuješ:
+Here are the blocks you need:
 
 ```blocks3
-ponavljaj
-konec
+forever
+end
 
-ustvari dvojnika (povodni v)
+create clone of (Hippo1 v)
 
-(naključno število med (2) in (4))
+(pick random (2) to (4))
 
-ko kliknemo na zastavo
+when flag clicked
 
-počakaj () sekund
+wait () secs
 ```
 
 \--- /hint \---
 
 \--- hint \---
 
-Tvoja koda mora izgledati tako:
+This is what your code should look like:
 
-![figura odra](images/stage-sprite.png)
+![stage sprite](images/stage-sprite.png)
 
 ```blocks3
-ko kliknemo na zastavo
-ponavljaj
-  počakaj (naključno število med (2) in (4)) sekund
-  ustvari dvojnika (povodni v)
-konec
+when flag clicked
+forever
+    wait (pick random (2) to (4)) secs
+    create clone of (Hippo1 v)
+end
 ```
 
 \--- /hint \---
@@ -82,63 +82,63 @@ konec
 
 \--- /task \---
 
-Vsak novi dvojnik povodnega konja se mora pojaviti na naključnem `x` položaju in vsak bi moral imeti naključno hitrost.
+Each new hippo clone should appear at a random `x` position, and every clone should have a random speed.
 
 \--- task \---
 
-Ustvari novo spremenljivko z imenom `hitrost`{:class="block3variables"}, ki bo narejena le za figuro `povodnega konja`.
+Create a new variable called `speed`{:class="block3variables"} that is for the `Hippo` sprite only.
 
 [[[generic-scratch3-add-variable]]]
 
-Če si to pravilno naredil, stoji poleg spremenljivke tudi ime figure, na tak način:
+When you've done this correctly, the variable has the name of the sprite next to it, like this:
 
-![posnetek zaslona](images/invaders-var-test.png)
+![screenshot](images/invaders-var-test.png)
 
 \--- /task \---
 
 \--- task \---
 
-Za vsakega dvojnika `povodnega konja` izberi naključno hitrost in položaj, kjer naj se pojavi. Potem naj se dvojnik pokaže na zaslonu.
+When each `Hippo` clone starts, pick a random speed and starting place for it. Then show the clone on the screen.
 
 ```blocks3
-ko začnem kot dvojnik
-nastavi [hitrost v] na (naključno število med (2) in (4))
-pojdi na x: (naključno število med (-220) in (220)) y:(150)
-pokaži
+when I start as a clone
+set [speed v] to (pick random (2) to (4))
+go to x: (pick random (-220) to (220)) y: (150)
+show
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Preizkusi kodo. Ali se na vsakih nekaj sekund pojavi nov povodni konj?
+Test your code. Does a new hippo appear every few seconds?
 
 \--- /task \---
 
-Trenutno se povodni konji ne premikajo.
+At the moment the hippos don't move.
 
 \--- task \---
 
-Vsak povodni konj naj se giblje naključno, dokler ga ne zadene strela. V ta namen dodaj to kodo pod bloke, ki se že nahajajo v skripti figure `povodni` konj:
+Each hippo should move around randomly until it gets hit by a lightning bolt. To make that happen, attach this code below the blocks that are already in the `Hippo` sprite's code script:
 
 ```blocks3
-ponavljaj do <se dotika (blisk v) ?>
-  pojdi (hitrost::Spremenljivka) korakov
-  obrni se za (naključno število med (-10) in (10)) stopinj v desno
-  odbij se, če si na robu
-konec
-zbriši tega dvojnika
+repeat until <touching (lightning v) ?>
+    move (speed :: variables) steps
+    turn right (pick random (-10) to (10)) degrees
+    if on edge, bounce
+end
+delete this clone
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Ponovno preizkusi svojo kodo. Na vsakih nekaj sekund bi se moral pojaviti nov dvojnik povodnega konja, vsak dvojnik pa bi se moral premikati z drugačno hitrostjo.
+Test your code again. You should see a new hippo clone appear every few seconds, and each clone should move at a different speed.
 
 \--- no-print \---
 
-![posnetek zaslona](images/hippo-clones.gif)
+![screenshot](images/hippo-clones.gif)
 
 \--- /no-print \---
 
@@ -146,6 +146,6 @@ Ponovno preizkusi svojo kodo. Na vsakih nekaj sekund bi se moral pojaviti nov dv
 
 \--- task \---
 
-Zdaj preizkusite laserski top rakete. Če strela zadene v povodnega konja, ali ta izgine?
+Now test the spaceship's laser cannon. If a lightning bolt hits a hippo, does the hippo vanish?
 
 \--- /task \---
