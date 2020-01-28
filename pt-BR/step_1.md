@@ -1,18 +1,18 @@
 \--- no-print \---
 
-Esta é a versão **Scratch 3** do projeto. Há também uma versão [Scratch 2 do projeto](https://projects.raspberrypi.org/en/projects/clone-wars-scratch2).
+This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/clone-wars-scratch2).
 
 \--- /no-print \---
 
-## Introdução
+## Introduction
 
-Neste projeto você aprenderá como criar um jogo no qual você tem que salvar a Terra de monstros espaciais.
+In this project you will learn how to create a game in which you have to save the Earth from space monsters.
 
-### O que você vai fazer
+### What you will make
 
 \--- no-print \---
 
-Clique na bandeira verde no jogo de exemplo abaixo para começar, e depois pressione as setas para <kbd>esquerda</kbd> e <kbd>direita</kbd> para mover a nave espacial, e <kbd>barra de espaço</kbd> para atirar.
+Click the green flag in the example game below to start, and then press the <kbd>left</kbd> and <kbd>right</kbd> arrow keys to move the spaceship, and the <kbd>space</kbd> key to shoot.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/276887163/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -21,7 +21,7 @@ Clique na bandeira verde no jogo de exemplo abaixo para começar, e depois press
 
 \--- /no-print \---
 
-Marque o máximo de pontos que você puder atirando nos hipopótamos espaciais voadores. Se você for atingido por um hipopótamo ou por uma laranja jogada pelos morcegos, você perderá uma vida.
+Score as many points as you can by shooting flying space-hippos. If you get hit by a hippo or by an orange dropped by the bats, you lose a life.
 
 \--- print-only \---
 
@@ -35,11 +35,11 @@ Marque o máximo de pontos que você puder atirando nos hipopótamos espaciais v
 
 ### Hardware
 
-+ Um computador capaz de executar o Scratch 3
++ A computer capable of running Scratch 3
 
 ### Software
 
-+ Scratch 3 ([online](https://rpf.io/scratchon){:target="_blank"} ou [offline](https://rpf.io/scratchoff){:target="_blank"})
++ Scratch 3 (either [online](https://rpf.io/scratchon){:target="_blank"} or [offline](https://rpf.io/scratchoff){:target="_blank"})
 
 ### Downloads
 
@@ -51,9 +51,9 @@ Marque o máximo de pontos que você puder atirando nos hipopótamos espaciais v
 
 ## title: What you will learn
 
-+ Como fazer sprites se moverem usando o teclado
-+ Como clonar sprites para fazer cópias deles
-+ Como usar 'transmita' e 'receber blocos' para enviar mensagens
++ How to make sprites move using keyboard input
++ How to clone sprites to make copies of them
++ How to use 'broadcast' and 'receive blocks' to send messages
 
 \--- /collapse \---
 
