@@ -6,13 +6,13 @@ First make a spaceship that can defend the Earth!
 
 Open the 'Clone wars' Scratch starter project.
 
-**අන්තර්ජාල මාර්ගගත(Online):** [rpf.io/clone-wars-on](http://rpf.io/clone-wars-on){:target="_blank"} හි අන්තර්ජාල මාර්ගගතව නව Scratch ව්‍යාපෘතියක් විවෘත කරන්න.
+**Online:** open the starter project at [rpf.io/clone-wars-on](http://rpf.io/clone-wars-on){:target="_blank"}.
 
-ඔබට Scratch ගිණුමක්(account එකක්) තිබේ නම් **රීමික්ස්(Remix)** ක්ලික් කිරීමෙන් පිටපතක් සාදාගත හැකිය.
+If you have a Scratch account you can make a copy by clicking **Remix**.
 
 **Offline:** download the starter project from [rpf.io/p/en/clone-wars-go](http://rpf.io/p/en/clone-wars-go), and then open it using the offline editor.
 
-ඔබට Scratch නොබැඳි සංස්කාරකය(offline editor එක) බාගත(download) කර ස්ථාපනය(install) කිරීමට අවශ්‍ය නම්, ඔබට එය [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"} වෙතින් ලබාගත හැකිය.
+If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
 
 \--- /task \---
 
@@ -47,13 +47,13 @@ Add some more code inside the `forever`{:class="block3control"} block to make yo
 
 \--- hints \---
 
-\--- hints \---
+\--- hint \---
 
 Subtracting `4` from the spaceship's `x` position made it move left, so how could you make the spaceship move right by `4` instead?
 
 \--- /hint \---
 
-\--- hints \---
+\--- hint \---
 
 You need the same code block, but with a different number:
 
@@ -63,7 +63,7 @@ change x by ( )
 
 \--- /hint \---
 
-\--- hints \---
+\--- hint \---
 
 Here is the code you need to add below the other code inside the `forever`{:class="block3control"} block:
 
@@ -77,7 +77,7 @@ end
 
 \--- /hint \---
 
-\--- /hint \---
+\--- /hints \---
 
 \--- /task \---
 
