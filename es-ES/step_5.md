@@ -1,4 +1,4 @@
-## ¡Murciélagos de la fruta!
+## Space-hippos
 
 Now you're going to add lots of flying hippos that try to destroy your spaceship.
 
@@ -6,7 +6,7 @@ Now you're going to add lots of flying hippos that try to destroy your spaceship
 
 Create a new sprite with the 'Hippo1' image in the Scratch library. Use the **shrink** tool to make the `Hippo` sprite a similar size to the `Spaceship` sprite.
 
-![captura de pantalla](images/invaders-hippo.png)
+![screenshot](images/invaders-hippo.png)
 
 \--- /task \---
 
@@ -20,13 +20,13 @@ Set the `Hippo` sprite's rotation style to **left-right**.
 
 \--- task \---
 
-Agregue un código para ocultar el sprite `hippo` cuando comienza el juego.
+Add some code to hide the `Hippo` sprite when the game starts.
 
 ![hippo sprite](images/hippo-sprite.png)
 
 ```blocks3
-al presionar la bandera verde
-oculta
+when green flag clicked
+hide
 ```
 
 \--- /task \---
@@ -35,7 +35,7 @@ oculta
 
 Add some code to the Stage to create a new `Hippo` clone every few seconds.
 
-\--- consejos \---
+\--- hints \---
 
 \--- hint \---
 
@@ -45,7 +45,7 @@ When the `green flag is clicked`{:class="block3events"}, `repeatedly`{:class="bl
 
 \--- hint \---
 
-Aquí están los bloques que necesitas:
+Here are the blocks you need:
 
 ```blocks3
 forever
@@ -64,7 +64,7 @@ wait () secs
 
 \--- hint \---
 
-Así es como debería verse tu c'odigo:
+This is what your code should look like:
 
 ![stage sprite](images/stage-sprite.png)
 
@@ -92,7 +92,7 @@ Create a new variable called `speed`{:class="block3variables"} that is for the `
 
 When you've done this correctly, the variable has the name of the sprite next to it, like this:
 
-![captura de pantalla](images/invaders-var-test.png)
+![screenshot](images/invaders-var-test.png)
 
 \--- /task \---
 
@@ -101,10 +101,10 @@ When you've done this correctly, the variable has the name of the sprite next to
 When each `Hippo` clone starts, pick a random speed and starting place for it. Then show the clone on the screen.
 
 ```blocks3
-al comenzar como un clon
-determina [speed v] para (escoger random (2) a (4))
-ve a x: (escoger random (-220) a (220)) y: (150)
-muestra
+when I start as a clone
+set [speed v] to (pick random (2) to (4))
+go to x: (pick random (-220) to (220)) y: (150)
+show
 ```
 
 \--- /task \---
@@ -138,7 +138,7 @@ Test your code again. You should see a new hippo clone appear every few seconds,
 
 \--- no-print \---
 
-![captura de pantalla](images/hippo-clones.gif)
+![screenshot](images/hippo-clones.gif)
 
 \--- /no-print \---
 
