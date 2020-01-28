@@ -1,3 +1,3 @@
-## Izazov: Popravljanje munje
+## Challenge: improve the lightning
 
-Što se događa ako cijelo vrijeme držiš razmaknicu? Možeš li iskoristiti naredbu `čekaj`{:class="block3control"} da to popraviš?
+What happens if you hold down the <kbd>space</kbd> key? Can you use a `wait`{:class="block3control"} block to fix this?
