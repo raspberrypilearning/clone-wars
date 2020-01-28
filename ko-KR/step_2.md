@@ -1,78 +1,78 @@
-## 우주선을 만드십시오.
+## Make a spaceship
 
-지구를 방어할 수있는 우주선을 만드십시오!
+First make a spaceship that can defend the Earth!
 
 \--- task \---
 
-'클론 전쟁'스크래치 초보 프로젝트를 시작합니다.
+Open the 'Clone wars' Scratch starter project.
 
-**Online:** [rpf.io/clone-wars-on](http://rpf.io/clone-wars-on){: target = "_ blank"}에서 시작 단계의 프로젝트를 활성화합니다.
+**Online:** open the starter project at [rpf.io/clone-wars-on](http://rpf.io/clone-wars-on){:target="_blank"}.
 
-스크래치 계정이 있는 경우 ** Remix를 클릭 ** 하여 사본을 만들 수 있습니다.
+If you have a Scratch account you can make a copy by clicking **Remix**.
 
-**오프라인:** 오프라인 시작 프로그램을 [rpf.io/p/en/clone-wars-go](http://rpf.io/p/en/clone-wars-go){:target="_blank"} 에서 다운로드하고, 오프라인 에디터로 파일을 엽니다.
+**Offline:** download the starter project from [rpf.io/p/en/clone-wars-go](http://rpf.io/p/en/clone-wars-go), and then open it using the offline editor.
 
-스크래치 오프라인 에디터를 다운로드 받아야 하는 경우, [rpf.io/scratchoff](https://rpf.io/scratchoff) 에서 파일을 다운로드할 수 있습니다. \--- /task"}.
+If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
 
 \--- /task \---
 
-![시작 프로젝트](images/starter-project.png)
+![starter project](images/starter-project.png)
 
 \--- task \---
 
-<kbd>왼쪽 방향키 버튼</kbd>을 누르고 있을 때 우주선이 왼쪽으로 움직일 수 있게끔 아래의 코드를 우주선의 스프라이트에 추가하십시오.
+Add this code to the spaceship sprite to make the spaceship move left if the <kbd>left</kbd> arrow is pressed:
 
-![로켓 스프라이트](images/rocket-sprite.png)
+![rocket sprite](images/rocket-sprite.png)
 
 ```blocks3
-    플래그를  클릭하였을 때
-    무한 반복
-        만약 <왼쪽 방향키를 누른 상태> 라면
-            x를 (-4) 만큼 바꾸기
-        종료
-    종료
+    when flag clicked
+    forever
+        if <key (left arrow v) pressed?> then
+            change x by (-4)
+        end
+    end
 ```
 
-x 축은 스테이지의 왼쪽에서 오른쪽으로갑니다. 이것은 우주선의 스프라이트의 `x` 위치 값을 빼면 우주선이 왼쪽으로 움직인다는 것을 의미합니다. 따라서 해당 코드 블록은 우주선을 왼쪽으로 이동시키기 위해 활용해야만 하는 부분입니다.
+The x-axis goes from the left side of the Stage to the right side. This means that the spaceship moves to the left when you subtract from the value of the spaceship sprite's `x` position. So this code block is the part that makes your spaceship move left:
 
 ```blocks3
-x축의 좌표값을 (-4) 만큼 바꾸기
+change x by (-4)
 ```
 
 \--- /task \---
 
 \--- task \---
 
-`무한 반복`{:class="block3control"} 코드 내부에 더 많은 코드를 추가하세요. 우주선을 오른쪽으로 이동시키기 위하여, <kbd>오른쪽 방형키 버튼</kbd>을 누르면 우주선이 오른쪽으로 이동하도록 하세요.
+Add some more code inside the `forever`{:class="block3control"} block to make your spaceship move to the right if the <kbd>right</kbd> arrow key is pressed.
 
 \--- hints \---
 
 \--- hint \---
 
-이전 코드에서는 우주선의 `x` 좌표에서 `4`만큼을 왼쪽으로 이동시키도록 하였습니다. 그렇다면 어떻게 해야 우주선을 `4` 만큼 오른쪽으로 이동시킬 수 있을까요?
+Subtracting `4` from the spaceship's `x` position made it move left, so how could you make the spaceship move right by `4` instead?
 
 \--- /hint \---
 
 \--- hint \---
 
-동일한 코드 블록이 필요하지만 요구되는 숫자 값이 다릅니다.
+You need the same code block, but with a different number:
 
 ```blocks3
-x 값을 ( ) 만큼 바꾸기
+change x by ( )
 ```
 
 \--- /hint \---
 
 \--- hint \---
 
-아래와 같은 코드를 `무한 반복`{:class="block3control"} 코드 내에 추가합니다.
+Here is the code you need to add below the other code inside the `forever`{:class="block3control"} block:
 
-![로켓 스프라이트](images/rocket-sprite.png)
+![rocket sprite](images/rocket-sprite.png)
 
 ```blocks3
-만약 <key (right arrow v) pressed?> 이라면
-    x를 (4)만큼 바꾸기
-끝
+if <key (right arrow v) pressed?> then
+    change x by (4)
+end
 ```
 
 \--- /hint \---
@@ -83,6 +83,6 @@ x 값을 ( ) 만큼 바꾸기
 
 \--- task \---
 
-녹색 깃발을 클릭하여 프로젝트를 테스트하십시오. 화살표 키를 눌러 우주선을 좌우로 움직일 수 있습니까?
+Test your project by clicking the green flag. Can you press the arrow keys to make your spaceship move left and right?
 
 \--- /task \---
