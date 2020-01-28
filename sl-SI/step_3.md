@@ -1,10 +1,10 @@
-## Strele
+## Lightning bolts
 
-Sedaj boš raketi dodal-a sposobnost, da strelja strele!
+Now you are going to give the spaceship the ability to fire lightning bolts!
 
 \--- task \---
 
-Dodaj figuro `Lightning` iz Scratch knjižnice in jo preimenuj v 'strela'.
+Add the `Lightning` sprite from the Scratch library.
 
 [[[generic-scratch3-sprite-from-library]]]
 
@@ -12,39 +12,39 @@ Dodaj figuro `Lightning` iz Scratch knjižnice in jo preimenuj v 'strela'.
 
 \--- task \---
 
-Ko se igra začne mora biti figura `strela` skrita, dokler raketa ne sproži svojega laserskega topa.
+When the game starts, the `Lightning` sprite should be hidden until the spaceship fires its laser cannons.
 
-Figuri `strela` dodaj to kodo:
+Add this code to the `Lightning` sprite:
 
-![figura strele](images/lightning-sprite.png)
+![lightning sprite](images/lightning-sprite.png)
 
 ```blocks3
-ko kliknemo na zastavo
-skrij
+when green flag clicked
+hide
 ```
 
 \--- /task \---
 
-Trenutno je strela v primerjavi z raketo zelo velika!
+At the moment, the lightning bolt is really big compared to the spaceship!
 
 \--- task \---
 
-Pod kodo, ki jo figura `strela` že vsebuje, dodaj še nekaj blokov, ki bodo figuro zmanjšale in jo obrnile na glavo.
+Below the code that the `Lightning` sprite already has, add some blocks to make the sprite smaller and to turn it upside down.
 
-![figura strele](images/lightning-sprite.png)
+![lightning sprite](images/lightning-sprite.png)
 
 ```blocks3
-nastavi velikost na (25) %
-obrni se v smer (-90)
+set size to (25) %
+point in direction (-90)
 ```
 
-Zdaj je videti, kot da strela iz rakete izstopi s konico naprej.
+Now it looks like it fires pointy end–first out of the spaceship.
 
 \--- /task \---
 
 \--- task \---
 
-Dodaj še nekaj kode figuri `rakete`, ki ustvari nov dvojnik strele, če je pritisnjena tipka <kbd>presledek</kbd>.
+Add some new code to the `Spaceship` sprite to create a new clone of the lightning bolt if the <kbd>space</kbd> key is pressed.
 
 \--- hints \---
 
@@ -56,66 +56,67 @@ Dodaj še nekaj kode figuri `rakete`, ki ustvari nov dvojnik strele, če je prit
 
 \--- hint \---
 
-To so bloki, ki jih potrebuješ:
+Here are the blocks you need:
 
 ```blocks3
-če <> potem
-konec
+if <> then
+end
 
-ponavljaj
-konec
+forever
+end
 
-ustvari dvojnika (strela v)
+create clone of (Lightning v)
 
 <key (space v) pressed?>
 
-ko kliknemo na zastavo
+when flag clicked
 ```
 
 \--- /hint \---
 
 \--- hint \---
 
-Tvoja koda naj bi izgledala tako:
+Here is what your new code should look like:
 
-![figura rakete](images/rocket-sprite.png)
+![rocket sprite](images/rocket-sprite.png)
 
 ```blocks3
-ko kliknemo na zastavo
-ponavljaj
-  če &ltje pritisnjena tipka (presledek v)&gt potem
-    ustvari dvojnika (strela v)
-   konec
-konec
+when flag clicked
+forever
+    if <key (space v) pressed?> then
+        create clone of (Lightning v)
+    end
+end
 ```
 
 \--- /hint \---
 
-\--- /namigi \---
+\--- /hints \---
 
 \--- /task \---
 
 \--- task \---
 
-Kadarkoli igra ustvari dvojnika figure `strela`, bi se dvojnik moral pojaviti in potem premikati navzgor, dokler ne doseže vrha odra. Nato bi moral dvojnik izginiti.
+Whenever the game creates a `Lightning` sprite clone, the clone should appear and then move upwards until it reaches the top of the Stage. Then the clone should disappear.
 
-Dodaj to kodo figuri `strela`, da se dvojnik premika navzgor, dokler ne doseže roba odra, nato pa je zbrisan.
+Add this code to the `Lightning` sprite so that clones of it move upwards until they touch the edge of the Stage, and then they get deleted.
 
-![figura strele](images/lightning-sprite.png)
+![lightning sprite](images/lightning-sprite.png)
 
 ```blocks3
-    ko začnem kot dvojnik
-  pojdi na (raketa v)
-  pokaži
-  ponavljaj do <se dotika (roba)>
-    spremeni y za (10)
-  zbriši tega dvojnika
+    when I start as a clone
+    go to (Spaceship v)
+    show
+    repeat until <touching (edge v) ?>
+        change y by (10)
+    end
+    delete this clone
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Pritisni tipko <kbd>presledek</kbd>, da preizkusiš ali se strela pravilno premika.
+Press the <kbd>space</kbd> key to test whether the lightning bolt moves correctly.
 
 \--- /task \---
