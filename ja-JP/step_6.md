@@ -1,42 +1,42 @@
-## 宇宙船爆発
+## Spaceship explosion
 
-カバがあなたの宇宙船に触れると、宇宙船は爆発するようにします！
+When a hippo touches your spaceship, the spaceship should explode!
 
-\--- 課題 \---
+\--- task \---
 
-宇宙船のスプライトを選択し、そのコスチュームを「普通」に改名する。
+Select the `Spaceship` sprite and rename its costume 'normal'.
 
-\--- /課題 \---
+\--- /task \---
 
-\--- 課題 \---
+\--- task \---
 
-爆発する宇宙船として、別のコスチュームを描き、その新しいコスチューム名を「衝突」と名付けます。
+Draw another costume of an exploding spaceship, and call the new costume 'hit'.
 
-![スクリーンショット](images/invaders-spaceship-costumes.png)
+![screenshot](images/invaders-spaceship-costumes.png)
 
-爆発を描きたくない場合は、Scratchライブラリから「Sun」のコスチュームを選択してから、色付けツールを使ってコスチュームの色と顔を変更します。
+If you don't want to draw the explosion, you can select the 'Sun' costume from the Scratch library, and then use the **Color a shape** tool to change the costume's colour and face.
 
-![スクリーンショット](images/invaders-sun.png)
+![screenshot](images/invaders-sun.png)
 
-\--- /課題 \---
+\--- /task \---
 
-\--- 課題 \---
+\--- task \---
 
-宇宙船スプライトにコードを追加して、ゲーム開始時に「通常の」コスチュームを表示し、宇宙船がカバに触れると「衝突」のコスチュームに切り替わるようにします。
+Add some code to your `Spaceship` sprite so that it displays the 'normal' costume when the game starts, and switches to the 'hit' costume when it touches a hippo:
 
-![ロケットスプライト](images/rocket-sprite.png)
+![rocket sprite](images/rocket-sprite.png)
 
 ```blocks3
-緑の旗が押されたとき
-コスチュームを（通常）にする
-カバに触れたまで待つ
-コスチュームを衝突にする
+when flag clicked
+switch costume to (normal v)
+wait until <touching (Hippo1 v)>?
+switch costume to (hit v)
 ```
 
-\--- /課題 \---
+\--- /task \---
 
-\--- 課題 \---
+\--- task \---
 
-コードをテストしてください。宇宙船をカバと衝突させると、宇宙船は爆破されますか？
+Test your code. Make the spaceship collide with a hippo. Does the spaceship change to the 'hit' costume?
 
-\--- /課題 \---
+\--- /task \---
