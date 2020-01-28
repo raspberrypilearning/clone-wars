@@ -1,14 +1,14 @@
 \--- no-print \---
 
-මෙය **Scratch 3** අනුවාදයේ(version එකේ) ව්‍යාපෘතියකි. මෙම ව්යාපෘතියේ [Scratch 2 අනුවාදයක්(version එකක්)](https://projects.raspberrypi.org/en/projects/clone-wars-scratch2) ද ඇත.
+This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/clone-wars-scratch2).
 
 \--- /no-print \---
 
-## හැදින්වීම
+## Introduction
 
 In this project you will learn how to create a game in which you have to save the Earth from space monsters.
 
-### ඔබ සාදන්නට යන දේ
+### What you will make
 
 \--- no-print \---
 
@@ -33,15 +33,15 @@ Score as many points as you can by shooting flying space-hippos. If you get hit 
 
 ## title: What you will need
 
-### දෘඩාංග(Hardware)
+### Hardware
 
-+ Scratch 3 ධාවනය(run) කළ හැකි පරිගණකයක්
++ A computer capable of running Scratch 3
 
-### මෘදුකාංග(Software)
+### Software
 
-+ Scratch 3 ([අන්තර්ජාල ගතව(online)](https://rpf.io/scratchon){:target="_blank"} හෝ [අන්තර්ජාලයට නොබැඳිව(offline)](https://rpf.io/scratchoff){:target="_blank"})
++ Scratch 3 (either [online](https://rpf.io/scratchon){:target="_blank"} or [offline](https://rpf.io/scratchoff){:target="_blank"})
 
-### බාගන්න(Downloads)
+### Downloads
 
 [Find the downloads here](http://rpf.io/p/en/clone-wars-go).
 
