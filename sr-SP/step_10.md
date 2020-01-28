@@ -1,31 +1,31 @@
-## Крај игре
+## Game over
 
 Next, you're going to add a 'game over' message at the end of the game.
 
 \--- task \---
 
-Ако већ ниси, креирај нову променљиву која ће се звати `животи`{:class="block3variables"}.
+If you haven't already, create a new variable called `lives`{:class="block3variables"}.
 
-Твој свемирски брод би требао да почне са три живота и изгуби живот сваки пут када дотакне нилског коња или наранџу. Твоја игра би требала да се заустави када понестане `животи`{:class="block3variables"}.
-
-\--- /task \---
-
-\--- task \---
-
-Нацртај нови лик `Крај игре`, користећи алат за **текст**. 
-
-![снимак екрана](images/invaders-game-over.png)
+Your spaceship should start with three lives and lose a life whenever it touches a hippo or an orange. Your game should stop when the `lives`{:class="block3variables"} run out.
 
 \--- /task \---
 
 \--- task \---
 
-На Позорници, разгласи поруку `крај игре`{:class="block3events"}, непосредно пре него што се игра заврши.
+Draw a new sprite called `Game Over` using the **text** tool.
 
-![лик крај игре](images/stage-sprite.png)
+![screenshot](images/invaders-game-over.png)
+
+\--- /task \---
+
+\--- task \---
+
+On the Stage, broadcast a `game over`{:class="block3events"} message just before the game ends.
+
+![gameover sprite](images/stage-sprite.png)
 
 ```blocks3
-разгласи (Крај игре v) и чекај
+broadcast (game over v) and wait
 ```
 
 \--- /task \---
@@ -34,14 +34,14 @@ Next, you're going to add a 'game over' message at the end of the game.
 
 Add this code to your `Game Over` sprite so that it shows at the end of the game:
 
-![лик крај игре](images/gameover-sprite.png)
+![gameover sprite](images/gameover-sprite.png)
 
 ```blocks3
-када је кликнуто на ⚑
-сакриј
+when flag clicked
+hide
 
-када примим [Крај игре v]
-прикажи
+when I receive [game over v]
+show
 ```
 
 Because you've used a `broadcast (game over) and wait`{:class="block3events"} block on your Stage, the Stage will wait for the `Game Over` sprite to be displayed before ending the game.
@@ -50,6 +50,6 @@ Because you've used a `broadcast (game over) and wait`{:class="block3events"} bl
 
 \--- task \---
 
-Испробај своју игру. Колико поена можеш постићи? Ако је игра сувише лака или превише тешка, можеш ли пронаћи начин да је побољшаш?
+Test your game. How many points can you score? If the game is too easy or too hard, can you think of ways to improve it?
 
 \--- /task \---
