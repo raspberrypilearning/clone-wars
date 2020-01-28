@@ -1,7 +1,7 @@
-## Izziv: življenja in točke
+## Challenge: lives and score
 
-Trenutno lahko igro igraš za vedno, ob tem pa niti ne šteje, koliko povodnih konjev si ustrelil in koliko krat je tvojo raketo razneslo.
+At the moment, you can play the game forever, but it doesn't count how many hippos you shoot or how many times your spaceship explodes.
 
-Ali znaš svoji igri dodati `življenja`{:class="block3variables"}, `točke`{:class="block3variables"}, ali celo `najboljši rezultat`{:class="block3variables"}?
+Can you add `lives`{:class="block3variables"}, a `score`{:class="block3variables"}, or even a `highscore`{:class="block3variables"} to your game?
 
 [[[generic-scratch3-high-score]]]
