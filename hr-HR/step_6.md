@@ -1,20 +1,20 @@
-## Eksplozija svemirskog broda
+## Spaceship explosion
 
-Kada nilski konj dotakne vaš svemirski brod, on bi trebao eksplodirati!
+When a hippo touches your spaceship, the spaceship should explode!
 
 \--- task \---
 
-Odaberite lik `Svemirski brod` i promijenite naziv njegovog kostima u 'normalan'.
+Select the `Spaceship` sprite and rename its costume 'normal'.
 
 \--- /task \---
 
 \--- task \---
 
-Nacrtajte još jedan kostim svemirskog broda koji eksplodira i nazovite novi kostim 'pogođen'.
+Draw another costume of an exploding spaceship, and call the new costume 'hit'.
 
 ![screenshot](images/invaders-spaceship-costumes.png)
 
-Ako ne želite nacrtati eksploziju, možete odabrati "Sunce" kostim iz Scratch knjižnice i zatim upotrijebite **Oboji oblik** alat za promjenu boje i lica kostima.
+If you don't want to draw the explosion, you can select the 'Sun' costume from the Scratch library, and then use the **Color a shape** tool to change the costume's colour and face.
 
 ![screenshot](images/invaders-sun.png)
 
@@ -22,21 +22,21 @@ Ako ne želite nacrtati eksploziju, možete odabrati "Sunce" kostim iz Scratch k
 
 \--- task \---
 
-Dodajte naredbe liku `Svemirski brod` tako da prikaže 'normalan' kostim kada započne igra i promijeni se na kostim 'pogođen' kada dotakne nilskog konja:
+Add some code to your `Spaceship` sprite so that it displays the 'normal' costume when the game starts, and switches to the 'hit' costume when it touches a hippo:
 
-![lik rakete](images/rocket-sprite.png)
+![rocket sprite](images/rocket-sprite.png)
 
 ```blocks3
-kada je kliknuta zelena zastava
-promijeni kostim u (normalan)
-čekaj do <touching (Hippo1 v)>
-promijeni kostim u (pogođen)
+when flag clicked
+switch costume to (normal v)
+wait until <touching (Hippo1 v)>?
+switch costume to (hit v)
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Testirajte svoj kôd. Neka se svemirski brod sudari s nilskim konjima. Mijenja li se svemirski brod u 'pogođen' kostim?
+Test your code. Make the spaceship collide with a hippo. Does the spaceship change to the 'hit' costume?
 
 \--- /task \---
