@@ -6,11 +6,11 @@ Here are some ideas:
 
 + Add health packs that you can collect to gain extra lives.
 
-![skærmbillede](images/invaders-aid.png)
+![screenshot](images/invaders-aid.png)
 
 + Add floating rocks that your spaceship must avoid.
 
-![skærmbillede](images/invaders-rocks.png)
+![screenshot](images/invaders-rocks.png)
 
 + Make more enemies appear when your score gets to `100`.
 
