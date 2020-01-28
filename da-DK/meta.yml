@@ -3,13 +3,13 @@ hero_image: images/clone-wars.png
 theme: violet
 listed: true
 copyedit: true
-title: Bekrig Klonerne
-description: I dette projekt skal du lære, hvordan du laver et spil, hvor du skal redde Jorden fra monstre i rummet.
-version: 4
-last_tested: 2017-01-01
+title: Clone wars
+description: Create a game in which you have to save the Earth from space monsters
+version: 4.1.0
+last_tested: 2018-10-11
 steps:
   - 
-    title: Bekrig Klonerne
+    title: Introduction
   - 
     title: Make a spaceship
   - 
