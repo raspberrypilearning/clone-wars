@@ -1,4 +1,4 @@
-## Leteći svemirski nilski konji
+## Space-hippos
 
 Now you're going to add lots of flying hippos that try to destroy your spaceship.
 
@@ -20,7 +20,7 @@ Set the `Hippo` sprite's rotation style to **left-right**.
 
 \--- task \---
 
-Dodaj kôd da lik `Nilskog konja` bude sakriven kada igra započne.
+Add some code to hide the `Hippo` sprite when the game starts.
 
 ![hippo sprite](images/hippo-sprite.png)
 
@@ -35,15 +35,15 @@ hide
 
 Add some code to the Stage to create a new `Hippo` clone every few seconds.
 
-\--- pomoć \---
+\--- hints \---
 
-\--- pomoć \---
+\--- hint \---
 
 When the `green flag is clicked`{:class="block3events"}, `repeatedly`{:class="block3control"} `wait`{:class="block3control"} `between 2 and 4 seconds`{:class="block3operators"} and then `create a clone of the Hippo sprite`{:class="block3control"}.
 
 \--- /hint \---
 
-\--- pomoć \---
+\--- hint \---
 
 Here are the blocks you need:
 
@@ -62,7 +62,7 @@ wait () secs
 
 \--- /hint \---
 
-\--- pomoć \---
+\--- hint \---
 
 This is what your code should look like:
 
@@ -102,7 +102,7 @@ When each `Hippo` clone starts, pick a random speed and starting place for it. T
 
 ```blocks3
 when I start as a clone
-set [brzina v] to (pick random (2) to (4))
+set [speed v] to (pick random (2) to (4))
 go to x: (pick random (-220) to (220)) y: (150)
 show
 ```
