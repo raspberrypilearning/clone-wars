@@ -1,18 +1,18 @@
-## Sfida: migliora il tuo gioco
+## Challenge: improve your game
 
-Quali miglioramenti puoi fare al tuo gioco?
+What improvements can you make to your game?
 
-Ecco alcune idee:
+Here are some ideas:
 
-+ Aggiungi qualche medikit che puoi collezionare per aver maggiori vite.
++ Add health packs that you can collect to gain extra lives.
 
 ![screenshot](images/invaders-aid.png)
 
-+ Aggiungi della rocce fluttuanti che la tua navicella dovrà evitare.
++ Add floating rocks that your spaceship must avoid.
 
-![schermata](images/invaders-rocks.png)
+![screenshot](images/invaders-rocks.png)
 
-+ Fai apparire più nemici quando raggiungi un punteggio di `100`.
++ Make more enemies appear when your score gets to `100`.
 
 ```blocks3
     wait until <(score :: variables) = [100]>
