@@ -1,10 +1,10 @@
-## Što dalje?
+## What next?
 
-Idite na naš [Stvorite svoj vlastiti svijet](https://projects.raspberrypi.org/en/projects/create-your-own-world?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) projekt u kojem ćete kreirati svoju avanturističku igru!
+Have a go at our [Create your own world](https://projects.raspberrypi.org/en/projects/create-your-own-world?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) project, where you’ll create your own adventure game!
 
 \--- no-print \---
 
-Kliknite zelenu zastavu za početak. Upotrijebite tipke sa strelicama za pomicanje svog lika po svijetu.
+Click the green flag to start. Use the arrow keys to move your character around in the world.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/258757783/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -15,6 +15,6 @@ Kliknite zelenu zastavu za početak. Upotrijebite tipke sa strelicama za pomican
 
 \--- print-only \---
 
-Upotrijebite tipke sa strelicama za pomicanje svog lika po svijetu. ![showcase.png](images/create-showcase.png)
+You'll use the arrow keys to move your character around in the world. ![showcase.png](images/create-showcase.png)
 
 \--- /print-only \---
