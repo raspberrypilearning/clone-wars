@@ -31,7 +31,7 @@ Fai quanti più punti possibile sparando agli ippopotami spaziali volanti. Perde
 
 ## \--- collapse \---
 
-## title: What you will need
+## title: Di cosa avrai bisogno
 
 ### Hardware
 
@@ -43,13 +43,13 @@ Fai quanti più punti possibile sparando agli ippopotami spaziali volanti. Perde
 
 ### Download
 
-[Find the downloads here](http://rpf.io/p/en/clone-wars-go).
+[Trova i download qui ](http://rpf.io/p/en/clone-wars-go).
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: What you will learn
+## title: Cosa imparerai
 
 + Come far muovere gli sprite usando l'input da tastiera
 + Come clonare gli sprite per farne delle copie
