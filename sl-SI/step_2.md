@@ -1,88 +1,88 @@
-## Ustvari raketo
+## Make a spaceship
 
-Najprej ustvari raketo, ki bo branila Zemljo!
+First make a spaceship that can defend the Earth!
 
 \--- task \---
 
-Odpri začetni projekt imenovan 'Vojna klonov'.
+Open the 'Clone wars' Scratch starter project.
 
-**Spletno:** Odpri začetni projekt na [rpf.io/clone-wars-on](http://rpf.io/clone-wars-on){: target = "_ blank"}.
+**Online:** open the starter project at [rpf.io/clone-wars-on](http://rpf.io/clone-wars-on){:target="_blank"}.
 
-Če imaš Scratch uporabniški račun, lahko ustvariš kopijo s klikom na **Predelaj**.
+If you have a Scratch account you can make a copy by clicking **Remix**.
 
-** Brez povezave: ** prenesi začetni projekt iz [rpf.io/p/en/clone-wars-go](http://rpf.io/p/en/clone-wars-go) {: target = "_ blank"} in ga nato odpri s pomočjo namiznega urejevalnika.
+**Offline:** download the starter project from [rpf.io/p/en/clone-wars-go](http://rpf.io/p/en/clone-wars-go), and then open it using the offline editor.
 
-Če želiš prenesti in namestiti Namizni Scratch, ga lahko najdeš na [rpf.io/scratchoff](https://rpf.io/scratchoff){: target = "_ blank"}.
+If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
 
 \--- /task \---
 
-![začetni projekt](images/starter-project.png)
+![starter project](images/starter-project.png)
 
 \--- task \---
 
-Dodaj to kodo figuri rakete, da se bo raketa premikala v levo, če je pritisnjena <kbd>leva</kbd> smerna tipka:
+Add this code to the spaceship sprite to make the spaceship move left if the <kbd>left</kbd> arrow is pressed:
 
-![figura rakete](images/rocket-sprite.png)
+![rocket sprite](images/rocket-sprite.png)
 
 ```blocks3
-    ko kliknemo na zastavico
-  ponavljaj
-    če <je pritisnjena tipka [puščica v levo v]?> potem
-      spremeni x za (-4)
-    konec
-  konec
+    when flag clicked
+    forever
+        if <key (left arrow v) pressed?> then
+            change x by (-4)
+        end
+    end
 ```
 
-X-os poteka od leve do desne strani odra. To pomeni, da se raketa premika v levo, kadar odštevaš od vrednosti `x` pozicije, ki jo ima raketa. Ta blok je torej tisti del kode, ki premika tvojo raketo v levo:
+The x-axis goes from the left side of the Stage to the right side. This means that the spaceship moves to the left when you subtract from the value of the spaceship sprite's `x` position. So this code block is the part that makes your spaceship move left:
 
 ```blocks3
-spremeni x za (-4)
+change x by (-4)
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Dodaj še nekaj kode v blok `ponavljaj`{:class="block3control"}, da se bo tvoja raketa pomikala v desno, če je pritisnjena <kbd>desna</kbd> smerna tipka.
+Add some more code inside the `forever`{:class="block3control"} block to make your spaceship move to the right if the <kbd>right</kbd> arrow key is pressed.
 
 \--- hints \---
 
 \--- hint \---
 
-Če si od `x` pozicije rakete odšteval `4`, se je ta premikala v levo. Kako bi lahko dosegel, da bi se raketa namesto tega pomikala za `4` v desno?
+Subtracting `4` from the spaceship's `x` position made it move left, so how could you make the spaceship move right by `4` instead?
 
 \--- /hint \---
 
 \--- hint \---
 
-Potrebuješ enako kodo, le število mora biti drugačno:
+You need the same code block, but with a different number:
 
 ```blocks3
-spremeni x za ( )
+change x by ( )
 ```
 
 \--- /hint \---
 
 \--- hint \---
 
-To je koda, ki jo je potrebno dodati ostali kodi v bloku `ponavljaj`{:class="block3control"}:
+Here is the code you need to add below the other code inside the `forever`{:class="block3control"} block:
 
-![figura rakete](images/rocket-sprite.png)
+![rocket sprite](images/rocket-sprite.png)
 
 ```blocks3
-če <key (right arrow v) pressed?> potem
-    spremeni x za (4)
-konec
+if <key (right arrow v) pressed?> then
+    change x by (4)
+end
 ```
 
 \--- /hint \---
 
-\--- /namigi \---
+\--- /hints \---
 
 \--- /task \---
 
 \--- task \---
 
-Preizkusi svoj projekt s klikom na zeleno zastavico. Ali se ob pritiskanju na smerni tipki raketa premika levo ali desno?
+Test your project by clicking the green flag. Can you press the arrow keys to make your spaceship move left and right?
 
 \--- /task \---
