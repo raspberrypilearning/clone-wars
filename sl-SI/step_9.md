@@ -1,58 +1,58 @@
-## Vesoljski netopir
+## Space-bat
 
-Da narediš svojo igor nekoliko bolj težavno, boš ustvaril še netopirja, ki na raketo meče pomaranče.
+To make your game a bit harder, you are going to create a bat that throws oranges at the spaceship.
 
-![netopir, ki meče pomarančo na raketo](images/bat-oranges.png)
+![a bat throwing an orange at the spaceship](images/bat-oranges.png)
 
 \--- task \---
 
-Dodaj figuro `netopir` in določi njegov slog vrtenja na **levo-desno**.
+Add a `Bat` sprite and set its rotation style to **left–right**.
 
 \--- /task \---
 
 \--- task \---
 
-Naredi, da se bo figura `netopir` `premikala`{:class="block3motion"} iz leve v desno na vrhu odra in da se bo to `ponavljalo`{:class="block3control"}.
+Make the `Bat` sprite `move`{:class="block3motion"} from left to right at the top of the Stage `forever`{:class="block3control"}.
 
-![figura netopirja](images/bat-sprite.png)
+![bat sprite](images/bat-sprite.png)
 
 ```blocks3
-ko kliknemo na zastavo
-nastavi velikost na (50)%
-ponavljaj
-  pojdi (10) korakov
-  odbij se, če si na robu
-konec
+when flag clicked
+set size to (50) %
+forever
+    move (10) steps
+    if on edge, bounce
+end
 ```
 
-Ne pozabi preizkusiti svoje kode.
+Remember to test your code.
 
 \--- /task \---
 
-Če si ogledaš videze netopirja, boš videl, da so štirje različni:
+If you look at the bat's costumes, you can see that it has four different ones:
 
-![posnetek zaslona](images/invaders-bat-costume.png)
+![screenshot](images/invaders-bat-costume.png)
 
 \--- task \---
 
-Uporabi blok `naslednji videz`{:class="block3looks"}, da bo netopir mahal s krili, medtem ko se bo premikal.
+Use the `next costume`{:class="block3looks"} block to make the bat flap its wings as it moves.
 
 \--- hints \---
 
 \--- hint \---
 
-Po tem, ko se premakne, bi moral pokazati `naslednji videz`{:class="block3looks"} in `počakati`{:class="block3control"} kratek čas.
+After the bat has moved, it should show the `next costume`{:class="block3looks"} and then `wait`{:class="block3control"} for a short time.
 
 \--- /hint \---
 
 \--- hint \---
 
-Svoji kodi moraš dodati te bloke:
+You need to add these blocks to you code:
 
 ```blocks3
-počakaj (0.3) sekund
+wait (0.3) seconds
 
-naslednji videz
+next costume
 ```
 
 \--- /hint \---
@@ -62,15 +62,15 @@ naslednji videz
 Your code should look like this:
 
 ```blocks3
-ko kliknemo na zastavo
-nastavi velikost na (50)%
-ponavljaj
-pojdi (10) korakov
-odbij se, če si na robu
+when flag clicked
+set size to (50) %
+forever
+move (10) steps
+if on edge, bounce
 
-+ naslednji videz
-+ počakaj (0.3) sekund
-konec
++ next costume
++ wait (0.3) seconds
+end
 ```
 
 \--- /hint \---
@@ -96,11 +96,11 @@ Add code to your bat so that `when the flag is clicked`{:class="block3events"}, 
 ![bat sprite](images/bat-sprite.png)
 
 ```blocks3
-ko kliknemo na zastavo
-pomavljaj
-  počakaj (naključno število med (5) in (10)) sekund
-  ustvari dvojnika (pomaranča v)
-konec
+when flag clicked
+forever
+    wait (pick random (5) to (10)) secs
+    create clone of (Orange v)
+end
 ```
 
 \--- /task \---
@@ -112,16 +112,16 @@ Add code to the `Orange` to make each of its clone drop, starting from the `Bat`
 ![orange sprite](images/orange-sprite.png)
 
 ```blocks3
-    ko kliknemo na zastavo
-  skrij
+    when flag clicked
+    hide
 
-  ko začnem kot dvojnik
-  pojdi na (netopir v)
-  pokaži
-  ponavljaj do <se dotika (roba v)?>
-    spremeni za (-4)
-konec
-zbriši tega dvojnika
+    when I start as a clone
+    go to (Bat v)
+    show
+    repeat until <touching (edge v)?
+        change y by (-4)
+    end
+    delete this clone
 ```
 
 \--- /task \---
@@ -133,8 +133,8 @@ Add some more code to the `Orange` sprite so that when an `Orange` clone hits th
 ![orange sprite](images/orange-sprite.png)
 
 ```blocks3
-    ko prejmem [zadetek v]
-   zbriši tega dvojnika
+    when I receive [hit v]
+    delete this clone
 ```
 
 \--- /task \---
@@ -146,7 +146,7 @@ Modify the code of your `Spaceship` sprite so that the sprite is "hit" when it t
 ![rocket sprite](images/rocket-sprite.png)
 
 ```blocks3
-    počakaj dokler ni <<se dotika (povodni v)>? ali <se dotika (pomaranča v)>?>
+    wait until < <touching (Hippo1 v)?> or <touching (Orange v)?>>
 ```
 
 \--- /task \---
