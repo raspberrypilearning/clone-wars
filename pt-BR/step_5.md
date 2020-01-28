@@ -1,4 +1,4 @@
-## Hipopótamos do espaço
+## Space-hippos
 
 Now you're going to add lots of flying hippos that try to destroy your spaceship.
 
@@ -20,7 +20,7 @@ Set the `Hippo` sprite's rotation style to **left-right**.
 
 \--- task \---
 
-Adicione um código para esconder o ator `Hipo` quando o jogo começar.
+Add some code to hide the `Hippo` sprite when the game starts.
 
 ![hippo sprite](images/hippo-sprite.png)
 
@@ -35,7 +35,7 @@ hide
 
 Add some code to the Stage to create a new `Hippo` clone every few seconds.
 
-\--- dica \---
+\--- hints \---
 
 \--- hint \---
 
