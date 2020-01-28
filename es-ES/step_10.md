@@ -1,4 +1,4 @@
-## Fin del juego
+## Game over
 
 Next, you're going to add a 'game over' message at the end of the game.
 
@@ -14,7 +14,7 @@ Your spaceship should start with three lives and lose a life whenever it touches
 
 Draw a new sprite called `Game Over` using the **text** tool.
 
-![captura de pantalla](images/invaders-game-over.png)
+![screenshot](images/invaders-game-over.png)
 
 \--- /task \---
 
