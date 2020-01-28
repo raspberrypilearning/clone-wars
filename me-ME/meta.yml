@@ -3,35 +3,35 @@ hero_image: images/clone-wars.png
 theme: violet
 listed: true
 copyedit: true
-title: Ratovi klonova
-description: Napravi igru u kojoj treba da spasiš Zemlju od svemirskih čudovišta
+title: Clone wars
+description: Create a game in which you have to save the Earth from space monsters
 version: 4.1.0
 last_tested: 2018-10-11
 steps:
   - 
-    title: Uvod
+    title: Introduction
   - 
-    title: Izrada svemirskog broda
+    title: Make a spaceship
   - 
-    title: Munje
+    title: Lightning bolts
   - 
-    title: 'Munje'
+    title: 'Challenge: improve the lightning'
     challenge: true
   - 
-    title: Leteći svemirski nilski konji
+    title: Space-hippos
   - 
-    title: Eksplozija svemirskog broda
+    title: Spaceship explosion
   - 
-    title: Nilski konji koji nestaju
+    title: Hippos that disappear
   - 
-    title: 'Izazov: životi i rezultat'
+    title: 'Challenge: lives and score'
     challenge: true
   - 
-    title: Kraj igre
+    title: Space-bat
   - 
-    title: Kraj igre
+    title: Game over
   - 
-    title: 'Izazov: poboljšaj svoju igru'
+    title: 'Challenge: improve your game'
     challenge: true
   - 
-    title: 'Izazov: više olovaka'
+    title: What next?
