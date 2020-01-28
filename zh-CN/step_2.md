@@ -67,7 +67,7 @@ x轴从舞台的左侧到右侧。 这意味着当您减少飞船角色的`x`位
 
 这是你需要在`重复执行`{:class="block3control"} 块内的其它代码下添加的代码：
 
-![火箭角色](images/rocket-sprite.png)
+![rocket sprite](images/rocket-sprite.png)
 
 ```blocks3
 如果 <key (right arrow v) pressed?> 那么 
