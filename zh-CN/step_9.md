@@ -132,8 +132,8 @@ end
 ![橙子角色](images/orange-sprite.png)
 
 ```blocks3
-    当接收到 [hit v]
-删除此克隆体
+    when I receive [hit v]
+    delete this clone
 ```
 
 \--- /task \---
