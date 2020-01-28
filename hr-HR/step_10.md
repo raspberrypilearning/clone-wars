@@ -1,18 +1,18 @@
-## Kraj igre
+## Game over
 
-Sada ćete dodati poruku 'kraj igre' kada igra završi.
+Next, you're going to add a 'game over' message at the end of the game.
 
 \--- task \---
 
-Ako već niste, stvorite novu varijablu koja se zove `životi` {: Class = "block3variables"}.
+If you haven't already, create a new variable called `lives`{:class="block3variables"}.
 
-Vaš svemirski brod trebao bi započeti s tri života i izgubiti život kad god dodirne nilskog konja ili naranču. Vaša bi se igra trebala zaustaviti kad ponestane `životi` {: class = "block3variables"}.
+Your spaceship should start with three lives and lose a life whenever it touches a hippo or an orange. Your game should stop when the `lives`{:class="block3variables"} run out.
 
 \--- /task \---
 
 \--- task \---
 
-Nacrtajte novi lik pod nazivom `Kraj igre` koristeći ** tekst ** alat.
+Draw a new sprite called `Game Over` using the **text** tool.
 
 ![screenshot](images/invaders-game-over.png)
 
@@ -20,36 +20,36 @@ Nacrtajte novi lik pod nazivom `Kraj igre` koristeći ** tekst ** alat.
 
 \--- task \---
 
-Na pozornici prikažite `Kraj igre` {: class = "block3events"} poruku neposredno prije nego igra završi.
+On the Stage, broadcast a `game over`{:class="block3events"} message just before the game ends.
 
 ![gameover sprite](images/stage-sprite.png)
 
 ```blocks3
-pošalji (kraj igre v) i čekaj
+broadcast (game over v) and wait
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Dodajte ovaj kôd vašem `Kraj igre` liku kako bi se na kraju igre prikazao:
+Add this code to your `Game Over` sprite so that it shows at the end of the game:
 
 ![gameover sprite](images/gameover-sprite.png)
 
 ```blocks3
-kada je kliknuta zelena zastava
-sakrij
+when flag clicked
+hide
 
-kada primim [kraj igre v]
-prikaži
+when I receive [game over v]
+show
 ```
 
-Budući da ste koristili `pošalji (igra je gotova) i čekaj` {: class = "block3events"} blok na vašoj pozornici, pozornica će čekati da se prikaže lik `Kraj igre` prije završetka igre.
+Because you've used a `broadcast (game over) and wait`{:class="block3events"} block on your Stage, the Stage will wait for the `Game Over` sprite to be displayed before ending the game.
 
 \--- /task \---
 
 \--- task \---
 
-Testirajte svoju igru. Koliko bodova možete postići? Ako je igra previše lagana ili previše naporna, možete li smisliti načine kako je poboljšati?
+Test your game. How many points can you score? If the game is too easy or too hard, can you think of ways to improve it?
 
 \--- /task \---
