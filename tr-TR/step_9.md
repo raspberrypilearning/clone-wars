@@ -8,7 +8,7 @@ To make your game a bit harder, you are going to create a bat that throws orange
 
 Add a `Bat` sprite and set its rotation style to **left–right**.
 
-\--- /görev \---
+\--- /task \---
 
 \--- task \---
 
@@ -31,21 +31,21 @@ Remember to test your code.
 
 If you look at the bat's costumes, you can see that it has four different ones:
 
-![ekran görüntüsü](images/invaders-bat-costume.png)
+![screenshot](images/invaders-bat-costume.png)
 
 \--- task \---
 
 Use the `next costume`{:class="block3looks"} block to make the bat flap its wings as it moves.
 
-\--- hint \---
+\--- hints \---
 
-\---hint\---
+\--- hint \---
 
 After the bat has moved, it should show the `next costume`{:class="block3looks"} and then `wait`{:class="block3control"} for a short time.
 
 \--- /hint \---
 
-\---hint\---
+\--- hint \---
 
 You need to add these blocks to you code:
 
