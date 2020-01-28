@@ -1,7 +1,7 @@
-## Sfida: vite e punteggio
+## Challenge: lives and score
 
-Al momento, puoi giocare per sempre, ma senza contare quanti ippopotami hai sparato o quante volte la tua astronave esplode.
+At the moment, you can play the game forever, but it doesn't count how many hippos you shoot or how many times your spaceship explodes.
 
-Puoi aggiungere delle `vite`{:class="block3variables"}, un `punteggio`{:class="block3variables"}, o anche un `maggior punteggio`{:class="block3variables"} tal tuo gioco?
+Can you add `lives`{:class="block3variables"}, a `score`{:class="block3variables"}, or even a `highscore`{:class="block3variables"} to your game?
 
 [[[generic-scratch3-high-score]]]
