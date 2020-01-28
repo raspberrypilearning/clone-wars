@@ -31,7 +31,7 @@ Remember to test your code.
 
 If you look at the bat's costumes, you can see that it has four different ones:
 
-![skærmbillede](images/invaders-bat-costume.png)
+![screenshot](images/invaders-bat-costume.png)
 
 \--- task \---
 
