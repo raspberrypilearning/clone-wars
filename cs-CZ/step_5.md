@@ -35,13 +35,13 @@ hide
 
 Add some code to the Stage to create a new `Hippo` clone every few seconds.
 
-\--- tipy \---
+\--- hints \---
 
 \--- hint \---
 
 When the `green flag is clicked`{:class="block3events"}, `repeatedly`{:class="block3control"} `wait`{:class="block3control"} `between 2 and 4 seconds`{:class="block3operators"} and then `create a clone of the Hippo sprite`{:class="block3control"}.
 
-\--- /tip \---
+\--- /hint \---
 
 \--- hint \---
 
@@ -66,7 +66,7 @@ wait () secs
 
 This is what your code should look like:
 
-![postava](images/stage-sprite.png)
+![stage sprite](images/stage-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -76,9 +76,9 @@ forever
 end
 ```
 
-\--- /tip \---
+\--- /hint \---
 
-\--- /tipy \---
+\--- /hints \---
 
 \--- /task \---
 
