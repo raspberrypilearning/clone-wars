@@ -2,23 +2,23 @@
 
 Next, you're going to add a 'game over' message at the end of the game.
 
-\--- কাজ \---
+\--- task \---
 
 If you haven't already, create a new variable called `lives`{:class="block3variables"}.
 
 Your spaceship should start with three lives and lose a life whenever it touches a hippo or an orange. Your game should stop when the `lives`{:class="block3variables"} run out.
 
-\--- /কাজ \---
+\--- /task \---
 
-\--- কাজ \---
+\--- task \---
 
 Draw a new sprite called `Game Over` using the **text** tool.
 
 ![screenshot](images/invaders-game-over.png)
 
-\--- /কাজ \---
+\--- /task \---
 
-\--- কাজ \---
+\--- task \---
 
 On the Stage, broadcast a `game over`{:class="block3events"} message just before the game ends.
 
@@ -28,9 +28,9 @@ On the Stage, broadcast a `game over`{:class="block3events"} message just before
 broadcast (game over v) and wait
 ```
 
-\--- /কাজ \---
+\--- /task \---
 
-\--- কাজ \---
+\--- task \---
 
 Add this code to your `Game Over` sprite so that it shows at the end of the game:
 
@@ -46,10 +46,10 @@ show
 
 Because you've used a `broadcast (game over) and wait`{:class="block3events"} block on your Stage, the Stage will wait for the `Game Over` sprite to be displayed before ending the game.
 
-\--- /কাজ \---
+\--- /task \---
 
-\--- কাজ \---
+\--- task \---
 
 Test your game. How many points can you score? If the game is too easy or too hard, can you think of ways to improve it?
 
-\--- /কাজ \---
+\--- /task \---
