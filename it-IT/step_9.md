@@ -59,7 +59,7 @@ next costume
 
 \--- hint \---
 
-Your code should look like this:
+Il tuo codice dovrebbe assomigliare a questo:
 
 ```blocks3
 when flag clicked
@@ -153,6 +153,6 @@ Modifica il codice dello sprite della `navicella` in modo che sia "colpito" quan
 
 \--- task \---
 
-Test your game. What happens if the spaceship gets hit by a falling orange?
+Prova il tuo gioco. Cosa succede se l'astronave viene colpita da un arancia in caduta?
 
 \--- /task \---
