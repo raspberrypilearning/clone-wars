@@ -1,8 +1,8 @@
-## Desafio: melhore seu jogo
+## Challenge: improve your game
 
 What improvements can you make to your game?
 
-Aqui estão algumas idéias:
+Here are some ideas:
 
 + Add health packs that you can collect to gain extra lives.
 
