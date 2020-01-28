@@ -1,10 +1,10 @@
-## Муње
+## Lightning bolts
 
-Сада ћеш свемирском броду дати могућност да испаљује муње!
+Now you are going to give the spaceship the ability to fire lightning bolts!
 
 \--- task \---
 
-Додај лик `Муње` из библиотеке Скреча.
+Add the `Lightning` sprite from the Scratch library.
 
 [[[generic-scratch3-sprite-from-library]]]
 
@@ -12,30 +12,30 @@
 
 \--- task \---
 
-Када се игра покрене, лик `Муње` би требао да остане сакривен, док свемирски брод не испали своје ласерске топове.
+When the game starts, the `Lightning` sprite should be hidden until the spaceship fires its laser cannons.
 
-Додај овај код лику `Муње`:
+Add this code to the `Lightning` sprite:
 
-![лик муње](images/lightning-sprite.png)
+![lightning sprite](images/lightning-sprite.png)
 
 ```blocks3
-када је кликнуто на ⚑
-сакриј
+when green flag clicked
+hide
 ```
 
 \--- /task \---
 
-Тренутно је муња огромна у односу на свемирски брод!
+At the moment, the lightning bolt is really big compared to the spaceship!
 
 \--- task \---
 
-Испод кода који лик `Муња` већ има, додај следеће блокове како би се лик смањио и окренуо наопако.
+Below the code that the `Lightning` sprite already has, add some blocks to make the sprite smaller and to turn it upside down.
 
-![лик муње](images/lightning-sprite.png)
+![lightning sprite](images/lightning-sprite.png)
 
 ```blocks3
-нека величина буде (25) %
-усмери се ка (-90)
+set size to (25) %
+point in direction (-90)
 ```
 
 Now it looks like it fires pointy end–first out of the spaceship.
@@ -50,42 +50,42 @@ Add some new code to the `Spaceship` sprite to create a new clone of the lightni
 
 \--- hint \---
 
-`Када је кликнуто на зелену заставицу`{:class="block3events"}, понављај `заувек`{:class="block3control"} `ако је`{:class="block3control"} `дугме размак притиснуто`{:class="block3sensing"}, у том случају `направи дупликат од Муња`{:class="block3control"}.
+`When the green flag is clicked`{:class="block3events"}, keep checking `forever`{:class="block3control"} `if`{:class="block3control"} the `space key is pressed`{:class="block3sensing"}, and in that case `create a clone of the Lightning`{:class="block3control"} sprite.
 
 \--- /hint \---
 
 \--- hint \---
 
-Ево блокова кода који су ти потребни:
+Here are the blocks you need:
 
 ```blocks3
-ако је <> онда
+if <> then
 end
 
-понављај заувек
+forever
 end
 
-направи дупликат од (Муња v)
+create clone of (Lightning v)
 
 <key (space v) pressed?>
 
-када је кликнуто на ⚑
+when flag clicked
 ```
 
 \--- /hint \---
 
 \--- hint \---
 
-Овако би требало да изгледа твој нови код:
+Here is what your new code should look like:
 
-![лик ракете](images/rocket-sprite.png)
+![rocket sprite](images/rocket-sprite.png)
 
 ```blocks3
-када је кликнуто на ⚑
-понављај заувек 
-  ако је <key (space v) pressed?> онда 
-    направи дупликат од (Муња v)
-  end
+when flag clicked
+forever
+    if <key (space v) pressed?> then
+        create clone of (Lightning v)
+    end
 end
 ```
 
@@ -101,16 +101,16 @@ Whenever the game creates a `Lightning` sprite clone, the clone should appear an
 
 Add this code to the `Lightning` sprite so that clones of it move upwards until they touch the edge of the Stage, and then they get deleted.
 
-![лик муње](images/lightning-sprite.png)
+![lightning sprite](images/lightning-sprite.png)
 
 ```blocks3
-    када се појавим као умножак
-иди до (Свемирски брод v)
-прикажи
-понављај до <touching (edge v) ?> 
-  промени y за (10)
-end
-обриши овај умножак
+    when I start as a clone
+    go to (Spaceship v)
+    show
+    repeat until <touching (edge v) ?>
+        change y by (10)
+    end
+    delete this clone
 ```
 
 \--- /task \---
