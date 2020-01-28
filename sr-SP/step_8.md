@@ -1,7 +1,7 @@
-## Изазов: Животи и резултат
+## Challenge: lives and score
 
-Тренутно можеш играти игру заувек, али игра не броји колико си нилских коња погодио/ла или колико је пута свемирски брод експлодирао.
+At the moment, you can play the game forever, but it doesn't count how many hippos you shoot or how many times your spaceship explodes.
 
-Можеш ли својој игри да додаш `животи`{:class="block3variables"}, `резултат`{:class="block3variables"} или чак `најбољи резултат`{:class="block3variables"}?
+Can you add `lives`{:class="block3variables"}, a `score`{:class="block3variables"}, or even a `highscore`{:class="block3variables"} to your game?
 
 [[[generic-scratch3-high-score]]]
