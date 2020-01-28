@@ -1,18 +1,18 @@
 \--- no-print \---
 
-Ово је **Scratch 3** верзија пројекта. Постоји, такође, и [Scratch 2 верзија пројекта](https://projects.raspberrypi.org/en/projects/clone-wars-scratch2).
+This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/clone-wars-scratch2).
 
 \--- /no-print \---
 
-## Увод
+## Introduction
 
-У овом пројекту научићеш како да направиш игру у којој треба да спасиш Земљу од свемирских чудовишта.
+In this project you will learn how to create a game in which you have to save the Earth from space monsters.
 
-### Шта ћеш направити
+### What you will make
 
 \--- no-print \---
 
-Кликни на зелену заставицу у примеру испод да покренеш игру, а затим притисни тастере са стрелицама <kbd>лево</kbd> и <kbd>десно</kbd> да помериш свемирски брод и тастер <kbd>размак</kbd> да пуцаш.
+Click the green flag in the example game below to start, and then press the <kbd>left</kbd> and <kbd>right</kbd> arrow keys to move the spaceship, and the <kbd>space</kbd> key to shoot.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/276887163/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -21,29 +21,29 @@
 
 \--- /no-print \---
 
-Постигни што више поена гађајући летеће свемирске нилске коње. Ако те удари нилски коњ или погоди наранџа коју су бацили шишмиши, губиш један живот.
+Score as many points as you can by shooting flying space-hippos. If you get hit by a hippo or by an orange dropped by the bats, you lose a life.
 
 \--- print-only \---
 
-![опис](images/showcase.png)
+![desc](images/showcase.png)
 
 \--- /print-only \---
 
 ## \--- collapse \---
 
-## title: Шта ће ти бити потребно
+## title: What you will need
 
-### Хардвер
+### Hardware
 
-+ Рачунар који може да покрене Scratch 3
++ A computer capable of running Scratch 3
 
-### Софтвер
+### Software
 
-+ Scratch 3 ([на мрежи](https://rpf.io/scratchon){:target="_blank"} или [ван мреже](https://rpf.io/scratchoff){:target="_blank"})
++ Scratch 3 (either [online](https://rpf.io/scratchon){:target="_blank"} or [offline](https://rpf.io/scratchoff){:target="_blank"})
 
-### Преузимање
+### Downloads
 
-[Овде пронађи датотеке за преузимање](http://rpf.io/p/en/clone-wars-go).
+[Find the downloads here](http://rpf.io/p/en/clone-wars-go).
 
 \--- /collapse \---
 
@@ -51,22 +51,22 @@
 
 ## title: What you will learn
 
-+ Како да помераш ликове користећи тастатуру
++ How to make sprites move using keyboard input
 + How to clone sprites to make copies of them
-+ Како користити блокове 'разгласи' и 'прими' за слање поруке
++ How to use 'broadcast' and 'receive blocks' to send messages
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: Додатне информације за наставнике
+## title: Additional notes for educators
 
 \--- no-print \---
 
-Уколико желите да одштампате овај пројекат, молимо Вас користите [верзију за штампање](https://projects.raspberrypi.org/en/projects/clone-wars/print){:target="_blank"}.
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/clone-wars/print){:target="_blank"}.
 
 \--- /no-print \---
 
-Завршени пројекат можете пронаћи [овде](http://rpf.io/p/en/clone-wars-get).
+You can find the [completed project here](http://rpf.io/p/en/clone-wars-get).
 
 \--- /collapse \---
