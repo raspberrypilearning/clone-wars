@@ -1,85 +1,88 @@
-## 宇宙船を作りましょう
+## Make a spaceship
 
-まず地球を守ることができる宇宙船を作ろう！
+First make a spaceship that can defend the Earth!
 
-課題
+\--- task \---
 
-「クローンウォーズ」というスクラッチのスタータープロジェクトを開きます。
+Open the 'Clone wars' Scratch starter project.
 
-オンラインの場合：「rpf.io/clone-wars-on」でスタータープロジェクトを開きます。
+**Online:** open the starter project at [rpf.io/clone-wars-on](http://rpf.io/clone-wars-on){:target="_blank"}.
 
-Scratchアカウントをお持ちの場合は、 「リミックス」ボタンをクリックしてコピーできます。
+If you have a Scratch account you can make a copy by clicking **Remix**.
 
-オフラインの場合：「rpf.io/p/en/clone-wars-go」からスタータープロジェクトをダウンロードして、オフラインエディターを使用して開きます。
+**Offline:** download the starter project from [rpf.io/p/en/clone-wars-go](http://rpf.io/p/en/clone-wars-go), and then open it using the offline editor.
 
-Scratchオフラインエディタをダウンロードしてインストールする必要がある場合は、 「rpf.io / scratchoff」で見つけることができます。
+If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
 
-課題
+\--- /task \---
 
-![スタータープロジェクト](images/starter-project.png)
+![starter project](images/starter-project.png)
 
-課題
+\--- task \---
 
-このコードを宇宙船のスプライトに追加して、左矢印キーが押されたときに宇宙船が左に移動するようにします。
+Add this code to the spaceship sprite to make the spaceship move left if the <kbd>left</kbd> arrow is pressed:
 
-![ロケットスプライト](images/rocket-sprite.png)
-
-```blocks3
-    緑の旗をクリックしたとき
-ずっと 
-もし　 なら
-            x座標を-4ずつ変える
-```
-
-X軸はステージの左側から右側に移動しています。 つまり、宇宙船のスプライトのx位置の値から引くと、宇宙船が左に移動することを意味します。 それで、「x座標を－４ずつ変える」のブロックは、宇宙船を左に動かす部分です。：
+![rocket sprite](images/rocket-sprite.png)
 
 ```blocks3
-x座標を (-4) ずつ変える
+    when flag clicked
+    forever
+        if <key (left arrow v) pressed?> then
+            change x by (-4)
+        end
+    end
 ```
 
-課題
-
-課題
-
-「ずっと」のブロック内にさらにコードを追加して、右向き矢印キーが押された場合に宇宙船を右に移動するようにします。
-
-- - ヒント - -
-
-\---ヒント\---
-
-宇宙船のx位置から4を引くと左に移動したので、代わりに宇宙船を4だけ右に移動させるにはどうすればよいでしょうか。
-
-\--- /ヒント\---
-
-\---ヒント\---
-
-同じコードブロックが必要ですが、番号は異なります。
+The x-axis goes from the left side of the Stage to the right side. This means that the spaceship moves to the left when you subtract from the value of the spaceship sprite's `x` position. So this code block is the part that makes your spaceship move left:
 
 ```blocks3
-x座標を () ずつ変える
+change x by (-4)
 ```
 
-\--- /ヒント\---
+\--- /task \---
 
-\---ヒント\---
+\--- task \---
 
-「ずっと」のブロック内の他のコードの下に追加する必要があるコードは次のとおりです。
+Add some more code inside the `forever`{:class="block3control"} block to make your spaceship move to the right if the <kbd>right</kbd> arrow key is pressed.
 
-![ロケットスプライト](images/rocket-sprite.png)
+\--- hints \---
+
+\--- hint \---
+
+Subtracting `4` from the spaceship's `x` position made it move left, so how could you make the spaceship move right by `4` instead?
+
+\--- /hint \---
+
+\--- hint \---
+
+You need the same code block, but with a different number:
 
 ```blocks3
-もし　 なら
-ｘ座標を(4）ずつ変える
+change x by ( )
 ```
 
-\--- /ヒント\---
+\--- /hint \---
 
-- - /ヒント - -
+\--- hint \---
 
-- - 課題 - -
+Here is the code you need to add below the other code inside the `forever`{:class="block3control"} block:
 
-- - 課題 - -
+![rocket sprite](images/rocket-sprite.png)
 
-緑色の旗をクリックしてプロジェクトをテストします。矢印キーを押して、宇宙船を左右に動かすことができますか？
+```blocks3
+if <key (right arrow v) pressed?> then
+    change x by (4)
+end
+```
 
-- - /課題 - -
+\--- /hint \---
+
+\--- /hints \---
+
+\--- /task \---
+
+\--- task \---
+
+Test your project by clicking the green flag. Can you press the arrow keys to make your spaceship move left and right?
+
+\--- /task \---
