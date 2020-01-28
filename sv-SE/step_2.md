@@ -2,7 +2,7 @@
 
 First make a spaceship that can defend the Earth!
 
-\--- uppgift \---
+\--- task \---
 
 Open the 'Clone wars' Scratch starter project.
 
@@ -18,7 +18,7 @@ If you need to download and install the Scratch offline editor, you can find it 
 
 ![starter project](images/starter-project.png)
 
-\--- uppgift \---
+\--- task \---
 
 Add this code to the spaceship sprite to make the spaceship move left if the <kbd>left</kbd> arrow is pressed:
 
@@ -41,7 +41,7 @@ change x by (-4)
 
 \--- /task \---
 
-\--- uppgift \---
+\--- task \---
 
 Add some more code inside the `forever`{:class="block3control"} block to make your spaceship move to the right if the <kbd>right</kbd> arrow key is pressed.
 
@@ -81,7 +81,7 @@ end
 
 \--- /task \---
 
-\--- uppgift \---
+\--- task \---
 
 Test your project by clicking the green flag. Can you press the arrow keys to make your spaceship move left and right?
 
