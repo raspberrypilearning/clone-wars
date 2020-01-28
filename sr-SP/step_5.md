@@ -1,18 +1,18 @@
-## Свемирски нилски коњи
+## Space-hippos
 
-Сада ћеш додати пуно летећих нилских коња, који ће покушати да униште твој свемирски брод.
+Now you're going to add lots of flying hippos that try to destroy your spaceship.
 
 \--- task \---
 
 Create a new sprite with the 'Hippo1' image in the Scratch library. Use the **shrink** tool to make the `Hippo` sprite a similar size to the `Spaceship` sprite.
 
-![снимак екрана](images/invaders-hippo.png)
+![screenshot](images/invaders-hippo.png)
 
 \--- /task \---
 
 \--- task \---
 
-Постави ротацију `Нилског коња` на **лево-десно**.
+Set the `Hippo` sprite's rotation style to **left-right**.
 
 [[[generic-scratch3-sprite-rotation-style]]]
 
@@ -22,11 +22,11 @@ Create a new sprite with the 'Hippo1' image in the Scratch library. Use the **sh
 
 Add some code to hide the `Hippo` sprite when the game starts.
 
-![лик нилског коња](images/hippo-sprite.png)
+![hippo sprite](images/hippo-sprite.png)
 
 ```blocks3
-када је кликнуто на ⚑
-сакриј
+when green flag clicked
+hide
 ```
 
 \--- /task \---
@@ -39,40 +39,40 @@ Add some code to the Stage to create a new `Hippo` clone every few seconds.
 
 \--- hint \---
 
-Када је `кликнуто на зелену заставицу`{:class="block3events"}, `понављај заувек`{:class="block3control"} `чекај`{:class="block3control"} `између 2 и 4 секунде`{:class="block3operators"}, а затим `направи дупликат Нилског коња`{:class="block3control"}.
+When the `green flag is clicked`{:class="block3events"}, `repeatedly`{:class="block3control"} `wait`{:class="block3control"} `between 2 and 4 seconds`{:class="block3operators"} and then `create a clone of the Hippo sprite`{:class="block3control"}.
 
 \--- /hint \---
 
 \--- hint \---
 
-Ево блокова кода који су ти потребни:
+Here are the blocks you need:
 
 ```blocks3
-понављај заувек
+forever
 end
 
-направи дупликат од (Нилски коњ1 v)
+create clone of (Hippo1 v)
 
-(случајан број од (2) до (4))
+(pick random (2) to (4))
 
-када је кликнуто на ⚑
+when flag clicked
 
-чекај () секунду
+wait () secs
 ```
 
 \--- /hint \---
 
 \--- hint \---
 
-Овако би требао да изгледа твој код:
+This is what your code should look like:
 
-![лик позорнице](images/stage-sprite.png)
+![stage sprite](images/stage-sprite.png)
 
 ```blocks3
-када је кликнуто на ⚑
-понављај заувек 
-  чекај (случајан број од (2) до (4)) секунду
-  направи дупликат од (Нилски коњ1 v)
+when flag clicked
+forever
+    wait (pick random (2) to (4)) secs
+    create clone of (Hippo1 v)
 end
 ```
 
@@ -82,52 +82,52 @@ end
 
 \--- /task \---
 
-Сваки нови нилски коњ требао би се појавити на случајном `х` положају и требао би да има случајну брзину.
+Each new hippo clone should appear at a random `x` position, and every clone should have a random speed.
 
 \--- task \---
 
-Направи нову променљиву названу `брзина`{:class="block3variables"}, која је само за ликове `Нилског коња`.
+Create a new variable called `speed`{:class="block3variables"} that is for the `Hippo` sprite only.
 
 [[[generic-scratch3-add-variable]]]
 
 When you've done this correctly, the variable has the name of the sprite next to it, like this:
 
-![снимак екрана](images/invaders-var-test.png)
+![screenshot](images/invaders-var-test.png)
 
 \--- /task \---
 
 \--- task \---
 
-Када сваки клон `Нилског коња` крене, одабери му случајну брзину и почетно место. Затим покажи клона на екран.
+When each `Hippo` clone starts, pick a random speed and starting place for it. Then show the clone on the screen.
 
 ```blocks3
-када се појавим као умножак
-нека [брзина v] буде (случајан број од (2) до (4))
-иди до x: (случајан број од (-220) до (220)) y: (150)
-прикажи
+when I start as a clone
+set [speed v] to (pick random (2) to (4))
+go to x: (pick random (-220) to (220)) y: (150)
+show
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Испробај свој код. Појављује ли се нови нилски коњ сваких неколико секунди?
+Test your code. Does a new hippo appear every few seconds?
 
 \--- /task \---
 
-Тренутно се нилски коњи не померају.
+At the moment the hippos don't move.
 
 \--- task \---
 
 Each hippo should move around randomly until it gets hit by a lightning bolt. To make that happen, attach this code below the blocks that are already in the `Hippo` sprite's code script:
 
 ```blocks3
-понављај до <touching (lightning v) ?> 
-  иди (брзина :: variables) корака
-  окрет ↻ за (случајан број од (-10) до (10)) степени
-  ако си на рубу, окрени се
+repeat until <touching (lightning v) ?>
+    move (speed :: variables) steps
+    turn right (pick random (-10) to (10)) degrees
+    if on edge, bounce
 end
-обриши овај умножак
+delete this clone
 ```
 
 \--- /task \---
@@ -138,7 +138,7 @@ Test your code again. You should see a new hippo clone appear every few seconds,
 
 \--- no-print \---
 
-![снимак екрана](images/hippo-clones.gif)
+![screenshot](images/hippo-clones.gif)
 
 \--- /no-print \---
 
