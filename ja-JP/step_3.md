@@ -1,113 +1,122 @@
-## いなずま
+## Lightning bolts
 
-今、あなたは宇宙船に稲妻を発射する能力を与えようとしています！
+Now you are going to give the spaceship the ability to fire lightning bolts!
 
-\--- 課題 \---
+\--- task \---
 
-スクラッチのライブラリーから「いなずま（Lightning）」のスプライトを追加します。
+Add the `Lightning` sprite from the Scratch library.
 
-[[[スクラッチのスプライトのライブラリ]]]
+[[[generic-scratch3-sprite-from-library]]]
 
-\--- /課題 \---
+\--- /task \---
 
-\--- 課題 \---
+\--- task \---
 
-ゲームが始まるとき、宇宙船がレーザー砲を発射するまで 「いなずま（Lightning）」の スプライトは隠されているべきです。
+When the game starts, the `Lightning` sprite should be hidden until the spaceship fires its laser cannons.
 
-このコードを「いなずま（Lightning）」の スプライトに追加します。
+Add this code to the `Lightning` sprite:
 
-![いなずまのスプライト](images/lightning-sprite.png)
-
-```blocks3
-緑の旗が押されたとき
-隠す
-```
-
-\--- /課題 \---
-
-現時点では、いなずま（稲妻）は宇宙船に比べて本当に大きいです！
-
-\--- 課題 \---
-
-「いなずま（Lightning）」の スプライトが既に持っているコードの下に、スプライトを小さくして逆さにするためにいくつかのブロックを追加します。
-
-![いなずまのスプライト](images/lightning-sprite.png)
+![lightning sprite](images/lightning-sprite.png)
 
 ```blocks3
-大きさを（25）％にする
-(-90）度に向ける
+when green flag clicked
+hide
 ```
 
-今は宇宙船から先のとがった端を発射するように見えます。
+\--- /task \---
 
-\--- /課題 \---
+At the moment, the lightning bolt is really big compared to the spaceship!
 
-\--- 課題 \---
+\--- task \---
 
-スペースキーが押された場合、 宇宙船はいくつかの新しいコードを追加して、いなずま（稲妻）の新しいクローンを作成します。
+Below the code that the `Lightning` sprite already has, add some blocks to make the sprite smaller and to turn it upside down.
 
-\--- ヒント \---
-
-\--- ヒント \---
-
-緑の旗が押された後で、スペースキーが押されたら、ずっといなずま（稲妻）のクローンを作成します。
-
-\--- /ヒント \---
-
-\--- ヒント \---
-
-必要なブロックは次のとおりです。
+![lightning sprite](images/lightning-sprite.png)
 
 ```blocks3
-緑の旗が押されたとき; そして
-
-ずっと
-
-いなずま（Lightning）のクローンを作成する
+set size to (25) %
+point in direction (-90)
 ```
 
-\--- /ヒント \---
+Now it looks like it fires pointy end–first out of the spaceship.
 
-\--- ヒント \---
+\--- /task \---
 
-新しいコードは次のようになります。
+\--- task \---
 
-![ロケットスプライト](images/rocket-sprite.png)
+Add some new code to the `Spaceship` sprite to create a new clone of the lightning bolt if the <kbd>space</kbd> key is pressed.
+
+\--- hints \---
+
+\--- hint \---
+
+`When the green flag is clicked`{:class="block3events"}, keep checking `forever`{:class="block3control"} `if`{:class="block3control"} the `space key is pressed`{:class="block3sensing"}, and in that case `create a clone of the Lightning`{:class="block3control"} sprite.
+
+\--- /hint \---
+
+\--- hint \---
+
+Here are the blocks you need:
 
 ```blocks3
-緑の旗が押されたとき
-ずっと
-もし　なら
-いなずま（Lightning）のクローンを作る
+if <> then
+end
+
+forever
+end
+
+create clone of (Lightning v)
+
+<key (space v) pressed?>
+
+when flag clicked
 ```
 
-\--- /ヒント \---
+\--- /hint \---
 
-\--- /ヒント \---
+\--- hint \---
 
-\--- /課題 \---
+Here is what your new code should look like:
 
-\--- 課題 \---
-
-ゲームが いなずま（Lightning）の スプライトクローンを作成するたびに、そのクローンは出現し、それがステージの最上部に達するまで上方に移動します。その後、クローンは消えます。
-
-このコードをいなずま（Lightning）のスプライトに追加すると、クローンがステージの端に触れるまで上に移動し、削除されます。
-
-![いなずまのスプライト](images/lightning-sprite.png)
+![rocket sprite](images/rocket-sprite.png)
 
 ```blocks3
-    クローンされたとき
-    （宇宙船）へ行く
-    表示する
-    端に触れたまで繰り返す
-        y座標を（10）ずつ変える
-    このクローンを削除する
+when flag clicked
+forever
+    if <key (space v) pressed?> then
+        create clone of (Lightning v)
+    end
+end
 ```
 
-\--- /課題 \---
+\--- /hint \---
 
-\--- 課題 \---
+\--- /hints \---
 
-いなずま（稲妻）が正しく動くかどうかテストするために、スペースキーを押してください。
+\--- /task \---
 
-\--- /課題 \---
+\--- task \---
+
+Whenever the game creates a `Lightning` sprite clone, the clone should appear and then move upwards until it reaches the top of the Stage. Then the clone should disappear.
+
+Add this code to the `Lightning` sprite so that clones of it move upwards until they touch the edge of the Stage, and then they get deleted.
+
+![lightning sprite](images/lightning-sprite.png)
+
+```blocks3
+    when I start as a clone
+    go to (Spaceship v)
+    show
+    repeat until <touching (edge v) ?>
+        change y by (10)
+    end
+    delete this clone
+```
+
+\--- /task \---
+
+\--- task \---
+
+Press the <kbd>space</kbd> key to test whether the lightning bolt moves correctly.
+
+\--- /task \---
