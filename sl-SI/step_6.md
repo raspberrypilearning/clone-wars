@@ -1,42 +1,42 @@
-## Eksplozija rakete
+## Spaceship explosion
 
-Ko se povodni konj dotakne tvoje rakete, mora ta eksplodirati!
+When a hippo touches your spaceship, the spaceship should explode!
 
 \--- task \---
 
-Izberi figuro `Raketa` in preimenuje njen videz v 'normalno'.
+Select the `Spaceship` sprite and rename its costume 'normal'.
 
 \--- /task \---
 
 \--- task \---
 
-Nariši še en videz rakete, ki eksplodira in poimenuj novi videz 'zadetek'.
+Draw another costume of an exploding spaceship, and call the new costume 'hit'.
 
-![posnetek zaslona](images/invaders-spaceship-costumes.png)
+![screenshot](images/invaders-spaceship-costumes.png)
 
-Če ne želiš narisati eksplozije, lahko izbereš videz 'sonce' iz Scratch knjižnice in potem uporabiš orodje za **barvanje likov**, da spremeniš barvo in obraz videza.
+If you don't want to draw the explosion, you can select the 'Sun' costume from the Scratch library, and then use the **Color a shape** tool to change the costume's colour and face.
 
-![posnetek zaslona](images/invaders-sun.png)
+![screenshot](images/invaders-sun.png)
 
 \--- /task \---
 
 \--- task \---
 
-Figuri tvoje `rakete` dodaj kodo, ki bo prikazala videz 'normalno', ko se igra začne in bo preklopila na videz 'zedetek', ko se dotakne povodnega konja:
+Add some code to your `Spaceship` sprite so that it displays the 'normal' costume when the game starts, and switches to the 'hit' costume when it touches a hippo:
 
-![figura rakete](images/rocket-sprite.png)
+![rocket sprite](images/rocket-sprite.png)
 
 ```blocks3
-ko kliknemo na zastavo
-zamenjaj videz na (normalno v)
-počakaj dokler ni <se dotika (povodni v)>?
-zamenjaj videz na (zadetek v)
+when flag clicked
+switch costume to (normal v)
+wait until <touching (Hippo1 v)>?
+switch costume to (hit v)
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Preizkusi svojo kodo. Z raketo trči v povodnega konja. Ali se videz rakete spremeni v 'zadetek'?
+Test your code. Make the spaceship collide with a hippo. Does the spaceship change to the 'hit' costume?
 
 \--- /task \---
