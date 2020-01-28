@@ -1,6 +1,6 @@
-## Izazov: životi i rezultat
+## Challenge: lives and score
 
-Trenutačno možete igrati igru zauvijek, ali ne računa se koliko nilskih konja je uništeno ili koliko je puta svemirski brod eksplodirao.
+At the moment, you can play the game forever, but it doesn't count how many hippos you shoot or how many times your spaceship explodes.
 
 Can you add `lives`{:class="block3variables"}, a `score`{:class="block3variables"}, or even a `highscore`{:class="block3variables"} to your game?
 
