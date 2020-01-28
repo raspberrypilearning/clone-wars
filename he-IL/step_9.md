@@ -31,7 +31,7 @@ Remember to test your code.
 
 If you look at the bat's costumes, you can see that it has four different ones:
 
-![צילום מסך](images/invaders-bat-costume.png)
+![screenshot](images/invaders-bat-costume.png)
 
 \--- task \---
 
@@ -45,7 +45,7 @@ After the bat has moved, it should show the `next costume`{:class="block3looks"}
 
 \--- /hint \---
 
-\--- hints \---
+\--- hint \---
 
 You need to add these blocks to you code:
 
