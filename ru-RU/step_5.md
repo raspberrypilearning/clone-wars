@@ -138,7 +138,7 @@
 
 \--- no-print \---
 
-![снимок экрана](images/hippo-clones.gif)
+![screenshot](images/hippo-clones.gif)
 
 \--- /no-print \---
 
