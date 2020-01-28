@@ -1,42 +1,42 @@
-## Направи свемирски брод
+## Make a spaceship
 
-Прво направи свемирски брод који може да одбрани Земљу!
+First make a spaceship that can defend the Earth!
 
 \--- task \---
 
-Отвори Скреч почетни пројекат 'Ратови клонова'.
+Open the 'Clone wars' Scratch starter project.
 
-**На мрежи:** Отвори почетни пројекат на [rpf.io/clone-wars-on](http://rpf.io/clone-wars-on){:target="_blank"}.
+**Online:** open the starter project at [rpf.io/clone-wars-on](http://rpf.io/clone-wars-on){:target="_blank"}.
 
-Ако имаш Скреч налог, можеш да направиш копију тако што ћеш кликнути на **Преради**.
+If you have a Scratch account you can make a copy by clicking **Remix**.
 
-**Ван мреже:** преузми почетни пројекат са [rpf.io/p/en/clone-wars-go](http://rpf.io/p/en/clone-wars-go){:target="_blank"}, а затим га отвори помоћу уређивача ван мреже.
+**Offline:** download the starter project from [rpf.io/p/en/clone-wars-go](http://rpf.io/p/en/clone-wars-go), and then open it using the offline editor.
 
-Ако је потребно да преузмеш и инсталираш Скреч уређивач ван мреже, можеш га пронаћи на [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
+If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
 
 \--- /task \---
 
-![почетни пројекат](images/starter-project.png)
+![starter project](images/starter-project.png)
 
 \--- task \---
 
 Add this code to the spaceship sprite to make the spaceship move left if the <kbd>left</kbd> arrow is pressed:
 
-![лик ракете](images/rocket-sprite.png)
+![rocket sprite](images/rocket-sprite.png)
 
 ```blocks3
-    када је кликнуто на ⚑
-понављај заувек 
-  ако је <key (left arrow v) pressed?> онда 
-    промени x за (-4)
-  end
-end
+    when flag clicked
+    forever
+        if <key (left arrow v) pressed?> then
+            change x by (-4)
+        end
+    end
 ```
 
 The x-axis goes from the left side of the Stage to the right side. This means that the spaceship moves to the left when you subtract from the value of the spaceship sprite's `x` position. So this code block is the part that makes your spaceship move left:
 
 ```blocks3
-промени x за (-4)
+change x by (-4)
 ```
 
 \--- /task \---
@@ -55,10 +55,10 @@ Subtracting `4` from the spaceship's `x` position made it move left, so how coul
 
 \--- hint \---
 
-Потребан ти је исти блок кода, али са другим бројем:
+You need the same code block, but with a different number:
 
 ```blocks3
-промени x за ()
+change x by ( )
 ```
 
 \--- /hint \---
@@ -67,11 +67,11 @@ Subtracting `4` from the spaceship's `x` position made it move left, so how coul
 
 Here is the code you need to add below the other code inside the `forever`{:class="block3control"} block:
 
-![лик ракете](images/rocket-sprite.png)
+![rocket sprite](images/rocket-sprite.png)
 
 ```blocks3
-ако је <key (right arrow v) pressed?> онда 
-  промени x за (4)
+if <key (right arrow v) pressed?> then
+    change x by (4)
 end
 ```
 
