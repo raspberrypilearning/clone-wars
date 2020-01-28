@@ -1,12 +1,12 @@
-## Svemirski šišmiši
+## Space-bat
 
-Da biste malo otežali svoju igru, napraviti ćete šišmiša koji baca naranče na svemirski brod.
+To make your game a bit harder, you are going to create a bat that throws oranges at the spaceship.
 
 ![a bat throwing an orange at the spaceship](images/bat-oranges.png)
 
 \--- task \---
 
-Dodajte lik `Šišmiš` i postavite njegov stil rotacije na **lijevo-desno**.
+Add a `Bat` sprite and set its rotation style to **left–right**.
 
 \--- /task \---
 
@@ -17,19 +17,19 @@ Make the `Bat` sprite `move`{:class="block3motion"} from left to right at the to
 ![bat sprite](images/bat-sprite.png)
 
 ```blocks3
-kada je kliknuta zelena zastava
-postavi veličinu na (50) %
-ponavljaj
-    idi (10) koraka
-    ako si na rubu, okreni se
-kraj
+when flag clicked
+set size to (50) %
+forever
+    move (10) steps
+    if on edge, bounce
+end
 ```
 
-Ne zaboravite testirati svoj kôd.
+Remember to test your code.
 
 \--- /task \---
 
-Ako pogledate kostime šišmiša, možete vidjeti da ima četiri različita:
+If you look at the bat's costumes, you can see that it has four different ones:
 
 ![screenshot](images/invaders-bat-costume.png)
 
@@ -37,39 +37,40 @@ Ako pogledate kostime šišmiša, možete vidjeti da ima četiri različita:
 
 Use the `next costume`{:class="block3looks"} block to make the bat flap its wings as it moves.
 
-\--- pomoć \---
+\--- hints \---
 
 \--- hint \---
 
 After the bat has moved, it should show the `next costume`{:class="block3looks"} and then `wait`{:class="block3control"} for a short time.
 
-\--- /pomoć \---
+\--- /hint \---
 
 \--- hint \---
 
-Ove blokove morate dodati u kod:
+You need to add these blocks to you code:
 
 ```blocks3
-čekaj (0.3) sekundi
-slijedeći kostim
+wait (0.3) seconds
+
+next costume
 ```
 
-\--- /pomoć \---
+\--- /hint \---
 
 \--- hint \---
 
 Your code should look like this:
 
 ```blocks3
-kada je kliknuta zelena zastava
-postavi veličinu na (50) %
-ponavljaj
-idi (10) koraka
-ako si na rubu, okreni se
+when flag clicked
+set size to (50) %
+forever
+move (10) steps
+if on edge, bounce
 
-+ slijedeći kostim
-+ čekaj (0.3) sekundi
-kraj
++ next costume
++ wait (0.3) seconds
+end
 ```
 
 \--- /hint \---
@@ -95,11 +96,11 @@ Add code to your bat so that `when the flag is clicked`{:class="block3events"}, 
 ![bat sprite](images/bat-sprite.png)
 
 ```blocks3
-kada je kliknuta zelena zastava
-ponavljaj
-    čekaj (slučajan broj od (5) do (10)) sekundi
-    kloniraj (Naranča v)
-kraj
+when flag clicked
+forever
+    wait (pick random (5) to (10)) secs
+    create clone of (Orange v)
+end
 ```
 
 \--- /task \---
@@ -111,16 +112,16 @@ Add code to the `Orange` to make each of its clone drop, starting from the `Bat`
 ![orange sprite](images/orange-sprite.png)
 
 ```blocks3
-    kada je kliknuta zelena zastava
-    sakrij
+    when flag clicked
+    hide
 
-    kada krećem kao klon
-    idi do (Šišmiš v)
-    prikaži
-    ponavljaj dok nije <dodiruje (rub v)>
-        promijeni y za (-4)
-    kraj
-    izbriši klona
+    when I start as a clone
+    go to (Bat v)
+    show
+    repeat until <touching (edge v)?
+        change y by (-4)
+    end
+    delete this clone
 ```
 
 \--- /task \---
@@ -132,8 +133,8 @@ Add some more code to the `Orange` sprite so that when an `Orange` clone hits th
 ![orange sprite](images/orange-sprite.png)
 
 ```blocks3
-    kada primim [pogodak v]
-    izbriši klona
+    when I receive [hit v]
+    delete this clone
 ```
 
 \--- /task \---
@@ -145,7 +146,7 @@ Modify the code of your `Spaceship` sprite so that the sprite is "hit" when it t
 ![rocket sprite](images/rocket-sprite.png)
 
 ```blocks3
-    čekaj do <(dodiruje (Nilski konj1 v)) ili (dodiruje (Naranča v))>
+    wait until < <touching (Hippo1 v)?> or <touching (Orange v)?>>
 ```
 
 \--- /task \---
