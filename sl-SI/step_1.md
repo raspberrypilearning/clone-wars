@@ -1,18 +1,18 @@
 \--- no-print \---
 
-To je **Scratch 3** različica projekta. Obstaja tudi [Scratch 2](https://projects.raspberrypi.org/en/projects/clone-wars-scratch2) različica projekta.
+This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/clone-wars-scratch2).
 
 \--- /no-print \---
 
-## Uvod
+## Introduction
 
-V tem projektu se boš naučil, kako ustvariti igro, v kateri moraš Zemljo rešiti pred vesoljskimi pošastmi.
+In this project you will learn how to create a game in which you have to save the Earth from space monsters.
 
-### Kaj boš ustvaril?
+### What you will make
 
 \--- no-print \---
 
-Klikni na zeleno zastavico, da zaženeš primer igre, ki se nahaja spodaj in nato pritiskaj <kbd>levo</kbd> ali <kbd>desno</kbd> smerno tipko za premikanje vesoljske ladje in tipko <kbd>presedek</kbd> za streljanje.
+Click the green flag in the example game below to start, and then press the <kbd>left</kbd> and <kbd>right</kbd> arrow keys to move the spaceship, and the <kbd>space</kbd> key to shoot.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/276887163/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -21,11 +21,11 @@ Klikni na zeleno zastavico, da zaženeš primer igre, ki se nahaja spodaj in nat
 
 \--- /no-print \---
 
-Doseži čim več točk s streljanjem letečih vesoljskih povodnih konjev. Če te kateri od povodnih konjev zadane ali če te zadane pomaranča, ki jih mečejo netopirji, izgubiš življenje.
+Score as many points as you can by shooting flying space-hippos. If you get hit by a hippo or by an orange dropped by the bats, you lose a life.
 
 \--- print-only \---
 
-![padajoče](images/showcase.png)
+![desc](images/showcase.png)
 
 \--- /print-only \---
 
@@ -33,15 +33,15 @@ Doseži čim več točk s streljanjem letečih vesoljskih povodnih konjev. Če t
 
 ## title: What you will need
 
-### Strojna oprema
+### Hardware
 
-+ Računalnik, ki lahko poganja Scratch 3
++ A computer capable of running Scratch 3
 
-### Programska oprema
+### Software
 
-+ Scratch 3 (bodisi [na spletu](https://rpf.io/scratchon) {:target = "_blank"} ali [brez povezave](https://rpf.io/scratchoff){:target = "_blank"})
++ Scratch 3 (either [online](https://rpf.io/scratchon){:target="_blank"} or [offline](https://rpf.io/scratchoff){:target="_blank"})
 
-### Prenosi
+### Downloads
 
 [Find the downloads here](http://rpf.io/p/en/clone-wars-go).
 
@@ -51,9 +51,9 @@ Doseži čim več točk s streljanjem letečih vesoljskih povodnih konjev. Če t
 
 ## title: What you will learn
 
-+ Premikati figure s pomočjo tipkovnice
-+ Podvajati figure, da ustvarjaš njihove kopije
-+ Uporabiti bloke 'objavi' in 'prejmi' za pošiljanje sporočil
++ How to make sprites move using keyboard input
++ How to clone sprites to make copies of them
++ How to use 'broadcast' and 'receive blocks' to send messages
 
 \--- /collapse \---
 
