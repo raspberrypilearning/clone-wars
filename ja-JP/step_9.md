@@ -1,74 +1,76 @@
-## 宇宙コウモリ
+## Space-bat
 
-あなたのゲームを少し難しくするために、あなたは宇宙船でオレンジを投げるコウモリを作成します。
+To make your game a bit harder, you are going to create a bat that throws oranges at the spaceship.
 
-![宇宙船にオレンジを投げるコウモリ](images/bat-oranges.png)
+![a bat throwing an orange at the spaceship](images/bat-oranges.png)
 
-\--- 課題 \---
+\--- task \---
 
-コウモリのスプライトを追加して、回転スタイルを左右のみにします。
+Add a `Bat` sprite and set its rotation style to **left–right**.
 
-\--- /課題 \---
+\--- /task \---
 
-\--- 課題 \---
+\--- task \---
 
-コウモリのスプライト は、ステージの最上部をずっと左右に動いているようにします。
+Make the `Bat` sprite `move`{:class="block3motion"} from left to right at the top of the Stage `forever`{:class="block3control"}.
 
-![コウモリのスプライト](images/bat-sprite.png)
-
-```blocks3
-緑の旗が押されたとき
-大きさを（50）％にする
-ずっと
-    （10）歩動かす
-    もし端に着いたら、跳ね返る
-```
-
-コードをテストするのを忘れないでください。
-
-\--- /課題 \---
-
-あなたがコウモリのコスチュームを見れば、あなたはそれが4つの異なるものを持っていることがわかります：
-
-![スクリーンショット](images/invaders-bat-costume.png)
-
-\--- 課題 \---
-
-「次のコスチュームにする」のブロックを使用して、コウモリが動くにつれて羽を羽ばたかせるように見せます。
-
-\--- ヒント \---
-
-\--- ヒント \---
-
-コウモリが動いた後、次のコスチュームが表示され、しばらく待つ必要があります。
-
-\--- /ヒント \---
-
-\--- ヒント \---
-
-これらのブロックをコードに追加する必要があります。
+![bat sprite](images/bat-sprite.png)
 
 ```blocks3
-0.3秒待つ
-次のコスチュームにする
-
+when flag clicked
+set size to (50) %
+forever
+    move (10) steps
+    if on edge, bounce
+end
 ```
 
-\--- /ヒント \---
+Remember to test your code.
+
+\--- /task \---
+
+If you look at the bat's costumes, you can see that it has four different ones:
+
+![screenshot](images/invaders-bat-costume.png)
+
+\--- task \---
+
+Use the `next costume`{:class="block3looks"} block to make the bat flap its wings as it moves.
+
+\--- hints \---
+
+\--- hint \---
+
+After the bat has moved, it should show the `next costume`{:class="block3looks"} and then `wait`{:class="block3control"} for a short time.
+
+\--- /hint \---
+
+\--- hint \---
+
+You need to add these blocks to you code:
+
+```blocks3
+wait (0.3) seconds
+
+next costume
+```
+
+\--- /hint \---
 
 \--- hint \---
 
 Your code should look like this:
 
 ```blocks3
-緑の旗が押されたとき
-大きさを（50）％にする
-ずっと
-（10）歩動かす
-もし端に着いたら、跳ね返る
-次のコスチュームにする
-+次の衣装
-（0.3）秒待つ
+when flag clicked
+set size to (50) %
+forever
+move (10) steps
+if on edge, bounce
+
++ next costume
++ wait (0.3) seconds
+end
 ```
 
 \--- /hint \---
@@ -94,10 +96,11 @@ Add code to your bat so that `when the flag is clicked`{:class="block3events"}, 
 ![bat sprite](images/bat-sprite.png)
 
 ```blocks3
-緑の旗が押されたとき
-ずっと
-5から10までの乱数秒待つ
-オレンジのクローンを作る
+when flag clicked
+forever
+    wait (pick random (5) to (10)) secs
+    create clone of (Orange v)
+end
 ```
 
 \--- /task \---
@@ -109,15 +112,16 @@ Add code to the `Orange` to make each of its clone drop, starting from the `Bat`
 ![orange sprite](images/orange-sprite.png)
 
 ```blocks3
-    緑の旗が押されたとき
-隠す
+    when flag clicked
+    hide
 
-クローンされたとき
-    （コウモリ）へ行く
-    表示する
-    端に触れたまで繰り返す
-    y座標を（-4）ずつ変える
-　このクローンを削除する
+    when I start as a clone
+    go to (Bat v)
+    show
+    repeat until <touching (edge v)?
+        change y by (-4)
+    end
+    delete this clone
 ```
 
 \--- /task \---
@@ -129,8 +133,8 @@ Add some more code to the `Orange` sprite so that when an `Orange` clone hits th
 ![orange sprite](images/orange-sprite.png)
 
 ```blocks3
-    「衝突した」のメッセージを受け取ったとき
-このクローンを削除する
+    when I receive [hit v]
+    delete this clone
 ```
 
 \--- /task \---
@@ -142,7 +146,7 @@ Modify the code of your `Spaceship` sprite so that the sprite is "hit" when it t
 ![rocket sprite](images/rocket-sprite.png)
 
 ```blocks3
-    カバに触れた または オレンジに触れた まで待つ
+    wait until < <touching (Hippo1 v)?> or <touching (Orange v)?>>
 ```
 
 \--- /task \---
