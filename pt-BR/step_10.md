@@ -1,6 +1,6 @@
-## Fim do jogo
+## Game over
 
-Depois, você irá adicionar uma mensagem de "Jogo encerrado" no final do jogo.
+Next, you're going to add a 'game over' message at the end of the game.
 
 \--- task \---
 
