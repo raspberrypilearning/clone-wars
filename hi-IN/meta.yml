@@ -3,35 +3,35 @@ hero_image: images/clone-wars.png
 theme: violet
 listed: true
 copyedit: true
-title: क्लोन वार्स
-description: एक गेम बनाएं जिसमें आपको पृथ्वी को अन्तरिक्ष के दैत्यों से बचाना होगा
+title: Clone wars
+description: Create a game in which you have to save the Earth from space monsters
 version: 4.1.0
 last_tested: 2018-10-11
 steps:
   - 
-    title: भूमिका
+    title: Introduction
   - 
-    title: आपको किसकी ज़रूरत होगी
+    title: Make a spaceship
   - 
-    title: स्पेसशिप बनाना
+    title: Lightning bolts
   - 
-    title: 'लाइटनिंग बोल्ट'
+    title: 'Challenge: improve the lightning'
     challenge: true
   - 
-    title: फ्लाइंग स्पेस-हिप्पोस
+    title: Space-hippos
   - 
-    title: एक्सप्लोडिंग स्पेसशिप
+    title: Spaceship explosion
   - 
-    title: गायब हो रहे हिप्पोस
+    title: Hippos that disappear
   - 
-    title: 'फ्रूट बैट'
+    title: 'Challenge: lives and score'
     challenge: true
   - 
-    title: गेम ओवर
+    title: Space-bat
   - 
-    title: 'चुनौती: अपनी गेम में सुधार करें'
+    title: Game over
   - 
-    title: 'चुनौती: अपने गेम में सुधार करें'
+    title: 'Challenge: improve your game'
     challenge: true
   - 
-    title: आगे क्या?
+    title: What next?
