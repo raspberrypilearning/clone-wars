@@ -1,37 +1,37 @@
 ---
 hero_image: images/clone-wars.png
-theme: viola
+theme: violet
 listed: true
 copyedit: true
-title: Guerre dei Cloni
-description: Crea un gioco in cui dovrai salvare la Terra dai mostri dello spazio
+title: Clone wars
+description: Create a game in which you have to save the Earth from space monsters
 version: 4.1.0
 last_tested: 2018-10-11
 steps:
   - 
-    title: Introduzione
+    title: Introduction
   - 
-    title: Creare una navicella spaziale
+    title: Make a spaceship
   - 
-    title: Fulmini
+    title: Lightning bolts
   - 
-    title: 'Sfida: migliora il fulmine'
+    title: 'Challenge: improve the lightning'
     challenge: true
   - 
-    title: Ippopotami spaziali
+    title: Space-hippos
   - 
-    title: Esplosione della nave spaziale
+    title: Spaceship explosion
   - 
-    title: Ippopotami che scompaiono
+    title: Hippos that disappear
   - 
-    title: 'Sfida: vite e punteggio'
+    title: 'Challenge: lives and score'
     challenge: true
   - 
-    title: Pipistrello dello spazio
+    title: Space-bat
   - 
-    title: Partita finita
+    title: Game over
   - 
-    title: 'Sfida: migliora il tuo gioco'
+    title: 'Challenge: improve your game'
     challenge: true
   - 
-    title: E adesso?
+    title: What next?
