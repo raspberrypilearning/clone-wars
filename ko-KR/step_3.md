@@ -1,10 +1,10 @@
-## 라이트닝 볼트
+## Lightning bolts
 
-이제 당신은 우주선에 라이트닝 볼트를 발사할 수 있는 기능을 추가할 수 있습니다!
+Now you are going to give the spaceship the ability to fire lightning bolts!
 
 \--- task \---
 
-`번개` 스프라이트를 스크래치 라이브러리에서 추가하십시오.
+Add the `Lightning` sprite from the Scratch library.
 
 [[[generic-scratch3-sprite-from-library]]]
 
@@ -12,80 +12,81 @@
 
 \--- task \---
 
-게임이 시작되면 우주선이 레이저 캐논을 발사할 때까지 `번개` 스프라이트를 숨겨두어야 합니다.
+When the game starts, the `Lightning` sprite should be hidden until the spaceship fires its laser cannons.
 
-`번개` 스프라이트에 다음 코드를 추가하십시오.
+Add this code to the `Lightning` sprite:
 
-![번개 스프라이트](images/lightning-sprite.png)
+![lightning sprite](images/lightning-sprite.png)
 
 ```blocks3
-녹색 깃발을 클릭했을 때
-숨기기
+when green flag clicked
+hide
 ```
 
 \--- /task \---
 
-번개 스프라이트의 크기가 우주선에 비해 지나치게 크군요!
+At the moment, the lightning bolt is really big compared to the spaceship!
 
 \--- task \---
 
-`번개` 스프라이트를 포함하고 있는 기존의 코드에 스프라이트를 더 작게 만들고 거꾸로 뒤집을 수 있도록 블록을 추가하세요.
+Below the code that the `Lightning` sprite already has, add some blocks to make the sprite smaller and to turn it upside down.
 
-![번개 스프라이트](images/lightning-sprite.png)
+![lightning sprite](images/lightning-sprite.png)
 
 ```blocks3
-방향을 (-90). 크기를 25%로 설정하기
+set size to (25) %
+point in direction (-90)
 ```
 
-이제 번갯불은 우주선의 뾰족한 끝부분에서 발사되는 형태를 띠게 됩니다.
+Now it looks like it fires pointy end–first out of the spaceship.
 
 \--- /task \---
 
 \--- task \---
 
-`우주선` 스프라이트에 새로운 코드를 추가하여 <kbd>space</kbd> 키를 누르면 번개 스프라이트의 사본이 나오도록 하세요.
+Add some new code to the `Spaceship` sprite to create a new clone of the lightning bolt if the <kbd>space</kbd> key is pressed.
 
 \--- hints \---
 
 \--- hint \---
 
-`녹색 깃발을 클릭했을 때`{:class="block3events"}, 계속 `무한반복`{:class="block3control"} 임을 체크한다 `만약`{:class="block3control"} `스페이스 키가 클릭된 경우`{:class="block3sensing"} `새로운 번개 클론 스프라이트를 생성`{:class="block3control"} 하도록 하세요.
+`When the green flag is clicked`{:class="block3events"}, keep checking `forever`{:class="block3control"} `if`{:class="block3control"} the `space key is pressed`{:class="block3sensing"}, and in that case `create a clone of the Lightning`{:class="block3control"} sprite.
 
 \--- /hint \---
 
 \--- hint \---
 
-필요한 코드 블록은 다음과 같습니다.
+Here are the blocks you need:
 
 ```blocks3
-만약 <> 이라면
-끝
+if <> then
+end
 
-무한 반복
-끝
+forever
+end
 
-(라이트닝 볼트 스프라이트) 복제하기
+create clone of (Lightning v)
 
 <key (space v) pressed?>
 
-녹색 깃발을 클릭하였을 때
+when flag clicked
 ```
 
 \--- /hint \---
 
 \--- hint \---
 
-다음과 같은 코드를 추가해야 합니다:
+Here is what your new code should look like:
 
-![로켓 스프라이트](images/rocket-sprite.png)
+![rocket sprite](images/rocket-sprite.png)
 
 ```blocks3
-녹색 깃발을 클릭하였을 때
-무한 반복
-    만약 <스페이스 키를 누른 상태> 라면
-        (라이트닝 볼트 스프라이트) 복제하기
-    끝
-끝
+when flag clicked
+forever
+    if <key (space v) pressed?> then
+        create clone of (Lightning v)
+    end
+end
 ```
 
 \--- /hint \---
@@ -96,26 +97,26 @@
 
 \--- task \---
 
-게임이 `라이트닝 볼트`를 생성 할 때마다 스프라이트 복제본이 등장해야 하고 스테이지의 상단에 도달할 때까지 위쪽으로 이동하도록 해야 합니다. 그런 다음 복제본이 사라지게끔 해야 합니다.
+Whenever the game creates a `Lightning` sprite clone, the clone should appear and then move upwards until it reaches the top of the Stage. Then the clone should disappear.
 
-`번개` 스프라이트에 다음 코드를 추가하여, 스테이지의 가장자리에 닿을 때까지 클론이 위로 이동한 후 삭제되도록 하세요. 
+Add this code to the `Lightning` sprite so that clones of it move upwards until they touch the edge of the Stage, and then they get deleted.
 
-![번개 스프라이트](images/lightning-sprite.png)
+![lightning sprite](images/lightning-sprite.png)
 
 ```blocks3
-    복제되었을 때
-    (Spaceship v)로 이동
-    보이기
-    <touching (edge v) ?> 까지 반복하기
-        y를 (10) 만큼 바꾸기
-    끝
-    이 복제본 삭제하기
+    when I start as a clone
+    go to (Spaceship v)
+    show
+    repeat until <touching (edge v) ?>
+        change y by (10)
+    end
+    delete this clone
 ```
 
 \--- /task \---
 
 \--- task \---
 
-<kbd>space</kbd> 키를 눌러 번개가 올바르게 움직이는지 여부를 테스트하십시오.
+Press the <kbd>space</kbd> key to test whether the lightning bolt moves correctly.
 
 \--- /task \---
