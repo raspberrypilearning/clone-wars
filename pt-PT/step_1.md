@@ -31,7 +31,7 @@ Pontua o máximo que for possível disparando contra os hipopótamos voadores. S
 
 ## \--- collapse \---
 
-## title: What you will need
+## title: O que vais precisar
 
 ### Hardware
 
@@ -43,13 +43,13 @@ Pontua o máximo que for possível disparando contra os hipopótamos voadores. S
 
 ### Downloads
 
-[Find the downloads here](http://rpf.io/p/en/clone-wars-go).
+[Encontra os ficheiros para download aqui](http://rpf.io/p/en/clone-wars-go).
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: What you will learn
+## title: O que vais aprender
 
 + Como mover os atores utilizando o teclado
 + Como clonar os atores para fazer cópias deles mesmos
@@ -59,14 +59,14 @@ Pontua o máximo que for possível disparando contra os hipopótamos voadores. S
 
 ## \--- collapse \---
 
-## title: Additional notes for educators
+## title: Notas adicionais para educadores
 
 \--- no-print \---
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/clone-wars/print){:target="_blank"}.
+Se você precisar imprimir este projeto, por favor, use a [versão para impressão](https://projects.raspberrypi.org/en/projects/clone-wars/print){: target = "_ blank"}.
 
 \--- /no-print \---
 
-You can find the [completed project here](http://rpf.io/p/en/clone-wars-get).
+Podes encontrar o [projeto concluído aqui](http://rpf.io/p/en/clone-wars-get).
 
 \--- /collapse \---
