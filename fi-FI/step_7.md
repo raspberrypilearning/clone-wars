@@ -36,7 +36,7 @@ delete this clone
 
 To check whether the new code works, click the green flag and make the spaceship collide with a hippo.
 
-![ruutukaappaus](images/invaders-hippo-collide.png)
+![screenshot](images/invaders-hippo-collide.png)
 
 \--- /task \---
 
