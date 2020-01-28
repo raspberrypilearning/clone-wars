@@ -1,4 +1,4 @@
-## Hipopótamos que desaparecem
+## Hippos that disappear
 
 When the spaceship explodes, all the hippos should disappear so that players of the game can recover.
 
