@@ -1,60 +1,63 @@
-## 消えるカバ
+## Hippos that disappear
 
-宇宙船が爆発すると、プレイヤーが回復できるようにすべてのカバが消えるようにします。
+When the spaceship explodes, all the hippos should disappear so that players of the game can recover.
 
-\--- 課題 \---
+\--- task \---
 
-宇宙船のスプライトにコードを追加します。 「コスチュームをSunにする」の下に「メッセージ１を送る」を入れます。 新しいメッセージ内容は「衝突した」とします。
+Add code to the spaceship sprite to make it `broadcast`{:class="block3events"} the message "hit" when the `spaceship touches a hippo`{:class="block3sensing"}.
 
-![ロケットスプライト](images/rocket-sprite.png)
-
-```blocks3
-緑の旗が押されたとき
-コスチュームを（通常）にする
-カバに触れたまで待つ
-コスチュームを衝突にする
-「衝突した」のメッセージを送る
-```
-
-\--- /課題 \---
-
-\--- 課題 \---
-
-カバのスプライトクローンはすべて 「衝突した」のメッセージを受け取ります、そしてこのコードをカバのスプライトに追加することで、宇宙船が衝突したときに消えるように指示することができます。
-
-![カバスプライト](images/hippo-sprite.png)
+![rocket sprite](images/rocket-sprite.png)
 
 ```blocks3
-「衝突した」のメッセージを受け取ったとき
-このクローンを削除する
+when flag clicked
+switch costume to (normal v)
+wait until <touching (Hippo1 v)>?
+switch costume to (hit v)
+
++ broadcast (hit v)
 ```
 
-\--- /課題 \---
+\--- /task \---
 
-\--- 課題 \---
+\--- task \---
 
-新しいコードが機能するかどうかを確認するには、緑色の旗を押して宇宙船をカバと衝突させます。
+All of the `Hippo` sprite clones will receive the "hit" message, and you can instruct them to disappear when the spaceship is hit by adding this code to the `Hippo` sprite:
 
-![スクリーンショット](images/invaders-hippo-collide.png)
-
-\--- /課題 \---
-
-宇宙船が爆発した後、新しいカバのクローンが現れますが、宇宙船はまだ爆発しています！宇宙船は命中後に自分自身をリセットする必要があります。
-
-\--- 課題 \---
-
-宇宙船のスプライトのコードの最後に「待つ」ブロックを追加します。 これで宇宙船は、カバが再び表示される前に、小さく一時停止します。 次に、緑の旗ブロックの下を「ずっと」ブロックで囲み、コードを繰り返し実行します。
-
-![ロケットスプライト](images/rocket-sprite.png)
+![hippo sprite](images/hippo-sprite.png)
 
 ```blocks3
-緑の旗が押されたとき
-ずっと
-コスチュームを通常にする
-カバに触れたまで待つ
-コスチュームを衝突にする
-「衝突した」を送る
-1秒待つ
+when I receive [hit v]
+delete this clone
 ```
 
-\--- /課題 \---
+\--- /task \---
+
+\--- task \---
+
+To check whether the new code works, click the green flag and make the spaceship collide with a hippo.
+
+![screenshot](images/invaders-hippo-collide.png)
+
+\--- /task \---
+
+After the spaceship explodes, new `Hippo` clones appear, but the spaceship is still exploded! The spaceship needs to reset itself after being hit.
+
+\--- task \---
+
+Add a `wait`{:class="block3control"} block at the end of the `Spaceship` sprite's code to create a small pause before hippos begin appearing again. Then add a `forever`{:class="block3control"} block around all of your code to make the code run repeatedly.
+
+![rocket sprite](images/rocket-sprite.png)
+
+```blocks3
+when flag clicked
+forever
+switch costume to (normal v)
+wait until <touching (Hippo1 v)>?
+switch costume to (hit v)
+broadcast (hit v)
+
++ wait (1) seconds
+end
+```
+
+\--- /task \---
