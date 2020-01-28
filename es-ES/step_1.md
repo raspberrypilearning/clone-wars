@@ -1,14 +1,14 @@
 \--- no-print \---
 
-Este es el ** Scratch 3 ** Versión del proyecto. También hay una versión [ Scratch 2 del proyecto. ](https://projects.raspberrypi.org/en/projects/clone-wars-scratch2).
+This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/clone-wars-scratch2).
 
 \--- /no-print \---
 
-## Introducción
+## Introduction
 
-En este proyecto aprenderás cómo crear un juego en el que debes salvar la Tierra de monstruos espaciales.
+In this project you will learn how to create a game in which you have to save the Earth from space monsters.
 
-### Lo que harás
+### What you will make
 
 \--- no-print \---
 
@@ -35,13 +35,13 @@ Score as many points as you can by shooting flying space-hippos. If you get hit 
 
 ### Hardware
 
-+ Una computadora capaz de hacer correr Scratch 3
++ A computer capable of running Scratch 3
 
 ### Software
 
-+ Scratch 3 (ya sea [online](https://rpf.io/scratchon){:target="_blank"} u [offline](https://rpf.io/scratchoff) {:target="_blank"})
++ Scratch 3 (either [online](https://rpf.io/scratchon){:target="_blank"} or [offline](https://rpf.io/scratchoff){:target="_blank"})
 
-### Descargas
+### Downloads
 
 [Find the downloads here](http://rpf.io/p/en/clone-wars-go).
 
