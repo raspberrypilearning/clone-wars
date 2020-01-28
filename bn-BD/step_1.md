@@ -1,16 +1,16 @@
-\----প্রিন্ট করা লাগবেনা --
+\--- no-print \---
 
 This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/clone-wars-scratch2).
 
-\----প্রিন্ট করা লাগবেনা --
+\--- /no-print \---
 
-## পরিচিতি
+## Introduction
 
 In this project you will learn how to create a game in which you have to save the Earth from space monsters.
 
-### যা তৈরি করতে হবে
+### What you will make
 
-\----প্রিন্ট করা লাগবেনা --
+\--- no-print \---
 
 Click the green flag in the example game below to start, and then press the <kbd>left</kbd> and <kbd>right</kbd> arrow keys to move the spaceship, and the <kbd>space</kbd> key to shoot.
 
@@ -19,25 +19,25 @@ Click the green flag in the example game below to start, and then press the <kbd
   <img src="images/showcase.png">
 </div>
 
-\----প্রিন্ট করা লাগবেনা --
+\--- /no-print \---
 
 Score as many points as you can by shooting flying space-hippos. If you get hit by a hippo or by an orange dropped by the bats, you lose a life.
 
-\---প্রিন্ট শুধুমাত্র\---
+\--- print-only \---
 
 ![desc](images/showcase.png)
 
-\---প্রিন্ট শুধুমাত্র\---
+\--- /print-only \---
 
 ## \--- collapse \---
 
 ## title: What you will need
 
-### হার্ডওয়্যার
+### Hardware
 
-+ একটি কম্পিউটার যেথানে স্ক্র্যাচ ২.০ (Scratch 3) চালানো যাবে
++ A computer capable of running Scratch 3
 
-### সফটওয়্যার
+### Software
 
 + Scratch 3 (either [online](https://rpf.io/scratchon){:target="_blank"} or [offline](https://rpf.io/scratchoff){:target="_blank"})
 
@@ -55,7 +55,7 @@ Score as many points as you can by shooting flying space-hippos. If you get hit 
 + How to clone sprites to make copies of them
 + How to use 'broadcast' and 'receive blocks' to send messages
 
--- /collapse \---
+\--- /collapse \---
 
 ## \--- collapse \---
 
