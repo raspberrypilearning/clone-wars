@@ -1,14 +1,14 @@
 \--- no-print \---
 
-Ez a projekt **Scratch 3**-as verziója. Van [Scratch 2-es változata is](https://projects.raspberrypi.org/en/projects/clone-wars-scratch2).
+This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/clone-wars-scratch2).
 
 \--- /no-print \---
 
-## Bevezetés
+## Introduction
 
 In this project you will learn how to create a game in which you have to save the Earth from space monsters.
 
-### Mit fogsz elkészíteni
+### What you will make
 
 \--- no-print \---
 
@@ -33,15 +33,15 @@ Score as many points as you can by shooting flying space-hippos. If you get hit 
 
 ## title: What you will need
 
-### Hardver
+### Hardware
 
-+ Egy, a Scratch 3 futtatására alkalmas számítógép
++ A computer capable of running Scratch 3
 
-### Szoftver
+### Software
 
-+ Scratch 3 (vagy [online](https://rpf.io/scratchon){: target = "_ blank"} vagy [offline](https://rpf.io/scratchoff){: target = "_ blank"})
++ Scratch 3 (either [online](https://rpf.io/scratchon){:target="_blank"} or [offline](https://rpf.io/scratchoff){:target="_blank"})
 
-### Letöltések
+### Downloads
 
 [Find the downloads here](http://rpf.io/p/en/clone-wars-go).
 
