@@ -59,7 +59,7 @@
 
 \--- hint \---
 
-Your code should look like this:
+Твой код должен выглядеть, как этот:
 
 ```blocks3
 когда флаг нажат
@@ -79,21 +79,21 @@ Your code should look like this:
 
 \--- /task \---
 
-Now make the bat throw oranges!
+Теперь сделай так, чтобы летучая мышь бросала апельсины!
 
 \--- task \---
 
-Add an `Orange` sprite from the Scratch library.
+Добавь спрайт `Апельсин` из библиотеки Scratch.
 
-![screenshot](images/invaders-orange.png)
+![снимок экрана](images/invaders-orange.png)
 
 \--- /task \---
 
 \--- task \---
 
-Add code to your bat so that `when the flag is clicked`{:class="block3events"}, the `Bat` sprite `forever`{:class="block3control"} `waits`{:class="block3control"} for a `random`{:class="block3operators"} length of time between `5 to 10`{:class="block3operators"} seconds and then `creates a clone`{:class="block3control"} of the `Orange` sprite.
+Добавь код к своей летучей мыши, чтобы `когда флаг нажат`{:class="block3events"}, спрайт `летучая мышь` `всегда`{:class="block3control"} `ждёт`{:class=block3control"} `случайный`{:class="block3operators"} промежуток времени `от 5 до 10`{:class="block3operators"} секунд, а затем `создает копию`{:class="block3control"} спрайта `Апельсин`.
 
-![bat sprite](images/bat-sprite.png)
+![спрайт летучей мыши](images/bat-sprite.png)
 
 ```blocks3
 когда флаг нажат
@@ -107,9 +107,9 @@ Add code to your bat so that `when the flag is clicked`{:class="block3events"}, 
 
 \--- task \---
 
-Add code to the `Orange` to make each of its clone drop, starting from the `Bat` sprite and falling towards the bottom of the Stage.
+Добавь код к спрайту `Апельсин`, чтобы каждый из его клонов падал, начиная от спрайта `летучей мыши` и до уровня нижней части Сцены.
 
-![orange sprite](images/orange-sprite.png)
+![спрайт апельсина](images/orange-sprite.png)
 
 ```blocks3
     когда флаг нажат
@@ -130,7 +130,7 @@ Add code to the `Orange` to make each of its clone drop, starting from the `Bat`
 
 Add some more code to the `Orange` sprite so that when an `Orange` clone hits the `Spaceship` sprite, the clone also disappears to give the player a chance to reset:
 
-![orange sprite](images/orange-sprite.png)
+![спрайт апельсина](images/orange-sprite.png)
 
 ```blocks3
     когда я получу [удар]
@@ -143,7 +143,7 @@ Add some more code to the `Orange` sprite so that when an `Orange` clone hits th
 
 Modify the code of your `Spaceship` sprite so that the sprite is "hit" when it touches a `Hippo` sprite or an `Orange` sprite:
 
-![rocket sprite](images/rocket-sprite.png)
+![спрайт ракета](images/rocket-sprite.png)
 
 ```blocks3
     ждать до <touching (Hippo1 v)?> или <touching (Orange v)?>
