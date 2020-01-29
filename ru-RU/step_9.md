@@ -128,7 +128,7 @@
 
 \--- task \---
 
-Add some more code to the `Orange` sprite so that when an `Orange` clone hits the `Spaceship` sprite, the clone also disappears to give the player a chance to reset:
+Добавь еще немного кода в спрайт `Апельсин` для того, чтобы когда клон `Апельсина` ударяет спрайт `Космический корабль`, клон также исчезает, чтобы дать игроку возможность начать игру снова:
 
 ![спрайт апельсина](images/orange-sprite.png)
 
@@ -141,7 +141,7 @@ Add some more code to the `Orange` sprite so that when an `Orange` clone hits th
 
 \--- task \---
 
-Modify the code of your `Spaceship` sprite so that the sprite is "hit" when it touches a `Hippo` sprite or an `Orange` sprite:
+Измени код спрайта своего `Космического корабля`, так, чтобы спрайт считался "ударившимся", когда он касается спрайта `Бегемот` или спрайта `Апельсин`:
 
 ![спрайт ракета](images/rocket-sprite.png)
 
@@ -153,6 +153,6 @@ Modify the code of your `Spaceship` sprite so that the sprite is "hit" when it t
 
 \--- task \---
 
-Test your game. What happens if the spaceship gets hit by a falling orange?
+Проверь свою игру. Что произойдет, если космический корабль столкнётся с падающим апельсином?
 
 \--- /task \---
