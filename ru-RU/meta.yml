@@ -1,0 +1,25 @@
+---
+hero_image: изображения/войны-клонов.png
+theme: violet
+listed: true
+copyedit: true
+title: Войны клонов
+description: Создай игру, в которой ты должен спасти Землю от космических монстров
+version: 4.1.0
+last_tested: 11-10-2018
+steps:
+  - title: Введение
+  - title: Сделать космический корабль
+  - title: Удар молнии
+  - title: 'Задание: улучши спрайта Молния'
+    challenge: true
+  - title: Космические бегемоты
+  - title: Взрыв космического корабля
+  - title: Исчезающие бегемоты
+  - title: 'Задание: жизни и счёт'
+    challenge: true
+  - title: Космическая летучая мышь
+  - title: Игра окончена
+  - title: 'Задание: улучши свою игру'
+    challenge: true
+  - title: Что дальше?
