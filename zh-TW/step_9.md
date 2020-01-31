@@ -59,7 +59,7 @@ end
 
 \--- hint \---
 
-Your code should look like this:
+你的程式應該會像這樣：
 
 ```blocks3
 當 @greenflag 被點擊
