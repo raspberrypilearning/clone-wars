@@ -1,49 +1,123 @@
-## Coup de tonnerre
+## Éclairs
 
-Donnons au vaisseau spatial la capacité de renvoyer des coups de tonnerre!
+Maintenant, tu vas donner au vaisseau spatial la capacité de tirer des éclairs !
 
-+ Ajoutez le lutin 'Lightning' en utilisant la bibliothèque de Scratch. Cliquez sur le lutin et tournez la foudre à l'envers.
+--- task ---
 
-	![screenshot](images/invaders-lightning.png)
+Ajouter le sprite `Lightning` à partir de la bibliothèque Scratch.
 
-+ Quand le jeu est commencé, la foudre devrait être cachée jusqu'à ce que le vaisseau spatial ne tire ses coups de canon laser.
+[[[generic-scratch3-sprite-from-library]]]
 
-	```blocks
-		quand le drapeau vert pressé
-		cacher
-	```
+--- /task ---
 
-+ Ajoutez le code suivant au vaisseau spatial pour créer un nouveau coup de foudre quand la barre d'espace est appuyée.
+--- task ---
 
+Lorsque le jeu commence, le sprite `Lightning` doit être caché jusqu'à ce que le vaisseau spatial tire ses canons laser.
 
-	```blocks
-		quand le drapeau vert pressé
-		répéter indéfiniment
-			si <touche [espace v] pressée?> alors
-      			créer un clone de [Lightning v]
-			fin
-		fin
-	```
+Ajoute ce code au sprite `Lightning`:
 
-+ Quand un nouveau clone est créé, il devrait commencer au même endroit que le vaisseau spatial et avancer ensuite sur l'étape jusqu'à ce qu'il touche le bord. Ajoutez le code suivant au lutin de foudre :
+![sprite éclair](images/lightning-sprite.png)
 
-	```blocks
-		quand je commence comme un clone
-		aller à [Spaceship v]
-		montrer
-		répéter jusqu’à <[bord v] touché?>
-   			ajouter (10) à y
-		fin
-		supprimer ce clone
-	```
+```blocks3
+Quand le drapeau vert est cliqué
+cacher
 
-À noter : Nous déplaçons le nouveau clone vers le vaisseau spatial lorsqu'il est toujours caché, avant de le montrer ainsi. Cela a l'air plus adéquat.
+```
 
-+ Testez votre foudre, en tapant la touche spatiale.
+--- /task ---
 
---- challenge ---
+Pour le moment, l'éclair est vraiment gros comparé au vaisseau spatial !
 
-## Défi : Réparation de la foudre 
-Qu'arrive-t-il si vous gardez la touche spatiale maintenue ? Pouvez vous utiliser le bloc `attendre`{:class="blockcontrol"} pour réparer cela ?
+--- task ---
 
---- /challenge ---
+Sous le code que le sprite `Lightning` a déjà, ajoute des blocs pour le réduire et le retourner.
+
+![sprite éclair](images/lightning-sprite.png)
+
+```blocks3
+mettre la taille à (25)% de la taille initiale
+s'orienter à (-90)
+```
+
+Maintenant, on dirait qu'il tire la fin pointue - d'abord hors du vaisseau spatial.
+
+--- /task ---
+
+--- task ---
+
+Ajoute un nouveau code au sprite `Spaceship` pour créer un nouveau clone de l'éclair si tu appuies sur la touche <kbd>espace</kbd>.
+
+--- hints ---
+
+--- hint ---
+
+`Lorsque le drapeau vert est cliqué`{:class="block3events"}, continue à vérifier `répéter indéfiniment`{:class="block3control"} `si`{:class="block3control"} `la touche d'espacement est enfoncée`{:class="block3sensing"}, et dans ce cas , `créer un clone du sprite de l'éclair`{:class="block3control"}.
+
+--- /hint ---
+
+--- hint ---
+
+Voici les blocs que tu as besoin :
+
+```blocks3
+si <> alors
+fin
+
+répéter indéfiniment
+fin
+
+créer un clone de (Lightning v)
+
+<key (space v) pressed?>
+
+quand le drapeau est cliqué
+```
+
+--- /hint ---
+
+--- hint ---
+
+Voici à quoi devrait ressembler ton nouveau code :
+
+![sprite de roquette](images/rocket-sprite.png)
+
+```blocks3
+quand le drapeau est cliqué
+    répéter indéfiniment
+    si <key (space v) pressed?> alors
+      créer un clone de (Lightning v)
+    fin 
+fin
+```
+
+--- /hint ---
+
+--- /hints ---
+
+--- /task ---
+
+--- task ---
+
+À chaque fois que le jeu crée un clone de sprite `Lightning`, le clone devrait apparaître et se déplacer vers le haut jusqu'à ce qu'il atteigne le sommet de la scène. Le clone devrait alors disparaître.
+
+Ajoute ce code au sprite `Lightning` pour que ses clones se déplacent vers le haut jusqu'à ce qu'ils touchent le bord de la scène, puis ils sont supprimés.
+
+![sprite éclair](images/lightning-sprite.png)
+
+```blocks3
+    quand je commence comme un clone
+    aller à (Spaceship v)
+    montrer
+    répéter jusqu'à ce que <touching (edge v) ?>
+        ajouter (10) à y
+    fin
+    supprimer ce clone
+```
+
+--- /task ---
+
+--- task ---
+
+Appuie sur la touche <kbd>espace</kbd> pour vérifier si l'éclair se déplace correctement.
+
+--- /task ---

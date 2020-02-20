@@ -1,24 +1,88 @@
-## Fabrication d'un vaisseau spatial
+## Créer un vaisseau spatial
 
-Créons un vaisseau spatial qui défendra la Terre!
+Commence par créer un vaisseau spatial capable de défendre la Terre !
 
-+ Commencez un nouveau projet Scratch et supprimez le lutin de chat pour que votre projet soit vide. Vous pouvez trouver l'éditeur de scratch en ligne à <a href="http://jumpto.cc/scratch-new">jumpto.cc/scratch-new</a>.
+--- task ---
 
-+ Ajoutez le fond 'stars' et le lutin 'Spaceship' à votre projet. Faites rétrécir le vaisseau spatial et déplacez-le près du bas de l'écran.
+Ouvre le projet de démarrage Scratch "Clone wars".
 
-	![screenshot](images/invaders-sprites.png)
+**En ligne:** ouvre le projet de démarrage à [rpf.io/clone-wars-on](http://rpf.io/clone-wars-on){:target="_blank"}.
 
-+ Ajoutez le code pour déplacer votre vaisseau spatial à gauche lorsque la touche de direction gauche est appuyée. Vous devrez utiliser ces blocs :
+Si tu as un compte Scratch, tu peux en créer une copie en cliquant sur **Remix**.
 
-	```blocks
-		quand le drapeau vert pressé
-		répéter indéfiniment
-   			si <touche [flèche gauche v] pressée?> alors
-      			ajouter (-4) à x
-   			fin
-		fin
-	```
+**Hors ligne:** télécharge le projet de démarrage à partir de [rpf.io/p/fr-FR/clone-wars-go](http://rpf.io/p/en/clone-wars-go), puis ouvre-le à l'aide de l'éditeur hors ligne.
 
-+ Ajoutez le code pour déplacer votre vaisseau spatial à droite quand la touche de direction droite est appuyée.
+Si tu dois télécharger et installer l'éditeur hors ligne Scratch, tu peux le trouver à [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
 
-+ Testez votre projet de voir si vous pouvez contrôler votre vaisseau spatial avec les touches de direction.
+--- /task ---
+
+![projet de démarrage](images/starter-project.png)
+
+--- task ---
+
+Ajoute ce code au sprite du vaisseau spatial pour le déplacer vers la gauche si tu appuies sur la flèche <kbd>gauche</kbd> :
+
+![sprite de roquette](images/rocket-sprite.png)
+
+```blocks3
+    quand le drapeau est cliqué
+    répéter indéfiniment
+        si <key (left arrow v) pressed?> alors
+            ajouter (-4) à x
+        fin
+    fin
+```
+
+L'axe des x va du côté gauche de la scène au côté droit. Cela signifie que le vaisseau spatial se déplace vers la gauche lorsque tu soustrais de la valeur de la position `x` du sprite du vaisseau spatial. Donc, ce bloc de code est la partie qui fait bouger ton vaisseau spatial vers la gauche :
+
+```blocks3
+ajouter (-4) à x
+```
+
+--- /task ---
+
+--- task ---
+
+Ajoute du code supplémentaire dans le bloc `répéter indéfiniment`{:class="block3control"} pour que ton vaisseau spatial se déplace vers la droite si tu appuies sur la touche fléchée <kbd>droite</kbd>.
+
+--- hints ---
+
+--- hint ---
+
+En soustrayant `4` de la position `x` du vaisseau spatial, il se déplaçait à gauche, alors comment pourrais-tu faire bouger le vaisseau spatial de `4` à la place ?
+
+--- /hint ---
+
+--- hint ---
+
+Tu as besoin du même bloc de code, mais avec un numéro différent :
+
+```blocks3
+ajouter ( ) à x
+```
+
+--- /hint ---
+
+--- hint ---
+
+Voici le code que tu dois ajouter sous l’autre code du bloc `répéter indéfiniment`{:class="block3control"}:
+
+![sprite de roquette](images/rocket-sprite.png)
+
+```blocks3
+si <key (right arrow v) pressed?> alors
+    ajouter (4) à x
+fin
+```
+
+--- /hint ---
+
+--- /hints ---
+
+--- /task ---
+
+--- task ---
+
+Teste ton projet en cliquant sur le drapeau vert. Peux-tu appuyer sur les touches fléchées pour faire bouger ton vaisseau spatial à gauche et à droite ?
+
+--- /task ---
