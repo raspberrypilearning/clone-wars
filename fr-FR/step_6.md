@@ -27,9 +27,9 @@ Ajoute du code à ton sprite `Spaceship` pour qu'il affiche le costume "normal" 
 ![sprite de roquette](images/rocket-sprite.png)
 
 ```blocks3
-quand le drapeau est cliqué
+quand le drapeau vert pressé
 basculer sur le costume (normal v)
-attendre jusqu'à ce que <touching (Hippo1 v)>?
+attendre jusqu'à ce que <touche le (Hippo1 v) ?>
 basculer sur le costume (hit v)
 ```
 

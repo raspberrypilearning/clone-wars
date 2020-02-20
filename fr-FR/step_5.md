@@ -25,7 +25,7 @@ Ajoute du code pour cacher le sprite `Hippo` quand le jeu commence.
 ![sprite hippopotame](images/hippo-sprite.png)
 
 ```blocks3
-Quand le drapeau vert est cliqué
+quand le drapeau vert pressé
 cacher
 
 ```
@@ -40,7 +40,7 @@ Ajoute du code sur la scène pour créer un nouveau clone `Hippo` toutes les que
 
 --- hint ---
 
-`Lorsque le drapeau vert est cliqué`{:class="block3events"}, continue à vérifier `répéter indéfiniment`{:class="block3control"} `si`{:class="block3control"} ` la touche d'espacement est enfoncée`{:class="block3sensing"}, et dans ce cas , `créer un clone du sprite Hippo`{:class="block3control"}.
+`Lorsque le drapeau vert est cliqué`{:class="block3events"}, continue à vérifier `répéter indéfiniment`{:class="block3control"} `si`{:class="block3control"} `la touche d'espacement est enfoncée`{:class="block3sensing"}, et dans ce cas , `créer un clone du sprite Hippo`{:class="block3control"}.
 
 --- /hint ---
 
@@ -50,13 +50,13 @@ Voici les blocs que tu as besoin :
 
 ```blocks3
 répéter indéfiniment
-fin
+end
 
 créer un clone de (Hippo1 v)
 
 (nombre aléatoire entre (2) et (4))
 
-quand le drapeau est cliqué
+quand le drapeau vert pressé
 
 attendre () secondes
 ```
@@ -70,7 +70,7 @@ Voici à quoi ton code devrait ressembler :
 ![sprite Scène](images/stage-sprite.png)
 
 ```blocks3
-quand le drapeau est cliqué
+quand le drapeau vert pressé
 répéter indéfiniment
    attendre (nombre aléatoire entre (2) et (4)) secondes
    créer un clone de (Hippo1 v)
@@ -123,11 +123,11 @@ Pour le moment, les hippopotames ne bougent pas.
 Chaque hippopotame doit se déplacer de manière aléatoire jusqu’à ce qu’il soit frappé par un éclair. Pour ce faire, attache ce code sous les blocs déjà présents dans le script de code du sprite `Hippo` :
 
 ```blocks3
-répéter jusqu'à ce que <touching (lightning v) ?>
-    avancer de (vitesse :: variables) pas
-    tourner à droite de (nombre aléatoire entre (-10) et (10)) degrés
-    rebondir si le bord est atteint
-fin
+répéter jusqu'à ce que <touche le (lightning v) ?> 
+  avancer de (vitesse :: variables) pas
+  tourner droite de (nombre aléatoire entre (-10) et (10)) degrés
+  rebondir si le bord est atteint
+end
 supprimer ce clone
 ```
 

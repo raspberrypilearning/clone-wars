@@ -9,11 +9,10 @@ Ajoute du code au sprite du vaisseau spatial pour `diffuser`{:class="block3event
 ![sprite de roquette](images/rocket-sprite.png)
 
 ```blocks3
-quand le drapeau est cliqué
+quand le drapeau vert pressé
 basculer sur le costume (normal v)
-attendre jusqu'à ce que <touching (Hippo1 v)>?
+attendre jusqu'à ce que <touche le (Hippo1 v) ?>
 basculer sur le costume (hit v)
-
 + envoyer à tous (hit v)
 ```
 
@@ -49,15 +48,14 @@ Ajoute un bloc `attendre`{:class="block3control"} à la fin du code du sprite `S
 ![sprite de roquette](images/rocket-sprite.png)
 
 ```blocks3
-quand le drapeau est cliqué
-répéter indéfiniment
-basculer sur le costume (normal v)
-attendre jusqu'à ce que <touching (Hippo1 v)>?
-basculer sur le costume (hit v)
-envoyer à tous (hit v)
-
-+ attendre (1) secondes
-fin
+quand le drapeau vert pressé
+répéter indéfiniment 
+  basculer sur le costume (normal v)
+  attendre jusqu'à ce que <touche le (Hippo1 v) ?>
+  basculer sur le costume (hit v)
+  envoyer à tous (hit v)
+  + attendre (1) secondes
+end
 ```
 
 --- /task ---

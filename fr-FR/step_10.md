@@ -37,14 +37,14 @@ Ajoutez ce code à ton sprite `Game Over` pour qu’il apparaisse à la fin du j
 ![sprite de gameover](images/gameover-sprite.png)
 
 ```blocks3
-quand le drapeau est cliqué
+quand le drapeau vert pressé
 cacher
 
 quand je reçois [game over v]
 montrer
 ```
 
-Parce que tu as utilisé un bloc `envoyer à tous (game over) et attendre` {:class="blockevents"} sur ta scène, le sprite `Game Over` attendra après avoir été affiché, avant de terminer le jeu.
+Parce que tu as utilisé un bloc `envoyer à tous (game over) et attendre`{:class="blockevents"} sur ta scène, le sprite `Game Over` attendra après avoir été affiché, avant de terminer le jeu.
 
 --- /task ---
 

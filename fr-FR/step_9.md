@@ -17,12 +17,12 @@ Fais `bouger`{:class="block3motion"} le sprite `Bat` de gauche à droite en haut
 ![sprite de chauve-souris](images/bat-sprite.png)
 
 ```blocks3
-quand le drapeau est cliqué
+quand le drapeau vert pressé
 mettre la taille à (50) % de la taille initiale
-répéter indéfiniment
-    avancer de (10) pas
-    rebondir si le bord est atteint
-fin
+répéter indéfiniment 
+  avancer de (10) pas
+  rebondir si le bord est atteint
+end
 ```
 
 N'oublie pas de tester ton code.
@@ -62,7 +62,7 @@ costume suivant
 Ton code devrait ressembler à ceci:
 
 ```blocks3
-quand le drapeau est cliqué
+quand le drapeau vert pressé
 mettre la taille à (50) % de la taille initiale
 répéter indéfiniment
 avancer de (10) pas
@@ -91,12 +91,12 @@ Ajouter un sprite `Orange` à partir de la bibliothèque Scratch.
 
 --- task ---
 
-Ajoute du code à ta chauve-souris pour que `quand le drapeau est cliqué` {:class="block3events"}, le sprite de la `chauve-souris` `attend` {:class="block3control"} `indéfiniment` {:class="block3control"} pour une `durée aléatoire` {:class="block3operators"} entre `5 et 10` {:class="block3operators"} secondes puis `crée un clone` {:class="block3control"} du sprite de l'`orange`.
+Ajoute du code à ta chauve-souris pour que `quand le drapeau est cliqué`{:class="block3events"}, le sprite de la `chauve-souris` `attend`{:class="block3control"} `indéfiniment`{:class="block3control"} pour une `durée aléatoire`{:class="block3operators"} entre `5 et 10`{:class="block3operators"} secondes puis `crée un clone`{:class="block3control"} du sprite de l'`orange`.
 
 ![sprite de chauve-souris](images/bat-sprite.png)
 
 ```blocks3
-quand le drapeau est cliqué
+quand le drapeau vert pressé
 répéter indéfiniment
    attendre (nombre aléatoire entre (5) et (10)) secondes
    créer un clone de (Orange v)
@@ -112,13 +112,13 @@ Ajoute du code au sprite `orange` pour faire tomber chacun de ses clones, à par
 ![sprite d´orange](images/orange-sprite.png)
 
 ```blocks3
-    quand le drapeau est cliqué
+    quand le drapeau vert pressé
     cacher
 
     quand je commence comme un clone
     aller à (Bat v)
     montrer
-    répéter jusqu'à ce que <toucher (bord v)?
+    répéter jusqu'à ce que <touche le (bord v) ?>
         ajouter (-4) à y
     fin
     supprimer ce clone
@@ -146,7 +146,7 @@ Modifie le code de ton sprite `vaisseau spatial` afin que le sprite soit « to
 ![sprite de roquette](images/rocket-sprite.png)
 
 ```blocks3
-    attendre jusqu'à ce que < <touching (Hippo1 v)?> ou <touching (Orange v)?>>
+    attendre jusqu'à ce que <<touche le (Hippo1 v) ?> ou <touche le (Orange v) ?>>
 ```
 
 --- /task ---
