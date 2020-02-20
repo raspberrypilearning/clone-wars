@@ -59,7 +59,7 @@ costume suivant
 
 \--- hint \---
 
-Your code should look like this:
+Ton code devrait ressembler à ceci:
 
 ```blocks3
 quand le drapeau est cliqué
