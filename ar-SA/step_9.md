@@ -59,7 +59,7 @@ end
 
 \--- hint \---
 
-Your code should look like this:
+يجب أن تبدو التعليمات البرمجية خاصتك بالشكل التالي:
 
 ```blocks3
 عند نقر ⚑
