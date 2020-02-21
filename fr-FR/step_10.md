@@ -4,7 +4,7 @@ Ensuite, tu va rajouter un message 'fin de la partie' à la fin du jeu.
 
 \--- task \---
 
-Si tu ne l'as pas déjà fait, crée une nouvelle variable appelée `vies`{:class="block3variables"}.
+Si tu ne l'a pas déjà fait, crée une nouvelle variable appelée `vies`{:class="block3variables"}.
 
 Ton vaisseau spatial devrait commencer avec trois vies et perdre une vie à chaque fois qu’il touche un hippopotame ou une orange. Ton jeu devrait s'arrêter lorsque les `vies`{:class="block3variables"} sont épuisées.
 
