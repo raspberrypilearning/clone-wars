@@ -1,0 +1,25 @@
+---
+hero_image: images/clone-wars.png
+theme: violet
+listed: true
+copyedit: true
+title: クローンウォーズ
+description: あなたが宇宙のモンスターから地球を救わなければならないゲームを作りなさい
+version: 4.1.0
+last_tested: 2018-10-11
+steps:
+  - title: 前書き
+  - title: スペースシップ（宇宙船）を作りましょう
+  - title: 稲妻
+  - title: '課題：雷を改善する'
+    challenge: true
+  - title: 宇宙カバ
+  - title: 宇宙船爆発
+  - title: 消えるカバ
+  - title: 'チャレンジ：ライフと点数'
+    challenge: true
+  - title: 宇宙コウモリ
+  - title: ゲームオーバー
+  - title: 'チャレンジ：ゲームをより良くする'
+    challenge: true
+  - title: 次は何をしますか？
