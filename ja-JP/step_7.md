@@ -1,62 +1,61 @@
-## Hippos that disappear
+## 消えるカバ
 
-When the spaceship explodes, all the hippos should disappear so that players of the game can recover.
+宇宙船が爆発すると、プレイヤーが回復できるようにすべてのカバが消えるようにします。
 
 \--- task \---
 
-Add code to the spaceship sprite to make it `broadcast`{:class="block3events"} the message "hit" when the `spaceship touches a hippo`{:class="block3sensing"}.
+宇宙船のスプライトにコードを追加します。 `コスチュームをSunにする`{:class="block3sending"}の下に`メッセージ１を送る`{:class-"block3events"}を入れます。 新しいメッセージ内容は「衝突した」とします。
 
-![rocket sprite](images/rocket-sprite.png)
+![ロケットスプライト](images/rocket-sprite.png)
 
 ```blocks3
-when flag clicked
-switch costume to (normal v)
-wait until <touching (Hippo1 v)>?
-switch costume to (hit v)
+⚑ が押されたとき
+コスチュームを (通常 v) にする
+<touching (Hippo1 v)> まで待つ
+コスチュームを (衝突 v) にする
 
-+ broadcast (hit v)
++ (衝突した v) を送る
 ```
 
 \--- /task \---
 
 \--- task \---
 
-All of the `Hippo` sprite clones will receive the "hit" message, and you can instruct them to disappear when the spaceship is hit by adding this code to the `Hippo` sprite:
+`カバ`のスプライトクローンはすべて 「衝突した」のメッセージを受け取ります、そしてこのコードを`カバ`のスプライトに追加することで、宇宙船が衝突したときに消えるように指示することができます。
 
-![hippo sprite](images/hippo-sprite.png)
+![カバスプライト](images/hippo-sprite.png)
 
 ```blocks3
-when I receive [hit v]
-delete this clone
+[衝突した v] を受け取ったとき
+このクローンを削除する
 ```
 
 \--- /task \---
 
 \--- task \---
 
-To check whether the new code works, click the green flag and make the spaceship collide with a hippo.
+新しいコードが機能するかどうかを確認するには、緑色の旗を押して宇宙船をカバと衝突させます。
 
-![screenshot](images/invaders-hippo-collide.png)
+![スクリーンショット](images/invaders-hippo-collide.png)
 
 \--- /task \---
 
-After the spaceship explodes, new `Hippo` clones appear, but the spaceship is still exploded! The spaceship needs to reset itself after being hit.
+宇宙船が爆発した後、新しい`カバ`のクローンが現れますが、宇宙船はまだ爆発しています！宇宙船は命中後に自分自身をリセットする必要があります。
 
 \--- task \---
 
-Add a `wait`{:class="block3control"} block at the end of the `Spaceship` sprite's code to create a small pause before hippos begin appearing again. Then add a `forever`{:class="block3control"} block around all of your code to make the code run repeatedly.
+宇宙船のスプライトのコードの最後に`待つ`{:class="block3control"}ブロックを追加します。 これで`宇宙船`は、カバが再び表示される前に、小さく一時停止します。 次に、緑の旗ブロックの下を`ずっと`{:class="block3control"}ブロックで囲み、コードを繰り返し実行します。
 
-![rocket sprite](images/rocket-sprite.png)
+![ロケットスプライト](images/rocket-sprite.png)
 
 ```blocks3
-when flag clicked
-forever
-switch costume to (normal v)
-wait until <touching (Hippo1 v)>?
-switch costume to (hit v)
-broadcast (hit v)
-
-+ wait (1) seconds
+⚑ が押されたとき
+ずっと 
+ コスチュームを (通常 v) にする
+ <touching (Hippo1 v)> まで待つ
+ コスチュームを (衝突 v) にする
+ (衝突した v) を送る
+ + (1) 秒待つ
 end
 ```
 
