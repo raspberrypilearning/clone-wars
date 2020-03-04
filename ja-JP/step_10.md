@@ -1,55 +1,55 @@
-## Game over
+## ゲームオーバー
 
-Next, you're going to add a 'game over' message at the end of the game.
+次に、ゲーム終了時に「ゲームオーバー」のメッセージを追加します。
 
 \--- task \---
 
-If you haven't already, create a new variable called `lives`{:class="block3variables"}.
+まだ行っていない場合は、 `ライフ`{:class="block3variables"}という新しい変数を作成します。
 
-Your spaceship should start with three lives and lose a life whenever it touches a hippo or an orange. Your game should stop when the `lives`{:class="block3variables"} run out.
+あなたの宇宙船は3つの`ライフ`{:class="block3variables"}から始まり、カバやオレンジに触れるたびに命を落とします。 ３つのライフを使い切ってしまうと、ゲームは停止します。
 
 \--- /task \---
 
 \--- task \---
 
-Draw a new sprite called `Game Over` using the **text** tool.
+`テキスト`ツールを使って**ゲームオーバー！**という新しいスプライトを作りましょう。
 
-![screenshot](images/invaders-game-over.png)
+![スクリーンショット](images/invaders-game-over.png)
 
 \--- /task \---
 
 \--- task \---
 
-On the Stage, broadcast a `game over`{:class="block3events"} message just before the game ends.
+ゲームが終了する前に、`ゲームオーバー`{:class="blockevents"}のメッセージをステージに送りましょう。
 
-![gameover sprite](images/stage-sprite.png)
+![「ゲームオーバー」のスプライト](images/stage-sprite.png)
 
 ```blocks3
-broadcast (game over v) and wait
+「ゲームオーバー」を送って待つ
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Add this code to your `Game Over` sprite so that it shows at the end of the game:
+ゲーム終了時に表示されるように、このコードを`ゲームオーバー`のスプライトに追加します。
 
-![gameover sprite](images/gameover-sprite.png)
+![「ゲームオーバー」のスプライト](images/gameover-sprite.png)
 
 ```blocks3
-when flag clicked
-hide
+緑の旗がクリックされたとき
+隠す
 
-when I receive [game over v]
-show
+「ゲームオーバー 」を受け取ったとき
+表示する
 ```
 
-Because you've used a `broadcast (game over) and wait`{:class="block3events"} block on your Stage, the Stage will wait for the `Game Over` sprite to be displayed before ending the game.
+`ゲームオーバーを送って待つ`{:class="block3events"}ブロックを使ったので、ステージは`ゲームオーバー`スプライトが表示されるのを待ってからゲームを終了します。
 
 \--- /task \---
 
 \--- task \---
 
-Test your game. How many points can you score? If the game is too easy or too hard, can you think of ways to improve it?
+ゲームをテストしてください。何ポイント獲得できますか？ゲームが簡単すぎる、または難しすぎる場合、あなたはそれを改善する方法を考えることができますか？
 
 \--- /task \---
