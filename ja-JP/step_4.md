@@ -1,3 +1,3 @@
-## Challenge: improve the lightning
+## 課題：いなずまを改善する
 
-What happens if you hold down the <kbd>space</kbd> key? Can you use a `wait`{:class="block3control"} block to fix this?
+<kbd>スペース</kbd>キーを押すとどうなりますか？これを修正するために `待つ`{:class="block3control"}ブロックを使うことができますか？
