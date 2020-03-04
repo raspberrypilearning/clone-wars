@@ -1,18 +1,18 @@
 \--- no-print \---
 
-This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/clone-wars-scratch2).
+これはプロジェクトの **Scratch 3** バージョンです。[Scratch 2](https://projects.raspberrypi.org/en/projects/clone-wars-scratch2)バージョンのプロジェクトもあります。
 
 \--- /no-print \---
 
-## Introduction
+## はじめに
 
-In this project you will learn how to create a game in which you have to save the Earth from space monsters.
+このプロジェクトでは、宇宙の怪物から地球を救うゲームを作ります。
 
-### What you will make
+### 作るもの
 
 \--- no-print \---
 
-Click the green flag in the example game below to start, and then press the <kbd>left</kbd> and <kbd>right</kbd> arrow keys to move the spaceship, and the <kbd>space</kbd> key to shoot.
+下のゲーム例の緑色の旗をクリックして開始し、次に <kbd>左</kbd> と <kbd>右</kbd> 矢印キーを押して宇宙船を移動し、 <kbd>スペース</kbd> キーを押して射撃します。
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/276887163/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -21,52 +21,52 @@ Click the green flag in the example game below to start, and then press the <kbd
 
 \--- /no-print \---
 
-Score as many points as you can by shooting flying space-hippos. If you get hit by a hippo or by an orange dropped by the bats, you lose a life.
+飛んでいる宇宙カバを攻撃することによってあなたができる限り多くのポイントを獲得してください。あなたがカバやコウモリによって落とされたオレンジに打たれたら、あなたはライフを失います。
 
 \--- print-only \---
 
-![desc](images/showcase.png)
+![説明](images/showcase.png)
 
 \--- /print-only \---
 
 ## \--- collapse \---
 
-## title: What you will need
+## title: 必要なもの
 
-### Hardware
+### ハードウェア
 
-+ A computer capable of running Scratch 3
++ Scratch 3を実行できるコンピュータ
 
-### Software
+### ソフトウェア
 
-+ Scratch 3 (either [online](https://rpf.io/scratchon){:target="_blank"} or [offline](https://rpf.io/scratchoff){:target="_blank"})
++ Scratch 3 ([オンライン](https://rpf.io/scratchon){:target="_blank"}または[オフライン](https://rpf.io/scratchoff){:target="_blank"})
 
-### Downloads
+### ダウンロード
 
-[Find the downloads here](http://rpf.io/p/en/clone-wars-go).
-
-\--- /collapse \---
-
-## \--- collapse \---
-
-## title: What you will learn
-
-+ How to make sprites move using keyboard input
-+ How to clone sprites to make copies of them
-+ How to use 'broadcast' and 'receive blocks' to send messages
+[ここでダウンロードを見つけること](http://rpf.io/p/en/clone-wars-go)。
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: Additional notes for educators
+## title: あなたが学ぶこと
+
++ キーボード入力を使ってスプライトを動かす方法
++ スプライトをコピーする方法
++ メッセージを送信するための 'メッセージを送る'と 'メッセージを受け取る'の使い方
+
+\--- /collapse \---
+
+## \--- collapse \---
+
+## title: 教育者向けの追加情報
 
 \--- no-print \---
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/clone-wars/print){:target="_blank"}.
+このプロジェクトを印刷する必要がある場合は、 [印刷用バージョン](https://projects.raspberrypi.org/en/projects/clone-wars/print){:target="_ blank"}を使用してください。
 
 \--- /no-print \---
 
-You can find the [completed project here](http://rpf.io/p/en/clone-wars-get).
+完成したプロジェクトは[こちら](http://rpf.io/p/en/clone-wars-get)で見つけることができます。
 
 \--- /collapse \---
