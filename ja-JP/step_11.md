@@ -1,19 +1,19 @@
-## Challenge: improve your game
+## チャレンジ：ゲームをより良くする
 
-What improvements can you make to your game?
+ゲームをどうより良くしますか？
 
-Here are some ideas:
+以下のアイデアを参考にしてください：
 
-+ Add health packs that you can collect to gain extra lives.
++ ゲームに救急パックを追加する。救急パックを獲得すると生命が１つ増える。
 
-![screenshot](images/invaders-aid.png)
+![スクリーンショット](images/invaders-aid.png)
 
-+ Add floating rocks that your spaceship must avoid.
++ 宇宙船が避けなければならない浮遊岩を加える。
 
-![screenshot](images/invaders-rocks.png)
+![スクリーンショット](images/invaders-rocks.png)
 
-+ Make more enemies appear when your score gets to `100`.
++ プレイヤーが`100点`に達すると、敵（カバやコウモリ）の数を増やす。
 
 ```blocks3
-    wait until <(score :: variables) = [100]>
+    <(score :: variables) = [100]> まで待つ
 ```
