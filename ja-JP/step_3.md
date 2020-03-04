@@ -19,8 +19,8 @@
 ![いなずまのスプライト](images/lightning-sprite.png)
 
 ```blocks3
-⚑ が押されたとき
-隠す
+⚑ がおされたとき
+かくす
 ```
 
 --- /task ---
@@ -34,8 +34,8 @@
 ![いなずまのスプライト](images/lightning-sprite.png)
 
 ```blocks3
-大きさを (25) %にする
-(-90) 度に向ける
+おおきさを (25) %にする
+(-90) どにむける
 ```
 
 今は宇宙船から先のとがった端を発射するように見えます。
@@ -51,7 +51,7 @@
 
 --- hint ---
 
-`緑の旗が押されたとき`{:class="block3events"}、`ずっと`{:class="block3control"}`もし`{:class="block3control"}`スペースキーが押された`{:class="block3sensing"}なら、`いなずまのスプライトのクローンを作成する`{:class="block3contorl"}。
+`緑の旗が押されたとき`{:class="block3events"}、`ずっと`{:class="block3control"}`もし`{:class="block3control"}`スペースキーが押された`{:class="block3sensing"}なら、`いなずまのスプライトのクローンを作成する`{:class="block3control"}。
 
 --- /hint ---
 
@@ -66,11 +66,11 @@ end
 ずっと
 end
 
-(Lightning v) のクローンを作る
+(いなずま v) のクローンをつくる
 
-<key (space v) pressed?>
+<(スペース v) キーがおされた>
 
-⚑ が押されたとき
+⚑ がおされたとき
 ```
 
 --- /hint ---
@@ -82,10 +82,10 @@ end
 ![ロケットスプライト](images/rocket-sprite.png)
 
 ```blocks3
-⚑ が押されたとき
+⚑ がおされたとき
 ずっと 
-  もし <key (space v) pressed?> なら 
-    (いなずま v) のクローンを作る
+  もし <(スペース v) キーがおされた> なら 
+    (いなずま v) のクローンをつくる
   end
 end
 ```
@@ -105,13 +105,13 @@ end
 ![いなずまのスプライト](images/lightning-sprite.png)
 
 ```blocks3
-    クローンされたとき
-(スペースシップ v) へ行く
-表示する
-<touching (edge v) ?> まで繰り返す 
-  y座標を (10) ずつ変える
+クローンされたとき
+(宇宙船 v) へいく
+ひょうじする
+<(はし v) にふれた> までくりかえす 
+  yざひょうを (10) ずつかえる
 end
-このクローンを削除する
+このクローンをさくじょする
 ```
 
 --- /task ---
