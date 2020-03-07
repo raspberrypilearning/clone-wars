@@ -1,10 +1,10 @@
-## Make a spaceship
+## Crea una navicella spaziale
 
-First make a spaceship that can defend the Earth!
+Creiamo una navicella spaziale che difenderà la Terra!
 
 \--- task \---
 
-Open the 'Clone wars' Scratch starter project.
+Apri il progetto per principianti 'Clone wars'.
 
 **Online:** open the starter project at [rpf.io/clone-wars-on](http://rpf.io/clone-wars-on){:target="_blank"}.
 
