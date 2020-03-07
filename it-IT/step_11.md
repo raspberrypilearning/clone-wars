@@ -4,15 +4,15 @@ Quali miglioramenti puoi fare al tuo gioco?
 
 Ecco alcune idee:
 
-+ Add health packs that you can collect to gain extra lives.
++ Aggiungi qualche pacchetto salute che puoi prendere per aver maggiori vite.
 
 ![screenshot](images/invaders-aid.png)
 
-+ Add floating rocks that your spaceship must avoid.
++ Aggiungi delle rocce fluttuanti che la tua navicella dovrà evitare.
 
-![screenshot](images/invaders-rocks.png)
+![schermata](images/invaders-rocks.png)
 
-+ Make more enemies appear when your score gets to `100`.
++ Fai apparire più nemici quando raggiungi un punteggio di `100`.
 
 ```blocks3
     wait until <(score :: variables) = [100]>
