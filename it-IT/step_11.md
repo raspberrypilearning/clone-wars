@@ -1,8 +1,8 @@
-## Challenge: improve your game
+## Sfida: migliora il tuo gioco
 
-What improvements can you make to your game?
+Quali miglioramenti puoi fare al tuo gioco?
 
-Here are some ideas:
+Ecco alcune idee:
 
 + Add health packs that you can collect to gain extra lives.
 
