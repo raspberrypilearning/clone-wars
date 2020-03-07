@@ -31,7 +31,7 @@ Marque autant de points que possible en tirant sur des hippopotames volants. Tu 
 
 ## \--- collapse \---
 
-## title: Ce que tu auras besoin
+## title: Ce qu'il faut avoir
 
 ### Matériel informatique
 
