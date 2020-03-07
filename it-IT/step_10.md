@@ -25,31 +25,31 @@ Sullo schermo, fai apparire un broadcast con `game over`{:class="block3events"} 
 ![sprite gameover](images/stage-sprite.png)
 
 ```blocks3
-broadcast (game over v) and wait
+trasmetti (game over v) e aspetta
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Add this code to your `Game Over` sprite so that it shows at the end of the game:
+Aggiungi questo codice al tuo sprite `Game Over` così che lo faccia apparire alla fine del gioco:
 
-![gameover sprite](images/gameover-sprite.png)
+![sprite gameover](images/gameover-sprite.png)
 
 ```blocks3
-when flag clicked
-hide
+quando si fa clic sulla bandiera verde
+nascondere
 
-when I receive [game over v]
-show
+quando ricevo [game over v]
+mostrare
 ```
 
-Because you've used a `broadcast (game over) and wait`{:class="block3events"} block on your Stage, the Stage will wait for the `Game Over` sprite to be displayed before ending the game.
+Visto che hai usato un blocco `trasmettere(game over) e aspettare`{:class="block3events"} nel tuo scenario, lo scenario aspetterà lo sprite `Game Over` per essere mostrato prima della fine del gioco.
 
 \--- /task \---
 
 \--- task \---
 
-Test your game. How many points can you score? If the game is too easy or too hard, can you think of ways to improve it?
+Prova il tuo gioco. Quanti puinti puoi fare? Se il gioco è troppo facile o troppo difficile, puoi trovare qualche modo per migliorarlo?
 
 \--- /task \---
