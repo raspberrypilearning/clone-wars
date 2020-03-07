@@ -6,72 +6,72 @@ Creiamo una navicella spaziale che difenderà la Terra!
 
 Apri il progetto per principianti 'Clone wars'.
 
-**Online:** open the starter project at [rpf.io/clone-wars-on](http://rpf.io/clone-wars-on){:target="_blank"}.
+**Online:** apri il progetto iniziale su [rpf.io/clone-wars-on](http://rpf.io/clone-wars-on){:target="_blank"}.
 
-If you have a Scratch account you can make a copy by clicking **Remix**.
+Se hai un account su Scratch, puoi farne una copia cliccando su **Remix**.
 
-**Offline:** download the starter project from [rpf.io/p/en/clone-wars-go](http://rpf.io/p/en/clone-wars-go), and then open it using the offline editor.
+**Offline:** scarica il progetto per principianti da [rpf.io/p/en/clone-wars-go](http://rpf.io/p/en/clone-wars-go), e poi aprilo con l'editor offline.
 
-If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
+Se hai bisogno di scaricare ed installare l'editor Scratch offline, puoi trovarlo su [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
 
 \--- /task \---
 
-![starter project](images/starter-project.png)
+![progetto per principianti](images/starter-project.png)
 
 \--- task \---
 
-Add this code to the spaceship sprite to make the spaceship move left if the <kbd>left</kbd> arrow is pressed:
+Aggiuhngi questo codice allo sprite della navicella per far si che si muova verso sinistra quando la freccetta <kbd>sinistra</kbd> viene premuta:
 
-![rocket sprite](images/rocket-sprite.png)
+![sprite razzo](images/rocket-sprite.png)
 
 ```blocks3
-    when flag clicked
-    forever
-        if <key (left arrow v) pressed?> then
-            change x by (-4)
+    quando si clicca sulla bandiera
+    per sempre
+        se <key (left arrow v) pressed?> allora
+            cambiare x a (-4)
         end
     end
 ```
 
-The x-axis goes from the left side of the Stage to the right side. This means that the spaceship moves to the left when you subtract from the value of the spaceship sprite's `x` position. So this code block is the part that makes your spaceship move left:
+L'asse x va da sinistra verso destra nella scena. Questo significa che la navicella si muoverà a sinistra quando si sottrarrà dal valore dello sprite della navicella il valore della posizione `x`. Quindi questo blocco di codice è la parte che permetterà alla navicella di spostarsi verso sinistra:
 
 ```blocks3
-change x by (-4)
+cambiare x a (-4)
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Add some more code inside the `forever`{:class="block3control"} block to make your spaceship move to the right if the <kbd>right</kbd> arrow key is pressed.
-
-\--- hints \---
+Aggiungi ancora altro codice nel blocco `forever`{:class="block3control"} per far si che la navicella si muova a destra quando la freccetta <kbd>destra</kbd> verrà premuta.
 
 \--- hint \---
 
-Subtracting `4` from the spaceship's `x` position made it move left, so how could you make the spaceship move right by `4` instead?
+\--- hint \---
+
+Sottraendo `4` dalla posizione `x` della navicella questa si muoverà verso sinistra, invece come puoi far si che si muova a destra di `4`?
 
 \--- /hint \---
 
 \--- hint \---
 
-You need the same code block, but with a different number:
+Hai bisogno dello stesso blocco di codice, solo che dovrai cambiare numero:
 
 ```blocks3
-change x by ( )
+cambia x a ( )
 ```
 
 \--- /hint \---
 
 \--- hint \---
 
-Here is the code you need to add below the other code inside the `forever`{:class="block3control"} block:
+Qui c'è il codice che dovrai inserire sotto l'altro codice nel blocco `sempre`{:class="block3control"}:
 
-![rocket sprite](images/rocket-sprite.png)
+![sprite razzo](images/rocket-sprite.png)
 
 ```blocks3
-if <key (right arrow v) pressed?> then
-    change x by (4)
+se <key (right arrow v) pressed?> allora
+    cambia x a (4)
 end
 ```
 
@@ -83,6 +83,6 @@ end
 
 \--- task \---
 
-Test your project by clicking the green flag. Can you press the arrow keys to make your spaceship move left and right?
+Prova il tuo progetto facendo clic sulla bandierina verde. Riesci a muovere la navicella prememndo le frecce a sinistra e a destra?
 
 \--- /task \---
