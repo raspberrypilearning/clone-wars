@@ -50,13 +50,13 @@ Aggiungi un po' di codice nuovo allo sprite dell'`Astronave` per creare un nuovo
 
 \--- hint \---
 
-`When the green flag is clicked`{:class="block3events"}, keep checking `forever`{:class="block3control"} `if`{:class="block3control"} the `space key is pressed`{:class="block3sensing"}, and in that case `create a clone of the Lightning`{:class="block3control"} sprite.
+`Quando si fa clic sulla bandiera verde`{:class="block3events"}, continua a guardare `per sempre`{:class="block3control"} `se`{:class="block3control"} la `barra spaziatrice viene premuta`{:class="block3sensing"}, ed in quel caso `crea un clone dello sprite Fulmine`{:class="block3control"}.
 
 \--- /hint \---
 
 \--- hint \---
 
-Here are the blocks you need:
+Qui ci sono i blocchi di codice che ti serviranno:
 
 ```blocks3
 if <> then
