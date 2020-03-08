@@ -1,10 +1,10 @@
-## Lightning bolts
+## Fulmini
 
-Now you are going to give the spaceship the ability to fire lightning bolts!
+Ora permetterai all'astronave di sparare fulmini!
 
 \--- task \---
 
-Add the `Lightning` sprite from the Scratch library.
+Aggiungere lo sprite `Fulmine` dalla raccolta Scratch.
 
 [[[generic-scratch3-sprite-from-library]]]
 
@@ -12,41 +12,41 @@ Add the `Lightning` sprite from the Scratch library.
 
 \--- task \---
 
-When the game starts, the `Lightning` sprite should be hidden until the spaceship fires its laser cannons.
+All'avvio del gioco, lo sprite ` Fulmine ` dovrebbe essere nascosto fino a quando l'astronave non li spara dai cannoni laser.
 
-Add this code to the `Lightning` sprite:
+Aggiungi questo codice allo sprite `Fulmine`:
 
-![lightning sprite](images/lightning-sprite.png)
+![sprite fulmine](images/lightning-sprite.png)
 
 ```blocks3
-when green flag clicked
-hide
+quando si fa clic sulla bandiera verde
+nascondi
 ```
 
 \--- /task \---
 
-At the moment, the lightning bolt is really big compared to the spaceship!
+Al momento, il fulmine è davvero grande rispetto alla navicella!
 
 \--- task \---
 
-Below the code that the `Lightning` sprite already has, add some blocks to make the sprite smaller and to turn it upside down.
+Sotto il codice che lo sprite `Fulmine` ha già, aggiungi alcuni blocchi per renderlo più piccolo e per farlo anche capovolgere.
 
-![lightning sprite](images/lightning-sprite.png)
+![sprite fulmine](images/lightning-sprite.png)
 
 ```blocks3
-set size to (25) %
-point in direction (-90)
+imposta la dimensione a (25) %
+punta in direzione (-90)
 ```
 
-Now it looks like it fires pointy end–first out of the spaceship.
+Ora sembra che spari prima la punta della navicella spaziale.
 
 \--- /task \---
 
 \--- task \---
 
-Add some new code to the `Spaceship` sprite to create a new clone of the lightning bolt if the <kbd>space</kbd> key is pressed.
+Aggiungi un po' di codice nuovo allo sprite dell'`Astronave` per creare un nuovo clone del fulmine se si preme la <kbd>barra spaziatrice</kbd>.
 
-\--- hints \---
+\--- hint \---
 
 \--- hint \---
 
