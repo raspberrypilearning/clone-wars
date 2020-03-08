@@ -97,26 +97,26 @@ fine
 
 \--- task \---
 
-Whenever the game creates a `Lightning` sprite clone, the clone should appear and then move upwards until it reaches the top of the Stage. Then the clone should disappear.
+Ogni volta che il gioco crea un clone dello sprite ` Fulmine `, lo dovrebbe far apparire e quindi muovere verso l'alto fino a raggiungere la parte alta della scena. Infine il clone dovrebbe scomparire.
 
-Add this code to the `Lightning` sprite so that clones of it move upwards until they touch the edge of the Stage, and then they get deleted.
+Aggiungi questo codice allo sprite del ` Fulmine ` in modo che i suoi cloni si spostino verso l'alto fino a che non toccano il bordo della scena, e poi vengono eliminati.
 
-![lightning sprite](images/lightning-sprite.png)
+![sprite fulmine](images/lightning-sprite.png)
 
 ```blocks3
-    when I start as a clone
-    go to (Spaceship v)
-    show
-    repeat until <touching (edge v) ?>
-        change y by (10)
-    end
-    delete this clone
+    quando inizio come clone
+    vai a (Spaceship v)
+    mostra
+    ripeti fino a <touching (edge v) ?>
+        cambia y di (10)
+    fine
+    cancella questo clone
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Press the <kbd>space</kbd> key to test whether the lightning bolt moves correctly.
+Premi la <kbd>barra spaziatrice</kbd> per verificare se il fulmine si muove correttamente.
 
 \--- /task \---
