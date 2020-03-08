@@ -59,26 +59,26 @@ Aggiungi un po' di codice nuovo allo sprite dell'`Astronave` per creare un nuovo
 Qui ci sono i blocchi di codice che ti serviranno:
 
 ```blocks3
-if <> then
-end
+se <> allora
+fine
 
-forever
-end
+per sempre
+fine
 
-create clone of (Lightning v)
+crea il clone di (Lightning v)
 
 <key (space v) pressed?>
 
-when flag clicked
+quando si fa clic sulla bandiera
 ```
 
 \--- /hint \---
 
 \--- hint \---
 
-Here is what your new code should look like:
+Ecco come dovrebbe apparire il tuo nuovo codice:
 
-![rocket sprite](images/rocket-sprite.png)
+![sprite razzo](images/rocket-sprite.png)
 
 ```blocks3
 when flag clicked
