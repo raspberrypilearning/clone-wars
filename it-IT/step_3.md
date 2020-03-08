@@ -81,12 +81,12 @@ Ecco come dovrebbe apparire il tuo nuovo codice:
 ![sprite razzo](images/rocket-sprite.png)
 
 ```blocks3
-when flag clicked
-forever
-    if <key (space v) pressed?> then
-        create clone of (Lightning v)
-    end
-end
+quando si fa clic sulla bandiera
+per sempre
+    se <key (space v) pressed?> allora
+        crea clone di (Lightning v)
+    fine
+fine
 ```
 
 \--- /hint \---
