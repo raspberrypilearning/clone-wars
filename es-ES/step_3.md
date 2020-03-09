@@ -1,10 +1,10 @@
-## Lightning bolts
+## Relámpagos
 
-Now you are going to give the spaceship the ability to fire lightning bolts!
+¡Ahora vas a dar a la nave espacial la capacidad de disparar relámpagos!
 
 \--- task \---
 
-Add the `Lightning` sprite from the Scratch library.
+Añade el sprite `relámpago` de la biblioteca Scratch.
 
 [[[generic-scratch3-sprite-from-library]]]
 
@@ -12,64 +12,64 @@ Add the `Lightning` sprite from the Scratch library.
 
 \--- task \---
 
-When the game starts, the `Lightning` sprite should be hidden until the spaceship fires its laser cannons.
+Cuando comience el juego, el objeto `relámpago` debe ocultarse hasta que la nave espacial dispare sus cañones láser.
 
-Add this code to the `Lightning` sprite:
+Añade este código al objeto `relámpago`:
 
-![lightning sprite](images/lightning-sprite.png)
+![objeto relámpago](images/lightning-sprite.png)
 
 ```blocks3
-when green flag clicked
-hide
+al presionar la bandera verde
+ocultar
 ```
 
 \--- /task \---
 
-At the moment, the lightning bolt is really big compared to the spaceship!
+Por el momento, ¡el relámpago es realmente grande comparado con la nave espacial!
 
 \--- task \---
 
-Below the code that the `Lightning` sprite already has, add some blocks to make the sprite smaller and to turn it upside down.
+Debajo del código que ya tiene el objeto `relámpago`, añade algunos bloques para hacer el objeto más pequeño y darle la vuelta hacia abajo.
 
-![lightning sprite](images/lightning-sprite.png)
+![objeto relámpago](images/lightning-sprite.png)
 
 ```blocks3
-set size to (25) %
-point in direction (-90)
+fijar tamaño al (25) %
+apuntar en dirección (-90)
 ```
 
-Now it looks like it fires pointy end–first out of the spaceship.
+Ahora parece que sale de la nave espacial con la punta hacia afuera.
 
 \--- /task \---
 
 \--- task \---
 
-Add some new code to the `Spaceship` sprite to create a new clone of the lightning bolt if the <kbd>space</kbd> key is pressed.
+Añade código para hacer que el objeto `nave espacial` cree un nuevo clon del relámpago si se presiona la <kbd>barra espaciadora</kbd>.
 
 \--- hints \---
 
 \--- hint \---
 
-`When the green flag is clicked`{:class="block3events"}, keep checking `forever`{:class="block3control"} `if`{:class="block3control"} the `space key is pressed`{:class="block3sensing"}, and in that case `create a clone of the Lightning`{:class="block3control"} sprite.
+`Cuando se hace clic en la bandera verde`{:class="block3events"}, sigue revisando `por siempre`{:class="block3control"} `si`{:class="block3control"} `se presiona la barra espaciadora`{:class="block3sensing"} y en ese caso `crea un clon del objeto del relámpago`{:class="block3control"}.
 
 \--- /hint \---
 
 \--- hint \---
 
-Here are the blocks you need:
+Aquí están los bloques que necesitas:
 
 ```blocks3
-if <> then
+si <> entonces
 end
 
-forever
+por siempre
 end
 
-create clone of (Lightning v)
+crear clon de (relámpago v)
 
 <key (space v) pressed?>
 
-when flag clicked
+al presionar bandera verde
 ```
 
 \--- /hint \---
@@ -81,11 +81,11 @@ Here is what your new code should look like:
 ![rocket sprite](images/rocket-sprite.png)
 
 ```blocks3
-when flag clicked
-forever
-    if <key (space v) pressed?> then
-        create clone of (Lightning v)
-    end
+al presionar bandera verde
+por siempre 
+  si <key (space v) pressed?> entonces 
+    crear clon de (relámpago v)
+  end
 end
 ```
 
@@ -101,16 +101,16 @@ Whenever the game creates a `Lightning` sprite clone, the clone should appear an
 
 Add this code to the `Lightning` sprite so that clones of it move upwards until they touch the edge of the Stage, and then they get deleted.
 
-![lightning sprite](images/lightning-sprite.png)
+![objeto relámpago](images/lightning-sprite.png)
 
 ```blocks3
-    when I start as a clone
-    go to (Spaceship v)
-    show
-    repeat until <touching (edge v) ?>
-        change y by (10)
-    end
-    delete this clone
+    al comenzar como clon
+ir a (Spaceship v)
+mostrar
+repetir hasta que <touching (edge v) ?> 
+  sumar a y (10)
+end
+eliminar este clon
 ```
 
 \--- /task \---
