@@ -76,9 +76,9 @@ al presionar bandera verde
 
 \--- hint \---
 
-Here is what your new code should look like:
+Así es como debería verse tu nuevo código:
 
-![rocket sprite](images/rocket-sprite.png)
+![objeto nave espacial](images/rocket-sprite.png)
 
 ```blocks3
 al presionar bandera verde
@@ -97,9 +97,9 @@ end
 
 \--- task \---
 
-Whenever the game creates a `Lightning` sprite clone, the clone should appear and then move upwards until it reaches the top of the Stage. Then the clone should disappear.
+Cada vez que el juego cree un clon del objeto `relámpago`, el clon debería aparecer y después moverse hacia arriba hasta que alcance la parte superior del escenario. Entonces el clon debería desaparecer.
 
-Add this code to the `Lightning` sprite so that clones of it move upwards until they touch the edge of the Stage, and then they get deleted.
+Añade este código al objeto `relámpago` para que los clones del objeto se muevan hacia arriba hasta que toquen el borde del escenario y luego se eliminen.
 
 ![objeto relámpago](images/lightning-sprite.png)
 
@@ -117,6 +117,6 @@ eliminar este clon
 
 \--- task \---
 
-Press the <kbd>space</kbd> key to test whether the lightning bolt moves correctly.
+Presiona la barra <kbd>espaciadora</kbd> para probar si el relámpago mueve correctamente.
 
 \--- /task \---
