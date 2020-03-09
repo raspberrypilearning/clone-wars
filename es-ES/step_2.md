@@ -1,78 +1,78 @@
-## Make a spaceship
+## Haz una nave espacial
 
-First make a spaceship that can defend the Earth!
+¡Primero haz una nave espacial que pueda defender la Tierra!
 
 \--- task \---
 
-Open the 'Clone wars' Scratch starter project.
+Abre el proyecto inicial de Scratch 'Guerra de clones'.
 
-**Online:** open the starter project at [rpf.io/clone-wars-on](http://rpf.io/clone-wars-on){:target="_blank"}.
+**En línea:** abre el proyecto de inicio en [rpf.io/clone-wars-on](http://rpf.io/clone-wars-on){:target="_blank"}.
 
-If you have a Scratch account you can make a copy by clicking **Remix**.
+Si tienes una cuenta de Scratch puedes hacer una copia haciendo clic en **Reinventar**.
 
-**Offline:** download the starter project from [rpf.io/p/en/clone-wars-go](http://rpf.io/p/en/clone-wars-go), and then open it using the offline editor.
+**Sin conexión:** descarga el proyecto inicial desde [rpf.io/p/en/clone-wars-go](http://rpf.io/p/en/clone-wars-go), y luego ábrelo con el editor sin conexión.
 
-If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
+Si necesitas descargar e instalar el editor offline de Scratch, puedes encontrarlo en [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
 
 \--- /task \---
 
-![starter project](images/starter-project.png)
+![proyecto inicial](images/starter-project.png)
 
 \--- task \---
 
-Add this code to the spaceship sprite to make the spaceship move left if the <kbd>left</kbd> arrow is pressed:
+Añade este código al objeto de la nave espacial para hacer que la nave espacial se mueva a la izquierda si la flecha <kbd>izquierda</kbd> está presionada:
 
-![rocket sprite](images/rocket-sprite.png)
+![objeto nave espacial](images/rocket-sprite.png)
 
 ```blocks3
-    when flag clicked
-    forever
-        if <key (left arrow v) pressed?> then
-            change x by (-4)
-        end
-    end
+    al presionar bandera verde
+por siempre 
+  si <key (left arrow v) pressed?> entonces 
+    sumar a x (-4)
+  end
+end
 ```
 
-The x-axis goes from the left side of the Stage to the right side. This means that the spaceship moves to the left when you subtract from the value of the spaceship sprite's `x` position. So this code block is the part that makes your spaceship move left:
+El eje x va desde el lado izquierdo del escenario hasta el lado derecho. Esto significa que la nave espacial se mueve hacia la izquierda cuando resta del valor de la posición `x` del objeto de la nave espacial. Este código es la parte que hace que tu nave espacial se mueva hacia la izquierda:
 
 ```blocks3
-change x by (-4)
+cambia x por (-4)
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Add some more code inside the `forever`{:class="block3control"} block to make your spaceship move to the right if the <kbd>right</kbd> arrow key is pressed.
+Añade un poco más de código dentro del bloque `por siempre`{:class="block3control"} para hacer que tu nave espacial se mueva hacia la derecha cuando se presiona la tecla de dirección <kbd>derecha</kbd>.
 
 \--- hints \---
 
 \--- hint \---
 
-Subtracting `4` from the spaceship's `x` position made it move left, so how could you make the spaceship move right by `4` instead?
+Restando `4` de la posición `x` de la nave espacial hizo que se moviera hacia la izquierda, así que ¿cómo puedes hacer que la nave espacial se mueva hacia la derecha `4` en su lugar?
 
 \--- /hint \---
 
 \--- hint \---
 
-You need the same code block, but with a different number:
+Necesitas el mismo bloque de código, pero con un número diferente:
 
 ```blocks3
-change x by ( )
+cambia x por ( )
 ```
 
 \--- /hint \---
 
 \--- hint \---
 
-Here is the code you need to add below the other code inside the `forever`{:class="block3control"} block:
+Aquí está el código que debes añadir debajo el otro código dentro de tu bloque `por siempre`{:class="block3control"}:
 
-![rocket sprite](images/rocket-sprite.png)
+![objeto nave espacial](images/rocket-sprite.png)
 
 ```blocks3
-if <key (right arrow v) pressed?> then
-    change x by (4)
-end
+si <key (right arrow v) pressed?> luego
+    cambia x por (4)
+final
 ```
 
 \--- /hint \---
@@ -83,6 +83,6 @@ end
 
 \--- task \---
 
-Test your project by clicking the green flag. Can you press the arrow keys to make your spaceship move left and right?
+Prueba tu proyecto haciendo clic en la bandera verde. ¿Puedes presionar las teclas de flecha para hacer que tu nave espacial se mueva a la izquierda y a la derecha?
 
 \--- /task \---
