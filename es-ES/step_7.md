@@ -44,19 +44,18 @@ Después de que la nave espacial explote, aparecen nuevos clones del `hipopótam
 
 \--- task \---
 
-Add a `wait`{:class="block3control"} block at the end of the `Spaceship` sprite's code to create a small pause before hippos begin appearing again. Then add a `forever`{:class="block3control"} block around all of your code to make the code run repeatedly.
+Añade un bloque `espera`{:class="block3control"} al final del código del objeto `nave espacial` para crear una pequeña pausa antes de que los hipopótamos comiencen a aparecer de nuevo. Luego añade un bloque `por siempre`{:class="block3control"} alrededor de todo tu código para hacer que se ejecute repetidamente.
 
-![rocket sprite](images/rocket-sprite.png)
+![objeto nave espacial](images/rocket-sprite.png)
 
 ```blocks3
-when flag clicked
-forever
-switch costume to (normal v)
-wait until <touching (Hippo1 v)>?
-switch costume to (hit v)
-broadcast (hit v)
-
-+ wait (1) seconds
+al presionar bandera verde
+por siempre 
+ cambiar disfraz a (normal v)
+ esperar hasta que <touching (Hippo1 v)>
+ cambiar disfraz a (golpeada v)
+ enviar (golpeada v)
+ + esperar (1) segundos
 end
 ```
 
