@@ -1,46 +1,46 @@
-## Hippos that disappear
+## Hipopótamos que desaparecen
 
-When the spaceship explodes, all the hippos should disappear so that players of the game can recover.
+Cuando la nave espacial explota, todos los hipopótamos deben desaparecer para que los jugadores puedan recuperarse.
 
 \--- task \---
 
-Add code to the spaceship sprite to make it `broadcast`{:class="block3events"} the message "hit" when the `spaceship touches a hippo`{:class="block3sensing"}.
+Añade código al objeto nave espacial para que `envíe`{:class="block3events"} el mensaje "golpeada" cuando la `nave espacial toque un hipopótamo`{:class="block3sensing"}.
 
-![rocket sprite](images/rocket-sprite.png)
+![objeto nave espacial](images/rocket-sprite.png)
 
 ```blocks3
-when flag clicked
-switch costume to (normal v)
-wait until <touching (Hippo1 v)>?
-switch costume to (hit v)
+al presionar bandera verde
+cambiar disfraz a (normal v)
+esperar hasta que <touching (Hippo1 v)>
+cambiar disfraz a (golpeada v)
 
-+ broadcast (hit v)
++ enviar (golpeada v)
 ```
 
 \--- /task \---
 
 \--- task \---
 
-All of the `Hippo` sprite clones will receive the "hit" message, and you can instruct them to disappear when the spaceship is hit by adding this code to the `Hippo` sprite:
+Todos los clones del objeto `hipopótamo` recibirán el mensaje "golpeada" y puedes indicarles que desaparezcan cuando chocan con la nave espacial añadiendo este código a tu objeto `hipopótamo`:
 
-![hippo sprite](images/hippo-sprite.png)
+![objeto hipopótamo](images/hippo-sprite.png)
 
 ```blocks3
-when I receive [hit v]
-delete this clone
+al recibir [golpeada v]
+eliminar este clon
 ```
 
 \--- /task \---
 
 \--- task \---
 
-To check whether the new code works, click the green flag and make the spaceship collide with a hippo.
+Para comprobar si el nuevo código funciona, haz clic en la bandera verde y haz que la nave espacial colisione con un hipopótamo.
 
-![screenshot](images/invaders-hippo-collide.png)
+![captura de pantalla](images/invaders-hippo-collide.png)
 
 \--- /task \---
 
-After the spaceship explodes, new `Hippo` clones appear, but the spaceship is still exploded! The spaceship needs to reset itself after being hit.
+Después de que la nave espacial explote, aparecen nuevos clones del `hipopótamo`, ¡pero la nave espacial aún está explotada! La nave espacial necesita reiniciarse.
 
 \--- task \---
 
