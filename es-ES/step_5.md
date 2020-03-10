@@ -1,18 +1,18 @@
-## Space-hippos
+## Hipopótamos espaciales
 
-Now you're going to add lots of flying hippos that try to destroy your spaceship.
+Ahora vas a añadir muchos hipopótamos voladores que intentan destruir tu nave espacial.
 
 \--- task \---
 
-Create a new sprite with the 'Hippo1' image in the Scratch library. Use the **shrink** tool to make the `Hippo` sprite a similar size to the `Spaceship` sprite.
+Crea un nuevo objeto con la imagen 'Hippo1' en la biblioteca de Scratch. Usa la herramienta **tamaño** para hacer que el objeto `hipopótamo` tenga un tamaño similar al de la `nave espacial`.
 
-![screenshot](images/invaders-hippo.png)
+![captura de pantalla](images/invaders-hippo.png)
 
 \--- /task \---
 
 \--- task \---
 
-Set the `Hippo` sprite's rotation style to **left-right**.
+Establece el estilo de la rotación del objeto `hipopótamo` para hacerlo **de izquierda a derecha**.
 
 [[[generic-scratch3-sprite-rotation-style]]]
 
@@ -20,59 +20,59 @@ Set the `Hippo` sprite's rotation style to **left-right**.
 
 \--- task \---
 
-Add some code to hide the `Hippo` sprite when the game starts.
+Agregue un código para ocultar el objeto `hipopótamo` cuando comienza el juego.
 
-![hippo sprite](images/hippo-sprite.png)
+![objeto hipopótamo](images/hippo-sprite.png)
 
 ```blocks3
-when green flag clicked
-hide
+al presionar la bandera verde
+ocultar
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Add some code to the Stage to create a new `Hippo` clone every few seconds.
+Añade código al escenario para crear un nuevo clon de `hipopótamo` cada pocos segundos.
 
 \--- hints \---
 
 \--- hint \---
 
-When the `green flag is clicked`{:class="block3events"}, `repeatedly`{:class="block3control"} `wait`{:class="block3control"} `between 2 and 4 seconds`{:class="block3operators"} and then `create a clone of the Hippo sprite`{:class="block3control"}.
+Cuando `se hace clic en la bandera verde`{:class="block3events"}, `repetidamente`{:class="block3control"} `esperar`{:class="block3control"} `entre 2 y 4 segundos`{:class="block3operators"} y entonces `crear un clon del objeto hipopótamo`{:class="block3control"}.
 
 \--- /hint \---
 
 \--- hint \---
 
-Here are the blocks you need:
+Aquí están los bloques que necesitas:
 
 ```blocks3
-forever
+por siempre
 end
 
-create clone of (Hippo1 v)
+crear clon de (hipopótamo v)
 
-(pick random (2) to (4))
+(número aleatorio entre (2) y (4))
 
-when flag clicked
+al presionar bandera verde
 
-wait () secs
+esperar () segundos
 ```
 
 \--- /hint \---
 
 \--- hint \---
 
-This is what your code should look like:
+Así es como debería verse tu código:
 
-![stage sprite](images/stage-sprite.png)
+![objeto escenario](images/stage-sprite.png)
 
 ```blocks3
-when flag clicked
-forever
-    wait (pick random (2) to (4)) secs
-    create clone of (Hippo1 v)
+al presionar bandera verde
+por siempre 
+  esperar (número aleatorio entre (2) y (4)) segundos
+  crear clon de (hipopótamo v)
 end
 ```
 
@@ -82,63 +82,63 @@ end
 
 \--- /task \---
 
-Each new hippo clone should appear at a random `x` position, and every clone should have a random speed.
+Cada nuevo clon del hipopótamo debe aparecer en una posición `x` aleatoria y cada clon debería tener una velocidad aleatoria.
 
 \--- task \---
 
-Create a new variable called `speed`{:class="block3variables"} that is for the `Hippo` sprite only.
+Crea una nueva variable llamada `velocidad`{:class="block3variables"} que es solo para el objeto `hipopótamo`.
 
 [[[generic-scratch3-add-variable]]]
 
-When you've done this correctly, the variable has the name of the sprite next to it, like this:
+Cuando hayas hecho esto correctamente, la variable tiene el nombre del objeto al lado, así:
 
-![screenshot](images/invaders-var-test.png)
+![captura de pantalla](images/invaders-var-test.png)
 
 \--- /task \---
 
 \--- task \---
 
-When each `Hippo` clone starts, pick a random speed and starting place for it. Then show the clone on the screen.
+Cuando cada clon del `hipopótamo` empiece, elige una velocidad y punto de partida aleatorios para él. Luego muestra el clon en la pantalla.
 
 ```blocks3
-when I start as a clone
-set [speed v] to (pick random (2) to (4))
-go to x: (pick random (-220) to (220)) y: (150)
-show
+al comenzar como clon
+dar a [velocidad v] el valor (número aleatorio entre (2) y (4))
+ir a x: (número aleatorio entre (-220) y (220)) y: (150)
+mostrar
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Test your code. Does a new hippo appear every few seconds?
+Prueba tu código. ¿Aparece un nuevo hipopótamo cada pocos segundos?
 
 \--- /task \---
 
-At the moment the hippos don't move.
+Por el momento los hipopótamos no se mueven.
 
 \--- task \---
 
-Each hippo should move around randomly until it gets hit by a lightning bolt. To make that happen, attach this code below the blocks that are already in the `Hippo` sprite's code script:
+Cada hipopótamo debe moverse al azar hasta ser alcanzado por un rayo. Para que eso suceda, añade este código debajo de los bloques que ya están en el código del objeto `hipopótamo`:
 
 ```blocks3
-repeat until <touching (lightning v) ?>
-    move (speed :: variables) steps
-    turn right (pick random (-10) to (10)) degrees
-    if on edge, bounce
-end
-delete this clone
+repetir hasta que <touching (lightning v) ?> 
+  mover (velocidad:: variables) pasos
+  girar a la derecha (número aleatorio entre (-10) y (10)) grados
+  si toca un borde, rebotar
+fin
+eliminar este clon
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Test your code again. You should see a new hippo clone appear every few seconds, and each clone should move at a different speed.
+Prueba tu código de nuevo. Deberías ver un nuevo clon de hipopótamo aparecer cada pocos segundos y cada clon debería moverse a una velocidad diferente.
 
 \--- no-print \---
 
-![screenshot](images/hippo-clones.gif)
+![captura de pantalla](images/hippo-clones.gif)
 
 \--- /no-print \---
 
@@ -146,6 +146,6 @@ Test your code again. You should see a new hippo clone appear every few seconds,
 
 \--- task \---
 
-Now test the spaceship's laser cannon. If a lightning bolt hits a hippo, does the hippo vanish?
+Ahora pruebe el cañón láser de la nave espacial. Si un rayo golpea un hipopótamo ¿desaparece el hipopótamo?
 
 \--- /task \---
