@@ -1,42 +1,42 @@
-## Spaceship explosion
+## Explosión de la nave espacial
 
-When a hippo touches your spaceship, the spaceship should explode!
+Cuando un hipopótamo toca tu nave espacial, ¡la nave espacial debe explotar!
 
 \--- task \---
 
-Select the `Spaceship` sprite and rename its costume 'normal'.
+Selecciona el objeto `nave espacial` y renombra su disfraz "normal".
 
 \--- /task \---
 
 \--- task \---
 
-Draw another costume of an exploding spaceship, and call the new costume 'hit'.
+Dibuja otro disfraz de una nave espacial explotando y llama al nuevo disfraz "golpeada".
 
-![screenshot](images/invaders-spaceship-costumes.png)
+![captura de pantalla](images/invaders-spaceship-costumes.png)
 
-If you don't want to draw the explosion, you can select the 'Sun' costume from the Scratch library, and then use the **Color a shape** tool to change the costume's colour and face.
+Si no quieres dibujar la explosión, puedes seleccionar el disfraz del 'Sol' de la biblioteca de Scratch y luego usar la herramienta **colorear una forma** para cambiar el color y la cara del disfraz.
 
-![screenshot](images/invaders-sun.png)
+![captura de pantalla](images/invaders-sun.png)
 
 \--- /task \---
 
 \--- task \---
 
-Add some code to your `Spaceship` sprite so that it displays the 'normal' costume when the game starts, and switches to the 'hit' costume when it touches a hippo:
+Añade código a tu objeto de la `nave espacial` para que muestre el disfraz "normal" cuando comience el juego y cambie al disfraz "golpeada" cuando la toque un hipopótamo:
 
-![rocket sprite](images/rocket-sprite.png)
+![objeto de un cohete](images/rocket-sprite.png)
 
 ```blocks3
-when flag clicked
-switch costume to (normal v)
-wait until <touching (Hippo1 v)>?
-switch costume to (hit v)
+al presionar bandera verde
+cambiar disfraz a (normal v)
+esperar hasta que <touching (Hippo1 v)>
+cambiar disfraz a (golpeada v)
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Test your code. Make the spaceship collide with a hippo. Does the spaceship change to the 'hit' costume?
+Prueba tu código. Haz que la nave espacial choque con un hipopótamo. ¿Cambia la nave espacial al disfraz 'hit'?
 
 \--- /task \---
