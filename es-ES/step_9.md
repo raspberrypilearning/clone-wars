@@ -1,75 +1,74 @@
-## Space-bat
+## Murciélago espacial
 
-To make your game a bit harder, you are going to create a bat that throws oranges at the spaceship.
+Para hacer tu juego un poco más difícil, vas a crear un murciélago que arroje naranjas a la nave espacial.
 
-![a bat throwing an orange at the spaceship](images/bat-oranges.png)
+![un murciélago arrojando una naranja a la nave espacial](images/bat-oranges.png)
 
 \--- task \---
 
-Add a `Bat` sprite and set its rotation style to **left–right**.
+Añade un objeto `murciélago` y establece su estilo de rotación en **izquierda-derecha**.
 
 \--- /task \---
 
 \--- task \---
 
-Make the `Bat` sprite `move`{:class="block3motion"} from left to right at the top of the Stage `forever`{:class="block3control"}.
+Haz que el objeto `murciélago` se `mueva`{:class="block3motion"} de izquierda a derecha en la parte superior del escenario `por siempre`{:class="block3control"}.
 
-![bat sprite](images/bat-sprite.png)
+![objeto murciélago](images/bat-sprite.png)
 
 ```blocks3
-when flag clicked
-set size to (50) %
-forever
-    move (10) steps
-    if on edge, bounce
+al presionar bandera verde
+fijar tamaño al (50) %
+por siempre 
+  mover (10) pasos
+  si toca un borde, rebotar
 end
 ```
 
-Remember to test your code.
+Recuerda probar tu código.
 
 \--- /task \---
 
-If you look at the bat's costumes, you can see that it has four different ones:
+Si miras los disfraces del murciélago, puedes ver que tiene cuatro diferentes:
 
-![screenshot](images/invaders-bat-costume.png)
+![captura de pantalla](images/invaders-bat-costume.png)
 
 \--- task \---
 
-Use the `next costume`{:class="block3looks"} block to make the bat flap its wings as it moves.
+Usa el bloque `siguiente disfraz`{:class="block3looks"} para hacer que el murciélago bata sus alas mientras se mueve.
 
-\--- hints \---
+\--- hints\---
 
 \--- hint \---
 
-After the bat has moved, it should show the `next costume`{:class="block3looks"} and then `wait`{:class="block3control"} for a short time.
+Después de que el murciélago se haya movido, debería mostrar el `siguiente disfraz`{:class="block3looks"} y luego `esperar`{:class="block3control"} por poco tiempo.
 
 \--- /hint \---
 
 \--- hint \---
 
-You need to add these blocks to you code:
+Tienes que añadir estos bloques a tu código:
 
 ```blocks3
-wait (0.3) seconds
+esperar (0.3) segundos
 
-next costume
+siguiente disfraz
 ```
 
 \--- /hint \---
 
 \--- hint \---
 
-Your code should look like this:
+Tu código debe parecerse a esto:
 
 ```blocks3
-when flag clicked
-set size to (50) %
-forever
-move (10) steps
-if on edge, bounce
-
-+ next costume
-+ wait (0.3) seconds
+al presionar bandera verde
+fijar tamaño al (50) %
+por siempre 
+ mover (10) pasos
+ si toca un borde, rebotar
+ + siguiente disfraz
+ + esperar (0.3) segundos
 end
 ```
 
@@ -79,27 +78,27 @@ end
 
 \--- /task \---
 
-Now make the bat throw oranges!
+¡Ahora haz que el murciélago lance naranjas!
 
 \--- task \---
 
-Add an `Orange` sprite from the Scratch library.
+Añade el objeto `murciélago` (Bat) de la biblioteca de Scratch.
 
-![screenshot](images/invaders-orange.png)
+![captura de pantalla](images/invaders-orange.png)
 
 \--- /task \---
 
 \--- task \---
 
-Add code to your bat so that `when the flag is clicked`{:class="block3events"}, the `Bat` sprite `forever`{:class="block3control"} `waits`{:class="block3control"} for a `random`{:class="block3operators"} length of time between `5 to 10`{:class="block3operators"} seconds and then `creates a clone`{:class="block3control"} of the `Orange` sprite.
+Añade código a tu murciélago para que `cuando se hace clic en la bandera`{:class="block3events"}, el objeto `murciélago` `espere`{:class="block3control"} `por siempre`{:class="block3control"} durante un período de tiempo `aleatorio`{:class="block3operators"} de `5 a 10`{:class="block3operators"} segundos y luego `crea un clon`{:class="block3control"} del objeto `naranja`.
 
-![bat sprite](images/bat-sprite.png)
+![objeto murciélago](images/bat-sprite.png)
 
 ```blocks3
-when flag clicked
-forever
-    wait (pick random (5) to (10)) secs
-    create clone of (Orange v)
+al presionar bandera verde
+por siempre 
+  esperar (número aleatorio entre (5) y (10)) segundos
+  crear clon de (Orange v)
 end
 ```
 
@@ -107,52 +106,52 @@ end
 
 \--- task \---
 
-Add code to the `Orange` to make each of its clone drop, starting from the `Bat` sprite and falling towards the bottom of the Stage.
+Añade código a la `naranja` para hacer que cada uno de sus clones caiga desde el objeto `murciélago` y cayendo hacia abajo en el escenario.
 
-![orange sprite](images/orange-sprite.png)
+![objeto de una naranja](images/orange-sprite.png)
 
 ```blocks3
-    when flag clicked
-    hide
+    al presionar bandera verde
+esconder
 
-    when I start as a clone
-    go to (Bat v)
-    show
-    repeat until <touching (edge v)?
-        change y by (-4)
-    end
-    delete this clone
+al comenzar como clon
+ir a (murciélago v)
+mostrar
+repetir hasta que <¿tocando (edge v)?
+  sumar a y (-4)
+end
+eliminar este clon
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Add some more code to the `Orange` sprite so that when an `Orange` clone hits the `Spaceship` sprite, the clone also disappears to give the player a chance to reset:
+Añade algo más de código al objeto `naranja` para que cuando un clon de la `naranja` golpee el objeto `nave espacial`, el clon también desaparezca para dar al jugador la oportunidad de reiniciar:
 
-![orange sprite](images/orange-sprite.png)
+![objeto naranja](images/orange-sprite.png)
 
 ```blocks3
-    when I receive [hit v]
-    delete this clone
+    al recibir [hit v]
+eliminar este clon
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Modify the code of your `Spaceship` sprite so that the sprite is "hit" when it touches a `Hippo` sprite or an `Orange` sprite:
+Modifica el código de tu objeto `nave espacial` para que el objeto sea "golpeado" cuando toque un objeto `hipopótamo` o un objeto `naranja`:
 
-![rocket sprite](images/rocket-sprite.png)
+![objeto nave espacial](images/rocket-sprite.png)
 
 ```blocks3
-    wait until < <touching (Hippo1 v)?> or <touching (Orange v)?>>
+    esperar hasta que <<touching (Hippo1 v)?> o <touching (Orange v)?>>
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Test your game. What happens if the spaceship gets hit by a falling orange?
+Prueba tu juego. ¿Qué pasa si una naranja que cae golpea a la nave espacial?
 
 \--- /task \---
