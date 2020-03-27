@@ -9,12 +9,12 @@ Acrescenta código ao ator da nave espacial para ele ` difundir ` {: class = "bl
 ![ator Foguetão](images/rocket-sprite.png)
 
 ```blocks3
-quando alguém clicar na bandeira verde
-muda o teu traje para (normal v)
-espera até que <estás a tocar em (Hippo1 v)>
-muda o teu traje para (hit v)
+when flag clicked
+switch costume to (normal v)
+wait until <touching (Hippo1 v)>?
+switch costume to (hit v)
 
-+ difunde a mensagem (hit v)
++ broadcast (hit v)
 ```
 
 \--- /task \---
@@ -26,8 +26,8 @@ Todos os clones do ator ` Hipopótamo ` irão receber a mensagem "atingido" e po
 ![ator hipopótamo](images/hippo-sprite.png)
 
 ```blocks3
-quando receberes a mensagem [hit v]
-remove este clone
+when I receive [hit v]
+delete this clone
 ```
 
 \--- /task \---
@@ -49,13 +49,14 @@ Adiciona um bloco ` espera ` {: class = "block3control"} no final do código do 
 ![ator foguetão](images/rocket-sprite.png)
 
 ```blocks3
-quando alguém clicar na bandeira verde
-repete para sempre 
- muda o teu traje para (normal v)
- espera até que <estás a tocar em (Hippo1 v)>
- muda o teu traje para (hit v)
- difunde a mensagem (hit v)
- + espera (1) s
+when flag clicked
+forever
+switch costume to (normal v)
+wait until <touching (Hippo1 v)>?
+switch costume to (hit v)
+broadcast (hit v)
+
++ wait (1) seconds
 end
 ```
 
