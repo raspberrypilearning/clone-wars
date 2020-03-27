@@ -27,10 +27,10 @@ Acrescenta algum código ao teu ator ` nave espacial ` para presentar o traje 'n
 ![ator Foguetão](images/rocket-sprite.png)
 
 ```blocks3
-quando alguém clicar na bandeira verde
-muda o teu traje para (normal v)
-espera até que <estás a tocar em (Hippo1 v)>
-muda o teu traje para (hit v)
+when flag clicked
+switch costume to (normal v)
+wait until <touching (Hippo1 v)>?
+switch costume to (hit v)
 ```
 
 \--- /task \---
