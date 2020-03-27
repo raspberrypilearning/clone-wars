@@ -30,7 +30,7 @@ Acrescenta algum código ao teu ator ` nave espacial ` para presentar o traje 'n
 when flag clicked
 switch costume to (normal v)
 wait until <touching (Hippo1 v)>?
-switch costume to (hit v)
+switch costume to (atingido v)
 ```
 
 \--- /task \---
