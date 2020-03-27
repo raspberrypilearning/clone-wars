@@ -133,7 +133,7 @@ Acrescenta um pouco mais de código ao ator ` Laranja ` para que quando um clone
 ![ator laranja](images/orange-sprite.png)
 
 ```blocks3
-    when I receive [hit v]
+    when I receive [atingido v]
     delete this clone
 ```
 
