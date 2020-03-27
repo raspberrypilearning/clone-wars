@@ -19,8 +19,8 @@ Adiciona este código ao ator ` Relâmpago `:
 ![ator Relâmpago](images/lightning-sprite.png)
 
 ```blocks3
-quando alguém clicar na bandeira verde
-esconde-te
+when green flag clicked
+hide
 ```
 
 \--- /task \---
@@ -34,8 +34,8 @@ Por baixo do código que o ator ` Relâmpago ` já possui, acrescenta alguns blo
 ![ator Relâmpago](images/lightning-sprite.png)
 
 ```blocks3
-altera o teu tamanho para (25) %
-altera a tua direção para (-90) °
+set size to (25) %
+point in direction (-90)
 ```
 
 Agora parece que está a ser disparado com a ponta virada para a nave espacial.
@@ -59,17 +59,17 @@ Acrescenta um novo bloco de código ao ator ` nave espacial ` para criar um novo
 Aqui estão os blocos de que necessitas:
 
 ```blocks3
-se <>, então
+if <> then
 end
 
-repete para sempre
+forever
 end
 
-cria um clone de (Lightning v)
+create clone of (Lightning v)
 
-<a tecla (space v) está a ser pressionada>
+<key (space v) pressed?>
 
-Quando alguém clicar na bandeira verde
+when flag clicked
 ```
 
 \--- /hint \---
@@ -81,11 +81,11 @@ Este é o aspeto que o teu código deve ter:
 ![ator Foguetão](images/rocket-sprite.png)
 
 ```blocks3
-quando alguém clicar na bandeira verde
-repete para sempre 
-  se <a tecla (space v) está a ser pressionada>, então 
-    cria um clone de (Lightning v)
-  end
+when flag clicked
+forever
+    if <key (space v) pressed?> then
+        create clone of (Lightning v)
+    end
 end
 ```
 
@@ -104,13 +104,13 @@ Acrescenta este código ao ator ` Relâmpago ` para que os clones se movam para 
 ![ator Relâmpago](images/lightning-sprite.png)
 
 ```blocks3
-    quando fores criado como um clone
-vai para (Spaceship v)
-mostra-te
-até que <estás a tocar em (edge v)>, repete 
-  adiciona (10) ao teu y
-end
-remove-te como clone
+    when I start as a clone
+    go to (Spaceship v)
+    show
+    repeat until <touching (edge v) ?>
+        change y by (10)
+    end
+    delete this clone
 ```
 
 \--- /task \---
