@@ -12,9 +12,9 @@ Acrescenta código ao ator da nave espacial para ele ` difundir ` {: class = "bl
 when flag clicked
 switch costume to (normal v)
 wait until <touching (Hippo1 v)>?
-switch costume to (hit v)
+switch costume to (atingido v)
 
-+ broadcast (hit v)
++ broadcast (atingido v)
 ```
 
 \--- /task \---
@@ -26,7 +26,7 @@ Todos os clones do ator ` Hipopótamo ` irão receber a mensagem "atingido" e po
 ![ator hipopótamo](images/hippo-sprite.png)
 
 ```blocks3
-when I receive [hit v]
+when I receive [atingido v]
 delete this clone
 ```
 
@@ -53,8 +53,8 @@ when flag clicked
 forever
 switch costume to (normal v)
 wait until <touching (Hippo1 v)>?
-switch costume to (hit v)
-broadcast (hit v)
+switch costume to (atingido v)
+broadcast (atingido v)
 
 + wait (1) seconds
 end
