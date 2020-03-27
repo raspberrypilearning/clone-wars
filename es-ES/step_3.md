@@ -19,8 +19,8 @@ Añade este código al objeto `relámpago`:
 ![objeto relámpago](images/lightning-sprite.png)
 
 ```blocks3
-al presionar la bandera verde
-ocultar
+when green flag clicked
+hide
 ```
 
 --- /task ---
@@ -82,11 +82,11 @@ Así es como debería verse tu nuevo código:
 ![objeto nave espacial](images/rocket-sprite.png)
 
 ```blocks3
-al presionar bandera verde
-por siempre 
-  si <key (space v) pressed?> entonces 
-    crear clon de (relámpago v)
-  end
+when flag clicked
+forever
+	if <key (space v) pressed?> then
+		create clone of (relámpago v)
+	end
 end
 ```
 
@@ -105,13 +105,13 @@ Añade este código al objeto `relámpago` para que los clones del objeto se mue
 ![objeto relámpago](images/lightning-sprite.png)
 
 ```blocks3
-    al comenzar como clon
-ir a (Spaceship v)
-mostrar
-repetir hasta que <touching (edge v) ?> 
-  sumar a y (10)
-end
-eliminar este clon
+    when I start as a clone
+	  go to (nave espacial v)
+    show
+	  repeat until <touching (edge v) ?>
+		  change y by (10)
+	  end
+	  delete this clone
 ```
 
 --- /task ---

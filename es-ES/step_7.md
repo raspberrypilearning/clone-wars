@@ -11,7 +11,7 @@ Añade código al objeto nave espacial para que `envíe`{:class="block3events"} 
 ```blocks3
 al presionar bandera verde
 cambiar disfraz a (normal v)
-esperar hasta que <touching (Hippo1 v)>
+esperar hasta que <touching (hipopótamo v)>
 cambiar disfraz a (golpeada v)
 + enviar (golpeada v)
 ```
@@ -48,13 +48,13 @@ Añade un bloque `espera`{:class="block3control"} al final del código del objet
 ![objeto nave espacial](images/rocket-sprite.png)
 
 ```blocks3
-al presionar bandera verde
-por siempre 
- cambiar disfraz a (normal v)
- esperar hasta que <touching (Hippo1 v)>
- cambiar disfraz a (golpeada v)
- enviar (golpeada v)
- + esperar (1) segundos
+when flag clicked
+forever
+switch costume to (normal v)
+wait until <touching (hipopótamo v)>?
+switch costume to (golpeada v)
+broadcast (golpeada v)
++ wait (1) seconds
 end
 ```
 

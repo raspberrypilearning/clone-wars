@@ -29,7 +29,7 @@ Añade código a tu objeto de la `nave espacial` para que muestre el disfraz "no
 ```blocks3
 al presionar bandera verde
 cambiar disfraz a (normal v)
-esperar hasta que <touching (Hippo1 v)>
+esperar hasta que <touching (hipopótamo v)>
 cambiar disfraz a (golpeada v)
 ```
 

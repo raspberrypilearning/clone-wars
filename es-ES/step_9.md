@@ -6,7 +6,7 @@ Para hacer tu juego un poco más difícil, vas a crear un murciélago que arroje
 
 --- task ---
 
-Añade un objeto `murciélago` y establece su estilo de rotación en **izquierda-derecha**.
+Añade un objeto `murciélago` (Bat) y establece su estilo de rotación en **izquierda-derecha**.
 
 --- /task ---
 
@@ -62,13 +62,13 @@ siguiente disfraz
 Tu código debe parecerse a esto:
 
 ```blocks3
-al presionar bandera verde
-fijar tamaño al (50) %
-por siempre 
- mover (10) pasos
- si toca un borde, rebotar
- + siguiente disfraz
- + esperar (0.3) segundos
+when flag clicked
+set size to (50) %
+forever
+move (10) steps
+if on edge, bounce
++ next costume
++ wait (0.3) seconds
 end
 ```
 
@@ -82,7 +82,7 @@ end
 
 --- task ---
 
-Añade el objeto `murciélago` (Bat) de la biblioteca de Scratch.
+Añade el objeto `naranja` de la biblioteca de Scratch.
 
 ![captura de pantalla](images/invaders-orange.png)
 
@@ -117,7 +117,7 @@ esconder
 al comenzar como clon
 ir a (murciélago v)
 mostrar
-repetir hasta que <¿tocando (edge v)?
+repetir hasta que <¿tocando (borde v)?
   sumar a y (-4)
 end
 eliminar este clon

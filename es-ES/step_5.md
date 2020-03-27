@@ -25,8 +25,8 @@ Agregue un código para ocultar el objeto `hipopótamo` cuando comienza el juego
 ![objeto hipopótamo](images/hippo-sprite.png)
 
 ```blocks3
-al presionar la bandera verde
-ocultar
+when green flag clicked
+hide
 ```
 
 --- /task ---
@@ -123,12 +123,12 @@ Por el momento los hipopótamos no se mueven.
 Cada hipopótamo debe moverse al azar hasta ser alcanzado por un rayo. Para que eso suceda, añade este código debajo de los bloques que ya están en el código del objeto `hipopótamo`:
 
 ```blocks3
-repetir hasta que <touching (lightning v) ?> 
-  mover (velocidad:: variables) pasos
-  girar a la derecha (número aleatorio entre (-10) y (10)) grados
-  si toca un borde, rebotar
-fin
-eliminar este clon
+repeat until <touching (relámpago v) ?>
+	move (velocidad :: variables) steps
+	turn right (pick random (-10) to (10)) degrees
+	if on edge, bounce
+end
+delete this clone
 ```
 
 --- /task ---

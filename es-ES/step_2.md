@@ -6,7 +6,7 @@
 
 Abre el proyecto inicial de Scratch 'Guerra de clones'.
 
-**En línea:** abre el proyecto de inicio en [scratch.mit.edu/projects/380170702](https://scratch.mit.edu/projects/380170702){:target="_blank"}.
+**En línea:** abre el proyecto de inicio en [rpf.io/clone-wars-on](http://rpf.io/clone-wars-on){:target="_blank"}.
 
 Si tienes una cuenta de Scratch puedes hacer una copia haciendo clic en **Reinventar**.
 
@@ -25,18 +25,18 @@ Añade este código al objeto de la nave espacial para hacer que la nave espacia
 ![objeto nave espacial](images/rocket-sprite.png)
 
 ```blocks3
-    al presionar bandera verde
-por siempre 
-  si <key (left arrow v) pressed?> entonces 
-    sumar a x (-4)
-  end
-end
+    when flag clicked
+	  forever
+		  if <key (left arrow v) pressed?> then
+			  change x by (-4)
+		  end
+	end
 ```
 
 El eje x va desde el lado izquierdo del escenario hasta el lado derecho. Esto significa que la nave espacial se mueve hacia la izquierda cuando resta del valor de la posición `x` del objeto de la nave espacial. Este código es la parte que hace que tu nave espacial se mueva hacia la izquierda:
 
 ```blocks3
-cambia x por (-4)
+change x by (-4)
 ```
 
 --- /task ---
@@ -59,7 +59,7 @@ Restando `4` de la posición `x` de la nave espacial hizo que se moviera hacia l
 Necesitas el mismo bloque de código, pero con un número diferente:
 
 ```blocks3
-cambia x por ( )
+change x by ( )
 ```
 
 --- /hint ---
@@ -71,9 +71,9 @@ Aquí está el código que debes añadir debajo el otro código dentro de tu blo
 ![objeto nave espacial](images/rocket-sprite.png)
 
 ```blocks3
-si <key (right arrow v) pressed?> luego
-    cambia x por (4)
-final
+if <key (right arrow v) pressed?> then
+	change x by (4)
+end
 ```
 
 --- /hint ---
