@@ -15,5 +15,5 @@ Aqui estão algumas ideias:
 + Faz aparecer mais inimigos quando a tua pontuação chegar a ` 100 `.
 
 ```blocks3
-    wait until <(score :: variables) = [100]>
+    wait until <(pontuação :: variables) = [100]>
 ```
