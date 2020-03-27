@@ -118,7 +118,7 @@ end
     when I start as a clone
 	  go to (Bat v)
 	  show
-	  repeat until <touching (edge v)?
+	  repeat until <touching (الحافة v)?
 		  change y by (-4)
 	  end
 	  delete this clone

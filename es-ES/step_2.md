@@ -27,7 +27,7 @@ Añade este código al objeto de la nave espacial para hacer que la nave espacia
 ```blocks3
     when flag clicked
 	  forever
-		  if <key (left arrow v) pressed?> then
+		  if <key (flecha izquierda v) pressed?> then
 			  change x by (-4)
 		  end
 	end
@@ -71,7 +71,7 @@ Aquí está el código que debes añadir debajo el otro código dentro de tu blo
 ![objeto nave espacial](images/rocket-sprite.png)
 
 ```blocks3
-if <key (right arrow v) pressed?> then
+if <key (flecha derecha v) pressed?> then
 	change x by (4)
 end
 ```

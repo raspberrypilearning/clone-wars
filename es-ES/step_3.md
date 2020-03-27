@@ -68,7 +68,7 @@ end
 
 crear clon de (relámpago v)
 
-<key (space v) pressed?>
+<key (espacio v) pressed?>
 
 al presionar bandera verde
 ```
@@ -84,7 +84,7 @@ Así es como debería verse tu nuevo código:
 ```blocks3
 when flag clicked
 forever
-	if <key (space v) pressed?> then
+	if <key (espacio v) pressed?> then
 		create clone of (relámpago v)
 	end
 end
@@ -108,7 +108,7 @@ Añade este código al objeto `relámpago` para que los clones del objeto se mue
     when I start as a clone
 	  go to (nave espacial v)
     show
-	  repeat until <touching (edge v) ?>
+	  repeat until <touching (borde v) ?>
 		  change y by (10)
 	  end
 	  delete this clone

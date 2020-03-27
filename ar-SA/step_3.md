@@ -68,7 +68,7 @@ end
 
 create clone of (Lightning v)
 
-<key (space v) pressed?>
+<key (المسافة v) pressed?>
 
 when flag clicked
 ```
@@ -84,7 +84,7 @@ when flag clicked
 ```blocks3
 when flag clicked
 forever
-	if <key (space v) pressed?> then
+	if <key (المسافة v) pressed?> then
 		create clone of (Lightning v)
 	end
 end
@@ -108,7 +108,7 @@ end
   when I start as a clone
 	go to (Spaceship v)
   show
-	repeat until <touching (edge v) ?>
+	repeat until <touching (الحافة v) ?>
 		change y by (10)
 	end
 	delete this clone

@@ -27,7 +27,7 @@
 ```blocks3
   when flag clicked
 	forever
-		if <key (left arrow v) pressed?> then
+		if <key (لسھم الأیسر v) pressed?> then
 			change x by (-4)
 		end
 	end
@@ -71,7 +71,7 @@
 ![كائن الصاروخ](images/rocket-sprite.png)
 
 ```blocks3
-if <key (right arrow v) pressed?> then
+if <key (لسھم الأیمن v) pressed?> then
 	change x by (4)
 end
 ```
