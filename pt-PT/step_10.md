@@ -25,7 +25,7 @@ No palco, transmite uma mensagem de ` Fim do jogo ` {: class = "block3events"} i
 ![ator fimdojogo](images/stage-sprite.png)
 
 ```blocks3
-difunde a mensagem (game over v) e espera
+broadcast (game over v) and wait
 ```
 
 \--- /task \---
@@ -37,11 +37,11 @@ Acrescenta este código ao teu ator ` Fim do Jogo ` para que apareça no final d
 ![ator fimdojogo](images/gameover-sprite.png)
 
 ```blocks3
-quando alguém clicar na bandeira verde
-esconde-te
+when flag clicked
+hide
 
-quando receberes a mensagem [game over v]
-mostra-te
+when I receive [game over v]
+show
 ```
 
 Porque utilizaste um bloco de ` difunde a mensagem (fim do jogo) e espera ` {: class = "block3events"} no teu palco, este aguardará que o ator ` fim do jogo ` seja exibido antes de terminar o jogo.
