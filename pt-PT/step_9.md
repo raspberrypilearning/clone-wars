@@ -17,11 +17,11 @@ Faz o ator ` morcego ` ` mover-se ` {: class = "block3motion"} da esquerda para 
 ![ator morcego](images/bat-sprite.png)
 
 ```blocks3
-quando alguém clicar na bandeira verde
-altera o teu tamanho para (50) %
-repete para sempre 
-  anda (10) passos
-  se estiveres a bater na borda, ressalta
+when flag clicked
+set size to (50) %
+forever
+    move (10) steps
+    if on edge, bounce
 end
 ```
 
@@ -50,9 +50,9 @@ Depois de o morcego se mover, ele deve mostrar o ` próximo traje ` {: class = "
 Vais necessitar acrescentar estes blocos ao teu código:
 
 ```blocks3
-espera (0.3) s
+wait (0.3) seconds
 
-passa para o teu próximo traje
+next costume
 ```
 
 \--- /hint \---
@@ -62,13 +62,14 @@ passa para o teu próximo traje
 O teu código deverá ter este aspeto:
 
 ```blocks3
-quando alguém clicar na bandeira verde
-altera o teu tamanho para (50) %
-repete para sempre 
- anda (10) passos
- se estiveres a bater na borda, ressalta
- + passa para o teu próximo traje
- + espera (0.3) s
+when flag clicked
+set size to (50) %
+forever
+move (10) steps
+if on edge, bounce
+
++ next costume
++ wait (0.3) seconds
 end
 ```
 
@@ -95,10 +96,10 @@ Adiciona código ao seu morcego para que ` quando a bandeira verde for clicada `
 ![ator morcego](images/bat-sprite.png)
 
 ```blocks3
-quando alguém clicar na bandeira verde
-repete para sempre 
-  espera (um valor ao acaso entre (5) e (10)) s
-  cria um clone de (Orange v)
+when flag clicked
+forever
+    wait (pick random (5) to (10)) secs
+    create clone of (Orange v)
 end
 ```
 
@@ -111,16 +112,16 @@ Acrescenta código à ` Laraja ` para fazer com que cada um dos seus clones caia
 ![ator laranja](images/orange-sprite.png)
 
 ```blocks3
-    quando alguém clicar na bandeira verde
-esconde-te
+    when flag clicked
+    hide
 
-Quando fores criado como um clone
-vai para (Bat v)
-mostra-te
-até que  <estás a tocar em (edge v)>, repete 
-  adiciona (-4) ao teu y
-end
-remove-te como clone
+    when I start as a clone
+    go to (Bat v)
+    show
+    repeat until <touching (edge v)?
+        change y by (-4)
+    end
+    delete this clone
 ```
 
 \--- /task \---
@@ -132,8 +133,8 @@ Acrescenta um pouco mais de código ao ator ` Laranja ` para que quando um clone
 ![ator laranja](images/orange-sprite.png)
 
 ```blocks3
-    quando receberes a mensagem [hit v]
-remove este clone
+    when I receive [hit v]
+    delete this clone
 ```
 
 \--- /task \---
