@@ -6,7 +6,7 @@
 
 حدِّد كائن `Spaceship` وأعد تسمية مظهره إلى 'عادي'.
 
----/task--
+--- /task ---
 
 --- task ---
 
@@ -18,7 +18,7 @@
 
 ![لقطة الشاشة](images/invaders-sun.png)
 
----/task---
+--- /task ---
 
 --- task ---
 
