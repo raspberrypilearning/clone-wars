@@ -25,7 +25,7 @@ No palco, transmite uma mensagem de ` Fim do jogo ` {: class = "block3events"} i
 ![ator fimdojogo](images/stage-sprite.png)
 
 ```blocks3
-broadcast (game over v) and wait
+broadcast (Fim do jogo v) and wait
 ```
 
 \--- /task \---
@@ -40,7 +40,7 @@ Acrescenta este código ao teu ator ` Fim do Jogo ` para que apareça no final d
 when flag clicked
 hide
 
-when I receive [game over v]
+when I receive [Fim do jogo v]
 show
 ```
 
