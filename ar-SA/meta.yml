@@ -1,24 +1,25 @@
+---
 hero_image: images/clone-wars.png
 theme: violet
-duration: 2
 listed: true
-ingredient: false
 copyedit: true
-curriculum: creator, design-0, programming-0, phys-comp-0, manufacture-0, community-0
 title: حروب الاستنساخ
-description: اصنع لعبة تُنقذ فيها كوكب الأرض من وحوش الفضاء المستنسخة
-original_url: https://codeclubprojects.org/en-GB/scratch/clone-wars
-interests: 'games'
-technologies: scratch
-site_areas: codeclub, scratch
+description: اصنع لعبة تُنقذ فيها كوكب الأرض من وحوش الفضاء
+version: 4.1.0
+last_tested: 2018-10-11
 steps:
-- title: المقدمة
-- title: ما ستحتاج إليه
-- title: إنشاء سفينة فضاء
-- title: صواعق برقية
-- title: أفراس فضاء طائرة
-- title: انفجار سفينة الفضاء
-- title: إخفاء أفراس الفضاء
-- title: خفاش الفاكهة
-- title: انتهت اللعبة
-- title: 'التحدي: تحسين لعبتك'
+  - title: المقدمة
+  - title: إنشاء سفينة فضاء
+  - title: صواعق برقية
+  - title: 'التحدي: تحسين الصواعق البرقية'
+    challenge: true
+  - title: أفراس نهر الفضاء
+  - title: انفجار سفينة الفضاء
+  - title: أفراس نهر الفضاء المختفية
+  - title: 'التحدي: المحاولات والنتيجة'
+    challenge: true
+  - title: خفاش الفضاء
+  - title: انتهت اللعبة
+  - title: 'التحدي: تحسين لعبتك'
+    challenge: true
+  - title: ما التالي؟

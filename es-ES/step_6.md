@@ -1,29 +1,42 @@
-## Fin del Juego
+## Explosión de la nave espacial
 
-Vamos a añadir un mensaje "Fin del Juego" al final del juego.
+Cuando un hipopótamo toca tu nave espacial, ¡la nave espacial debe explotar!
 
-+ Si no lo has hecho, crea una nueva variable llamada `vidas`{:class="blockdata"}. La nave espacial debe comenzar con 3 vidas y perder una vida cada vez que choca con un enemigo. El juego debe parar también cuando te quedas sin vidas. Si necesitas ayuda, puedes utilizar el proyecto "Catch the Dots".
+--- task ---
 
-+ Dibuja un nuevo objeto llamado 'Fin del Juego', utilizando la herramienta de texto.
+Selecciona el objeto `nave espacial` y renombra su disfraz "normal".
 
-	![screenshot](images/invaders-game-over.png)
+--- /task ---
 
-+ En el escenario, mostrar un mensaje `Fin del juego`{:class="blockevents"} justo antes de que el juego termine.
+--- task ---
 
-	```blocks
-		enviar [Fin del juego v] y esperar
-	```
+Dibuja otro disfraz de una nave espacial explotando y llama al nuevo disfraz "golpeada".
 
-+ Añadir este código al objeto 'Fin del juego', para que el mensaje se muestre al final del juego:
+![captura de pantalla](images/invaders-spaceship-costumes.png)
 
-	```blocks
-		al presionar bandera verde
-		esconder
+Si no quieres dibujar la explosión, puedes seleccionar el disfraz del 'Sol' de la biblioteca de Scratch y luego usar la herramienta **colorear una forma** para cambiar el color y la cara del disfraz.
 
-		al recibir [Fin del juego v]
-		mostrar
-	```
+![captura de pantalla](images/invaders-sun.png)
 
-	Como has usado un bloque `enviar [fin del juego] y esperar`{:class="blockevents"}, se esperará a que el objeto de 'Fin del juego' se muestre antes de terminar el juego.
+--- /task ---
 
-+ Probar el juego. ¿Cuántos puntos se pueden anotar? ¿Puedes pensar en maneras de mejorar su juego si es demasiado fácil o demasiado difícil?
+--- task ---
+
+Añade código a tu objeto de la `nave espacial` para que muestre el disfraz "normal" cuando comience el juego y cambie al disfraz "golpeada" cuando la toque un hipopótamo:
+
+![objeto de un cohete](images/rocket-sprite.png)
+
+```blocks3
+al presionar bandera verde
+cambiar disfraz a (normal v)
+esperar hasta que <touching (hipopótamo v)>
+cambiar disfraz a (golpeada v)
+```
+
+--- /task ---
+
+--- task ---
+
+Prueba tu código. Haz que la nave espacial choque con un hipopótamo. ¿Cambia la nave espacial al disfraz "golpeada"?
+
+--- /task ---

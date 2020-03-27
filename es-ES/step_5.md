@@ -1,54 +1,152 @@
-## ¡Murciélagos de la fruta!
+## Hipopótamos espaciales
 
-Vamos a hacer un murciélago de la fruta que lanza naranjas a su nave espacial.
+Ahora vas a añadir muchos hipopótamos voladores que intentan destruir tu nave espacial.
 
-+ En primer lugar, hacer un nuevo objeto murciélago que se `moverá`{:class="blockmotion"} en la parte superior del escenario `por siempre`{:class="blockcontrol"}. Recuerda probar el código.
+--- task ---
 
-	![screenshot](images/invaders-bat.png)
+Crea un nuevo objeto con la imagen 'Hippo1' en la biblioteca de Scratch. Usa la herramienta **tamaño** para hacer que el objeto `hipopótamo` tenga un tamaño similar al de la `nave espacial`.
 
-+ Si nos fijamos en los disfraces del murciélago, verás que ya cuenta con 2:
+![captura de pantalla](images/invaders-hippo.png)
 
-	![screenshot](images/invaders-bat-costume.png)
+--- /task ---
 
-	Utilizar el bloque `siguiente disfraz`{:class="blocklooks"} para hacer que el murciélago mueva las alas mientras se mueve.
+--- task ---
 
-+ Crear un nuevo objeto 'Naranja' de la biblioteca de Scratch
+Establece el estilo de la rotación del objeto `hipopótamo` para hacerlo **de izquierda a derecha**.
 
-	![screenshot](images/invaders-orange.png)
+[[[generic-scratch3-sprite-rotation-style]]]
+
+--- /task ---
+
+--- task ---
+
+Agregue un código para ocultar el objeto `hipopótamo` cuando comienza el juego.
+
+![objeto hipopótamo](images/hippo-sprite.png)
+
+```blocks3
+when green flag clicked
+hide
+```
+
+--- /task ---
+
+--- task ---
+
+Añade código al escenario para crear un nuevo clon de `hipopótamo` cada pocos segundos.
+
+--- hints ---
 
 
-+ Añadir código al murciélago, de manera que se crea un nuevo clon de naranja cada pocos segundos.
+--- hint ---
 
-	```blocks
-		al presionar bandera verde
-		por siempre
-			esperar (número al azar entre (5) y (10)) segundos
-			crear clon de [Naranja v]
-		fin
-	```
+Cuando `se hace clic en la bandera verde`{:class="block3events"}, `repetidamente`{:class="block3control"} `esperar`{:class="block3control"} `entre 2 y 4 segundos`{:class="block3operators"} y entonces `crear un clon del objeto hipopótamo`{:class="block3control"}.
 
-+ Haga clic en el objeto naranja. Añadir este código para que cada clon de naranja caiga por el escenario desde el murciélago hacia la nave espacial:
+--- /hint ---
 
-	```blocks
-		al presionar bandera verde
-		esconder
+--- hint ---
 
-		al comenzar como clon
-		ir a [Bat1 v]
-		mostrar
-		repetir hasta que <¿tocando [borde v]?>
-			cambiar y por (-4)
-		fin
-		borrar este clon
+Aquí están los bloques que necesitas:
 
-		al recibir [tocado v]
-		borrar este clon
-	```
+```blocks3
+por siempre
+end
 
-+ En el objeto nave espacial, modificar el código para que se destruya si se toca un hipopótamo o un naranja:
+crear clon de (hipopótamo v)
 
-	```blocks
-		esperar hasta que <<¿tocando [Hippo1 v]?> o <¿tocando [Naranja v]?>>
-	```
+(número aleatorio entre (2) y (4))
 
-+ Probar el juego. ¿Qué sucede si es golpeado por una caída de naranja?
+al presionar bandera verde
+
+esperar () segundos
+```
+
+--- /hint ---
+
+--- hint ---
+
+Así es como debería verse tu código:
+
+![objeto escenario](images/stage-sprite.png)
+
+```blocks3
+al presionar bandera verde
+por siempre 
+  esperar (número aleatorio entre (2) y (4)) segundos
+  crear clon de (hipopótamo v)
+end
+```
+
+--- /hint ---
+
+--- /hints ---
+
+--- /task ---
+
+Cada nuevo clon del hipopótamo debe aparecer en una posición `x` aleatoria y cada clon debería tener una velocidad aleatoria.
+
+--- task ---
+
+Crea una nueva variable llamada `velocidad`{:class="block3variables"} que es solo para el objeto `hipopótamo`.
+
+[[[generic-scratch3-add-variable]]]
+
+Cuando hayas hecho esto correctamente, la variable tiene el nombre del objeto al lado, así:
+
+![captura de pantalla](images/invaders-var-test.png)
+
+--- /task ---
+
+--- task ---
+
+Cuando cada clon del `hipopótamo` empiece, elige una velocidad y punto de partida aleatorios para él. Luego muestra el clon en la pantalla.
+
+```blocks3
+al comenzar como clon
+dar a [velocidad v] el valor (número aleatorio entre (2) y (4))
+ir a x: (número aleatorio entre (-220) y (220)) y: (150)
+mostrar
+```
+
+--- /task ---
+
+--- task ---
+
+Prueba tu código. ¿Aparece un nuevo hipopótamo cada pocos segundos?
+
+--- /task ---
+
+Por el momento los hipopótamos no se mueven.
+
+--- task ---
+
+Cada hipopótamo debe moverse al azar hasta ser alcanzado por un rayo. Para que eso suceda, añade este código debajo de los bloques que ya están en el código del objeto `hipopótamo`:
+
+```blocks3
+repeat until <touching (relámpago v) ?>
+	move (velocidad :: variables) steps
+	turn right (pick random (-10) to (10)) degrees
+	if on edge, bounce
+end
+delete this clone
+```
+
+--- /task ---
+
+--- task ---
+
+Prueba tu código de nuevo. Deberías ver un nuevo clon de hipopótamo aparecer cada pocos segundos y cada clon debería moverse a una velocidad diferente.
+
+--- no-print ---
+
+![captura de pantalla](images/hippo-clones.gif)
+
+--- /no-print ---
+
+--- /task ---
+
+--- task ---
+
+Ahora pruebe el cañón láser de la nave espacial. Si un rayo golpea un hipopótamo ¿desaparece el hipopótamo?
+
+--- /task ---

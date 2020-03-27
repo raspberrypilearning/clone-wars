@@ -1,66 +1,61 @@
 ## إخفاء أفراس الفضاء
 
-عندما تصطدم سفينة الفضاء، يجب أن تختفي كل الأفراس لإعطاء اللاعب فرصة لاستعادة القوة.
+عندما تنفجر سفينة الفضاء، يجب أن تختفي كل الأفراس لإعطاء اللاعب فرصة لاستعادة قوته.
 
-+ أضف قالب إلى التعليمة البرمجية بهدف `بث` رسالة "اصطدام" عندما تلامس سفينة الفضاء فرسًا.
+--- task ---
 
-[[[generic-scratch-broadcast-message]]]
+أضف تعليمات برمجية إلى كائن سفينة الفضاء لجعلها `تبث`{:class="block3events"} الرسالة "اصطدام" عندما تلمس سفينة الفضاء `فرس النهر`{:class="block3sensing"}.
 
---- hints ---
---- hint ---
-أنشئ قالب `بُث` 'اصطدام' من خلال سحب القالب من علامة التبويب **أحداث** ثم النقر على القائمة المنسدلة وتحديد **رسالة جديدة**.
---- /hint ---
---- hint ---
-يجب أن يكون القالب كما يلي:
-```blocks
-broadcast [hit v]
-```
---- /hint ---
---- hint ---
-يجب أن تكون التعليمة البرمجية كما يلي:
+![كائن الصاروخ](images/rocket-sprite.png)
 
-```blocks
+```blocks3
 when flag clicked
-switch costume to [normal v]
-wait until <touching [Hippo1 v]>?
-switch costume to [hit v]
-broadcast [hit v]
+switch costume to (normal v)
+wait until <touching (Hippo1 v)>?
+switch costume to (hit v)
++ broadcast (hit v)
 ```
---- /hint ---
---- /hints ---
 
-ستتلقى كل نسخ الكائن `Hippo` هذه الرسالة، لذا يمكنك الآن أن تأمرهم بالاختفاء عندما تصطدم سفينة الفضاء.
+--- /task ---
 
-+ أضف هذه التعليمة البرمجية إلى الكائن `Hippo`:
+--- task ---
 
-```blocks
+كل نسخ كائنات `فرس النهر` ستتلقى رسالة "اصطدام" ، ويمكنك إرشادهم بالاختفاء عند إصابة سفينة الفضاء بإضافة هذه الكود إلى كائن `فرس النهر`:
+
+![كائن فرس النهر](images/hippo-sprite.png)
+
+```blocks3
 when I receive [hit v]
 delete this clone
 ```
 
-+ اختبر هذه التعليمة البرمجية ببدء لعبة جديدة وجعل السفينة تصطدم بفرس.
+--- /task ---
 
-![screenshot](images/invaders-hippo-collide.png)
+--- task ---
 
-بعد اصطدام السفينة، تبدأ الأفراس في الظهور مرة أخرى في الوقت الذي لا تزال فيه السفينة متفجرة! لنعطِ فرصة للسفينة لتستعيد نفسها بعد الاصطدام.
+لمعرفة ما إذا كان الكود الجديد يعمل أم لا، انقر فوق العلم الأخضر واجعل سفينة الفضاء تصطدم بفرس النهر.
 
-+ أضف قالب `كرِّر باستمرار`{:class="blockcontrol"} بحيث يشمل التعليمة البرمجية ككل لكي تتكرر العملية، وقالب `انتظر`{:class="blockcontrol"} في النهاية لإضافة فترة إيقاف مؤقت قصيرة قبل أن تبدأ الأفراس في الظهور مرة أخرى.
+![لقطة الشاشة](images/invaders-hippo-collide.png)
 
-```blocks
+--- /task ---
+
+بعد انفجار سفينة الفضاء، فإن نسخة جديدة من كائن `فرس النهر` تظهر، لكن سفينة الفضاء ما زالت تنفجر! سفينة الفضاء تحتاج إلى إعادة ضبط نفسها بعد أن تضرب.
+
+--- task ---
+
+أضف كتلة `انتظر`{:class="block3control"} في نهاية التعليمات البرمجية لكائن `Spaceship` لإنشاء وقفة صغيرة قبل أن تبدأ فرس النهر بالظهور مرة أخرى. ثم أضف لبنة `كرر باستمرار`{:class="block3control"} حول جميع التعليمات البرمجية الخاصة بك لتشغيل الكود بشكل متكرر.
+
+![كائن الصاروخ](images/rocket-sprite.png)
+
+```blocks3
 when flag clicked
 forever
-    switch costume to [normal v]
-    wait until <touching [Hippo1 v]>?
-    switch costume to [hit v]
-    broadcast [hit v]
-    wait (1) secs
+switch costume to (normal v)
+wait until <touching (Hippo1 v)>?
+switch costume to (hit v)
+broadcast (hit v)
++ wait (1) seconds
 end
 ```
 
---- challenge ---
-### التحدي: المحاولات والنتيجة
-
-في الوقت الحالي، لدى اللاعب عدد لانهائي من المحاولات. هل يمكنك إضافة `المستويات`{:class="blockdata"} أو `النتيجة`{:class="blockdata"} أو حتى `أعلى نتيجة`{:class="blockdata"} إلى لعبتك؟
-
-[[[generic-scratch-high-score]]]
---- /challenge ---
+--- /task ---

@@ -1,33 +1,75 @@
+--- no-print ---
+
+Este es la versión **Scratch 3** del proyecto. También hay una versión [Scratch 2 del proyecto.](https://projects.raspberrypi.org/es-ES/projects/clone-wars-scratch2).
+
+--- /no-print ---
+
 ## Introducción
 
-En este proyecto aprenderás cómo crear un juego en el que tienes que salvar a la Tierra de los monstruos espaciales.
+En este proyecto aprenderás cómo crear un juego en el que debes salvar la Tierra de monstruos espaciales.
+
+### Lo que harás
+
+--- no-print ---
+
+Haz clic en la bandera verde en el siguiente juego de ejemplo para comenzar, y luego presiona las teclas de dirección <kbd>izquierda</kbd> y <kbd>derecha</kbd> para mover la nave espacial y la barra de <kbd>espacio</kbd> para disparar.
 
 <div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/46018140/?autostart=false" frameborder="0"></iframe>
-  <img src="invaders-final.png">
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/380170071/?autostart=false" frameborder="0" scrolling="no"></iframe>
+  <img src="images/showcase.png">
 </div>
+
+--- /no-print ---
+
+Gana tantos puntos como puedas disparando a los hipopótamos espaciales voladores. Si te golpea un hipopótamo o las naranjas que tiran los murciélagos, pierdes una vida.
+
+--- print-only ---
+
+![desc](images/showcase.png)
+
+--- /print-only ---
 
 --- collapse ---
 ---
-title: Notas Para los Líderes del Club
+title: Lo que necesitarás
 ---
 
-## Introducción:
-En este proyecto los niños aprendrán cómo hacer un juego, en el cual el jugador controla una nave espacial que dispara relámpagos a los enemigos.
+### Equipo
 
-## Recursos
-Se debe utilizar Scratch 2. Scratch 2 puede ser usado online en [jumpto.cc/scratch-on](http://jumpto.cc/scratch-on) o descargado desde [jumpto.cc/scratch-off](http://jumpto.cc/scratch-off) para ser usado sin conexión.
++ Un ordenador capaz de ejecutar Scratch 3
 
-Encontrará una versión completa del proyecto en <a href="http://scratch.mit.edu/projects/46018140/#editor">online</a>, o puede descargarlo pulsando el enlace del proyecto 'Descargar Materiales del Proyecto', que contiene:
+### Programas
 
-+ CloneWars.sb2
++ Scratch 3 (ya sea [en línea](https://rpf.io/scratchon){:target="_blank"} o [sin conexión](https://rpf.io/scratchoff){:target="_blank"})
 
-## Objetivos de aprendizaje
-+ Este proyecto consolida los conocimientos de programación aprendidos previamente, y demuestra cómo los objetos pueden clonar otros objetos, y cómo múltiples copias pueden usarse como proyectiles.
+### Descargas
 
-## Retos
-+ "Fijar el relámpago" - utilizando un bloque `espera`{:class="blockcontrol"} para reducir la frecuencia del relámpago;
-+ "Vidas y puntuación" - ceando variables para las `vidas`{:class="blockdata"}, `puntuación`{:class="blockdata"} y `récord`{:class="blockdata"} ;
-+ "Mejora tu juego" - añadiendo enemigos extra, packs de salud, etc.
+[Encuentra las descargas aquí](http://rpf.io/p/es-ES/clone-wars-go).
+
+--- /collapse ---
+
+--- collapse ---
+---
+title: Lo que aprenderás
+---
+
++ Cómo hacer que los objetos se muevan usando el teclado
++ Cómo clonar los objetos para hacer copias de ellos
++ Cómo usar los bloques "enviar" y "recibir" para transmitir mensajes
+
+--- /collapse ---
+
+--- collapse ---
+---
+title: Información adicional para educadores
+---
+
+--- no-print ---
+
+Si necesitas imprimir este proyecto, usa la [versión para imprimir](https://projects.raspberrypi.org/es-ES/projects/clone-wars/print){:target="_blank"}.
+
+--- /no-print ---
+
+Puedes encontrar el [proyecto terminado aquí](http://rpf.io/p/es-ES/clone-wars-get).
 
 --- /collapse ---
