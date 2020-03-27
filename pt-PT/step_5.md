@@ -102,7 +102,7 @@ Quando cada clone ` Hipopótamo ` começa, escolhe de forma aleatória uma veloc
 
 ```blocks3
 when I start as a clone
-set [speed v] to (pick random (2) to (4))
+set [velocidade v] to (pick random (2) to (4))
 go to x: (pick random (-220) to (220)) y: (150)
 show
 ```
@@ -123,7 +123,7 @@ Cada hipopótamo deverá mover-se aleatoriamente até ser atingido por um raio. 
 
 ```blocks3
 repeat until <touching (lightning v) ?>
-    move (speed :: variables) steps
+    move (velocidade :: variables) steps
     turn right (pick random (-10) to (10)) degrees
     if on edge, bounce
 end
