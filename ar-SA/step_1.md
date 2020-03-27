@@ -1,26 +1,75 @@
+--- no-print ---
+
+هذه نسخة المشروع الموافقة للإصدار **Scratch 3**. هناك أيضاً [نسخة للإصدار Scratch 2](https://projects.raspberrypi.org/ar-SA/projects/clone-wars-scratch2).
+
+--- /no-print ---
+
 ## المقدمة
 
-في هذا المشروع، ستتعلم كيف تصنع لعبة تُنقذ فيها كوكب الأرض من وحوش الفضاء المستنسخة.
+في هذا المشروع، ستتعلم كيف تصنع لعبة تُنقذ فيها كوكب الأرض من وحوش الفضاء.
 
-### ما ستصنعه
+### ما الذي ستصنعه
 
-انقر على العلم الأخضر الموجود في مثال اللعبة أدناه للبدء، ثم اضغط على مفتاحَي **سهم إلى اليسار** و**سهم إلى اليمين** لتحريك سفينة الفضاء، واضغط على مفتاح **المسافة** لإطلاق النيران.
+--- no-print ---
 
-أحرز أكبر عدد ممكن من النقاط بقتل أفراس الفضاء الطائرة. وستخسر محاولة إذا اصطدمت سفينتك بفرس فضاء أو سقط عليها البرتقال الذي تلقيه خفافيش الفاكهة.
+انقر على العلم الأخضر الموجود في مثال اللعبة أدناه للبدء، ثم اضغط على مفتاحَي الأسهم <kbd>اليسار</kbd> و <kbd>اليمين</kbd> لتحريك سفينة الفضاء، واضغط على مفتاح <kbd>المسافة</kbd> لإطلاق النيران.
 
 <div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/46018140/?autostart=false" frameborder="0"></iframe>
-  <img src="images/invaders-final.png">
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/380174626/?autostart=false" frameborder="0" scrolling="no"></iframe>
+  <img src="images/showcase.png">
 </div>
 
-### ما ستتعلمه
+--- /no-print ---
 
-يتناول هذا المشروع عناصر من الصفوف التالية من [المناهج الرقمية الخاصة بـ Raspberry Pi](http://rpf.io/curriculum){:target="_blank"}:
+اجمع أكبر عدد ممكن من النقاط بقتل أفراس النهر الفضائية الطائرة. ستخسر محاولة إذا اصطدمت سفينتك بفرس النهر أو سقط عليها البرتقال الذي تلقيه خفافيش الفاكهة.
 
-+ [استخدام تراكيب البرمجة الأساسية لإنشاء برامج بسيطة](https://www.raspberrypi.org/curriculum/programming/creator){:target="_blank"}
+--- print-only ---
 
-### معلومات إضافية للمعلمين
+![الوصف](images/showcase.png)
 
-إذا كنت بحاجة إلى طباعة هذا المشروع، فيُرجى استخدام [نسخة سهلة الطباعة](https://projects.raspberrypi.org/ar-SA/projects/clone-wars/print){:target="_blank"} .
+--- /print-only ---
 
-استخدم الرابط الموجود في تذييل الصفحة للوصول إلى مستودع GitHub لهذا المشروع، الذي يحتوي على كل الموارد (ومنها مثال لمشروع مكتمل) في المجلد ’ar-SA/resources‘.
+--- collapse ---
+---
+title: ما الذي ستحتاجه
+---
+
+### الأجهزة
+
++ جهاز كمبيوتر يدعم تشغيل برنامج Scratch 3
+
+### البرامج
+
++ برنامج Scratch 3 (سواء أكان [عبر الإنترنت](https://rpf.io/scratchon){:target="_blank"} أو [دون اتصال بالإنترنت](https://rpf.io/scratchoff){:target="_blank"})
+
+### التنزيلات
+
+[يمكنك تحميل الملفات من هنا](http://rpf.io/p/ar-SA/clone-wars-go).
+
+--- /collapse ---
+
+--- collapse ---
+---
+title: ما الذي ستتعلمه
+---
+
++ كيفية جعل الكائنات تتحرك باستخدام مدخلات لوحة المفاتيح
++ كيفية استنساخ الكائنات لعمل نسخ منها
++ كيفية استخدام "البث" و "تلقي الكتل" لإرسال الرسائل
+
+--- /collapse ---
+
+--- collapse ---
+---
+title: ملاحظات إضافية للمعلمين
+---
+
+--- no-print ---
+
+إذا كنت ترغب بطباعة هذا المشروع، نرجو استخدام [النسخة الملائمة للطباعة](https://projects.raspberrypi.org/ar-SA/projects/clone-wars/print).
+
+--- /no-print ---
+
+يمكنك الحصول على [المشروع كاملاً من هنا](http://rpf.io/p/ar-SA/clone-wars-get).
+
+--- /collapse ---

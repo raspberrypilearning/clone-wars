@@ -1,49 +1,123 @@
-## Rayos
+## Relámpagos
 
-¡Vamos a darle la nave espacial de la capacidad de disparar rayos!
+¡Ahora vas a dar a la nave espacial la capacidad de disparar relámpagos!
 
-+ Añadir el objeto del 'rayo' de la biblioteca Scratch. Haga clic en el disfraz del objeto y girar el rayo hasta ponerlo del revés.
+--- task ---
 
-	![screenshot](images/invaders-lightning.png)
+Añade el sprite `relámpago` de la biblioteca Scratch.
 
-+ Cuando se inicia el juego, los rayos deben estar ocultos hasta que la nave espacial dispare sus cañones láser.
+[[[generic-scratch3-sprite-from-library]]]
 
-	```blocks
-		al presionar bandera verde
-		esconder
-	```
+--- /task ---
 
-+ Añadir el siguiente código ** a la nave espacial ** para crear un nuevo rayo cada vez que se pulsa la tecla de espacio.
+--- task ---
+
+Cuando comience el juego, el objeto `relámpago` debe ocultarse hasta que la nave espacial dispare sus cañones láser.
+
+Añade este código al objeto `relámpago`:
+
+![objeto relámpago](images/lightning-sprite.png)
+
+```blocks3
+al presionar la bandera verde
+ocultar
+```
+
+--- /task ---
+
+Por el momento, ¡el relámpago es realmente grande comparado con la nave espacial!
+
+--- task ---
+
+Debajo del código que ya tiene el objeto `relámpago`, añade algunos bloques para hacer el objeto más pequeño y darle la vuelta hacia abajo.
+
+![objeto relámpago](images/lightning-sprite.png)
+
+```blocks3
+fijar tamaño al (25) %
+apuntar en dirección (-90)
+```
+
+Ahora parece que sale de la nave espacial con la punta hacia afuera.
+
+--- /task ---
+
+--- task ---
+
+Añade código para hacer que el objeto `nave espacial` cree un nuevo clon del relámpago si se presiona la <kbd>barra espaciadora</kbd>.
+
+--- hints ---
 
 
-	```blocks
-		al presionar bandera verde
-		por siempre
-			si <¿tecla [espacio v] presionada?> entonces
-				crear clon de [Rayo v]
-			fin
-		fin
-	```
+--- hint ---
 
-+ Siempre que se crea un nuevo clon, debe comenzar en el mismo lugar que la nave espacial, y luego subir por el escenario hasta que toque el borde. Agregar el siguiente código ** al objeto Relámpago **:
+`Cuando se hace clic en la bandera verde`{:class="block3events"}, sigue revisando `por siempre`{:class="block3control"} `si`{:class="block3control"} `se presiona la barra espaciadora`{:class="block3sensing"} y en ese caso `crea un clon del objeto del relámpago`{:class="block3control"}.
 
-	```blocks
-		al comenzar como clon
-		ir a [Nave v]
-		mostrar
-		repetir hasta que <¿tocando [borde v] ?>
-			cambiar y por (10)
-		fin
-		borrar este clon
-	```
+--- /hint ---
 
-Nota: Movemos el nuevo clon de la nave espacial, mientras que todavía está oculto, antes de mostrarlo. Así se ve mejor.
+--- hint ---
 
-+ Pon a prueba tu rayo, pulsando la tecla de espacio.
+Aquí están los bloques que necesitas:
 
---- challenge ---
+```blocks3
+si <> entonces
+end
 
-## Reto: Fijar el rayo 
-¿Qué sucede si se mantiene la tecla de espacio pulsada? ¿Se puede utilizar un bloque `esperar`{:class="blockcontrol"} para fijarlo?
+por siempre
+end
 
---- /challenge ---
+crear clon de (relámpago v)
+
+<key (space v) pressed?>
+
+al presionar bandera verde
+```
+
+--- /hint ---
+
+--- hint ---
+
+Así es como debería verse tu nuevo código:
+
+![objeto nave espacial](images/rocket-sprite.png)
+
+```blocks3
+al presionar bandera verde
+por siempre 
+  si <key (space v) pressed?> entonces 
+    crear clon de (relámpago v)
+  end
+end
+```
+
+--- /hint ---
+
+--- /hints ---
+
+--- /task ---
+
+--- task ---
+
+Cada vez que el juego cree un clon del objeto `relámpago`, el clon debería aparecer y después moverse hacia arriba hasta que alcance la parte superior del escenario. Entonces el clon debería desaparecer.
+
+Añade este código al objeto `relámpago` para que los clones del objeto se muevan hacia arriba hasta que toquen el borde del escenario y luego se eliminen.
+
+![objeto relámpago](images/lightning-sprite.png)
+
+```blocks3
+    al comenzar como clon
+ir a (Spaceship v)
+mostrar
+repetir hasta que <touching (edge v) ?> 
+  sumar a y (10)
+end
+eliminar este clon
+```
+
+--- /task ---
+
+--- task ---
+
+Presiona la barra <kbd>espaciadora</kbd> para probar si el relámpago mueve correctamente.
+
+--- /task ---
