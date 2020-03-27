@@ -11,7 +11,7 @@ steps:
   - title: Introdução
   - title: Constrói uma nave espacial
   - title: Relâmpagos
-  - title: 'Desafio: melhorar o raio'
+  - title: 'Desafio: melhorar o relâmpago'
     challenge: true
   - title: Hipopótamos do espaço
   - title: Explosão da nave espacial
