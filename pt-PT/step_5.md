@@ -25,8 +25,8 @@ Acrescenta algum código para ocultar o ator ` Hipopótamo ` quando o jogo come�
 ![ator Hipopótamo](images/hippo-sprite.png)
 
 ```blocks3
-quando alguém clicar na bandeira verde
-esconde-te
+when green flag clicked
+hide
 ```
 
 \--- /task \---
@@ -48,16 +48,16 @@ Quando a ` bandeira verde é clicada ` {: class = "block3events"}, ` repetidamen
 Aqui estão os blocos de que necessitas:
 
 ```blocks3
-repete para sempre
+forever
 end
 
-cria um clone de (Hippo1 v)
+create clone of (Hippo1 v)
 
-(um valor ao acaso entre (2) e (4))
+(pick random (2) to (4))
 
-Quando alguém clicar na bandeira verde
+when flag clicked
 
-espera () s
+wait () secs
 ```
 
 \--- /hint \---
@@ -69,10 +69,10 @@ Este é o aspeto que o teu código deve ter:
 ![actor palco](images/stage-sprite.png)
 
 ```blocks3
-quando alguém clicar na bandeira verde
-repete para sempre 
-  espera (um valor ao acaso entre (2) e (4)) s
-  cria um clone de (Hippo1 v)
+when flag clicked
+forever
+    wait (pick random (2) to (4)) secs
+    create clone of (Hippo1 v)
 end
 ```
 
@@ -101,10 +101,10 @@ Quando concluíres este passo corretamente, a variável terá o nome do ator ao 
 Quando cada clone ` Hipopótamo ` começa, escolhe de forma aleatória uma velocidade e um ponto de partida e a seguir aparece no ecrã.
 
 ```blocks3
-quando fores criado como um clone
-altera [speed v] para (um valor ao acaso entre (2) e (4))
-vai para a posição x: (um valor ao acaso entre (-220) e (220)) y: (150)
-mostra-te
+when I start as a clone
+set [speed v] to (pick random (2) to (4))
+go to x: (pick random (-220) to (220)) y: (150)
+show
 ```
 
 \--- /task \---
@@ -122,12 +122,12 @@ De momento os hipopótamos não se mexem.
 Cada hipopótamo deverá mover-se aleatoriamente até ser atingido por um raio. Para que isso aconteça, acrescenta este código por baixo dos blocos que já estão no código do ator ` Hipopótamo`:
 
 ```blocks3
-até que <estás a tocar em (lightning v)> , repete 
-  anda (speed :: variables) passos
-  gira para a direita (um valor ao acaso entre (-10) e (10)) º
-  se estiveres a bater na borda, ressalta
+repeat until <touching (lightning v) ?>
+    move (speed :: variables) steps
+    turn right (pick random (-10) to (10)) degrees
+    if on edge, bounce
 end
-remove-te como clone
+delete this clone
 ```
 
 \--- /task \---
