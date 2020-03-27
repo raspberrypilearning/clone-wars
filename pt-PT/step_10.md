@@ -2,8 +2,6 @@
 
 Agora em seguida, vais acrescentar uma mensagem de 'fim do jogo' no final do jogo.
 
---- task ---
-
 --- task --- Se ainda não fizeste, cria uma nova variável chamada `vidas`{:class="block3variables"}.
 
 A tua nave espacial deve começar com três vidas e perder uma vida sempre que tocar num hipopótamo ou numa laranja. O teu jogo deve parar quando as `vidas`{:class="block3variables"} acabam.
