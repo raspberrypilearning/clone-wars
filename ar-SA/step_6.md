@@ -27,10 +27,10 @@
 ![كائن الصاروخ](images/rocket-sprite.png)
 
 ```blocks3
-عند نقر ⚑
-غيِّر المظهر إلى (normal v)
-انتظر حتى <touching (Hippo1 v)>
-غيِّر المظهر إلى (hit v)
+when flag clicked
+switch costume to (normal v)
+wait until <touching (Hippo1 v)>?
+switch costume to (hit v)
 ```
 
 --- /task ---

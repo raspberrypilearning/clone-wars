@@ -25,8 +25,8 @@
 ![كائن فرس النهر](images/hippo-sprite.png)
 
 ```blocks3
-عند نقر ⚑
-اختف
+when green flag clicked
+hide
 ```
 
 --- /task ---
@@ -40,7 +40,7 @@
 
 --- hint ---
 
-عند `النقر فوق العلم الأخضر` `بإستمرار`، `إنتظر` `بين ٢ و ٤ ثواني` ومن ثم `أنشئ نسخة من كائن فرس النهر`.
+عند `النقر فوق العلم الأخضر`{:class="block3events"} `بإستمرار`{:class="block3control"}، `إنتظر`{:class="block3control"} `بين ٢ و ٤ ثواني`{:class="block3operators"} ومن ثم `أنشئ نسخة من كائن فرس النهر`{:class="block3control"}.
 
 --- /hint ---
 
@@ -49,7 +49,7 @@
 إليك الكتل التي تحتاجها:
 
 ```blocks3
-كرِّر باستمرار
+forever
 end
 
 أنشئ نسخة من (Hippo1 v)
@@ -70,10 +70,10 @@ end
 ![كائن مسرح العمل](images/stage-sprite.png)
 
 ```blocks3
-عند نقر ⚑
-كرِّر باستمرار 
-  انتظر (عدد عشوائي بين (2) و (4)) ثانية
-  أنشئ نسخة من (Hippo1 v)
+when flag clicked
+forever
+	wait (pick random (2) to (4)) secs
+	create clone of (Hippo1 v)
 end
 ```
 
@@ -87,7 +87,7 @@ end
 
 --- task ---
 
-أنشئ متغيرًا جديدًا يُسمى `السرعة` بحيث يكون هذا المتغير للكائن `Hippo` فقط.
+أنشئ متغيرًا جديدًا يُسمى `السرعة`{:class="block3variables"} بحيث يكون هذا المتغير للكائن `Hippo` فقط.
 
 [[[generic-scratch3-add-variable]]]
 
@@ -102,10 +102,10 @@ end
 عندما تبدأ كل نسخة من كائن `الفرس`، اختر سرعة وموقع بدء عشوائيَين. ثم أظهرها على الشاشة.
 
 ```blocks3
-عندما تبدأ نسخة مني
-اجعل [speed v] مساوياً (اختر عدداً عشوائياً بين (2) و (4))
-اذهب إلى الموضع س: (اختر عدداً عشوائياً بين (-220) و (220)) ص: (150)
-اظهر
+when I start as a clone
+set [السرعة v] to (pick random (2) to (4))
+go to x: (pick random (-220) to (220)) y: (150)
+show
 ```
 
 --- /task ---
@@ -123,12 +123,12 @@ end
 يجب أن يتحرك كل فرس النهر بشكل عشوائي حتى تصطدم به صاعقة البرق. لتحقيق ذلك، قم بإرفاق هذه التعليمات البرمجية أسفل الكتل الموجودة بالفعل في النص البرمجي للكائن `Hippo`:
 
 ```blocks3
-كرِّر حتى <touching (lightning v) ?> 
-  تحرك (speed :: variables) خطوة
-  استدر ↻ (عدد عشوائي بين (-10) و (10)) درجة
-  ارتد إذا كنت عند الحافة
+repeat until <touching (lightning v) ?>
+	move (السرعة :: variables) steps
+	turn right (pick random (-10) to (10)) degrees
+	if on edge, bounce
 end
-احذف هذه النسخة
+delete this clone
 ```
 
 --- /task ---

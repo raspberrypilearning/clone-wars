@@ -4,17 +4,16 @@
 
 --- task ---
 
-أضف تعليمات برمجية إلى كائن سفينة الفضاء لجعلها `تبث` الرسالة "اصطدام" عندما تلمس سفينة الفضاء `فرس النهر`.
+أضف تعليمات برمجية إلى كائن سفينة الفضاء لجعلها `تبث`{:class="block3events"} الرسالة "اصطدام" عندما تلمس سفينة الفضاء `فرس النهر`{:class="block3sensing"}.
 
 ![كائن الصاروخ](images/rocket-sprite.png)
 
 ```blocks3
-عند نقر ⚑
-غيِّر المظهر إلى (normal v)
-انتظر حتى <touching (Hippo1 v)>
-غيِّر المظهر إلى (hit v)
-
-+ بث (hit v)
+when flag clicked
+switch costume to (normal v)
+wait until <touching (Hippo1 v)>?
+switch costume to (hit v)
++ broadcast (hit v)
 ```
 
 --- /task ---
@@ -26,8 +25,8 @@
 ![كائن فرس النهر](images/hippo-sprite.png)
 
 ```blocks3
-عندما تستقبل [hit v]
-احذف هذه النسخة
+when I receive [hit v]
+delete this clone
 ```
 
 --- /task ---
@@ -44,18 +43,18 @@
 
 --- task ---
 
-أضف كتلة `انتظر` في نهاية التعليمات البرمجية لكائن `Spaceship` لإنشاء وقفة صغيرة قبل أن تبدأ فرس النهر بالظهور مرة أخرى. ثم أضف لبنة `كرر باستمرار` حول جميع التعليمات البرمجية الخاصة بك لتشغيل الكود بشكل متكرر.
+أضف كتلة `انتظر`{:class="block3control"} في نهاية التعليمات البرمجية لكائن `Spaceship` لإنشاء وقفة صغيرة قبل أن تبدأ فرس النهر بالظهور مرة أخرى. ثم أضف لبنة `كرر باستمرار`{:class="block3control"} حول جميع التعليمات البرمجية الخاصة بك لتشغيل الكود بشكل متكرر.
 
 ![كائن الصاروخ](images/rocket-sprite.png)
 
 ```blocks3
-عند نقر ⚑
-كرِّر باستمرار 
- غيِّر المظهر إلى (normal v)
- انتظر حتى <touching (Hippo1 v)>
- غيِّر المظهر إلى (hit v)
- بث (hit v)
- + انتظر (1) ثانية
+when flag clicked
+forever
+switch costume to (normal v)
+wait until <touching (Hippo1 v)>?
+switch costume to (hit v)
+broadcast (hit v)
++ wait (1) seconds
 end
 ```
 

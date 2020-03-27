@@ -12,16 +12,16 @@
 
 --- task ---
 
-اجعل الكائن `Bat` `يتحرك` من جانب إلى آخر أعلى المنصة ضمن حلقة `كرِّر باستمرار`.
+اجعل الكائن `Bat` `يتحرك`{:class="block3motion"} من جانب إلى آخر أعلى المنصة ضمن حلقة `كرِّر باستمرار`{:class="block3control"}.
 
 ![كائن الخفاش](images/bat-sprite.png)
 
 ```blocks3
-عند نقر ⚑
-اجعل الحجم مساويًا (50) ٪
-كرِّر باستمرار 
-  تحرك (10) خطوة
-  ارتد إذا كنت عند الحافة
+when flag clicked
+set size to (50) %
+forever
+    move (10) steps
+    if on edge, bounce
 end
 ```
 
@@ -35,14 +35,14 @@ end
 
 --- task ---
 
-استخدم لبنة `المظهر التالي` لتجعل الخفاش يضرب بجناحيه أثناء تحركه.
+استخدم لبنة `المظهر التالي`{:class="block3looks"} لتجعل الخفاش يضرب بجناحيه أثناء تحركه.
 
 --- hints ---
 
 
 --- hint ---
 
-بعد أن يتحرك الخفاش، يجب أن يظهر `المظهر التالي` ثم `ينتظر` لفترة قصيرة.
+بعد أن يتحرك الخفاش، يجب أن يظهر `المظهر التالي`{:class="block3looks"} ثم `ينتظر`{:class="block3control"} لفترة قصيرة.
 
 --- /hint ---
 
@@ -51,9 +51,9 @@ end
 تحتاج إلى إضافة هذه الكتل للكود الخاصة بك:
 
 ```blocks3
-انتظر (0.3) ثانية
+wait (0.3) seconds
 
-المظهر التالي
+next costume
 ```
 
 --- /hint ---
@@ -63,14 +63,13 @@ end
 يجب أن تبدو التعليمات البرمجية خاصتك بالشكل التالي:
 
 ```blocks3
-عند نقر ⚑
-اجعل الحجم مساويًا (50) ٪
-كرِّر باستمرار 
- تحرك (10) خطوة
- ارتد إذا كنت عند الحافة
-
- + المظهر التالي
- + انتظر (0.3) ثانية
+when flag clicked
+set size to (50) %
+forever
+move (10) steps
+if on edge, bounce
++ next costume
++ wait (0.3) seconds
 end
 ```
 
@@ -92,15 +91,15 @@ end
 
 --- task ---
 
-أضف تعليمات برمجية إلى خفاشك بحيث `عند النقر على العلم `، فإن كائن `الخفاش` `إلى الأبد` `ينتظر` فترة زمنية عشوائية` `، بين `٥ إلى ١٠` ثانية، ثم `ينشيء نسخة` من كائن `البرتقالة`.
+أضف تعليمات برمجية إلى خفاشك بحيث `عند النقر على العلم`{:class="block3events"}، فإن كائن `الخفاش` `إلى الأبد`{:class="block3control"} `ينتظر`{:class="block3control"} `فترة زمنية عشوائية`{:class="block3operators"}، بين `٥ إلى ١٠`{:class="block3operators"} ثانية، ثم `ينشيء نسخة`{:class="block3control"} من كائن `البرتقالة`.
 
 ![كائن الخفاش](images/bat-sprite.png)
 
 ```blocks3
-عند نقر ⚑
-كرِّر باستمرار 
-  انتظر (عدد عشوائي بين (5) و (10)) ثانية
-  أنشئ نسخة من (Orange v)
+when flag clicked
+forever
+	wait (pick random (5) to (10)) secs
+	create clone of (Orange v)
 end
 ```
 
@@ -116,13 +115,13 @@ end
     عند نقر ⚑
     اختفِ
 
-    عندما تبدأ نسخة مني
-    اذهب إلى (Bat v)
-    اظهر
-    كرِّر حتى< ملامس لـ (edge v)
-        غيِّر الموضع ص بمقدار (-4)
-    end
-    احذف هذه النسخة
+    when I start as a clone
+	  go to (Bat v)
+	  show
+	  repeat until <touching (edge v)?
+		  change y by (-4)
+	  end
+	  delete this clone
 ```
 
 --- /task ---
@@ -134,8 +133,8 @@ end
 ![كائن البرتقالة](images/orange-sprite.png)
 
 ```blocks3
-    عندما تستقبل [hit v]
-    احذف هذه النسخة
+    when I receive [hit v]
+	  delete this clone
 ```
 
 --- /task ---

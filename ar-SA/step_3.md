@@ -19,8 +19,8 @@
 ![كائن البرق](images/lightning-sprite.png)
 
 ```blocks3
-عند نقر ⚑
-اختف
+when green flag clicked
+hide
 ```
 
 --- /task ---
@@ -34,8 +34,8 @@
 ![كائن البرق](images/lightning-sprite.png)
 
 ```blocks3
-اجعل الحجم مساوياً (25) %
-اتجه نحو الاتجاه (-90 v)
+set size to (25) %
+point in direction (-90)
 ```
 
 الآن يبدو أنها تطلق نهاية مدببة - أولاً من سفينة الفضاء.
@@ -51,7 +51,7 @@
 
 --- hint ---
 
-`عند النقر فوق العلم الأخضر`، استمر في التحقق `إلى الأبد` `إذا` تم الضغط على `مفتاح المسافة`، في هذه الحالة `أنشئ نسخة من كائن البرق`.
+`عند النقر فوق العلم الأخضر`{:class="block3events"}، استمر في التحقق `إلى الأبد`{:class="block3control"} `إذا`{:class="block3control"} تم الضغط على `مفتاح المسافة`{:class="block3sensing"}، في هذه الحالة `أنشئ نسخة من كائن البرق`{:class="block3control"}.
 
 --- /hint ---
 
@@ -60,17 +60,17 @@
 إليك الكتل التي تحتاجها:
 
 ```blocks3
-إذا <>
+if <> then
 end
 
-كرِّر باستمرار
+forever
 end
 
-أنشئ نسخة من (Lightning v)
+create clone of (Lightning v)
 
 <key (space v) pressed?>
 
-عند نقر ⚑
+when flag clicked
 ```
 
 --- /hint ---
@@ -82,11 +82,11 @@ end
 ![كائن الصاروخ](images/rocket-sprite.png)
 
 ```blocks3
-عند نقر ⚑
-كرِّر باستمرار 
-  إذا <key (space v) pressed?> 
-    أنشئ نسخة من (Lightning v)
-  end
+when flag clicked
+forever
+	if <key (space v) pressed?> then
+		create clone of (Lightning v)
+	end
 end
 ```
 
@@ -105,13 +105,13 @@ end
 ![كائن البرق](images/lightning-sprite.png)
 
 ```blocks3
-    عندما تبدأ نسخة مني
-    اذهب إلى (Spaceship v)
-    اظهر
-    كرِّر حتى <touching (edge v) ?> 
-        غيِّر الموضع ص بمقدار (10)
-    end
-    احذف هذه النسخة
+  when I start as a clone
+	go to (Spaceship v)
+  show
+	repeat until <touching (edge v) ?>
+		change y by (10)
+	end
+	delete this clone
 ```
 
 --- /task ---
