@@ -25,18 +25,18 @@ Acrescenta este código ao ator da nave espacial para fazer com que a nave se mo
 ![ator Foguetão](images/rocket-sprite.png)
 
 ```blocks3
-    quando alguém clicar na bandeira verde
-repete para sempre 
-  se <a tecla (left arrow v) está a ser pressionada>, então 
-    adiciona (-4) ao teu x
-  end
-end
+    when flag clicked
+    forever
+        if <key (left arrow v) pressed?> then
+            change x by (-4)
+        end
+    end
 ```
 
 O eixo dos x vai do lado esquerdo do palco para o lado direito. Isto significa que a nave espacial se move para a esquerda quando se subtrai ao valor do ` x ` da posição do ator nave espacial. Portanto, este bloco de código é a parte que faz com que a tua nave espacial se mova para a esquerda:
 
 ```blocks3
-adiciona (-4) ao teu x
+change x by (-4)
 ```
 
 \--- /task \---
@@ -70,8 +70,8 @@ Aqui está o código que vai ter que adicionar por baixo do código dentro do Bl
 ![ator foguetão](images/rocket-sprite.png)
 
 ```blocks3
-se <a tecla (right arrow v) está a ser pressionada>, então 
-  adiciona (4) ao teu x
+if <key (right arrow v) pressed?> then
+    change x by (4)
 end
 ```
 
