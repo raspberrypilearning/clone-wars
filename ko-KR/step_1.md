@@ -1,18 +1,18 @@
 \--- no-print \---
 
-This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/clone-wars-scratch2).
+이것은 **스크래치 3** 버전의 프로젝트입니다. [스크래치 2 버전의 프로젝트도 있습니다](https://projects.raspberrypi.org/en/projects/clone-wars-scratch2).
 
 \--- /no-print \---
 
-## Introduction
+## 소개
 
-In this project you will learn how to create a game in which you have to save the Earth from space monsters.
+이 프로젝트에서는 외계생명체의 지구 침공을 막는 게임을 만드는 법을 배웁니다.
 
-### What you will make
+### 만들 작품
 
 \--- no-print \---
 
-Click the green flag in the example game below to start, and then press the <kbd>left</kbd> and <kbd>right</kbd> arrow keys to move the spaceship, and the <kbd>space</kbd> key to shoot.
+게임 화면 아래쪽에 등장하는 예시 게임에 있는 녹색 깃발을 클릭해서 시작하고, <kbd>왼쪽</kbd> 및 <kbd>오른쪽</kbd> 화살표 키를 눌러 우주선을 움직이고 <kbd>스페이스</kbd>키를 눌러 공격하세요.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/276887163/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -21,52 +21,52 @@ Click the green flag in the example game below to start, and then press the <kbd
 
 \--- /no-print \---
 
-Score as many points as you can by shooting flying space-hippos. If you get hit by a hippo or by an orange dropped by the bats, you lose a life.
+우주 공간을 헤엄치고 있는 하마를 쏴서 가능한 한 많은 점수를 얻으십시오. 하마에게 공격을 당하거나 박쥐가 떨어뜨린 오렌지에 맞으면 생명을 잃습니다.
 
 \--- print-only \---
 
-![desc](images/showcase.png)
+![내림차순](images/showcase.png)
 
 \--- /print-only \---
 
 ## \--- collapse \---
 
-## title: What you will need
+## 제목: 준비물
 
-### Hardware
+### 하드웨어
 
-+ A computer capable of running Scratch 3
++ 스크래치 3을 실행할 수 있는 컴퓨터
 
-### Software
+### 소프트웨어
 
-+ Scratch 3 (either [online](https://rpf.io/scratchon){:target="_blank"} or [offline](https://rpf.io/scratchoff){:target="_blank"})
++ 스크래치 3 ([온라인](https://rpf.io/scratchon) 또는 [오프라인](https://rpf.io/scratchoff))
 
-### Downloads
+### 다운로드
 
-[Find the downloads here](http://rpf.io/p/en/clone-wars-go).
-
-\--- /collapse \---
-
-## \--- collapse \---
-
-## title: What you will learn
-
-+ How to make sprites move using keyboard input
-+ How to clone sprites to make copies of them
-+ How to use 'broadcast' and 'receive blocks' to send messages
+[여기에서 다운로드할 파일을 찾으십시오](http://rpf.io/p/en/clone-wars-go).
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: Additional notes for educators
+## title: 배우게 될 것
+
++ 키보드 입력을 사용한 스프라이트 이동 방법
++ 스프라이트를 복제하는 방법
++ '브로드캐스트' 및 '블록 수신' 기능을 사용하여 메시지를 보내는 방법
+
+-- /collapse \---
+
+## \--- collapse \---
+
+## title: 교육자를 위한 참고사항
 
 \--- no-print \---
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/clone-wars/print){:target="_blank"}.
+이 프로젝트를 인쇄하시려면 [프린트용 버전](https://projects.raspberrypi.org/en/projects/clone-wars/print){:target="_blank"}을 사용해 주십시오.
 
 \--- /no-print \---
 
-You can find the [completed project here](http://rpf.io/p/en/clone-wars-get).
+여기서 [완성된 프로젝트의 내용을 확인할 수 있습니다](http://rpf.io/p/en/clone-wars-get).
 
 \--- /collapse \---
