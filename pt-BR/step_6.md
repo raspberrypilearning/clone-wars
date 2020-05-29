@@ -1,42 +1,42 @@
-## Spaceship explosion
+## Explosão da nave espacial
 
-When a hippo touches your spaceship, the spaceship should explode!
+Quando um hipopótamo toca sua nave espacial, a nave espacial deve explodir!
 
 \--- task \---
 
-Select the `Spaceship` sprite and rename its costume 'normal'.
+Selecione o ator `nave` e renomeie sua fantasia para 'normal'.
 
 \--- /task \---
 
 \--- task \---
 
-Draw another costume of an exploding spaceship, and call the new costume 'hit'.
+Desenhe outra fantasia de uma nave espacial explodindo e chame a nova fantasia de 'atingida'.
 
-![screenshot](images/invaders-spaceship-costumes.png)
+![captura de tela](images/invaders-spaceship-costumes.png)
 
-If you don't want to draw the explosion, you can select the 'Sun' costume from the Scratch library, and then use the **Color a shape** tool to change the costume's colour and face.
+Se você não quiser desenhar a explosão, você pode selecionar a fantasia 'Sun' da biblioteca Scratch e, em seguida, usar a ferramenta **Pintar** para mudar a cor e o aspecto da fantasia.
 
-![screenshot](images/invaders-sun.png)
+![captura de tela](images/invaders-sun.png)
 
 \--- /task \---
 
 \--- task \---
 
-Add some code to your `Spaceship` sprite so that it displays the 'normal' costume when the game starts, and switches to the 'hit' costume when it touches a hippo:
+Adicione código ao seu ator `nave` para que ele exiba a fantasia 'normal' quando o jogo começar, e mude para a fantasia de 'atingida' quando tocar em um hipopótamo:
 
-![rocket sprite](images/rocket-sprite.png)
+![ator foguete](images/rocket-sprite.png)
 
 ```blocks3
-when flag clicked
-switch costume to (normal v)
-wait until <touching (Hippo1 v)>?
-switch costume to (hit v)
+quando ⚑ for clicado
+mude para a fantasia (normal v)
+espere até que <touching (Hippo1 v)>
+mude para a fantasia (hit v)
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Test your code. Make the spaceship collide with a hippo. Does the spaceship change to the 'hit' costume?
+Teste seu código. Faça a nave espacial colidir com um hipopótamo. A nave espacial muda para a fantasia 'atingida'?
 
 \--- /task \---
