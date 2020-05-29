@@ -1,10 +1,10 @@
-## Lightning bolts
+## विद्युत तीर
 
-Now you are going to give the spaceship the ability to fire lightning bolts!
+अब आप अंतरिक्ष यान को विद्युत तीर मारने की क्षमता देने जा रहे हैं!
 
 \--- task \---
 
-Add the `Lightning` sprite from the Scratch library.
+स्क्रैच लाइब्रेरी से `विद्युत` स्प्राइट को जोडें |
 
 [[[generic-scratch3-sprite-from-library]]]
 
@@ -12,11 +12,11 @@ Add the `Lightning` sprite from the Scratch library.
 
 \--- task \---
 
-When the game starts, the `Lightning` sprite should be hidden until the spaceship fires its laser cannons.
+जब खेल शुरू होता है, तो `विद्युत` स्प्राइट को तब तक छिपाया जाना चाहिए जब तक कि अंतरिक्ष यान अपनी लेजर तोपें ना दगाये।
 
-Add this code to the `Lightning` sprite:
+इस कोड को अपने `विद्युत` स्प्राइट में जोड़ें:
 
-![lightning sprite](images/lightning-sprite.png)
+![lightning स्प्राइट](images/lightning-sprite.png)
 
 ```blocks3
 when green flag clicked
@@ -25,38 +25,38 @@ hide
 
 \--- /task \---
 
-At the moment, the lightning bolt is really big compared to the spaceship!
+इस समय, अंतरिक्ष यान की तुलना में विद्युत तीर काफी बड़ा है!
 
 \--- task \---
 
-Below the code that the `Lightning` sprite already has, add some blocks to make the sprite smaller and to turn it upside down.
+`विद्युत` स्प्राइट का कोड जो पहले से वहाँ है, के नीचे, स्प्राइट को छोटा करने के लिए और इसे उल्टा करने के लिए कुछ ब्लॉक जोड़ें।
 
-![lightning sprite](images/lightning-sprite.png)
+![lightning स्प्राइट](images/lightning-sprite.png)
 
 ```blocks3
 set size to (25) %
 point in direction (-90)
 ```
 
-Now it looks like it fires pointy end–first out of the spaceship.
+अब ऐसा लग रहा है कि यह अंतरिक्ष-यान के नुकीले हिस्से से फायर करता है।
 
 \--- /task \---
 
 \--- task \---
 
-Add some new code to the `Spaceship` sprite to create a new clone of the lightning bolt if the <kbd>space</kbd> key is pressed.
+<kbd>अंतरिक्ष</kbd> बटन दबने पर विद्युत तीर की नयी प्रतिलिपि बनाने के लिए `अंतरिक्ष-यान` स्प्राइट में कुछ नया कोड जोड़ते हैं |
 
 \--- hints \---
 
 \--- hint \---
 
-`When the green flag is clicked`{:class="block3events"}, keep checking `forever`{:class="block3control"} `if`{:class="block3control"} the `space key is pressed`{:class="block3sensing"}, and in that case `create a clone of the Lightning`{:class="block3control"} sprite.
+` जब हरे झंडे को क्लिक किया जाता है` {:class="block3events"}, चेक करते रहें `forever`{:class="block3control"} `if` {:class="block3control"} `अंतरिक्ष कुंजी दबाया जाता है` {:class="block3sensing"}, और उस स्थिति में `विद्युत की एक प्रतिलिपि बनाएं` {:class="block3control"} स्प्राइट।
 
 \--- /hint \---
 
 \--- hint \---
 
-Here are the blocks you need:
+इन ब्लॉक्स की आपको आवश्यकता होगी:
 
 ```blocks3
 if <> then
@@ -76,9 +76,9 @@ when flag clicked
 
 \--- hint \---
 
-Here is what your new code should look like:
+यहाँ आपका नया कोड कुछ ऐसा दिखना चाहिए:
 
-![rocket sprite](images/rocket-sprite.png)
+![रॉकेट स्प्राइट](images/rocket-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -97,11 +97,11 @@ end
 
 \--- task \---
 
-Whenever the game creates a `Lightning` sprite clone, the clone should appear and then move upwards until it reaches the top of the Stage. Then the clone should disappear.
+जब भी खेल `Lightning` स्प्राइट की प्रतिलिपि बनाता है, तब प्रतिलिपि दिखाई देनी चाहिए और इसे ऊपर की ओर तब तक बढ़ना चाहिए जब तक की वो स्टेज के शिखर तक ना पहुँच जाये | उसके बाद प्रतिलिपि गायब हो जानी चाहिए |
 
-Add this code to the `Lightning` sprite so that clones of it move upwards until they touch the edge of the Stage, and then they get deleted.
+इस कोड को `Lightning` स्प्राइट में जोड़ें जिससे कि इसकी प्रतिलिपियाँ ऊपर की ओर तब तक बढ़ें जब तक कि वो स्टेज के किनारे तक न पहुँच जाएं, और उसके बाद गायब हो जाएं |
 
-![lightning sprite](images/lightning-sprite.png)
+![lightning स्प्राइट](images/lightning-sprite.png)
 
 ```blocks3
     when I start as a clone
@@ -117,6 +117,6 @@ Add this code to the `Lightning` sprite so that clones of it move upwards until 
 
 \--- task \---
 
-Press the <kbd>space</kbd> key to test whether the lightning bolt moves correctly.
+विद्युत तीर सही से स्थानांतरित हो रहा है कि नहीं यह परीक्षण करने के लिए <kbd>space</kbd> बटन दबाएं |
 
 \--- /task \---
