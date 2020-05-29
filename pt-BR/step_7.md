@@ -1,12 +1,12 @@
-## Hippos that disappear
+## Hipopótamos que desaparecem
 
-When the spaceship explodes, all the hippos should disappear so that players of the game can recover.
+Quando a nave espacial explodir, todos os hipopótamos devem desaparecer para que os jogadores do jogo possam se recuperar.
 
 \--- task \---
 
-Add code to the spaceship sprite to make it `broadcast`{:class="block3events"} the message "hit" when the `spaceship touches a hippo`{:class="block3sensing"}.
+Acrescente código ao ator nave espacial para que ele `transmita` {:class="block3events"} a mensagem "atingida" quando a `nave toca em um hipopótamo`{:class="block3sensing"}.
 
-![rocket sprite](images/rocket-sprite.png)
+![ator foguete](images/rocket-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -21,9 +21,9 @@ switch costume to (hit v)
 
 \--- task \---
 
-All of the `Hippo` sprite clones will receive the "hit" message, and you can instruct them to disappear when the spaceship is hit by adding this code to the `Hippo` sprite:
+Todos os clones do ator `hipopótamo1` receberão a mensagem "atingida" e você pode instruí-los a desaparecer quando a nave espacial é atingida adicionando este código ao ator `hipopótamo1`:
 
-![hippo sprite](images/hippo-sprite.png)
+![ator hipopótamo](images/hippo-sprite.png)
 
 ```blocks3
 when I receive [hit v]
@@ -34,19 +34,19 @@ delete this clone
 
 \--- task \---
 
-To check whether the new code works, click the green flag and make the spaceship collide with a hippo.
+Para verificar se o novo código funciona, clique na bandeira verde e faça a nave espacial colidir com um hipopótamo.
 
-![screenshot](images/invaders-hippo-collide.png)
+![captura de tela](images/invaders-hippo-collide.png)
 
 \--- /task \---
 
-After the spaceship explodes, new `Hippo` clones appear, but the spaceship is still exploded! The spaceship needs to reset itself after being hit.
+Depois que a nave espacial explode, novos clones `hipopótamo1` aparecem, mas a nave espacial ainda está explodida! A nave espacial precisa ser reiniciada após ser atingida.
 
 \--- task \---
 
-Add a `wait`{:class="block3control"} block at the end of the `Spaceship` sprite's code to create a small pause before hippos begin appearing again. Then add a `forever`{:class="block3control"} block around all of your code to make the code run repeatedly.
+Adicione um bloco `espere`{:class="block3control"} no final do código do ator `nave` para criar uma pequena pausa antes que os hipopótamos comecem a aparecer novamente. Em seguida, adicione um bloco `sempre`{:class="block3control"} ao redor de todo o seu código para fazer com que o código seja executado repetidamente.
 
-![rocket sprite](images/rocket-sprite.png)
+![ator foguete](images/rocket-sprite.png)
 
 ```blocks3
 when flag clicked
