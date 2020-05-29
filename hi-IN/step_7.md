@@ -1,12 +1,12 @@
-## Hippos that disappear
+## दरियाई-घोड़े जो गायब हो जाते हैं
 
-When the spaceship explodes, all the hippos should disappear so that players of the game can recover.
+जब अंतरिक्ष यान फटता है, तो सभी हिप्पो को गायब हो जाना चाहिए ताकि गेम के खिलाड़ी ठीक हो सकें।
 
 \--- task \---
 
-Add code to the spaceship sprite to make it `broadcast`{:class="block3events"} the message "hit" when the `spaceship touches a hippo`{:class="block3sensing"}.
+अपने 'spaceship' स्प्राइट में कुछ कोड जोड़ें जिससे कि वह दरियाई-घोड़े को छूने पर 'hit' संदेश प्रसारित कर सके |
 
-![rocket sprite](images/rocket-sprite.png)
+![रॉकेट स्प्राइट](images/rocket-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -21,9 +21,9 @@ switch costume to (hit v)
 
 \--- task \---
 
-All of the `Hippo` sprite clones will receive the "hit" message, and you can instruct them to disappear when the spaceship is hit by adding this code to the `Hippo` sprite:
+सभी `Hippo` स्प्राइट क्लोन को "hit" संदेश प्राप्त होगा, और आप इस कोड को `Hippo` स्प्राइट में जोड़कर, अंतरिक्ष-यान से टक्कर होने पर, उन्हें गायब होने का निर्देश दे सकते हैं |
 
-![hippo sprite](images/hippo-sprite.png)
+![hippo स्प्राइट](images/hippo-sprite.png)
 
 ```blocks3
 when I receive [hit v]
@@ -34,19 +34,19 @@ delete this clone
 
 \--- task \---
 
-To check whether the new code works, click the green flag and make the spaceship collide with a hippo.
+यह जांचने के लिए कि नया कोड काम करता है या नहीं, हरी झंडी पर क्लिक करें और अंतरिक्ष-यान की दरियाई-घोड़े से टक्कर कराएं।
 
-![screenshot](images/invaders-hippo-collide.png)
+![स्क्रीनशॉट](images/invaders-hippo-collide.png)
 
 \--- /task \---
 
-After the spaceship explodes, new `Hippo` clones appear, but the spaceship is still exploded! The spaceship needs to reset itself after being hit.
+अंतररिक्ष-यान के फटने के बाद, नए `Hippo` क्लोन दिखाई देते हैं, लेकिन अंतरिक्ष-यान अभी भी फटा हुआ है! अंतरिक्ष-यान की टक्कर होने के बाद उसे खुद को फिर से पुरानी अवस्था में लाना होगा |
 
 \--- task \---
 
-Add a `wait`{:class="block3control"} block at the end of the `Spaceship` sprite's code to create a small pause before hippos begin appearing again. Then add a `forever`{:class="block3control"} block around all of your code to make the code run repeatedly.
+`Spaceship` स्प्राइट के कोड के अंत में `wait`{:class="block3control"} ब्लॉक जोड़ें जिससे दरियाई-घोड़े पुनः प्रदर्शित होने से पहले एक छोटा सा अंतराल जोड़ा जा सके | उसके बाद, कोड को लगातार चलते रहने देने के लिए अपने कोड को `forever`{:class="block3control"} ब्लॉक से बंद करें |
 
-![rocket sprite](images/rocket-sprite.png)
+![रॉकेट स्प्राइट](images/rocket-sprite.png)
 
 ```blocks3
 when flag clicked
