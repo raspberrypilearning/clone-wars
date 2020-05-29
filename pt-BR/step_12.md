@@ -1,10 +1,10 @@
-## What next?
+## E agora?
 
-Have a go at our [Create your own world](https://projects.raspberrypi.org/en/projects/create-your-own-world?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) project, where you’ll create your own adventure game!
+Experimente o projeto [Crie seu próprio mundo](https://projects.raspberrypi.org/en/projects/create-your-own-world?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) onde você vai criar o seu próprio jogo de aventuras!
 
 \--- no-print \---
 
-Click the green flag to start. Use the arrow keys to move your character around in the world.
+Clique na bandeira verde para começar. Use as setas do teclado para mover seu personagem pelo mundo.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/258757783/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -15,6 +15,6 @@ Click the green flag to start. Use the arrow keys to move your character around 
 
 \--- print-only \---
 
-You'll use the arrow keys to move your character around in the world. ![showcase.png](images/create-showcase.png)
+Use os cursores para mover seu personagem ao pelo mundo. ![showcase.png](images/create-showcase.png)
 
 \--- /print-only \---
