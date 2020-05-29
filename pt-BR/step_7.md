@@ -11,7 +11,7 @@ Acrescente código ao ator nave espacial para que ele `transmita`{:class="block3
 ```blocks3
 when flag clicked
 switch costume to (normal v)
-wait until <touching (Hippo1 v)>?
+wait until <touching (hipopótamo1 v)>?
 switch costume to (atingida v)
 + broadcast (atingida v)
 ```
@@ -51,7 +51,7 @@ Adicione um bloco `espere`{:class="block3control"} no final do código do ator `
 when flag clicked
 forever
 switch costume to (normal v)
-wait until <touching (Hippo1 v)>?
+wait until <touching (hipopótamo1 v)>?
 switch costume to (atingida v)
 broadcast (atingida v)
 + wait (1) seconds

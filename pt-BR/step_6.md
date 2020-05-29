@@ -29,8 +29,8 @@ Adicione código ao seu ator `nave` para que ele exiba a fantasia 'normal' quand
 ```blocks3
 quando ⚑ for clicado
 mude para a fantasia (normal v)
-espere até que <touching (Hippo1 v)>
-mude para a fantasia (hit v)
+espere até que <touching (hipopótamo1 v)>
+mude para a fantasia (atingida v)
 ```
 
 --- /task ---

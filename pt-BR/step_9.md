@@ -62,13 +62,13 @@ próxima fantasia
 Seu código deve ficar assim:
 
 ```blocks3
-quando ⚑ for clicado
-defina o tamanho como (50) %
-sempre 
-  mova (10) passos
-  se tocar na borda, volte
-  + próxima fantasia
-  + espere (0.3) seg
+when flag clicked
+set size to (50) %
+forever
+move (10) steps
+if on edge, bounce
++ next costume
++ wait (0.3) seconds
 end
 ```
 
@@ -145,7 +145,7 @@ Modifique o código do seu ator `nave` para que o ator seja "atingido" quando el
 ![ator foguete](images/rocket-sprite.png)
 
 ```blocks3
-    wait until < <touching (Hippo1 v)?> or <touching (laranja v)?>>
+    wait until < <touching (hipopótamo1 v)?> or <touching (laranja v)?>>
 ```
 
 --- /task ---
