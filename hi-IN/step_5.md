@@ -1,18 +1,18 @@
-## Space-hippos
+## अंतरिक्षीय दरियाई घोड़े
 
-Now you're going to add lots of flying hippos that try to destroy your spaceship.
+अब आप बहुत सारे उड़ते हुए दरियाई घोड़े जोड़ने जा रहे हैं जो आपके अंतरिक्ष-यान को नष्ट करने की कोशिश करते हैं।
 
 \--- task \---
 
-Create a new sprite with the 'Hippo1' image in the Scratch library. Use the **shrink** tool to make the `Hippo` sprite a similar size to the `Spaceship` sprite.
+स्क्रैच लाइब्रेरी में 'Hippo1' इमेज के साथ एक नया स्प्राइट बनाएं। `Spaceship` स्प्राइट के आकर का `Hippo` स्प्राइट बनाने के लिए **shrink** टूल का प्रयोग करें।
 
-![screenshot](images/invaders-hippo.png)
+![स्क्रीनशॉट](images/invaders-hippo.png)
 
 \--- /task \---
 
 \--- task \---
 
-Set the `Hippo` sprite's rotation style to **left-right**.
+`Hippo` स्प्राइट की रोटेशन शैली को **left-right** सेट करें |
 
 [[[generic-scratch3-sprite-rotation-style]]]
 
@@ -20,9 +20,9 @@ Set the `Hippo` sprite's rotation style to **left-right**.
 
 \--- task \---
 
-Add some code to hide the `Hippo` sprite when the game starts.
+गेम के शुरू होने पर `Hippo` को छिपाने के लिए कुछ कोड जोड़ते हैं |
 
-![hippo sprite](images/hippo-sprite.png)
+![दरियाई-घोड़ा स्प्राइट](images/hippo-sprite.png)
 
 ```blocks3
 when green flag clicked
@@ -33,19 +33,19 @@ hide
 
 \--- task \---
 
-Add some code to the Stage to create a new `Hippo` clone every few seconds.
+हर सेकण्ड `Hippo` का एक नया क्लोन बनाने के लिए स्टेज में कुछ कोड जोड़ते हैं |
 
 \--- hints \---
 
 \--- hint \---
 
-When the `green flag is clicked`{:class="block3events"}, `repeatedly`{:class="block3control"} `wait`{:class="block3control"} `between 2 and 4 seconds`{:class="block3operators"} and then `create a clone of the Hippo sprite`{:class="block3control"}.
+` जब हरे झंडे को क्लिक किया जाता है` {:class="block3events"}, चेक करते रहें `forever`{:class="block3control"} `if` {:class="block3control"} `अंतरिक्ष कुंजी दबाया जाता है` {:class="block3sensing"}, और उस स्थिति में `दरियाई घोड़े की एक प्रतिलिपि बनाएं` {:class="block3control"} स्प्राइट।
 
 \--- /hint \---
 
 \--- hint \---
 
-Here are the blocks you need:
+इन ब्लॉक्स की आपको आवश्यकता होगी:
 
 ```blocks3
 forever
@@ -64,9 +64,9 @@ wait () secs
 
 \--- hint \---
 
-This is what your code should look like:
+आपका कोड कुछ ऐसा दिखना चाहिए:
 
-![stage sprite](images/stage-sprite.png)
+![स्टेज स्प्राइट](images/stage-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -82,23 +82,23 @@ end
 
 \--- /task \---
 
-Each new hippo clone should appear at a random `x` position, and every clone should have a random speed.
+प्रत्येक नया दरियाई-घोडा एक यादृच्छिक `x` स्थिति पर दिखना चाहिए, और प्रत्येक क्लोन की एक यादृच्छिक गति होनी चाहिए |
 
 \--- task \---
 
-Create a new variable called `speed`{:class="block3variables"} that is for the `Hippo` sprite only.
+`speed`{:class="block3variables"} नाम का एक नया चर बनाएं जो कि सिर्फ `Hippo` स्प्राइट के लिए होगा |
 
 [[[generic-scratch3-add-variable]]]
 
-When you've done this correctly, the variable has the name of the sprite next to it, like this:
+जब आप इसे सही ढंग से कर लेंगे, तब चर का नाम उसके पास वाले स्प्राइट का नाम होगा, जैसे कि:
 
-![screenshot](images/invaders-var-test.png)
+![स्क्रीनशॉट](images/invaders-var-test.png)
 
 \--- /task \---
 
 \--- task \---
 
-When each `Hippo` clone starts, pick a random speed and starting place for it. Then show the clone on the screen.
+जब प्रत्येक `Hippo` क्लोन शुरू होता है, इसके लिए एक यादृच्छिक गति और शुरुआती स्थान चुनें। फिर क्लोन को स्क्रीन पर दिखाएं |
 
 ```blocks3
 when I start as a clone
@@ -111,15 +111,15 @@ show
 
 \--- task \---
 
-Test your code. Does a new hippo appear every few seconds?
+अपने कोड का परीक्षण करें। क्या हर कुछ सेकंड में एक नया दरियाई-घोड़ा दिखाई देता है?
 
 \--- /task \---
 
-At the moment the hippos don't move.
+फिलहाल दरियाई-घोड़े नहीं चलते हैं।
 
 \--- task \---
 
-Each hippo should move around randomly until it gets hit by a lightning bolt. To make that happen, attach this code below the blocks that are already in the `Hippo` sprite's code script:
+प्रत्येक दरियाई-घोड़े को तब तक बेतरतीब ढंग से घूमना चाहिए जब तक कि वह विद्युत्-तीर की चपेट में न आ जाए। ऐसा करने के लिए, इस कोड को उन ब्लॉक के नीचे संलग्न करें जो पहले से ही `Hippo` स्प्राइट के कोड स्क्रिप्ट में है:
 
 ```blocks3
 repeat until <touching (lightning v) ?>
@@ -134,11 +134,11 @@ delete this clone
 
 \--- task \---
 
-Test your code again. You should see a new hippo clone appear every few seconds, and each clone should move at a different speed.
+फिर से अपने कोड का परीक्षण करें। आपको हर कुछ सेकंड में एक नया दरियाई-घोड़े का क्लोन दिखाई देना चाहिए, और प्रत्येक क्लोन को एक अलग गति से चलना चाहिए।
 
 \--- no-print \---
 
-![screenshot](images/hippo-clones.gif)
+![स्क्रीनशॉट](images/hippo-clones.gif)
 
 \--- /no-print \---
 
@@ -146,6 +146,6 @@ Test your code again. You should see a new hippo clone appear every few seconds,
 
 \--- task \---
 
-Now test the spaceship's laser cannon. If a lightning bolt hits a hippo, does the hippo vanish?
+अब अंतरिक्ष यान की लेजर तोप का परीक्षण करें। यदि एक विद्युत-तीर एक दरियाई-घोड़े को हिट करता है, तो क्या दरियाई-घोड़ा गायब हो जाता है?
 
 \--- /task \---
