@@ -1,76 +1,76 @@
-## Space-bat
+## Pipistrello spaziale
 
-To make your game a bit harder, you are going to create a bat that throws oranges at the spaceship.
+Per rendere il tuo gioco un po' più difficile, creerai un pipistrello che lancia arance alla navicella.
 
-![a bat throwing an orange at the spaceship](images/bat-oranges.png)
+![un pipistrello che lancia un'arancia all'astronave](images/bat-oranges.png)
 
 \--- task \---
 
-Add a `Bat` sprite and set its rotation style to **left–right**.
+Aggiungi uno sprite `Pipistrello` e imposta la sua rotazione su **sinistra-destra**.
 
 \--- /task \---
 
 \--- task \---
 
-Make the `Bat` sprite `move`{:class="block3motion"} from left to right at the top of the Stage `forever`{:class="block3control"}.
+Fai in modo che lo sprite `Pipistrello` si `muova`{:class="block3motion"} da sinistra a destra nella parte superiore dello Stage `per sempre`{:class="block3control"}.
 
-![bat sprite](images/bat-sprite.png)
+![sprite pipistrello](images/bat-sprite.png)
 
 ```blocks3
-when flag clicked
-set size to (50) %
-forever
-    move (10) steps
-    if on edge, bounce
-end
+quando si fa clic sulla bandiera
+impostare la dimensione su (50)%
+per sempre
+    spostare (10) passi
+    se sul bordo, rimbalzare
+fine
 ```
 
-Remember to test your code.
+Ricorda di provare il tuo codice.
 
 \--- /task \---
 
-If you look at the bat's costumes, you can see that it has four different ones:
+Se guardi i costumi del pipistrello, puoi vedere che ne ha quattro diversi:
 
 ![screenshot](images/invaders-bat-costume.png)
 
 \--- task \---
 
-Use the `next costume`{:class="block3looks"} block to make the bat flap its wings as it moves.
-
-\--- hints \---
+Usa il blocco `prossimo costume`{:class="block3looks"} per far si che il pipistrello batta le ali quando si muove.
 
 \--- hint \---
 
-After the bat has moved, it should show the `next costume`{:class="block3looks"} and then `wait`{:class="block3control"} for a short time.
+\--- hint \---
+
+Dopo che il pipistrello è stato spostato, dovrebbe mostrare il `costume successivo`{:class="block3look"} e poi `attendere`{:class="block3control"} per poco tempo.
 
 \--- /hint \---
 
 \--- hint \---
 
-You need to add these blocks to you code:
+Devi aggiungere questi blocchi al tuo codice:
 
 ```blocks3
-wait (0.3) seconds
+aspettare (0.3) secondi
 
-next costume
+costume successivo
 ```
 
 \--- /hint \---
 
 \--- hint \---
 
-Your code should look like this:
+Il tuo codice dovrebbe assomigliare a questo:
 
 ```blocks3
-when flag clicked
-set size to (50) %
-forever
-move (10) steps
-if on edge, bounce
+quando si fa clic sulla bandiera
+imposta la dimensione a (50) %
+per sempre
+fare (10) passi
+se sul bordo, rimbalza
 
-+ next costume
-+ wait (0.3) seconds
-end
++ prossimo costume
++ aspetta (0.) secondi
+fine
 ```
 
 \--- /hint \---
@@ -79,11 +79,11 @@ end
 
 \--- /task \---
 
-Now make the bat throw oranges!
+Ora fai in modo che il pipistrello lanci le arance!
 
 \--- task \---
 
-Add an `Orange` sprite from the Scratch library.
+Aggiungere lo sprite `Arancia` dalla libreria di Scratch.
 
 ![screenshot](images/invaders-orange.png)
 
@@ -91,68 +91,68 @@ Add an `Orange` sprite from the Scratch library.
 
 \--- task \---
 
-Add code to your bat so that `when the flag is clicked`{:class="block3events"}, the `Bat` sprite `forever`{:class="block3control"} `waits`{:class="block3control"} for a `random`{:class="block3operators"} length of time between `5 to 10`{:class="block3operators"} seconds and then `creates a clone`{:class="block3control"} of the `Orange` sprite.
+Aggiungi del codice al tuo pipistrello in modo che `quando si fa clic sulla bandierina`{:class = "block3events"}, lo sprite `Pipistrello` `attenda`{: class = "block3control"} ` per sempre `{: class = "block3control"} per un intervallo di tempo `casuale` {: class = "block3operators"} `da 5 a 10` {: class = "block3operators"} secondi e poi ` crei un clone ` {: class = "block3control"} dello sprite dell'`Arancia`.
 
-![bat sprite](images/bat-sprite.png)
+![sprite pipistrello](images/bat-sprite.png)
 
 ```blocks3
-when flag clicked
-forever
-    wait (pick random (5) to (10)) secs
-    create clone of (Orange v)
-end
+quando il flag fa clic su
+per sempre
+    attendi (seleziona casuale (da 5) a (10)) secondi
+    crea clone di (Orange v)
+fine
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Add code to the `Orange` to make each of its clone drop, starting from the `Bat` sprite and falling towards the bottom of the Stage.
+Aggiungi codice all'`Arancia` per far cadere ogni clone, partendo dallo sprite del `Pipistrello` e fallo cadere verso il fondo dello Stage.
 
-![orange sprite](images/orange-sprite.png)
+![sprite arancia](images/orange-sprite.png)
 
 ```blocks3
-    when flag clicked
-    hide
+    quando si fa clic sulla bandiera
+nascondi
 
-    when I start as a clone
-    go to (Bat v)
-    show
-    repeat until <touching (edge v)?
-        change y by (-4)
-    end
-    delete this clone
+    quando inizio come un clone
+    vai a (Bat v)
+    mostra
+    ripetizione fino a <toccando (bordo v)?
+        cambia y con (-4)
+    fine
+    elimina questo clone
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Add some more code to the `Orange` sprite so that when an `Orange` clone hits the `Spaceship` sprite, the clone also disappears to give the player a chance to reset:
+Aggiungi altro codice allo sprite dell'`arancia` in modo che quando un suo clone colpisce lo sprite della `navicella`, anche il clone scompare così da dare al giocatore la possibilità di ricominciare:
 
-![orange sprite](images/orange-sprite.png)
+![sprite arancia](images/orange-sprite.png)
 
 ```blocks3
-    when I receive [hit v]
-    delete this clone
+    quando ricevo [premi v]
+    elimina questo clone
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Modify the code of your `Spaceship` sprite so that the sprite is "hit" when it touches a `Hippo` sprite or an `Orange` sprite:
+Modifica il codice dello sprite della `Navicella` in modo che sia "colpito" quando tocca lo sprite di un `Ippopotamo` o uno sprite dell'`Arancia`:
 
-![rocket sprite](images/rocket-sprite.png)
+![sprite razzo](images/rocket-sprite.png)
 
 ```blocks3
-    wait until < <touching (Hippo1 v)?> or <touching (Orange v)?>>
+    aspettare fino a < <touching (Hippo1 v)?> o <touching (Orange v)?>>
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Test your game. What happens if the spaceship gets hit by a falling orange?
+Prova il tuo gioco. Cosa succede se l'astronave viene colpita da un arancia che cade?
 
 \--- /task \---
