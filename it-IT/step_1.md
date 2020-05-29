@@ -12,7 +12,7 @@ In questo progetto imparerai come creare un gioco in cui il giocatore deve salva
 
 \--- no-print \---
 
-Per iniziare clicca sulla bandierina verde nel gioco di esempio qui sotto, poi premi i tasti freccia <kbd>sinistra</kbd> e <kbd>destra</kbd> per spostare la navicella, e il tasto <kbd>spazio</kbd> per sparare.
+Per iniziare fai clic sulla bandierina verde nel gioco di esempio qui sotto, poi premi i tasti freccia <kbd>sinistra</kbd> e <kbd>destra</kbd> per spostare la navicella, e il tasto <kbd>spazio</kbd> per sparare.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/276887163/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -39,11 +39,11 @@ Fai quanti più punti possibile sparando agli ippopotami spaziali volanti. Perde
 
 ### Software
 
-+ Scratch 3 ([online](https://rpf.io/scratchon){:target="_blank"} o [offline](https://rpf.io/scratchoff){:target="_blank"}"})
++ Scratch 3 ([online](https://rpf.io/scratchon){:target="_blank"} o [offline](https://rpf.io/scratchoff){:target="_blank"})
 
 ### Download
 
-[Trova i download qui ](http://rpf.io/p/en/clone-wars-go).
+[Trova i download qui](http://rpf.io/p/en/clone-wars-go).
 
 \--- /collapse \---
 
@@ -67,6 +67,6 @@ Se intendi stampare questo progetto, fai clic su [Versione stampabile](https://p
 
 \--- /no-print \---
 
-Puoi trovare il [progetto completo qui](http://rpf.io/p/en/clone-wars-get){: target="_blank.
+Puoi trovare il [progetto completo qui](http://rpf.io/p/en/clone-wars-get).
 
 \--- /collapse \---
