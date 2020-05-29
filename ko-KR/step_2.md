@@ -1,6 +1,6 @@
-## Make a spaceship
+## 우주선 만들기
 
-First make a spaceship that can defend the Earth!
+지구를 방어할 수 있는 우주선을 만드십시오!
 
 \--- task \---
 
