@@ -1,0 +1,9 @@
+velocidade
+
+normal
+
+atingida
+
+atingida 
+
+Fim de Jogo
