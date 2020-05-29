@@ -1,18 +1,18 @@
 \--- no-print \---
 
-This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/clone-wars-scratch2).
+Esta é a versão **Scratch 3** do projeto. Há também uma versão [Scratch 2 do projeto](https://projects.raspberrypi.org/en/projects/clone-wars-scratch2).
 
 \--- /no-print \---
 
-## Introduction
+## Introdução
 
-In this project you will learn how to create a game in which you have to save the Earth from space monsters.
+Neste projeto você aprenderá como criar um jogo no qual você deve salvar a Terra de monstros espaciais.
 
-### What you will make
+### O que você vai fazer
 
 \--- no-print \---
 
-Click the green flag in the example game below to start, and then press the <kbd>left</kbd> and <kbd>right</kbd> arrow keys to move the spaceship, and the <kbd>space</kbd> key to shoot.
+Clique na bandeira verde no jogo de exemplo abaixo para começar, e depois pressione as setas para <kbd>esquerda</kbd> e <kbd>direita</kbd> para mover a nave espacial, e <kbd>espaço</kbd> para atirar.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/276887163/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -21,7 +21,7 @@ Click the green flag in the example game below to start, and then press the <kbd
 
 \--- /no-print \---
 
-Score as many points as you can by shooting flying space-hippos. If you get hit by a hippo or by an orange dropped by the bats, you lose a life.
+Marque o máximo de pontos que você puder atirando nos hipopótamos espaciais voadores. Se você for atingido por um hipopótamo ou por uma laranja jogada pelos morcegos, você perderá uma vida.
 
 \--- print-only \---
 
@@ -31,42 +31,42 @@ Score as many points as you can by shooting flying space-hippos. If you get hit 
 
 ## \--- collapse \---
 
-## title: What you will need
+## title: O que você vai precisar
 
 ### Hardware
 
-+ A computer capable of running Scratch 3
++ Um computador capaz de executar o Scratch 3
 
 ### Software
 
-+ Scratch 3 (either [online](https://rpf.io/scratchon){:target="_blank"} or [offline](https://rpf.io/scratchoff){:target="_blank"})
++ Scratch 3 ([online](https://rpf.io/scratchon){:target="_blank"} ou [offline](https://rpf.io/scratchoff){:target="_blank"})
 
 ### Downloads
 
-[Find the downloads here](http://rpf.io/p/en/clone-wars-go).
+[Encontre os arquivos para baixar aqui](http://rpf.io/p/en/clone-wars-go).
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: What you will learn
+## title: O que você vai aprender
 
-+ How to make sprites move using keyboard input
-+ How to clone sprites to make copies of them
-+ How to use 'broadcast' and 'receive blocks' to send messages
++ Como fazer os atores se moverem usando o teclado
++ Como clonar atores para fazer cópias deles
++ Como usar 'transmita' e 'receber blocos' para enviar mensagens
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: Additional notes for educators
+## title: Notas adicionais para educadores
 
 \--- no-print \---
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/clone-wars/print){:target="_blank"}.
+Se você precisar imprimir este projeto, por favor, use a [versão para impressão](https://projects.raspberrypi.org/en/projects/clone-wars/print){:target="_blank"}.
 
 \--- /no-print \---
 
-You can find the [completed project here](http://rpf.io/p/en/clone-wars-get).
+Você pode encontrar o [projeto completo aqui](http://rpf.io/p/en/clone-wars-get).
 
 \--- /collapse \---
