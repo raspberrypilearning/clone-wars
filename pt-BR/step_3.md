@@ -1,10 +1,10 @@
-## Lightning bolts
+## Raios elétricos
 
-Now you are going to give the spaceship the ability to fire lightning bolts!
+Agora vamos dar à nave espacial a capacidade de disparar raios!
 
 \--- task \---
 
-Add the `Lightning` sprite from the Scratch library.
+Adicione o ator `Lightning` da biblioteca Scratch, mude o nome dele para raio.
 
 [[[generic-scratch3-sprite-from-library]]]
 
@@ -12,80 +12,80 @@ Add the `Lightning` sprite from the Scratch library.
 
 \--- task \---
 
-When the game starts, the `Lightning` sprite should be hidden until the spaceship fires its laser cannons.
+Quando o jogo começa, o ator `raio` deve estar oculto até a nave espacial disparar com seus canhões laser.
 
-Add this code to the `Lightning` sprite:
+Adicione este código ao ator `raio`:
 
-![lightning sprite](images/lightning-sprite.png)
+![ator raio](images/lightning-sprite.png)
 
 ```blocks3
-when green flag clicked
-hide
+quando ⚑ for clicado
+esconda
 ```
 
 \--- /task \---
 
-At the moment, the lightning bolt is really big compared to the spaceship!
+Até o momento, o raio elétrico está muito grande se comparado à nave espacial!
 
 \--- task \---
 
-Below the code that the `Lightning` sprite already has, add some blocks to make the sprite smaller and to turn it upside down.
+Abaixo está o código atual do ator `raio`, adicione alguns blocos para deixar o ator menor e para virá-lo de cabeça para baixo.
 
-![lightning sprite](images/lightning-sprite.png)
+![ator raio](images/lightning-sprite.png)
 
 ```blocks3
-set size to (25) %
-point in direction (-90)
+defina o tamanho como (25) %
+aponte para a direção (-90)
 ```
 
-Now it looks like it fires pointy end–first out of the spaceship.
+Agora parece que ele dispara com a ponta virada para a nave espacial.
 
 \--- /task \---
 
 \--- task \---
 
-Add some new code to the `Spaceship` sprite to create a new clone of the lightning bolt if the <kbd>space</kbd> key is pressed.
+Adicione mais código no ator da `nave` para criar um novo clone do raio elétrico se a tecla <kbd>espaço</kbd> for pressionada.
 
 \--- hints \---
 
 \--- hint \---
 
-`When the green flag is clicked`{:class="block3events"}, keep checking `forever`{:class="block3control"} `if`{:class="block3control"} the `space key is pressed`{:class="block3sensing"}, and in that case `create a clone of the Lightning`{:class="block3control"} sprite.
+`quando ⚑ for clicado`{:class="block3events"}, verifica em loop `sempre`{:class="block3control"} `se`{:class="block3control"} a `tecla espaço pressionada`{:class="block3sensing"}, e neste caso `crie clone de raio`{:class="block3control"}.
 
 \--- /hint \---
 
 \--- hint \---
 
-Here are the blocks you need:
+Aqui estão os blocos que você precisa:
 
 ```blocks3
-if <> then
+se <> então
 end
 
-forever
+sempre
 end
 
-create clone of (Lightning v)
+crie clone de (raio v)
 
-<key (space v) pressed?>
+<tecla (espaço v) pressionada?>
 
-when flag clicked
+quando ⚑ for clicado
 ```
 
 \--- /hint \---
 
 \--- hint \---
 
-Here is what your new code should look like:
+É assim que seu código deve parecer:
 
-![rocket sprite](images/rocket-sprite.png)
+![ator foguete](images/rocket-sprite.png)
 
 ```blocks3
-when flag clicked
-forever
-    if <key (space v) pressed?> then
-        create clone of (Lightning v)
-    end
+quando ⚑ for clicado
+sempre 
+  se <tecla (espaço v) pressionada?> então 
+    crie clone de (raio v)
+  end
 end
 ```
 
@@ -97,26 +97,26 @@ end
 
 \--- task \---
 
-Whenever the game creates a `Lightning` sprite clone, the clone should appear and then move upwards until it reaches the top of the Stage. Then the clone should disappear.
+Sempre que o jogo cria um clone do ator `raio`, o clone deve aparecer e depois se mover para cima até atingir o topo do palco e depois desaparecer.
 
-Add this code to the `Lightning` sprite so that clones of it move upwards until they touch the edge of the Stage, and then they get deleted.
+Adicione este código ao ator `raio` para que os clones se movam para cima até que toquem na borda do Palco, e depois eles serão excluídos.
 
-![lightning sprite](images/lightning-sprite.png)
+![ator raio](images/lightning-sprite.png)
 
 ```blocks3
-    when I start as a clone
-    go to (Spaceship v)
-    show
-    repeat until <touching (edge v) ?>
-        change y by (10)
-    end
-    delete this clone
+    quando eu começar como um clone
+vá para (nave v)
+mostre
+repita até que <tocando em (borda v)?> 
+  adicione (10) a y
+end
+apague este clone
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Press the <kbd>space</kbd> key to test whether the lightning bolt moves correctly.
+Pressione a tecla <kbd>espaço</kbd> para testar se o raio se move corretamente.
 
 \--- /task \---
