@@ -1,30 +1,30 @@
-## Spaceship explosion
+## अंतरिक्ष-यान का विस्फोट
 
-When a hippo touches your spaceship, the spaceship should explode!
+जब एक दरियाई-घोड़ा आपके अंतरिक्ष-यान को छूता है, तो अंतरिक्ष-यान को फट जाना चाहिए!
 
 \--- task \---
 
-Select the `Spaceship` sprite and rename its costume 'normal'.
+अपने `Spaceship` स्प्राइट को चुनें और उसकी पोशाक का नाम बदल कर 'normal' कर दें |
 
 \--- /task \---
 
 \--- task \---
 
-Draw another costume of an exploding spaceship, and call the new costume 'hit'.
+फटते हुए अंतरिक्ष-यान के लिए एक और पोशाक बनायें, और उसका नाम 'hit' रखें |
 
-![screenshot](images/invaders-spaceship-costumes.png)
+![स्क्रीनशॉट](images/invaders-spaceship-costumes.png)
 
-If you don't want to draw the explosion, you can select the 'Sun' costume from the Scratch library, and then use the **Color a shape** tool to change the costume's colour and face.
+यदि आप विस्फोट बनाना नहीं चाहते हैं, तो आप 'Scratch' लाइब्रेरी से 'Sun' की पोशाक का चयन कर सकते हैं, और फिर **Color a shape** उपकरण का प्रयोग कर के पोशाक का रंग और चेहरा बदल सकते हैं |
 
-![screenshot](images/invaders-sun.png)
+![स्क्रीनशॉट](images/invaders-sun.png)
 
 \--- /task \---
 
 \--- task \---
 
-Add some code to your `Spaceship` sprite so that it displays the 'normal' costume when the game starts, and switches to the 'hit' costume when it touches a hippo:
+अपने `Spaceship` स्प्राइट में कुछ और कोड जोड़ें जिससे कि गेम शुरू होने पर वह 'normal' पोशाक प्रदर्शित करे, और दरियाई-घोड़े को छूने पर उसकी पोशाक 'hit' पोशाक में बदल जाये |
 
-![rocket sprite](images/rocket-sprite.png)
+![रॉकेट स्प्राइट](images/rocket-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -37,6 +37,6 @@ switch costume to (hit v)
 
 \--- task \---
 
-Test your code. Make the spaceship collide with a hippo. Does the spaceship change to the 'hit' costume?
+अपने कोड का परीक्षण करें। अंतरिक्ष यान की एक हिप्पो से टकराव करायें। क्या अंतरिक्ष यान 'hit' पोशाक में बदलता है?
 
 \--- /task \---
