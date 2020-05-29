@@ -1,3 +1,3 @@
-## Challenge: improve the lightning
+## Desafio: melhore os raios
 
-What happens if you hold down the <kbd>space</kbd> key? Can you use a `wait`{:class="block3control"} block to fix this?
+O que acontece se você manter a tecla <kbd>espaço</kbd> pressionada? Você pode usar o bloco `espere`{:class="block3control"} para corrigir isso ?
