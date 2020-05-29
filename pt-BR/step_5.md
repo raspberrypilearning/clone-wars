@@ -35,7 +35,7 @@ esconda
 
 Adicione código ao Palco para criar um novo clone de `hipopótamo1` a cada poucos segundos.
 
---- dica ---
+--- hints ---
 
 --- hint ---
 

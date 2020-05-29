@@ -34,8 +34,8 @@ Abaixo está o código atual do ator `raio`, adicione alguns blocos para deixar 
 ![ator raio](images/lightning-sprite.png)
 
 ```blocks3
-defina o tamanho como (25) %
-aponte para a direção (-90)
+set size to (25) %
+point in direction (-90)
 ```
 
 Agora parece que ele dispara com a ponta virada para a nave espacial.

@@ -17,11 +17,11 @@ Faça com que o ator `morcego` se `mova`{:class="block3motion"} da esquerda para
 ![ator morcego](images/bat-sprite.png)
 
 ```blocks3
-quando ⚑ for clicado
-defina o tamanho como (50) %
-sempre 
-  mova (10) passos
-  se tocar na borda, volte
+when flag clicked
+set size to (50) %
+forever
+    move (10) steps
+    if on edge, bounce
 end
 ```
 
@@ -37,7 +37,7 @@ Se você olhar para as fantasias do morcego, você pode ver que ele tem quatro d
 
 Use o bloco `próxima fantasia`{:class="block3looks"} para fazer o morcego bater as asas enquanto se move.
 
---- dica ---
+--- hints ---
 
 --- hint ---
 
@@ -115,7 +115,7 @@ Adicione código ao ator `laranja` para fazer com que cada um de seus clones cai
 esconda
 
 quando eu começar como um clone
-vá para (Bat v)
+vá para (morcego v)
 mostre
 repita até que <tocando em (edge v) ?> 
   adicione (-4) a y
