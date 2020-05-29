@@ -1,28 +1,28 @@
-## Game over
+## खेल समाप्त
 
-Next, you're going to add a 'game over' message at the end of the game.
+इसके बाद, आप खेल के अंत में एक 'खेल समाप्त' संदेश जोड़ने जा रहे हैं।
 
 \--- task \---
 
-If you haven't already, create a new variable called `lives`{:class="block3variables"}.
+`lives`{:class="block3variables"} नाम से एक वेरिएबल बनाएं, यदि आपने उसे पहले से ही नहीं बनाया हुआ है |
 
-Your spaceship should start with three lives and lose a life whenever it touches a hippo or an orange. Your game should stop when the `lives`{:class="block3variables"} run out.
+आपका अंतरिक्ष-यान तीन जीवनदान के साथ शुरू होना चाहिए और दरियाई-घोड़े या संतरे से छू जाने पर एक जीवनदान खो देना चाहिए | `जीवनदान` ख़त्म होने पर आपका गेम रुक जाना चाहिए |
 
 \--- /task \---
 
 \--- task \---
 
-Draw a new sprite called `Game Over` using the **text** tool.
+**text** उपकरण का प्रयोग कर के `Game Over` नाम का एक नया स्प्राइट बनाएं |
 
-![screenshot](images/invaders-game-over.png)
+![स्क्रीनशॉट](images/invaders-game-over.png)
 
 \--- /task \---
 
 \--- task \---
 
-On the Stage, broadcast a `game over`{:class="block3events"} message just before the game ends.
+गेम समाप्त होने से बिलकुल पहले `खेल समाप्त`{:class="block3events"} सन्देश स्टेज पर प्रसारित करें |
 
-![gameover sprite](images/stage-sprite.png)
+![गेमओवर स्प्राइट](images/stage-sprite.png)
 
 ```blocks3
 broadcast (game over v) and wait
@@ -32,9 +32,9 @@ broadcast (game over v) and wait
 
 \--- task \---
 
-Add this code to your `Game Over` sprite so that it shows at the end of the game:
+`Game Over` स्प्राइट में यह कोड जोड़ें जिससे कि गेम समाप्त होने पर यह प्रदर्शित हो सके |
 
-![gameover sprite](images/gameover-sprite.png)
+![gameover स्प्राइट](images/gameover-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -44,12 +44,12 @@ when I receive [game over v]
 show
 ```
 
-Because you've used a `broadcast (game over) and wait`{:class="block3events"} block on your Stage, the Stage will wait for the `Game Over` sprite to be displayed before ending the game.
+क्योंकि आपने अपने स्टेज में `प्रसारण (खेल समाप्त) और प्रतीक्षा`{:class="block3events"} ब्लॉक का प्रयोग किया है इसलिए स्टेज गेम समाप्त करने से पहले `Game Over` स्प्राइट के प्रदर्शित होने की प्रतीक्षा करेगा |
 
 \--- /task \---
 
 \--- task \---
 
-Test your game. How many points can you score? If the game is too easy or too hard, can you think of ways to improve it?
+अपने खेल का परीक्षण करें। आप कितने अंक स्कोर कर सकते हैं? यदि खेल बहुत आसान या बहुत कठिन है, तो क्या आप इसे सुधारने के तरीकों के बारे में सोच सकते हैं?
 
 \--- /task \---
