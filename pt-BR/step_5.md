@@ -1,18 +1,18 @@
-## Space-hippos
+## Hipopótamos espaciais
 
-Now you're going to add lots of flying hippos that try to destroy your spaceship.
+Agora você vai adicionar muitos hipopótamos voadores que tentarão destruir a sua nave espacial.
 
 \--- task \---
 
-Create a new sprite with the 'Hippo1' image in the Scratch library. Use the **shrink** tool to make the `Hippo` sprite a similar size to the `Spaceship` sprite.
+Crie um novo ator com a imagem 'Hippo1' da biblioteca do Scratch e mude o nome dele para hipopótamo1. Use a ferramenta ** encolher** para fazer com que o ator `hipopótamo1` tenha um tamanho semelhante ao do ator `nave`.
 
-![screenshot](images/invaders-hippo.png)
+![captura de tela](images/invaders-hippo.png)
 
 \--- /task \---
 
 \--- task \---
 
-Set the `Hippo` sprite's rotation style to **left-right**.
+Defina o estilo de rotação do ator `hipopótamo1` como **esquerda-direita**.
 
 [[[generic-scratch3-sprite-rotation-style]]]
 
@@ -20,59 +20,59 @@ Set the `Hippo` sprite's rotation style to **left-right**.
 
 \--- task \---
 
-Add some code to hide the `Hippo` sprite when the game starts.
+Adicione código para esconder o ator `hipopótamo1` quando o jogo começar.
 
-![hippo sprite](images/hippo-sprite.png)
+![ator hipopótamo1](images/hippo-sprite.png)
 
 ```blocks3
-when green flag clicked
-hide
+quando ⚑ for clicado
+esconda
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Add some code to the Stage to create a new `Hippo` clone every few seconds.
+Adicione código ao Palco para criar um novo clone de `hipopótamo1` a cada poucos segundos.
 
-\--- hints \---
+\--- dica \---
 
 \--- hint \---
 
-When the `green flag is clicked`{:class="block3events"}, `repeatedly`{:class="block3control"} `wait`{:class="block3control"} `between 2 and 4 seconds`{:class="block3operators"} and then `create a clone of the Hippo sprite`{:class="block3control"}.
+Quando a `bandeira verde é clicada`{:class="block3events"}, `sempre`{:class="block3control"} `espere`{:class="block3control"} `entre 2 e 4 segundos`{:class="block3operators"} e `crie um clone do ator hipopótamo1`{:class="block3control"}.
 
 \--- /hint \---
 
 \--- hint \---
 
-Here are the blocks you need:
+Aqui estão os blocos que você precisa:
 
 ```blocks3
-forever
+sempre
 end
 
-create clone of (Hippo1 v)
+crie clone de (hipopótamo1 v)
 
-(pick random (2) to (4))
+(número aleatório entre (2) e (4))
 
-when flag clicked
+quando ⚑ for clicado
 
-wait () secs
+espere () seg
 ```
 
 \--- /hint \---
 
 \--- hint \---
 
-This is what your code should look like:
+É assim que seu código deve estar:
 
-![stage sprite](images/stage-sprite.png)
+![ator palco](images/stage-sprite.png)
 
 ```blocks3
-when flag clicked
-forever
-    wait (pick random (2) to (4)) secs
-    create clone of (Hippo1 v)
+quando ⚑ for clicado
+sempre 
+  espere (número aleatório entre (2) e (4)) seg
+  crie clone de (hipopótamo1 v)
 end
 ```
 
@@ -82,63 +82,63 @@ end
 
 \--- /task \---
 
-Each new hippo clone should appear at a random `x` position, and every clone should have a random speed.
+Cada novo clone do hipopótamo deve aparecer numa posição `x` aleatória, e cada clone deve ter uma velocidade aleatória.
 
 \--- task \---
 
-Create a new variable called `speed`{:class="block3variables"} that is for the `Hippo` sprite only.
+Crie uma nova variável chamada `velocidade`{:class="block3variables"} apenas para o ator `hipopótamo1`.
 
 [[[generic-scratch3-add-variable]]]
 
-When you've done this correctly, the variable has the name of the sprite next to it, like this:
+Quando você fizer isso corretamente, a variável terá o nome do ator ao lado, assim:
 
-![screenshot](images/invaders-var-test.png)
+![captura de tela](images/invaders-var-test.png)
 
 \--- /task \---
 
 \--- task \---
 
-When each `Hippo` clone starts, pick a random speed and starting place for it. Then show the clone on the screen.
+Quando cada clone de `hipopótamo1` começar, escolha uma velocidade aleatória e um ponto de partida. Em seguida, mostre o clone na tela.
 
 ```blocks3
-when I start as a clone
-set [speed v] to (pick random (2) to (4))
-go to x: (pick random (-220) to (220)) y: (150)
-show
+quando eu começar como um clone
+mude [velocidade v] para (número aleatório entre (2) e (4))
+vá para x: (número aleatório entre (-220) e (220)) y: (150)
+mostre
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Test your code. Does a new hippo appear every few seconds?
+Teste seu código. Um novo hipopótamo aparece a cada poucos segundos?
 
 \--- /task \---
 
-At the moment the hippos don't move.
+No momento os hipopótamos não se movem.
 
 \--- task \---
 
-Each hippo should move around randomly until it gets hit by a lightning bolt. To make that happen, attach this code below the blocks that are already in the `Hippo` sprite's code script:
+Cada hipopótamo deve se mover aleatoriamente até ser atingido por um raio. Para que isso aconteça, acrescente este código abaixo dos blocos que já estão no código do ator `hipopótamo1`:
 
 ```blocks3
-repeat until <touching (lightning v) ?>
-    move (speed :: variables) steps
-    turn right (pick random (-10) to (10)) degrees
-    if on edge, bounce
+repita até que <tocando em (raio v) ?> 
+  mova (velocidade :: variables) passos
+  gire ↻ (número aleatório entre (-10) e (10)) graus
+  se tocar na borda, volte
 end
-delete this clone
+apague este clone
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Test your code again. You should see a new hippo clone appear every few seconds, and each clone should move at a different speed.
+Teste seu código novamente. Você deve ver um novo clone de hipopótamo aparecer a cada poucos segundos, e cada clone deve se mover a uma velocidade diferente.
 
 \--- no-print \---
 
-![screenshot](images/hippo-clones.gif)
+![captura de tela](images/hippo-clones.gif)
 
 \--- /no-print \---
 
@@ -146,6 +146,6 @@ Test your code again. You should see a new hippo clone appear every few seconds,
 
 \--- task \---
 
-Now test the spaceship's laser cannon. If a lightning bolt hits a hippo, does the hippo vanish?
+Agora teste o canhão de laser da nave espacial. Se um raio atingir um hipopótamo, o hipopótamo desaparece?
 
 \--- /task \---
