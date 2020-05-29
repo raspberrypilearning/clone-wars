@@ -1,9 +1,9 @@
-speed
+तेजी
 
-normal
+सामान्य
 
-hit
+सफल
 
-hit 
+सफल 
 
-Game over
+खेल समाप्त
