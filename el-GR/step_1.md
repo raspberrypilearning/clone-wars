@@ -31,7 +31,7 @@
 
 ## \--- collapse \---
 
-## title: What you will need
+## title: Τι θα χρειαστείς
 
 ### Υλικό
 
@@ -43,30 +43,30 @@
 
 ### Λήψεις
 
-[Find the downloads here](http://rpf.io/p/en/clone-wars-go).
+[Βρες τις λήψεις εδώ](http://rpf.io/p/en/clone-wars-go).
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: What you will learn
+## title: Τι θα μάθεις
 
 + Πώς θα κάνεις τους χαρακτήρες να κινούνται με τη χρήση του πληκτρολόγιου
 + Πώς θα δημιουργήσεις αντίγραφα των χαρακτήρων
-+ Πώς να χρησιμοποιήσεις τη λειτουργία "εκπομπή" και "λήψη μπλοκ" για την αποστολή μηνυμάτων
++ Πώς να χρησιμοποιήσεις τα μπλοκ "μετάδωσε" και "όταν λάβω" για την αποστολή μηνυμάτων
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: Additional notes for educators
+## title: Πρόσθετες σημειώσεις για εκπαιδευτικούς
 
 \--- no-print \---
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/clone-wars/print){:target="_blank"}.
+Αν χρειαστεί να εκτυπώσεις αυτό το έργο, χρησιμοποίησε την [εκτυπώσιμη έκδοση](https://projects.raspberrypi.org/en/projects/clone-wars/print){:target="_blank"}.
 
 \--- /no-print \---
 
-You can find the [completed project here](http://rpf.io/p/en/clone-wars-get).
+Μπορείς να βρεις [το ολοκληρωμένο έργο εδώ](http://rpf.io/p/en/clone-wars-get).
 
 \--- /collapse \---
