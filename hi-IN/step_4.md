@@ -1,3 +1,3 @@
-## Challenge: improve the lightning
+## चुनौती: विद्युत में सुधार
 
-What happens if you hold down the <kbd>space</kbd> key? Can you use a `wait`{:class="block3control"} block to fix this?
+यदि आप <kbd>space</kbd> बटन को नीचे दबाये रखते हैं तो क्या होता है? क्या आप `wait`{:class="block3control"} का प्रयोग कर के इसको सही कर सकते हैं?
