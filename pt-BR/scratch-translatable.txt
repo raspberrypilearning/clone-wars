@@ -1,9 +1,9 @@
-speed
+velocidade
 
 normal
 
-hit
+atingida
 
-hit 
+atingida 
 
-Game over
+Fim de Jogo
