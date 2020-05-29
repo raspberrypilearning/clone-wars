@@ -1,20 +1,20 @@
-## Spaceship explosion
+## Esplosione della nave spaziale
 
-When a hippo touches your spaceship, the spaceship should explode!
+Quando un ippopotamo tocca la navicella, la navicella dovrebbe esplodere!
 
 \--- task \---
 
-Select the `Spaceship` sprite and rename its costume 'normal'.
+Seleziona lo sprite della `Navicella` e rinomina il suo costume 'normale'.
 
 \--- /task \---
 
 \--- task \---
 
-Draw another costume of an exploding spaceship, and call the new costume 'hit'.
+Disegna un altro costume di una navicella che esplode, e chiama il nuovo costume 'colpito'.
 
 ![screenshot](images/invaders-spaceship-costumes.png)
 
-If you don't want to draw the explosion, you can select the 'Sun' costume from the Scratch library, and then use the **Color a shape** tool to change the costume's colour and face.
+Se non vuoi disegnare l'esplosione, puoi selezionare il costume del 'sole' dalla libreria di Scracth, e poi usa lo strumento **Colora una forma** per cambiare il colore e la faccia del costume.
 
 ![screenshot](images/invaders-sun.png)
 
@@ -22,21 +22,21 @@ If you don't want to draw the explosion, you can select the 'Sun' costume from t
 
 \--- task \---
 
-Add some code to your `Spaceship` sprite so that it displays the 'normal' costume when the game starts, and switches to the 'hit' costume when it touches a hippo:
+Aggiungi un po' di codice allo sprite della tua `Astronave` così che faccia vedere il costume 'normale' quando il gioco parte, e cambi a 'colpito' quando un ippopotamo la colpisce:
 
-![rocket sprite](images/rocket-sprite.png)
+![sprite razzo](images/rocket-sprite.png)
 
 ```blocks3
-when flag clicked
-switch costume to (normal v)
-wait until <touching (Hippo1 v)>?
-switch costume to (hit v)
+quando si fa clic sulla bandiera
+passa al costume (normale v)
+aspetta fino a <touching (Hippo1 v)>?
+passa al costume (hit v)
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Test your code. Make the spaceship collide with a hippo. Does the spaceship change to the 'hit' costume?
+Prova il codice. Fai si che la navicella si scontri con un ippopotamo. La navicella cambia il costume a 'colpito'?
 
 \--- /task \---
