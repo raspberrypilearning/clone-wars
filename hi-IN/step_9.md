@@ -1,20 +1,20 @@
-## Space-bat
+## अंतरिक्ष के चमगादड़
 
-To make your game a bit harder, you are going to create a bat that throws oranges at the spaceship.
+अपने खेल को थोड़ा कठिन बनाने के लिए, आप एक चमगादड़ बनाने जा रहे हैं जो अंतरिक्ष यान पर संतरे फेंकता है।
 
-![a bat throwing an orange at the spaceship](images/bat-oranges.png)
+![एक चमगादड़ अंतरिक्ष यान पर एक संतरा फेंक रहा है](images/bat-oranges.png)
 
 \--- task \---
 
-Add a `Bat` sprite and set its rotation style to **left–right**.
+एक `Bat` स्प्राइट जोड़ें और उसकी रोटेशन शैली को **left–right** सेट करें |
 
 \--- /task \---
 
 \--- task \---
 
-Make the `Bat` sprite `move`{:class="block3motion"} from left to right at the top of the Stage `forever`{:class="block3control"}.
+`Bat` स्प्राइट को स्टेज के ऊपरी छोर से हमेशा बांयी से दांयी ओर स्थानांतरित करवायें |
 
-![bat sprite](images/bat-sprite.png)
+![bat स्प्राइट](images/bat-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -25,29 +25,29 @@ forever
 end
 ```
 
-Remember to test your code.
+अपने कोड का परीक्षण करना याद रखें।
 
 \--- /task \---
 
-If you look at the bat's costumes, you can see that it has four different ones:
+यदि आप चमगादड़ की पोशाक की ओर देखें, तो आप देखेंगे कि वे चार अलग-अलग हैं:
 
-![screenshot](images/invaders-bat-costume.png)
+![स्क्रीनशॉट](images/invaders-bat-costume.png)
 
 \--- task \---
 
-Use the `next costume`{:class="block3looks"} block to make the bat flap its wings as it moves.
+चमगादड़ को उड़ते समय पंख हिलाते हुए प्रदर्शित करने के लिए `next costume`{:class="block3looks"} ब्लॉक का प्रयोग करें |
 
 \--- hints \---
 
 \--- hint \---
 
-After the bat has moved, it should show the `next costume`{:class="block3looks"} and then `wait`{:class="block3control"} for a short time.
+जब चमगादड़ स्थानांतरित होता है तब उसे `next costume`{:class="block3looks"} प्रदर्शित करना चाहिए और फिर उसे थोड़े समय के लिए प्रतीक्षा करनी चाहिए |
 
 \--- /hint \---
 
 \--- hint \---
 
-You need to add these blocks to you code:
+आपको अपनी कोड में ये ब्लॉक्स जोड़ने होंगे:
 
 ```blocks3
 wait (0.3) seconds
@@ -59,7 +59,7 @@ next costume
 
 \--- hint \---
 
-Your code should look like this:
+आपका कोड इस प्रकार दिखना चाहिए:
 
 ```blocks3
 when flag clicked
@@ -79,21 +79,21 @@ end
 
 \--- /task \---
 
-Now make the bat throw oranges!
+अब चमगादड़ से संतरे फिंकवायें |
 
 \--- task \---
 
-Add an `Orange` sprite from the Scratch library.
+स्क्रैच लाइब्रेरी से `Orange` स्प्राइट को जोडें |
 
-![screenshot](images/invaders-orange.png)
+![स्क्रीनशॉट](images/invaders-orange.png)
 
 \--- /task \---
 
 \--- task \---
 
-Add code to your bat so that `when the flag is clicked`{:class="block3events"}, the `Bat` sprite `forever`{:class="block3control"} `waits`{:class="block3control"} for a `random`{:class="block3operators"} length of time between `5 to 10`{:class="block3operators"} seconds and then `creates a clone`{:class="block3control"} of the `Orange` sprite.
+अपने चमगादड़ में कोड जोड़ते हैं जिससे कि जब `झंडी पर क्लिक` किया जाता है, `Bat` स्प्राइट `हमेशा` `5 से 10` सेकण्ड्स के बीच `यादृच्छिक` समय के लिए `इंतज़ार` करता है और फिर वह `Orange` स्प्राइट का `क्लोन` बनाता है |
 
-![bat sprite](images/bat-sprite.png)
+![bat स्प्राइट](images/bat-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -107,9 +107,9 @@ end
 
 \--- task \---
 
-Add code to the `Orange` to make each of its clone drop, starting from the `Bat` sprite and falling towards the bottom of the Stage.
+संतरे के प्रत्येक क्लोन को `Bat` स्प्राइट से शुरू होकर स्टेज के तल तक गिराने के लिए `Orange` में कोड जोड़ते हैं |
 
-![orange sprite](images/orange-sprite.png)
+![orange स्प्राइट](images/orange-sprite.png)
 
 ```blocks3
     when flag clicked
@@ -128,9 +128,9 @@ Add code to the `Orange` to make each of its clone drop, starting from the `Bat`
 
 \--- task \---
 
-Add some more code to the `Orange` sprite so that when an `Orange` clone hits the `Spaceship` sprite, the clone also disappears to give the player a chance to reset:
+`Orange` स्प्राइट में थोड़ा और कोड जोड़ते हैं जिससे कि जब एक `Orange` क्लोन `Spaceship` स्प्राइट से टकराता है, तब क्लोन गायब हो जाता है और खिलाडी को पुनः आरंभिक स्थिति में आ जाने का अवसर देता है |
 
-![orange sprite](images/orange-sprite.png)
+![orange स्प्राइट](images/orange-sprite.png)
 
 ```blocks3
     when I receive [hit v]
@@ -141,9 +141,9 @@ Add some more code to the `Orange` sprite so that when an `Orange` clone hits th
 
 \--- task \---
 
-Modify the code of your `Spaceship` sprite so that the sprite is "hit" when it touches a `Hippo` sprite or an `Orange` sprite:
+अपने `Spaceship` के कोड में संशोधन करते हैं जिससे कि स्प्राइट एक `Hippo` स्प्राइट या एक `Orange` स्प्राइट को छूने पर "hit" हो जाता है |
 
-![rocket sprite](images/rocket-sprite.png)
+![rocket स्प्राइट](images/rocket-sprite.png)
 
 ```blocks3
     wait until < <touching (Hippo1 v)?> or <touching (Orange v)?>>
@@ -153,6 +153,6 @@ Modify the code of your `Spaceship` sprite so that the sprite is "hit" when it t
 
 \--- task \---
 
-Test your game. What happens if the spaceship gets hit by a falling orange?
+अपने खेल का परीक्षण करें। यदि अंतरिक्ष यान गिरने वाले संतरे से टकरा जाए तो क्या होता है?
 
 \--- /task \---
