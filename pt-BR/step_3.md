@@ -1,4 +1,4 @@
-## Raios elétricos
+## Raios
 
 Agora vamos dar à nave espacial a capacidade de disparar raios!
 
