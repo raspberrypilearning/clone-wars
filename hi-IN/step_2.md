@@ -1,28 +1,28 @@
-## Make a spaceship
+## एक अंतरिक्ष-यान बनाते हैं |
 
-First make a spaceship that can defend the Earth!
+पहले एक अंतरिक्ष यान बनाते हैं जो पृथ्वी की रक्षा कर सके!
 
 \--- task \---
 
-Open the 'Clone wars' Scratch starter project.
+'क्लोन युद्ध' स्क्रैच स्टार्टर प्रोजेक्ट खोलें।
 
-**Online:** open the starter project at [rpf.io/clone-wars-on](http://rpf.io/clone-wars-on){:target="_blank"}.
+**ऑनलाइन:** [rpf.io/clone-wars-on](http://rpf.io/clone-wars-on){:target="_blank"} पर स्टार्टर प्रोजेक्ट खोलें।
 
-If you have a Scratch account you can make a copy by clicking **Remix**.
+यदि आपके पास एक स्क्रैच एकाउंट है, तो आप **रीमिक्स** पर क्लिक करके प्रतिलिपि बना सकते हैं ।
 
-**Offline:** download the starter project from [rpf.io/p/en/clone-wars-go](http://rpf.io/p/en/clone-wars-go), and then open it using the offline editor.
+**ऑफ़लाइन:** स्टार्टर प्रोजेक्ट को [rpf.io/p/en/clone-wars-go](http://rpf.io/p/en/clone-wars-go) से डाउनलोड करें, और फिर इसे ऑफ़लाइन संपादक का उपयोग करके खोलें।
 
-If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
+यदि आपको स्क्रैच ऑफ़लाइन संपादक को डाउनलोड और इंस्टॉल करने की आवश्यकता है, तो आप इसे [rpf.io/scratchoff](https://rpf.io/scratchoff) {:target="_blank"} पर पा सकते हैं।
 
 \--- /task \---
 
-![starter project](images/starter-project.png)
+![स्टार्टर प्रोजेक्ट](images/starter-project.png)
 
 \--- task \---
 
-Add this code to the spaceship sprite to make the spaceship move left if the <kbd>left</kbd> arrow is pressed:
+यदि <kbd>बाँया</kbd> बटन दबाया गया है तो अंतरिक्ष-यान को बाँयी ओर स्थानांतरित करने के लिए इस कोड को स्पेसशिप स्प्राइट में जोड़ें:
 
-![rocket sprite](images/rocket-sprite.png)
+![रॉकेट स्प्राइट](images/rocket-sprite.png)
 
 ```blocks3
     when flag clicked
@@ -33,7 +33,7 @@ Add this code to the spaceship sprite to make the spaceship move left if the <kb
     end
 ```
 
-The x-axis goes from the left side of the Stage to the right side. This means that the spaceship moves to the left when you subtract from the value of the spaceship sprite's `x` position. So this code block is the part that makes your spaceship move left:
+X-अक्ष स्टेज के बाँयी ओर से दाँयी ओर जाता है | इसका मतलब यह है कि जब आप अंतरिक्ष-यान के स्प्राइट की `X`-स्थान में से कुछ घटाते हैं तो अंतरिक्ष-यान बाँयी ओर स्थानांतरित होता है | तो यह कोड ब्लॉक वह हिस्सा है जो आपके स्पेसशिप को बाएं ले जाता है:
 
 ```blocks3
 change x by (-4)
@@ -43,19 +43,19 @@ change x by (-4)
 
 \--- task \---
 
-Add some more code inside the `forever`{:class="block3control"} block to make your spaceship move to the right if the <kbd>right</kbd> arrow key is pressed.
+<kbd>दाँया</kbd> बटन दबाने पर अपने अंतरिक्ष-यान को दाँयी ओर स्थानांतरित करने के लिए `forever`{:class="block3control"} के अंदर कुछ और कोड जोड़ते हैं |
 
 \--- hints \---
 
 \--- hint \---
 
-Subtracting `4` from the spaceship's `x` position made it move left, so how could you make the spaceship move right by `4` instead?
+अंतरिक्ष-यान के `x`-स्थान में से `4` घटाने पर वह बाँयी ओर स्थानांतरित होता है, इसी प्रकार आप अंतरिक्ष-यान को `4` स्थान दाँयी ओर कैसे स्थानांतरित कर सकते हैं?
 
 \--- /hint \---
 
 \--- hint \---
 
-You need the same code block, but with a different number:
+आपको उसी प्रकार के कोड ब्लॉक की आवश्यकता है, लेकिन एक अलग संख्या के साथ:
 
 ```blocks3
 change x by ( )
@@ -65,9 +65,9 @@ change x by ( )
 
 \--- hint \---
 
-Here is the code you need to add below the other code inside the `forever`{:class="block3control"} block:
+यहां वह कोड है जिसे आपको `forever`{:class="block3control"} के अंदर अन्य कोड से नीचे जोड़ना होगा:
 
-![rocket sprite](images/rocket-sprite.png)
+![रॉकेट स्प्राइट](images/rocket-sprite.png)
 
 ```blocks3
 if <key (right arrow v) pressed?> then
@@ -83,6 +83,6 @@ end
 
 \--- task \---
 
-Test your project by clicking the green flag. Can you press the arrow keys to make your spaceship move left and right?
+हरे झंडे पर क्लिक करके अपने प्रोजेक्ट का परीक्षण करें। क्या आप तीर कुंजियों को दबाकर अपने स्पेसशिप को बाएँ और दाएँ घुमा सकते हैं?
 
 \--- /task \---
