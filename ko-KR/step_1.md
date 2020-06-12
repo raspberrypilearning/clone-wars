@@ -12,7 +12,7 @@
 
 \--- no-print \---
 
-게임 화면 아래쪽에 등장하는 예시 게임에 있는 녹색 깃발을 클릭해서 시작하고, <kbd>왼쪽</kbd> 및 <kbd>오른쪽</kbd> 화살표 키를 눌러 우주선을 움직이고 <kbd>스페이스</kbd>키를 눌러 공격하세요.
+예시 게임의 밑에 있는 초록 깃발을 눌러 게임을 시작하고, <kbd>왼쪽</kbd>과 <kbd>오른쪽</kbd> 방향키로 우주선을 움직이고 <kbd>스페이스바</kbd>로 공격하세요
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/276887163/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -67,6 +67,6 @@
 
 \--- /no-print \---
 
-여기서 [완성된 프로젝트의 내용을 확인할 수 있습니다](http://rpf.io/p/en/clone-wars-get).
+[여기서 완료된 프로젝트](http://rpf.io/p/en/clone-wars-get)의 내용을 확인할 수 있습니다.
 
 \--- /collapse \---
