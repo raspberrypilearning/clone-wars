@@ -18,18 +18,18 @@ steps:
     title: '과제 : 번개를 개선하십시오.'
     challenge: true
   - 
-    title: 우주 - 하마
+    title: 우주-하마
   - 
     title: 우주선 폭발
   - 
     title: 사라지는 하마
   - 
-    title: '도전 : 목숨과 점수'
+    title: '도전과제: 목숨과 스코어'
     challenge: true
   - 
     title: 우주 박쥐
   - 
-    title: 게임 끝
+    title: 게임 오버
   - 
     title: '과제 : 게임을 개선하십시오.'
     challenge: true
