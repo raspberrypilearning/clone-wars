@@ -25,7 +25,7 @@
 
 \--- print-only \---
 
-![내림차순](images/showcase.png)
+![설명](images/showcase.png)
 
 \--- /print-only \---
 
