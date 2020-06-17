@@ -1,18 +1,18 @@
-## Space-hippos
+## 우주-하마
 
-Now you're going to add lots of flying hippos that try to destroy your spaceship.
+이제 우주선을 파괴하려는 하마를 많이 추가 할 것입니다.
 
 \--- task \---
 
-Create a new sprite with the 'Hippo1' image in the Scratch library. Use the **shrink** tool to make the `Hippo` sprite a similar size to the `Spaceship` sprite.
+스크래치 라이브러리에 'Hippo1' 이미지가 있는 새로운 스프라이트를 만듭니다. **shrink** 도구를 사용하여 `Hippo` 스프라이트를 `Spaceship` 스프라이트와 유사한 크기로 만듭니다.
 
-![screenshot](images/invaders-hippo.png)
+![스크린샷](images/invaders-hippo.png)
 
 \--- /task \---
 
 \--- task \---
 
-Set the `Hippo` sprite's rotation style to **left-right**.
+`하마` 스프라이트의 회전 스타일을 **왼쪽에서 오른쪽으로** 설정하십시오.
 
 [[[generic-scratch3-sprite-rotation-style]]]
 
@@ -20,60 +20,60 @@ Set the `Hippo` sprite's rotation style to **left-right**.
 
 \--- task \---
 
-Add some code to hide the `Hippo` sprite when the game starts.
+게임 시작 시 `하마` 스프라이트를 숨기는 코드를 추가하십시오.
 
-![hippo sprite](images/hippo-sprite.png)
+![하마 스프라이트](images/hippo-sprite.png)
 
 ```blocks3
-when green flag clicked
-hide
+녹색 깃발을 클릭 했을 때
+숨기기
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Add some code to the Stage to create a new `Hippo` clone every few seconds.
+몇 초마다 한 번씩 `하마` 가 생성되도록 스테이지에 코드를 몇 개 추가합니다.
 
 \--- hints \---
 
 \--- hint \---
 
-When the `green flag is clicked`{:class="block3events"}, `repeatedly`{:class="block3control"} `wait`{:class="block3control"} `between 2 and 4 seconds`{:class="block3operators"} and then `create a clone of the Hippo sprite`{:class="block3control"}.
+`녹색 플래그가 클릭 되면`{:class="block3events"}, `2 ~ 4 초`{:class="block3operators"} `반복`{:class="block3control"} `대기`{:class="block3control"} 한 후 `하마 스프라이트를 복제 생성`{:class="block3control"}.
 
 \--- /hint \---
 
 \--- hint \---
 
-Here are the blocks you need:
+필요한 블록은 다음과 같습니다.
 
 ```blocks3
-forever
-end
+무한 반복
+종료
 
-create clone of (Hippo1 v)
+(Hippo1 v) 복제하기
 
-(pick random (2) to (4))
+((2) 부터 (4) 사이의 난수)
 
-when flag clicked
+초록색 깃발이 클릭되었을 때
 
-wait () secs
+() 초 대기
 ```
 
 \--- /hint \---
 
 \--- hint \---
 
-This is what your code should look like:
+코드는 다음과 같이 설계되어야 합니다:
 
-![stage sprite](images/stage-sprite.png)
+![무대 스프라이트](images/stage-sprite.png)
 
 ```blocks3
-when flag clicked
-forever
-    wait (pick random (2) to (4)) secs
-    create clone of (Hippo1 v)
-end
+초록색 깃발이 클릭되었을 때
+무한 반복
+   ((2) 부터 (4) 사이의 난수) 초 대기
+    (Hippo1 v) 복제하기
+종료
 ```
 
 \--- /hint \---
@@ -82,63 +82,63 @@ end
 
 \--- /task \---
 
-Each new hippo clone should appear at a random `x` position, and every clone should have a random speed.
+생성된 복제 하마는 각각 랜덤한 `x` 포지션에 등장하고 랜덤한 속도를 가져야 합니다.
 
 \--- task \---
 
-Create a new variable called `speed`{:class="block3variables"} that is for the `Hippo` sprite only.
+`하마` 스프라이트 고유의 `속도`{:class="block3variables"} 변수를 새롭게 제작하세요.
 
 [[[generic-scratch3-add-variable]]]
 
-When you've done this correctly, the variable has the name of the sprite next to it, like this:
+이 작업을 올바르게 수행하면 해당 변수 옆에 다음과 같이 스프라이트 이름이 오게 됩니다:
 
-![screenshot](images/invaders-var-test.png)
+![스크린샷](images/invaders-var-test.png)
 
 \--- /task \---
 
 \--- task \---
 
-When each `Hippo` clone starts, pick a random speed and starting place for it. Then show the clone on the screen.
+각 `하마` 복제가 시작되면 랜덤한 속도와 시작 지점을 선택하십시오. 그런 다음 해당 복제를 화면에 표시합니다.
 
 ```blocks3
-when I start as a clone
-set [speed v] to (pick random (2) to (4))
-go to x: (pick random (-220) to (220)) y: (150)
-show
+복제되었을 때
+[speed v] 를 ((2) 부터 (4) 까지의 난수) 로 정하기
+x: ((-220) 부터 (220) 까지의 난수) y: (150) 으로 이동하기
+보이기
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Test your code. Does a new hippo appear every few seconds?
+코드를 테스트하십시오. 몇 초마다 새로운 하마가 나타납니까?
 
 \--- /task \---
 
-At the moment the hippos don't move.
+현재 하마는 움직이지 않습니다.
 
 \--- task \---
 
-Each hippo should move around randomly until it gets hit by a lightning bolt. To make that happen, attach this code below the blocks that are already in the `Hippo` sprite's code script:
+각 하마는 번개에 맞을 때까지 무작위로 움직여야 합니다. 이를 위해 ` 하마 ` 스프라이트에 있는 코드 아래에 이 코드를 붙여야 합니다:
 
 ```blocks3
-repeat until <touching (lightning v) ?>
-    move (speed :: variables) steps
-    turn right (pick random (-10) to (10)) degrees
-    if on edge, bounce
-end
-delete this clone
+<touching (lightning v) ?> 까지 반복하기
+   (speed :: variables) 만큼 움직이기
+    오른쪽 방향으로 ((-10) 부터 (10) 까지의 난수) 도 회전하기
+    벽에 닿으면 튕기기
+종료
+이 복제본 삭제하기
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Test your code again. You should see a new hippo clone appear every few seconds, and each clone should move at a different speed.
+코드를 다시 테스트하십시오. 몇 초마다 새롭게 복제된 하마가 나타나야 하며 이들은 각자 다른 속도로 움직여야 합니다.
 
 \--- no-print \---
 
-![screenshot](images/hippo-clones.gif)
+![스크린샷](images/hippo-clones.gif)
 
 \--- /no-print \---
 
@@ -146,6 +146,6 @@ Test your code again. You should see a new hippo clone appear every few seconds,
 
 \--- task \---
 
-Now test the spaceship's laser cannon. If a lightning bolt hits a hippo, does the hippo vanish?
+이제 우주선의 레이저 대포를 시험해보십시오. 번개가 하마에 부딪칠 때 하마가 사라지나요?
 
 \--- /task \---
