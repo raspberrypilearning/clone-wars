@@ -1,55 +1,55 @@
-## Game over
+## 게임 오버
 
-Next, you're going to add a 'game over' message at the end of the game.
+다음으로, 게임 종료 시 '게임 오버' 메시지를 추가 할 것입니다.
 
 \--- task \---
 
-If you haven't already, create a new variable called `lives`{:class="block3variables"}.
+아직 없을 경우 `목숨`{: class = "block3variables"} 이라는 새 변수를 만듭니다.
 
-Your spaceship should start with three lives and lose a life whenever it touches a hippo or an orange. Your game should stop when the `lives`{:class="block3variables"} run out.
+당신의 우주선은 목숨 3개로 시작되며 하마나 오렌지와 닿으면 목숨을 잃습니다. `목숨`{{class = "block3variables"} 을 다 쓰면 게임은 종료되어야 합니다.
 
 \--- /task \---
 
 \--- task \---
 
-Draw a new sprite called `Game Over` using the **text** tool.
+**텍스트** 도구를 사용하여 `Game Over` 이라는 새로운 스프라이트를 그립니다.
 
-![screenshot](images/invaders-game-over.png)
+![스크린샷](images/invaders-game-over.png)
 
 \--- /task \---
 
 \--- task \---
 
-On the Stage, broadcast a `game over`{:class="block3events"} message just before the game ends.
+게임 종료 직전 스테이지에 `게임 오버`{:class="block3events"} 메세지를 브로드캐스트 합니다.
 
-![gameover sprite](images/stage-sprite.png)
+![게임오버 스프라이트](images/stage-sprite.png)
 
 ```blocks3
-broadcast (game over v) and wait
+(game over v) 를 브로드캐스트 후 대기
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Add this code to your `Game Over` sprite so that it shows at the end of the game:
+다음의 코드를 `게임오버` 스프라이트에 추가해 게임 종료 시 보여지게 하세요:
 
-![gameover sprite](images/gameover-sprite.png)
+![게임오버 스프라이트](images/gameover-sprite.png)
 
 ```blocks3
-when flag clicked
-hide
+깃발이 클릭 되었을 때
+숨기기
 
-when I receive [game over v]
-show
+[game over v] 를 수신할 때
+보이기
 ```
 
-Because you've used a `broadcast (game over) and wait`{:class="block3events"} block on your Stage, the Stage will wait for the `Game Over` sprite to be displayed before ending the game.
+`(게임 오버) 브로드케스트 후 대기`{:class="block3events"} 블록을 스테이지에 사용하였으므로 게임 종료 전 스테이지에서는 `Game Over` 스프라이트 표시가 보여질때까지 대기합니다.
 
 \--- /task \---
 
 \--- task \---
 
-Test your game. How many points can you score? If the game is too easy or too hard, can you think of ways to improve it?
+게임을 테스트 해보십시오. 얼마나 많은 점수를 얻을 수 있습니까? 게임이 너무 쉽거나 어렵다면 게임을 향상시킬 방법을 생각해 볼 수 있습니까?
 
 \--- /task \---
