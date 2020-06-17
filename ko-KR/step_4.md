@@ -1,3 +1,3 @@
-## Challenge: improve the lightning
+## 도전과제: 번개를 개선하십시오.
 
-What happens if you hold down the <kbd>space</kbd> key? Can you use a `wait`{:class="block3control"} block to fix this?
+<kbd>space</kbd> 키를 누르고 있으면 어떻게됩니까? 이 문제 해결을 위해 `대기`{{class = "block3control"} 블록을 사용할 수 있습니까?
