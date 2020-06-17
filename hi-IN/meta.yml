@@ -1,24 +1,25 @@
+---
 hero_image: images/clone-wars.png
 theme: violet
-duration: 2
 listed: true
-ingredient: false
 copyedit: true
-curriculum: creator, design-0, programming-0, phys-comp-0, manufacture-0, community-0
 title: क्लोन वार्स
-description: एक गेम बनाएं जिसमें आपको पृथ्वी को अन्तरिक्ष के दैत्यों से बचाना होगा
-original_url: https://codeclubprojects.org/en-GB/scratch/clone-wars
-interests: 'games'
-technologies: scratch
-site_areas: codeclub, scratch
+description: एक गेम बनाएं जिसमें आपको पृथ्वी को अन्तरिक्ष के दैत्यों से बचाना होगा ।
+version: 4.1.0
+last_tested: 2018-10-11
 steps:
-- title: भूमिका
-- title: आपको किसकी ज़रूरत होगी
-- title: स्पेसशिप बनाना
-- title: लाइटनिंग बोल्ट
-- title: फ्लाइंग स्पेस-हिप्पोस
-- title: एक्सप्लोडिंग स्पेसशिप
-- title: गायब हो रहे हिप्पोस
-- title: फ्रूट बैट
-- title: गेम ओवर
-- title: 'चुनौती: अपनी गेम में सुधार करें'
+  - title: परिचय
+  - title: एक अंतरिक्ष-यान बनाते हैं ।
+  - title: विद्युत तीर
+  - title: 'चुनौती: बिजली में सुधार'
+    challenge: true
+  - title: अंतरिक्ष दरियाई घोड़ा
+  - title: अंतरिक्ष-यान में धमाका
+  - title: दरियाई घोड़े जो गायब हो रहे हैं
+  - title: 'चुनौती: जीवन और स्कोर'
+    challenge: true
+  - title: अंतरिक्ष के चमगादड़
+  - title: खेल समाप्त
+  - title: 'चुनौती: अपने खेल में सुधार करें'
+    challenge: true
+  - title: आगे क्या है?
