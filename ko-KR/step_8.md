@@ -1,7 +1,7 @@
-## Challenge: lives and score
+## 도전과제: 목숨과 스코어
 
-At the moment, you can play the game forever, but it doesn't count how many hippos you shoot or how many times your spaceship explodes.
+여기서, 게임은 무한히 플레이 할 수 있지만 쓰러뜨린 하마 수나 우주선 폭발 횟수는 계산되지 않습니다.
 
-Can you add `lives`{:class="block3variables"}, a `score`{:class="block3variables"}, or even a `highscore`{:class="block3variables"} to your game?
+당신의 게임에 `목숨`{: class = "block3variables"}, `스코어`{: class = "block3variables"}, 또는 `하이스코어`{: class = "block3variables"} 까지 추가할 수 있나요?
 
 [[[generic-scratch3-high-score]]]
