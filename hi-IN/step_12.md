@@ -15,7 +15,7 @@
 
 --- print-only ---
 
-अपने पात्र को दुनिया में स्थानांतरित करने के लिए आप तीर कुंजियों (arrow keys) का प्रयोग करेंगे | ![showcase.png](images/create-showcase.png)
+अपने पात्र को दुनिया में स्थानांतरित करने के लिए आप तीर कुंजियों (arrow keys) का प्रयोग करेंगे । ![showcase.png](images/create-showcase.png)
 
 --- /print-only ---
 

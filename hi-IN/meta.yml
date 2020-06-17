@@ -10,7 +10,7 @@ last_tested: 2018-10-11
 steps:
   - title: परिचय
   - title: एक अंतरिक्ष-यान बनाते हैं ।
-  - title: वज्रपात
+  - title: विद्युत तीर
   - title: 'चुनौती: बिजली में सुधार'
     challenge: true
   - title: अंतरिक्ष दरियाई घोड़ा

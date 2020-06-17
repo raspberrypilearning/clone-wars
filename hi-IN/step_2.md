@@ -12,7 +12,7 @@
 
 **ऑफ़लाइन:** स्टार्टर प्रोजेक्ट को [rpf.io/p/hi-IN/clone-wars-go](http://rpf.io/p/hi-IN/clone-wars-go) से डाउनलोड करें, और फिर इसे ऑफ़लाइन संपादक का उपयोग करके खोलें।
 
-यदि आपको स्क्रैच ऑफ़लाइन संपादक को डाउनलोड और इंस्टॉल करने की आवश्यकता है, तो आप इसे [rpf.io/scratchoff](https://rpf.io/scratchoff) {:target="_blank"} पर पा सकते हैं।
+यदि आपको स्क्रैच ऑफ़लाइन संपादक को डाउनलोड और इंस्टॉल करने की आवश्यकता है, तो आप इसे [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"} पर पा सकते हैं।
 
 --- /task ---
 
