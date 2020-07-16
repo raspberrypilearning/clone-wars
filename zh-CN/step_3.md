@@ -1,58 +1,123 @@
-## 制作一艘宇宙飞船
+## 闪电束
 
-让我们制作一艘宇宙飞船来保卫地球！
+现在，您将让您的飞船能够发射闪电束！
 
-+ 启动一个新的 Scratch 项目，然后删除猫咪子图。
+--- task ---
 
-[[[generic-scratch-new-project]]]
+从Scratch库添加 `闪电` 角色。
 
-+ 向你的项目添加 `星空` 背景和 `宇宙飞船` 子图。
+[[[generic-scratch3-sprite-from-library]]]
 
-	![screenshot](images/invaders-sprites.png)
+--- /task ---
 
-[[[generic-scratch-backdrop-from-library]]]
+--- task ---
 
-[[[generic-scratch-sprite-from-library]]]
+游戏开始时，在飞船发射激光大炮之前，`闪电`角色应当是隐藏起来的。
 
-+ 使用**缩放**工具使你的 `宇宙飞船` 子图变小一点，并将其放在靠近画面底部的位置。
+将此代码添加到`闪电`角色：
 
-+ 按下**左**箭头键时，宇宙飞船应向左移动。添加此代码，使你的宇宙飞船在按下**左**箭头键时向左移动：
+![闪电角色](images/lightning-sprite.png)
 
-```blocks
-	点击绿旗时
-  重复无限次 
-    如果 <[左移 v] 键被按下？> 那么 
-      x 改变 (-4)
-    end
-  end
+```blocks3
+当 ⚑ 被点击
+隐藏
 ```
 
-x 轴在工作区上从左往右延伸，所以如果你通过扣减 x 坐标而使飞船的 x 坐标变小，飞船将会向左移动更远。此代码为使你的宇宙飞船左移的部分：
+--- /task ---
 
-```blocks
-  x 改变 (-4)
+此时，闪电比宇宙飞船还要大！
+
+--- task ---
+
+在`闪电`精灵已有的代码下，添加一些代码块使角色变小并向将其上下颠倒。
+
+![闪电角色](images/lightning-sprite.png)
+
+```blocks3
+将大小设为 (25)
+面向 (-90) 方向
 ```
 
-+ 在 `永远`{:class="blockcontrol"} 代码块内部添加一些代码，使你的宇宙飞船在按下**右**箭头键时向右移动。
+现在它看起来像是尖尖的尾巴-首先从飞船中射出。
+
+--- /task ---
+
+--- task ---
+
+给`飞船` sprite 添加一些新代码，以便在按下 <kbd>空格</kbd> 键时创建一个新的闪电的克隆。
 
 --- hints ---
+
+
 --- hint ---
-如果从宇宙飞船的坐标中减去 `4` 使其向左移动，那么你如何使其向右移动 `4` 个坐标呢?
+
+`当绿色旗帜被点击时`{:class="block3events"}, 持续检查 `重复执行`{:class="block3control"} `如果`{:class="block3control"}`按下空格键`{:class="block3sensing"}, 那么 `创建一个克隆闪电`{:class="block3control"}角色.
+
 --- /hint ---
+
 --- hint ---
-你将需要使用同样的代码块，但数值不同：
-```blocks
-  x 改变 ()
+
+以下是您需要的代码块：
+
+```blocks3
+如果 <> 那么
+end
+
+重复执行
+end
+
+克隆 (闪电 v)
+
+<key (space v) pressed?>
+
+当 ⚑ 被点击
 ```
+
 --- /hint ---
+
 --- hint ---
-以下是你将需要在你的 `永远`{:class="blockcontrol"}代码块内部的其他代码下方添加的代码：
-```blocks
-  如果 <[右移 v] 键被按下？> 那么 
-    x 改变 (4)
+
+您的代码看起来应该是这样的：
+
+![火箭角色](images/rocket-sprite.png)
+
+```blocks3
+当 ⚑ 被点击
+重复执行 
+  如果 <key (space v) pressed?> 那么 
+    克隆 (闪电 v)
   end
+end
 ```
+
 --- /hint ---
+
 --- /hints ---
 
-+ 点击绿色旗帜来测试你的项目。你能否使用箭头键来使你的宇宙飞船左右移动？
+--- /task ---
+
+--- task ---
+
+每当游戏创建一个 `闪电` 角色克隆时，克隆的角色就会出现并且向上移动直到到达舞台顶端。 之后克隆就会消失。
+
+将此代码添加到`闪电`角色，从而使其克隆向上移动，直到他们碰到舞台的边缘。 然后他们将被删除。
+
+![闪电角色](images/lightning-sprite.png)
+
+```blocks3
+    当作为克隆体启动时
+移到 (飞船 v)
+显示
+重复执行直到 <touching (edge v) ?> 
+  将y坐标增加 (10)
+end
+删除此克隆体
+```
+
+--- /task ---
+
+--- task ---
+
+按<kbd>空格</kbd>键测试闪电是否正确移动。
+
+--- /task ---
