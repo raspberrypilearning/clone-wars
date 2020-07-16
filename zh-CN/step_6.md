@@ -28,9 +28,9 @@
 
 ```blocks3
 当 ⚑ 被点击
-换成 (normal v) 造型
-等待 <touching (Hippo1 v)>
-换成 (hit v) 造型
+换成 (正常 v) 造型
+等待 <touching (河马1 v)>
+换成 (击中 v) 造型
 ```
 
 --- /task ---

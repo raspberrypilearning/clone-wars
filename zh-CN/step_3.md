@@ -66,7 +66,7 @@ end
 重复执行
 end
 
-克隆 (Lightning v)
+克隆 (闪电 v)
 
 <key (space v) pressed?>
 
@@ -85,7 +85,7 @@ end
 当 ⚑ 被点击
 重复执行 
   如果 <key (space v) pressed?> 那么 
-    克隆 (Lightning v)
+    克隆 (闪电 v)
   end
 end
 ```
@@ -106,7 +106,7 @@ end
 
 ```blocks3
     当作为克隆体启动时
-移到 (Spaceship v)
+移到 (飞船 v)
 显示
 重复执行直到 <touching (edge v) ?> 
   将y坐标增加 (10)

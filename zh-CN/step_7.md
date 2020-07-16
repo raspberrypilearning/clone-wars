@@ -10,9 +10,9 @@
 
 ```blocks3
 当 ⚑ 被点击
-换成 (normal v) 造型
-等待 <touching (Hippo1 v)>
-换成 (hit v) 造型
+换成 (正常 v) 造型
+等待 <touching (河马1 v)>
+换成 (击中 v) 造型
 ```
 
 --- /task ---
@@ -24,7 +24,7 @@
 ![河马角色](images/hippo-sprite.png)
 
 ```blocks3
-当接收到 [hit v]
+当接收到 [击中 v]
 删除此克隆体
 ```
 
@@ -49,11 +49,11 @@
 ```blocks3
 当 ⚑ 被点击
 重复执行 
- 换成 (normal v) 造型
- 等待 <touching (Hippo1 v)>
- 换成 (hit v) 造型
- 广播 (hit v)
- + 等待 (1) 秒
+换成 (正常 v) 造型
+等待 <touching (河马1 v)>
+换成 (击中 v) 造型
+广播 (击中 v)
++ wait (1) seconds
 end
 ```
 

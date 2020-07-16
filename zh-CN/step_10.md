@@ -25,7 +25,7 @@
 ![游戏结束角色](images/stage-sprite.png)
 
 ```blocks3
-广播 (game over v) 并等待
+广播 (游戏结束 v) 并等待
 ```
 
 --- /task ---
@@ -40,7 +40,7 @@
 当 ⚑ 被点击
 隐藏
 
-当接收到 [game over v]
+当接收到 [游戏结束 v]
 显示
 ```
 

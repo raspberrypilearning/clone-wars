@@ -63,13 +63,13 @@ end
 你的代码应该像这样：
 
 ```blocks3
-当 ⚑ 被点击
-将大小设为 (50)
-重复执行 
- 移动 (10) 步
- 碰到边缘就反弹
- + 下一个造型
- + 等待 (0.3) 秒
+when flag clicked
+set size to (50) %
+forever
+move (10) steps
+if on edge, bounce
++ next costume
++ wait (0.3) seconds
 end
 ```
 
@@ -99,7 +99,7 @@ end
 当 ⚑ 被点击
 重复执行 
   等待 (在 (5) 和 (10) 之间取随机数) 秒
-  克隆 (Orange v)
+  克隆 (橙子 v)
 end
 ```
 
@@ -116,7 +116,7 @@ end
 隐藏
 
 当作为克隆体启动时
-移到 (Bat v)
+移到 (蝙蝠 v)
 显示
 重复执行直到 <碰到 (edge v)?> 
   将y坐标增加 (-4)
@@ -133,7 +133,7 @@ end
 ![橙子角色](images/orange-sprite.png)
 
 ```blocks3
-    when I receive [hit v]
+    when I receive [击中 v]
     delete this clone
 ```
 
@@ -146,7 +146,7 @@ end
 ![火箭角色](images/rocket-sprite.png)
 
 ```blocks3
-    until < <touching (Hippo1 v)?> or <touching (Orange v)?>>
+    wait until < <touching (河马1 v)?> or <touching (橙子 v)?>>
 ```
 
 --- /task ---

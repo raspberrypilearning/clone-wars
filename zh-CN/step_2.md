@@ -12,7 +12,7 @@
 
 **离线：** 从 [rpf.io/p/zh-CN/clone-wars-go](http://rpf.io/p/zh-CN/clone-wars-go) 下载初始项目，然后使用Scratch离线编辑器打开它。
 
-如果您需要下载并安装Scratch离线编辑器，可以在[rpf.io/scratchoff](https://rpf.io/scratchoff)中获取 {:target="_blank"}。
+如果您需要下载并安装Scratch离线编辑器，可以在[rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}中获取。
 
 --- /task ---
 
@@ -36,7 +36,7 @@ end
 x轴从舞台的左侧到右侧。 这意味着当您减少飞船角色的`x`位置值时，它将往左移动。 因此，此代码块的这个部分将会使您的飞船向左移动：
 
 ```blocks3
-将x改变（-4）
+change x by (-4)
 ```
 
 --- /task ---
@@ -59,7 +59,7 @@ x轴从舞台的左侧到右侧。 这意味着当您减少飞船角色的`x`位
 您需要相同的代码块，但数字不同：
 
 ```blocks3
-将x改变（）
+change x by ( )
 ```
 
 --- /hint ---
