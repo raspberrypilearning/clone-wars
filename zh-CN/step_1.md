@@ -1,26 +1,75 @@
+--- no-print ---
+
+这个项目是基于**Scratch 3**版本的，另外还有一个基于[Scratch 2的版本](https://projects.raspberrypi.org/zh-CN/projects/clone-wars-scratch2)。
+
+--- /no-print ---
+
 ## 介绍
 
-你将在本项目中学习如何创作一个游戏，在游戏中，你必须战胜太空怪物，拯救地球。
+在这个项目中，您将学习如何创建一个游戏，游戏中您必须拯救地球免受太空怪物的侵害。
 
-### 你将做出什么
+### 您将制作：
 
-点击下方游戏示例中的绿色旗帜来开始，然后按下**左**和**右**箭头键来移动宇宙飞船，按下**空格**键来射击。
+--- no-print ---
 
-通过射击会飞的太空河马来获得尽可能多的分数。如果你被河马或被果蝠丢弃的橙子击中，你将失去一条生命。
+点击下面的示例游戏中的绿色旗帜开始，然后按 <kbd>左</kbd>和<kbd>右</kbd> 箭头键移动飞船， <kbd>空格</kbd> 键来射击。
 
 <div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/46018140/?autostart=false" frameborder="0"></iframe>
-  <img src="images/invaders-final.png">
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/411984561/?autostart=false" frameborder="0" scrolling="no"></iframe>
+  <img src="images/showcase.png">
 </div>
 
-### 你将学习什么
+--- /no-print ---
 
-本项目包括 [Raspberry Pi 数字制作课程] 以下几个部分的元素(http://rpf.io/curriculum){:target="_blank"}:
+通过射击飞行的太空河马，尽可能多的得分。如果您被河马击中，或者被蝙蝠扔下的橙子击中，您就会失去一条命。
 
-+ [使用基本编程结构创建简单程序。](https://www.raspberrypi.org/curriculum/programming/creator){:target="_blank"}
+--- print-only ---
 
-### 更多教师参考信息
+![降序](images/showcase.png)
 
-如果你需要打印本项目，请使用 [适合打印机的版本](https://projects.raspberrypi.org/en/projects/clone-wars/print){:target="_blank"}。
+--- /print-only ---
 
-使用页脚中的链接访问本项目的 GitHub 资源库，其中包含‘en/resources’文件夹中的所有资源（包括已完成项目示例）。
+--- collapse ---
+---
+title: 你需要准备什么
+---
+
+### 硬件
+
++ 一台能够运行Scratch 3的电脑
+
+### 软件
+
++ Scratch 3（[在线版本](https://rpf.io/scratchon){:target="_blank"}或[离线版本](https://rpf.io/scratchoff){:target="_blank"}）
+
+### 下载
+
+[在此处下载](http://rpf.io/p/zh-CN/clone-wars-go) 。
+
+--- /collapse ---
+
+--- collapse ---
+---
+title: 你将学到什么
+---
+
++ 如何使用键盘输入移动角色
++ 如何克隆角色以制作副本
++ 如何使用“广播”和“接收模块”发送消息
+
+--- /collapse ---
+
+--- collapse ---
+---
+title: 教师附加说明
+---
+
+--- no-print ---
+
+如果您需要打印本项目文件，请使用[适合打印版本](https://projects.raspberrypi.org/zh-CN/projects/clone-wars/print){:target="_blank"}。
+
+--- /no-print ---
+
+你可以在这里找到[完整的项目](http://rpf.io/p/zh-CN/clone-wars-get).
+
+--- /collapse ---
