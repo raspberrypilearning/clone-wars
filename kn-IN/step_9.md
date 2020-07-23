@@ -12,7 +12,7 @@
 
 --- task ---
 
-`Bat`ಅನ್ನು `forever`{:class="block3control"} ಮೇಲಿನ ಹಂತದಲ್ಲಿ sprite ಅನ್ನು ಎಡದಿಂದ ಬಲಕ್ಕೆ `ಸಾಗಿಸಿ`{:class="block3motion"}.
+`Bat`ಅನ್ನು `forever`{:class="block3control"} ಮೇಲಿನ ಹಂತದಲ್ಲಿ sprite ಅನ್ನು ಎಡದಿಂದ ಬಲಕ್ಕೆ `move`{:class="block3motion"}.
 
 ![bat sprite](images/bat-sprite.png)
 
@@ -84,7 +84,7 @@ end
 
 --- task ---
 
-Scratch ಲೈಬ್ರರಿಯಿಂದ ` Orange` sprite ಸೇರಿಸಿ.
+Scratch ಲೈಬ್ರರಿಯಿಂದ `Orange` sprite ಸೇರಿಸಿ.
 
 ![screenshot](images/invaders-orange.png)
 
@@ -92,7 +92,7 @@ Scratch ಲೈಬ್ರರಿಯಿಂದ ` Orange` sprite ಸೇರಿಸಿ.
 
 --- task ---
 
-ನಿಮ್ಮ ಬ್ಯಾಟ್‌ಗೆ ಕೋಡ್ ಸೇರಿಸಿ ಇದರಿಂದ `when the flag is clicked`{:class="block3events"}, `Bat`sprite `forever`{:class="block3control"} `waits`{:class="block3control"} `random`{:class="block3operators"} `5 to 10`{:class="block3operators"} seconds and then `creates a clone` `Orange ` sprite{:class="block3control"}.
+ನಿಮ್ಮ ಬ್ಯಾಟ್‌ಗೆ ಕೋಡ್ ಸೇರಿಸಿ ಇದರಿಂದ `when the flag is clicked`{:class="block3events"}, `Bat`sprite `forever`{:class="block3control"} `waits`{:class="block3control"} `random`{:class="block3operators"} `5 to 10`{:class="block3operators"} seconds and then `creates a clone` `Orange`{:class="block3control"} sprite.
 
 ![bat sprite](images/bat-sprite.png)
 

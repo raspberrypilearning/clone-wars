@@ -40,7 +40,7 @@ hide
 
 --- hint ---
 
-ಯಾವಾಗ `green flag is clicked` {:class="block3events"}, `repeatedly`{:class="block3control"} `wait`{:class="block3control"} `between 2 and 4 seconds ` {:class="block3operators"} ತದನಂತರ `create a clone of the Hippo sprite` {:class="block3control"}.
+ಯಾವಾಗ `green flag is clicked`{:class="block3events"}, `repeatedly`:class="block3control"} `wait`{:class="block3control"} `between 2 and 4 seconds`{:class="block3operators"} ತದನಂತರ `create a clone of the Hippo sprite`{:class="block3control"}.
 
 --- /hint ---
 

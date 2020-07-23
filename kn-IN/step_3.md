@@ -51,7 +51,7 @@ point in direction (-90)
 
 --- hint ---
 
-`When the green flag is clicked`{:class="block3events"},`forever` {:class="block3control"} `if` {:class="block3control"} `space key is pressed`{:class="block3sensing"}, ಮತ್ತು ಆ ಸಂದರ್ಭದಲ್ಲಿ `create a clone of the Lightning`{:class="block3control "} sprite.
+`When the green flag is clicked`{:class="block3events"},`forever`{:class="block3control"} `if`{:class="block3control"} `space key is pressed`{:class="block3sensing"}, ಮತ್ತು ಆ ಸಂದರ್ಭದಲ್ಲಿ `create a clone of the Lightning`{:class="block3control "} sprite.
 
 --- /hint ---
 
