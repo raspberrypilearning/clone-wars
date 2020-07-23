@@ -1,0 +1,25 @@
+---
+hero_image: images/clone-wars.png
+theme: violet
+listed: true
+copyedit: true
+title: ಕ್ಲೋನ್ ಯುದ್ಧಗಳು
+description: ಬಾಹ್ಯಾಕಾಶ ರಾಕ್ಷಸರಿಂದ ನೀವು ಭೂಮಿಯನ್ನು ಉಳಿಸಬೇಕಾದ ಆಟವನ್ನು ರಚಿಸಿ
+version: 4.1.0
+last_tested: 2018-10-11
+steps:
+  - title: ಪರಿಚಯ
+  - title: ಆಕಾಶನೌಕೆ ಮಾಡಿ
+  - title: ಮಿಂಚಿನ ಬೋಲ್ಟ್
+  - title: 'ಸವಾಲು: ಮಿಂಚನ್ನು ಸುಧಾರಿಸಿ'
+    challenge: true
+  - title: ಸ್ಪೇಸ್-ಹಿಪ್ಪೋಸ್
+  - title: ಆಕಾಶನೌಕೆ ಸ್ಫೋಟ
+  - title: ಕಣ್ಮರೆಯಾಗುವ ಹಿಪ್ಪೋಸ್
+  - title: 'ಸವಾಲು: ಜೀವಗಳು ಮತ್ತು ಅಂಕಗಳು'
+    challenge: true
+  - title: ಸ್ಪೇಸ್-ಬ್ಯಾಟ್
+  - title: ಆಟ ಮುಗಿದಿದೆ
+  - title: 'ಸವಾಲು: ನಿಮ್ಮ ಆಟವನ್ನು ಸುಧಾರಿಸಿ'
+    challenge: true
+  - title: ಮುಂದೆ ಏನು?
