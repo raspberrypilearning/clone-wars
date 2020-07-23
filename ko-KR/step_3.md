@@ -51,7 +51,7 @@ point in direction (-90)
 
 --- hint ---
 
-`녹색 깃발을 클릭했을 때`{:class="block3events"}, `만약`{:class="block3control"} `스페이스 키가 클릭된 경우라면` 계속 `무한반복`{:class="block3control"} 임을 체크하고 이 경우에 `새로운 번개 클론 스프라이트를 생성`{:class="block3control"} 하도록 하세요.
+`녹색 깃발을 클릭했을 때`{:class="block3events"}, `만약`{:class="block3control"} `스페이스 키가 클릭된 경우라면`{:class="block3sensing"} 계속 `무한반복`{:class="block3control"} 임을 체크하고 이 경우에 `새로운 번개 클론 스프라이트를 생성`{:class="block3control"} 하도록 하세요.
 
 --- /hint ---
 
