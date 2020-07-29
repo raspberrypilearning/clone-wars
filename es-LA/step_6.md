@@ -1,4 +1,4 @@
-## Explosión de la Nave Espacial
+## Explosión de la nave espacial
 
 Cuando un hipopótamo toca tu nave espacial, ¡la nave espacial debe explotar!
 
