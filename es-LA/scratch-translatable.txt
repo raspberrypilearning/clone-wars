@@ -1,0 +1,9 @@
+velocidad
+
+normal
+
+golpe
+
+golpe 
+
+Fin del juego

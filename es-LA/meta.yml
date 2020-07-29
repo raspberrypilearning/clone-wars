@@ -1,0 +1,25 @@
+---
+hero_image: images/clone-wars.png
+theme: violet
+listed: true
+copyedit: true
+title: Guerras de Clones
+description: Crea un juego en que cual tengas que salvar la Tierra de monstruos espaciales
+version: 4.1.0
+last_tested: 2018-10-11
+steps:
+  - title: Introducción
+  - title: Haz una nave espacial
+  - title: Relámpagos
+  - title: 'Desafío: mejora el relámpago'
+    challenge: true
+  - title: Hipopótamos espaciales
+  - title: Explosión de la nave espacial
+  - title: Hipopótamos que desaparecen
+  - title: 'Desafío: vidas y puntuación'
+    challenge: true
+  - title: Murciélago espacial
+  - title: Fin del juego
+  - title: 'Desafío: mejora tu juego'
+    challenge: true
+  - title: '¿Qué sigue?'
