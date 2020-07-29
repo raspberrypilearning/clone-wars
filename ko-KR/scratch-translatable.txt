@@ -1,9 +1,9 @@
-speed
+속도
 
-normal
+기본
 
-hit
+부딪침
 
-hit 
+부딪침 
 
-Game over
+게임 오버
