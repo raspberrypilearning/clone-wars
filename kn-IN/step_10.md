@@ -25,7 +25,7 @@
 ![gameover sprite](images/stage-sprite.png)
 
 ```blocks3
-(game over v) ಅನ್ನು ಪ್ರಸಾರ ಮಾಡಿ ಮತ್ತು ನಿರೀಕ್ಷಿಸಿ
+broadcast (game over v) and wait
 ```
 
 \--- /task \---
