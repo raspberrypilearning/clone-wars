@@ -12,7 +12,7 @@
 
 \--- task \---
 
-`Bat`ಅನ್ನು `forever`{:class="block3control"} ಮೇಲಿನ ಹಂತದಲ್ಲಿ sprite ಅನ್ನು ಎಡದಿಂದ ಬಲಕ್ಕೆ `ಸಾಗಿಸಿ`{:class="block3motion"}.
+`Bat`ಅನ್ನು `forever`{:class="block3control"} ಮೇಲಿನ ಹಂತದಲ್ಲಿ sprite ಅನ್ನು ಎಡದಿಂದ ಬಲಕ್ಕೆ `move`{:class="block3motion"}.
 
 ![bat sprite](images/bat-sprite.png)
 
