@@ -6,7 +6,7 @@
 
 '복제 전쟁' 스크래치 스타터 프로젝트를 여십시오.
 
-**Online:** [rpf.io/clone-wars-on](http://rpf.io/clone-wars-on){: target = "_ blank"}에서 스타터 프로젝트를 엽니다.
+**온라인:** [rpf.io/clone-wars-on](http://rpf.io/clone-wars-on){: target="_blank"}에서 스타터 프로젝트를 엽니다.
 
 스크래치 계정이 있는 경우 ** Remix **를 클릭하여 사본을 만들 수 있습니다.
 
