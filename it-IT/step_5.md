@@ -39,7 +39,7 @@ Aggiungi del codice alla scena per creare un nuovo clone di un `ippopotamo` ogni
 
 --- hint ---
 
-Quando si fa clic sulla `bandiera verde`{:class="block3events"}, `ripetutamente` `aspetta`{:class="block3control"} `tra 2 e 4 secondi`{:class="block3operators"} e poi `crea un clone dello sprite dell'ippopotamo`{:class="block3control"}.
+Quando si fa clic sulla `bandiera verde`{:class="block3events"}, `ripetutamente`{:class="block3control"} `aspetta`{:class="block3control"} `tra 2 e 4 secondi`{:class="block3operators"} e poi `crea un clone dello sprite dell'ippopotamo`{:class="block3control"}.
 
 --- /hint ---
 

@@ -41,7 +41,7 @@ Usa il blocco `prossimo costume`{:class="block3looks"} per far si che il pipistr
 
 --- hint ---
 
-Dopo che il pipistrello è stato spostato, dovrebbe mostrare il `costume successivo`{:class="block3look"} e poi `attendere`{:class="block3control"} per poco tempo.
+Dopo che il pipistrello è stato spostato, dovrebbe mostrare il `costume successivo`{:class="block3looks"} e poi `attendere`{:class="block3control"} per poco tempo.
 
 --- /hint ---
 

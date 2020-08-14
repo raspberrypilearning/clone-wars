@@ -1,6 +1,6 @@
-## Game Over
+## Partita finita
 
-Successivamente, aggiungerai un messaggio di "game over" alla fine del gioco.
+Successivamente, aggiungerai un messaggio di "Partita finita" alla fine del gioco.
 
 --- task ---
 
@@ -12,7 +12,7 @@ La tua astronave dovrebbe iniziare con tre vite e perdere una vita ogni volta ch
 
 --- task ---
 
-Disegna un nuovo sprite chiamato `Game Over` utilizzando lo strumento **text**.
+Disegna un nuovo sprite chiamato `Partita finita` utilizzando lo strumento **text**.
 
 ![schermata](images/invaders-game-over.png)
 
@@ -20,19 +20,19 @@ Disegna un nuovo sprite chiamato `Game Over` utilizzando lo strumento **text**.
 
 --- task ---
 
-Sullo schermo, fai apparire un broadcast con `game over`{:class="block3events"} subito prima che il gioco finisca.
+Sullo schermo, fai apparire un broadcast con `partita finita`{:class="block3events"} subito prima che il gioco finisca.
 
 ![sprite gameover](images/stage-sprite.png)
 
 ```blocks3
-broadcast (game over v) and wait
+broadcast (partita finita v) and wait
 ```
 
 --- /task ---
 
 --- task ---
 
-Aggiungi questo codice al tuo sprite `Game Over` così che lo faccia apparire alla fine del gioco:
+Aggiungi questo codice al tuo sprite `Partita finita` così che lo faccia apparire alla fine del gioco:
 
 ![sprite gameover](images/gameover-sprite.png)
 
@@ -40,11 +40,11 @@ Aggiungi questo codice al tuo sprite `Game Over` così che lo faccia apparire al
 when flag clicked
 hide
 
-when I receive [game over v]
+when I receive [partita finita v]
 show
 ```
 
-Visto che hai usato un blocco `trasmettere(game over) e aspettare`{:class="block3events"} nel tuo scenario, lo scenario aspetterà lo sprite `Game Over` per essere mostrato prima della fine del gioco.
+Visto che hai usato un blocco `trasmettere (partita finita) e aspettare`{:class="block3events"} nel tuo scenario, lo scenario aspetterà lo sprite `Partita finita` per essere mostrato prima della fine del gioco.
 
 --- /task ---
 
