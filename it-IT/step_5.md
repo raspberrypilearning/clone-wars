@@ -35,7 +35,7 @@ hide
 
 Aggiungi del codice alla scena per creare un nuovo clone di un `ippopotamo` ogni volta che passa qualche secondo.
 
---- hint ---
+--- hints ---
 
 --- hint ---
 

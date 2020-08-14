@@ -45,7 +45,7 @@ change x by (-4)
 
 Aggiungi ancora altro codice nel blocco `per sempre`{:class="block3control"} per far si che la navicella si muova a destra quando la freccetta <kbd>destra</kbd> verrà premuta.
 
---- hint ---
+--- hints ---
 
 --- hint ---
 

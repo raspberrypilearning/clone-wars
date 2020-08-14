@@ -46,7 +46,7 @@ Ora sembra che spari prima la punta della navicella spaziale.
 
 Aggiungi un po' di codice nuovo allo sprite dell'`Astronave` per creare un nuovo clone del fulmine se si preme la <kbd>barra spaziatrice</kbd>.
 
---- hint ---
+--- hints ---
 
 --- hint ---
 

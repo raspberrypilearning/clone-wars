@@ -37,7 +37,7 @@ Se guardi i costumi del pipistrello, puoi vedere che ne ha quattro diversi:
 
 Usa il blocco `prossimo costume`{:class="block3looks"} per far si che il pipistrello batta le ali quando si muove.
 
---- hint ---
+--- hints ---
 
 --- hint ---
 
@@ -145,7 +145,7 @@ Modifica il codice dello sprite della `Navicella` in modo che sia "colpito" quan
 ![sprite razzo](images/rocket-sprite.png)
 
 ```blocks3
-    wait until < <touching (Hippo1 v)?> or <touching (Orange v)?>>
+    wait until < <touching (Ippopotamo v)?> or <touching (Arancia v)?>>
 ```
 
 --- /task ---

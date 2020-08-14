@@ -6,7 +6,7 @@ Successivamente, aggiungerai un messaggio di "game over" alla fine del gioco.
 
 Se non lo hai già fatto, crea una nuova variabile chiamata `vite`{:class="block3variables"}.
 
-La tua astronave dovrebbe iniziare con tre vite e perdere una vita ogni volta che tocca un ippopotamo o un'arancia. Il tuo gioco dovrebbe finire quando le `vite` {:class="block3variables"} si esauriscono.
+La tua astronave dovrebbe iniziare con tre vite e perdere una vita ogni volta che tocca un ippopotamo o un'arancia. Il tuo gioco dovrebbe finire quando le `vite`{:class="block3variables"} si esauriscono.
 
 --- /task ---
 

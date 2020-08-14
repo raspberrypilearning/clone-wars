@@ -55,7 +55,7 @@ title: Cosa imparerai
 
 + Come far muovere gli sprite usando l'input da tastiera
 + Come clonare gli sprite per farne delle copie
-+ Come usare 'broadcast' e 'ricevi blocchi' per inviare messaggi
++ Come usare 'invia' e 'ricevi blocchi' per inviare messaggi
 
 --- /collapse ---
 
