@@ -36,7 +36,7 @@ quando ricevo [premi v]
 
 Per verificare se il nuovo codice funziona, premi la bandierina verde e fai si che la navicella si scontri con un ippopotamo.
 
-![screenshot](images/invaders-hippo-collide.png)
+![schermata](images/invaders-hippo-collide.png)
 
 \--- /task \---
 
