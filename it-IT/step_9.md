@@ -31,7 +31,7 @@ Ricorda di provare il tuo codice.
 
 Se guardi i costumi del pipistrello, puoi vedere che ne ha quattro diversi:
 
-![screenshot](images/invaders-bat-costume.png)
+![schermata](images/invaders-bat-costume.png)
 
 \--- task \---
 
@@ -85,7 +85,7 @@ Ora fai in modo che il pipistrello lanci le arance!
 
 Aggiungere lo sprite `Arancia` dalla libreria di Scratch.
 
-![screenshot](images/invaders-orange.png)
+![schermata](images/invaders-orange.png)
 
 \--- /task \---
 
