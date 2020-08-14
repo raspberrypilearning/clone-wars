@@ -1,24 +1,88 @@
-## Creare un'Astronave
+## Crea una navicella spaziale
 
-Creiamo un'astronave che difenderà la Terra!
+Creiamo una navicella spaziale che difenderà la Terra!
 
-+ Inizia un nuovo progetto Scratch e cancella lo sprite del gatto così che il tuo progetto sia vuoto. Puoi trovare l'editore Scratch online a <a href="http://jumpto.cc/scratch-new" target="_blank">jumpto.cc/scratch-new</a>.
+--- task ---
 
-+ Aggiungi lo scenario 'stelle' e lo sprite 'Astronave' al tuo progetto. Rimpicciolisci l'astronave e muovila vicino al fondo dello schermo.
+Apri il progetto per principianti 'Guerre dei Cloni'.
 
-	![screenshot](images/invaders-sprites.png)
+**Online:** apri il progetto iniziale su [scratch.mit.edu/projects/417839351](https://scratch.mit.edu/projects/417839351){:target="_blank"}.
 
-+ Aggiungi un codice per muovere la tua astronave verso sinistra quando la freccia sinistra è premuta. Avrai bisogno di usare questi blocchi:
+Se hai un account su Scratch, puoi farne una copia cliccando su **Remix**.
 
-	```blocks
-		quando si clicca sulla bandiera verde
-		per sempre
-  			se <tasto [freccia sinistra v] premuto> allora
-    			cambia x di (-4)
-  			end
+**Offline:** scarica il progetto per principianti da [rpf.io/p/it-IT/clone-wars-go](http://rpf.io/p/it-IT/clone-wars-go), e poi aprilo con l'editor offline.
+
+Se hai bisogno di scaricare ed installare l'editor Scratch offline, puoi trovarlo su [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
+
+--- /task ---
+
+![progetto per principianti](images/starter-project.png)
+
+--- task ---
+
+Aggiuhngi questo codice allo sprite della navicella per far si che si muova verso sinistra quando la freccetta <kbd>sinistra</kbd> viene premuta:
+
+![sprite razzo](images/rocket-sprite.png)
+
+```blocks3
+    when flag clicked
+	forever
+		if <key (left arrow v) pressed?> then
+			change x by (-4)
 		end
-	```
+	end
+```
 
-+ Aggiungi un codice per muovere la tua astronave verso destra quando la freccia destra è premuta.
+L'asse x va da sinistra verso destra nella scena. Questo significa che la navicella si muoverà a sinistra quando si sottrarrà dal valore dello sprite della navicella il valore della posizione `x`. Quindi questo blocco di codice è la parte che permetterà alla navicella di spostarsi verso sinistra:
 
-+ Prova il tuo progetto per vedere se puoi controllare la tua astronave con i tasti freccia.
+```blocks3
+change x by (-4)
+```
+
+--- /task ---
+
+--- task ---
+
+Aggiungi ancora altro codice nel blocco `per sempre`{:class="block3control"} per far si che la navicella si muova a destra quando la freccetta <kbd>destra</kbd> verrà premuta.
+
+--- hint ---
+
+--- hint ---
+
+Sottraendo `4` dalla posizione `x` della navicella questa si muoverà verso sinistra, invece come puoi far si che si muova a destra di `4`?
+
+--- /hint ---
+
+--- hint ---
+
+Hai bisogno dello stesso blocco di codice, solo che dovrai cambiare numero:
+
+```blocks3
+change x by ( )
+```
+
+--- /hint ---
+
+--- hint ---
+
+Qui c'è il codice che dovrai inserire sotto l'altro codice nel blocco `per sempre`{:class="block3control"}:
+
+![sprite razzo](images/rocket-sprite.png)
+
+```blocks3
+if <key (right arrow v) pressed?> then
+	change x by (4)
+end
+```
+
+--- /hint ---
+
+--- /hints ---
+
+--- /task ---
+
+--- task ---
+
+Prova il tuo progetto facendo clic sulla bandierina verde. Riesci a muovere la navicella prememndo le frecce a sinistra e a destra?
+
+--- /task ---
