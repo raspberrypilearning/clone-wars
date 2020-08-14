@@ -12,11 +12,11 @@ Seleziona lo sprite della `Navicella` e rinomina il suo costume 'normale'.
 
 Disegna un altro costume di una navicella che esplode, e chiama il nuovo costume 'colpito'.
 
-![screenshot](images/invaders-spaceship-costumes.png)
+![schermata](images/invaders-spaceship-costumes.png)
 
 Se non vuoi disegnare l'esplosione, puoi selezionare il costume del 'sole' dalla libreria di Scracth, e poi usa lo strumento **Colora una forma** per cambiare il colore e la faccia del costume.
 
-![screenshot](images/invaders-sun.png)
+![schermata](images/invaders-sun.png)
 
 \--- /task \---
 
