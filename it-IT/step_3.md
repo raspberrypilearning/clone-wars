@@ -1,48 +1,122 @@
 ## Fulmini
 
-Diamo all'astronave la possibilità di sparare fulmini!
+Ora permetterai all'astronave di sparare fulmini!
 
-+ Aggiungi lo sprite 'Fulmine' dalla libreria Scratch.  Quando la partita è iniziata, il fulmine sarà nascosto finché l'astronave spara i suoi cannoni laser. Lo spire deve essere molto più piccolo e a testa in giù. Aggiungi il seguente codice allo sprite 'Fulmine'.
+--- task ---
 
-	```blocks
-		quando si clicca sulla bandiera verde
-		nascondi
-		porta dimensione al (25) %
-		punta in direzione (-90 v)
-	```
+Aggiungere lo sprite `Lightning` (Fulmine) dalla raccolta Scratch.
 
+[[[generic-scratch3-sprite-from-library]]]
 
-+ Aggiungi il seguente codice **all'Astronave** per creare un nuovo fulmine ogni volta che la barra spaziatrice è premuta.
+--- /task ---
 
+--- task ---
 
-	```blocks
-		quando si clicca sulla bandiera verde
-		per sempre
-  			se <tasto [spazio v] premuto> allora
-    			crea clone di [Fulmine v]
-  			end
-		end
-	```
+All'avvio del gioco, lo sprite `Fulmine` dovrebbe essere nascosto fino a quando l'astronave non li spara dai cannoni laser.
 
-+ Ogni volta che viene creato un nuovo clone, dovrebbe iniziare nello stesso posto dell'astronave, e poi muoversi in alto dello schermo finché tocca il bordo. Aggiungi il seguente codice allo **sprite Fulmine**:
+Aggiungi questo codice allo sprite `Fulmine`:
 
-	```blocks
-		quando vengo clonato
-		raggiungi [Astronave v]
-		mostra
-		ripeti fino a quando <sta toccando [bordo v]>
-  			cambia y di (10)
-		end
-		elimina questo clone
-	```
+![sprite fulmine](images/lightning-sprite.png)
 
-Nota: Muoviamo il nuovo clone verso l'astronave mentre è ancora nascosto, dunque prima di mostrarlo. Così va meglio.
+```blocks3
+when green flag clicked
+hide
+```
 
-+ Prova il tuo fulmine, premendo la barra spaziatrice.
+--- /task ---
 
---- challenge ---
+Al momento, il fulmine è davvero grande rispetto alla navicella!
 
-## Sfida: Aggiustare il fulmine 
-Cosa succede se tieni la barra spaziatrice premuta? Puoi usare un blocco `attendi`{:class="blockcontrol"} per risolverlo?
+--- task ---
 
---- /challenge ---
+Sotto il codice che lo sprite `Fulmine` ha già, aggiungi alcuni blocchi per renderlo più piccolo e per farlo anche capovolgere.
+
+![sprite fulmine](images/lightning-sprite.png)
+
+```blocks3
+set size to (25) %
+point in direction (-90)
+```
+
+Ora sembra che spari prima la punta della navicella spaziale.
+
+--- /task ---
+
+--- task ---
+
+Aggiungi un po' di codice nuovo allo sprite dell'`Astronave` per creare un nuovo clone del fulmine se si preme la <kbd>barra spaziatrice</kbd>.
+
+--- hints ---
+
+--- hint ---
+
+`Quando si fa clic sulla bandiera verde`{:class="block3events"}, continua a guardare `per sempre`{:class="block3control"} `se`{:class="block3control"} la `barra spaziatrice viene premuta`{:class="block3sensing"}, ed in quel caso `crea un clone dello sprite Fulmine`{:class="block3control"}.
+
+--- /hint ---
+
+--- hint ---
+
+Qui ci sono i blocchi di codice che ti serviranno:
+
+```blocks3
+if <> then
+end
+
+forever
+end
+
+create clone of (Fulmine v)
+
+<key (space v) pressed?>
+
+when flag clicked
+```
+
+--- /hint ---
+
+--- hint ---
+
+Ecco come dovrebbe apparire il tuo nuovo codice:
+
+![sprite razzo](images/rocket-sprite.png)
+
+```blocks3
+when flag clicked
+forever
+	if <key (space v) pressed?> then
+		create clone of (Fulmine v)
+	end
+end
+```
+
+--- /hint ---
+
+--- /hints ---
+
+--- /task ---
+
+--- task ---
+
+Ogni volta che il gioco crea un clone dello sprite `Fulmine`, lo dovrebbe far apparire e quindi muovere verso l'alto fino a raggiungere la parte alta della scena. Infine il clone dovrebbe scomparire.
+
+Aggiungi questo codice allo sprite del `Fulmine` in modo che i suoi cloni si spostino verso l'alto fino a che non toccano il bordo della scena, e poi vengono eliminati.
+
+![sprite fulmine](images/lightning-sprite.png)
+
+```blocks3
+    when I start as a clone
+	go to (Astronave v)
+    show
+	repeat until <touching (edge v) ?>
+		change y by (10)
+	end
+	delete this clone
+```
+
+--- /task ---
+
+--- task ---
+
+Premi la <kbd>barra spaziatrice</kbd> per verificare se il fulmine si muove correttamente.
+
+--- /task ---

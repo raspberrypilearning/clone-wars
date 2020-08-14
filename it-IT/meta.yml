@@ -1,25 +1,25 @@
+---
 hero_image: images/clone-wars.png
-theme: violet
-duration: 2
+theme: viola
 listed: true
-ingredient: false
 copyedit: true
-curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
 title: Guerre dei Cloni
 description: Crea un gioco in cui dovrai salvare la Terra dai mostri dello spazio
-original_url: https://codeclubprojects.org/en-GB/scratch/clone-wars
-interests: games
-technologies: scratch
-site_areas: projects
-hardware: ''
-software: scratch
-version: 4
-last_tested: 2017-01-01
-steps: 
-- title: Introduzione
-- title: "Creare un'Astronave"
-- title: Fulmini
-- title: Ippopotami Spaziali Volanti
-- title: Pipistrelli della Frutta!
-- title: Game over
-- title: 'Sfida: Migliora il tuo gioco'
+version: 4.1.0
+last_tested: 2018-10-11
+steps:
+  - title: Introduzione
+  - title: Crea una navicella spaziale
+  - title: Fulmini
+  - title: 'Sfida: migliora il fulmine'
+    challenge: true
+  - title: Ippopotami spaziali
+  - title: Esplosione della nave spaziale
+  - title: Ippopotami che scompaiono
+  - title: 'Sfida: vite e punteggio'
+    challenge: true
+  - title: Pipistrello spaziale
+  - title: Partita finita
+  - title: 'Sfida: migliora il tuo gioco'
+    challenge: true
+  - title: E adesso?

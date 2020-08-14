@@ -1,37 +1,75 @@
+--- no-print ---
+
+Questa è la versione **Scratch 3** del progetto. C'è anche una [versione Scratch 2 del progetto](https://projects.raspberrypi.org/it-IT/projects/clone-wars-scratch2).
+
+--- /no-print ---
+
 ## Introduzione
 
-In questo progetto, imparerai a creare un gioco in cui dovrai salvare la Terra dai mostri dello spazio.
+In questo progetto imparerai come creare un gioco in cui il giocatore deve salvare la Terra dai mostri spaziali.
+
+### Cosa farai
+
+--- no-print ---
+
+Per iniziare fai clic sulla bandierina verde nel gioco di esempio qui sotto, poi premi i tasti freccia <kbd>sinistra</kbd> e <kbd>destra</kbd> per spostare la navicella, e il tasto <kbd>spazio</kbd> per sparare.
 
 <div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/46018140/?autostart=false" frameborder="0"></iframe>
-  <img src="images/invaders-final.png">
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/417834051/?autostart=false" frameborder="0" scrolling="no"></iframe>
+  <img src="images/showcase.png">
 </div>
+
+--- /no-print ---
+
+Fai quanti più punti possibile sparando agli ippopotami spaziali volanti. Perderai una vita se vieni colpito da un ippopotamo o da una delle arance fatte cadere dai pipistrelli.
+
+--- print-only ---
+
+![descrizione](images/showcase.png)
+
+--- /print-only ---
 
 --- collapse ---
 ---
-title: Note per i Volontari
+title: Di cosa avrai bisogno
 ---
 
-## Introduzione:
-In questo progetto, i bambini impareranno come creare un gioco in cui il giocatore controlla un'astronave che può sparare fulmini ai nemici.
+### Hardware
 
-## Risorse
-Per questo progetto, si può usare Scratch 2. Scratch 2 può essere usato online su [jumpto.cc/scratch-on](http://jumpto.cc/scratch-on) oppure può essere scaricato da [jumpto.cc/scratch-off](http://jumpto.cc/scratch-off) e usato in modalità offline.
++ Un computer in grado di far funzionare Scratch 3
 
-Una versione completa di questo progetto può essere trovata <a href="http://scratch.mit.edu/projects/46018140/#editor">online</a>, o può essere scaricata cliccando il link 'Materiali del Progetto', che contiene:
+### Software
 
-+ CloneWars.sb2
++ Scratch 3 ([online](https://rpf.io/scratchon){:target="_blank"} o [offline](https://rpf.io/scratchoff){:target="_blank"})
 
-## Obiettivi di apprendimento
-+ Questo progetto consolida l'apprendimento delle tecniche di programmazione imparate precedentemente, e dimostra come gli sprite possano creare cloni di_altri_sprite, e come usare molti cloni come proiettili.
+### Download
 
-Questo progetto copre elementi contenuti nei seguenti filoni di [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
+[Trova i download qui](http://rpf.io/p/it-IT/clone-wars-go).
 
-+ [Combinazione di costrutti di programmazione per la soluzione di problemi.](https://www.raspberrypi.org/curriculum/programming/builder)
+--- /collapse ---
 
-## Sfide
-+ "Aggiustare il fulmine" - usando un blocco `aspetta`{:class="blockcontrol"} per ridurre la frequenza del fulmine:
-+ "Vite e punteggio" - crea le variabili `vite`{:class="blockdata"}, `punteggio`{:class="blockdata"} e `punteggio alto`{:class="blockdata"}.
-+ "Migliora il tuo gioco" - aggiunge altri nemici, pacchetti energia, ecc.
+--- collapse ---
+---
+title: Cosa imparerai
+---
+
++ Come far muovere gli sprite usando l'input da tastiera
++ Come clonare gli sprite per farne delle copie
++ Come usare 'invia' e 'ricevi blocchi' per inviare messaggi
+
+--- /collapse ---
+
+--- collapse ---
+---
+title: Informazioni aggiuntive per gli educatori
+---
+
+--- no-print ---
+
+Se intendi stampare questo progetto, fai clic su [Versione stampabile](https://projects.raspberrypi.org/it-IT/projects/clone-wars/print){:target="_blank"}.
+
+--- /no-print ---
+
+Puoi trovare il [progetto completo qui](http://rpf.io/p/it-IT/clone-wars-get).
 
 --- /collapse ---
