@@ -1,10 +1,10 @@
-## Space-hippos
+## মহাকাশের জলহস্তী বা Hippos
 
-Now you're going to add lots of flying hippos that try to destroy your spaceship.
+এখন আপনি প্রচুর উড়ন্ত জলহস্তী বা hippo যুক্ত করতে যাচ্ছেন যেগুলি আপনার মহাকাশযানকে ধ্বংস করার চেষ্টা করবে।.
 
 \--- task \---
 
-Create a new sprite with the 'Hippo1' image in the Scratch library. Use the **shrink** tool to make the `Hippo` sprite a similar size to the `Spaceship` sprite.
+Scratch library তে 'Hippo 1' চিত্র সহ একটি নতুন sprite তৈরি করুন।** shrink ** tool ব্যবহার করুন ` Hippo ` sprite কে ` Spaceship ` sprite এর সম আকারে তৈরি করতে।.
 
 ![screenshot](images/invaders-hippo.png)
 
@@ -12,15 +12,15 @@ Create a new sprite with the 'Hippo1' image in the Scratch library. Use the **sh
 
 \--- task \---
 
-Set the `Hippo` sprite's rotation style to **left-right**.
+`Hippo` sprite র ঘূর্ণন শৈলীকে **left-right** এই ভাবে স্থির করুন।.
 
 [[[generic-scratch3-sprite-rotation-style]]]
 
-\--- /task \---
+[[[generic-scratch3-sprite-rotation-style]]]
 
 \--- task \---
 
-Add some code to hide the `Hippo` sprite when the game starts.
+যখন খেলা শুরু হয় তখন `Hippo` sprite লুকানোর জন্য কিছু কোড যুক্ত করুন।.
 
 ![hippo sprite](images/hippo-sprite.png)
 
@@ -33,7 +33,7 @@ hide
 
 \--- task \---
 
-Add some code to the Stage to create a new `Hippo` clone every few seconds.
+প্রতি কয়েক সেকেন্ডে একটি নতুন `Hippo` ক্লোন তৈরি করতে স্টেজটিতে কিছু কোড যুক্ত করুন।.
 
 \--- hints \---
 
@@ -45,7 +45,7 @@ When the `green flag is clicked`{:class="block3events"}, `repeatedly`{:class="bl
 
 \--- hint \---
 
-Here are the blocks you need:
+আপনার যেগুলি ব্লকগুলি দরকার তা এখানে রয়েছে:
 
 ```blocks3
 forever
@@ -64,7 +64,7 @@ wait () secs
 
 \--- hint \---
 
-This is what your code should look like:
+আপনার কোডটি দেখতে এমন হওয়া উচিত:
 
 ![stage sprite](images/stage-sprite.png)
 
@@ -82,15 +82,15 @@ end
 
 \--- /task \---
 
-Each new hippo clone should appear at a random `x` position, and every clone should have a random speed.
+প্রতিটি নতুন জলহস্তী বা hippo ক্লোন `x` অক্ষের এর যেকোনো স্থানে উপস্থিত হওয়া উচিত এবং প্রতিটি ক্লোনের গতি অনির্দিষ্ট হওয়া উচিত।.
 
 \--- task \---
 
-Create a new variable called `speed`{:class="block3variables"} that is for the `Hippo` sprite only.
+শুধুমাত্র `Hippo` sprite এর জন্য `speed`{:class="block3variables"} নামের নতুন variable তৈরী করুন.
 
 [[[generic-scratch3-add-variable]]]
 
-When you've done this correctly, the variable has the name of the sprite next to it, like this:
+আপনি যখন এটি সঠিকভাবে করবেন, variable টির পাশে দেখবেন sprite র নাম রয়েছে, যা এই রকম দেখতে:
 
 ![screenshot](images/invaders-var-test.png)
 
@@ -98,7 +98,7 @@ When you've done this correctly, the variable has the name of the sprite next to
 
 \--- task \---
 
-When each `Hippo` clone starts, pick a random speed and starting place for it. Then show the clone on the screen.
+প্রতিটি `hippo` ক্লোন শুরু হয়ে গেলে, যেকোনো গতিবেগ নিয়ে এগুলোকে বসান। তারপরে স্ক্রিনে ক্লোনটি দেখান।.
 
 ```blocks3
 when I start as a clone
@@ -111,15 +111,15 @@ show
 
 \--- task \---
 
-Test your code. Does a new hippo appear every few seconds?
+আপনার কোড পরীক্ষা করুন। কয়েক সেকেন্ড পর পর কি একটি নতুন জলহস্তী বা hippo উপস্থিত হয়?
 
 \--- /task \---
 
-At the moment the hippos don't move.
+এই মুহুর্তে জলহস্তী বা hippo গুলো নড়াচড়া করে না।.
 
 \--- task \---
 
-Each hippo should move around randomly until it gets hit by a lightning bolt. To make that happen, attach this code below the blocks that are already in the `Hippo` sprite's code script:
+প্রতিটি জলহস্তী বা hippo এলোমেলোভাবে ঘুরে বেড়াবে যতক্ষণ না এটি বজ্রপাতের কবলে না পড়ে। এটি করার জন্য, ইতিমধ্যে `hippo` sprite র কোড স্ক্রিপ্টে থাকা ব্লকগুলির নীচে এই কোডটি সংযুক্ত করুন:
 
 ```blocks3
 repeat until <touching (lightning v) ?>
@@ -134,7 +134,7 @@ delete this clone
 
 \--- task \---
 
-Test your code again. You should see a new hippo clone appear every few seconds, and each clone should move at a different speed.
+আপনার কোডটি আবার পরীক্ষা করুন। প্রতি কয়েক সেকেন্ডে একটি নতুন hippo ক্লোন উপস্থিত হওয়া উচিত এবং প্রতিটি ক্লোন আলাদা গতিতে চলবে।.
 
 \--- no-print \---
 
@@ -146,6 +146,6 @@ Test your code again. You should see a new hippo clone appear every few seconds,
 
 \--- task \---
 
-Now test the spaceship's laser cannon. If a lightning bolt hits a hippo, does the hippo vanish?
+এখন মহাকাশযানের লেজার কামানটি পরীক্ষা করুন। যদি কোনও বজ্রাঘাত একটি জলহস্তী বা hippo কে আঘাত করে তবে জলহস্তী/hippoটি কী নষ্ট হচ্ছে?
 
 \--- /task \---
