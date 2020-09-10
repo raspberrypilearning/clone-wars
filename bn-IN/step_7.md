@@ -1,10 +1,10 @@
-## Hippos that disappear
+## অদৃশ্য জলহস্তী বা hippo
 
-When the spaceship explodes, all the hippos should disappear so that players of the game can recover.
+যখন মহাকাশযানটি বিস্ফোরিত হয়, সমস্ত জলহস্তী বা hippo গুলি অদৃশ্য হয়ে যায় যাতে গেমের খেলোয়াড়রা পুনরুদ্ধার করতে পারে।.
 
 \--- task \---
 
-Add code to the spaceship sprite to make it `broadcast`{:class="block3events"} the message "hit" when the `spaceship touches a hippo`{:class="block3sensing"}.
+মহাকাশযান sprite এ কোড যুক্ত করুন 'hit' বার্তা `broadcast`{:class="block3events"} করতে যখন `spaceship touches a hippo`{:class="block3sensing"}.
 
 ![rocket sprite](images/rocket-sprite.png)
 
@@ -21,7 +21,7 @@ switch costume to (hit v)
 
 \--- task \---
 
-All of the `Hippo` sprite clones will receive the "hit" message, and you can instruct them to disappear when the spaceship is hit by adding this code to the `Hippo` sprite:
+সমস্ত `Hippo` sprite ক্লোনগুলি "hit" বার্তাটি গ্রহণ করবে এবং `hippo` sprite এ এই কোডটি যুক্ত করে আঘাত হানার পরে আপনি তাদের অদৃশ্য হওয়ার নির্দেশ দিতে পারেন:
 
 ![hippo sprite](images/hippo-sprite.png)
 
@@ -34,17 +34,17 @@ delete this clone
 
 \--- task \---
 
-To check whether the new code works, click the green flag and make the spaceship collide with a hippo.
+নতুন কোড কাজ করে কিনা তা যাচাই করতে, সবুজ পতাকাটি ক্লিক করুন এবং মহাকাশযানটিকে জলহস্তীর সাথে সংঘর্ষ ঘটান।.
 
 ![screenshot](images/invaders-hippo-collide.png)
 
 \--- /task \---
 
-After the spaceship explodes, new `Hippo` clones appear, but the spaceship is still exploded! The spaceship needs to reset itself after being hit.
+মহাকাশযান বিস্ফোরণের পরে নতুন `hippo` ক্লোন উপস্থিত হয় তবে তখনও মহাকাশযানটি বিস্ফোরিত অবস্থায় থাকবে! আঘাতের পরে মহাকাশযানটিকে নিজেকে পুনরায় সেট করবে।.
 
 \--- task \---
 
-Add a `wait`{:class="block3control"} block at the end of the `Spaceship` sprite's code to create a small pause before hippos begin appearing again. Then add a `forever`{:class="block3control"} block around all of your code to make the code run repeatedly.
+`Spaceship` sprite এর কোড শেষে একটি `wait`{:class="block3control"} ব্লক যুক্ত করুন যাতে জলহস্তী/hippo আবার প্রদর্শিত হওয়ার আগে একটি ছোট বিরতি তৈরি করে।. তারপর কোড বারবার চালাতে একটি `forever`{:class="block3control"} ব্লক যোগ করুন আপনার কোডের চারদিকে।.
 
 ![rocket sprite](images/rocket-sprite.png)
 
