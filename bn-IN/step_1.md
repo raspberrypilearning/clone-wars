@@ -1,18 +1,18 @@
 \--- no-print \---
 
-This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/clone-wars-scratch2).
+এটি প্রকল্পের **Scratch 3** সংস্করণ। এছাড়াও প্রকল্পের [Scratch 2 সংস্করণ ](https://projects.raspberrypi.org/en/projects/clone-wars-scratch2) রয়েছে।.
 
 \--- /no-print \---
 
-## Introduction
+## ভূমিকা
 
-In this project you will learn how to create a game in which you have to save the Earth from space monsters.
+এই প্রকল্পে আপনি শিখবেন কীভাবে এমন একটি গেম তৈরি করা যায় যা দিয়ে আপনি মহাকাশ দানব এর থেকে পৃথিবীকে বাঁচাতে পারবেন ।.
 
-### What you will make
+### আপনি যা বানাবেন
 
 \--- no-print \---
 
-Click the green flag in the example game below to start, and then press the <kbd>left</kbd> and <kbd>right</kbd> arrow keys to move the spaceship, and the <kbd>space</kbd> key to shoot.
+শুরু করতে নীচের উদাহরণের সবুজ পতাকাটি ক্লিক করুন এবং তারপরে মহাকাশযান টি সরানোর জন্য <kbd>left</kbd> এবং <kbd>right</kbd> তীর কীগুলি চাপুন এবং <kbd>space</kbd> চাপুন গুলি করতে।.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/276887163/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -21,7 +21,7 @@ Click the green flag in the example game below to start, and then press the <kbd
 
 \--- /no-print \---
 
-Score as many points as you can by shooting flying space-hippos. If you get hit by a hippo or by an orange dropped by the bats, you lose a life.
+উড়ন্ত স্পেস-হিপ্পো শুটিং করে আপনি যতগুলি পয়েন্ট পাবেন তা স্কোর করুন। আপনি যদি হিপ্পো বা বাদুড় দ্বারা ফেলে আসা কমলালেবু দ্বারা আঘাত পান তবে আপনি একটি জীবন হারাবেন।.
 
 \--- print-only \---
 
@@ -31,11 +31,11 @@ Score as many points as you can by shooting flying space-hippos. If you get hit 
 
 ## \--- collapse \---
 
-## title: What you will need
+## title: যা আপনার প্রয়োজন হবে
 
 ### Hardware
 
-+ A computer capable of running Scratch 3
++ Scratch 3 চালানোর জন্য সক্ষম একটি কম্পিউটার
 
 ### Software
 
@@ -43,30 +43,30 @@ Score as many points as you can by shooting flying space-hippos. If you get hit 
 
 ### Downloads
 
-[Find the downloads here](http://rpf.io/p/en/clone-wars-go).
+[Find the downloads here](http://rpf.io/p/en/clone-wars-go) ডাউনলোডগুলি এখানে সন্ধান করুন.
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: What you will learn
+## title: যা আপনি শিখবেন
 
-+ How to make sprites move using keyboard input
-+ How to clone sprites to make copies of them
-+ How to use 'broadcast' and 'receive blocks' to send messages
++ কী-বোর্ড ইনপুট ব্যবহার করে কিভাবে sprite গুলিকে সরানো যায়
++ ক্লোন sprite গুলির অনুলিপি তৈরি করতে কী করবেন
++ বার্তা প্রেরণের জন্য কীভাবে 'সম্প্রচার' এবং 'ব্লকগুলি গ্রহণ' করবেন
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: Additional notes for educators
+## title: শিক্ষাবিদদের জন্য অতিরিক্ত নোট
 
 \--- no-print \---
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/clone-wars/print){:target="_blank"}.
+আপনার যদি এই প্রকল্পটি মুদ্রণের প্রয়োজন হয় তবে [printer-friendly version](https://projects.raspberrypi.org/en/projects/clone-wars/print){:target="_blank"} ব্যবহার করুন.
 
 \--- /no-print \---
 
-You can find the [completed project here](http://rpf.io/p/en/clone-wars-get).
+[completed project here](http://rpf.io/p/en/clone-wars-get) এখানে সমাপ্ত প্রকল্পটি খুঁজে পেতে পারেন.
 
 \--- /collapse \---
