@@ -1,20 +1,20 @@
-## Space-bat
+## মহাকাশের বাদুড় বা bat
 
-To make your game a bit harder, you are going to create a bat that throws oranges at the spaceship.
+আপনার গেমটি কিছুটা শক্ত করতে আপনি এমন একটি বাদুড় বা bat তৈরি করুন যা মহাকাশযানের উপরে কমলালেবু ছুঁড়ে ফেলে।.
 
 ![a bat throwing an orange at the spaceship](images/bat-oranges.png)
 
 \--- task \---
 
-Add a `Bat` sprite and set its rotation style to **left–right**.
+একটি `Bat` sprite যুক্ত করুন এবং তার ঘূর্ণন এর দিকটা **left–right** করে দিন.
 
 \--- /task \---
 
 \--- task \---
 
-Make the `Bat` sprite `move`{:class="block3motion"} from left to right at the top of the Stage `forever`{:class="block3control"}.
+`Bat` sprite কে `move`{:class="block3motion"} from left to right at the top of the Stage `forever` করুন {:class="block3control"}.
 
-![bat sprite](images/bat-sprite.png)
+![a bat throwing an orange at the spaceship](images/bat-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -25,29 +25,29 @@ forever
 end
 ```
 
-Remember to test your code.
+আপনার কোড পরীক্ষা করতে মনে রাখবেন।.
 
 \--- /task \---
 
-If you look at the bat's costumes, you can see that it has four different ones:
+আপনি যদি বাদুড়ের dekhen দেখে থাকেন তবে দেখতে পাবেন এটির চারটি আলাদা costume রয়েছে:
 
 ![screenshot](images/invaders-bat-costume.png)
 
 \--- task \---
 
-Use the `next costume`{:class="block3looks"} block to make the bat flap its wings as it moves.
+`next costume`{:class="block3looks"} ব্লক ব্যবহার করুন যাতে বাদুড়/bat টি সরার সময় তার ডানাগুলি নড়তে থাকে।.
 
 \--- hints \---
 
 \--- hint \---
 
-After the bat has moved, it should show the `next costume`{:class="block3looks"} and then `wait`{:class="block3control"} for a short time.
+বাদুড় চলে যাবার পর এটা `next costume`{:class="block3looks"} দেখাবে এবং তারপর স্বল্প সময়ের অপেক্ষা করবে `wait`{:class="block3control"}.
 
 \--- /hint \---
 
 \--- hint \---
 
-You need to add these blocks to you code:
+আপনার কোডগুলিতে আপনাকে এই ব্লকগুলি যুক্ত করতে হবে:
 
 ```blocks3
 wait (0.3) seconds
@@ -59,7 +59,7 @@ next costume
 
 \--- hint \---
 
-Your code should look like this:
+আপনার কোডটি দেখতে এমন হওয়া উচিত:
 
 ```blocks3
 when flag clicked
@@ -79,11 +79,11 @@ end
 
 \--- /task \---
 
-Now make the bat throw oranges!
+এবার বাদুড় কমলালেবু ফেলতে থাকবে!
 
 \--- task \---
 
-Add an `Orange` sprite from the Scratch library.
+Scratch library থেকে `Orange` sprite যোগ করুন.
 
 ![screenshot](images/invaders-orange.png)
 
@@ -107,7 +107,7 @@ end
 
 \--- task \---
 
-Add code to the `Orange` to make each of its clone drop, starting from the `Bat` sprite and falling towards the bottom of the Stage.
+`Bat` sprite থেকে শুরু করে স্টেজের নীচের দিকে কমলালেবুর ক্লোন ফেলতে এর প্রতিটি ` orange ` এ কোড যুক্ত করুন।.
 
 ![orange sprite](images/orange-sprite.png)
 
@@ -128,7 +128,7 @@ Add code to the `Orange` to make each of its clone drop, starting from the `Bat`
 
 \--- task \---
 
-Add some more code to the `Orange` sprite so that when an `Orange` clone hits the `Spaceship` sprite, the clone also disappears to give the player a chance to reset:
+`Orange` sprite এ আরও কিছু কোড যুক্ত করুন যাতে কোনও `orange` ক্লোন যখন `spaceship` sprite কে আঘাত করে, ক্লোনটি প্লেয়ারকে পুনরায় সেট করার সুযোগ দিতে অদৃশ্য হয়ে যায়:
 
 ![orange sprite](images/orange-sprite.png)
 
@@ -141,7 +141,7 @@ Add some more code to the `Orange` sprite so that when an `Orange` clone hits th
 
 \--- task \---
 
-Modify the code of your `Spaceship` sprite so that the sprite is "hit" when it touches a `Hippo` sprite or an `Orange` sprite:
+আপনার `spaceship` sprite র কোড সংশোধন করুন যাতে `hippo` sprite বা `orange` sprite স্পর্শ করলে sprite টি "hit" হয়:
 
 ![rocket sprite](images/rocket-sprite.png)
 
@@ -153,6 +153,6 @@ Modify the code of your `Spaceship` sprite so that the sprite is "hit" when it t
 
 \--- task \---
 
-Test your game. What happens if the spaceship gets hit by a falling orange?
+আপনার খেলা পরীক্ষা করুন।মহাকাশযানটা একটি পড়তে থাকা কমলা দ্বারা আঘাত প্রাপ্ত হলে কি হবে?
 
 \--- /task \---
