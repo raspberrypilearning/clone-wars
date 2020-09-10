@@ -1,7 +1,7 @@
-## Challenge: lives and score
+## Challenge: life এবং স্কোর
 
-At the moment, you can play the game forever, but it doesn't count how many hippos you shoot or how many times your spaceship explodes.
+এই মুহুর্তে, আপনি খেলাটি চিরতরে খেলতে পারেন কিন্তু আপনি কতগুলি জলহস্তী/hippo গুলি করেন বা আপনার স্পেসশিপটি কতবার বিস্ফোরিত হয় তা গণনা করা যায় না।.
 
-Can you add `lives`{:class="block3variables"}, a `score`{:class="block3variables"}, or even a `highscore`{:class="block3variables"} to your game?
+আপনি কি আপনার গেমে `lives`{:class="block3variables"} যুক্ত করতে পারেন, বা `score`{:class="block3variables"}, এমনকি `highscore`{:class="block3variables"}?
 
 [[[generic-scratch3-high-score]]]
