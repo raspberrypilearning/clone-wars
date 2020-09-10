@@ -1,18 +1,18 @@
-## Make a spaceship
+## একটি মহাকাশযান বানান
 
-First make a spaceship that can defend the Earth!
+প্রথমে এমন একটি মহাকাশযান তৈরি করুন যা পৃথিবীকে রক্ষা করতে পারে!
 
 \--- task \---
 
-Open the 'Clone wars' Scratch starter project.
+'Clone Wars' Scratch starter project টি খুলুন।.
 
-**Online:** open the starter project at [rpf.io/clone-wars-on](http://rpf.io/clone-wars-on){:target="_blank"}.
+**Online:** স্টার্টার প্রকল্পটি এখানে খুলুন [rpf.io/clone-wars-on](http://rpf.io/clone-wars-on){:target="_blank"}.
 
-If you have a Scratch account you can make a copy by clicking **Remix**.
+আপনার যদি scratch অ্যাকাউন্ট থাকে তবে **Remix** ক্লিক করে একটি অনুলিপি/copy তৈরি করতে পারেন।.
 
-**Offline:** download the starter project from [rpf.io/p/en/clone-wars-go](http://rpf.io/p/en/clone-wars-go), and then open it using the offline editor.
+**Offline:** [ rpf.io/p/en/clone-wars-go ](http://rpf.io/p/en/clone-wars-go) থেকে স্টার্টার প্রকল্পটি ডাউনলোড করুন এবং তারপরে অফলাইন সম্পাদক/editor ব্যবহার করে এটি খুলুন।.
 
-If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
+আপনার যদি scratch অফলাইন সম্পাদক/editor ডাউনলোড ও ইনস্টল করতে হয় তবে আপনি এটি [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"} এ খুঁজে পেতে পারেন.
 
 \--- /task \---
 
@@ -20,7 +20,7 @@ If you need to download and install the Scratch offline editor, you can find it 
 
 \--- task \---
 
-Add this code to the spaceship sprite to make the spaceship move left if the <kbd>left</kbd> arrow is pressed:
+এই কোডটি মহাকাশযান sprite এ যুক্ত করুন যাতে <kbd>left</kbd> কি চাপলে মহাকাশ যানটি বাম দিকে ঘুরে যায়:
 
 ![rocket sprite](images/rocket-sprite.png)
 
@@ -33,7 +33,7 @@ Add this code to the spaceship sprite to make the spaceship move left if the <kb
     end
 ```
 
-The x-axis goes from the left side of the Stage to the right side. This means that the spaceship moves to the left when you subtract from the value of the spaceship sprite's `x` position. So this code block is the part that makes your spaceship move left:
+X-axis টি স্টেজের বাম দিক থেকে ডান দিকে যায়।. এর অর্থ হ'ল মহাকাশযান sprite র ` x ` অবস্থানের থেকে মানটি বিয়োগ করলে মহাকাশযান বাম দিকে চলে যায়।. সুতরাং এই কোড ব্লকটি এমন একটি অংশ যা আপনার মহাকাশযানকে বামে স্থানান্তরিত করে:
 
 ```blocks3
 change x by (-4)
@@ -43,19 +43,19 @@ change x by (-4)
 
 \--- task \---
 
-Add some more code inside the `forever`{:class="block3control"} block to make your spaceship move to the right if the <kbd>right</kbd> arrow key is pressed.
+`forever`{:class="block3control"} ব্লকে আরো কিছু কোড যুক্ত করুন যাতে আপনার মহাকাশযানটা ডান দিকে ঘরে যখন <kbd>right</kbd> arrow কী চাপা হয়.
 
 \--- hints \---
 
 \--- hint \---
 
-Subtracting `4` from the spaceship's `x` position made it move left, so how could you make the spaceship move right by `4` instead?
+মহাকাশযানের ` x ` অবস্থান থেকে ` 4 ` বিয়োগ করলে এটি বাম দিকে সরে যায়, সুতরাং আপনি কীভাবে তার পরিবর্তে ` 4 ` দ্বারা মহাকাশযানটি ডানদিকে সরাতে পারবেন?
 
 \--- /hint \---
 
 \--- hint \---
 
-You need the same code block, but with a different number:
+আপনার একই কোড ব্লক দরকার, তবে একটি ভিন্ন সংখ্যা সহ:
 
 ```blocks3
 change x by ( )
@@ -65,7 +65,7 @@ change x by ( )
 
 \--- hint \---
 
-Here is the code you need to add below the other code inside the `forever`{:class="block3control"} block:
+`forever`{:class="block3control"} ব্লকের মধ্যে অন্য কোড এর নিচে যে কোডটি যুক্ত করতে হবে সেটা এখানে দেয়া হল:
 
 ![rocket sprite](images/rocket-sprite.png)
 
@@ -83,6 +83,6 @@ end
 
 \--- task \---
 
-Test your project by clicking the green flag. Can you press the arrow keys to make your spaceship move left and right?
+সবুজ পতাকাটিতে ক্লিক করে প্রকল্পটি পরীক্ষা করুন। আপনার মহাকাশযানটি বাম এবং ডানে সরানোতে আপনি কি তীর কীগুলি/arrow keys চাপতে পারেন?
 
 \--- /task \---
