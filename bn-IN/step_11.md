@@ -1,18 +1,18 @@
-## Challenge: improve your game
+## Challenge: আপনার গেমটি উন্নত করুন
 
-What improvements can you make to your game?
+গেমটিতে আপনি কি কি উন্নতি করতে পারেন?
 
-Here are some ideas:
+এখানে কিছু ধারনা দেওয়া হলো:
 
-+ Add health packs that you can collect to gain extra lives.
++ অতিরিক্ত জীবন বা life অর্জনের জন্য সংগ্রহ করতে পারেন এমন স্বাস্থ্য প্যাক মানে Health Packs যুক্ত করুন।.
 
 ![screenshot](images/invaders-aid.png)
 
-+ Add floating rocks that your spaceship must avoid.
++ এমন ভাসমান প্রস্থর খন্ড যুক্ত করুন যেটিকে আপনার মহাকাশযান অবশ‍্যই এড়িয়ে চলবে।.
 
 ![screenshot](images/invaders-rocks.png)
 
-+ Make more enemies appear when your score gets to `100`.
++ আরও প্রতিপক্ষ যোগ করুন যখন আপনার স্কোর `100` উঠে যাবে।.
 
 ```blocks3
     wait until <(score :: variables) = [100]>
