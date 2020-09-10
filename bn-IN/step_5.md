@@ -16,8 +16,6 @@ Scratch library তে 'Hippo 1' চিত্র সহ একটি নতু�
 
 [[[generic-scratch3-sprite-rotation-style]]]
 
-[[[generic-scratch3-sprite-rotation-style]]]
-
 --- /task ---
 
 --- task ---

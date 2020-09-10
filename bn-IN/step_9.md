@@ -12,7 +12,7 @@
 
 --- task ---
 
-`Bat` sprite কে `move`{:class="block3motion"} from left to right at the top of the Stage `forever` করুন {:class="block3control"}.
+`Bat` sprite কে `move`{:class="block3motion"} from left to right at the top of the Stage `forever`{:class="block3control"} করুন.
 
 ![a bat throwing an orange at the spaceship](images/bat-sprite.png)
 

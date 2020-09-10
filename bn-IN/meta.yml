@@ -9,11 +9,11 @@ version: 4.1.0
 last_tested: 2018-10-11
 steps:
   - title: ভূমিকা
-  - title: একটি মহাকাশযান তৈরি করুন
-  - title: বজ্রপাত
-  - title: 'Challenge: বজ্রপাত উন্নত করুন'
+  - title: একটি মহাকাশযান বানান
+  - title: বজ্রপাতের ঝলক
+  - title: 'Challenge: বজ্রপাতের মান উন্নত করুন'
     challenge: true
-  - title: মহাকাশের জলহস্তী বা hippo
+  - title: মহাকাশের জলহস্তী বা Hippos
   - title: মহাকাশযান বিস্ফোরণ
   - title: অদৃশ্য জলহস্তী বা hippos
   - title: 'Challenge: life এবং স্কোর'
