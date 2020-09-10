@@ -1,0 +1,9 @@
+speed
+
+normal
+
+hit
+
+hit 
+
+Game over

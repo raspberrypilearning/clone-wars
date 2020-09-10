@@ -1,0 +1,25 @@
+---
+hero_image: images/clone-wars.png
+theme: violet
+listed: true
+copyedit: true
+title: ক্লোনদের যুদ্ধ
+description: একটি গেম তৈরি করুন যেখানে আপনাকে মহাকাশ দানব এর থেকে পৃথিবীকে বাঁচাতে হবে
+version: 4.1.0
+last_tested: 2018-10-11
+steps:
+  - title: ভূমিকা
+  - title: একটি মহাকাশযান তৈরি করুন
+  - title: বজ্রপাত
+  - title: 'Challenge: বজ্রপাত উন্নত করুন'
+    challenge: true
+  - title: মহাকাশের জলহস্তী বা hippo
+  - title: মহাকাশযান বিস্ফোরণ
+  - title: অদৃশ্য জলহস্তী বা hippos
+  - title: 'Challenge: life এবং স্কোর'
+    challenge: true
+  - title: মহাকাশের বাদুড় বা bat
+  - title: খেলা শেষ
+  - title: 'Challenge: আপনার গেমটি উন্নত করুন'
+    challenge: true
+  - title: এরপর কি?
