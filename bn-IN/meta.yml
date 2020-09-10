@@ -3,35 +3,35 @@ hero_image: images/clone-wars.png
 theme: violet
 listed: true
 copyedit: true
-title: Clone wars
-description: Create a game in which you have to save the Earth from space monsters
+title: ক্লোনদের যুদ্ধ
+description: একটি গেম তৈরি করুন যেখানে আপনাকে মহাকাশ দানব এর থেকে পৃথিবীকে বাঁচাতে হবে
 version: 4.1.0
 last_tested: 2018-10-11
 steps:
   - 
-    title: Introduction
+    title: ভূমিকা
   - 
-    title: Make a spaceship
+    title: একটি মহাকাশযান তৈরি করুন
   - 
-    title: Lightning bolts
+    title: বজ্রপাত
   - 
-    title: 'Challenge: improve the lightning'
+    title: 'Challenge: বজ্রপাত উন্নত করুন'
     challenge: true
   - 
-    title: Space-hippos
+    title: মহাকাশের জলহস্তী বা hippo
   - 
-    title: Spaceship explosion
+    title: মহাকাশযান বিস্ফোরণ
   - 
-    title: Hippos that disappear
+    title: অদৃশ্য জলহস্তী বা hippos
   - 
-    title: 'Challenge: lives and score'
+    title: 'Challenge: life এবং স্কোর'
     challenge: true
   - 
-    title: Space-bat
+    title: মহাকাশের বাদুড় বা bat
   - 
-    title: Game over
+    title: খেলা শেষ
   - 
-    title: 'Challenge: improve your game'
+    title: 'Challenge: আপনার গেমটি উন্নত করুন'
     challenge: true
   - 
-    title: What next?
+    title: এরপর কি?
