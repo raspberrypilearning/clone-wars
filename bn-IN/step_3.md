@@ -1,10 +1,10 @@
-## Lightning bolts
+## বজ্রপাতের ঝলক
 
-Now you are going to give the spaceship the ability to fire lightning bolts!
+এখন আপনি মহাকাশযানটিকে বজ্রপাতের মতো আগুন জ্বালানোর ক্ষমতা দিচ্ছেন!
 
 \--- task \---
 
-Add the `Lightning` sprite from the Scratch library.
+Scratch library থেকে `Lightning` sprite যোগ করুন.
 
 [[[generic-scratch3-sprite-from-library]]]
 
@@ -12,9 +12,9 @@ Add the `Lightning` sprite from the Scratch library.
 
 \--- task \---
 
-When the game starts, the `Lightning` sprite should be hidden until the spaceship fires its laser cannons.
+গেমটি শুরু হওয়ার পরে ` Lightning ` Sprite টি লুকিয়ে রাখা উচিত যতক্ষণ না মহাকাশযানটি তার লেজার কামানগুলিতে আগুন দেয়।.
 
-Add this code to the `Lightning` sprite:
+`Lightning` sprite এ এই কোড যুক্ত করুন:
 
 ![lightning sprite](images/lightning-sprite.png)
 
@@ -25,11 +25,11 @@ hide
 
 \--- /task \---
 
-At the moment, the lightning bolt is really big compared to the spaceship!
+এই মুহূর্তে, বিদ্যুতের ঝলকানি মহাকাশযানের তুলনায় সত্যিই বড়!
 
 \--- task \---
 
-Below the code that the `Lightning` sprite already has, add some blocks to make the sprite smaller and to turn it upside down.
+নিচে কিছু কোড আছে যেগুলি ইতিমধ্যে `Lightning` sprite এ বর্তমান, আরো কিছু ব্লক যুক্ত করুন sprite টিকে ছোট করতে এবং এটিকে উল্টে দিতে।.
 
 ![lightning sprite](images/lightning-sprite.png)
 
@@ -38,13 +38,13 @@ set size to (25) %
 point in direction (-90)
 ```
 
-Now it looks like it fires pointy end–first out of the spaceship.
+এবার এটাকে দেখে মনে হচ্ছে মহাকাশযানটি সূচালো বিন্দু থেকে আগুন ছুড়ছে।.
 
 \--- /task \---
 
 \--- task \---
 
-Add some new code to the `Spaceship` sprite to create a new clone of the lightning bolt if the <kbd>space</kbd> key is pressed.
+`Spaceship` sprite এ কিছু নতুন কোড যুক্ত করুন বজ্রপাতের একটি ক্লোন তৈরী করার জন্য যখন <kbd>space</kbd> কী চাপা হয়।.
 
 \--- hints \---
 
@@ -56,7 +56,7 @@ Add some new code to the `Spaceship` sprite to create a new clone of the lightni
 
 \--- hint \---
 
-Here are the blocks you need:
+যে ব্লকগুলি দরকার তা এখানে রয়েছে:
 
 ```blocks3
 if <> then
@@ -76,7 +76,7 @@ when flag clicked
 
 \--- hint \---
 
-Here is what your new code should look like:
+নতুন কোডটি দেখতে এমন হওয়া উচিত:
 
 ![rocket sprite](images/rocket-sprite.png)
 
@@ -97,9 +97,9 @@ end
 
 \--- task \---
 
-Whenever the game creates a `Lightning` sprite clone, the clone should appear and then move upwards until it reaches the top of the Stage. Then the clone should disappear.
+যখনই গেম একটি ` Lightning ` sprite এর ক্লোন তৈরি করে, ক্লোনটিকে উপস্থিত হয়ে পর্যায়/stage এর শীর্ষে না পৌঁছানো পর্যন্ত উপরের দিকে ওঠা উচিত। তারপরে ক্লোনটি অদৃশ্য হয়ে যাবে।.
 
-Add this code to the `Lightning` sprite so that clones of it move upwards until they touch the edge of the Stage, and then they get deleted.
+এই কোডটি যুক্ত করুন `Lightning` sprite এ, যাতে পর্যায়ের শেষ প্রান্ত স্পর্শ না করা পর্যন্ত এর ক্লোনগুলি উপরের দিকে চলতে থাকে এবং তারপরে সেগুলি মুছে যায়।.
 
 ![lightning sprite](images/lightning-sprite.png)
 
@@ -117,6 +117,6 @@ Add this code to the `Lightning` sprite so that clones of it move upwards until 
 
 \--- task \---
 
-Press the <kbd>space</kbd> key to test whether the lightning bolt moves correctly.
+<kbd>space</kbd> কী চেপে দেখুন বজ্রপাত সঠিক ভাবে কাজ করছে কিনা।.
 
 \--- /task \---
