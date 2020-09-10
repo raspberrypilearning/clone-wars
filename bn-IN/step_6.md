@@ -1,20 +1,20 @@
-## Spaceship explosion
+## মহাকাশযান বিস্ফোরণ
 
-When a hippo touches your spaceship, the spaceship should explode!
+যখন একটি জলহস্তী বা hippo আপনার মহাকাশযান স্পর্শ করে, তখন মহাকাশযানটি বিস্ফোরিত হওয়া উচিত!
 
 \--- task \---
 
-Select the `Spaceship` sprite and rename its costume 'normal'.
+`spaceship` sprite টি নির্বাচন করুন এবং এর costume এর নামকরণ করুন 'normal'।.
 
 \--- /task \---
 
 \--- task \---
 
-Draw another costume of an exploding spaceship, and call the new costume 'hit'.
+বিস্ফোরিত মহাকাশযানের একটি costume আঁকুন এবং নতুন costume কে 'hit' নাম দিন।.
 
 ![screenshot](images/invaders-spaceship-costumes.png)
 
-If you don't want to draw the explosion, you can select the 'Sun' costume from the Scratch library, and then use the **Color a shape** tool to change the costume's colour and face.
+আপনি যদি বিস্ফোরণ আঁকতে না চান তবে আপনি Scratch library থেকে 'sun' costume টি নিতে পারেন এবং তারপরে costume এর রঙ এবং চেহারা পরিবর্তন করতে **Color a shape** tool টি ব্যবহার করতে পারেন।.
 
 ![screenshot](images/invaders-sun.png)
 
@@ -22,7 +22,7 @@ If you don't want to draw the explosion, you can select the 'Sun' costume from t
 
 \--- task \---
 
-Add some code to your `Spaceship` sprite so that it displays the 'normal' costume when the game starts, and switches to the 'hit' costume when it touches a hippo:
+আপনার `Spaceship` sprite এ কিছু কোড যুক্ত করুন যাতে এটি খেলা শুরু হওয়ার পরে 'normal' costume প্রদর্শন করে এবং জলহস্তী বা hippo স্পর্শ করলে 'hit' পোশাকটিতে পরিবর্তিত হয়:
 
 ![rocket sprite](images/rocket-sprite.png)
 
@@ -37,6 +37,6 @@ switch costume to (hit v)
 
 \--- task \---
 
-Test your code. Make the spaceship collide with a hippo. Does the spaceship change to the 'hit' costume?
+আপনার কোড পরীক্ষা করুন। একটি জলহস্তী বা hippo দিয়ে মহাকাশযানের সাথে সংঘর্ষ করান। মহাকাশযানের পোশাক কি 'hit' এ পরিবর্তিত হয়?
 
 \--- /task \---
