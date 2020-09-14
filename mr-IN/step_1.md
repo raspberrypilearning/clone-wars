@@ -39,11 +39,11 @@
 
 ### सॉफ्टवेअर
 
-+ Scratch 3 (एकतर [online](https://rpf.io/scratchon){:target="_blank"} किंवा [offline](https://rpf.io/scratchoff){:target="_blank"})
++ Scratch 3 (एकतर [ऑनलाइन](https://rpf.io/scratchon){:target="_blank"} किंवा [ऑफलाइन](https://rpf.io/scratchoff){:target="_blank"})
 
 ### डाउनलोड्स
 
-[ Find the downloads here ](http://rpf.io/p/en/clone-wars-go).
+[येथे डाउनलोड्स शोधा](http://rpf.io/p/en/clone-wars-go).
 
 \--- /collapse \---
 
@@ -67,6 +67,6 @@
 
 \--- /no-print \---
 
-आपण येथे [ completed project ](http://rpf.io/p/en/clone-wars-get)शोधू शकता.
+आपण येथे [पूर्ण केलेला प्रकल्प शोधू शकता](http://rpf.io/p/en/clone-wars-get).
 
 \--- /collapse \---
