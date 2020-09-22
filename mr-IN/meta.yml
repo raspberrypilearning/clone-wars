@@ -1,0 +1,25 @@
+---
+hero_image: images/clone-wars.png
+theme: violet
+listed: true
+copyedit: true
+title: क्लोन युद्धे
+description: एक खेळ तयार करा ज्यामध्ये आपल्याला पृथ्वीवरील अवकाशातील राक्षसांपासून वाचवावे लागेल
+version: 4.1.0
+last_tested: 2018-10-11
+steps:
+  - title: परिचय
+  - title: स्पेसशिप बनवा
+  - title: विजेच्या बोल्ट
+  - title: 'आव्हान: वीज सुधारणे'
+    challenge: true
+  - title: स्पेस-हिप्पो
+  - title: स्पेसशिपचा स्फोट
+  - title: अदृश्य होणारे हिप्पो
+  - title: 'आव्हान: खेळ मधले जीवन आणि स्कोअर(score)'
+    challenge: true
+  - title: स्पेस-बॅट
+  - title: खेळ समाप्त
+  - title: 'आव्हानः आपला खेळामध्ये सुधार करा'
+    challenge: true
+  - title: पुढे काय?
