@@ -63,7 +63,7 @@
 
 \--- no-print \---
 
-आपल्यला हा प्रकल्प प्रिंट करणे आवश्यक असल्यास, कृपया [ printer-friendly version](https://projects.raspberrypi.org/en/projects/clone-wars/print){:target="_ blank"}.
+आपल्याला जर हा प्रकल्प प्रिंट करायचा असेल तर आपण [प्रिंटर अनुकूल आवृत्ती](https://projects.raspberrypi.org/en/projects/clone-wars/print){:target="_blank"} चा वापर करू शकता.
 
 \--- /no-print \---
 
