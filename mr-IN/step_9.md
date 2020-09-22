@@ -42,7 +42,7 @@ end
 
 --- hint ---
 
-बॅट हलविल्यानंतर, त्याने `next coustume`{:class="block3looks"} आणि नंतर थोड्या काळासाठी `wait`{:class=block3control"} दर्शविले पाहिजे.
+बॅट हलविल्यानंतर, त्याने `next coustume`{:class="block3looks"} आणि नंतर थोड्या काळासाठी `wait`{:class="block3control"} दर्शविले पाहिजे.
 
 --- /hint ---
 
