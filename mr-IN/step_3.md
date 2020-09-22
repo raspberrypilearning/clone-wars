@@ -44,13 +44,13 @@ point in direction (-90)
 
 \--- task \---
 
-`Spaceship` मध्ये काही नवीन कोड जोडल्यास विजेचा बोल्ट चा नवीन क्लोन तयार करण्यासाठी sprite<kbd>space</kbd> key दाबली आहे.
+`Spaceship` मध्ये काही नवीन कोड जोडल्यास विजेचा बोल्टचा नवीन क्लोन तयार करण्यासाठी स्प्राइट <kbd>space</kbd> की दाबली आहे.
 
 \--- hints \---
 
 \--- hint \---
 
-`When the green flag is clicked`{:class="block3events"}, keep checking `forever`{:class="block3control"} `if`{:class="block3control"} the `space key is pressed`{:class="block3sensing"}, and in that case `create a clone of the Lightning`{:class="block3control"} sprite.
+जेव्हा `When the green flag is clicked`{:class="block3events"}क्लिक केला जाईल`forever`{:class="block3control"} `if`{:class="block3control"} `space key is pressed`{:class="block3sensing"} ते सेकंद दरम्यान `create a clone of the Lightning`{:class="block3control"}.
 
 \--- /hint \---
 
