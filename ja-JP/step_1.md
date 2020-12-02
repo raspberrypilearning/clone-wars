@@ -44,7 +44,7 @@ title: 必要なもの
 
 ### ダウンロード
 
-[ここでダウンロードを見つけること](http://rpf.io/p/ja-JP/clone-wars-go)。
+[ここでダウンロードを見つけること](https://rpf.io/p/ja-JP/clone-wars-go)。
 
 --- /collapse ---
 
@@ -70,6 +70,6 @@ title: 教育者向けの追加情報
 
 --- /no-print ---
 
-完成したプロジェクトは[こちら](http://rpf.io/p/ja-JP/clone-wars-get)で見つけることができます。
+完成したプロジェクトは[こちら](https://rpf.io/p/ja-JP/clone-wars-get)で見つけることができます。
 
 --- /collapse ---

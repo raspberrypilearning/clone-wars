@@ -44,7 +44,7 @@ title: 你需要准备什么
 
 ### 下载
 
-[在此处下载](http://rpf.io/p/zh-CN/clone-wars-go) 。
+[在此处下载](https://rpf.io/p/zh-CN/clone-wars-go) 。
 
 --- /collapse ---
 
@@ -70,6 +70,6 @@ title: 教师附加说明
 
 --- /no-print ---
 
-你可以在这里找到[完整的项目](http://rpf.io/p/zh-CN/clone-wars-get).
+你可以在这里找到[完整的项目](https://rpf.io/p/zh-CN/clone-wars-get).
 
 --- /collapse ---

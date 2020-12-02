@@ -43,7 +43,7 @@ title: O que vais precisar
 
 ### Downloads
 
-[Encontra os ficheiros para download aqui](http://rpf.io/p/pt-PT/clone-wars-go).
+[Encontra os ficheiros para download aqui](https://rpf.io/p/pt-PT/clone-wars-go).
 
 --- /collapse ---
 
@@ -67,6 +67,6 @@ Se você precisar imprimir este projeto, por favor, use a [versão para impress�
 
 --- /no-print ---
 
-Podes encontrar o [projeto concluído aqui](http://rpf.io/p/pt-PT/clone-wars-get).
+Podes encontrar o [projeto concluído aqui](https://rpf.io/p/pt-PT/clone-wars-get).
 
 --- /collapse ---

@@ -44,7 +44,7 @@ title: De ce vei avea nevoie
 
 ### Fișiere descărcabile
 
-[Găsești fișierele descărcabile aici](http://rpf.io/p/ro-RO/clone-wars-go).
+[Găsești fișierele descărcabile aici](https://rpf.io/p/ro-RO/clone-wars-go).
 
 --- /collapse ---
 
@@ -70,6 +70,6 @@ Dacă trebuie să printezi acest proiect, folosește [versiunea printabilă](htt
 
 --- /no-print ---
 
-Poți găsi [proiectul finalizat aici](http://rpf.io/p/ro-RO/clone-wars-get).
+Poți găsi [proiectul finalizat aici](https://rpf.io/p/ro-RO/clone-wars-get).
 
 --- /collapse ---

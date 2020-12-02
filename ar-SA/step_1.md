@@ -44,7 +44,7 @@ title: ما الذي ستحتاجه
 
 ### التنزيلات
 
-[يمكنك تحميل الملفات من هنا](http://rpf.io/p/ar-SA/clone-wars-go).
+[يمكنك تحميل الملفات من هنا](https://rpf.io/p/ar-SA/clone-wars-go).
 
 --- /collapse ---
 
@@ -70,6 +70,6 @@ title: ملاحظات إضافية للمعلمين
 
 --- /no-print ---
 
-يمكنك الحصول على [المشروع كاملاً من هنا](http://rpf.io/p/ar-SA/clone-wars-get).
+يمكنك الحصول على [المشروع كاملاً من هنا](https://rpf.io/p/ar-SA/clone-wars-get).
 
 --- /collapse ---

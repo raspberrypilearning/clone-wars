@@ -44,7 +44,7 @@ title: Τι θα χρειαστείς
 
 ### Λήψεις
 
-[Βρες τις λήψεις εδώ](http://rpf.io/p/el-GR/clone-wars-go).
+[Βρες τις λήψεις εδώ](https://rpf.io/p/el-GR/clone-wars-go).
 
 --- /collapse ---
 
@@ -70,6 +70,6 @@ title: Πρόσθετες σημειώσεις για εκπαιδευτικού
 
 --- /no-print ---
 
-Μπορείς να βρεις [το ολοκληρωμένο έργο εδώ](http://rpf.io/p/el-GR/clone-wars-get).
+Μπορείς να βρεις [το ολοκληρωμένο έργο εδώ](https://rpf.io/p/el-GR/clone-wars-get).
 
 --- /collapse ---
