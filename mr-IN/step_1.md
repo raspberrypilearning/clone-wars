@@ -43,7 +43,7 @@
 
 ### डाउनलोड्स
 
-[येथे डाउनलोड्स शोधा](http://rpf.io/p/en/clone-wars-go).
+[Find the downloads here](https://rpf.io/p/en/clone-wars-go).
 
 \--- /collapse \---
 
@@ -67,6 +67,6 @@
 
 \--- /no-print \---
 
-आपण येथे [पूर्ण केलेला प्रकल्प शोधू शकता](http://rpf.io/p/en/clone-wars-get).
+You can find the [completed project here](https://rpf.io/p/en/clone-wars-get).
 
 \--- /collapse \---
