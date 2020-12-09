@@ -43,7 +43,7 @@
 
 ### 下载
 
-[在此处下载](http://rpf.io/p/en/clone-wars-go) 。
+[Find the downloads here](https://rpf.io/p/en/clone-wars-go).
 
 \--- /collapse \---
 
@@ -67,6 +67,6 @@
 
 \--- /no-print \---
 
-你可以在这里找到[完整的项目](http://rpf.io/p/en/clone-wars-get).
+You can find the [completed project here](https://rpf.io/p/en/clone-wars-get).
 
 \--- /collapse \---
