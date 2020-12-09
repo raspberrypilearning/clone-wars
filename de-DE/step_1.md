@@ -43,7 +43,7 @@ Erziele so viele Punkte wie möglich, indem du fliegende Weltraum-Nilpferde absc
 
 ### Downloads
 
-[Find the downloads here](http://rpf.io/p/en/clone-wars-go).
+[Find the downloads here](https://rpf.io/p/en/clone-wars-go).
 
 \--- /collapse \---
 
@@ -67,6 +67,6 @@ If you need to print this project, please use the [printer-friendly version](htt
 
 \--- /no-print \---
 
-You can find the [completed project here](http://rpf.io/p/en/clone-wars-get).
+You can find the [completed project here](https://rpf.io/p/en/clone-wars-get).
 
 \--- /collapse \---
