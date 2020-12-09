@@ -43,7 +43,7 @@ Pontua o máximo que for possível disparando contra os hipopótamos voadores. S
 
 ### Downloads
 
-[Encontra os ficheiros para download aqui](http://rpf.io/p/en/clone-wars-go).
+[Find the downloads here](https://rpf.io/p/en/clone-wars-go).
 
 \--- /collapse \---
 
@@ -67,6 +67,6 @@ Se você precisar imprimir este projeto, por favor, use a [versão para impress�
 
 \--- /no-print \---
 
-Podes encontrar o [projeto concluído aqui](http://rpf.io/p/en/clone-wars-get).
+You can find the [completed project here](https://rpf.io/p/en/clone-wars-get).
 
 \--- /collapse \---
