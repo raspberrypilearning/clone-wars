@@ -44,7 +44,7 @@ title: 你會用到
 
 ### 下載
 
-材料包可[由此下載](http://rpf.io/p/zh-TW/clone-wars-go)。
+材料包可[由此下載](https://rpf.io/p/zh-TW/clone-wars-go)。
 
 --- /collapse ---
 
@@ -70,6 +70,6 @@ title: 給教師的其它資訊
 
 --- /no-print ---
 
-你可以在這裡找到[已完成的專案](http://rpf.io/p/zh-TW/clone-wars-get)
+你可以在這裡找到[已完成的專案](https://rpf.io/p/zh-TW/clone-wars-get)
 
 --- /collapse ---

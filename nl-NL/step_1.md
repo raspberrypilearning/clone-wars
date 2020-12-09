@@ -44,7 +44,7 @@ title: Wat heb je nodig
 
 ### Downloads
 
-Je kunt [de downloads hier vinden](http://rpf.io/p/nl-NL/clone-wars-go).
+Je kunt [de downloads hier vinden](https://rpf.io/p/nl-NL/clone-wars-go).
 
 --- /collapse ---
 
@@ -70,6 +70,6 @@ Als je dit project wilt afdrukken, gebruik dan de [printervriendelijke versie](h
 
 --- /no-print ---
 
-Hier kun je het [voltooide project](http://rpf.io/p/nl-NL/clone-wars-get) downloaden.
+Hier kun je het [voltooide project](https://rpf.io/p/nl-NL/clone-wars-get) downloaden.
 
 --- /collapse ---
