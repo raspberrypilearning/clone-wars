@@ -43,7 +43,7 @@
 
 ### ダウンロード
 
-[ここでダウンロードを見つけること](http://rpf.io/p/en/clone-wars-go)。
+[Find the downloads here](https://rpf.io/p/en/clone-wars-go).
 
 \--- /collapse \---
 
@@ -67,6 +67,6 @@
 
 \--- /no-print \---
 
-完成したプロジェクトは[こちら](http://rpf.io/p/en/clone-wars-get)で見つけることができます。
+You can find the [completed project here](https://rpf.io/p/en/clone-wars-get).
 
 \--- /collapse \---
