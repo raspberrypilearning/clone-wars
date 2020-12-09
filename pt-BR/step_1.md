@@ -43,7 +43,7 @@ Marque o máximo de pontos que você puder atirando nos hipopótamos espaciais v
 
 ### Downloads
 
-[Encontre os arquivos para baixar aqui](http://rpf.io/p/en/clone-wars-go).
+[Find the downloads here](https://rpf.io/p/en/clone-wars-go).
 
 \--- /collapse \---
 
@@ -67,6 +67,6 @@ Se você precisar imprimir este projeto, por favor, use a [versão para impress�
 
 \--- /no-print \---
 
-Você pode encontrar o [projeto completo aqui](http://rpf.io/p/en/clone-wars-get).
+You can find the [completed project here](https://rpf.io/p/en/clone-wars-get).
 
 \--- /collapse \---
