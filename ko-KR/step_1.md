@@ -43,7 +43,7 @@
 
 ### 다운로드
 
-[여기에서 다운로드할 파일을 찾으십시오](http://rpf.io/p/en/clone-wars-go).
+[Find the downloads here](https://rpf.io/p/en/clone-wars-go).
 
 \--- /collapse \---
 
@@ -67,6 +67,6 @@
 
 \--- /no-print \---
 
-[여기서 완료된 프로젝트](http://rpf.io/p/en/clone-wars-get)의 내용을 확인할 수 있습니다.
+You can find the [completed project here](https://rpf.io/p/en/clone-wars-get).
 
 \--- /collapse \---
