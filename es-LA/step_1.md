@@ -43,7 +43,7 @@ Gana tantos puntos como puedas disparando a los hipopótamos espaciales voladore
 
 ### Descargas
 
-[Encuentra las descargas aquí](http://rpf.io/p/en/clone-wars-go).
+[Find the downloads here](https://rpf.io/p/en/clone-wars-go).
 
 \--- /collapse \---
 
@@ -67,6 +67,6 @@ Si necesitas imprimir este proyecto, usa la [versión para imprimir](https://pro
 
 \--- /no-print \---
 
-Puedes [ descargar el proyecto completo aquí ](http://rpf.io/p/en/clone-wars-get).
+You can find the [completed project here](https://rpf.io/p/en/clone-wars-get).
 
 \--- /collapse \---
