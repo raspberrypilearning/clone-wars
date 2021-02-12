@@ -43,7 +43,7 @@
 
 ### التنزيلات
 
-[Find the downloads here](https://rpf.io/p/en/clone-wars-go).
+[ابحث عن الملفات لتحميلها هنا](https://rpf.io/p/en/clone-wars-go).
 
 \--- /collapse \---
 
@@ -67,6 +67,6 @@
 
 \--- /no-print \---
 
-You can find the [completed project here](https://rpf.io/p/en/clone-wars-get).
+يمكنك ايجاد [المشروع كامل هنا](https://rpf.io/p/en/clone-wars-get).
 
 \--- /collapse \---
