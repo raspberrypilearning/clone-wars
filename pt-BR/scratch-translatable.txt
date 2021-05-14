@@ -7,3 +7,5 @@ atingida
 atingida 
 
 Fim de Jogo
+
+score
