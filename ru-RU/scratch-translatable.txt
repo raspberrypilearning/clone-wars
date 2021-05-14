@@ -7,3 +7,5 @@ hit
 hit 
 
 Game over
+
+score
