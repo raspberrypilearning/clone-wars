@@ -43,7 +43,7 @@
 
 ### Λήψεις
 
-[Find the downloads here](https://rpf.io/p/en/clone-wars-go).
+[Βρες τις λήψεις εδώ](https://rpf.io/p/en/clone-wars-go).
 
 \--- /collapse \---
 
@@ -67,6 +67,6 @@
 
 \--- /no-print \---
 
-You can find the [completed project here](https://rpf.io/p/en/clone-wars-get).
+Μπορείς να βρεις [το ολοκληρωμένο έργο εδώ](https://rpf.io/p/en/clone-wars-get).
 
 \--- /collapse \---
