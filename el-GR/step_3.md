@@ -68,7 +68,7 @@ end
 
 δημιούργησε κλώνο του (Lightning v)
 
-&lt;key (space v) pressed?&gt;
+<key (space v) pressed?>
 
 Όταν στην πράσινη σημαία γίνει κλικ
 ```
