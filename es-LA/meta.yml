@@ -8,18 +8,20 @@ description: Crea un juego en que cual tengas que salvar la Tierra de monstruos 
 version: 4.1.0
 last_tested: 2018-10-11
 steps:
-  - title: Introducción
-  - title: Haz una nave espacial
-  - title: Relámpagos
-  - title: 'Desafío: mejora el relámpago'
-    challenge: true
-  - title: Hipopótamos espaciales
-  - title: Explosión de la nave espacial
-  - title: Hipopótamos que desaparecen
-  - title: 'Desafío: vidas y puntuación'
-    challenge: true
-  - title: Murciélago espacial
-  - title: Fin del juego
-  - title: 'Desafío: mejora tu juego'
-    challenge: true
-  - title: '¿Qué sigue?'
+- title: Introducción
+  completion: engaged
+- title: Haz una nave espacial
+- title: Relámpagos
+- title: 'Desafío: mejora el relámpago'
+  challenge: true
+- title: Hipopótamos espaciales
+- title: Explosión de la nave espacial
+- title: Hipopótamos que desaparecen
+- title: 'Desafío: vidas y puntuación'
+  challenge: true
+- title: Murciélago espacial
+  completion: internal
+- title: Fin del juego
+- title: 'Desafío: mejora tu juego'
+  challenge: true
+- title: "¿Qué sigue?"

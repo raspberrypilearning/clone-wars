@@ -8,18 +8,20 @@ description: اصنع لعبة تُنقذ فيها كوكب الأرض من وح
 version: 4.1.0
 last_tested: 2018-10-11
 steps:
-  - title: المقدمة
-  - title: إنشاء سفينة فضاء
-  - title: صواعق برقية
-  - title: 'التحدي: تحسين الصواعق البرقية'
-    challenge: true
-  - title: أفراس نهر الفضاء
-  - title: انفجار سفينة الفضاء
-  - title: أفراس نهر الفضاء المختفية
-  - title: 'التحدي: المحاولات والنتيجة'
-    challenge: true
-  - title: خفاش الفضاء
-  - title: انتهت اللعبة
-  - title: 'التحدي: تحسين لعبتك'
-    challenge: true
-  - title: ما التالي؟
+- title: المقدمة
+  completion: engaged
+- title: إنشاء سفينة فضاء
+- title: صواعق برقية
+- title: 'التحدي: تحسين الصواعق البرقية'
+  challenge: true
+- title: أفراس نهر الفضاء
+- title: انفجار سفينة الفضاء
+- title: أفراس نهر الفضاء المختفية
+- title: 'التحدي: المحاولات والنتيجة'
+  challenge: true
+- title: خفاش الفضاء
+  completion: internal
+- title: انتهت اللعبة
+- title: 'التحدي: تحسين لعبتك'
+  challenge: true
+- title: ما التالي؟

@@ -8,18 +8,20 @@ description: Crée un jeu dans lequel tu dois sauver la Terre des aliens
 version: 4.1.0
 last_tested: 2018-10-11
 steps:
-  - title: Introduction
-  - title: Crée un vaisseau spatial
-  - title: Éclairs
-  - title: 'Défi : améliore l''éclair'
-    challenge: true
-  - title: Les Hippopotames de l'espace
-  - title: Explosion du vaisseau spatial
-  - title: Hippopotames qui disparaissent
-  - title: 'Défi: vies et score'
-    challenge: true
-  - title: Chauve-souris de l'espace
-  - title: Fin de la partie
-  - title: 'Défi : Améliore ton jeu'
-    challenge: true
-  - title: Et ensuite ?
+- title: Introduction
+  completion: engaged
+- title: Crée un vaisseau spatial
+- title: Éclairs
+- title: 'Défi : améliore l''éclair'
+  challenge: true
+- title: Les Hippopotames de l'espace
+- title: Explosion du vaisseau spatial
+- title: Hippopotames qui disparaissent
+- title: 'Défi: vies et score'
+  challenge: true
+- title: Chauve-souris de l'espace
+  completion: internal
+- title: Fin de la partie
+- title: 'Défi : Améliore ton jeu'
+  challenge: true
+- title: Et ensuite ?

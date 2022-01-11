@@ -8,18 +8,20 @@ description: Crea un gioco in cui dovrai salvare la Terra dai mostri dello spazi
 version: 4.1.0
 last_tested: 2018-10-11
 steps:
-  - title: Introduzione
-  - title: Crea una navicella spaziale
-  - title: Fulmini
-  - title: 'Sfida: migliora il fulmine'
-    challenge: true
-  - title: Ippopotami spaziali
-  - title: Esplosione della nave spaziale
-  - title: Ippopotami che scompaiono
-  - title: 'Sfida: vite e punteggio'
-    challenge: true
-  - title: Pipistrello spaziale
-  - title: Partita finita
-  - title: 'Sfida: migliora il tuo gioco'
-    challenge: true
-  - title: E adesso?
+- title: Introduzione
+  completion: engaged
+- title: Crea una navicella spaziale
+- title: Fulmini
+- title: 'Sfida: migliora il fulmine'
+  challenge: true
+- title: Ippopotami spaziali
+- title: Esplosione della nave spaziale
+- title: Ippopotami che scompaiono
+- title: 'Sfida: vite e punteggio'
+  challenge: true
+- title: Pipistrello spaziale
+  completion: internal
+- title: Partita finita
+- title: 'Sfida: migliora il tuo gioco'
+  challenge: true
+- title: E adesso?
