@@ -44,7 +44,7 @@ title: Что тебе понадобится
 
 ### Загрузки
 
-[Найди скачанные файлы здесь](http://rpf.io/p/ru-RU/clone-wars-go).
+[Найди скачанные файлы здесь](https://rpf.io/p/ru-RU/clone-wars-go).
 
 --- /collapse ---
 
@@ -70,6 +70,6 @@ title: Дополнительные примечания для педагого
 
 --- /no-print ---
 
-Здесь ты можешь найти [завершенные проекты](http://rpf.io/p/ru-RU/clone-wars-get).
+Здесь ты можешь найти [завершенные проекты](https://rpf.io/p/ru-RU/clone-wars-get).
 
 --- /collapse ---

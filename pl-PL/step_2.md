@@ -6,11 +6,11 @@ Najpierw utwórz statek kosmiczny, który może bronić Ziemi!
 
 Otwórz projekt startowy Scratch "Wojny klonów".
 
-**Online:** otwórz nowy projekt startowy na stronie [rpf.io/clone-wars-on](http://rpf.io/clone-wars-on){:target="_blank"}.
+**Online:** otwórz nowy projekt startowy na stronie [rpf.io/clone-wars-on](https://rpf.io/clone-wars-on){:target="_blank"}.
 
 Jeśli masz konto Scratch, możesz wykonać kopię klikając **Remiks**.
 
-**Offline:** pobierz projekt początkowy z [rpf.io/p/pl-PL/clone-wars-go](http://rpf.io/p/pl-PL/clone-wars-go) i otwórz w programie Scratch Desktop.
+**Offline:** pobierz projekt początkowy z [rpf.io/p/pl-PL/clone-wars-go](https://rpf.io/p/pl-PL/clone-wars-go) i otwórz w programie Scratch Desktop.
 
 Jeśli chcesz pobrać i zainstalować edytor Scratch, znajdziesz go na stronie [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
 
