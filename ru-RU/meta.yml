@@ -8,18 +8,20 @@ description: Создай игру, в которой ты должен спас
 version: 4.1.0
 last_tested: 11-10-2018
 steps:
-  - title: Введение
-  - title: Сделать космический корабль
-  - title: Удар молнии
-  - title: 'Задание: улучши спрайта Молния'
-    challenge: true
-  - title: Космические бегемоты
-  - title: Взрыв космического корабля
-  - title: Исчезающие бегемоты
-  - title: 'Задание: жизни и счёт'
-    challenge: true
-  - title: Космическая летучая мышь
-  - title: Игра окончена
-  - title: 'Задание: улучши свою игру'
-    challenge: true
-  - title: Что дальше?
+- title: Введение
+  completion: engaged
+- title: Сделать космический корабль
+- title: Удар молнии
+- title: 'Задание: улучши спрайта Молния'
+  challenge: true
+- title: Космические бегемоты
+- title: Взрыв космического корабля
+- title: Исчезающие бегемоты
+- title: 'Задание: жизни и счёт'
+  challenge: true
+- title: Космическая летучая мышь
+  completion: internal
+- title: Игра окончена
+- title: 'Задание: улучши свою игру'
+  challenge: true
+- title: Что дальше?

@@ -8,18 +8,20 @@ description: 創建一個遊戲，玩家必須駕駛飛船打敗會自行分裂�
 version: 4.1.0
 last_tested: 2018-10-11
 steps:
-  - title: 介紹
-  - title: 建造太空船
-  - title: 發射雷電
-  - title: '挑戰：改造發射器'
-    challenge: true
-  - title: 太空河馬來啦
-  - title: 飛船爆炸
-  - title: 太空河馬走囉
-  - title: '挑戰：生命與得分'
-    challenge: true
-  - title: 還有宇宙蝙蝠
-  - title: 遊戲結束
-  - title: '挑戰：遊戲改良'
-    challenge: true
-  - title: 然後呢？
+- title: 介紹
+  completion: engaged
+- title: 建造太空船
+- title: 發射雷電
+- title: 挑戰：改造發射器
+  challenge: true
+- title: 太空河馬來啦
+- title: 飛船爆炸
+- title: 太空河馬走囉
+- title: 挑戰：生命與得分
+  challenge: true
+- title: 還有宇宙蝙蝠
+  completion: internal
+- title: 遊戲結束
+- title: 挑戰：遊戲改良
+  challenge: true
+- title: 然後呢？

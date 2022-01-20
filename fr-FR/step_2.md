@@ -6,11 +6,11 @@ Commence par créer un vaisseau spatial capable de défendre la Terre !
 
 Ouvre le projet de démarrage Scratch "Clone wars".
 
-**En ligne:** ouvre le projet de démarrage à [rpf.io/clone-wars-on](http://rpf.io/clone-wars-on){:target="_blank"}.
+**En ligne:** ouvre le projet de démarrage à [rpf.io/clone-wars-on](https://rpf.io/clone-wars-on){:target="_blank"}.
 
 Si tu as un compte Scratch, tu peux en créer une copie en cliquant sur **Remix**.
 
-**Hors ligne:** télécharge le projet de démarrage à partir de [rpf.io/p/fr-FR/clone-wars-go](http://rpf.io/p/en/clone-wars-go), puis ouvre-le à l'aide de l'éditeur hors ligne.
+**Hors ligne:** télécharge le projet de démarrage à partir de [rpf.io/p/fr-FR/clone-wars-go](https://rpf.io/p/en/clone-wars-go), puis ouvre-le à l'aide de l'éditeur hors ligne.
 
 Si tu dois télécharger et installer l'éditeur hors ligne Scratch, tu peux le trouver à [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
 

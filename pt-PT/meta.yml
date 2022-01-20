@@ -8,18 +8,20 @@ description: Cria um jogo no qual terás que salvar a Terra dos monstros espacia
 version: 4.1.0
 last_tested: 2018-10-11
 steps:
-  - title: Introdução
-  - title: Constrói uma nave espacial
-  - title: Relâmpagos
-  - title: 'Desafio: melhorar o relâmpago'
-    challenge: true
-  - title: Hipopótamos do espaço
-  - title: Explosão da nave espacial
-  - title: Hipopótamos que desaparecem
-  - title: 'Desafio: vidas e pontuações'
-    challenge: true
-  - title: Morcego espacial
-  - title: Fim do Jogo
-  - title: 'Desafio: Melhora o teu jogo'
-    challenge: true
-  - title: O que se segue?
+- title: Introdução
+  completion: engaged
+- title: Constrói uma nave espacial
+- title: Relâmpagos
+- title: 'Desafio: melhorar o relâmpago'
+  challenge: true
+- title: Hipopótamos do espaço
+- title: Explosão da nave espacial
+- title: Hipopótamos que desaparecem
+- title: 'Desafio: vidas e pontuações'
+  challenge: true
+- title: Morcego espacial
+  completion: internal
+- title: Fim do Jogo
+- title: 'Desafio: Melhora o teu jogo'
+  challenge: true
+- title: O que se segue?

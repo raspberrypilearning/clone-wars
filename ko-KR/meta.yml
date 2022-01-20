@@ -8,18 +8,20 @@ description: 우주 몬스터로부터 지구를 구해야하는 게임을 만�
 version: 4.1.0
 last_tested: 2018-10-11
 steps:
-  - title: 소개
-  - title: 우주선 만들기
-  - title: 번개
-  - title: '도전과제: 번개를 개선하십시오.'
-    challenge: true
-  - title: 우주-하마
-  - title: 우주선 폭발
-  - title: 사라지는 하마
-  - title: '도전과제: 목숨과 스코어'
-    challenge: true
-  - title: 우주-박쥐
-  - title: 게임 오버
-  - title: '도전과제: 게임을 개선하십시오.'
-    challenge: true
-  - title: 더 나아가기
+- title: 소개
+  completion: engaged
+- title: 우주선 만들기
+- title: 번개
+- title: '도전과제: 번개를 개선하십시오.'
+  challenge: true
+- title: 우주-하마
+- title: 우주선 폭발
+- title: 사라지는 하마
+- title: '도전과제: 목숨과 스코어'
+  challenge: true
+- title: 우주-박쥐
+  completion: internal
+- title: 게임 오버
+- title: '도전과제: 게임을 개선하십시오.'
+  challenge: true
+- title: 더 나아가기

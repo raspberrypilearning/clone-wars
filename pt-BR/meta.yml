@@ -8,18 +8,20 @@ description: Crie um jogo no qual você terá que salvar a Terra de monstros esp
 version: 4.1.0
 last_tested: 2018-10-11
 steps:
-  - title: Introdução
-  - title: Construindo uma nave espacial
-  - title: Raios
-  - title: 'Desafio: melhore os raios'
-    challenge: true
-  - title: Hipopótamos espaciais
-  - title: Explosão da nave espacial
-  - title: Hipopótamos que desaparecem
-  - title: 'Desafio: vidas e pontuação'
-    challenge: true
-  - title: Morcego espacial
-  - title: Fim de jogo
-  - title: 'Desafio: melhore seu jogo'
-    challenge: true
-  - title: E agora?
+- title: Introdução
+  completion: engaged
+- title: Construindo uma nave espacial
+- title: Raios
+- title: 'Desafio: melhore os raios'
+  challenge: true
+- title: Hipopótamos espaciais
+- title: Explosão da nave espacial
+- title: Hipopótamos que desaparecem
+- title: 'Desafio: vidas e pontuação'
+  challenge: true
+- title: Morcego espacial
+  completion: internal
+- title: Fim de jogo
+- title: 'Desafio: melhore seu jogo'
+  challenge: true
+- title: E agora?

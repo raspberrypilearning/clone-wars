@@ -6,11 +6,11 @@ Mai întâi creează o navă spațială care să poată apăra Pământul!
 
 Deschide proiectul Scratch de început „Războiul clonelor”.
 
-**Online:** deschide proiectul de început la [rpf.io/clone-wars-on](http://rpf.io/clone-wars-on){:target="_blank"}.
+**Online:** deschide proiectul de început la [rpf.io/clone-wars-on](https://rpf.io/clone-wars-on){:target="_blank"}.
 
 Dacă ai un cont Scratch, poți să creezi o copie dând click pe **Remix**.
 
-**Offline:** descarcă proiectul de început de la [rpf.io/p/ro-RO/clone-wars-go](http://rpf.io/p/ro-RO/clone-wars-go){:target="_blank"}, iar apoi deschide-l folosind editorul offline.
+**Offline:** descarcă proiectul de început de la [rpf.io/p/ro-RO/clone-wars-go](https://rpf.io/p/ro-RO/clone-wars-go){:target="_blank"}, iar apoi deschide-l folosind editorul offline.
 
 Dacă trebuie să descarci și să instalezi editorul Scratch offline, îl poți găsi la [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
 

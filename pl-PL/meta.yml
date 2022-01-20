@@ -4,22 +4,25 @@ theme: violet
 listed: true
 copyedit: true
 title: Wojny klonów
-description: Naucz się, jak stworzyć grę, w której musisz uratować Ziemię przed potworami z kosmosu
+description: Naucz się, jak stworzyć grę, w której musisz uratować Ziemię przed potworami
+  z kosmosu
 version: 4.1.0
 last_tested: 2018-10-11
 steps:
-  - title: Wprowadzenie
-  - title: Stwórz statek kosmiczny
-  - title: Błyskawice
-  - title: 'Wyzwanie: ulepsz błyskawicę'
-    challenge: true
-  - title: Kosmiczne hipopotamy
-  - title: Eksplozja statku kosmicznego
-  - title: Hipopotamy, które znikają
-  - title: 'Wyzwanie: życia i wynik'
-    challenge: true
-  - title: Kosmiczny nietoperz
-  - title: Koniec gry
-  - title: 'Wyzwanie: udoskonal swoją grę'
-    challenge: true
-  - title: Co dalej?
+- title: Wprowadzenie
+  completion: engaged
+- title: Stwórz statek kosmiczny
+- title: Błyskawice
+- title: 'Wyzwanie: ulepsz błyskawicę'
+  challenge: true
+- title: Kosmiczne hipopotamy
+- title: Eksplozja statku kosmicznego
+- title: Hipopotamy, które znikają
+- title: 'Wyzwanie: życia i wynik'
+  challenge: true
+- title: Kosmiczny nietoperz
+  completion: internal
+- title: Koniec gry
+- title: 'Wyzwanie: udoskonal swoją grę'
+  challenge: true
+- title: Co dalej?

@@ -10,7 +10,7 @@ Abre el proyecto inicial de Scratch 'Guerra de clones'.
 
 Si tienes una cuenta Scratch puedes hacer una copia haciendo clic en **Remix**.
 
-**Sin conexión:** descarga el proyecto inicial desde [rpf.io/p/es-LA/clone-wars-go](http://rpf.io/p/es-LA/clone-wars-go), y luego ábrelo con el editor sin conexión.
+**Sin conexión:** descarga el proyecto inicial desde [rpf.io/p/es-LA/clone-wars-go](https://rpf.io/p/es-LA/clone-wars-go), y luego ábrelo con el editor sin conexión.
 
 Si necesitas descargar e instalar el editor sin conexión de Scratch, puedes encontrarlo en [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
 

@@ -8,18 +8,20 @@ description: Maak een spel waarin je de aarde tegen ruimtemonsters moet bescherm
 version: 4.1.0
 last_tested: 2018/10/11
 steps:
-  - title: Inleiding
-  - title: Maak een ruimteschip
-  - title: Bliksemschichten
-  - title: 'Uitdaging: verbeter de bliksemschicht'
-    challenge: true
-  - title: Vliegende ruimte-nijlpaarden
-  - title: Exploderend ruimteschip
-  - title: Verdwijnende nijlpaarden
-  - title: 'Uitdaging: levens en score'
-    challenge: true
-  - title: Ruimte-vleermuis
-  - title: Wedstrijd voorbij
-  - title: 'Uitdaging: verbeter je spel'
-    challenge: true
-  - title: Hoe nu verder?
+- title: Inleiding
+  completion: engaged
+- title: Maak een ruimteschip
+- title: Bliksemschichten
+- title: 'Uitdaging: verbeter de bliksemschicht'
+  challenge: true
+- title: Vliegende ruimte-nijlpaarden
+- title: Exploderend ruimteschip
+- title: Verdwijnende nijlpaarden
+- title: 'Uitdaging: levens en score'
+  challenge: true
+- title: Ruimte-vleermuis
+  completion: internal
+- title: Wedstrijd voorbij
+- title: 'Uitdaging: verbeter je spel'
+  challenge: true
+- title: Hoe nu verder?

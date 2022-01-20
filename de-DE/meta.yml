@@ -4,22 +4,25 @@ theme: violet
 listed: true
 copyedit: true
 title: Klonkriege
-description: Erstelle ein Spiel in dem du den Planet Erde vor Weltraummonstern retten musst
+description: Erstelle ein Spiel in dem du den Planet Erde vor Weltraummonstern retten
+  musst
 version: 4.1.0
 last_tested: 2018-10-11
 steps:
-  - title: Einleitung
-  - title: Baue ein Raumschiff
-  - title: Blitze
-  - title: 'Herausforderung: Verbessere den Blitz'
-    challenge: true
-  - title: Weltraum-Flusspferde
-  - title: Raumschiff Explosion
-  - title: Flusspferde, die verschwinden
-  - title: 'Herausforderung: Leben und Punkte'
-    challenge: true
-  - title: Weltraum-Fledermaus
-  - title: Game over
-  - title: 'Herausforderung: Verbessere dein Spiel'
-    challenge: true
-  - title: Was kommt als nächstes?
+- title: Einleitung
+  completion: engaged
+- title: Baue ein Raumschiff
+- title: Blitze
+- title: 'Herausforderung: Verbessere den Blitz'
+  challenge: true
+- title: Weltraum-Flusspferde
+- title: Raumschiff Explosion
+- title: Flusspferde, die verschwinden
+- title: 'Herausforderung: Leben und Punkte'
+  challenge: true
+- title: Weltraum-Fledermaus
+  completion: internal
+- title: Game over
+- title: 'Herausforderung: Verbessere dein Spiel'
+  challenge: true
+- title: Was kommt als nächstes?

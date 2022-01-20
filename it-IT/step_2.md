@@ -10,7 +10,7 @@ Apri il progetto per principianti 'Guerre dei Cloni'.
 
 Se hai un account su Scratch, puoi farne una copia cliccando su **Remix**.
 
-**Offline:** scarica il progetto per principianti da [rpf.io/p/it-IT/clone-wars-go](http://rpf.io/p/it-IT/clone-wars-go), e poi aprilo con l'editor offline.
+**Offline:** scarica il progetto per principianti da [rpf.io/p/it-IT/clone-wars-go](https://rpf.io/p/it-IT/clone-wars-go), e poi aprilo con l'editor offline.
 
 Se hai bisogno di scaricare ed installare l'editor Scratch offline, puoi trovarlo su [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
 

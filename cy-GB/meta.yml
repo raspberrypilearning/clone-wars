@@ -8,18 +8,20 @@ description: Creu gêm lle mae'n rhaid achub y Byd wrth anghenfilod o'r gofod
 version: 4.1.0
 last_tested: 2018-10-11
 steps:
-  - title: Cyflwyniad
-  - title: Creu Llong Ofod
-  - title: Mellt
-  - title: 'Her: gwella''r mellt'
-    challenge: true
-  - title: Hippos-gofod
-  - title: Ffrwydrad llong ofod
-  - title: Hippos sy'n diflannu
-  - title: 'Her: bywydau a sgôr'
-    challenge: true
-  - title: Ystlumod gofod
-  - title: Gêm drosodd
-  - title: 'Her: gwella dy gêm'
-    challenge: true
-  - title: Beth nesaf?
+- title: Cyflwyniad
+  completion: engaged
+- title: Creu Llong Ofod
+- title: Mellt
+- title: 'Her: gwella''r mellt'
+  challenge: true
+- title: Hippos-gofod
+- title: Ffrwydrad llong ofod
+- title: Hippos sy'n diflannu
+- title: 'Her: bywydau a sgôr'
+  challenge: true
+- title: Ystlumod gofod
+  completion: internal
+- title: Gêm drosodd
+- title: 'Her: gwella dy gêm'
+  challenge: true
+- title: Beth nesaf?

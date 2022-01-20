@@ -6,11 +6,11 @@
 
 افتح مشروع سكراتش المبدئي "حرب العوالم".
 
-**بالاتصال بالانترنت**: افتح المشروع المبدئي من هنا [rpf.io/clone-wars-on](http://rpf.io/clone-wars-on).
+**بالاتصال بالانترنت**: افتح المشروع المبدئي من هنا [rpf.io/clone-wars-on](https://rpf.io/clone-wars-on).
 
 اذا كنت تملك حساب على منصة السكراتش (Scratch) فيمكنك عمل نسخة بالضغط على **Remix**.
 
-**بدون اتصال انترنت:** حمّل المشروع المبدئي من [rpf.io/p/ar-SA/clone-wars-go](http://rpf.io/p/ar-SA/clone-wars-go)، ثم افتحه باستخدام محرر سكراتش بدون اتصال انترنيت.
+**بدون اتصال انترنت:** حمّل المشروع المبدئي من [rpf.io/p/ar-SA/clone-wars-go](https://rpf.io/p/ar-SA/clone-wars-go)، ثم افتحه باستخدام محرر سكراتش بدون اتصال انترنيت.
 
 اذا كنت بحاجة تنزيل وتنصيب برنامج السكراتش Scratch على جهازك الشخصي، ستجده في [rpf.io/scratchoff](https://rpf.io/scratchoff).
 
