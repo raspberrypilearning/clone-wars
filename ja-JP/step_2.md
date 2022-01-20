@@ -6,11 +6,11 @@
 
 「クローンウォーズ」というスクラッチのスタータープロジェクトを開きます。
 
-**オンラインの場合**：[rpf.io/clone-wars-on](http://rpf.io/clone-wars-on){:target="_blank"}でスタータープロジェクトを開きます。
+**オンラインの場合**：[rpf.io/clone-wars-on](https://rpf.io/clone-wars-on){:target="_blank"}でスタータープロジェクトを開きます。
 
 Scratchアカウントをお持ちの場合は、 **リミックス**ボタンをクリックしてコピーできます。
 
-**オフラインの場合**：[rpf.io/p/ja-JP/clone-wars-go](http://rpf.io/p/ja-JP/clone-wars-go)からスタータープロジェクトをダウンロードして、オフラインエディターを使用して開きます。
+**オフラインの場合**：[rpf.io/p/ja-JP/clone-wars-go](https://rpf.io/p/ja-JP/clone-wars-go)からスタータープロジェクトをダウンロードして、オフラインエディターを使用して開きます。
 
 Scratchオフラインエディタをダウンロードしてインストールする必要がある場合は、 [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}で見つけることができます。
 

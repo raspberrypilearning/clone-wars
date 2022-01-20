@@ -6,11 +6,11 @@ Fe awn ati i greu llong ofod fydd yn amddiffyn y Ddaear!
 
 Agora'r prosiect cychwynnol 'Brwydr Clonau'.
 
-**Arlein:** agora brosiect Scratch newydd yma [rpf.io/clone-wars-on](http://rpf.io/clone-wars-on){:target="_blank"}.
+**Arlein:** agora brosiect Scratch newydd yma [rpf.io/clone-wars-on](https://rpf.io/clone-wars-on){:target="_blank"}.
 
 Os oes ganddot ti gyfrif Scratch galli di wneud copi drwy glicio ar **Remix**.
 
-**All-lein:** lawrlwytha'r prosiect cychwynnol o [rpf.io/p/cy-GB/clone-wars-go](http://rpf.io/p/cy-GB/clone-wars-go) ac yna ei agor gan ddefnyddio'r golygydd all-lein.
+**All-lein:** lawrlwytha'r prosiect cychwynnol o [rpf.io/p/cy-GB/clone-wars-go](https://rpf.io/p/cy-GB/clone-wars-go) ac yna ei agor gan ddefnyddio'r golygydd all-lein.
 
 Os oes angen i ti lawrlwytho a gosod golygydd Scratch all-lein, mae modd dod o hyd iddo yma [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
 

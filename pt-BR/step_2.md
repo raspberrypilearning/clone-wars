@@ -10,7 +10,7 @@ Abra o projeto inicial 'Guerras dos Clones' no Scratch.
 
 Se você tiver uma conta do Scratch, pode fazer uma cópia clicando em **Remix**.
 
-**Offline:** baixe o projeto inicial de [rpf.io/p/pt-BR/clone-wars-go](http://rpf.io/p/pt-BR/clone-wars-go), e abra-o usando o editor offline.
+**Offline:** baixe o projeto inicial de [rpf.io/p/pt-BR/clone-wars-go](https://rpf.io/p/pt-BR/clone-wars-go), e abra-o usando o editor offline.
 
 Se você precisa baixar e instalar o editor offline do Scratch, você pode encontrá-lo em [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
 

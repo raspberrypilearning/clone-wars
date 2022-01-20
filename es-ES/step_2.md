@@ -6,11 +6,11 @@
 
 Abre el proyecto inicial de Scratch 'Guerra de clones'.
 
-**En línea:** abre el proyecto de inicio en [rpf.io/clone-wars-on](http://rpf.io/clone-wars-on){:target="_blank"}.
+**En línea:** abre el proyecto de inicio en [rpf.io/clone-wars-on](https://rpf.io/clone-wars-on){:target="_blank"}.
 
 Si tienes una cuenta de Scratch puedes hacer una copia haciendo clic en **Reinventar**.
 
-**Sin conexión:** descarga el proyecto inicial desde [rpf.io/p/es-ES/clone-wars-go](http://rpf.io/p/es-ES/clone-wars-go), y luego ábrelo con el editor sin conexión.
+**Sin conexión:** descarga el proyecto inicial desde [rpf.io/p/es-ES/clone-wars-go](https://rpf.io/p/es-ES/clone-wars-go), y luego ábrelo con el editor sin conexión.
 
 Si necesitas descargar e instalar el editor offline de Scratch, puedes encontrarlo en [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
 
