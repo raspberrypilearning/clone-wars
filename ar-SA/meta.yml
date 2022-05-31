@@ -9,9 +9,10 @@ version: 4.1.0
 last_tested: 2018-10-11
 steps:
 - title: المقدمة
-  completion: engaged
 - title: إنشاء سفينة فضاء
 - title: صواعق برقية
+  completion:
+  - engaged
 - title: 'التحدي: تحسين الصواعق البرقية'
   challenge: true
 - title: أفراس نهر الفضاء
@@ -20,8 +21,9 @@ steps:
 - title: 'التحدي: المحاولات والنتيجة'
   challenge: true
 - title: خفاش الفضاء
-  completion: internal
 - title: انتهت اللعبة
+  completion:
+  - internal
 - title: 'التحدي: تحسين لعبتك'
   challenge: true
 - title: ما التالي؟

@@ -9,9 +9,10 @@ version: 4.1.0
 last_tested: 2018-10-11
 steps:
 - title: Introdução
-  completion: engaged
 - title: Constrói uma nave espacial
 - title: Relâmpagos
+  completion:
+  - engaged
 - title: 'Desafio: melhorar o relâmpago'
   challenge: true
 - title: Hipopótamos do espaço
@@ -20,8 +21,9 @@ steps:
 - title: 'Desafio: vidas e pontuações'
   challenge: true
 - title: Morcego espacial
-  completion: internal
 - title: Fim do Jogo
+  completion:
+  - internal
 - title: 'Desafio: Melhora o teu jogo'
   challenge: true
 - title: O que se segue?

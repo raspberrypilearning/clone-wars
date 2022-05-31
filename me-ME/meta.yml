@@ -18,14 +18,16 @@ version: 4
 last_tested: 2017-01-01
 steps:
 - title: Uvod
-  completion: engaged
 - title: Šta će ti biti potrebno
 - title: Izrada svemirskog broda
+  completion:
+  - engaged
 - title: Munje
 - title: Leteći svemirski nilski konji
 - title: Eksplozija svemirskog broda
 - title: Nilski konji koji nestaju
 - title: Slijepi miš sa voćem
 - title: Kraj igre
-  completion: internal
 - title: 'Izazov: poboljšaj svoju igru'
+  completion:
+  - internal

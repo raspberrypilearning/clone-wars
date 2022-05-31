@@ -9,9 +9,10 @@ version: 4.1.0
 last_tested: 2018-10-11
 steps:
 - title: 介紹
-  completion: engaged
 - title: 建造太空船
 - title: 發射雷電
+  completion:
+  - engaged
 - title: 挑戰：改造發射器
   challenge: true
 - title: 太空河馬來啦
@@ -20,8 +21,9 @@ steps:
 - title: 挑戰：生命與得分
   challenge: true
 - title: 還有宇宙蝙蝠
-  completion: internal
 - title: 遊戲結束
+  completion:
+  - internal
 - title: 挑戰：遊戲改良
   challenge: true
 - title: 然後呢？

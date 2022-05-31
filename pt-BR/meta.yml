@@ -9,9 +9,10 @@ version: 4.1.0
 last_tested: 2018-10-11
 steps:
 - title: Introdução
-  completion: engaged
 - title: Construindo uma nave espacial
 - title: Raios
+  completion:
+  - engaged
 - title: 'Desafio: melhore os raios'
   challenge: true
 - title: Hipopótamos espaciais
@@ -20,8 +21,9 @@ steps:
 - title: 'Desafio: vidas e pontuação'
   challenge: true
 - title: Morcego espacial
-  completion: internal
 - title: Fim de jogo
+  completion:
+  - internal
 - title: 'Desafio: melhore seu jogo'
   challenge: true
 - title: E agora?

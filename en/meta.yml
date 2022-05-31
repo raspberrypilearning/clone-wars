@@ -9,9 +9,10 @@ version: 4.1.0
 last_tested: 2018-10-11
 steps:
 - title: Introduction
-  completion: engaged
 - title: Make a spaceship
 - title: Lightning bolts
+  completion:
+  - engaged
 - title: 'Challenge: improve the lightning'
   challenge: true
 - title: Space-hippos
@@ -20,8 +21,9 @@ steps:
 - title: 'Challenge: lives and score'
   challenge: true
 - title: Space-bat
-  completion: internal
 - title: Game over
+  completion:
+  - internal
 - title: 'Challenge: improve your game'
   challenge: true
 - title: What next?

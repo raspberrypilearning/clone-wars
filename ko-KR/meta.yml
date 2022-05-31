@@ -9,9 +9,10 @@ version: 4.1.0
 last_tested: 2018-10-11
 steps:
 - title: 소개
-  completion: engaged
 - title: 우주선 만들기
 - title: 번개
+  completion:
+  - engaged
 - title: '도전과제: 번개를 개선하십시오.'
   challenge: true
 - title: 우주-하마
@@ -20,8 +21,9 @@ steps:
 - title: '도전과제: 목숨과 스코어'
   challenge: true
 - title: 우주-박쥐
-  completion: internal
 - title: 게임 오버
+  completion:
+  - internal
 - title: '도전과제: 게임을 개선하십시오.'
   challenge: true
 - title: 더 나아가기

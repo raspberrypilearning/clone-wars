@@ -9,9 +9,10 @@ version: 4.1.0
 last_tested: 2018-10-11
 steps:
 - title: 介绍
-  completion: engaged
 - title: 制作一个宇宙飞船
 - title: 闪电束
+  completion:
+  - engaged
 - title: 挑战：改善闪电
   challenge: true
 - title: 会飞的太空河马
@@ -20,8 +21,9 @@ steps:
 - title: 挑战：生命和得分
   challenge: true
 - title: 太空蝙蝠
-  completion: internal
 - title: 游戏结束
+  completion:
+  - internal
 - title: 挑战：完善你的游戏
   challenge: true
 - title: 接下来还有什么？

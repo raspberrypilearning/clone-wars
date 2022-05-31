@@ -10,9 +10,10 @@ version: 4.1.0
 last_tested: 2018-10-11
 steps:
 - title: Εισαγωγή
-  completion: engaged
 - title: Φτιάξε ένα διαστημόπλοιο
 - title: Αστραπές
+  completion:
+  - engaged
 - title: 'Πρόκληση: βελτίωση της αστραπής'
   challenge: true
 - title: Διαστημικοί ιπποπόταμοι
@@ -21,8 +22,9 @@ steps:
 - title: 'Πρόκληση: ζωές και σκορ'
   challenge: true
 - title: Διαστημική νυχτερίδα
-  completion: internal
 - title: Τέλος παιχνιδιού
+  completion:
+  - internal
 - title: 'Πρόκληση: βελτίωσε το παιχνίδι σου'
   challenge: true
 - title: Και τώρα;
