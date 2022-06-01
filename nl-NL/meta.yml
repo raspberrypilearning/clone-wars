@@ -9,9 +9,10 @@ version: 4.1.0
 last_tested: 2018/10/11
 steps:
 - title: Inleiding
-  completion: engaged
 - title: Maak een ruimteschip
 - title: Bliksemschichten
+  completion:
+  - engaged
 - title: 'Uitdaging: verbeter de bliksemschicht'
   challenge: true
 - title: Vliegende ruimte-nijlpaarden
@@ -20,8 +21,9 @@ steps:
 - title: 'Uitdaging: levens en score'
   challenge: true
 - title: Ruimte-vleermuis
-  completion: internal
 - title: Wedstrijd voorbij
+  completion:
+  - internal
 - title: 'Uitdaging: verbeter je spel'
   challenge: true
 - title: Hoe nu verder?

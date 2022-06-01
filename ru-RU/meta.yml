@@ -9,9 +9,10 @@ version: 4.1.0
 last_tested: 11-10-2018
 steps:
 - title: Введение
-  completion: engaged
 - title: Сделать космический корабль
 - title: Удар молнии
+  completion:
+  - engaged
 - title: 'Задание: улучши спрайта Молния'
   challenge: true
 - title: Космические бегемоты
@@ -20,8 +21,9 @@ steps:
 - title: 'Задание: жизни и счёт'
   challenge: true
 - title: Космическая летучая мышь
-  completion: internal
 - title: Игра окончена
+  completion:
+  - internal
 - title: 'Задание: улучши свою игру'
   challenge: true
 - title: Что дальше?

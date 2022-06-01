@@ -9,9 +9,10 @@ version: 4.1.0
 last_tested: 2018-10-11
 steps:
 - title: Introduzione
-  completion: engaged
 - title: Crea una navicella spaziale
 - title: Fulmini
+  completion:
+  - engaged
 - title: 'Sfida: migliora il fulmine'
   challenge: true
 - title: Ippopotami spaziali
@@ -20,8 +21,9 @@ steps:
 - title: 'Sfida: vite e punteggio'
   challenge: true
 - title: Pipistrello spaziale
-  completion: internal
 - title: Partita finita
+  completion:
+  - internal
 - title: 'Sfida: migliora il tuo gioco'
   challenge: true
 - title: E adesso?

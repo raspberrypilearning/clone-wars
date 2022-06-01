@@ -10,9 +10,10 @@ version: 4.1.0
 last_tested: 2018-10-11
 steps:
 - title: Einleitung
-  completion: engaged
 - title: Baue ein Raumschiff
 - title: Blitze
+  completion:
+  - engaged
 - title: 'Herausforderung: Verbessere den Blitz'
   challenge: true
 - title: Weltraum-Flusspferde
@@ -21,8 +22,9 @@ steps:
 - title: 'Herausforderung: Leben und Punkte'
   challenge: true
 - title: Weltraum-Fledermaus
-  completion: internal
 - title: Game over
+  completion:
+  - internal
 - title: 'Herausforderung: Verbessere dein Spiel'
   challenge: true
 - title: Was kommt als nächstes?

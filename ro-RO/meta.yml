@@ -9,9 +9,10 @@ version: 4.1.0
 last_tested: 2018-10-11
 steps:
 - title: Introducere
-  completion: engaged
 - title: Creează o navă spațială
 - title: Fulgere
+  completion:
+  - engaged
 - title: 'Provocare: Îmbunătățeste fulgerul'
   challenge: true
 - title: Hipopotami-spațiali
@@ -20,8 +21,9 @@ steps:
 - title: 'Provocare: vieți și scor'
   challenge: true
 - title: Liliac-spațial
-  completion: internal
 - title: Finalul jocului
+  completion:
+  - internal
 - title: 'Provocare: Îmbunătățește-ți jocul'
   challenge: true
 - title: Ce urmează?

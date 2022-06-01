@@ -10,9 +10,10 @@ version: 4.1.0
 last_tested: 2018-10-11
 steps:
 - title: Wprowadzenie
-  completion: engaged
 - title: Stwórz statek kosmiczny
 - title: Błyskawice
+  completion:
+  - engaged
 - title: 'Wyzwanie: ulepsz błyskawicę'
   challenge: true
 - title: Kosmiczne hipopotamy
@@ -21,8 +22,9 @@ steps:
 - title: 'Wyzwanie: życia i wynik'
   challenge: true
 - title: Kosmiczny nietoperz
-  completion: internal
 - title: Koniec gry
+  completion:
+  - internal
 - title: 'Wyzwanie: udoskonal swoją grę'
   challenge: true
 - title: Co dalej?

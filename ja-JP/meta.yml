@@ -9,9 +9,10 @@ version: 4.1.0
 last_tested: 2018-10-11
 steps:
 - title: 前書き
-  completion: engaged
 - title: スペースシップ（宇宙船）を作りましょう
 - title: 稲妻
+  completion:
+  - engaged
 - title: 課題：雷を改善する
   challenge: true
 - title: 宇宙カバ
@@ -20,8 +21,9 @@ steps:
 - title: チャレンジ：ライフと点数
   challenge: true
 - title: 宇宙コウモリ
-  completion: internal
 - title: ゲームオーバー
+  completion:
+  - internal
 - title: チャレンジ：ゲームをより良くする
   challenge: true
 - title: 次は何をしますか？

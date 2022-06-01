@@ -9,9 +9,10 @@ version: 4.1.0
 last_tested: 2018-10-11
 steps:
 - title: ಪರಿಚಯ
-  completion: engaged
 - title: ಆಕಾಶನೌಕೆ ಮಾಡಿ
 - title: ಮಿಂಚಿನ ಬೋಲ್ಟ್
+  completion:
+  - engaged
 - title: 'ಸವಾಲು: ಮಿಂಚನ್ನು ಸುಧಾರಿಸಿ'
   challenge: true
 - title: ಸ್ಪೇಸ್-ಹಿಪ್ಪೋಸ್
@@ -20,8 +21,9 @@ steps:
 - title: 'ಸವಾಲು: ಜೀವಗಳು ಮತ್ತು ಅಂಕಗಳು'
   challenge: true
 - title: ಸ್ಪೇಸ್-ಬ್ಯಾಟ್
-  completion: internal
 - title: ಆಟ ಮುಗಿದಿದೆ
+  completion:
+  - internal
 - title: 'ಸವಾಲು: ನಿಮ್ಮ ಆಟವನ್ನು ಸುಧಾರಿಸಿ'
   challenge: true
 - title: ಮುಂದೆ ಏನು?

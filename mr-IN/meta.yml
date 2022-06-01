@@ -10,9 +10,10 @@ version: 4.1.0
 last_tested: 2018-10-11
 steps:
 - title: परिचय
-  completion: engaged
 - title: स्पेसशिप बनवा
 - title: विजेच्या बोल्ट
+  completion:
+  - engaged
 - title: 'आव्हान: वीज सुधारणे'
   challenge: true
 - title: स्पेस-हिप्पो
@@ -21,8 +22,9 @@ steps:
 - title: 'आव्हान: खेळ मधले जीवन आणि स्कोअर(score)'
   challenge: true
 - title: स्पेस-बॅट
-  completion: internal
 - title: खेळ समाप्त
+  completion:
+  - internal
 - title: आव्हानः आपला खेळामध्ये सुधार करा
   challenge: true
 - title: पुढे काय?

@@ -10,9 +10,10 @@ version: 4.1.0
 last_tested: 2018-10-11
 steps:
 - title: परिचय
-  completion: engaged
 - title: एक अंतरिक्ष-यान बनाते हैं ।
 - title: विद्युत तीर
+  completion:
+  - engaged
 - title: 'चुनौती: बिजली में सुधार'
   challenge: true
 - title: अंतरिक्ष दरियाई घोड़ा
@@ -21,8 +22,9 @@ steps:
 - title: 'चुनौती: जीवन और स्कोर'
   challenge: true
 - title: अंतरिक्ष के चमगादड़
-  completion: internal
 - title: खेल समाप्त
+  completion:
+  - internal
 - title: 'चुनौती: अपने खेल में सुधार करें'
   challenge: true
 - title: आगे क्या है?

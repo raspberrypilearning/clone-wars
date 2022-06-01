@@ -9,9 +9,10 @@ version: 4.1.0
 last_tested: 2018-10-11
 steps:
 - title: Cyflwyniad
-  completion: engaged
 - title: Creu Llong Ofod
 - title: Mellt
+  completion:
+  - engaged
 - title: 'Her: gwella''r mellt'
   challenge: true
 - title: Hippos-gofod
@@ -20,8 +21,9 @@ steps:
 - title: 'Her: bywydau a sgôr'
   challenge: true
 - title: Ystlumod gofod
-  completion: internal
 - title: Gêm drosodd
+  completion:
+  - internal
 - title: 'Her: gwella dy gêm'
   challenge: true
 - title: Beth nesaf?
