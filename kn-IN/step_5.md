@@ -6,7 +6,7 @@
 
 Scratch ಲೈಬ್ರರಿಯಲ್ಲಿ 'hippo 1' ಚಿತ್ರದ ಜೊತೆಗೆ ಹೊಸ sprite ಅನ್ನು ರಚಿಸಿ. `Hippo` sprite ಅನ್ನು `Spaceship` sprite ಹೋಲುವಂತೆ ಮಾಡಲು **shrink** ಉಪಕರಣವನ್ನು ಬಳಸಿ.
 
-![screenshot](images/invaders-hippo.png)
+![The Scratch stage with a starry background. A rocket sits in the middle at the bottom of the stage and a hippo sprite with wings is at the top.](images/invaders-hippo.png)
 
 \--- /task \---
 
@@ -92,7 +92,7 @@ end
 
 ನೀವು ಇದನ್ನು ಸರಿಯಾಗಿ ಮಾಡಿದಾಗ, variable ನ ಪಕ್ಕದಲ್ಲಿ sprite ನ ಹೆಸರನ್ನು ಹೊಂದಿರುತ್ತದೆ, ಈ ರೀತಿಯಾಗಿ:
 
-![screenshot](images/invaders-var-test.png)
+![The variable sprite that reads "Hippo1: speed 0"](images/invaders-var-test.png)
 
 \--- /task \---
 
@@ -138,7 +138,7 @@ end
 
 \--- no-print \---
 
-![screenshot](images/hippo-clones.gif)
+![Animation of the Hippo sprite flying around, two clones are created and move independently.](images/hippo-clones.gif)
 
 \--- /no-print \---
 
