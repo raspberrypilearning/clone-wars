@@ -29,7 +29,7 @@ W tej chwili błyskawica jest naprawdę duża w porównaniu do statku kosmiczneg
 
 \--- task \---
 
-Poniżej kodu jaki ma już duszek `Błyskawica` dodaj kilka bloków, aby zmniejszyć duszka i obrócić go do góry nogami.
+Poniżej kodu, jaki ma już duszek `Błyskawica` dodaj kilka bloków, aby zmniejszyć duszka i obrócić go do góry nogami.
 
 ![duszek błyskawicy](images/lightning-sprite.png)
 
@@ -50,7 +50,7 @@ Dodaj trochę nowego kodu do duszka `Statku kosmicznego` aby stworzyć nowego kl
 
 \--- hint \---
 
-`Kiedy kliknięto zieloną flagę`,{:class="block3events"}, sprawdzaj `zawsze`{:class="block3control"} ` jeżeli`{:class="block3control"} `klawisz spacji jest wciśnięty`{:class="block3sensing"}, w takim przypadku ` stwórz klona Błyskawicy`{:class="block3control"}.
+`Kiedy kliknięto zieloną flagę`,{:class="block3events"}, sprawdzaj `zawsze`{:class="block3control"} ` jeżeli`{:class="block3control"} `klawisz spacji jest wciśnięty`{:class="block3sensing"}, w takim przypadku `stwórz klona Błyskawicy`{:class="block3control"}.
 
 \--- /hint \---
 
@@ -117,6 +117,6 @@ usuń tego klona
 
 \--- task \---
 
-Naciśnij klawisz <kbd>spacji</kbd> aby sprawdzić czy twoje błyskawice poprawnie się poruszają.
+Naciśnij klawisz <kbd>spacji</kbd> aby sprawdzić, czy twoje błyskawice poprawnie się poruszają.
 
 \--- /task \---
