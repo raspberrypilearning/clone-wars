@@ -1,4 +1,4 @@
-## Wyzwanie: udoskonal swoją grę
+## Wyzwanie: ulepsz swoją grę
 
 Jakie ulepszenia możesz wprowadzić w swojej grze?
 
