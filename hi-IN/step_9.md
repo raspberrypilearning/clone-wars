@@ -41,7 +41,7 @@ end
 
 \--- hint \---
 
-जब चमगादड़ स्थानांतरित होता है तब उसे `next costume`{:class="block3looks"} प्रदर्शित करना चाहिए और फिर उसे थोड़े समय के लिए `प्रतीक्षा`{:class="block3control"} करनी चाहिए |
+जब चमगादड़ स्थानांतरित होता है तब उसे `next costume`{:class="block3looks"} प्रदर्शित करना चाहिए और फिर उसे थोड़े समय के लिए `wait`{:class="block3control"} करनी चाहिए |
 
 \--- /hint \---
 
@@ -83,7 +83,7 @@ end
 
 \--- task \---
 
-स्क्रैच लाइब्रेरी से `Orange` स्प्राइट को जोडें |
+Scratch लाइब्रेरी से `Orange` स्प्राइट को जोडें |
 
 ![स्क्रीनशॉट](images/invaders-orange.png)
 
@@ -91,7 +91,7 @@ end
 
 \--- task \---
 
-अपने चमगादड़ में कोड जोड़ते हैं जिससे कि जब `झंडी पर क्लिक`{:class="block3events"} किया जाता है, `Bat` स्प्राइट `हमेशा`{:class="block3control"} `5 से 10`{:class="block3operators"} सेकण्ड्स के बीच `यादृच्छिक`{:class="block3operators"} समय के लिए `इंतज़ार`{:class="block3control"} करता है और फिर वह `Orange` स्प्राइट का `क्लोन`{:class="block3control"} बनाता है |
+अपने चमगादड़ में कोड जोड़ते हैं जिससे कि जब `when the flag is clicked`{:class="block3events"} किया जाता है, `Bat` स्प्राइट `forever`{:class="block3control"} `waits`{:class="block3control"} for a `random`{:class="block3operators"} सेकण्ड्स के बीच `5 to 10`{:class="block3operators"} करता है और फिर वह `creates a clone`{:class="block3control"} of the `Orange` बनाता है |
 
 ![bat स्प्राइट](images/bat-sprite.png)
 
