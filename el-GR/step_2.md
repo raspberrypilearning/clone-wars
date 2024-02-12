@@ -6,11 +6,11 @@
 
 Άνοιξε το αρχικό έργο Scratch "Πόλεμος των κλώνων".
 
-**Online:** άνοιξε το αρχικό έργο στο [rpf.io/clone-wars-on](http://rpf.io/clone-wars-on){:target="_blank"}.
+**Online:** open the starter project at [rpf.io/clone-wars-on](https://rpf.io/clone-wars-on){:target="_blank"}.
 
 Αν έχεις λογαριασμό Scratch μπορείς να κάνεις ένα αντίγραφο, κάνοντας κλικ στο κουμπί **Ανάμειξη**.
 
-**Offline:** κατέβασε το αρχικό έργο από το [rpf.io/p/en/clone-wars-go](http://rpf.io/p/en/clone-wars-go), και κατόπιν άνοιξέ το με τον offline editor.
+**Offline:** download the starter project from [rpf.io/p/en/clone-wars-go](https://rpf.io/p/en/clone-wars-go), and then open it using the offline editor.
 
 Αν χρειαστεί να κατεβάσεις και να εγκαταστήσεις τον offline editor για το Scratch, μπορείς να το βρεις στο [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
 
