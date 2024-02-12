@@ -10,7 +10,7 @@ Wybierz duszka `Statek kosmiczny` i zmień nazwę kostiumu na 'normalny'.
 
 \--- task \---
 
-Narysuj kolejny kostium eksplodującego statku kosmicznego i nazwij go"trafiony".
+Narysuj kolejny kostium eksplodującego statku kosmicznego i nazwij go "trafiony".
 
 ![zrzut ekranu](images/invaders-spaceship-costumes.png)
 
@@ -22,7 +22,7 @@ Jeśli nie chcesz narysować eksplozji, możesz wybrać kostium 'Sun' z bibliote
 
 \--- task \---
 
-Dodaj kod do swojego duszka `statku kosmicznego`, który wyświetla „normalny” kostium, gdy gra się rozpoczyna, i przełącza się na kostium „trafienie”, gdy dotknie hipopotama:
+Dodaj kod do swojego duszka `statku kosmicznego`, który wyświetla „normalny” kostium, gdy gra się rozpoczyna, i przełącza się na kostium „trafiony”, gdy dotknie hipopotama:
 
 ![duszek rakiety](images/rocket-sprite.png)
 
