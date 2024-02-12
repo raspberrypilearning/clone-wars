@@ -6,11 +6,11 @@ Maak eerst een ruimteschip dat de aarde kan verdedigen!
 
 Open het 'Clone wars' Scratch starter project.
 
-**Online**: open het starter project op [rpf.io/clone-wars-on](http://rpf.io/clone-wars-on){:target="_ blank"}.
+**Online:** open the starter project at [rpf.io/clone-wars-on](https://rpf.io/clone-wars-on){:target="_blank"}.
 
 Als je een Scratch-account hebt, kun je een kopie maken door op **Remix** te klikken.
 
-**Offline:** download het starter project op [rpf.io/p/en/clone-wars-go](http://rpf.io/p/en/clone-wars-go), en open het vervolgens met behulp van de Scratch offline editor.
+**Offline:** download the starter project from [rpf.io/p/en/clone-wars-go](https://rpf.io/p/en/clone-wars-go), and then open it using the offline editor.
 
 Als je de Scratch offline editor wilt downloaden en installeren dan kan je die vinden op [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
 
