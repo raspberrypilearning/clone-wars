@@ -6,7 +6,7 @@ Ora aggiungerai un sacco di ippopotami volanti che cercano di distruggere la tua
 
 Crea un nuovo sprite con l'immagine 'Hippo1' nella collezione di Scratch. Usa lo strumento di **riduzione** per rendere l'`ippopotamo` di dimensioni simili alla `Navicella`.
 
-![schermata](images/invaders-hippo.png)
+![The Scratch stage with a starry background. A rocket sits in the middle at the bottom of the stage and a hippo sprite with wings is at the top.](images/invaders-hippo.png)
 
 \--- /task \---
 
@@ -91,7 +91,7 @@ Crea una nuova variabile chiamata `velocità`{: class = "block3variables"} che v
 
 Quando lo hai fatto correttamente, la variabile ha il nome dello sprite accanto ad esso, in questo modo:
 
-![schermata](images/invaders-var-test.png)
+![The variable sprite that reads "Hippo1: speed 0"](images/invaders-var-test.png)
 
 \--- /task \---
 
@@ -137,7 +137,7 @@ Riprova il codice. Adesso dovresti vedere un nuovo clone di ippopotamo che appar
 
 \--- no-print \---
 
-![schermata](images/hippo-clones.gif)
+![Animation of the Hippo sprite flying around, two clones are created and move independently.](images/hippo-clones.gif)
 
 \--- /no-print \---
 
