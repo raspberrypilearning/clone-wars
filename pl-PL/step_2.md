@@ -6,11 +6,11 @@ Najpierw utwórz statek kosmiczny, który może bronić Ziemi!
 
 Otwórz projekt startowy Scratch "Wojny klonów".
 
-**Online:** otwórz nowy projekt startowy na stronie [rpf.io/clone-wars-on](http://rpf.io/clone-wars-on){:target="_blank"}.
+**Online:** open the starter project at [rpf.io/clone-wars-on](https://rpf.io/clone-wars-on){:target="_blank"}.
 
 Jeśli masz konto Scratch, możesz wykonać kopię klikając **Remiks**.
 
-**Offline:** pobierz projekt początkowy z [rpf.io/p/en/clone-wars-go](http://rpf.io/p/en/clone-wars-go) i otwórz w programie Scratch Desktop.
+**Offline:** download the starter project from [rpf.io/p/en/clone-wars-go](https://rpf.io/p/en/clone-wars-go), and then open it using the offline editor.
 
 Jeśli chcesz pobrać i zainstalować edytor Scratch, znajdziesz go na stronie [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
 
@@ -43,7 +43,7 @@ zmień x o (-4)
 
 \--- task \---
 
-Dodaj więcej kodu wewnątrz bloku `zawsze`:class="block3control"}, aby twój statek kosmiczny przesuwał się w prawo, gdy strzałka <kbd>w prawo</kbd> jest wciśnięta.
+Dodaj więcej kodu wewnątrz bloku `zawsze`{:class="block3control"}, aby twój statek kosmiczny przesuwał się w prawo, gdy strzałka <kbd>w prawo</kbd> jest wciśnięta.
 
 \--- hints \---
 
