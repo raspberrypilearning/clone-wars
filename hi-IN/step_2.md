@@ -1,4 +1,4 @@
-## एक अंतरिक्ष-यान बनाते हैं |
+## एक अंतरिक्ष-यान बनाते हैं
 
 पहले एक अंतरिक्ष यान बनाते हैं जो पृथ्वी की रक्षा कर सके!
 
@@ -6,11 +6,11 @@
 
 'क्लोन युद्ध' स्क्रैच स्टार्टर प्रोजेक्ट खोलें।
 
-**ऑनलाइन:** [rpf.io/clone-wars-on](http://rpf.io/clone-wars-on){:target="_blank"} पर स्टार्टर प्रोजेक्ट खोलें।
+**Online:** open the starter project at [rpf.io/clone-wars-on](https://rpf.io/clone-wars-on){:target="_blank"}.
 
 यदि आपके पास एक स्क्रैच एकाउंट है, तो आप **रीमिक्स** पर क्लिक करके प्रतिलिपि बना सकते हैं ।
 
-**ऑफ़लाइन:** स्टार्टर प्रोजेक्ट को [rpf.io/p/en/clone-wars-go](http://rpf.io/p/en/clone-wars-go) से डाउनलोड करें, और फिर इसे ऑफ़लाइन संपादक का उपयोग करके खोलें।
+**Offline:** download the starter project from [rpf.io/p/en/clone-wars-go](https://rpf.io/p/en/clone-wars-go), and then open it using the offline editor.
 
 यदि आपको स्क्रैच ऑफ़लाइन संपादक को डाउनलोड और इंस्टॉल करने की आवश्यकता है, तो आप इसे [rpf.io/scratchoff](https://rpf.io/scratchoff) {:target="_blank"} पर पा सकते हैं।
 
