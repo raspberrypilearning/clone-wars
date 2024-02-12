@@ -32,7 +32,7 @@ nadaj komunikat (koniec gry v) i czekaj
 
 \--- task \---
 
-Dodaj ten kod do twojego duszka `Koniec Gry`, aby komunikat pojawił się na końcu gry:
+Dodaj ten kod do twojego duszka `Koniec gry`, aby komunikat pojawił się na końcu gry:
 
 ![duszek koniec gry](images/gameover-sprite.png)
 
@@ -44,7 +44,7 @@ kiedy otrzymam [koniec gry v]
 pokaż
 ```
 
-Ponieważ użyłaś na twojej Scenie bloku `nadaj komunikat (koniec gry) i czekaj `{:class="block3events"}, będzie ona czekać na wyświetlenie duszka `Koniec Gry` przed końcem gry.
+Ponieważ użyłaś na twojej Scenie bloku `nadaj komunikat (koniec gry) i czekaj `{:class="block3events"}, będzie ona czekać na wyświetlenie duszka `Koniec gry` przed końcem gry.
 
 \--- /task \---
 
