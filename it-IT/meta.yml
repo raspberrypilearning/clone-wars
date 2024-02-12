@@ -14,6 +14,8 @@ steps:
     title: Crea una navicella spaziale
   - 
     title: Fulmini
+    completion:
+      - engaged
   - 
     title: 'Sfida: migliora il fulmine'
     challenge: true
@@ -30,6 +32,8 @@ steps:
     title: Pipistrello spaziale
   - 
     title: Partita finita
+    completion:
+      - internal
   - 
     title: 'Sfida: migliora il tuo gioco'
     challenge: true
