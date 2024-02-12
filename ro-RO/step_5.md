@@ -6,7 +6,7 @@ Acum vei adăuga o mulțime de hipopotami zburători care încearcă să îți d
 
 Creează un nou personaj folosind imaginea „Hippo1” din biblioteca Scratch. Folosește unealta **de micșorare** pentru a face personajul `Hippo` o dimensiune similară cu personajul `Navă Spațială`.
 
-![captură de ecran](images/invaders-hippo.png)
+![The Scratch stage with a starry background. A rocket sits in the middle at the bottom of the stage and a hippo sprite with wings is at the top.](images/invaders-hippo.png)
 
 \--- /task \---
 
@@ -91,7 +91,7 @@ Creează o nouă variabilă numită `viteză`{:class="block3variables"} doar pen
 
 Când ai făcut acest lucru corect, variabila va avea numele personajului alături, astfel:
 
-![captură de ecran](images/invaders-var-test.png)
+![The variable sprite that reads "Hippo1: speed 0"](images/invaders-var-test.png)
 
 \--- /task \---
 
@@ -137,7 +137,7 @@ Testează-ți din nou codul. Ar trebui să vezi o nouă clonă a hipopotamului c
 
 \--- no-print \---
 
-![captură de ecran](images/hippo-clones.gif)
+![Animation of the Hippo sprite flying around, two clones are created and move independently.](images/hippo-clones.gif)
 
 \--- /no-print \---
 
