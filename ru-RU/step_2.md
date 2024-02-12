@@ -6,11 +6,11 @@
 
 Открой стартовый проект "Войны клонов".
 
-**Онлайн:** открой стартовый проект по адресу [rpf.io/clone-wars-on](http://rpf.io/clone-wars-on){:target="_blank"}.
+**Online:** open the starter project at [rpf.io/clone-wars-on](https://rpf.io/clone-wars-on){:target="_blank"}.
 
 Если у тебя есть учетная запись в Скретч, то ты можешь сделать копию, нажав **Ремикс**.
 
-**Оффлайн:**скачай стартовый проект с [rpf.io/p/ru/chatbot-go](http://rpf.io/p/en/clone-wars-go){:target="_blank"} и затем открой его с помощью оффлайн редактора.
+**Offline:** download the starter project from [rpf.io/p/en/clone-wars-go](https://rpf.io/p/en/clone-wars-go), and then open it using the offline editor.
 
 Если тебе нужно скачать и установить оффлайн редактор Скретч, ты можешь найти его по адресу [rpf.io/scratchoff](https://rpf.io/scratchoff)\--- /task"}.
 
