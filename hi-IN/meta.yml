@@ -14,15 +14,17 @@ steps:
     title: एक अंतरिक्ष-यान बनाते हैं |
   - 
     title: विद्युत तीर
+    completion:
+      - engaged
   - 
     title: 'चुनौती: बिजली में सुधार'
     challenge: true
   - 
-    title: अंतरिक्ष दरियाई घोड़ा
+    title: अंतरिक्ष-हिप्पो
   - 
     title: अंतरिक्ष-यान में धमाका
   - 
-    title: दरियाई घोड़े जो गायब हो रहे हैं
+    title: गायब हो रहे हिप्पोस
   - 
     title: 'चुनौती: जीवन और स्कोर'
     challenge: true
@@ -30,6 +32,8 @@ steps:
     title: अंतरिक्ष के चमगादड़
   - 
     title: खेल समाप्त
+    completion:
+      - internal
   - 
     title: 'चुनौती: अपने खेल में सुधार करें'
     challenge: true
