@@ -14,6 +14,8 @@ steps:
     title: स्पेसशिप बनवा
   - 
     title: विजेच्या बोल्ट
+    completion:
+      - engaged
   - 
     title: 'आव्हान: वीज सुधारणे'
     challenge: true
@@ -30,6 +32,8 @@ steps:
     title: स्पेस-बॅट
   - 
     title: खेळ समाप्त
+    completion:
+      - internal
   - 
     title: 'आव्हानः आपला खेळामध्ये सुधार करा'
     challenge: true
