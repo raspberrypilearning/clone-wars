@@ -6,7 +6,7 @@
 
 使用範例庫中的 Hippo1 作為新角色，用圖像編輯器的工具把它**縮小**一點，重新命名為`河馬`，和`飛船`的尺寸差不多就行了。
 
-![截圖](images/invaders-hippo.png)
+![The Scratch stage with a starry background. A rocket sits in the middle at the bottom of the stage and a hippo sprite with wings is at the top.](images/invaders-hippo.png)
 
 \--- /task \---
 
@@ -92,7 +92,7 @@ end
 
 如果你的操作正確，變數旁邊會附加角色的名稱，如下所示：
 
-![截圖](images/invaders-var-test.png)
+![The variable sprite that reads "Hippo1: speed 0"](images/invaders-var-test.png)
 
 \--- /task \---
 
@@ -138,7 +138,7 @@ end
 
 \--- no-print \---
 
-![截圖](images/hippo-clones.gif)
+![Animation of the Hippo sprite flying around, two clones are created and move independently.](images/hippo-clones.gif)
 
 \--- /no-print \---
 
