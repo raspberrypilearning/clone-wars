@@ -6,11 +6,11 @@ Começa por construir uma nave espacial que possa defender a Terra!
 
 Abre o projeto inicial 'Guerra dos Clones' em Scratch.
 
-**Online:** abre o projeto inicial Scratch em [rpf.io/clone-wars-on](http://rpf.io/clone-wars-on){:target="_blank"}.
+**Online:** open the starter project at [rpf.io/clone-wars-on](https://rpf.io/clone-wars-on){:target="_blank"}.
 
 Se tiveres uma 'conta Scratch' podes fazer uma cópia ao clicares **Remix**.
 
-**Offline:** descarrega o projeto inicial de [rpf.io/p/en/clone-wars-go](http://rpf.io/p/en/clone-wars-go), e depois abre-o no editor offline do Scratch.
+**Offline:** download the starter project from [rpf.io/p/en/clone-wars-go](https://rpf.io/p/en/clone-wars-go), and then open it using the offline editor.
 
 Se precisares de descarregar e instalar o editor offline do Scratch, podes encontrá-lo em [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
 
