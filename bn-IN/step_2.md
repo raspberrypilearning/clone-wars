@@ -6,11 +6,11 @@
 
 'Clone Wars' Scratch starter project টি খুলুন।.
 
-**Online:** স্টার্টার প্রকল্পটি এখানে খুলুন [rpf.io/clone-wars-on](http://rpf.io/clone-wars-on){:target="_blank"}.
+**Online:** open the starter project at [rpf.io/clone-wars-on](https://rpf.io/clone-wars-on){:target="_blank"}.
 
 আপনার যদি scratch অ্যাকাউন্ট থাকে তবে **Remix** ক্লিক করে একটি অনুলিপি/copy তৈরি করতে পারেন।.
 
-**Offline:** [ rpf.io/p/en/clone-wars-go ](http://rpf.io/p/en/clone-wars-go) থেকে স্টার্টার প্রকল্পটি ডাউনলোড করুন এবং তারপরে অফলাইন সম্পাদক/editor ব্যবহার করে এটি খুলুন।.
+**Offline:** download the starter project from [rpf.io/p/en/clone-wars-go](https://rpf.io/p/en/clone-wars-go), and then open it using the offline editor.
 
 আপনার যদি scratch অফলাইন সম্পাদক/editor ডাউনলোড ও ইনস্টল করতে হয় তবে আপনি এটি [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"} এ খুঁজে পেতে পারেন.
 
