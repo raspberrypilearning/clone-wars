@@ -6,7 +6,7 @@
 
 在 Scratch 库中用'Hippo1' 图像创建一个新的角色。 使用**收缩**工具使`河马`角色和`飞船`差不多大小。
 
-![截屏](images/invaders-hippo.png)
+![The Scratch stage with a starry background. A rocket sits in the middle at the bottom of the stage and a hippo sprite with wings is at the top.](images/invaders-hippo.png)
 
 \--- /task \---
 
@@ -92,7 +92,7 @@ end
 
 正确完成此操作后，变量旁边会带有角色的名称，如下所示：
 
-![截屏](images/invaders-var-test.png)
+![The variable sprite that reads "Hippo1: speed 0"](images/invaders-var-test.png)
 
 \--- /task \---
 
@@ -138,7 +138,7 @@ end
 
 \--- no-print \---
 
-![截屏](images/hippo-clones.gif)
+![Animation of the Hippo sprite flying around, two clones are created and move independently.](images/hippo-clones.gif)
 
 \--- /no-print \---
 
