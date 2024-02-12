@@ -14,6 +14,8 @@ steps:
     title: Constrói uma nave espacial
   - 
     title: Relâmpagos
+    completion:
+      - engaged
   - 
     title: 'Desafio: melhorar o raio'
     challenge: true
@@ -30,6 +32,8 @@ steps:
     title: Morcego espacial
   - 
     title: Fim do Jogo
+    completion:
+      - internal
   - 
     title: 'Desafio: Melhora o teu jogo'
     challenge: true
