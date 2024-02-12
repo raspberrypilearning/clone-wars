@@ -14,6 +14,8 @@ steps:
     title: Baue ein Raumschiff
   - 
     title: Blitze
+    completion:
+      - engaged
   - 
     title: 'Herausforderung: Verbessere den Blitz'
     challenge: true
@@ -30,6 +32,8 @@ steps:
     title: Weltraum-Fledermaus
   - 
     title: Game over
+    completion:
+      - internal
   - 
     title: 'Herausforderung: Verbessere dein Spiel'
     challenge: true
