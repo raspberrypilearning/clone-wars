@@ -6,7 +6,7 @@ Jetzt wirst Du viele fliegende Flusspferde hinzufügen, die versuchen dein Raums
 
 Erstelle eine neue Figur mit dem "Hippo1" (englisch für Flusspferd) Bild aus der Scratch-Bibliothek. **Verkleinere** sie um die `Hippo` Figur auf eine ähnliche Größe wie das `Raumschiff` zu bringen.
 
-![screenshot](images/invaders-hippo.png)
+![The Scratch stage with a starry background. A rocket sits in the middle at the bottom of the stage and a hippo sprite with wings is at the top.](images/invaders-hippo.png)
 
 \--- /task \---
 
@@ -92,7 +92,7 @@ Erstelle eine neue Variable mit dem Namen `Geschwindigkeit`{:class="block3variab
 
 Wenn Du das richtig gemacht hast, steht der Name der Figur neben der Variable, so wie hier:
 
-![screenshot](images/invaders-var-test.png)
+![The variable sprite that reads "Hippo1: speed 0"](images/invaders-var-test.png)
 
 \--- /task \---
 
@@ -138,7 +138,7 @@ Teste deinen Code erneut. Du solltest alle paar Sekunden einen neuen Hippo-Klon 
 
 \--- no-print \---
 
-![screenshot](images/hippo-clones.gif)
+![Animation of the Hippo sprite flying around, two clones are created and move independently.](images/hippo-clones.gif)
 
 \--- /no-print \---
 
