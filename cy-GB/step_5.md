@@ -6,7 +6,7 @@ Fe awn ati i ychwanegu hippos sy’n hedfan ac yn ceisio dinistrio dy long ofod.
 
 Bydd angen creu ciplun newydd o’r llun ‘Hippo1’ yn llyfrgell Scratch. Defnyddia'r teclyn **lleihau** i wneud i'r corlun `Hippo1` yn llai na'r corlun `Llong ofod`.
 
-![sgrinlun](images/invaders-hippo.png)
+![The Scratch stage with a starry background. A rocket sits in the middle at the bottom of the stage and a hippo sprite with wings is at the top.](images/invaders-hippo.png)
 
 \--- /task \---
 
@@ -92,7 +92,7 @@ Bydd angen creu newidyn newydd o'r enw `cyflymder`{:class="block3variables"} syd
 
 Pan wyt ti wedi gwneud hyn yn gywir, mae gan y newidyn enw y corlun drws nesaf iddo, fel hyn:
 
-![sgrinlun](images/invaders-var-test.png)
+![The variable sprite that reads "Hippo1: speed 0"](images/invaders-var-test.png)
 
 \--- /task \---
 
@@ -138,7 +138,7 @@ Profa dy gôd eto. Fe ddylet ti weld clôn hippo yn ymddangos bob ychydig eiliad
 
 \--- no-print \---
 
-![sgrinlun](images/hippo-clones.gif)
+![Animation of the Hippo sprite flying around, two clones are created and move independently.](images/hippo-clones.gif)
 
 \--- /no-print \---
 
