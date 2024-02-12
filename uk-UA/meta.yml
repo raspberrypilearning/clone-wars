@@ -14,6 +14,8 @@ steps:
     title: Зробіть космічний корабель
   - 
     title: Блискавка
+    completion:
+      - engaged
   - 
     title: 'Challenge: improve the lightning'
     challenge: true
@@ -30,6 +32,8 @@ steps:
     title: Space-bat
   - 
     title: Кінець гри
+    completion:
+      - internal
   - 
     title: 'Завдання: вдоскональте свою гру'
     challenge: true
