@@ -6,11 +6,11 @@
 
 開啟 Clone wars 這個範例專案。
 
-**線上版：**你可以連結 [rpf.io/clone-wars-on](http://rpf.io/clone-wars-on){:target="_blank"} 以新建專案。
+**Online:** open the starter project at [rpf.io/clone-wars-on](https://rpf.io/clone-wars-on){:target="_blank"}.
 
 如果你有 Scratch 帳戶，你就可以直接**改編**專案。
 
-**離線版：** 你可以點擊 [rpf.io/p/en/clone-wars-go](http://rpf.io/p/en/clone-wars-go){:target="_blank"} 以下載專案。
+**Offline:** download the starter project from [rpf.io/p/en/clone-wars-go](https://rpf.io/p/en/clone-wars-go), and then open it using the offline editor.
 
 如果你需要 Scratch 離線版編輯器，可以連結到 [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}。
 
