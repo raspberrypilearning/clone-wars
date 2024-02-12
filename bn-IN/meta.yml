@@ -14,6 +14,8 @@ steps:
     title: একটি মহাকাশযান তৈরি করুন
   - 
     title: বজ্রপাত
+    completion:
+      - engaged
   - 
     title: 'Challenge: বজ্রপাত উন্নত করুন'
     challenge: true
@@ -30,6 +32,8 @@ steps:
     title: মহাকাশের বাদুড় বা bat
   - 
     title: খেলা শেষ
+    completion:
+      - internal
   - 
     title: 'Challenge: আপনার গেমটি উন্নত করুন'
     challenge: true
