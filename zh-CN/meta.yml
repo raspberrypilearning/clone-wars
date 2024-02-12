@@ -14,6 +14,8 @@ steps:
     title: 制作一个宇宙飞船
   - 
     title: 闪电束
+    completion:
+      - engaged
   - 
     title: '挑战：改善闪电'
     challenge: true
@@ -30,6 +32,8 @@ steps:
     title: 太空蝙蝠
   - 
     title: 游戏结束
+    completion:
+      - internal
   - 
     title: '挑战：完善你的游戏'
     challenge: true
