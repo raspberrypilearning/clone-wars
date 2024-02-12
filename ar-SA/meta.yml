@@ -14,6 +14,8 @@ steps:
     title: إنشاء سفينة فضاء
   - 
     title: صواعق برقية
+    completion:
+      - engaged
   - 
     title: 'التحدي: تحسين الصواعق البرقية'
     challenge: true
@@ -30,6 +32,8 @@ steps:
     title: خفاش الفضاء
   - 
     title: انتهت اللعبة
+    completion:
+      - internal
   - 
     title: 'التحدي: تحسين لعبتك'
     challenge: true
