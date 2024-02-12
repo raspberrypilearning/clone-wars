@@ -6,11 +6,11 @@ Baue zuerst ein Raumschiff, das die Erde verteidigen kann!
 
 Öffne das "Klonkriege" Scratch Starter Projekt.
 
-**Online:** Öffne das Basisprojekt auf [rpf.io/clone-wars-on](http://rpf.io/clone-wars-on){:target="_blank"}.
+**Online:** open the starter project at [rpf.io/clone-wars-on](https://rpf.io/clone-wars-on){:target="_blank"}.
 
 Wenn du bereits einen Scratch-Account besitzt, kannst du dir durch Klick auf **Remix** eine Kopie anlegen.
 
-**Offline:** Lade das Basisprojekt von [rpf.io/p/en/clone-wars-go](http://rpf.io/p/en/clone-wars-go){:target="_blank"} herunter und öffne es dann mit dem Scratch Offline-Editor.
+**Offline:** download the starter project from [rpf.io/p/en/clone-wars-go](https://rpf.io/p/en/clone-wars-go), and then open it using the offline editor.
 
 Wenn du den Scratch-Offline-Editor herunterladen und installieren möchtest, findest du diesen unter [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
 
