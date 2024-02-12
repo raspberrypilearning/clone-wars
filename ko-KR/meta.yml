@@ -14,6 +14,8 @@ steps:
     title: 우주선 만들기
   - 
     title: 번개
+    completion:
+      - engaged
   - 
     title: '도전과제: 번개를 개선하십시오.'
     challenge: true
@@ -30,6 +32,8 @@ steps:
     title: 우주-박쥐
   - 
     title: 게임 오버
+    completion:
+      - internal
   - 
     title: '도전과제: 게임을 개선하십시오.'
     challenge: true
