@@ -14,6 +14,8 @@ steps:
     title: Make a spaceship
   - 
     title: Lightning bolts
+    completion:
+      - engaged
   - 
     title: 'Challenge: improve the lightning'
     challenge: true
@@ -30,6 +32,8 @@ steps:
     title: Space-bat
   - 
     title: Game over
+    completion:
+      - internal
   - 
     title: 'Challenge: improve your game'
     challenge: true
