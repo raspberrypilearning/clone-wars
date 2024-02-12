@@ -1,11 +1,11 @@
-तेजी
+speed
 
-सामान्य
+normal
 
-सफल
+hit
 
-सफल 
+hit 
 
-खेल समाप्त
+Game over
 
 score
