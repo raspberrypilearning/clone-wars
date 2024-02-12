@@ -6,7 +6,7 @@
 
 قم بإنشاء كائن جديد باستخدام صورة "Hippo1" من مكتبة السكراتش. استخدم أداة **تقليص** لجعل كائن `فرس النهر` بحجم مماثل لـ `سفينة الفضاء`.
 
-![لقطة الشاشة](images/invaders-hippo.png)
+![The Scratch stage with a starry background. A rocket sits in the middle at the bottom of the stage and a hippo sprite with wings is at the top.](images/invaders-hippo.png)
 
 \---/task--
 
@@ -92,7 +92,7 @@ end
 
 ستعلم أنك قمتَ بذلك على الوجه الصحيح عندما ترى اسم الكائن بجوار المتغير، كما هو موضح أدناه:
 
-![لقطة الشاشة](images/invaders-var-test.png)
+![The variable sprite that reads "Hippo1: speed 0"](images/invaders-var-test.png)
 
 \--- /task \---
 
@@ -138,7 +138,7 @@ end
 
 \--- no-print \---
 
-![لقطة الشاشة](images/hippo-clones.gif)
+![Animation of the Hippo sprite flying around, two clones are created and move independently.](images/hippo-clones.gif)
 
 \--- /no-print \---
 
