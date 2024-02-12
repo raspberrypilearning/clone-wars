@@ -14,6 +14,8 @@ steps:
     title: Creu Llong Ofod
   - 
     title: Mellt
+    completion:
+      - engaged
   - 
     title: 'Her: gwella''r mellt'
     challenge: true
@@ -30,6 +32,8 @@ steps:
     title: Ystlumod gofod
   - 
     title: Gêm drosodd
+    completion:
+      - internal
   - 
     title: 'Her: gwella dy gêm'
     challenge: true
