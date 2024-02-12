@@ -6,7 +6,7 @@
 
 스크래치 라이브러리에 'Hippo1' 이미지가 있는 새로운 스프라이트를 만듭니다. **shrink** 도구를 사용하여 `Hippo` 스프라이트를 `Spaceship` 스프라이트와 유사한 크기로 만듭니다.
 
-![스크린샷](images/invaders-hippo.png)
+![The Scratch stage with a starry background. A rocket sits in the middle at the bottom of the stage and a hippo sprite with wings is at the top.](images/invaders-hippo.png)
 
 \--- /task \---
 
@@ -92,7 +92,7 @@
 
 이 작업을 올바르게 수행하면 해당 변수 옆에 다음과 같이 스프라이트 이름이 오게 됩니다:
 
-![스크린샷](images/invaders-var-test.png)
+![The variable sprite that reads "Hippo1: speed 0"](images/invaders-var-test.png)
 
 \--- /task \---
 
@@ -138,7 +138,7 @@ x: ((-220) 부터 (220) 까지의 난수) y: (150) 으로 이동하기
 
 \--- no-print \---
 
-![스크린샷](images/hippo-clones.gif)
+![Animation of the Hippo sprite flying around, two clones are created and move independently.](images/hippo-clones.gif)
 
 \--- /no-print \---
 
