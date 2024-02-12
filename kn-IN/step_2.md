@@ -6,11 +6,11 @@
 
 'Clone wars' Scratch starter ಯೋಜನೆಯನ್ನು ತೆರೆಯಿರಿ.
 
-**Online:** [rpf.io/clone-ware-on](http://rpf.io/clone-wars-on){:target="blank"} ನಲ್ಲಿ ಪ್ರಾರಂಭ ಯೋಜನೆಯನ್ನು ತೆರೆಯಿರಿ.
+**Online:** open the starter project at [rpf.io/clone-wars-on](https://rpf.io/clone-wars-on){:target="_blank"}.
 
 ನೀವು Scratch ಖಾತೆಯನ್ನು ಹೊಂದಿದ್ದರೆ **Remix** ಕ್ಲಿಕ್ ಮಾಡುವ ಮೂಲಕ ನೀವು ನಕಲನ್ನು ಮಾಡಬಹುದು.
 
-**Offline:** [rpf.io/p/en/clone-wars-go](http://rpf.io/p/en/clone-wars-go) ನಿಂದ ಪ್ರಾರಂಭ ಯೋಜನೆಯನ್ನು ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ, ತದನಂತರ ಅದನ್ನುOffline editor ಬಳಸಿ ತೆರೆಯಿರಿ.
+**Offline:** download the starter project from [rpf.io/p/en/clone-wars-go](https://rpf.io/p/en/clone-wars-go), and then open it using the offline editor.
 
 ನಿಮಗೆ Scratch offline editor ಅನ್ನು download ಮತ್ತು install ಮಾಡಬೇಕಾಗಿದ್ದಲ್ಲಿ, ಅದನ್ನು [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="blank"} ಇಲ್ಲಿ ಹುಡುಕಬಹುದು.
 
