@@ -14,6 +14,8 @@ steps:
     title: Construindo uma nave
   - 
     title: Raios
+    completion:
+      - engaged
   - 
     title: 'Desafio: melhore o raio'
     challenge: true
@@ -30,6 +32,8 @@ steps:
     title: Morcego espacial
   - 
     title: Fim de jogo
+    completion:
+      - internal
   - 
     title: 'Desafio: melhore seu jogo'
     challenge: true
