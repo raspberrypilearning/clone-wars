@@ -14,6 +14,8 @@ steps:
     title: Сделать космический корабль
   - 
     title: Удар молнии
+    completion:
+      - engaged
   - 
     title: 'Задание: улучшить молнию'
     challenge: true
@@ -30,6 +32,8 @@ steps:
     title: Космическая летучая мышь
   - 
     title: Игра окончена
+    completion:
+      - internal
   - 
     title: 'Задание: улучши свою игру'
     challenge: true
