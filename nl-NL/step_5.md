@@ -6,7 +6,7 @@ Nu ga je veel vliegende nijlpaarden (flying hippos) toevoegen die proberen jouw 
 
 Maak een nieuwe sprite met de 'Hippo1' afbeelding in de Scratch bibliotheek. Gebruik de **grootte** instelling om de `Hippo1` sprite even groot als de `Ruimteschip` sprite te maken.
 
-![screenshot](images/invaders-hippo.png)
+![The Scratch stage with a starry background. A rocket sits in the middle at the bottom of the stage and a hippo sprite with wings is at the top.](images/invaders-hippo.png)
 
 \--- /task \---
 
@@ -92,7 +92,7 @@ Maak een nieuwe variabele met de naam `snelheid`{:class="blockdata"} die alleen 
 
 Als je dit goed hebt gedaan, staat voor de variabele de naam van de sprite, zoals hier:
 
-![screenshot](images/invaders-var-test.png)
+![The variable sprite that reads "Hippo1: speed 0"](images/invaders-var-test.png)
 
 \--- /task \---
 
@@ -138,7 +138,7 @@ Test je code opnieuw. Je zou moeten zien dat elke paar seconden een nieuwe nijlp
 
 \--- no-print \---
 
-![screenshot](images/hippo-clones.gif)
+![Animation of the Hippo sprite flying around, two clones are created and move independently.](images/hippo-clones.gif)
 
 \--- /no-print \---
 
