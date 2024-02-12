@@ -6,11 +6,11 @@
 
 打开“克隆战争”的Scratch初始项目。
 
-**在线：** 在 [rpf.io/clone-wars-on](http://rpf.io/clone-wars-on){:target =“_ blank”}打开初始项目。
+**Online:** open the starter project at [rpf.io/clone-wars-on](https://rpf.io/clone-wars-on){:target="_blank"}.
 
 如果您有Scratch帐户，可以单击**改编**制作副本。
 
-**离线：** 从 [rpf.io/p/en/clone-wars-go](http://rpf.io/p/en/clone-wars-go) 下载初始项目，然后使用Scratch离线编辑器打开它。
+**Offline:** download the starter project from [rpf.io/p/en/clone-wars-go](https://rpf.io/p/en/clone-wars-go), and then open it using the offline editor.
 
 如果您需要下载并安装Scratch离线编辑器，可以在[ rpf.io/scratchoff ](https://rpf.io/scratchoff)中获取 {：target="_blank"}。
 
