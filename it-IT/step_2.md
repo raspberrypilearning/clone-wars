@@ -6,11 +6,11 @@ Creiamo una navicella spaziale che difenderà la Terra!
 
 Apri il progetto per principianti 'Clone wars'.
 
-**Online:** apri il progetto iniziale su [rpf.io/clone-wars-on](http://rpf.io/clone-wars-on){:target="_blank"}.
+**Online:** open the starter project at [rpf.io/clone-wars-on](https://rpf.io/clone-wars-on){:target="_blank"}.
 
 Se hai un account su Scratch, puoi farne una copia cliccando su **Remix**.
 
-**Offline:** scarica il progetto per principianti da [rpf.io/p/en/clone-wars-go](http://rpf.io/p/en/clone-wars-go), e poi aprilo con l'editor offline.
+**Offline:** download the starter project from [rpf.io/p/en/clone-wars-go](https://rpf.io/p/en/clone-wars-go), and then open it using the offline editor.
 
 Se hai bisogno di scaricare ed installare l'editor Scratch offline, puoi trovarlo su [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
 
