@@ -6,7 +6,7 @@ Agora você vai adicionar muitos hipopótamos voadores que tentarão destruir a 
 
 Crie um novo ator com a imagem 'Hippo1' da biblioteca do Scratch e mude o nome dele para hipopótamo1. Use a ferramenta ** encolher** para fazer com que o ator `hipopótamo1` tenha um tamanho semelhante ao do ator `nave`.
 
-![captura de tela](images/invaders-hippo.png)
+![The Scratch stage with a starry background. A rocket sits in the middle at the bottom of the stage and a hippo sprite with wings is at the top.](images/invaders-hippo.png)
 
 \--- /task \---
 
@@ -92,7 +92,7 @@ Crie uma nova variável chamada `velocidade`{:class="block3variables"} apenas pa
 
 Quando você fizer isso corretamente, a variável terá o nome do ator ao lado, assim:
 
-![captura de tela](images/invaders-var-test.png)
+![The variable sprite that reads "Hippo1: speed 0"](images/invaders-var-test.png)
 
 \--- /task \---
 
@@ -138,7 +138,7 @@ Teste seu código novamente. Você deve ver um novo clone de hipopótamo aparece
 
 \--- no-print \---
 
-![captura de tela](images/hippo-clones.gif)
+![Animation of the Hippo sprite flying around, two clones are created and move independently.](images/hippo-clones.gif)
 
 \--- /no-print \---
 
