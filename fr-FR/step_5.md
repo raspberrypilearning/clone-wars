@@ -6,7 +6,7 @@ Tu vas maintenant ajouter de nombreux hippopotames volants qui tentent de détru
 
 Crée un nouveau sprite avec l'image 'Hippo1' dans la bibliothèque Scratch. Utilise l’outil **rétrécissement** pour donner au sprite `Hippo` une taille similaire à celle du sprite `Spaceship`.
 
-![capture d'écran](images/invaders-hippo.png)
+![The Scratch stage with a starry background. A rocket sits in the middle at the bottom of the stage and a hippo sprite with wings is at the top.](images/invaders-hippo.png)
 
 \--- /task \---
 
@@ -93,7 +93,7 @@ Créer une nouvelle variable appelée `vitesse`{:class="block3variables"} pour l
 
 Une fois que tu auras fait cela correctement, la variable porte le nom du sprite à côté de lui, comme ceci :
 
-![capture d'écran](images/invaders-var-test.png)
+![The variable sprite that reads "Hippo1: speed 0"](images/invaders-var-test.png)
 
 \--- /task \---
 
@@ -139,7 +139,7 @@ Teste ton code à nouveau. Tu devrais voir apparaître un nouveau clone hippopot
 
 \--- no-print \---
 
-![capture d'écran](images/hippo-clones.gif)
+![Animation of the Hippo sprite flying around, two clones are created and move independently.](images/hippo-clones.gif)
 
 \--- /no-print \---
 
