@@ -14,6 +14,8 @@ steps:
     title: ಆಕಾಶನೌಕೆ ಮಾಡಿ
   - 
     title: ಮಿಂಚಿನ ಬೋಲ್ಟ್
+    completion:
+      - engaged
   - 
     title: 'ಸವಾಲು: ಮಿಂಚನ್ನು ಸುಧಾರಿಸಿ'
     challenge: true
@@ -30,6 +32,8 @@ steps:
     title: ಸ್ಪೇಸ್-ಬ್ಯಾಟ್
   - 
     title: ಆಟ ಮುಗಿದಿದೆ
+    completion:
+      - internal
   - 
     title: 'ಸವಾಲು: ನಿಮ್ಮ ಆಟವನ್ನು ಸುಧಾರಿಸಿ'
     challenge: true
