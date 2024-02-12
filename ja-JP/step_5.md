@@ -6,7 +6,7 @@
 
 スクラッチライブラリの 「Hippo1」画像を使って新しいスプライトを作成します。**縮小**ツールを使用して`宇宙カバ`のスプライトを`宇宙船`スプライトと同じサイズにします。
 
-![スクリーンショット](images/invaders-hippo.png)
+![The Scratch stage with a starry background. A rocket sits in the middle at the bottom of the stage and a hippo sprite with wings is at the top.](images/invaders-hippo.png)
 
 \--- /task \---
 
@@ -92,7 +92,7 @@ end
 
 これを正しく行うと、変数の隣には次のようなスプライトの名前が表示されます。
 
-![スクリーンショット](images/invaders-var-test.png)
+![The variable sprite that reads "Hippo1: speed 0"](images/invaders-var-test.png)
 
 \--- /task \---
 
@@ -138,7 +138,7 @@ end
 
 \--- no-print \---
 
-![スクリーンショット](images/hippo-clones.gif)
+![Animation of the Hippo sprite flying around, two clones are created and move independently.](images/hippo-clones.gif)
 
 \--- /no-print \---
 
