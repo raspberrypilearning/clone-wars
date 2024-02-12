@@ -6,7 +6,7 @@
 
 Scratch library তে 'Hippo 1' চিত্র সহ একটি নতুন sprite তৈরি করুন।** shrink ** tool ব্যবহার করুন ` Hippo ` sprite কে ` Spaceship ` sprite এর সম আকারে তৈরি করতে।.
 
-![screenshot](images/invaders-hippo.png)
+![The Scratch stage with a starry background. A rocket sits in the middle at the bottom of the stage and a hippo sprite with wings is at the top.](images/invaders-hippo.png)
 
 \--- /task \---
 
@@ -92,7 +92,7 @@ end
 
 আপনি যখন এটি সঠিকভাবে করবেন, variable টির পাশে দেখবেন sprite র নাম রয়েছে, যা এই রকম দেখতে:
 
-![screenshot](images/invaders-var-test.png)
+![The variable sprite that reads "Hippo1: speed 0"](images/invaders-var-test.png)
 
 \--- /task \---
 
@@ -138,7 +138,7 @@ delete this clone
 
 \--- no-print \---
 
-![screenshot](images/hippo-clones.gif)
+![Animation of the Hippo sprite flying around, two clones are created and move independently.](images/hippo-clones.gif)
 
 \--- /no-print \---
 
