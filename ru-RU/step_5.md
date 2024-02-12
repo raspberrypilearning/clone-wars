@@ -6,7 +6,7 @@
 
 Создай новый спрайт с изображением Бегемота из библиотеки Скретч. Используй инструмент **уменьшение**, чтобы сделать размер спрайта `Бегемот` таким же, как и спрайт `Космический корабль`.
 
-![снимок экрана](images/invaders-hippo.png)
+![The Scratch stage with a starry background. A rocket sits in the middle at the bottom of the stage and a hippo sprite with wings is at the top.](images/invaders-hippo.png)
 
 \--- /task \---
 
@@ -92,7 +92,7 @@
 
 Если ты сделал это правильно, то переменная будет иметь имя спрайта, например:
 
-![снимок экрана](images/invaders-var-test.png)
+![The variable sprite that reads "Hippo1: speed 0"](images/invaders-var-test.png)
 
 \--- /task \---
 
@@ -138,7 +138,7 @@
 
 \--- no-print \---
 
-![снимок экрана](images/hippo-clones.gif)
+![Animation of the Hippo sprite flying around, two clones are created and move independently.](images/hippo-clones.gif)
 
 \--- /no-print \---
 
