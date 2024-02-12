@@ -1,11 +1,11 @@
-speed
+prędkość
 
-normal
+normalny
 
-hit
+trafiony
 
-hit 
+trafienie 
 
-Game over
+Koniec gry
 
-score
+wynik
