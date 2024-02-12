@@ -14,6 +14,8 @@ steps:
     title: Φτιάξε ένα διαστημόπλοιο
   - 
     title: Αστραπές
+    completion:
+      - engaged
   - 
     title: 'Πρόκληση: βελτίωση της αστραπής'
     challenge: true
@@ -30,6 +32,8 @@ steps:
     title: Διαστημική νυχτερίδα
   - 
     title: Τέλος παιχνιδιού
+    completion:
+      - internal
   - 
     title: 'Πρόκληση: βελτίωσε το παιχνίδι σου'
     challenge: true
