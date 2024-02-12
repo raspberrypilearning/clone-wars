@@ -14,6 +14,8 @@ steps:
     title: Stwórz statek kosmiczny
   - 
     title: Błyskawice
+    completion:
+      - engaged
   - 
     title: 'Wyzwanie: ulepsz błyskawicę'
     challenge: true
@@ -24,12 +26,14 @@ steps:
   - 
     title: Hipopotamy, które znikają
   - 
-    title: 'Wyzwanie: Życia i wynik'
+    title: 'Wyzwanie: życia i wynik'
     challenge: true
   - 
     title: Kosmiczny nietoperz
   - 
     title: Koniec gry
+    completion:
+      - internal
   - 
     title: 'Wyzwanie: ulepsz swoją grę'
     challenge: true
