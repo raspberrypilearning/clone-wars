@@ -14,6 +14,8 @@ steps:
     title: Creează o navă spațială
   - 
     title: Fulgere
+    completion:
+      - engaged
   - 
     title: 'Provocare: Îmbunătățeste fulgerul'
     challenge: true
@@ -30,6 +32,8 @@ steps:
     title: Liliac-spațial
   - 
     title: Finalul jocului
+    completion:
+      - internal
   - 
     title: 'Provocare: Îmbunătățește-ți jocul'
     challenge: true
