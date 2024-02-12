@@ -6,7 +6,7 @@ Teraz dodasz mnóstwo latających hipopotamów, które będą próbować zniszcz
 
 Utwórz nowego duszka z obrazem "Hippo1" w bibliotece Scratch. Użyj narzędzia **pomniejsz** aby zmienić rozmiar duszka `Hipcio` do rozmiarów duszka `Statku kosmicznego`.
 
-![zrzut ekranu](images/invaders-hippo.png)
+![The Scratch stage with a starry background. A rocket sits in the middle at the bottom of the stage and a hippo sprite with wings is at the top.](images/invaders-hippo.png)
 
 \--- /task \---
 
@@ -92,13 +92,13 @@ Utwórz nową zmienną o nazwie `prędkość`{:class="block3variables"}, która 
 
 Jeśli zrobisz to poprawnie, zmienna będzie mieć obok siebie nazwę duszka, tak jak poniżej:
 
-![zrzut ekranu](images/invaders-var-test.png)
+![The variable sprite that reads "Hippo1: speed 0"](images/invaders-var-test.png)
 
 \--- /task \---
 
 \--- task \---
 
-Kiedy każdy klon `Hipcia` zaczyna, losuje prędkość i położenie zanim pojawi się na ekranie.
+Kiedy każdy klon `Hipcia` zaczyna, losuje prędkość i położenie, zanim pojawi się na ekranie.
 
 ```blocks3
 gdy zaczynam jako klon
@@ -138,7 +138,7 @@ Sprawdź swój kod ponownie. Powinieneś zobaczyć nowego klona hipopotama co ki
 
 \--- no-print \---
 
-![zrzut ekranu](images/hippo-clones.gif)
+![Animation of the Hippo sprite flying around, two clones are created and move independently.](images/hippo-clones.gif)
 
 \--- /no-print \---
 
