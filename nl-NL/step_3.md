@@ -19,8 +19,8 @@ Voeg deze code toe aan de `Lightning` sprite:
 ![lightning sprite](images/lightning-sprite.png)
 
 ```blocks3
-wanneer groene vlag wordt aangeklikt 
- verdwijn
+when green flag clicked
+hide
 ```
 
 --- /task ---
@@ -34,8 +34,8 @@ Onder de code die `Lightning` sprite al heeft, voeg je enkele blokken toe om de 
 ![lightning sprite](images/lightning-sprite.png)
 
 ```blocks3
-maak grootte (25) %
-richt naar (-90) graden
+set size to (25) %
+point in direction (-90)
 ```
 
 Nu lijkt het als of de punt het eerst uit het ruimteschip wordt geschoten.
@@ -60,17 +60,17 @@ Voeg nieuwe code toe om de `ruimteschip` sprite een nieuwe bliksemschicht te lat
 Dit zijn de blokken die je nodig hebt:
 
 ```blocks3
-als <> dan
+if <> then
 end
 
-herhaal
+forever
 end
 
-maak een kloon van (Lightning v)
+create clone of (Lightning v)
 
-&lt;key (space v) pressed?&gt;
+<key (spatiebalk v) pressed?>
 
-wanneer groene vlag wordt aangeklikt
+when flag clicked
 ```
 
 --- /hint ---
@@ -82,11 +82,11 @@ Dit is hoe je code eruit zou moeten zien:
 ![ruimteschip sprite](images/rocket-sprite.png)
 
 ```blocks3
-wanneer groene vlag wordt aangeklikt
-herhaal 
-  als <key (space v) pressed?> dan 
-    maak een kloon van (Lightning v)
-  end
+when flag clicked
+forever
+	if <key (spatiebalk v) pressed?> then
+		create clone of (Lightning v)
+	end
 end
 ```
 
@@ -105,13 +105,13 @@ Voeg deze code toe aan de `Lightning` sprite zodat klonen ervan naar boven beweg
 ![lightning sprite](images/lightning-sprite.png)
 
 ```blocks3
-    wanneer ik als kloon start
-ga naar (Ruimteschip v)
-verschijn
-herhaal tot <touching (edge v) ?> 
-  verander y met (10)
-end
-verwijder deze kloon
+	when I start as a clone
+	go to (Spaceship v)
+    show
+	repeat until <touching (rand v) ?>
+		change y by (10)
+	end
+	delete this clone
 ```
 
 --- /task ---

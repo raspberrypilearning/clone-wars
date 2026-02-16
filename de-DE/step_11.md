@@ -15,5 +15,5 @@ Hier sind ein paar Vorschläge:
 + Lasse mehr Feinde auftauchen, wenn deine Punktzahl `100` erreicht.
 
 ```blocks3
-    warte bis <(Punkte :: variables) = [100]>
+	wait until <(Punkte :: variables) = [100]>
 ```

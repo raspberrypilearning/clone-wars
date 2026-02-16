@@ -4,17 +4,16 @@ Wenn das Raumschiff explodiert, sollten alle Flusspferde verschwinden, damit sic
 
 --- task ---
 
-Füge der Raumschiff-Figur Code hinzu, damit sie eine `Nachricht "hit" an alle sendet`{:class="block3events"}, wenn das Raumschiff `ein Hippo berührt`{:class="block3sensing"}.
+Füge der Raumschiff-Figur Code hinzu, damit sie eine `Nachricht "getroffen" an alle sendet`{:class="block3events"}, wenn das Raumschiff `ein Hippo berührt`{:class="block3sensing"}.
 
 ![raumschiff-Figur](images/rocket-sprite.png)
 
 ```blocks3
-Wenn die grüne Flagge angeklickt
-wechsle zu Kostüm (normal v)
-warte bis <wird (Hippo1 v) berührt?>
-wechsle zu Kostüm (getroffen v)
-
-+ sende (getroffen v) an alle
+when flag clicked
+switch costume to (normal v)
+wait until <touching (Hippo1 v)>?
+switch costume to (getroffen v)
++ broadcast (getroffen v)
 ```
 
 --- /task ---
@@ -26,8 +25,8 @@ Alle `Hippo` Figur-Klone empfangen die Nachricht "getroffen", und Du kannst sie 
 ![Hippo Figur](images/hippo-sprite.png)
 
 ```blocks3
-Wenn ich [getroffen v] empfange
-lösche diesen Klon
+when I receive [getroffen]
+delete this clone
 ```
 
 --- /task ---
@@ -49,14 +48,13 @@ Füge am Ende des Codes der `Raumschiff` Figur einen `warte`{:class="block3contr
 ![raumschiff-Figur](images/rocket-sprite.png)
 
 ```blocks3
-Wenn die grüne Flagge angeklickt
-wiederhole fortlaufend 
-  wechsle zu Kostüm (normal v)
-  warte bis <wird (Hippo1 v) berührt?>
-  wechsle zu Kostüm (getroffen v)
-  sende (getroffen v) an alle
-
-+ warte (1) Sekunden
+when flag clicked
+forever
+switch costume to (normal v)
+wait until <touching (Hippo1 v)>?
+switch costume to (getroffen v)
+broadcast (getroffen v)
++ wait (1) seconds
 end
 ```
 

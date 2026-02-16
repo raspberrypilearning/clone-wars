@@ -20,12 +20,12 @@ Teken een nieuwe sprite genaamd `Wedstrijd voorbij` met behulp van de **tekst** 
 
 --- task ---
 
-Maak in het speelveld een `game over`{:class="block3events"} bericht vlak voordat het spel eindigt.
+Maak in het speelveld een `wedstrijd voorbij`{:class="block3events"} bericht vlak voordat het spel eindigt.
 
 ![gameover sprite](images/stage-sprite.png)
 
 ```blocks3
-zend signaal (game over v) en wacht
+broadcast (wedstrijd voorbij v) and wait
 ```
 
 --- /task ---
@@ -37,14 +37,14 @@ Voeg deze code toe aan je `Wedstrijd voorbij` sprite, zodat het bericht aan het 
 ![gameover sprite](images/gameover-sprite.png)
 
 ```blocks3
-wanneer op de vlag wordt geklikt
-verdwijn
+when flag clicked
+hide
 
-wanneer ik signaal [game over v] ontvang
-verschijn
+when I receive [Wedstrijd voorbij v]
+show
 ```
 
-Omdat je een `zend signaal (game over) en een wacht`{:class="block3events"} blok in je speelveld hebt gebruikt, zal het speelveld wachten op de `Game Over` sprite voordat het spel wordt beëindigd.
+Omdat je een `zend signaal (wedstrijd voorbij) en een wacht`{:class="block3events"} blok in je speelveld hebt gebruikt, zal het speelveld wachten op de `Wedstrijd voorbij` sprite voordat het spel wordt beëindigd.
 
 --- /task ---
 

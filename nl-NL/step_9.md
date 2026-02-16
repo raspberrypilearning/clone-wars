@@ -17,11 +17,11 @@ Zorg ervoor dat de `vleermuis` sprite zich van links naar rechts aan de bovenkan
 ![vleermuis sprite](images/bat-sprite.png)
 
 ```blocks3
-wanneer groene vlag wordt aangeklikt
-maak grootte (50) %
-herhaal 
-  neem (10) stappen
-  keer om aan de rand
+when flag clicked
+set size to (50) %
+forever
+    move (10) steps
+    if on edge, bounce
 end
 ```
 
@@ -51,23 +51,25 @@ Nadat de vleermuis is verplaatst, moet het het `volgend uiterlijk`{:class="block
 Je moet deze blokken toevoegen aan jouw code:
 
 ```blocks3
-wacht (0.3) sec.
+wait (0.3) seconds
 
-volgend uiterlijk
+next costume
 ```
 
 --- /hint ---
 
---- hint --- Je code zou er zo uitzien:
+--- hint ---
+
+Je code zou er zo uitzien:
 
 ```blocks3
-wanneer groene vlag wordt aangeklikt
-maak grootte (50) %
-herhaal 
- neem (10) stappen
- keer om aan de rand
- volgend uiterlijk
- wacht (0.3) sec.
+when flag clicked
+set size to (50) %
+forever
+move (10) steps
+if on edge, bounce
++ next costume
++ wait (0.3) seconds
 end
 ```
 
@@ -89,15 +91,15 @@ Voeg een nieuwe `Orange (sinaasappel)` sprite toe uit de Scratch-bibliotheek.
 
 --- task ---
 
-Voeg code toe aan je vleermuis zodat `wanneer op de groene vlag wordt geklikt`:class="block3events"}, de `vleermuis` sprite `herhaal`{:class="block3control"} `wacht`{:class="block3control"} voor een `willekeurige`{:class="block3operators"} tijdsduur tussen `5 tot 10` {:class="block3operators"} seconden en vervolgens `een kloon maakt`{:class="block3control"} van de `sinaasappel` sprite.
+Voeg code toe aan je vleermuis zodat `wanneer op de groene vlag wordt geklikt`{:class="block3events"}, de `vleermuis` sprite `herhaal`{:class="block3control"} `wacht`{:class="block3control"} voor een `willekeurige`{:class="block3operators"} tijdsduur tussen `5 tot 10` {:class="block3operators"} seconden en vervolgens `een kloon maakt`{:class="block3control"} van de `sinaasappel` sprite.
 
 ![vleermuis sprite](images/bat-sprite.png)
 
 ```blocks3
-wanneer groene vlag wordt aangeklikt
-herhaal 
-  wacht (willekeurig getal tussen (5) en (10)) sec.
-  maak een kloon van (Orange v)
+when flag clicked
+forever
+	wait (pick random (5) to (10)) secs
+	create clone of (Orange v)
 end
 ```
 
@@ -110,16 +112,16 @@ Voeg code toe aan de `sinaasappel` sprite om elke sinaasappel-kloon vanaf de `vl
 ![sinaasappel sprite](images/orange-sprite.png)
 
 ```blocks3
-    wanneer groene vlag wordt aangeklikt
-verdwijn
+	when flag clicked
+	hide
 
-wanneer ik als kloon start
-ga naar (Bat v)
-verschijn
-herhaal tot <raak ik (rand v)?
-  verander y met (-4)
-end
-verwijder deze kloon
+	when I start as a clone
+	go to (Bat v)
+	show
+	repeat until <touching (rand v)?
+		change y by (-4)
+	end
+	delete this clone
 ```
 
 --- /task ---
@@ -131,8 +133,8 @@ Voeg wat meer code toe aan de `sinaasappel` sprite zodat wanneer een `sinaasappe
 ![sinaasappel sprite](images/orange-sprite.png)
 
 ```blocks3
-    wanneer ik signaal [raak v] ontvang
-verwijder deze kloon
+	when I receive [raak v]
+	delete this clone
 ```
 
 --- /task ---
@@ -144,7 +146,7 @@ Wijzig de code van je `ruimteschip` sprite zodat de sprite "geraakt" is wanneer 
 ![ruimteschip sprite](images/rocket-sprite.png)
 
 ```blocks3
-    wacht tot < <touching (Hippo1 v)?> of <touching (Orange v)?>>
+	wait until < <touching (Hippo1 v)?> or <touching (Orange v)?>>
 ```
 
 --- /task ---

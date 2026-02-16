@@ -25,26 +25,26 @@ Sur la scène, diffuser un message `fin de la partie` {:class="blockevents"} jus
 ![sprite de gameover](images/stage-sprite.png)
 
 ```blocks3
-envoyer à tous (game over v) et attendre
+broadcast (fin de la partie v) and wait
 ```
 
 --- /task ---
 
 --- task ---
 
-Ajoutez ce code à ton sprite `Game Over` pour qu’il apparaisse à la fin du jeu :
+Ajoutez ce code à ton sprite `Fin de la partie` pour qu’il apparaisse à la fin du jeu :
 
 ![sprite de gameover](images/gameover-sprite.png)
 
 ```blocks3
-quand le drapeau vert pressé
-cacher
+when flag clicked
+hide
 
-quand je reçois [game over v]
-montrer
+when I receive [fin de la partie v]
+show
 ```
 
-Parce que tu as utilisé un bloc `envoyer à tous (game over) et attendre`{:class="blockevents"} sur ta scène, le sprite `Game Over` attendra après avoir été affiché, avant de terminer le jeu.
+Parce que tu as utilisé un bloc `envoyer à tous (fin de la partie) et attendre`{:class="blockevents"} sur ta scène, le sprite `Fin de la partie` attendra après avoir été affiché, avant de terminer le jeu.
 
 --- /task ---
 

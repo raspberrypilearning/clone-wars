@@ -25,9 +25,8 @@ Ajoute du code pour cacher le sprite `Hippo` quand le jeu commence.
 ![sprite hippopotame](images/hippo-sprite.png)
 
 ```blocks3
-quand le drapeau vert pressé
-cacher
-
+when green flag clicked
+hide
 ```
 
 --- /task ---
@@ -49,16 +48,16 @@ Ajoute du code sur la scène pour créer un nouveau clone `Hippo` toutes les que
 Voici les blocs que tu as besoin :
 
 ```blocks3
-répéter indéfiniment
+forever
 end
 
-créer un clone de (Hippo1 v)
+create clone of (Hippo1 v)
 
-(nombre aléatoire entre (2) et (4))
+(pick random (2) to (4))
 
-quand le drapeau vert pressé
+when flag clicked
 
-attendre () secondes
+wait () secs
 ```
 
 --- /hint ---
@@ -70,11 +69,11 @@ Voici à quoi ton code devrait ressembler :
 ![sprite Scène](images/stage-sprite.png)
 
 ```blocks3
-quand le drapeau vert pressé
-répéter indéfiniment
-   attendre (nombre aléatoire entre (2) et (4)) secondes
-   créer un clone de (Hippo1 v)
-fin
+when flag clicked
+forever
+	wait (pick random (2) to (4)) secs
+	create clone of (Hippo1 v)
+end
 ```
 
 --- /hint ---
@@ -102,10 +101,10 @@ Une fois que tu auras fait cela correctement, la variable porte le nom du sprite
 Au démarrage de chaque clone de `Hippo`, choisis une vitesse aléatoire et le lieu de départ pour le clone. Puis affiche le clone a l’écran.
 
 ```blocks3
-quand je commence comme un clone
-mettre [vitesse v] à (nombre aléatoire entre (2) et (4))
-aller à x: (nombre aléatoire entre (-220) et (220)) y: (150)
-montrer
+when I start as a clone
+set [vitesse v] to (pick random (2) to (4))
+go to x: (pick random (-220) to (220)) y: (150)
+show
 ```
 
 --- /task ---
@@ -123,13 +122,13 @@ Pour le moment, les hippopotames ne bougent pas.
 Chaque hippopotame doit se déplacer de manière aléatoire jusqu’à ce qu’il soit frappé par un éclair. Pour ce faire, attache ce code sous les blocs déjà présents dans le script de code du sprite `Hippo` :
 
 ```blocks3
-répéter jusqu'à ce que <touche le (lightning v) ?> 
-  avancer de (vitesse :: variables) pas
-  tourner droite de (nombre aléatoire entre (-10) et (10)) degrés
-  rebondir si le bord est atteint
+repeat until <touching (lightning v) ?>
+	move (vitesse :: variables) steps
+	turn right (pick random (-10) to (10)) degrees
+	if on edge, bounce
 end
-supprimer ce clone
-```
+delete this clone
+```	
 
 --- /task ---
 

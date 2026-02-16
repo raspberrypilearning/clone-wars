@@ -19,9 +19,8 @@ Ajoute ce code au sprite `Lightning`:
 ![sprite éclair](images/lightning-sprite.png)
 
 ```blocks3
-quand le drapeau vert pressé
-cacher
-
+when green flag clicked
+hide
 ```
 
 --- /task ---
@@ -35,8 +34,8 @@ Sous le code que le sprite `Lightning` a déjà, ajoute des blocs pour le rédui
 ![sprite éclair](images/lightning-sprite.png)
 
 ```blocks3
-mettre la taille à (25) % de la taille initiale
-s'orienter en direction de (-90)
+set size to (25) %
+point in direction (-90)
 ```
 
 Maintenant, on dirait qu'il tire la fin pointue - d'abord hors du vaisseau spatial.
@@ -60,17 +59,17 @@ Ajoute un nouveau code au sprite `Spaceship` pour créer un nouveau clone de l'�
 Voici les blocs que tu as besoin :
 
 ```blocks3
-si <> alors
+if <> then
 end
 
-répéter indéfiniment
+forever
 end
 
-créer un clone de (Lightning v)
+create clone of (Lightning v)
 
-<touche (space v) pressée ?>
+<key (espace v) pressed?>
 
-quand le drapeau vert pressé
+when flag clicked
 ```
 
 --- /hint ---
@@ -82,11 +81,11 @@ Voici à quoi devrait ressembler ton nouveau code :
 ![sprite de roquette](images/rocket-sprite.png)
 
 ```blocks3
-quand le drapeau vert pressé
-répéter indéfiniment 
-  si <touche (space v) pressée ?> alors 
-    créer un clone de (Lightning v)
-  end
+when flag clicked
+forever
+	if <key (espace v) pressed?> then
+		create clone of (Lightning v)
+	end
 end
 ```
 
@@ -105,13 +104,13 @@ Ajoute ce code au sprite `Lightning` pour que ses clones se déplacent vers le h
 ![sprite éclair](images/lightning-sprite.png)
 
 ```blocks3
-quand je commence comme un clone
-aller à (Spaceship v)
-montrer
-répéter jusqu'à ce que <touche le (edge v) ?> 
-  ajouter (10) à y
-end
-supprimer ce clone
+	when I start as a clone
+	go to (Spaceship v)
+    show
+	repeat until <touching (bord v) ?>
+		change y by (10)
+	end
+	delete this clone
 ```
 
 --- /task ---

@@ -25,8 +25,8 @@ Füge Code hinzu, um die `Hippo` Figur zu Beginn des Spiels zu verstecken.
 ![Hippo Figur](images/hippo-sprite.png)
 
 ```blocks3
-Wenn die grüne Flagge angeklickt
-verstecke dich
+when green flag clicked
+hide
 ```
 
 --- /task ---
@@ -49,16 +49,16 @@ Wenn die `grüne Flagge angeklickt wird`{:class="block3events"}, `warte`{:class=
 Hier sind die Blöcke die du brauchst:
 
 ```blocks3
-wiederhole fortlaufend
+forever
 end
 
-erzeuge Klon von (Hippo1 v)
+create clone of (Hippo1 v)
 
-(Zufallszahl von (2) bis (4))
+(pick random (2) to (4))
 
-Wenn die grüne Flagge angeklickt
+when flag clicked
 
-warte () Sekunden
+wait () secs
 ```
 
 --- /hint ---
@@ -70,10 +70,10 @@ So sollte dein Code aussehen:
 ![Bühnen Figur](images/stage-sprite.png)
 
 ```blocks3
-Wenn die grüne Flagge angeklickt
-wiederhole fortlaufend 
-  warte (Zufallszahl von (2) bis (4)) Sekunden
-  erzeuge Klon von (Hippo1 v)
+when flag clicked
+forever
+	wait (pick random (2) to (4)) secs
+	create clone of (Hippo1 v)
 end
 ```
 
@@ -102,10 +102,10 @@ Wenn Du das richtig gemacht hast, steht der Name der Figur neben der Variable, s
 Für jeden `Hippo` Klon der startet, wähle eine zufällige Geschwindigkeit und eine zufällige Startposition. Zeige dann den Klon auf dem Bildschirm an.
 
 ```blocks3
-Wenn ich als Klon entstehe
-setze [Geschwindigkeit v] auf (Zufallszahl von (2) bis (4))
-gehe zu x: (Zufallszahl von (-220) bis (220)) y: (150)
-zeige dich
+when I start as a clone
+set [Geschwindigkeit v] to (pick random (2) to (4))
+go to x: (pick random (-220) to (220)) y: (150)
+show
 ```
 
 --- /task ---
@@ -123,13 +123,13 @@ Im Moment bewegen sich die Nilpferde nicht.
 Jedes Nilpferd sollte sich zufällig bewegen, bis es von einem Blitz getroffen wird. Füge dazu den folgenden Code unter die Blöcke ein, die bereits im Skript der `Hippo` Figur enthalten sind:
 
 ```blocks3
-wiederhole bis <wird (Lightning v) berührt?>
-  gehe (Geschwindigkeit :: variables) er Schritt
-  drehe dich nach rechts um (Zufallszahl von (-10) bis (10)) Grad
-  pralle vom Rand ab
+repeat until <touching (lightning v) ?>
+	move (Geschwindigkeit :: variables) steps
+	turn right (pick random (-10) to (10)) degrees
+	if on edge, bounce
 end
-lösche diesen Klon
-```
+delete this clone
+```	
 
 --- /task ---
 

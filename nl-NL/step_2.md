@@ -25,18 +25,18 @@ Voeg deze code toe aan de spaceship sprite om het ruimteschip te verplaatsen als
 ![ruimteschip sprite](images/rocket-sprite.png)
 
 ```blocks3
-    wanneer groene vlag wordt aangeklikt
-  herhaal
-    als <key (left arrow v) pressed?> dan
-      verander x met (-4)
-    einde
-  einde
+	when flag clicked
+	forever
+		if <key (pijltje links v) pressed?> then
+			change x by (-4)
+		end
+	end
 ```
 
 De x-as gaat van de linkerkant van het speelveld naar de rechterkant. Dit betekent dat het ruimteschip naar links gaat wanneer je de waarde van de `x` positie aftrekt. Dit code blok is dus het onderdeel dat je ruimteschip naar links verplaatst:
 
 ```blocks3
-verander x met (-4)
+change x by (-4)
 ```
 
 --- /task ---
@@ -59,7 +59,7 @@ Het aftrekken van `4` van de ruimteschip `x` positie verplaatst deze naar links,
 Je hebt hetzelfde code blok nodig, maar met een ander nummer:
 
 ```blocks3
-verander x met ( )
+change x by ( )
 ```
 
 --- /hint ---
@@ -71,9 +71,9 @@ Hier is de code die je onder de andere code binnen het `herhaal`{:class="block3c
 ![ruimteschip sprite](images/rocket-sprite.png)
 
 ```blocks3
-als <key (right arrow v) pressed?> dan
-   verander x met (4)
-einde
+if <key (pijltje rechts v) pressed?> then
+	change x by (4)
+end
 ```
 
 --- /hint ---

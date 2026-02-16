@@ -25,18 +25,18 @@ Füge diesen Code zur "Raumschiff"-Figur hinzu, damit sich das Raumschiff nach l
 ![Raumschiff-Figur](images/rocket-sprite.png)
 
 ```blocks3
-    Wenn die grüne Flagge angeklickt
-wiederhole fortlaufend 
-  falls <Taste (Pfeil nach links v) gedrückt?> , dann 
-    ändere x um (-4)
-  end
-end
+	when flag clicked
+	forever
+		if <key (Pfeil nach links v) pressed?> then
+			change x by (-4)
+		end
+	end
 ```
 
 Die x-Achse verläuft von der linken Seite der Bühne zur rechten Seite. Das bedeutet, dass sich das Raumschiff nach links bewegt, wenn Du vom Wert der `x` Position der Raumschiff-Figur etwas abziehst. Dieser Codeblock ist also der Teil, der dein Raumschiff nach links bewegt:
 
 ```blocks3
-ändere x um (-4)
+change x by (-4)
 ```
 
 --- /task ---
@@ -59,7 +59,7 @@ Wenn Du `4` von der `x` Position des Raumschiffs abziehst, wurde es nach links v
 Du benötigst denselben Code-Block, aber mit einer anderen Zahl:
 
 ```blocks3
-ändere x um ( )
+change x by ( )
 ```
 
 --- /hint ---
@@ -71,14 +71,14 @@ Hier ist der Code, den Du unterhalb des anderen Codes im Block `Wiederhole fortl
 ![Raumschiff-Figur](images/rocket-sprite.png)
 
 ```blocks3
-falls <Taste (Pfeil nach rechts v) gedrückt?> , dann 
-  ändere x um (4)
+if <key (Pfeil nach rechts v) pressed?> then
+	change x by (4)
 end
 ```
 
 --- /hint ---
 
----/hints---
+--- /hints ---
 
 --- /task ---
 

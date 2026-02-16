@@ -25,8 +25,8 @@ Voeg code toe om als het spel begint de `nijlpaard` Sprite te verbergen.
 ![nijlpaard sprite](images/hippo-sprite.png)
 
 ```blocks3
-wanneer groene vlag wordt aangeklikt 
- verdwijn
+when green flag clicked
+hide
 ```
 
 --- /task ---
@@ -49,16 +49,16 @@ Wanneer op de `groene vlag wordt geklikt`{:class="block3events"}, `herhaal`{:cla
 Dit zijn de blokken die je nodig hebt:
 
 ```blocks3
-herhaal
+forever
 end
 
-maak een kloon van (Hippo1 v)
+create clone of (Hippo1 v)
 
-(willekeurig getal tussen (2) en (4))
+(pick random (2) to (4))
 
-wanneer groene vlag wordt aangeklikt
+when flag clicked
 
-wacht () sec.
+wait () secs
 ```
 
 --- /hint ---
@@ -70,10 +70,10 @@ Dit is hoe je code eruit zou moeten zien:
 ![achtergrond sprite](images/stage-sprite.png)
 
 ```blocks3
-wanneer groene vlag wordt aangeklikt
-herhaal 
-  wacht (willekeurig getal tussen (2) en (4)) sec.
-  maak een kloon van (Hippo1 v)
+when flag clicked
+forever
+	wait (pick random (2) to (4)) secs
+	create clone of (Hippo1 v)
 end
 ```
 
@@ -87,7 +87,7 @@ Elke nieuw nijlpaard moet op een willekeurige `x`-positie verschijnen en moet ee
 
 --- task ---
 
-Maak een nieuwe variabele met de naam `snelheid`{:class="blockdata"} die alleen voor de `Hippo` sprite is.
+Maak een nieuwe variabele met de naam `snelheid`{:class="block3variables"} die alleen voor de `Hippo` sprite is.
 
 [[[generic-scratch3-add-variable]]]
 
@@ -102,10 +102,10 @@ Als je dit goed hebt gedaan, staat voor de variabele de naam van de sprite, zoal
 Wanneer elke `nijlpaard` kloon start, kies dan een willekeurige snelheid en start plaats voor de kloon. Laat de kloon dan zien op het scherm.
 
 ```blocks3
-wanneer ik als kloon start
-maak [snelheid v] (willekeurig getal tussen (2) tot (4)) 
-ga naar x: (kies willekeurig (-220) tot (220)) y: (150) 
-verschijn
+when I start as a clone
+set [snelheid v] to (pick random (2) to (4))
+go to x: (pick random (-220) to (220)) y: (150)
+show
 ```
 
 --- /task ---
@@ -123,13 +123,13 @@ Op dit moment bewegen de nijlpaarden niet.
 Elke hippo zou willekeurig moeten bewegen totdat het geraakt wordt door een bliksemschicht. Om dat te doen, voeg deze code toe onder de blokken die al in het `nijlpaard` sprite script staan:
 
 ```blocks3
-herhaal tot <touching (lightning v) ?> 
-  neem (snelheid :: variables) stappen
-  draai (willekeurig getal tussen (-10) en (10)) graden naar rechts
-  keer om aan de rand
+repeat until <touching (lightning v) ?>
+	move (snelheid :: variables) steps
+	turn right (pick random (-10) to (10)) degrees
+	if on edge, bounce
 end
-verwijder deze kloon
-```
+delete this clone
+```	
 
 --- /task ---
 
