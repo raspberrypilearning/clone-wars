@@ -27,10 +27,10 @@ Füge deiner `Raumschiff` Figur Code hinzu, sodass sie zu Beginn des Spiels das 
 ![raumschiff-Figur](images/rocket-sprite.png)
 
 ```blocks3
-Wenn die grüne Flagge angeklickt
-wechsle zu Kostüm (normal v)
-warte bis <wird (Hippo1 v) berührt?>
-wechsle zu Kostüm (getroffen v)
+when flag clicked
+switch costume to (normal v)
+wait until <touching (Hippo1 v)>?
+switch costume to (getroffen v)
 ```
 
 --- /task ---

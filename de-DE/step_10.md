@@ -25,7 +25,7 @@ Senden Sie auf der Bühne eine `Spiel-über-`Nachricht ({: class = "block3events
 ![Gameover-Figur](images/stage-sprite.png)
 
 ```blocks3
-sende (game over v) an alle und warte
+broadcast (Spiel-über- v) and wait
 ```
 
 --- /task ---
@@ -37,14 +37,14 @@ Füge diesen Code zu deiner `Game-Over-`-Figur hinzu, sodass sie am Ende des Spi
 ![Gameover-Figur](images/gameover-sprite.png)
 
 ```blocks3
-Wenn die grüne Flagge angeklickt
-verstecke dich
+when flag clicked
+hide
 
-Wenn ich [game over v] empfange
-zeige dich
+when I receive [piel-über- v]
+show
 ```
 
-Da du einen `sende (game over) an alle und warte`{:class="block3events"} Block auf deiner Bühne verwendet hast, wartet die Bühne, bis die `Game-Over-`-Figur angezeigt wird, bevor sie das Spiel beendet.
+Da du einen `sende (piel-über-) an alle und warte`{:class="block3events"} Block auf deiner Bühne verwendet hast, wartet die Bühne, bis die `Game-Over-`-Figur angezeigt wird, bevor sie das Spiel beendet.
 
 --- /task ---
 

@@ -19,8 +19,8 @@ Füge diesen Code zur `"Lightning"` Figur hinzu:
 ![Blitz-Figur](images/lightning-sprite.png)
 
 ```blocks3
-Wenn die grüne Flagge angeklickt
-verstecke dich
+when green flag clicked
+hide
 ```
 
 --- /task ---
@@ -34,8 +34,8 @@ Füge unter dem schon vorhandenen Code, der `Lightning`-Figur, einige Blöcke hi
 ![Blitz-Figur](images/lightning-sprite.png)
 
 ```blocks3
-setze Größe auf (25)
-setze Richtung auf (-90) Grad
+set size to (25) %
+point in direction (-90)
 ```
 
 Jetzt sieht es so aus, als würde er mit dem spitzen Ende voran aus dem Raumschiff abgefeuert.
@@ -60,17 +60,17 @@ Füge der `Raumschiff`-Figur Code hinzu, um jedesmal einen neuen Klon des Blitze
 Hier sind die Blöcke die du brauchst:
 
 ```blocks3
-falls <> , dann
+if <> then
 end
 
-wiederhole fortlaufend
+forever
 end
 
-erzeuge Klon von (Lightning v)
+create clone of (Lightning v)
 
-<Taste (Leertaste v) gedrückt?>
+<key (Leertaste v) pressed?>
 
-Wenn die grüne Flagge angeklickt
+when flag clicked
 ```
 
 --- /hint ---
@@ -82,11 +82,11 @@ So sollte dein neuer Code aussehen:
 ![raumschiff-Figur](images/rocket-sprite.png)
 
 ```blocks3
-Wenn die grüne Flagge angeklickt
-wiederhole fortlaufend 
-  falls <Taste (Leertaste v) gedrückt?> , dann 
-    erzeuge Klon von (Lightning v)
-  end
+when flag clicked
+forever
+	if <key (Leertaste v) pressed?> then
+		create clone of (Lightning v)
+	end
 end
 ```
 
@@ -105,13 +105,13 @@ Füge diesen Code der `Lightning` Figur hinzu, sodass Klone davon nach oben vers
 ![Blitz-Figur](images/lightning-sprite.png)
 
 ```blocks3
-    Wenn ich als Klon entstehe
-    gehe zu (Raumschiff v)
-    zeige dich
-    wiederhole bis <wird (Rand v) berührt?> 
-        ändere y um (10)
-    end
-    lösche diesen Klon
+	when I start as a clone
+	go to (Raumschiff v)
+    show
+	repeat until <touching (Rand v) ?>
+		change y by (10)
+	end
+	delete this clone
 ```
 
 --- /task ---

@@ -9,11 +9,11 @@ Ajoute du code au sprite du vaisseau spatial pour `diffuser`{:class="block3event
 ![sprite de roquette](images/rocket-sprite.png)
 
 ```blocks3
-quand le drapeau vert pressé
-basculer sur le costume (normal v)
-attendre jusqu'à ce que <touche le (Hippo1 v) ?>
-basculer sur le costume (hit v)
-+ envoyer à tous (hit v)
+when flag clicked
+switch costume to (normal v)
+wait until <touching (Hippo1 v)>?
+switch costume to (hit v)
++ broadcast (hit v)
 ```
 
 --- /task ---
@@ -25,8 +25,8 @@ Tous les `clones du sprite` Hippo recevront le message "hit", et tu peux leur de
 ![sprite hippopotame](images/hippo-sprite.png)
 
 ```blocks3
-quand je reçois [hit v]
-supprimer ce clone
+when I receive [hit v]
+delete this clone
 ```
 
 --- /task ---
@@ -48,13 +48,13 @@ Ajoute un bloc `attendre`{:class="block3control"} à la fin du code du sprite `S
 ![sprite de roquette](images/rocket-sprite.png)
 
 ```blocks3
-quand le drapeau vert pressé
-répéter indéfiniment 
-  basculer sur le costume (normal v)
-  attendre jusqu'à ce que <touche le (Hippo1 v) ?>
-  basculer sur le costume (hit v)
-  envoyer à tous (hit v)
-  + attendre (1) secondes
+when flag clicked
+forever
+switch costume to (normal v)
+wait until <touching (Hippo1 v)>?
+switch costume to (hit v)
+broadcast (hit v)
++ wait (1) seconds
 end
 ```
 

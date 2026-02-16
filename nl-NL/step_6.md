@@ -27,10 +27,10 @@ Voeg wat code toe aan je `ruimteschip` sprite zodat het het 'normaal' uiterlijk 
 ![ruimteschip sprite](images/rocket-sprite.png)
 
 ```blocks3
-wanneer groene vlag wordt aangeklikt
-verander uiterlijk naar (normaal v)
-wacht tot <touching (Hippo1 v)>
-verander uiterlijk naar (hit v)
+when flag clicked
+switch costume to (normaal v)
+wait until <touching (Hippo1 v)>?
+switch costume to (raak v)
 ```
 
 --- /task ---

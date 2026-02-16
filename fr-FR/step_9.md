@@ -17,11 +17,11 @@ Fais `bouger`{:class="block3motion"} le sprite `Bat` de gauche à droite en haut
 ![sprite de chauve-souris](images/bat-sprite.png)
 
 ```blocks3
-quand le drapeau vert pressé
-mettre la taille à (50) % de la taille initiale
-répéter indéfiniment 
-  avancer de (10) pas
-  rebondir si le bord est atteint
+when flag clicked
+set size to (50) %
+forever
+    move (10) steps
+    if on edge, bounce
 end
 ```
 
@@ -50,9 +50,9 @@ Une fois que la chauve-souris a été déplacée, le `costume suivant` devrait a
 Tu dois ajouter ces blocs à ton code:
 
 ```blocks3
-attendre (0.3) secondes
+wait (0.3) seconds
 
-costume suivant
+next costume
 ```
 
 --- /hint ---
@@ -62,15 +62,14 @@ costume suivant
 Ton code devrait ressembler à ceci:
 
 ```blocks3
-quand le drapeau vert pressé
-mettre la taille à (50) % de la taille initiale
-répéter indéfiniment
-avancer de (10) pas
-rebondir si le bord est atteint
-
-+ costume suivant
-+ attendre (0.3) secondes
-fin
+when flag clicked
+set size to (50) %
+forever
+move (10) steps
+if on edge, bounce
++ next costume
++ wait (0.3) seconds
+end
 ```
 
 --- /hint ---
@@ -96,11 +95,11 @@ Ajoute du code à ta chauve-souris pour que `quand le drapeau est cliqué`{:clas
 ![sprite de chauve-souris](images/bat-sprite.png)
 
 ```blocks3
-quand le drapeau vert pressé
-répéter indéfiniment
-   attendre (nombre aléatoire entre (5) et (10)) secondes
-   créer un clone de (Orange v)
-fin
+when flag clicked
+forever
+	wait (pick random (5) to (10)) secs
+	create clone of (Orange v)
+end
 ```
 
 --- /task ---
@@ -112,16 +111,16 @@ Ajoute du code au sprite `orange` pour faire tomber chacun de ses clones, à par
 ![sprite d´orange](images/orange-sprite.png)
 
 ```blocks3
-    quand le drapeau vert pressé
-    cacher
+	when flag clicked
+	hide
 
-    quand je commence comme un clone
-    aller à (Bat v)
-    montrer
-    répéter jusqu'à ce que <touche le (bord v) ?>
-        ajouter (-4) à y
-    fin
-    supprimer ce clone
+	when I start as a clone
+	go to (Bat v)
+	show
+	repeat until <touching (bord v)?
+		change y by (-4)
+	end
+	delete this clone
 ```
 
 --- /task ---
@@ -133,8 +132,8 @@ Ajoute plus de code au sprite `orange` afin que lorsque un clone `orange` touche
 ![sprite d´orange](images/orange-sprite.png)
 
 ```blocks3
-    quand je reçois [hit v]
-    supprimer ce clone
+	when I receive [hit v]
+	delete this clone
 ```
 
 --- /task ---
@@ -146,7 +145,7 @@ Modifie le code de ton sprite `vaisseau spatial` afin que le sprite soit « to
 ![sprite de roquette](images/rocket-sprite.png)
 
 ```blocks3
-    attendre jusqu'à ce que <<touche le (Hippo1 v) ?> ou <touche le (Orange v) ?>>
+	wait until < <touching (Hippo1 v)?> or <touching (Orange v)?>>
 ```
 
 --- /task ---

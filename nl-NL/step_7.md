@@ -9,11 +9,11 @@ Voeg code aan de ruimteschip sprite toe om het `zend signaal`{:class="block3even
 ![ruimteschip sprite](images/rocket-sprite.png)
 
 ```blocks3
-wanneer groene vlag wordt aangeklikt
-verander uiterlijk naar (normaal v)
-wacht tot <touching (Hippo1 v)>
-verander uiterlijk naar (raak v)
-zend signaal (raak v)
+when flag clicked
+switch costume to (normaal v)
+wait until <touching (Hippo1 v)>?
+switch costume to (raak v)
++ broadcast (raak v)
 ```
 
 --- /task ---
@@ -25,8 +25,8 @@ Alle `nijlpaard` klonen ontvangen het "raak" bericht, en je kunt hen opdragen om
 ![nijlpaard sprite](images/hippo-sprite.png)
 
 ```blocks3
-wanneer ik signaal [raak v] ontvang, 
-verwijder deze kloon
+when I receive [raak v]
+delete this clone
 ```
 
 --- /task ---
@@ -48,13 +48,13 @@ Voeg een `wacht`{:class="block3control"} blok toe aan het einde van de `ruimtesc
 ![ruimteschip sprite](images/rocket-sprite.png)
 
 ```blocks3
-wanneer groene vlag wordt aangeklikt
-herhaal 
- verander uiterlijk naar (normaal v)
- wacht tot <touching (Hippo1 v)>
- verander uiterlijk naar (raak v)
- zend signaal (raak v)
- wacht (1) sec.
+when flag clicked
+forever
+switch costume to (normaal v)
+wait until <touching (Hippo1 v)>?
+switch costume to (raak v)
+broadcast (raak v)
++ wait (1) seconds
 end
 ```
 

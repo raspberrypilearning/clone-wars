@@ -25,18 +25,18 @@ Ajoute ce code au sprite du vaisseau spatial pour le déplacer vers la gauche si
 ![sprite de roquette](images/rocket-sprite.png)
 
 ```blocks3
-quand le drapeau vert pressé
-répéter indéfiniment 
-  si <touche (left arrow v) pressée ?> alors 
-    ajouter (-4) à x
-  end
-end
+	when flag clicked
+	forever
+		if <key (flèche gauche v) pressed?> then
+			change x by (-4)
+		end
+	end
 ```
 
 L'axe des x va du côté gauche de la scène au côté droit. Cela signifie que le vaisseau spatial se déplace vers la gauche lorsque tu soustrais de la valeur de la position `x` du sprite du vaisseau spatial. Donc, ce bloc de code est la partie qui fait bouger ton vaisseau spatial vers la gauche :
 
 ```blocks3
-ajouter (-4) à x
+change x by (-4)
 ```
 
 --- /task ---
@@ -58,7 +58,7 @@ En soustrayant `4` de la position `x` du vaisseau spatial, il se déplaçait à 
 Tu as besoin du même bloc de code, mais avec un numéro différent :
 
 ```blocks3
-ajouter ( ) à x
+change x by ( )
 ```
 
 --- /hint ---
@@ -70,8 +70,8 @@ Voici le code que tu dois ajouter sous l’autre code du bloc `répéter indéfi
 ![sprite de roquette](images/rocket-sprite.png)
 
 ```blocks3
-si <touche (right arrow v) pressée ?> alors 
-  ajouter (4) à x
+if <key (flèche droite v) pressed?> then
+	change x by (4)
 end
 ```
 

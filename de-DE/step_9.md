@@ -17,11 +17,11 @@ Lass die `"Bat"`-Figur `fortlaufend`{:class="block3control"} am oberen Rand der 
 ![Fledermaus Figur](images/bat-sprite.png)
 
 ```blocks3
-Wenn die grüne Flagge angeklickt
-setze Größe auf (50)
-wiederhole fortlaufend 
-  gehe (10) er Schritt
-  pralle vom Rand ab
+when flag clicked
+set size to (50) %
+forever
+    move (10) steps
+    if on edge, bounce
 end
 ```
 
@@ -51,24 +51,25 @@ Nachdem sich die Fledermaus bewegt hat, sollte sie zum `nächsten Kostüm wechse
 Du musst diese Blöcke zu deinem Code hinzufügen:
 
 ```blocks3
-warte (0.3) Sekunden
+wait (0.3) seconds
 
-wechsle zum nächsten Kostüm
+next costume
 ```
 
 --- /hint ---
 
---- hint --- Dein Code sollte so aussehen:
+--- hint ---
+
+Dein Code sollte so aussehen:
 
 ```blocks3
-Wenn die grüne Flagge angeklickt
-setze Größe auf (50)
-wiederhole fortlaufend 
-gehe (10) er Schritt
-pralle vom Rand ab
-  
-+ wechsle zum nächsten Kostüm
-+ warte (0.3) Sekunden
+when flag clicked
+set size to (50) %
+forever
+move (10) steps
+if on edge, bounce
++ next costume
++ wait (0.3) seconds
 end
 ```
 
@@ -95,10 +96,10 @@ Füge Code zu deiner Fledermaus hinzu, sodass `wenn die Flagge angeklickt wird`{
 ![Fledermaus Figur](images/bat-sprite.png)
 
 ```blocks3
-Wenn die grüne Flagge angeklickt
-wiederhole fortlaufend 
-  warte (Zufallszahl von (5) bis (10)) Sekunden
-  erzeuge Klon von (Orange v)
+when flag clicked
+forever
+	wait (pick random (5) to (10)) secs
+	create clone of (Orange v)
 end
 ```
 
@@ -111,16 +112,16 @@ Füge den Code zur `Orange` hinzu, damit jeder ihrer Klone von der `Bat`-Figur n
 ![Orange Figur](images/orange-sprite.png)
 
 ```blocks3
-    Wenn die grüne Flagge angeklickt
-    verstecke dich
+	when flag clicked
+	hide
 
-    Wenn ich als Klon entstehe
-    gehe zu (Bat v)
-    zeige dich
-    wiederhole bis <wird (Rand v) berührt?> 
-        ändere y um (-4)
-    end
-    lösche diesen Klon
+	when I start as a clone
+	go to (Bat v)
+	show
+	repeat until <touching (Rand v)?
+		change y by (-4)
+	end
+	delete this clone
 ```
 
 --- /task ---
@@ -132,8 +133,8 @@ Füge zu der `Orange`-Figur etwas mehr zum Code hinzu, sodass ein `Orange`-Klon 
 ![Orange Figur](images/orange-sprite.png)
 
 ```blocks3
-    Wenn ich [getroffen v] empfange
-    lösche diesen Klon
+	when I receive [getroffen v]
+	delete this clone
 ```
 
 --- /task ---
@@ -145,7 +146,7 @@ Füge zu der `Orange`-Figur etwas mehr zum Code hinzu, sodass ein `Orange`-Klon 
 ![raumschiff-Figur](images/rocket-sprite.png)
 
 ```blocks3
-    warte bis <<wird (Hippo1 v) berührt?> oder <wird (Orange v) berührt?>>
+	wait until < <touching (Hippo1 v)?> or <touching (Orange v)?>>
 ```
 
 --- /task ---
