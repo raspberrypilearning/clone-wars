@@ -17,11 +17,11 @@
 ![χαρακτήρας νυχτερίδας](images/bat-sprite.png)
 
 ```blocks3
-Όταν στην πράσινη σημαία γίνει κλικ
-όρισε μέγεθος σε (50) %
-για πάντα 
-  κινήσου (10) βήματα
-  εάν σε όριο, αναπήδησε
+when flag clicked
+set size to (50) %
+forever
+    move (10) steps
+    if on edge, bounce
 end
 ```
 
@@ -51,9 +51,9 @@ end
 Θα πρέπει να προσθέσεις αυτά τα μπλοκ στον κώδικά σου:
 
 ```blocks3
-περίμενε (0.3) δευτερόλεπτα
+wait (0.3) seconds
 
-επόμενη ενδυμασία
+next costume
 ```
 
 --- /hint ---
@@ -63,13 +63,13 @@ end
 Ο κώδικας θα πρέπει να μοιάζει κάπως έτσι:
 
 ```blocks3
-Όταν στην πράσινη σημαία γίνει κλικ
-όρισε μέγεθος σε (50) %
-για πάντα 
-κινήσου (10) βήματα
-εάν σε όριο, αναπήδησε
-+ επόμενη ενδυμασία
-+ περίμενε (0.3) δευτερόλεπτα
+when flag clicked
+set size to (50) %
+forever
+move (10) steps
+if on edge, bounce
++ next costume
++ wait (0.3) seconds
 end
 ```
 
@@ -96,10 +96,10 @@ end
 ![χαρακτήρας νυχτερίδα](images/bat-sprite.png)
 
 ```blocks3
-Όταν στην πράσινη σημαία γίνει κλικ
-για πάντα 
-  περίμενε (επίλεξε τυχαίο (5) εώς (10)) δευτερόλεπτα
-  δημιούργησε κλώνο του (Orange v)
+when flag clicked
+forever
+	wait (pick random (5) to (10)) secs
+	create clone of (Orange v)
 end
 ```
 
@@ -112,16 +112,16 @@ end
 ![χαρακτήρας πορτοκάλι](images/orange-sprite.png)
 
 ```blocks3
-    Όταν στην πράσινη σημαία γίνει κλικ
-εξαφανίσου
+	when flag clicked
+	hide
 
-όταν ξεκινήσω ως κλώνος
-πήγαινε σε (Bat v)
-εμφανίσου
-επανάλαβε ώσπου <αγγίζει (edge v) ;> 
-  άλλαξε y κατά (-4)
-end
-διάγραψε αυτόν τον κλώνο
+	when I start as a clone
+	go to (Bat v)
+	show
+	repeat until <touching (όριο v)?
+		change y by (-4)
+	end
+	delete this clone
 ```
 
 --- /task ---
@@ -133,8 +133,8 @@ end
 ![χαρακτήρας πορτοκάλι](images/orange-sprite.png)
 
 ```blocks3
-    όταν λάβω [χτυπημένο v]
-διάγραψε αυτόν τον κλώνο
+	when I receive [χτυπημένο v]
+	delete this clone
 ```
 
 --- /task ---
@@ -146,7 +146,7 @@ end
 ![χαρακτήρας πύραυλος](images/rocket-sprite.png)
 
 ```blocks3
-    περίμενε ώσπου < <touching (Hippo1 v)?> ή <touching (Orange v)?>>
+	wait until < <touching (Hippo1 v)?> or <touching (Orange v)?>>
 ```
 
 --- /task ---

@@ -27,10 +27,10 @@
 ![ロケットスプライト](images/rocket-sprite.png)
 
 ```blocks3
-⚑ がおされたとき
-コスチュームを (通常 v) にする
-<(宇宙カバ v) にふれた> までまつ
-コスチュームを (hit v) にする
+when flag clicked
+switch costume to (通常 v)
+wait until <touching (宇宙カバ v)>?
+switch costume to (衝突 v)
 ```
 
 --- /task ---

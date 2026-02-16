@@ -19,8 +19,8 @@
 ![いなずまのスプライト](images/lightning-sprite.png)
 
 ```blocks3
-⚑ がおされたとき
-かくす
+when green flag clicked
+hide
 ```
 
 --- /task ---
@@ -34,8 +34,8 @@
 ![いなずまのスプライト](images/lightning-sprite.png)
 
 ```blocks3
-おおきさを (25) %にする
-(-90) どにむける
+set size to (25) %
+point in direction (-90)
 ```
 
 今は宇宙船から先のとがった端を発射するように見えます。
@@ -60,17 +60,17 @@
 必要なブロックは次のとおりです。
 
 ```blocks3
-もし <> なら
+if <> then
 end
 
-ずっと
+forever
 end
 
-(いなずま v) のクローンをつくる
+create clone of (いなずま v)
 
-<(スペース v) キーがおされた>
+<key (スペース v) pressed?>
 
-⚑ がおされたとき
+when flag clicked
 ```
 
 --- /hint ---
@@ -82,11 +82,11 @@ end
 ![ロケットスプライト](images/rocket-sprite.png)
 
 ```blocks3
-⚑ がおされたとき
-ずっと 
-  もし <(スペース v) キーがおされた> なら 
-    (いなずま v) のクローンをつくる
-  end
+when flag clicked
+forever
+	if <key (スペース v) pressed?> then
+		create clone of (いなずま v)
+    end
 end
 ```
 
@@ -105,13 +105,13 @@ end
 ![いなずまのスプライト](images/lightning-sprite.png)
 
 ```blocks3
-クローンされたとき
-(宇宙船 v) へいく
-ひょうじする
-<(はし v) にふれた> までくりかえす 
-  yざひょうを (10) ずつかえる
-end
-このクローンをさくじょする
+	when I start as a clone
+	go to (宇宙船 v)
+  show
+	repeat until <touching (はし v) ?>
+		change y by (10)
+	end
+	delete this clone
 ```
 
 --- /task ---

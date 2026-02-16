@@ -25,8 +25,8 @@
 ![カバのスプライト](images/hippo-sprite.png)
 
 ```blocks3
-⚑ がおされたとき
-かくす
+when green flag clicked
+hide
 ```
 
 --- /task ---
@@ -49,16 +49,16 @@
 必要なブロックは次のとおりです。
 
 ```blocks3
-ずっと
+forever
 end
 
-(カバ v) のクローンをつくる
+create clone of (カバ v)
 
-((2) から (4) までのらんすう)
+(pick random (2) to (4))
 
-⚑ がおされたとき
+when flag clicked
 
-() びょうまつ
+wait () secs
 ```
 
 --- /hint ---
@@ -70,10 +70,10 @@ end
 ![ステージのスプライト](images/stage-sprite.png)
 
 ```blocks3
-⚑ がおされたとき
-ずっと 
-  ((2) から (4) までのらんすう) びょうまつ
-  (カバ v) のクローンをつくる
+when flag clicked
+forever
+	wait (pick random (2) to (4)) secs
+	create clone of (カバ v)
 end
 ```
 
@@ -102,10 +102,10 @@ end
 クローンされた`カバ`はランダムな位置で表示され、ランダムなスピードで動くようにします。
 
 ```blocks3
-クローンされたとき
-[スピード v] を ((2) から (4) までのらんすう) にする
-xざひょうを ((-220) から (220) までのらんすう) 、yざひょうを (150) にする
-ひょうじする
+when I start as a clone
+set [スピード v] to (pick random (2) to (4))
+go to x: (pick random (-220) to (220)) y: (150)
+show
 ```
 
 --- /task ---
@@ -123,13 +123,13 @@ xざひょうを ((-220) から (220) までのらんすう) 、yざひょうを
 各`カバ`は、いなずま（稲妻）にぶつかるまでランダムに動き回るようにします。これを実現するには、 カバのスプライトのコードスクリプトに既にあるブロックの下にこのコードを添付します。
 
 ```blocks3
-<(いなずま v) にふれた> までくりかえす 
-  (スピード :: variables) ほうごかす
-  ↻ ((-10) から (10) までのらんすう) どまわす
-  もしはしについたら、はねかえる
+repeat until <touching (いなずま v) ?>
+	move (スピード :: variables) steps
+	turn right (pick random (-10) to (10)) degrees
+	if on edge, bounce
 end
-このクローンをさくじょする
-```
+delete this clone
+```	
 
 --- /task ---
 
