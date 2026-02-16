@@ -9,11 +9,11 @@
 ![χαρακτήρας πύραυλου](images/rocket-sprite.png)
 
 ```blocks3
-Όταν στην πράσινη σημαία γίνει κλικ
-άλλαξε ενδυμασία σε (χτυπημένο v)
-περίμενε ώσπου <touching (Hippo1 v)>
-άλλαξε ενδυμασία σε (χτυπημένο v)
-+ μετάδωσε (χτυπημένο v)
+when flag clicked
+switch costume to (χτυπημένο v)
+wait until <touching (Hippo1 v)>
+switch costume to (χτυπημένο v)
++ broadcast (χτυπημένο v)
 ```
 
 --- /task ---
@@ -25,8 +25,8 @@
 ![χαρακτήρας ιπποπόταμου](images/hippo-sprite.png)
 
 ```blocks3
-όταν λάβω [χτυπημένο v]
-διάγραψε αυτόν τον κλώνο
+when I receive [χτυπημένο v]
+delete this clone
 ```
 
 --- /task ---
@@ -48,13 +48,13 @@
 ![χαρακτήρας πύραυλου](images/rocket-sprite.png)
 
 ```blocks3
-Όταν στην πράσινη σημαία γίνει κλικ
-για πάντα 
-άλλαξε ενδυμασία σε (χτυπημένο v)
-περίμενε ώσπου <touching (Hippo1 v)>
-άλλαξε ενδυμασία σε (χτυπημένο v)
-μετάδωσε (χτυπημένο v)
-+ περίμενε (1) δευτερόλεπτα
+when flag clicked
+forever
+switch costume to (χτυπημένο v)
+wait until <touching (Hippo1 v)>?
+switch costume to (χτυπημένο v)
+broadcast (χτυπημένο v)
++ wait (1) seconds
 end
 ```
 

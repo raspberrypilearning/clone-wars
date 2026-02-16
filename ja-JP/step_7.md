@@ -9,11 +9,11 @@
 ![ロケットスプライト](images/rocket-sprite.png)
 
 ```blocks3
-⚑ がおされたとき
-コスチュームを (通常 v) にする
-<(宇宙カバ v) にふれた> までまつ
-コスチュームを (衝突 v) にする
-+(衝突 v) をおくる
+when flag clicked
+switch costume to (通常 v)
+wait until <touching (カバ1 v)>?
+switch costume to (衝突 v)
++ broadcast (衝突 v)
 ```
 
 --- /task ---
@@ -25,8 +25,8 @@
 ![カバスプライト](images/hippo-sprite.png)
 
 ```blocks3
-[衝突 v] をうけとったとき
-このクローンをさくじょする
+when I receive [衝突 v]
+delete this clone
 ```
 
 --- /task ---
@@ -48,13 +48,13 @@
 ![ロケットスプライト](images/rocket-sprite.png)
 
 ```blocks3
-⚑ がおされたとき
-ずっと 
-コスチュームを (通常 v) にする
-<(宇宙カバ v) にふれた> までまつ
-コスチュームを (衝突 v) にする
-(衝突 v) をおくる
-+ (1) びょうまつ
+when flag clicked
+forever
+switch costume to (通常 v)
+wait until <touching (カバ1 v)>?
+switch costume to (衝突 v)
+broadcast (衝突 v)
++ wait (1) seconds
 end
 ```
 

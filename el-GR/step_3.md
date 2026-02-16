@@ -19,8 +19,8 @@
 ![χαρακτήρας αστραπής](images/lightning-sprite.png)
 
 ```blocks3
-Όταν στην πράσινη σημαία γίνει κλικ
-εξαφανίσου
+when green flag clicked
+hide
 ```
 
 --- /task ---
@@ -34,8 +34,8 @@
 ![χαρακτήρας αστραπής](images/lightning-sprite.png)
 
 ```blocks3
-όρισε μέγεθος σε (25) %
-δείξε προς κατεύθυνση (-90)
+set size to (25) %
+point in direction (-90)
 ```
 
 Τώρα μοιάζει σαν να πυροβολεί από τη μύτη του διαστημόπλοιου.
@@ -60,17 +60,17 @@
 Εδώ είναι τα μπλοκ που χρειάζεσαι:
 
 ```blocks3
-εάν <> τότε
+if <> then
 end
 
-για πάντα
+forever
 end
 
-δημιούργησε κλώνο του (Lightning v)
+create clone of (Lightning v)
 
-<key (space v) pressed?>
+<key (διάστημα v) pressed?>
 
-Όταν στην πράσινη σημαία γίνει κλικ
+when flag clicked
 ```
 
 --- /hint ---
@@ -82,11 +82,11 @@ end
 ![χαρακτήρας πύραυλου](images/rocket-sprite.png)
 
 ```blocks3
-Όταν στην πράσινη σημαία γίνει κλικ
-για πάντα 
-  εάν <key (space v) pressed?> τότε 
-    δημιούργησε κλώνο του (Lightning v)
-  end
+when flag clicked
+forever
+	if <key (διάστημα v) pressed?> then
+		create clone of (Lightning v)
+	end
 end
 ```
 
@@ -105,13 +105,13 @@ end
 ![χαρακτήρας αστραπής](images/lightning-sprite.png)
 
 ```blocks3
-    όταν ξεκινήσω ως κλώνος
-πήγαινε σε (Spaceship v)
-εμφανίσου
-επανάλαβε ώσπου <touching (edge v) ?> 
-  άλλαξε y κατά (10)
-end
-διάγραψε αυτόν τον κλώνο
+	when I start as a clone
+	go to (Spaceship v)
+    show
+	repeat until <touching (όριο v) ?>
+		change y by (10)
+	end
+	delete this clone
 ```
 
 --- /task ---

@@ -25,7 +25,7 @@
 ![「ゲームオーバー」のスプライト](images/stage-sprite.png)
 
 ```blocks3
-(ゲームオーバー v) をおくってまつ
+broadcast (ゲームオーバー v) and wait
 ```
 
 --- /task ---
@@ -37,11 +37,11 @@
 ![「ゲームオーバー」のスプライト](images/gameover-sprite.png)
 
 ```blocks3
-⚑ がおされたとき
-かくす
+when flag clicked
+hide
 
-[ゲームオーバー v] をうけとったとき
-ひょうじする
+when I receive [ゲームオーバー v]
+show
 ```
 
 `ゲームオーバーを送って待つ`{:class="block3events"}ブロックを使ったので、ステージは`ゲームオーバー`スプライトが表示されるのを待ってからゲームを終了します。

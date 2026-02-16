@@ -17,11 +17,11 @@
 ![コウモリのスプライト](images/bat-sprite.png)
 
 ```blocks3
-⚑ がおされたとき
-おおきさを (50) %にする
-ずっと 
-  (10) ほうごかす
-  もしはしについたら、はねかえる
+when flag clicked
+set size to (50) %
+forever
+    move (10) steps
+    if on edge, bounce
 end
 ```
 
@@ -50,9 +50,9 @@ end
 これらのブロックをコードに追加する必要があります。
 
 ```blocks3
-(0.3) びょうまつ
+wait (0.3) seconds
 
-つぎのコスチュームにする
+next costume
 ```
 
 --- /hint ---
@@ -62,13 +62,13 @@ end
 コードは以下のようになります：
 
 ```blocks3
-⚑ がおされたとき
-おおきさを (50) %にする
-ずっと 
-(10) ほうごかす
-もしはしについたら、はねかえる
-+ つぎのコスチュームにする
-+ (0.3) びょうまつ
+when flag clicked
+set size to (50) %
+forever
+move (10) steps
+if on edge, bounce
++ next costume
++ wait (0.3) seconds
 end
 ```
 
@@ -95,10 +95,10 @@ end
 ![コウモリのスプライト](images/bat-sprite.png)
 
 ```blocks3
-⚑ がおされたとき
-ずっと 
-  ((5) から (10) までのらんすう) びょうまつ
-  (オレンジ v) のクローンをつくる
+when flag clicked
+forever
+	wait (pick random (5) to (10)) secs
+	create clone of (オレンジ v)
 end
 ```
 
@@ -111,16 +111,16 @@ end
 ![オレンジのスプライト](images/orange-sprite.png)
 
 ```blocks3
-⚑ がおされたとき
-かくす
+	when flag clicked
+	hide
 
-クローンされたとき
-(コウモリ v) へいく
-ひょうじする
-<(はし v) にふれた> までくりかえす 
-  yざひょうを (-4) ずつかえる
-end
-このクローンをさくじょする
+	when I start as a clone
+	go to (コウモリ v)
+	show
+	repeat until <touching (はし v)?
+		change y by (-4)
+	end
+	delete this clone
 ```
 
 --- /task ---
@@ -132,8 +132,8 @@ end
 ![オレンジのスプライト](images/orange-sprite.png)
 
 ```blocks3
-[衝突 v] をうけとったとき
-このクローンをさくじょする
+	when I receive [衝突 v]
+	delete this clone
 ```
 
 --- /task ---
@@ -145,7 +145,7 @@ end
 ![ロケットスプライト](images/rocket-sprite.png)
 
 ```blocks3
-    <<(宇宙カバ v) にふれた> または <(オレンジ v) にふれた>> までまつ
+	wait until < <touching (カバ1 v)?> or <touching (オレンジ v)?>>
 ```
 
 --- /task ---
