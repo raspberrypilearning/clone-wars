@@ -25,18 +25,18 @@ Ychwanega côd i symud dy long ofod i’r chwith pan rwyt ti’n gwasgu’r saet
 ![corlun roced](images/rocket-sprite.png)
 
 ```blocks3
-    pan fo'r flag werdd yn cael ei glicio
-    am byth 
-        os <bysell (saeth chwith v) wedi ei phwyso?> yna
-            newid x gan (-4)
-        end
-    end
+	when flag clicked
+	forever
+		if <key (saeth chwith v) pressed?> then
+			change x by (-4)
+		end
+	end
 ```
 
 Mae'r echelin-x yn mynd o ochr chwith y Llwyfan i'r ochr dde. Mae hyn yn golygu bod y llong ofod yn symud i'r chwith pan fyddwn yn tynnu o werth y llong ofod yn y safle `x`. Felly mae'r bloc côd yma yn rhan o'r hyn sy'n gwneud i'r llong ofod symud i'r chwith:
 
 ```blocks3
-newid x gan (-4)
+change x by (-4)
 ```
 
 --- /task ---
@@ -59,7 +59,7 @@ Fe wnaeth tynnu `4` o safle `x` y llong ofod wneud iddo symud i'r chwith, felly 
 Rwyt ti angen yr un bloc côd, ond gyda rhif gwahanol:
 
 ```blocks3
-newid x gan ( )
+change x by ( )
 ```
 
 --- /hint ---
@@ -71,8 +71,8 @@ Dyma'r côd rwyt ti ei angen ychwanegu o dan y côd o fewn y bloc `am byth`{:cla
 ![corlun roced](images/rocket-sprite.png)
 
 ```blocks3
-os <bysell (saeth de v) wedi ei phwyso?> yna 
-  newid x gan (4)
+if <key (saeth de v) pressed?> then
+	change x by (4)
 end
 ```
 

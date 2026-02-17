@@ -17,11 +17,11 @@ Zrób aby duszek `Nietoperz` wykonywał ruch `przesuń się`{:class="block3motio
 ![duszek nietoperza](images/bat-sprite.png)
 
 ```blocks3
-kiedy kliknięto zieloną flagę
-ustaw rozmiar na (50) %
-zawsze 
-  przesuń o (10) kroków
-  jeżeli na brzegu, odbij się
+when flag clicked
+set size to (50) %
+forever
+    move (10) steps
+    if on edge, bounce
 end
 ```
 
@@ -51,23 +51,25 @@ Po przesunięciu, nietoperz powinien wyświetlić `następny kostium`{:class="bl
 Musisz dodać te bloki do swojego kodu:
 
 ```blocks3
-czekaj (0.3) sekund
+wait (0.3) seconds
 
-następny kostium
+next costume
 ```
 
 --- /hint ---
 
---- hint --- Twój kod powinien wyglądać tak:
+--- hint ---
+
+Twój kod powinien wyglądać tak:
 
 ```blocks3
-kiedy kliknięto zieloną flagę
-ustaw rozmiar na (50) %
-zawsze 
-przesuń o (10) kroków
-jeżeli na brzegu, odbij się
-+ następny kostium
-+ czekaj (0.3) sekund
+when flag clicked
+set size to (50) %
+forever
+move (10) steps
+if on edge, bounce
++ next costume
++ wait (0.3) seconds
 end
 ```
 
@@ -94,10 +96,10 @@ Dodaj kod do swojego nietoperza, taki że `kiedy flaga jest kliknięta`{:class="
 ![duszek nietoperza](images/bat-sprite.png)
 
 ```blocks3
-kiedy kliknięto zieloną flagę
-zawsze 
-  czekaj (losuj liczbę od (5) do (10)) sekund
-  utwórz klona z (Pomarańcza v)
+when flag clicked
+forever
+	wait (pick random (5) to (10)) secs
+	create clone of (Pomarańcza v)
 end
 ```
 
@@ -110,16 +112,16 @@ Dodaj kod do `Pomarańczy` aby każdy z jego klonów spadał, zaczynając od dus
 ![duszek pomarańczy](images/orange-sprite.png)
 
 ```blocks3
-    kiedy kliknięto zieloną flagę
-  ukryj
+	when flag clicked
+	hide
 
-  gdy zaczynam jako klon
-  idź do (Nietoperz v)
-  pokaż
-  powtarzaj aż <dotyka (krawędź v)?
-    zmień y o (-4)
-  end
-  usuń tego klona
+	when I start as a clone
+	go to (Nietoperz v)
+	show
+	repeat until <touching (krawędź v)?
+		change y by (-4)
+	end
+	delete this clone
 ```
 
 --- /task ---
@@ -131,8 +133,8 @@ Dodaj jeszcze kod do duszka `Pomarańczy` aby kiedy klon `Pomarańczy` trafi dus
 ![duszek pomarańczy](images/orange-sprite.png)
 
 ```blocks3
-    kiedy otrzymam [trafienie v]
-usuń tego klona
+	when I receive [trafienie v]
+	delete this clone
 ```
 
 --- /task ---
@@ -144,7 +146,7 @@ Zmodyfikuj kod swojego duszka `statku kosmicznego`, aby zmieniał kostium na "tr
 ![duszek rakiety](images/rocket-sprite.png)
 
 ```blocks3
-    czekaj aż <<dotyka (Hipcia v) ?> lub <dotyka (Pomarańczy v) ?>>
+	wait until < <touching (Hipcia v)?> or <touching (Pomarańczy v)?>>
 ```
 
 --- /task ---

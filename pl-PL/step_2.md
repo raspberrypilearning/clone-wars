@@ -25,18 +25,18 @@ Dodaj ten kod do duszka statku kosmicznego, aby skłonić statek kosmiczny porus
 ![duszek rakiety](images/rocket-sprite.png)
 
 ```blocks3
-    kiedy kliknięto zieloną flagę
-zawsze 
-  jeżeli <klawisz (strzałka w lewo v) naciśnięty ?> to 
-    zmień x o (-4)
-  end
-end
+	when flag clicked
+	forever
+		if <key (strzałka w lewo v) pressed?> then
+			change x by (-4)
+		end
+	end
 ```
 
 Oś x przechodzi od lewej strony Sceny do prawej. Oznacza to, że statek kosmiczny porusza się w lewo po odjęciu od wartości `x` pozycji duszka statku kosmicznego. Ten blok kodu to część, która sprawia, że twój statek kosmiczny porusza się w lewo:
 
 ```blocks3
-zmień x o (-4)
+change x by (-4)
 ```
 
 --- /task ---
@@ -59,7 +59,7 @@ Odjęcie`4` od pozycji `x` sprawiło, że statek kosmiczny porusza się w lewo, 
 Potrzebujesz tego samego bloku kodu, ale z innym numerem:
 
 ```blocks3
-zmień x o ( )
+change x by ( )
 ```
 
 --- /hint ---
@@ -71,8 +71,8 @@ Oto kod, który musisz dodać pod innym kodem wewnątrz bloku `zawsze`{:class="b
 ![duszek rakiety](images/rocket-sprite.png)
 
 ```blocks3
-jeżeli <klawisz (strzałka w prawo v) naciśnięty ?> to 
-  zmień x o (4)
+if <key (strzałka w prawo v) pressed?> then
+	change x by (4)
 end
 ```
 

@@ -19,8 +19,8 @@ Ychwanega’r côd canlynol i’r corlun `Mellt`:
 ![corlun mellt](images/lightning-sprite.png)
 
 ```blocks3
-pan fo'r flag werdd yn cael ei glicio
-cuddio
+when green flag clicked
+hide
 ```
 
 --- /task ---
@@ -34,8 +34,8 @@ O dan y côd sydd gan y `mellt` yn barod, ychwanega blociau i wneud y corlun yn 
 ![corlun mellt](images/lightning-sprite.png)
 
 ```blocks3
-gosod maint i (25) %
-pwyntio i gyfeiriad (-90)
+set size to (25) %
+point in direction (-90)
 ```
 
 Nawr mae'n edrych fel ei fod yn tanio o'r ochr miniog gyntaf.
@@ -60,17 +60,17 @@ Ychwanega’r côd canlynol i’r `Llong ofod` i greu mellten newydd pryd bynnag
 Dyma'r blociau côd rwyt ti eu hangen:
 
 ```blocks3
-os <> yna
+if <> then
 end
 
-am byth
+forever
 end
 
-creu clôn o (Lightning v)
+create clone of (Lightning v)
 
-<bysell (bwlch v) wedi ei phwyso?>
+<key (bwlch v) pressed?>
 
-pan fo'r flag werdd yn cael ei glicio
+when flag clicked
 ```
 
 --- /hint ---
@@ -82,11 +82,11 @@ Dyma sut dylai dy gôd edrych:
 ![corlun roced](images/rocket-sprite.png)
 
 ```blocks3
-pan fo'r flag werdd yn cael ei glicio
-am byth 
-  os <bysell (ymyl v) wedi ei phwyso?> yna 
-    creu clôn o (Lightning v)
-  end
+when flag clicked
+forever
+	if <key (ymyl v) pressed?> then
+		create clone of (Lightning v)
+	end
 end
 ```
 
@@ -105,13 +105,13 @@ Ychwanega'r côd yma i'r corlun `Mellt` fel ei fod yn symud fyny tan ei fod yn c
 ![corlun mellt](images/lightning-sprite.png)
 
 ```blocks3
-    pan rwy'n dechrau fel clôn
-mynd i (Spaceship v)
-dangos
-ailadrodd hyd at <cyffwrdd (ymyl v) ?> 
-  newid y gan (10)
-end
-dileu y clôn hwn
+	when I start as a clone
+	go to (Spaceship v)
+    show
+	repeat until <touching (ymyl v) ?> 
+		change y by (10)
+	end
+	delete this clone
 ```
 
 --- /task ---

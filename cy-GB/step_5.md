@@ -25,8 +25,8 @@ Ychwanega gôd i guddio'r `hippo` pan fydd y gêm yn cychwyn.
 ![corlun hippo](images/hippo-sprite.png)
 
 ```blocks3
-pan fo'r flag werdd yn cael ei glicio
-cuddio
+when green flag clicked
+hide
 ```
 
 --- /task ---
@@ -49,16 +49,16 @@ Pan `fo'r faner werdd wedi ei glicio`{:class="block3events"}, `ail-adrodd`{:clas
 Dyma'r blociau côd rwyt ti eu hangen:
 
 ```blocks3
-am byth
+forever
 end
 
-creu clôn o (Hippo1 v)
+create clone of (Hippo1 v)
 
-(dewis ar hap (2) i (4))
+(pick random (2) to (4))
 
-pan fo'r flag werdd yn cael ei glicio
+when flag clicked
 
-aros () eiliad
+wait () secs
 ```
 
 --- /hint ---
@@ -70,10 +70,10 @@ Dyma sut dylai dy gôd edrych:
 ![corlun llwyfan](images/stage-sprite.png)
 
 ```blocks3
-pan fo'r flag werdd yn cael ei glicio
-am byth 
-  aros (dewis ar hap (2) i (4)) eiliad
-  creu clôn o (Hippo1 v)
+when flag clicked
+forever
+	wait (pick random (2) to (4)) secs
+	create clone of (Hippo1 v)
 end
 ```
 
@@ -102,10 +102,10 @@ Pan wyt ti wedi gwneud hyn yn gywir, mae gan y newidyn enw y corlun drws nesaf i
 Pan mae clôn pob `Hippo` yn cychwyn, dewisa cyflymder ar hap a man cychwyn iddo. Yna dangosa'r clôn ar y sgrin.
 
 ```blocks3
-pan rwy'n dechrau fel clôn
-gosod [cyflymder v] i (dewis ar hap (2) i (4))
-mynd i x: (dewis ar hap (-220) i (220)) y: (150)
-dangos
+when I start as a clone
+set [cyflymder v] to (pick random (2) to (4))
+go to x: (pick random (-220) to (220)) y: (150)
+show
 ```
 
 --- /task ---
@@ -123,13 +123,13 @@ Ar hyn o bryd nid yw'r hippo yn symud.
 Fe ddylai pob hippo symud o gwmpas ar hap tan ei fod yn cael ei fwrw gan fellten. I wneud hyn i ddigwydd, atoda'r côd isod i'r blociau sydd yn barod yn sgript yr `hippo`:
 
 ```blocks3
-ailadrodd hyd at <cyffwrdd (lightning v) ?> 
-  symud (cyflymder :: variables) cam
-  troi (dewis ar hap (-10) i (10)) gradd i'r dde
-  os ar ymyl, bowndio
+repeat until <touching (lightning v) ?>
+	move (cyflymder :: variables) steps
+	turn right (pick random (-10) to (10)) degrees
+	if on edge, bounce
 end
-dileu y clôn hwn
-```
+delete this clone
+```	
 
 --- /task ---
 

@@ -25,7 +25,7 @@ Na scenie nadaj komunikat `koniec gry`{:class="block3events"}, tuż przed zakoń
 ![duszek koniec gry](images/stage-sprite.png)
 
 ```blocks3
-nadaj komunikat (koniec gry v) i czekaj
+broadcast (koniec gry v) and wait
 ```
 
 --- /task ---
@@ -37,11 +37,11 @@ Dodaj ten kod do twojego duszka `Koniec Gry`, aby komunikat pojawił się na ko�
 ![duszek koniec gry](images/gameover-sprite.png)
 
 ```blocks3
-kiedy kliknięto zieloną flagę
-ukryj
+when flag clicked
+hide
 
-kiedy otrzymam [koniec gry v]
-pokaż
+when I receive [koniec gry v]
+show
 ```
 
 Ponieważ użyłaś na twojej Scenie bloku `nadaj komunikat (koniec gry) i czekaj`{:class="block3events"}, będzie ona czekać na wyświetlenie duszka `Koniec Gry` przed końcem gry.

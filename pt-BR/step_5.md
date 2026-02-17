@@ -25,8 +25,8 @@ Adicione código para esconder o ator `hipopótamo1` quando o jogo começar.
 ![ator hipopótamo1](images/hippo-sprite.png)
 
 ```blocks3
-quando ⚑ for clicado
-esconda
+when green flag clicked
+hide
 ```
 
 --- /task ---
@@ -48,16 +48,16 @@ Quando a `bandeira verde é clicada`{:class="block3events"}, `sempre`{:class="bl
 Aqui estão os blocos que você precisa:
 
 ```blocks3
-sempre
+forever
 end
 
-crie clone de (hipopótamo1 v)
+create clone of (hipopótamo1 v)
 
-(número aleatório entre (2) e (4))
+(pick random (2) to (4))
 
-quando ⚑ for clicado
+when flag clicked
 
-espere () seg
+wait () secs
 ```
 
 --- /hint ---
@@ -69,10 +69,10 @@ espere () seg
 ![ator palco](images/stage-sprite.png)
 
 ```blocks3
-quando ⚑ for clicado
-sempre 
-  espere (número aleatório entre (2) e (4)) seg
-  crie clone de (hipopótamo1 v)
+when flag clicked
+forever
+	wait (pick random (2) to (4)) secs
+	create clone of (hipopótamo1 v)
 end
 ```
 
@@ -101,10 +101,10 @@ Quando você fizer isso corretamente, a variável terá o nome do ator ao lado, 
 Quando cada clone de `hipopótamo1` começar, escolha uma velocidade aleatória e um ponto de partida. Em seguida, mostre o clone na tela.
 
 ```blocks3
-quando eu começar como um clone
-mude [velocidade v] para (número aleatório entre (2) e (4))
-vá para x: (número aleatório entre (-220) e (220)) y: (150)
-mostre
+when I start as a clone
+set [velocidade v] to (pick random (2) to (4))
+go to x: (pick random (-220) to (220)) y: (150)
+show
 ```
 
 --- /task ---
@@ -122,13 +122,13 @@ No momento os hipopótamos não se movem.
 Cada hipopótamo deve se mover aleatoriamente até ser atingido por um raio. Para que isso aconteça, acrescente este código abaixo dos blocos que já estão no código do ator `hipopótamo1`:
 
 ```blocks3
-repita até que <tocando em (raio v) ?> 
-  mova (velocidade :: variables) passos
-  gire ↻ (número aleatório entre (-10) e (10)) graus
-  se tocar na borda, volte
+repeat until <touching (raio v) ?> 
+  move (velocidade :: variables) steps
+	turn right (pick random (-10) to (10)) degrees
+	if on edge, bounce
 end
-apague este clone
-```
+delete this clone
+```	
 
 --- /task ---
 

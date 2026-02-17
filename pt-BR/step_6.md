@@ -27,10 +27,10 @@ Adicione código ao seu ator `nave` para que ele exiba a fantasia 'normal' quand
 ![ator foguete](images/rocket-sprite.png)
 
 ```blocks3
-quando ⚑ for clicado
-mude para a fantasia (normal v)
-espere até que <touching (hipopótamo1 v)>
-mude para a fantasia (atingida v)
+when flag clicked
+switch costume to (normal v)
+wait until <touching (hipopótamo1 v)>
+switch costume to (atingida v)
 ```
 
 --- /task ---

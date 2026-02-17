@@ -9,11 +9,11 @@ Dodaj kod do duszka statku kosmicznego, aby `nadać`{:class="block3events"} komu
 ![duszek rakiety](images/rocket-sprite.png)
 
 ```blocks3
-kiedy kliknięto zieloną flagę
-zmień kostium na (normalny v)
-czekaj aż <dotyka (Hipcio v) ?>
-zmień kostium na (trafiony v)
-+ nadaj komunikat (trafienie v)
+when flag clicked
+switch costume to (normalny v)
+wait until <touching (Hipcio v) ?>
+switch costume to (trafiony v)
++ broadcast (trafienie v)
 ```
 
 --- /task ---
@@ -25,8 +25,8 @@ Wszystkie klony duszka `Hipcio` otrzymają komunikat "trafienie" i możesz polec
 ![duszek hipopotama](images/hippo-sprite.png)
 
 ```blocks3
-kiedy otrzymam [trafienie v]
-usuń tego klona
+when I receive [trafienie v]
+delete this clone
 ```
 
 --- /task ---
@@ -48,13 +48,13 @@ Dodaj blok `czekaj`{:class="block3control"} na końcu kodu duszka `Statek kosmic
 ![duszek rakiety](images/rocket-sprite.png)
 
 ```blocks3
-kiedy kliknięto zieloną flagę
-zawsze 
- zmień kostium na (normalny v)
- czekaj aż <dotyka (Hipcio v) ?>
- zmień kostium na (trafiony v)
- nadaj komunikat (trafienie v)
-+ czekaj (1) sekund
+when flag clicked
+forever
+switch costume to (normalny v)
+wait until <touching (Hipcio v) ?>
+switch costume to (trafiony v)
+broadcast (trafienie v)
++ wait (1) seconds
 end
 ```
 

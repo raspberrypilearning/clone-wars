@@ -19,8 +19,8 @@ Adicione este código ao ator `raio`:
 ![ator raio](images/lightning-sprite.png)
 
 ```blocks3
-quando ⚑ for clicado
-esconda
+when green flag clicked
+hide
 ```
 
 --- /task ---
@@ -60,17 +60,17 @@ Adicione mais código no ator da `nave` para criar um novo clone do raio elétri
 Aqui estão os blocos que você precisa:
 
 ```blocks3
-se <> então
+if <> then
 end
 
-sempre
+forever
 end
 
-crie clone de (raio v)
+create clone of (raio v)
 
-<tecla (espaço v) pressionada?>
+<key (espaço v) pressed?>
 
-quando ⚑ for clicado
+when flag clicked
 ```
 
 --- /hint ---
@@ -82,10 +82,10 @@ quando ⚑ for clicado
 ![ator foguete](images/rocket-sprite.png)
 
 ```blocks3
-quando ⚑ for clicado
-sempre 
-  se <tecla (espaço v) pressionada?> então 
-    crie clone de (raio v)
+when flag clicked
+forever
+	if <key (espaço v) pressed?> then
+		create clone of (raio v)
   end
 end
 ```
@@ -105,13 +105,13 @@ Adicione este código ao ator `raio` para que os clones se movam para cima até 
 ![ator raio](images/lightning-sprite.png)
 
 ```blocks3
-    quando eu começar como um clone
-vá para (nave v)
-mostre
-repita até que <tocando em (borda v)?> 
-  adicione (10) a y
-end
-apague este clone
+	when I start as a clone
+	go to (nave v)
+    show
+	repeat until <touching (borda v)?> 
+		change y by (10)
+	end
+	delete this clone
 ```
 
 --- /task ---
