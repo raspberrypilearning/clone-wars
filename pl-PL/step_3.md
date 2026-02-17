@@ -84,7 +84,7 @@ Tak powinien wyglądać Twój kod:
 ```blocks3
 when flag clicked
 forever
-	if <key (spacja v) then
+	if <key (spacja v) pressed?> then
 		create clone of (Błyskawica v)
 	end
 end
