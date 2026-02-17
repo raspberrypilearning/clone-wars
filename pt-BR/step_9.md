@@ -50,9 +50,9 @@ Depois que o morcego se move, ele deve mostrar a `próxima fantasia`{:class="blo
 Você precisa adicionar esses blocos ao seu código:
 
 ```blocks3
-espere (0.3) seg
+wait (0.3) seconds
 
-próxima fantasia
+next costume
 ```
 
 --- /hint ---
@@ -111,16 +111,16 @@ Adicione código ao ator `laranja` para fazer com que cada um de seus clones cai
 ![ator laranja](images/orange-sprite.png)
 
 ```blocks3
-    quando ⚑ for clicado
-esconda
+	when flag clicked
+	hide
 
-quando eu começar como um clone
-vá para (morcego v)
-mostre
-repita até que <tocando em (edge v) ?> 
-  adicione (-4) a y
-end
-apague este clone
+	when I start as a clone
+	go to (morcego v)
+	show
+	repeat until <touching (edge v) ?> 
+		change y by (-4)
+	end
+	delete this clone
 ```
 
 --- /task ---
@@ -132,8 +132,8 @@ Adicione mais código ao ator `laranja` para que quando um clone de `laranja` cl
 ![ator laranja](images/orange-sprite.png)
 
 ```blocks3
-    quando eu receber [atingida v]
-apague este clone
+	when I receive [atingida v]
+	delete this clone
 ```
 
 --- /task ---

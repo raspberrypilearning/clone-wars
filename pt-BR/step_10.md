@@ -37,11 +37,11 @@ Adicione este código ao seu ator `Fim de Jogo` para que ele seja mostrado no fi
 ![ator Fim de Jogo](images/gameover-sprite.png)
 
 ```blocks3
-quando ⚑ for clicado
-esconda
+when flag clicked
+hide
 
-quando eu receber [fim de jogo v]
-mostre
+when I receive [fim de jogo v]
+show
 ```
 
 Porque você usou um bloco `transmitir (fim de jogo) e espere`{:class="block3events"} no seu palco, o palco vai aguardar que o ator `Fim de Jogo` seja exibido antes de terminar o jogo.

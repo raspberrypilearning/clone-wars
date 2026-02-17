@@ -19,8 +19,8 @@ Dodaj ten kod do duszka `Błyskawicy`:
 ![duszek błyskawicy](images/lightning-sprite.png)
 
 ```blocks3
-kiedy kliknięto zieloną flagę
-ukryj
+when green flag clicked
+hide
 ```
 
 --- /task ---
@@ -34,8 +34,8 @@ Poniżej kodu jaki ma już duszek `Błyskawica` dodaj kilka bloków, aby zmniejs
 ![duszek błyskawicy](images/lightning-sprite.png)
 
 ```blocks3
-ustaw rozmiar na (25) %
-ustaw kierunek na (-90)
+set size to (25) %
+point in direction (-90)
 ```
 
 Teraz wygląda na to, że je wystrzeliwuje ze statku kosmicznego spiczastym końcem do przodu.
@@ -60,17 +60,17 @@ Dodaj trochę nowego kodu do duszka `Statku kosmicznego` aby stworzyć nowego kl
 Oto bloki, których potrzebujesz:
 
 ```blocks3
-jeżeli <> to
+if <> then
 end
 
-zawsze
+forever
 end
 
-utwórz klona z (Błyskawica v)
+create clone of (Błyskawica v)
 
-<klawisz (spacja v) naciśnięty ?>
+<key (spacja v) pressed?>
 
-kiedy kliknięto zieloną flagę
+when flag clicked
 ```
 
 --- /hint ---
@@ -82,11 +82,11 @@ Tak powinien wyglądać Twój kod:
 ![duszek rakiety](images/rocket-sprite.png)
 
 ```blocks3
-kiedy kliknięto zieloną flagę
-zawsze 
-  jeżeli <klawisz (spacja v) naciśnięty ?> to 
-    utwórz klona z (Błyskawica v)
-  end
+when flag clicked
+forever
+	if <key (spacja v) then
+		create clone of (Błyskawica v)
+	end
 end
 ```
 
@@ -105,13 +105,13 @@ Dodaj ten kod do duszka `Błyskawica` tak, aby jego klony poruszały się w gór
 ![duszek błyskawicy](images/lightning-sprite.png)
 
 ```blocks3
-    gdy zaczynam jako klon
-idź do (Statek kosmiczny v)
-pokaż
-powtarzaj aż <dotyka (krawędź v) ?> 
-  zmień y o (10)
-end
-usuń tego klona
+	when I start as a clone
+	go to (Statek kosmiczny v)
+    show
+	repeat until <touching (krawędź v) ?> 
+		change y by (10)
+	end
+	delete this clone
 ```
 
 --- /task ---

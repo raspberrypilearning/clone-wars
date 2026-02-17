@@ -9,11 +9,11 @@ Ychwanega'r côd i'r corlun llong ofod i wneud iddo `ddarlledu`{:class="block3ev
 ![corlun roced](images/rocket-sprite.png)
 
 ```blocks3
-pan fo'r flag werdd yn cael ei glicio
-newid gwisg i (normal v)
-aros hyd at <cyffwrdd (Hippo1 v) ?>
-newid gwisg i (ffrwydro v)
-+ darlledu (ffrwydro v)
+when flag clicked
+switch costume to (normal v)
+wait until <touching (Hippo1 v)>?
+switch costume to (ffrwydro v)
++ broadcast (ffrwydro v)
 ```
 
 --- /task ---
@@ -25,8 +25,8 @@ Bydd yr holl glonau `hippo` yn derbyn y neges "taro", ac mae modd rhoi cyfarwydd
 ![corlun hippo](images/hippo-sprite.png)
 
 ```blocks3
-pan rwy'n derbyn [ffrwydro v]
-dileu y clôn hwn
+when I receive [ffrwydro v]
+delete this clone
 ```
 
 --- /task ---
@@ -48,14 +48,13 @@ Ychwanega bloc `aros`{:class="block3control"} ar ddiwedd côd y `llong ofod` i g
 ![corlun roced](images/rocket-sprite.png)
 
 ```blocks3
-pan fo'r flag werdd yn cael ei glicio
-am byth 
-  newid gwisg i (normal v)
-  aros hyd at <cyffwrdd (Hippo1 v) ?>
-  newid gwisg i (ffrwydro v)
-  darlledu (ffrwydro v)
-
-+  aros (1) eiliad
+when flag clicked
+forever
+switch costume to (normal v)
+wait until <touching (Hippo1 v)>?
+switch costume to (ffrwydro v)
+broadcast (ffrwydro v)
++ wait (1) seconds
 end
 ```
 

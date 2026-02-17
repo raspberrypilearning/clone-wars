@@ -25,8 +25,8 @@ Dodaj kod, aby ukryć duszka `Hipcio` kiedy gra się zaczyna.
 ![duszek hipopotama](images/hippo-sprite.png)
 
 ```blocks3
-kiedy kliknięto zieloną flagę
-ukryj
+when green flag clicked
+hide
 ```
 
 --- /task ---
@@ -49,16 +49,16 @@ Kiedy `kliknięto zieloną flagę`{:class="block3events"}, `wielokrotnie`{:class
 Oto bloki, których potrzebujesz:
 
 ```blocks3
-zawsze
+forever
 end
 
-utwórz klona z (Hipcio v)
+create clone of (Hipcio v)
 
-(losuj liczbę od (2) do (4))
+(pick random (2) to (4))
 
-kiedy kliknięto zieloną flagę
+when flag clicked
 
-czekaj () sekund
+wait () secs
 ```
 
 --- /hint ---
@@ -70,10 +70,10 @@ Tak powinien wyglądać Twój kod:
 ![duszek sceny](images/stage-sprite.png)
 
 ```blocks3
-kiedy kliknięto zieloną flagę
-zawsze 
-  czekaj (losuj liczbę od (2) do (4)) sekund
-  utwórz klona z (Hipcio v)
+when flag clicked
+forever
+	wait (pick random (2) to (4)) secs
+	create clone of (Hipcio v)
 end
 ```
 
@@ -102,10 +102,10 @@ Jeśli zrobisz to poprawnie, zmienna będzie mieć obok siebie nazwę duszka, ta
 Kiedy każdy klon `Hipcia` zaczyna, losuje prędkość i położenie zanim pojawi się na ekranie.
 
 ```blocks3
-gdy zaczynam jako klon
-ustaw [prędkość v] na (losuj liczbę od (2) do (4))
-Idź do x: (losuj liczbę od (-220) do (220)) y: (150)
-pokaż
+when I start as a clone
+set [prędkość v] to (pick random (2) to (4))
+go to x: (pick random (-220) to (220)) y: (150)
+show
 ```
 
 --- /task ---
@@ -123,13 +123,13 @@ W tej chwili hipopotamy się nie ruszają.
 Każdy hipopotam powinien poruszać się losowo, dopóki nie zostanie trafiony błyskawicą. Aby tak się stało, dołącz poniższy kod pod blokami, które są już w kodzie skryptu duszka `Hipcia`:
 
 ```blocks3
-powtarzaj aż <dotyka (Błyskawica v) ?> 
-  przesuń o (speed :: variables) kroków
-  obróć w prawo o (losuj liczbę od (-10) do (10)) stopni
-  jeżeli na brzegu, odbij się
+repeat until <touching (Błyskawica v) ?> 
+	move (speed :: variables) steps
+	turn right (pick random (-10) to (10)) degrees
+	if on edge, bounce
 end
-usuń tego klona
-```
+delete this clone
+```	
 
 --- /task ---
 

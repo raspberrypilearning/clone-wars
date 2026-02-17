@@ -25,7 +25,7 @@ Ar y Llwyfan, darlleda neges `gêm drosodd`{:class="block3events"} ychydig cyn i
 ![corlun gêm drosodd](images/stage-sprite.png)
 
 ```blocks3
-darlledu (gêm drosodd v) ac aros
+broadcast (gêm drosodd v) and wait
 ```
 
 --- /task ---
@@ -37,11 +37,11 @@ Ychwanega’r côd yma i dy giplun `Gêm Drosodd` fel bod y neges yn ymddangos a
 ![corlun gêm drosodd](images/gameover-sprite.png)
 
 ```blocks3
-pan fo'r flag werdd yn cael ei glicio
-cuddio
+when flag clicked
+hide
 
-pan rwy'n derbyn [gêm drosodd v]
-dangos
+when I receive [gêm drosodd v]
+show
 ```
 
 Gan dy fod di wedi defnyddio bloc `darlledu (gêm drosodd) ac aros`{:class="block3events"} ar dy lwyfan, bydd yn aros i’r ciplun `Gêm drosodd` ymddangos cyn gorffen y gêm.

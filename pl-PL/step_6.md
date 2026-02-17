@@ -27,10 +27,10 @@ Dodaj kod do swojego duszka `statku kosmicznego`, który wyświetla „normalny�
 ![duszek rakiety](images/rocket-sprite.png)
 
 ```blocks3
-kiedy kliknięto zieloną flagę
-zmień kostium na (normalny v)
-czekaj aż <dotyka (Hipcio v) ?>
-zmień kostium na (trafiony v)
+when flag clicked
+switch costume to (normalny v)
+wait until <touching (Hipcio v) ?>
+switch costume to (trafiony v)
 ```
 
 --- /task ---

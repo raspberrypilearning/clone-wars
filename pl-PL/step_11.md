@@ -15,5 +15,5 @@ Oto kilka pomysłów:
 + Zwiększ liczbę wrogów pokazujących się, gdy twój wynik osiągnie `100`.
 
 ```blocks3
-    czekaj aż <(wynik :: variables) = [100]>
+	wait until <(wynik :: variables) = [100]>
 ```
