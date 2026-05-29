@@ -46,23 +46,6 @@ change x by (-4)
 Add some more code inside the `forever`{:class="block3control"} block to make your spaceship move to the right if the <kbd>right</kbd> arrow key is pressed.
 
 --- hints ---
-
---- hint ---
-
-Subtracting `4` from the spaceship's `x` position made it move left, so how could you make the spaceship move right by `4` instead?
-
---- /hint ---
-
---- hint ---
-
-You need the same code block, but with a different number:
-
-```blocks3
-change x by ( )
-```
-
---- /hint ---
-
 --- hint ---
 
 Here is the code you need to add below the other code inside the `forever`{:class="block3control"} block:
@@ -76,8 +59,8 @@ end
 ```
 
 --- /hint ---
-
 --- /hints ---
+
 
 --- /task ---
 
