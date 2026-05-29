@@ -38,25 +38,6 @@ If you look at the bat's costumes, you can see that it has four different ones:
 Use the `next costume`{:class="block3looks"} block to make the bat flap its wings as it moves.
 
 --- hints ---
-
---- hint ---
-
-After the bat has moved, it should show the `next costume`{:class="block3looks"} and then `wait`{:class="block3control"} for a short time.
-
---- /hint ---
-
---- hint ---
-
-You need to add these blocks to you code:
-
-```blocks3
-wait (0.3) seconds
-
-next costume
-```
-
---- /hint ---
-
 --- hint ---
 
 Your code should look like this:
@@ -73,8 +54,8 @@ end
 ```
 
 --- /hint ---
-
 --- /hints ---
+
 
 --- /task ---
 

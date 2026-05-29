@@ -36,32 +36,6 @@ hide
 Add some code to the Stage to create a new `Hippo` clone every few seconds.
 
 --- hints ---
-
---- hint ---
-
-When the `green flag is clicked`{:class="block3events"}, `repeatedly`{:class="block3control"} `wait`{:class="block3control"} `between 2 and 4 seconds`{:class="block3operators"} and then `create a clone of the Hippo sprite`{:class="block3control"}.
-
---- /hint ---
-
---- hint ---
-
-Here are the blocks you need:
-
-```blocks3
-forever
-end
-
-create clone of (Hippo1 v)
-
-(pick random (2) to (4))
-
-when flag clicked
-
-wait () secs
-```
-
---- /hint ---
-
 --- hint ---
 
 This is what your code should look like:
@@ -77,8 +51,8 @@ end
 ```
 
 --- /hint ---
-
 --- /hints ---
+
 
 --- /task ---
 
